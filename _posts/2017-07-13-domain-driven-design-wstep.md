@@ -8,7 +8,7 @@ guid: http://godev.gemustudio.com/?p=1586
 permalink: /2017/07/13/domain-driven-design-wstep/
 dslc_post_template:
   - default
-image: /images/2017/07/blogging-photo-16.jpg
+image: /assets/images/2017/07/blogging-photo-16.jpg
 categories:
   - Bez kategorii
   - Domain-Driven Design
@@ -85,7 +85,7 @@ tags:
     </p>
     
     <p style="text-align: justify;">
-      <span style="font-size: 16px;"><a href="http://godev.gemustudio.com/images/2017/07/blogging-photo-9871.jpg"><img class="size-medium wp-image-1599 alignright" src="http://godev.gemustudio.com/images/2017/07/blogging-photo-9871-300x200.jpg" alt="DDD" width="300" height="200" srcset="http://godev.gemustudio.com/images/2017/07/blogging-photo-9871-300x200.jpg 300w, http://godev.gemustudio.com/images/2017/07/blogging-photo-9871-768x512.jpg 768w, http://godev.gemustudio.com/images/2017/07/blogging-photo-9871.jpg 900w" sizes="(max-width: 300px) 100vw, 300px" /></a>W celu jej implementacji programista musi rozumieć co jest najważniejszą wartością w oprogramowaniu jakie ma wykonać. Dlatego musi kontaktować się z osobą posiadającą <strong>największą wiedzę</strong> na temat funkcjonalności tworzonej aplikacji. Osoba taka określana jest jako<strong> Ekspert Domenowy  (eng. Domain Expert)</strong>,może to być np. klient.</span>
+      <span style="font-size: 16px;"><a href="http://godev.gemustudio.com/assets/images/2017/07/blogging-photo-9871.jpg"><img class="size-medium wp-image-1599 alignright" src="http://godev.gemustudio.com/assets/images/2017/07/blogging-photo-9871-300x200.jpg" alt="DDD" width="300" height="200" srcset="http://godev.gemustudio.com/assets/images/2017/07/blogging-photo-9871-300x200.jpg 300w, http://godev.gemustudio.com/assets/images/2017/07/blogging-photo-9871-768x512.jpg 768w, http://godev.gemustudio.com/assets/images/2017/07/blogging-photo-9871.jpg 900w" sizes="(max-width: 300px) 100vw, 300px" /></a>W celu jej implementacji programista musi rozumieć co jest najważniejszą wartością w oprogramowaniu jakie ma wykonać. Dlatego musi kontaktować się z osobą posiadającą <strong>największą wiedzę</strong> na temat funkcjonalności tworzonej aplikacji. Osoba taka określana jest jako<strong> Ekspert Domenowy  (eng. Domain Expert)</strong>,może to być np. klient.</span>
     </p>
     
     <p style="text-align: justify;">

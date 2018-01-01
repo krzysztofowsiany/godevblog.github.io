@@ -6,7 +6,7 @@ author: gocom
 layout: post
 guid: http://godev.gemustudio.com/?p=753
 permalink: /2017/04/09/iv-bieg-nasza-dycha-udalo-sie/
-image: /images/2017/04/IMG_8782-2.jpg
+image: /assets/images/2017/04/IMG_8782-2.jpg
 categories:
   - Bez kategorii
   - Bieganie
@@ -15,7 +15,7 @@ categories:
 <div id="dslc-theme-content">
   <div id="dslc-theme-content-inner">
     <p style="text-align: justify;">
-      <a href="http://godev.gemustudio.com/images/2017/04/IMG_8782-2.jpg"><img class="alignleft wp-image-765 size-medium" src="http://godev.gemustudio.com/images/2017/04/IMG_8782-2-300x251.jpg" alt="NASZA DYCHA" width="300" height="251" srcset="http://godev.gemustudio.com/images/2017/04/IMG_8782-2-300x251.jpg 300w, http://godev.gemustudio.com/images/2017/04/IMG_8782-2-768x643.jpg 768w, http://godev.gemustudio.com/images/2017/04/IMG_8782-2-1024x858.jpg 1024w, http://godev.gemustudio.com/images/2017/04/IMG_8782-2.jpg 1289w" sizes="(max-width: 300px) 100vw, 300px" /></a>Dzisiaj <strong>9 kwietnia, waga 103 kg. </strong>
+      <a href="http://godev.gemustudio.com/assets/images/2017/04/IMG_8782-2.jpg"><img class="alignleft wp-image-765 size-medium" src="http://godev.gemustudio.com/assets/images/2017/04/IMG_8782-2-300x251.jpg" alt="NASZA DYCHA" width="300" height="251" srcset="http://godev.gemustudio.com/assets/images/2017/04/IMG_8782-2-300x251.jpg 300w, http://godev.gemustudio.com/assets/images/2017/04/IMG_8782-2-768x643.jpg 768w, http://godev.gemustudio.com/assets/images/2017/04/IMG_8782-2-1024x858.jpg 1024w, http://godev.gemustudio.com/assets/images/2017/04/IMG_8782-2.jpg 1289w" sizes="(max-width: 300px) 100vw, 300px" /></a>Dzisiaj <strong>9 kwietnia, waga 103 kg. </strong>
     </p>
     
     <p style="text-align: justify;">
@@ -27,7 +27,7 @@ categories:
     </p>
     
     <p style="text-align: justify;">
-      <a href="http://naszadycha.pl/images/2017/04/wyniki_open_2017.pdf">Oficjalne wyniki biegu</a>, pozycja 439.
+      <a href="http://naszadycha.pl/assets/images/2017/04/wyniki_open_2017.pdf">Oficjalne wyniki biegu</a>, pozycja 439.
     </p>
     
     <p style="text-align: justify;">

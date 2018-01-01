@@ -6,7 +6,7 @@ author: gocom
 layout: post
 guid: http://godev.gemustudio.com/?p=1123
 permalink: /2017/05/17/delphin-developer/
-image: /images/2017/05/blogging-photo-115.jpg
+image: /assets/images/2017/05/blogging-photo-115.jpg
 categories:
   - Bez kategorii
   - Legacy Code
@@ -21,7 +21,7 @@ tags:
 <div id="dslc-theme-content">
   <div id="dslc-theme-content-inner">
     <p style="text-align: justify;">
-      <span style="font-weight: 400;">Były takie czasy, gdy nastał czas “Pascala po prostu koduj”.<a href="http://godev.gemustudio.com/images/2017/05/blogging-photo-9388.jpg"><img class="alignright wp-image-1129 size-medium" src="http://godev.gemustudio.com/images/2017/05/blogging-photo-9388-300x200.jpg" alt="GemuStudio.com Delphin Developer" width="300" height="200" srcset="http://godev.gemustudio.com/images/2017/05/blogging-photo-9388-300x200.jpg 300w, http://godev.gemustudio.com/images/2017/05/blogging-photo-9388-768x512.jpg 768w, http://godev.gemustudio.com/images/2017/05/blogging-photo-9388.jpg 900w" sizes="(max-width: 300px) 100vw, 300px" /></a> </span>
+      <span style="font-weight: 400;">Były takie czasy, gdy nastał czas “Pascala po prostu koduj”.<a href="http://godev.gemustudio.com/assets/images/2017/05/blogging-photo-9388.jpg"><img class="alignright wp-image-1129 size-medium" src="http://godev.gemustudio.com/assets/images/2017/05/blogging-photo-9388-300x200.jpg" alt="GemuStudio.com Delphin Developer" width="300" height="200" srcset="http://godev.gemustudio.com/assets/images/2017/05/blogging-photo-9388-300x200.jpg 300w, http://godev.gemustudio.com/assets/images/2017/05/blogging-photo-9388-768x512.jpg 768w, http://godev.gemustudio.com/assets/images/2017/05/blogging-photo-9388.jpg 900w" sizes="(max-width: 300px) 100vw, 300px" /></a> </span>
     </p>
     
     <p style="text-align: justify;">
@@ -69,7 +69,7 @@ tags:
     </p>
     
     <p>
-      <a href="http://godev.gemustudio.com/images/2017/05/2017-05-17_14h25_50.png"><img class="aligncenter wp-image-1126 size-full" src="http://godev.gemustudio.com/images/2017/05/2017-05-17_14h25_50.png" alt="" width="880" height="460" srcset="http://godev.gemustudio.com/images/2017/05/2017-05-17_14h25_50.png 880w, http://godev.gemustudio.com/images/2017/05/2017-05-17_14h25_50-300x157.png 300w, http://godev.gemustudio.com/images/2017/05/2017-05-17_14h25_50-768x401.png 768w" sizes="(max-width: 880px) 100vw, 880px" /></a>
+      <a href="http://godev.gemustudio.com/assets/images/2017/05/2017-05-17_14h25_50.png"><img class="aligncenter wp-image-1126 size-full" src="http://godev.gemustudio.com/assets/images/2017/05/2017-05-17_14h25_50.png" alt="" width="880" height="460" srcset="http://godev.gemustudio.com/assets/images/2017/05/2017-05-17_14h25_50.png 880w, http://godev.gemustudio.com/assets/images/2017/05/2017-05-17_14h25_50-300x157.png 300w, http://godev.gemustudio.com/assets/images/2017/05/2017-05-17_14h25_50-768x401.png 768w" sizes="(max-width: 880px) 100vw, 880px" /></a>
     </p>
     
     <p style="text-align: justify;">
@@ -89,7 +89,7 @@ tags:
     </p>
     
     <p>
-      <a href="http://godev.gemustudio.com/images/2017/05/blogging-photo-115.jpg"><img class="aligncenter size-medium wp-image-1132" src="http://godev.gemustudio.com/images/2017/05/blogging-photo-115-300x200.jpg" alt="" width="300" height="200" srcset="http://godev.gemustudio.com/images/2017/05/blogging-photo-115-300x200.jpg 300w, http://godev.gemustudio.com/images/2017/05/blogging-photo-115-768x512.jpg 768w, http://godev.gemustudio.com/images/2017/05/blogging-photo-115.jpg 900w" sizes="(max-width: 300px) 100vw, 300px" /></a>
+      <a href="http://godev.gemustudio.com/assets/images/2017/05/blogging-photo-115.jpg"><img class="aligncenter size-medium wp-image-1132" src="http://godev.gemustudio.com/assets/images/2017/05/blogging-photo-115-300x200.jpg" alt="" width="300" height="200" srcset="http://godev.gemustudio.com/assets/images/2017/05/blogging-photo-115-300x200.jpg 300w, http://godev.gemustudio.com/assets/images/2017/05/blogging-photo-115-768x512.jpg 768w, http://godev.gemustudio.com/assets/images/2017/05/blogging-photo-115.jpg 900w" sizes="(max-width: 300px) 100vw, 300px" /></a>
     </p>
     
     <h1 style="text-align: center;">

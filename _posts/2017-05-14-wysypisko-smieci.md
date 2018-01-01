@@ -8,7 +8,7 @@ guid: http://godev.gemustudio.com/?p=1060
 permalink: /2017/05/14/wysypisko-smieci/
 dslc_post_template:
   - default
-image: /images/2017/05/IMG_9281.jpg
+image: /assets/images/2017/05/IMG_9281.jpg
 categories:
   - Bez kategorii
   - Daj Się Poznać 2017
@@ -23,7 +23,7 @@ tags:
 <div id="dslc-theme-content">
   <div id="dslc-theme-content-inner">
     <p>
-      <a href="http://godev.gemustudio.com/images/2017/05/IMG_0108.jpg"><img class="alignright wp-image-1089 size-medium" src="http://godev.gemustudio.com/images/2017/05/IMG_0108-200x300.jpg" alt="Garbage Collector" width="200" height="300" srcset="http://godev.gemustudio.com/images/2017/05/IMG_0108-200x300.jpg 200w, http://godev.gemustudio.com/images/2017/05/IMG_0108-683x1024.jpg 683w, http://godev.gemustudio.com/images/2017/05/IMG_0108.jpg 720w" sizes="(max-width: 200px) 100vw, 200px" /></a>Nasz wspaniały język C#, znosi z nas prawie pełną odpowiedzialność za sprzątanie po sobie.
+      <a href="http://godev.gemustudio.com/assets/images/2017/05/IMG_0108.jpg"><img class="alignright wp-image-1089 size-medium" src="http://godev.gemustudio.com/assets/images/2017/05/IMG_0108-200x300.jpg" alt="Garbage Collector" width="200" height="300" srcset="http://godev.gemustudio.com/assets/images/2017/05/IMG_0108-200x300.jpg 200w, http://godev.gemustudio.com/assets/images/2017/05/IMG_0108-683x1024.jpg 683w, http://godev.gemustudio.com/assets/images/2017/05/IMG_0108.jpg 720w" sizes="(max-width: 200px) 100vw, 200px" /></a>Nasz wspaniały język C#, znosi z nas prawie pełną odpowiedzialność za sprzątanie po sobie.
     </p>
     
     <p style="text-align: justify;">
@@ -104,7 +104,7 @@ tags:
     </p>
     
     <p style="text-align: justify;">
-      Zmiana pokolenia następuje podczas uruchomienia <strong>GC</strong>, awans w pokoleniu następuje gdy obiekt nie nadaje się do zniszczenia.<a href="http://godev.gemustudio.com/images/2017/05/IMG_0307.jpg"><img class="aligncenter wp-image-1090 size-medium" src="http://godev.gemustudio.com/images/2017/05/IMG_0307-300x200.jpg" alt="Garbage Collector" width="300" height="200" srcset="http://godev.gemustudio.com/images/2017/05/IMG_0307-300x200.jpg 300w, http://godev.gemustudio.com/images/2017/05/IMG_0307-768x512.jpg 768w, http://godev.gemustudio.com/images/2017/05/IMG_0307-1024x683.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px" /></a>
+      Zmiana pokolenia następuje podczas uruchomienia <strong>GC</strong>, awans w pokoleniu następuje gdy obiekt nie nadaje się do zniszczenia.<a href="http://godev.gemustudio.com/assets/images/2017/05/IMG_0307.jpg"><img class="aligncenter wp-image-1090 size-medium" src="http://godev.gemustudio.com/assets/images/2017/05/IMG_0307-300x200.jpg" alt="Garbage Collector" width="300" height="200" srcset="http://godev.gemustudio.com/assets/images/2017/05/IMG_0307-300x200.jpg 300w, http://godev.gemustudio.com/assets/images/2017/05/IMG_0307-768x512.jpg 768w, http://godev.gemustudio.com/assets/images/2017/05/IMG_0307-1024x683.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px" /></a>
     </p>
     
     <p style="text-align: justify;">
@@ -141,7 +141,7 @@ tags:
       </div>
       
       <div style="text-align: justify;">
-        <a href="http://devstyle.pl/daj-sie-poznac/" target="_blank" rel="noopener noreferrer"><img class="wp-image-104 size-full alignright" title="Daj Się Poznać 2017" src="http://godev.gemustudio.com/images/2017/02/dsp2017-3.png" alt="" width="68" height="154" /></a>
+        <a href="http://devstyle.pl/daj-sie-poznac/" target="_blank" rel="noopener noreferrer"><img class="wp-image-104 size-full alignright" title="Daj Się Poznać 2017" src="http://godev.gemustudio.com/assets/images/2017/02/dsp2017-3.png" alt="" width="68" height="154" /></a>
       </div>
       
       <div style="font-size: 10pt; padding: 10px;">

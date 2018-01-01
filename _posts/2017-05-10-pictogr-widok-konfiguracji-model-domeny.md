@@ -6,7 +6,7 @@ author: gocom
 layout: post
 guid: http://godev.gemustudio.com/?p=1032
 permalink: /2017/05/10/pictogr-widok-konfiguracji-model-domeny/
-image: /images/2017/05/IMG_0950-1.jpg
+image: /assets/images/2017/05/IMG_0950-1.jpg
 categories:
   - Bez kategorii
   - Daj Się Poznać 2017
@@ -24,7 +24,7 @@ tags:
     </h2>
     
     <p style="text-align: justify;">
-      Ważnym elementem PictOgr-a jest konfiguracja, w niej właśnie będzie definiowana struktura katalogów dla zdjęć. Nazwy powinny składać się z wielu <a href="http://godev.gemustudio.com/images/2017/05/pictogr-config.png"><img class="alignright wp-image-1035 size-medium" src="http://godev.gemustudio.com/images/2017/05/pictogr-config-300x263.png" alt="widok konfiguracji" width="300" height="263" srcset="http://godev.gemustudio.com/images/2017/05/pictogr-config-300x263.png 300w, http://godev.gemustudio.com/images/2017/05/pictogr-config.png 684w" sizes="(max-width: 300px) 100vw, 300px" /></a>modułów. W tym celu konfiguracja powinna dać możliwość składania wzorca lokalizacji pliku z dostępnych modułów nazwy jakie można wyciągnąć z pliku:
+      Ważnym elementem PictOgr-a jest konfiguracja, w niej właśnie będzie definiowana struktura katalogów dla zdjęć. Nazwy powinny składać się z wielu <a href="http://godev.gemustudio.com/assets/images/2017/05/pictogr-config.png"><img class="alignright wp-image-1035 size-medium" src="http://godev.gemustudio.com/assets/images/2017/05/pictogr-config-300x263.png" alt="widok konfiguracji" width="300" height="263" srcset="http://godev.gemustudio.com/assets/images/2017/05/pictogr-config-300x263.png 300w, http://godev.gemustudio.com/assets/images/2017/05/pictogr-config.png 684w" sizes="(max-width: 300px) 100vw, 300px" /></a>modułów. W tym celu konfiguracja powinna dać możliwość składania wzorca lokalizacji pliku z dostępnych modułów nazwy jakie można wyciągnąć z pliku:
     </p>
     
     <ul>
@@ -51,7 +51,7 @@ tags:
     </p>
     
     <p style="text-align: justify;">
-      Zdefiniowany w<a href="http://godev.gemustudio.com/images/2017/05/pictogr-config2.png"><img class="wp-image-1036 size-full alignleft" src="http://godev.gemustudio.com/images/2017/05/pictogr-config2.png" alt="" width="248" height="209" /></a>zorzec nazwy będzie wyświetlany na dole wraz z przykładową przetworzoną ścieżką do pliku.
+      Zdefiniowany w<a href="http://godev.gemustudio.com/assets/images/2017/05/pictogr-config2.png"><img class="wp-image-1036 size-full alignleft" src="http://godev.gemustudio.com/assets/images/2017/05/pictogr-config2.png" alt="" width="248" height="209" /></a>zorzec nazwy będzie wyświetlany na dole wraz z przykładową przetworzoną ścieżką do pliku.
     </p>
     
     <p style="text-align: justify;">
@@ -156,7 +156,7 @@ namespace PictOgr.Core.Domain
     </p>
     
     <p style="text-align: justify;">
-      <a href="http://godev.gemustudio.com/images/2017/05/IMG_9780.jpg"><img class="aligncenter size-medium wp-image-1046" src="http://godev.gemustudio.com/images/2017/05/IMG_9780-300x200.jpg" alt="" width="300" height="200" srcset="http://godev.gemustudio.com/images/2017/05/IMG_9780-300x200.jpg 300w, http://godev.gemustudio.com/images/2017/05/IMG_9780-768x512.jpg 768w, http://godev.gemustudio.com/images/2017/05/IMG_9780-1024x683.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px" /></a>
+      <a href="http://godev.gemustudio.com/assets/images/2017/05/IMG_9780.jpg"><img class="aligncenter size-medium wp-image-1046" src="http://godev.gemustudio.com/assets/images/2017/05/IMG_9780-300x200.jpg" alt="" width="300" height="200" srcset="http://godev.gemustudio.com/assets/images/2017/05/IMG_9780-300x200.jpg 300w, http://godev.gemustudio.com/assets/images/2017/05/IMG_9780-768x512.jpg 768w, http://godev.gemustudio.com/assets/images/2017/05/IMG_9780-1024x683.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px" /></a>
     </p>
     
     <p>
@@ -235,7 +235,7 @@ namespace PictOgr.Infrastructure.DTO
     </p>
     
     <p style="text-align: justify;">
-      <a href="http://godev.gemustudio.com/images/2017/05/IMG_0043.jpg"><img class="size-medium wp-image-1049 alignright" src="http://godev.gemustudio.com/images/2017/05/IMG_0043-300x200.jpg" alt="" width="300" height="200" srcset="http://godev.gemustudio.com/images/2017/05/IMG_0043-300x200.jpg 300w, http://godev.gemustudio.com/images/2017/05/IMG_0043-768x512.jpg 768w, http://godev.gemustudio.com/images/2017/05/IMG_0043-1024x683.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px" /></a>
+      <a href="http://godev.gemustudio.com/assets/images/2017/05/IMG_0043.jpg"><img class="size-medium wp-image-1049 alignright" src="http://godev.gemustudio.com/assets/images/2017/05/IMG_0043-300x200.jpg" alt="" width="300" height="200" srcset="http://godev.gemustudio.com/assets/images/2017/05/IMG_0043-300x200.jpg 300w, http://godev.gemustudio.com/assets/images/2017/05/IMG_0043-768x512.jpg 768w, http://godev.gemustudio.com/assets/images/2017/05/IMG_0043-1024x683.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px" /></a>
     </p>
     
     <p style="text-align: justify;">
@@ -268,7 +268,7 @@ namespace PictOgr.Infrastructure.DTO
       </div>
       
       <div style="text-align: center;">
-         <a href="http://devstyle.pl/daj-sie-poznac/" target="_blank" rel="noopener noreferrer"><img class="wp-image-104 size-full alignright" title="Daj Się Poznać 2017" src="http://godev.gemustudio.com/images/2017/02/dsp2017-3.png" alt="" width="68" height="154" /></a>
+         <a href="http://devstyle.pl/daj-sie-poznac/" target="_blank" rel="noopener noreferrer"><img class="wp-image-104 size-full alignright" title="Daj Się Poznać 2017" src="http://godev.gemustudio.com/assets/images/2017/02/dsp2017-3.png" alt="" width="68" height="154" /></a>
       </div>
       
       <div style="font-size: 10pt; padding: 10px;">

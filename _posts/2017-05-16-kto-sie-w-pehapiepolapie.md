@@ -6,7 +6,7 @@ author: gocom
 layout: post
 guid: http://godev.gemustudio.com/?p=1110
 permalink: /2017/05/16/kto-sie-w-pehapiepolapie/
-image: /images/2017/05/php.jpg
+image: /assets/images/2017/05/php.jpg
 categories:
   - Bez kategorii
   - Legacy Code
@@ -25,7 +25,7 @@ tags:
     </p>
     
     <p>
-      <a href="http://godev.gemustudio.com/images/2017/05/2017-05-16_14h52_00.png"><img class="aligncenter wp-image-1111 size-full" src="http://godev.gemustudio.com/images/2017/05/2017-05-16_14h52_00.png" alt="" width="1066" height="727" srcset="http://godev.gemustudio.com/images/2017/05/2017-05-16_14h52_00.png 1066w, http://godev.gemustudio.com/images/2017/05/2017-05-16_14h52_00-300x205.png 300w, http://godev.gemustudio.com/images/2017/05/2017-05-16_14h52_00-768x524.png 768w, http://godev.gemustudio.com/images/2017/05/2017-05-16_14h52_00-1024x698.png 1024w" sizes="(max-width: 1066px) 100vw, 1066px" /></a>
+      <a href="http://godev.gemustudio.com/assets/images/2017/05/2017-05-16_14h52_00.png"><img class="aligncenter wp-image-1111 size-full" src="http://godev.gemustudio.com/assets/images/2017/05/2017-05-16_14h52_00.png" alt="" width="1066" height="727" srcset="http://godev.gemustudio.com/assets/images/2017/05/2017-05-16_14h52_00.png 1066w, http://godev.gemustudio.com/assets/images/2017/05/2017-05-16_14h52_00-300x205.png 300w, http://godev.gemustudio.com/assets/images/2017/05/2017-05-16_14h52_00-768x524.png 768w, http://godev.gemustudio.com/assets/images/2017/05/2017-05-16_14h52_00-1024x698.png 1024w" sizes="(max-width: 1066px) 100vw, 1066px" /></a>
     </p>
     
     <p style="text-align: justify;">

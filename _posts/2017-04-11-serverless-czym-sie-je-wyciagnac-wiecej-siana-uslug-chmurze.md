@@ -6,7 +6,7 @@ author: gocom
 layout: post
 guid: http://godev.gemustudio.com/?p=734
 permalink: /2017/04/11/serverless-czym-sie-je-wyciagnac-wiecej-siana-uslug-chmurze/
-image: /images/2017/04/Server.jpg
+image: /assets/images/2017/04/Server.jpg
 categories:
   - Bez kategorii
   - Daj Się Poznać 2017
@@ -38,7 +38,7 @@ tags:
     </p>
     
     <p style="text-align: justify;">
-      <a href="http://godev.gemustudio.com/images/2017/04/monolit.png"><img class="aligncenter wp-image-776 size-large" src="http://godev.gemustudio.com/images/2017/04/monolit-1024x328.png" alt="System Monolityczny." width="855" height="274" srcset="http://godev.gemustudio.com/images/2017/04/monolit-1024x328.png 1024w, http://godev.gemustudio.com/images/2017/04/monolit-300x96.png 300w, http://godev.gemustudio.com/images/2017/04/monolit-768x246.png 768w, http://godev.gemustudio.com/images/2017/04/monolit.png 1160w" sizes="(max-width: 855px) 100vw, 855px" /></a>
+      <a href="http://godev.gemustudio.com/assets/images/2017/04/monolit.png"><img class="aligncenter wp-image-776 size-large" src="http://godev.gemustudio.com/assets/images/2017/04/monolit-1024x328.png" alt="System Monolityczny." width="855" height="274" srcset="http://godev.gemustudio.com/assets/images/2017/04/monolit-1024x328.png 1024w, http://godev.gemustudio.com/assets/images/2017/04/monolit-300x96.png 300w, http://godev.gemustudio.com/assets/images/2017/04/monolit-768x246.png 768w, http://godev.gemustudio.com/assets/images/2017/04/monolit.png 1160w" sizes="(max-width: 855px) 100vw, 855px" /></a>
     </p>
     
     <p style="text-align: justify;">
@@ -62,7 +62,7 @@ tags:
     </p>
     
     <p style="text-align: justify;">
-      <a href="http://godev.gemustudio.com/images/2017/04/microservice.png"><img class="aligncenter wp-image-775 size-large" src="http://godev.gemustudio.com/images/2017/04/microservice-1024x722.png" alt="Mikroserwisy" width="855" height="603" srcset="http://godev.gemustudio.com/images/2017/04/microservice-1024x722.png 1024w, http://godev.gemustudio.com/images/2017/04/microservice-300x212.png 300w, http://godev.gemustudio.com/images/2017/04/microservice-768x542.png 768w, http://godev.gemustudio.com/images/2017/04/microservice.png 1174w" sizes="(max-width: 855px) 100vw, 855px" /></a>
+      <a href="http://godev.gemustudio.com/assets/images/2017/04/microservice.png"><img class="aligncenter wp-image-775 size-large" src="http://godev.gemustudio.com/assets/images/2017/04/microservice-1024x722.png" alt="Mikroserwisy" width="855" height="603" srcset="http://godev.gemustudio.com/assets/images/2017/04/microservice-1024x722.png 1024w, http://godev.gemustudio.com/assets/images/2017/04/microservice-300x212.png 300w, http://godev.gemustudio.com/assets/images/2017/04/microservice-768x542.png 768w, http://godev.gemustudio.com/assets/images/2017/04/microservice.png 1174w" sizes="(max-width: 855px) 100vw, 855px" /></a>
     </p>
     
     <p style="text-align: justify;">
@@ -94,7 +94,7 @@ tags:
     </p>
     
     <p style="text-align: justify;">
-      <a href="http://godev.gemustudio.com/images/2017/04/serverlees.png"><img class="aligncenter wp-image-777 size-large" src="http://godev.gemustudio.com/images/2017/04/serverlees-1024x512.png" alt="Serverless" width="855" height="428" srcset="http://godev.gemustudio.com/images/2017/04/serverlees-1024x512.png 1024w, http://godev.gemustudio.com/images/2017/04/serverlees-300x150.png 300w, http://godev.gemustudio.com/images/2017/04/serverlees-768x384.png 768w, http://godev.gemustudio.com/images/2017/04/serverlees.png 1088w" sizes="(max-width: 855px) 100vw, 855px" /></a>
+      <a href="http://godev.gemustudio.com/assets/images/2017/04/serverlees.png"><img class="aligncenter wp-image-777 size-large" src="http://godev.gemustudio.com/assets/images/2017/04/serverlees-1024x512.png" alt="Serverless" width="855" height="428" srcset="http://godev.gemustudio.com/assets/images/2017/04/serverlees-1024x512.png 1024w, http://godev.gemustudio.com/assets/images/2017/04/serverlees-300x150.png 300w, http://godev.gemustudio.com/assets/images/2017/04/serverlees-768x384.png 768w, http://godev.gemustudio.com/assets/images/2017/04/serverlees.png 1088w" sizes="(max-width: 855px) 100vw, 855px" /></a>
     </p>
     
     <p>
@@ -157,7 +157,7 @@ tags:
       </div>
       
       <div style="text-align: center;">
-         <a href="http://devstyle.pl/daj-sie-poznac/" target="_blank" rel="noopener noreferrer"><img class="wp-image-104 size-full alignright" title="Daj Się Poznać 2017" src="http://godev.gemustudio.com/images/2017/02/dsp2017-3.png" alt="" width="68" height="154" /></a>
+         <a href="http://devstyle.pl/daj-sie-poznac/" target="_blank" rel="noopener noreferrer"><img class="wp-image-104 size-full alignright" title="Daj Się Poznać 2017" src="http://godev.gemustudio.com/assets/images/2017/02/dsp2017-3.png" alt="" width="68" height="154" /></a>
       </div>
       
       <div style="font-size: 10pt; padding: 10px;">

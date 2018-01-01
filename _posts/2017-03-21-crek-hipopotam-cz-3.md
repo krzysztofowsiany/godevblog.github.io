@@ -6,7 +6,7 @@ author: gocom
 layout: post
 guid: http://godev.gemustudio.com/?p=479
 permalink: /2017/03/21/crek-hipopotam-cz-3/
-image: /images/2017/03/żaba.png
+image: /assets/images/2017/03/żaba.png
 categories:
   - Bez kategorii
   - Daj Się Poznać 2017
@@ -31,7 +31,7 @@ tags:
     </h2>
     
     <p>
-      Hipek ma mały problem z ro<a href="http://godev.gemustudio.com/images/2017/03/menu_breakpoints.png"><img class="alignleft wp-image-487 size-full" src="http://godev.gemustudio.com/images/2017/03/menu_breakpoints.png" alt="" width="613" height="124" srcset="http://godev.gemustudio.com/images/2017/03/menu_breakpoints.png 613w, http://godev.gemustudio.com/images/2017/03/menu_breakpoints-300x61.png 300w" sizes="(max-width: 613px) 100vw, 613px" /></a>balami i czasem te wredne istoty gryzą niemiłosiernie. Jest jednak na to rozwiązanie można pozastawiać pułapki. C#rek wie co to pułapki, nie raz łapał żaby.
+      Hipek ma mały problem z ro<a href="http://godev.gemustudio.com/assets/images/2017/03/menu_breakpoints.png"><img class="alignleft wp-image-487 size-full" src="http://godev.gemustudio.com/assets/images/2017/03/menu_breakpoints.png" alt="" width="613" height="124" srcset="http://godev.gemustudio.com/assets/images/2017/03/menu_breakpoints.png 613w, http://godev.gemustudio.com/assets/images/2017/03/menu_breakpoints-300x61.png 300w" sizes="(max-width: 613px) 100vw, 613px" /></a>balami i czasem te wredne istoty gryzą niemiłosiernie. Jest jednak na to rozwiązanie można pozastawiać pułapki. C#rek wie co to pułapki, nie raz łapał żaby.
     </p>
     
     <p style="text-align: justify;">
@@ -43,7 +43,7 @@ tags:
     </p>
     
     <p style="text-align: justify;">
-      Od razu tutaj można rzec, iż innym przydatnym zaklęciem <strong>Crtl+Shift+F9</strong> zdej<a href="http://godev.gemustudio.com/images/2017/03/żaba.png"><img class="alignright wp-image-557 size-medium" src="http://godev.gemustudio.com/images/2017/03/żaba-300x200.png" alt="C#rek" width="300" height="200" srcset="http://godev.gemustudio.com/images/2017/03/żaba-300x200.png 300w, http://godev.gemustudio.com/images/2017/03/żaba-768x512.png 768w, http://godev.gemustudio.com/images/2017/03/żaba.png 1000w" sizes="(max-width: 300px) 100vw, 300px" /></a>mujemy wszystkie pułapki <strong>Delete All Breakpoints.</strong>
+      Od razu tutaj można rzec, iż innym przydatnym zaklęciem <strong>Crtl+Shift+F9</strong> zdej<a href="http://godev.gemustudio.com/assets/images/2017/03/żaba.png"><img class="alignright wp-image-557 size-medium" src="http://godev.gemustudio.com/assets/images/2017/03/żaba-300x200.png" alt="C#rek" width="300" height="200" srcset="http://godev.gemustudio.com/assets/images/2017/03/żaba-300x200.png 300w, http://godev.gemustudio.com/assets/images/2017/03/żaba-768x512.png 768w, http://godev.gemustudio.com/assets/images/2017/03/żaba.png 1000w" sizes="(max-width: 300px) 100vw, 300px" /></a>mujemy wszystkie pułapki <strong>Delete All Breakpoints.</strong>
     </p>
     
     <p>
@@ -75,7 +75,7 @@ tags:
     </h2>
     
     <h4 style="text-align: center;">
-      <a href="http://godev.gemustudio.com/images/2017/03/breakpoints.png"><img class="alignright wp-image-486 size-full" src="http://godev.gemustudio.com/images/2017/03/breakpoints.png" alt="" width="577" height="215" srcset="http://godev.gemustudio.com/images/2017/03/breakpoints.png 577w, http://godev.gemustudio.com/images/2017/03/breakpoints-300x112.png 300w" sizes="(max-width: 577px) 100vw, 577px" /></a>
+      <a href="http://godev.gemustudio.com/assets/images/2017/03/breakpoints.png"><img class="alignright wp-image-486 size-full" src="http://godev.gemustudio.com/assets/images/2017/03/breakpoints.png" alt="" width="577" height="215" srcset="http://godev.gemustudio.com/assets/images/2017/03/breakpoints.png 577w, http://godev.gemustudio.com/assets/images/2017/03/breakpoints-300x112.png 300w" sizes="(max-width: 577px) 100vw, 577px" /></a>
     </h4>
     
     <p style="text-align: justify;">
@@ -103,7 +103,7 @@ tags:
     </h2>
     
     <p>
-      <a href="http://godev.gemustudio.com/images/2017/03/2017-03-21_23h03_26.png"><img class="alignright wp-image-564 size-full" src="http://godev.gemustudio.com/images/2017/03/2017-03-21_23h03_26.png" alt="" width="266" height="313" srcset="http://godev.gemustudio.com/images/2017/03/2017-03-21_23h03_26.png 266w, http://godev.gemustudio.com/images/2017/03/2017-03-21_23h03_26-255x300.png 255w" sizes="(max-width: 266px) 100vw, 266px" /></a>Podczas śledzenia przyd<a href="http://godev.gemustudio.com/images/2017/03/2017-03-21_23h26_50.png"><img class="alignleft wp-image-565 size-full" src="http://godev.gemustudio.com/images/2017/03/2017-03-21_23h26_50.png" alt="" width="357" height="304" srcset="http://godev.gemustudio.com/images/2017/03/2017-03-21_23h26_50.png 357w, http://godev.gemustudio.com/images/2017/03/2017-03-21_23h26_50-300x255.png 300w" sizes="(max-width: 357px) 100vw, 357px" /></a>ać się może nieco informacji do nawigacji, tak by po omacku nie szukać robali.
+      <a href="http://godev.gemustudio.com/assets/images/2017/03/2017-03-21_23h03_26.png"><img class="alignright wp-image-564 size-full" src="http://godev.gemustudio.com/assets/images/2017/03/2017-03-21_23h03_26.png" alt="" width="266" height="313" srcset="http://godev.gemustudio.com/assets/images/2017/03/2017-03-21_23h03_26.png 266w, http://godev.gemustudio.com/assets/images/2017/03/2017-03-21_23h03_26-255x300.png 255w" sizes="(max-width: 266px) 100vw, 266px" /></a>Podczas śledzenia przyd<a href="http://godev.gemustudio.com/assets/images/2017/03/2017-03-21_23h26_50.png"><img class="alignleft wp-image-565 size-full" src="http://godev.gemustudio.com/assets/images/2017/03/2017-03-21_23h26_50.png" alt="" width="357" height="304" srcset="http://godev.gemustudio.com/assets/images/2017/03/2017-03-21_23h26_50.png 357w, http://godev.gemustudio.com/assets/images/2017/03/2017-03-21_23h26_50-300x255.png 300w" sizes="(max-width: 357px) 100vw, 357px" /></a>ać się może nieco informacji do nawigacji, tak by po omacku nie szukać robali.
     </p>
     
     <p style="text-align: justify;">
@@ -139,7 +139,7 @@ tags:
     </p>
     
     <p>
-      <a href="http://godev.gemustudio.com/images/2017/03/2017-03-21_23h27_22.png"><img class="wp-image-566 size-full alignleft" src="http://godev.gemustudio.com/images/2017/03/2017-03-21_23h27_22.png" alt="" width="415" height="300" srcset="http://godev.gemustudio.com/images/2017/03/2017-03-21_23h27_22.png 415w, http://godev.gemustudio.com/images/2017/03/2017-03-21_23h27_22-300x217.png 300w" sizes="(max-width: 415px) 100vw, 415px" /></a>
+      <a href="http://godev.gemustudio.com/assets/images/2017/03/2017-03-21_23h27_22.png"><img class="wp-image-566 size-full alignleft" src="http://godev.gemustudio.com/assets/images/2017/03/2017-03-21_23h27_22.png" alt="" width="415" height="300" srcset="http://godev.gemustudio.com/assets/images/2017/03/2017-03-21_23h27_22.png 415w, http://godev.gemustudio.com/assets/images/2017/03/2017-03-21_23h27_22-300x217.png 300w" sizes="(max-width: 415px) 100vw, 415px" /></a>
     </p>
     
     <p>
@@ -151,7 +151,7 @@ tags:
     </p>
     
     <p style="text-align: left;">
-      <a href="http://godev.gemustudio.com/images/2017/03/2017-03-21_23h37_59.png"><img class="wp-image-568 size-full alignright" src="http://godev.gemustudio.com/images/2017/03/2017-03-21_23h37_59.png" alt="" width="563" height="113" srcset="http://godev.gemustudio.com/images/2017/03/2017-03-21_23h37_59.png 563w, http://godev.gemustudio.com/images/2017/03/2017-03-21_23h37_59-300x60.png 300w" sizes="(max-width: 563px) 100vw, 563px" /></a>
+      <a href="http://godev.gemustudio.com/assets/images/2017/03/2017-03-21_23h37_59.png"><img class="wp-image-568 size-full alignright" src="http://godev.gemustudio.com/assets/images/2017/03/2017-03-21_23h37_59.png" alt="" width="563" height="113" srcset="http://godev.gemustudio.com/assets/images/2017/03/2017-03-21_23h37_59.png 563w, http://godev.gemustudio.com/assets/images/2017/03/2017-03-21_23h37_59-300x60.png 300w" sizes="(max-width: 563px) 100vw, 563px" /></a>
     </p>
     
     <p>
@@ -240,7 +240,7 @@ tags:
     </div>
     
     <div style="text-align: center;">
-      <a href="http://devstyle.pl/daj-sie-poznac/" target="_blank" rel="noopener noreferrer"><img class="wp-image-104 size-full alignright" title="Daj Się Poznać 2017" src="http://godev.gemustudio.com/images/2017/02/dsp2017-3.png" alt="" width="68" height="154" /></a>
+      <a href="http://devstyle.pl/daj-sie-poznac/" target="_blank" rel="noopener noreferrer"><img class="wp-image-104 size-full alignright" title="Daj Się Poznać 2017" src="http://godev.gemustudio.com/assets/images/2017/02/dsp2017-3.png" alt="" width="68" height="154" /></a>
     </div>
     
     <div style="font-size: 10pt; padding: 10px;">

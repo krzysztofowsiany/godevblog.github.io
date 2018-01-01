@@ -8,7 +8,7 @@ guid: http://godev.gemustudio.com/?p=1827
 permalink: /2017/09/25/bledy-poczatkujacego-prelegenta/
 dslc_post_template:
   - default
-image: /images/2017/09/1warsaw-04455-1.png
+image: /assets/images/2017/09/1warsaw-04455-1.png
 categories:
   - Bez kategorii
   - Prelekcje
@@ -90,7 +90,7 @@ tags:
     </ol>
     
     <p>
-      <a href="http://godev.gemustudio.com/images/2017/09/1warsaw-04455-1.png"><img src="http://godev.gemustudio.com/images/2017/09/1warsaw-04455-1-300x200.png" alt="Fot. Nikola Król" width="300" height="200" class="alignright size-medium wp-image-1836" srcset="http://godev.gemustudio.com/images/2017/09/1warsaw-04455-1-300x200.png 300w, http://godev.gemustudio.com/images/2017/09/1warsaw-04455-1-768x512.png 768w, http://godev.gemustudio.com/images/2017/09/1warsaw-04455-1.png 900w" sizes="(max-width: 300px) 100vw, 300px" /></a>
+      <a href="http://godev.gemustudio.com/assets/images/2017/09/1warsaw-04455-1.png"><img src="http://godev.gemustudio.com/assets/images/2017/09/1warsaw-04455-1-300x200.png" alt="Fot. Nikola Król" width="300" height="200" class="alignright size-medium wp-image-1836" srcset="http://godev.gemustudio.com/assets/images/2017/09/1warsaw-04455-1-300x200.png 300w, http://godev.gemustudio.com/assets/images/2017/09/1warsaw-04455-1-768x512.png 768w, http://godev.gemustudio.com/assets/images/2017/09/1warsaw-04455-1.png 900w" sizes="(max-width: 300px) 100vw, 300px" /></a>
     </p>
     
     <h3>

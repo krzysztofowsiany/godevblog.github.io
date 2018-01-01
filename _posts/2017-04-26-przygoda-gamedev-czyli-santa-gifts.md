@@ -6,7 +6,7 @@ author: gocom
 layout: post
 guid: http://godev.gemustudio.com/?p=951
 permalink: /2017/04/26/przygoda-gamedev-czyli-santa-gifts/
-image: /images/2017/04/icon.png
+image: /assets/images/2017/04/icon.png
 categories:
   - Bez kategorii
   - Daj Się Poznać 2017
@@ -36,7 +36,7 @@ tags:
     </p>
     
     <p>
-      <a href="http://godev.gemustudio.com/images/2017/04/2016-12-06_07h52_24.png"><img class="aligncenter wp-image-953 size-medium" src="http://godev.gemustudio.com/images/2017/04/2016-12-06_07h52_24-300x168.png" alt="Santa Gifts" width="300" height="168" srcset="http://godev.gemustudio.com/images/2017/04/2016-12-06_07h52_24-300x168.png 300w, http://godev.gemustudio.com/images/2017/04/2016-12-06_07h52_24-768x430.png 768w, http://godev.gemustudio.com/images/2017/04/2016-12-06_07h52_24.png 962w" sizes="(max-width: 300px) 100vw, 300px" /></a>
+      <a href="http://godev.gemustudio.com/assets/images/2017/04/2016-12-06_07h52_24.png"><img class="aligncenter wp-image-953 size-medium" src="http://godev.gemustudio.com/assets/images/2017/04/2016-12-06_07h52_24-300x168.png" alt="Santa Gifts" width="300" height="168" srcset="http://godev.gemustudio.com/assets/images/2017/04/2016-12-06_07h52_24-300x168.png 300w, http://godev.gemustudio.com/assets/images/2017/04/2016-12-06_07h52_24-768x430.png 768w, http://godev.gemustudio.com/assets/images/2017/04/2016-12-06_07h52_24.png 962w" sizes="(max-width: 300px) 100vw, 300px" /></a>
     </p>
     
     <p>
@@ -56,7 +56,7 @@ tags:
     </h2>
     
     <p>
-      <a href="http://godev.gemustudio.com/images/2017/04/buy_reinder.png"><img class="aligncenter wp-image-957 size-medium" src="http://godev.gemustudio.com/images/2017/04/buy_reinder-269x300.png" alt="Santa Gifts" width="269" height="300" srcset="http://godev.gemustudio.com/images/2017/04/buy_reinder-269x300.png 269w, http://godev.gemustudio.com/images/2017/04/buy_reinder.png 404w" sizes="(max-width: 269px) 100vw, 269px" /></a>
+      <a href="http://godev.gemustudio.com/assets/images/2017/04/buy_reinder.png"><img class="aligncenter wp-image-957 size-medium" src="http://godev.gemustudio.com/assets/images/2017/04/buy_reinder-269x300.png" alt="Santa Gifts" width="269" height="300" srcset="http://godev.gemustudio.com/assets/images/2017/04/buy_reinder-269x300.png 269w, http://godev.gemustudio.com/assets/images/2017/04/buy_reinder.png 404w" sizes="(max-width: 269px) 100vw, 269px" /></a>
     </p>
     
     <p style="text-align: justify;">
@@ -74,7 +74,7 @@ tags:
     </ul>
     
     <p>
-      <a href="http://godev.gemustudio.com/images/2017/04/reinder2.png"><img class="alignright wp-image-960 size-full" src="http://godev.gemustudio.com/images/2017/04/reinder2.png" alt="Santa Gifts" width="293" height="181" /></a>
+      <a href="http://godev.gemustudio.com/assets/images/2017/04/reinder2.png"><img class="alignright wp-image-960 size-full" src="http://godev.gemustudio.com/assets/images/2017/04/reinder2.png" alt="Santa Gifts" width="293" height="181" /></a>
     </p>
     
     <ul>
@@ -109,7 +109,7 @@ tags:
       <li style="list-style-type: none;">
         <ul>
           <li style="text-align: justify;">
-            <strong>oryginalność</strong> &#8211; duże <a href="http://godev.gemustudio.com/images/2017/04/Screenshot_2015-12-16-00-50-52.png"><img class="size-medium wp-image-961 alignleft" src="http://godev.gemustudio.com/images/2017/04/Screenshot_2015-12-16-00-50-52-300x169.png" alt="" width="300" height="169" srcset="http://godev.gemustudio.com/images/2017/04/Screenshot_2015-12-16-00-50-52-300x169.png 300w, http://godev.gemustudio.com/images/2017/04/Screenshot_2015-12-16-00-50-52-768x432.png 768w, http://godev.gemustudio.com/images/2017/04/Screenshot_2015-12-16-00-50-52-1024x576.png 1024w" sizes="(max-width: 300px) 100vw, 300px" /></a>ma znaczenie, w przypadku naszej gry był to spontan, tak duża konkurencja powoduje, że ciężko jest się przebić i na razie się nie udało. Gra doczekała się kolejnych aktualizacji i są pomysły na dalszą rozbudowę, która doda więcej oryginalności,
+            <strong>oryginalność</strong> &#8211; duże <a href="http://godev.gemustudio.com/assets/images/2017/04/Screenshot_2015-12-16-00-50-52.png"><img class="size-medium wp-image-961 alignleft" src="http://godev.gemustudio.com/assets/images/2017/04/Screenshot_2015-12-16-00-50-52-300x169.png" alt="" width="300" height="169" srcset="http://godev.gemustudio.com/assets/images/2017/04/Screenshot_2015-12-16-00-50-52-300x169.png 300w, http://godev.gemustudio.com/assets/images/2017/04/Screenshot_2015-12-16-00-50-52-768x432.png 768w, http://godev.gemustudio.com/assets/images/2017/04/Screenshot_2015-12-16-00-50-52-1024x576.png 1024w" sizes="(max-width: 300px) 100vw, 300px" /></a>ma znaczenie, w przypadku naszej gry był to spontan, tak duża konkurencja powoduje, że ciężko jest się przebić i na razie się nie udało. Gra doczekała się kolejnych aktualizacji i są pomysły na dalszą rozbudowę, która doda więcej oryginalności,
           </li>
         </ul>
       </li>
@@ -173,7 +173,7 @@ tags:
       </div>
       
       <div style="text-align: center;">
-         <a href="http://devstyle.pl/daj-sie-poznac/" target="_blank" rel="noopener noreferrer"><img class="wp-image-104 size-full alignright" title="Daj Się Poznać 2017" src="http://godev.gemustudio.com/images/2017/02/dsp2017-3.png" alt="" width="68" height="154" /></a>
+         <a href="http://devstyle.pl/daj-sie-poznac/" target="_blank" rel="noopener noreferrer"><img class="wp-image-104 size-full alignright" title="Daj Się Poznać 2017" src="http://godev.gemustudio.com/assets/images/2017/02/dsp2017-3.png" alt="" width="68" height="154" /></a>
       </div>
       
       <div style="font-size: 10pt; padding: 10px;">

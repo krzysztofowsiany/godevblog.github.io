@@ -8,7 +8,7 @@ guid: http://godev.gemustudio.com/?p=1530
 permalink: /2017/06/28/model-pracy-galeziami-git/
 dslc_post_template:
   - default
-image: /images/2017/06/blogging-photo-2016.jpg
+image: /assets/images/2017/06/blogging-photo-2016.jpg
 categories:
   - Bez kategorii
   - GIT
@@ -20,7 +20,7 @@ tags:
 <div id="dslc-theme-content">
   <div id="dslc-theme-content-inner">
     <div id="attachment_1541" style="width: 236px" class="wp-caption alignright">
-      <a href="http://godev.gemustudio.com/images/2017/06/git-model@2x.png"><img class="wp-image-1541 size-medium" title="Model pracy z GITem od Vincenta Driessena" src="http://godev.gemustudio.com/images/2017/06/git-model@2x-226x300.png" alt="Model pracy z GITem od Vincenta Driessena" width="226" height="300" srcset="http://godev.gemustudio.com/images/2017/06/git-model@2x-226x300.png 226w, http://godev.gemustudio.com/images/2017/06/git-model@2x-768x1018.png 768w, http://godev.gemustudio.com/images/2017/06/git-model@2x-773x1024.png 773w, http://godev.gemustudio.com/images/2017/06/git-model@2x.png 1150w" sizes="(max-width: 226px) 100vw, 226px" /></a>
+      <a href="http://godev.gemustudio.com/assets/images/2017/06/git-model@2x.png"><img class="wp-image-1541 size-medium" title="Model pracy z GITem od Vincenta Driessena" src="http://godev.gemustudio.com/assets/images/2017/06/git-model@2x-226x300.png" alt="Model pracy z GITem od Vincenta Driessena" width="226" height="300" srcset="http://godev.gemustudio.com/assets/images/2017/06/git-model@2x-226x300.png 226w, http://godev.gemustudio.com/assets/images/2017/06/git-model@2x-768x1018.png 768w, http://godev.gemustudio.com/assets/images/2017/06/git-model@2x-773x1024.png 773w, http://godev.gemustudio.com/assets/images/2017/06/git-model@2x.png 1150w" sizes="(max-width: 226px) 100vw, 226px" /></a>
       
       <p class="wp-caption-text">
         Model pracy z GITem od Vincenta Driessena
@@ -65,7 +65,7 @@ tags:
     </h2>
     
     <p style="text-align: justify;">
-      <span style="font-weight: 400;"><a href="http://godev.gemustudio.com/images/2017/06/blogging-photo-7235.jpg"><img class="size-medium wp-image-1547 alignleft" src="http://godev.gemustudio.com/images/2017/06/blogging-photo-7235-300x200.jpg" alt="MODEL PRACY Z GAŁĘZIAMI W GIT" width="300" height="200" srcset="http://godev.gemustudio.com/images/2017/06/blogging-photo-7235-300x200.jpg 300w, http://godev.gemustudio.com/images/2017/06/blogging-photo-7235-768x512.jpg 768w, http://godev.gemustudio.com/images/2017/06/blogging-photo-7235.jpg 900w" sizes="(max-width: 300px) 100vw, 300px" /></a><span style="font-size: 20px;">Poprawki nanosimy w gałęzi master poprzez ich implementację w warstwie <strong>hotfix branches</strong>. Stosujemy tutaj konwencję nazewnictwa </span></span><span style="font-size: 20px;"><b>hotfix-*.</b></span>
+      <span style="font-weight: 400;"><a href="http://godev.gemustudio.com/assets/images/2017/06/blogging-photo-7235.jpg"><img class="size-medium wp-image-1547 alignleft" src="http://godev.gemustudio.com/assets/images/2017/06/blogging-photo-7235-300x200.jpg" alt="MODEL PRACY Z GAŁĘZIAMI W GIT" width="300" height="200" srcset="http://godev.gemustudio.com/assets/images/2017/06/blogging-photo-7235-300x200.jpg 300w, http://godev.gemustudio.com/assets/images/2017/06/blogging-photo-7235-768x512.jpg 768w, http://godev.gemustudio.com/assets/images/2017/06/blogging-photo-7235.jpg 900w" sizes="(max-width: 300px) 100vw, 300px" /></a><span style="font-size: 20px;">Poprawki nanosimy w gałęzi master poprzez ich implementację w warstwie <strong>hotfix branches</strong>. Stosujemy tutaj konwencję nazewnictwa </span></span><span style="font-size: 20px;"><b>hotfix-*.</b></span>
     </p>
     
     <p style="text-align: justify;">
@@ -163,7 +163,7 @@ tags:
     </h2>
     
     <p style="text-align: justify;">
-      <span style="font-weight: 400;"><a href="http://godev.gemustudio.com/images/2017/06/blogging-photo-2016.jpg"><img class="size-medium wp-image-1549 alignleft" src="http://godev.gemustudio.com/images/2017/06/blogging-photo-2016-300x200.jpg" alt="GIT" width="300" height="200" srcset="http://godev.gemustudio.com/images/2017/06/blogging-photo-2016-300x200.jpg 300w, http://godev.gemustudio.com/images/2017/06/blogging-photo-2016-768x512.jpg 768w, http://godev.gemustudio.com/images/2017/06/blogging-photo-2016.jpg 900w" sizes="(max-width: 300px) 100vw, 300px" /></a><span style="font-size: 20px;">Nowe funkcjonalności wdrażane w aplikacji powinny znajdować się w swoich indywidualnych pod gałęziach. Daje to niejako piaskownice do pracy nad nimi, i gwarancję, że nie popsujemy funkcjonowania systemu w trakcie prac.</span></span>
+      <span style="font-weight: 400;"><a href="http://godev.gemustudio.com/assets/images/2017/06/blogging-photo-2016.jpg"><img class="size-medium wp-image-1549 alignleft" src="http://godev.gemustudio.com/assets/images/2017/06/blogging-photo-2016-300x200.jpg" alt="GIT" width="300" height="200" srcset="http://godev.gemustudio.com/assets/images/2017/06/blogging-photo-2016-300x200.jpg 300w, http://godev.gemustudio.com/assets/images/2017/06/blogging-photo-2016-768x512.jpg 768w, http://godev.gemustudio.com/assets/images/2017/06/blogging-photo-2016.jpg 900w" sizes="(max-width: 300px) 100vw, 300px" /></a><span style="font-size: 20px;">Nowe funkcjonalności wdrażane w aplikacji powinny znajdować się w swoich indywidualnych pod gałęziach. Daje to niejako piaskownice do pracy nad nimi, i gwarancję, że nie popsujemy funkcjonowania systemu w trakcie prac.</span></span>
     </p>
     
     <p style="text-align: justify;">
@@ -227,7 +227,7 @@ tags:
     </h2>
     
     <p style="text-align: justify;">
-      <span style="font-weight: 400;"><a href="http://godev.gemustudio.com/images/2017/06/blogging-photo-8056.jpg"><img class="size-medium wp-image-1551 alignleft" src="http://godev.gemustudio.com/images/2017/06/blogging-photo-8056-300x200.jpg" alt="Model pracy z repozytorium GITa." width="300" height="200" srcset="http://godev.gemustudio.com/images/2017/06/blogging-photo-8056-300x200.jpg 300w, http://godev.gemustudio.com/images/2017/06/blogging-photo-8056-768x512.jpg 768w, http://godev.gemustudio.com/images/2017/06/blogging-photo-8056.jpg 900w" sizes="(max-width: 300px) 100vw, 300px" /></a><span style="font-size: 20px;">Releasy to nic innego jak przygotowanie zestawu funkcjonalności do grupowego wydania na produkcję. W warstwie <strong>release branches</strong> stosujemy nazewnictwo  </span></span><span style="font-size: 20px;"><b>release-*.</b></span>
+      <span style="font-weight: 400;"><a href="http://godev.gemustudio.com/assets/images/2017/06/blogging-photo-8056.jpg"><img class="size-medium wp-image-1551 alignleft" src="http://godev.gemustudio.com/assets/images/2017/06/blogging-photo-8056-300x200.jpg" alt="Model pracy z repozytorium GITa." width="300" height="200" srcset="http://godev.gemustudio.com/assets/images/2017/06/blogging-photo-8056-300x200.jpg 300w, http://godev.gemustudio.com/assets/images/2017/06/blogging-photo-8056-768x512.jpg 768w, http://godev.gemustudio.com/assets/images/2017/06/blogging-photo-8056.jpg 900w" sizes="(max-width: 300px) 100vw, 300px" /></a><span style="font-size: 20px;">Releasy to nic innego jak przygotowanie zestawu funkcjonalności do grupowego wydania na produkcję. W warstwie <strong>release branches</strong> stosujemy nazewnictwo  </span></span><span style="font-size: 20px;"><b>release-*.</b></span>
     </p>
     
     <p style="text-align: justify;">

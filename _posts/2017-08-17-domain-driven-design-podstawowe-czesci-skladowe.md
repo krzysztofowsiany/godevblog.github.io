@@ -8,7 +8,7 @@ guid: http://godev.gemustudio.com/?p=1699
 permalink: /2017/08/17/domain-driven-design-podstawowe-czesci-skladowe/
 dslc_post_template:
   - default
-image: /images/2017/08/blogging-photo-2144.jpg
+image: /assets/images/2017/08/blogging-photo-2144.jpg
 categories:
   - Bez kategorii
   - Domain-Driven Design
@@ -40,7 +40,7 @@ tags:
     </h2>
     
     <p>
-      <img class="size-medium wp-image-1708 alignleft" src="http://godev.gemustudio.com/images/2017/08/blogging-photo-1349-300x200.jpg" alt="" width="300" height="200" srcset="http://godev.gemustudio.com/images/2017/08/blogging-photo-1349-300x200.jpg 300w, http://godev.gemustudio.com/images/2017/08/blogging-photo-1349-768x512.jpg 768w, http://godev.gemustudio.com/images/2017/08/blogging-photo-1349.jpg 900w" sizes="(max-width: 300px) 100vw, 300px" />
+      <img class="size-medium wp-image-1708 alignleft" src="http://godev.gemustudio.com/assets/images/2017/08/blogging-photo-1349-300x200.jpg" alt="" width="300" height="200" srcset="http://godev.gemustudio.com/assets/images/2017/08/blogging-photo-1349-300x200.jpg 300w, http://godev.gemustudio.com/assets/images/2017/08/blogging-photo-1349-768x512.jpg 768w, http://godev.gemustudio.com/assets/images/2017/08/blogging-photo-1349.jpg 900w" sizes="(max-width: 300px) 100vw, 300px" />
     </p>
     
     <p style="text-align: justify;">
@@ -83,7 +83,7 @@ tags:
     </h2>
     
     <p style="text-align: justify;">
-      <span style="font-size: 16px;"><a href="http://godev.gemustudio.com/images/2017/08/blogging-photo-1167.jpg"><img class="size-medium wp-image-1713 alignright" src="http://godev.gemustudio.com/images/2017/08/blogging-photo-1167-300x200.jpg" alt="Encje (ang. entity)" width="300" height="200" srcset="http://godev.gemustudio.com/images/2017/08/blogging-photo-1167-300x200.jpg 300w, http://godev.gemustudio.com/images/2017/08/blogging-photo-1167-768x512.jpg 768w, http://godev.gemustudio.com/images/2017/08/blogging-photo-1167.jpg 900w" sizes="(max-width: 300px) 100vw, 300px" /></a>Encje określane są także jako <strong>Obiekty Referencyjne (</strong>ang.<strong> Reference Objects)</strong>.</span>
+      <span style="font-size: 16px;"><a href="http://godev.gemustudio.com/assets/images/2017/08/blogging-photo-1167.jpg"><img class="size-medium wp-image-1713 alignright" src="http://godev.gemustudio.com/assets/images/2017/08/blogging-photo-1167-300x200.jpg" alt="Encje (ang. entity)" width="300" height="200" srcset="http://godev.gemustudio.com/assets/images/2017/08/blogging-photo-1167-300x200.jpg 300w, http://godev.gemustudio.com/assets/images/2017/08/blogging-photo-1167-768x512.jpg 768w, http://godev.gemustudio.com/assets/images/2017/08/blogging-photo-1167.jpg 900w" sizes="(max-width: 300px) 100vw, 300px" /></a>Encje określane są także jako <strong>Obiekty Referencyjne (</strong>ang.<strong> Reference Objects)</strong>.</span>
     </p>
     
     <p style="text-align: justify;">
@@ -111,7 +111,7 @@ tags:
     </h2>
     
     <p style="text-align: justify;">
-      <span style="font-size: 16px;">O<a href="http://godev.gemustudio.com/images/2017/08/blogging-photo-1165.jpg"><img class="size-medium wp-image-1715 alignleft" src="http://godev.gemustudio.com/images/2017/08/blogging-photo-1165-300x200.jpg" alt="Obiekty wartości (ang. value object)" width="300" height="200" srcset="http://godev.gemustudio.com/images/2017/08/blogging-photo-1165-300x200.jpg 300w, http://godev.gemustudio.com/images/2017/08/blogging-photo-1165-768x512.jpg 768w, http://godev.gemustudio.com/images/2017/08/blogging-photo-1165.jpg 900w" sizes="(max-width: 300px) 100vw, 300px" /></a>biekty tego typu nie posiadają tożsamości służą przede wszystkim do opisywania rzeczy (określają aspekt dziedziny). Najważniejsze są atrybuty obiektu, a nie tożsamość.</span>
+      <span style="font-size: 16px;">O<a href="http://godev.gemustudio.com/assets/images/2017/08/blogging-photo-1165.jpg"><img class="size-medium wp-image-1715 alignleft" src="http://godev.gemustudio.com/assets/images/2017/08/blogging-photo-1165-300x200.jpg" alt="Obiekty wartości (ang. value object)" width="300" height="200" srcset="http://godev.gemustudio.com/assets/images/2017/08/blogging-photo-1165-300x200.jpg 300w, http://godev.gemustudio.com/assets/images/2017/08/blogging-photo-1165-768x512.jpg 768w, http://godev.gemustudio.com/assets/images/2017/08/blogging-photo-1165.jpg 900w" sizes="(max-width: 300px) 100vw, 300px" /></a>biekty tego typu nie posiadają tożsamości służą przede wszystkim do opisywania rzeczy (określają aspekt dziedziny). Najważniejsze są atrybuty obiektu, a nie tożsamość.</span>
     </p>
     
     <p style="text-align: justify;">
@@ -166,7 +166,7 @@ tags:
     </h2>
     
     <p style="text-align: justify;">
-      <span style="font-size: 16px;">N<a href="http://godev.gemustudio.com/images/2017/08/blogging-photo-1572.jpg"><img class="size-medium wp-image-1718 alignright" src="http://godev.gemustudio.com/images/2017/08/blogging-photo-1572-300x200.jpg" alt="Usługi (ang. service)" width="300" height="200" srcset="http://godev.gemustudio.com/images/2017/08/blogging-photo-1572-300x200.jpg 300w, http://godev.gemustudio.com/images/2017/08/blogging-photo-1572-768x512.jpg 768w, http://godev.gemustudio.com/images/2017/08/blogging-photo-1572.jpg 900w" sizes="(max-width: 300px) 100vw, 300px" /></a>ie wszystkie składowe elementy <strong>Modelu Dziedziny</strong> (ang. <strong>Domain Model</strong>), opierają się na przechowywaniu wartości, niekiedy zachodzi potrzeba wyodrębnienia operacji. Nie zawierają one żadnego stanu, nie przechowują wartości, a jedynie świadczą działanie. W tej sytuacji można mówić o <strong>usługach </strong>(ang. <strong>services</strong>).</span>
+      <span style="font-size: 16px;">N<a href="http://godev.gemustudio.com/assets/images/2017/08/blogging-photo-1572.jpg"><img class="size-medium wp-image-1718 alignright" src="http://godev.gemustudio.com/assets/images/2017/08/blogging-photo-1572-300x200.jpg" alt="Usługi (ang. service)" width="300" height="200" srcset="http://godev.gemustudio.com/assets/images/2017/08/blogging-photo-1572-300x200.jpg 300w, http://godev.gemustudio.com/assets/images/2017/08/blogging-photo-1572-768x512.jpg 768w, http://godev.gemustudio.com/assets/images/2017/08/blogging-photo-1572.jpg 900w" sizes="(max-width: 300px) 100vw, 300px" /></a>ie wszystkie składowe elementy <strong>Modelu Dziedziny</strong> (ang. <strong>Domain Model</strong>), opierają się na przechowywaniu wartości, niekiedy zachodzi potrzeba wyodrębnienia operacji. Nie zawierają one żadnego stanu, nie przechowują wartości, a jedynie świadczą działanie. W tej sytuacji można mówić o <strong>usługach </strong>(ang. <strong>services</strong>).</span>
     </p>
     
     <p style="text-align: justify;">
@@ -202,7 +202,7 @@ tags:
     </h2>
     
     <p style="text-align: justify;">
-      <span style="font-size: 16px;">P<a href="http://godev.gemustudio.com/images/2017/08/blogging-photo-2144.jpg"><img class="size-medium wp-image-1707 alignleft" src="http://godev.gemustudio.com/images/2017/08/blogging-photo-2144-300x200.jpg" alt="Usługi (ang. service)" width="300" height="200" srcset="http://godev.gemustudio.com/images/2017/08/blogging-photo-2144-300x200.jpg 300w, http://godev.gemustudio.com/images/2017/08/blogging-photo-2144-768x512.jpg 768w, http://godev.gemustudio.com/images/2017/08/blogging-photo-2144.jpg 900w" sizes="(max-width: 300px) 100vw, 300px" /></a>rojektowanie <strong>Modelu Dziedziny</strong> (ang. <strong>Domain  Model</strong>) nie jest pozbawione problemów wynikających z nadmiernego rozrastania. W celu uproszczenia i łatwiejszego zrozumienia istoty modelu należy wprowadzić podział na moduły.</span>
+      <span style="font-size: 16px;">P<a href="http://godev.gemustudio.com/assets/images/2017/08/blogging-photo-2144.jpg"><img class="size-medium wp-image-1707 alignleft" src="http://godev.gemustudio.com/assets/images/2017/08/blogging-photo-2144-300x200.jpg" alt="Usługi (ang. service)" width="300" height="200" srcset="http://godev.gemustudio.com/assets/images/2017/08/blogging-photo-2144-300x200.jpg 300w, http://godev.gemustudio.com/assets/images/2017/08/blogging-photo-2144-768x512.jpg 768w, http://godev.gemustudio.com/assets/images/2017/08/blogging-photo-2144.jpg 900w" sizes="(max-width: 300px) 100vw, 300px" /></a>rojektowanie <strong>Modelu Dziedziny</strong> (ang. <strong>Domain  Model</strong>) nie jest pozbawione problemów wynikających z nadmiernego rozrastania. W celu uproszczenia i łatwiejszego zrozumienia istoty modelu należy wprowadzić podział na moduły.</span>
     </p>
     
     <p style="text-align: justify;">

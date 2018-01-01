@@ -6,7 +6,7 @@ author: gocom
 layout: post
 guid: http://godev.gemustudio.com/?p=1376
 permalink: /2017/06/09/vps-noc-grozy/
-image: /images/2017/06/blogging-photo-7983.jpg
+image: /assets/images/2017/06/blogging-photo-7983.jpg
 categories:
   - Bez kategorii
 tags:
@@ -28,7 +28,7 @@ tags:
     </p>
     
     <p style="text-align: justify;">
-      Dwie godziny walki z g____m, nic żadnego konstruktywnego rozwiązania  a tu zegar tyka pora spać strony nie działają&#8230;<a href="http://godev.gemustudio.com/images/2017/04/event.png"><img class="wp-image-819 alignright" src="http://godev.gemustudio.com/images/2017/04/event-300x272.png" alt="Laravel" width="292" height="265" srcset="http://godev.gemustudio.com/images/2017/04/event-300x272.png 300w, http://godev.gemustudio.com/images/2017/04/event-768x697.png 768w, http://godev.gemustudio.com/images/2017/04/event.png 1000w" sizes="(max-width: 292px) 100vw, 292px" /></a>
+      Dwie godziny walki z g____m, nic żadnego konstruktywnego rozwiązania  a tu zegar tyka pora spać strony nie działają&#8230;<a href="http://godev.gemustudio.com/assets/images/2017/04/event.png"><img class="wp-image-819 alignright" src="http://godev.gemustudio.com/assets/images/2017/04/event-300x272.png" alt="Laravel" width="292" height="265" srcset="http://godev.gemustudio.com/assets/images/2017/04/event-300x272.png 300w, http://godev.gemustudio.com/assets/images/2017/04/event-768x697.png 768w, http://godev.gemustudio.com/assets/images/2017/04/event.png 1000w" sizes="(max-width: 292px) 100vw, 292px" /></a>
     </p>
     
     <p style="text-align: justify;">

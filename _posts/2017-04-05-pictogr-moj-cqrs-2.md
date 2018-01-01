@@ -6,7 +6,7 @@ author: gocom
 layout: post
 guid: http://godev.gemustudio.com/?p=589
 permalink: /2017/04/05/pictogr-moj-cqrs-2/
-image: /images/2017/04/metro.png
+image: /assets/images/2017/04/metro.png
 categories:
   - Daj Się Poznać 2017
   - PictOgr
@@ -24,7 +24,7 @@ tags:
     </h1>
     
     <p style="text-align: justify;">
-      <a href="http://godev.gemustudio.com/images/2017/04/metro.png"><img class="alignleft wp-image-685 size-medium" src="http://godev.gemustudio.com/images/2017/04/metro-300x200.png" alt="CQRS" width="300" height="200" srcset="http://godev.gemustudio.com/images/2017/04/metro-300x200.png 300w, http://godev.gemustudio.com/images/2017/04/metro-768x512.png 768w, http://godev.gemustudio.com/images/2017/04/metro-1024x683.png 1024w" sizes="(max-width: 300px) 100vw, 300px" /></a>Po omówieniu komend pora na przejście do zapytań. Ich celem jest odczytywanie danych i z wracanie w odpowiedniej do wymagania formie.
+      <a href="http://godev.gemustudio.com/assets/images/2017/04/metro.png"><img class="alignleft wp-image-685 size-medium" src="http://godev.gemustudio.com/assets/images/2017/04/metro-300x200.png" alt="CQRS" width="300" height="200" srcset="http://godev.gemustudio.com/assets/images/2017/04/metro-300x200.png 300w, http://godev.gemustudio.com/assets/images/2017/04/metro-768x512.png 768w, http://godev.gemustudio.com/assets/images/2017/04/metro-1024x683.png 1024w" sizes="(max-width: 300px) 100vw, 300px" /></a>Po omówieniu komend pora na przejście do zapytań. Ich celem jest odczytywanie danych i z wracanie w odpowiedniej do wymagania formie.
     </p>
     
     <p style="text-align: justify;">
@@ -160,7 +160,7 @@ namespace PictOgr.Core.CQRS.Bus
     </p>
     
     <h4 style="text-align: justify;">
-      Proc<a href="http://godev.gemustudio.com/images/2017/04/pałąc_kultury_i_nauki_2.png"><img class="alignleft wp-image-688 " src="http://godev.gemustudio.com/images/2017/04/pałąc_kultury_i_nauki_2-200x300.png" alt="" width="152" height="228" srcset="http://godev.gemustudio.com/images/2017/04/pałąc_kultury_i_nauki_2-200x300.png 200w, http://godev.gemustudio.com/images/2017/04/pałąc_kultury_i_nauki_2-768x1152.png 768w, http://godev.gemustudio.com/images/2017/04/pałąc_kultury_i_nauki_2-683x1024.png 683w, http://godev.gemustudio.com/images/2017/04/pałąc_kultury_i_nauki_2.png 1280w" sizes="(max-width: 152px) 100vw, 152px" /></a>es przetwarzania komendy można przedstawić w następujący sposób:
+      Proc<a href="http://godev.gemustudio.com/assets/images/2017/04/pałąc_kultury_i_nauki_2.png"><img class="alignleft wp-image-688 " src="http://godev.gemustudio.com/assets/images/2017/04/pałąc_kultury_i_nauki_2-200x300.png" alt="" width="152" height="228" srcset="http://godev.gemustudio.com/assets/images/2017/04/pałąc_kultury_i_nauki_2-200x300.png 200w, http://godev.gemustudio.com/assets/images/2017/04/pałąc_kultury_i_nauki_2-768x1152.png 768w, http://godev.gemustudio.com/assets/images/2017/04/pałąc_kultury_i_nauki_2-683x1024.png 683w, http://godev.gemustudio.com/assets/images/2017/04/pałąc_kultury_i_nauki_2.png 1280w" sizes="(max-width: 152px) 100vw, 152px" /></a>es przetwarzania komendy można przedstawić w następujący sposób:
     </h4>
     
     <p>
@@ -293,7 +293,7 @@ namespace PictOgr.Core.Queries
     </p>
     
     <p style="text-align: justify;">
-      Tak<a href="http://godev.gemustudio.com/images/2017/04/stadion_narodowy.png"><img class="size-medium wp-image-690 alignleft" src="http://godev.gemustudio.com/images/2017/04/stadion_narodowy-300x200.png" alt="" width="300" height="200" srcset="http://godev.gemustudio.com/images/2017/04/stadion_narodowy-300x200.png 300w, http://godev.gemustudio.com/images/2017/04/stadion_narodowy-768x512.png 768w, http://godev.gemustudio.com/images/2017/04/stadion_narodowy-1024x683.png 1024w" sizes="(max-width: 300px) 100vw, 300px" /></a> jak w przypadku komend, należy przygotować mocka dla interfejsu <strong>IQueryHandler</strong>.
+      Tak<a href="http://godev.gemustudio.com/assets/images/2017/04/stadion_narodowy.png"><img class="size-medium wp-image-690 alignleft" src="http://godev.gemustudio.com/assets/images/2017/04/stadion_narodowy-300x200.png" alt="" width="300" height="200" srcset="http://godev.gemustudio.com/assets/images/2017/04/stadion_narodowy-300x200.png 300w, http://godev.gemustudio.com/assets/images/2017/04/stadion_narodowy-768x512.png 768w, http://godev.gemustudio.com/assets/images/2017/04/stadion_narodowy-1024x683.png 1024w" sizes="(max-width: 300px) 100vw, 300px" /></a> jak w przypadku komend, należy przygotować mocka dla interfejsu <strong>IQueryHandler</strong>.
     </p>
     
     <p style="text-align: justify;">
@@ -405,7 +405,7 @@ namespace PictOgr.Core.Queries
     </h1>
     
     <p style="text-align: justify;">
-      <a href="http://godev.gemustudio.com/images/2017/04/stadion_narodowy_filar.png"><img class="size-medium wp-image-691 alignright" src="http://godev.gemustudio.com/images/2017/04/stadion_narodowy_filar-200x300.png" alt="" width="200" height="300" srcset="http://godev.gemustudio.com/images/2017/04/stadion_narodowy_filar-200x300.png 200w, http://godev.gemustudio.com/images/2017/04/stadion_narodowy_filar-768x1152.png 768w, http://godev.gemustudio.com/images/2017/04/stadion_narodowy_filar-683x1024.png 683w, http://godev.gemustudio.com/images/2017/04/stadion_narodowy_filar.png 1280w" sizes="(max-width: 200px) 100vw, 200px" /></a>Po implementacji komend i zapytań, mamy do dyspozycji bardzo potężny mechanizm, który można wykorzystać jako filar do budowy wielu aplikacji.
+      <a href="http://godev.gemustudio.com/assets/images/2017/04/stadion_narodowy_filar.png"><img class="size-medium wp-image-691 alignright" src="http://godev.gemustudio.com/assets/images/2017/04/stadion_narodowy_filar-200x300.png" alt="" width="200" height="300" srcset="http://godev.gemustudio.com/assets/images/2017/04/stadion_narodowy_filar-200x300.png 200w, http://godev.gemustudio.com/assets/images/2017/04/stadion_narodowy_filar-768x1152.png 768w, http://godev.gemustudio.com/assets/images/2017/04/stadion_narodowy_filar-683x1024.png 683w, http://godev.gemustudio.com/assets/images/2017/04/stadion_narodowy_filar.png 1280w" sizes="(max-width: 200px) 100vw, 200px" /></a>Po implementacji komend i zapytań, mamy do dyspozycji bardzo potężny mechanizm, który można wykorzystać jako filar do budowy wielu aplikacji.
     </p>
     
     <p style="text-align: justify;">
@@ -454,7 +454,7 @@ namespace PictOgr.Core.Queries
       </div>
       
       <div style="text-align: center;">
-         <a href="http://devstyle.pl/daj-sie-poznac/" target="_blank" rel="noopener noreferrer"><img class="wp-image-104 size-full alignright" title="Daj Się Poznać 2017" src="http://godev.gemustudio.com/images/2017/02/dsp2017-3.png" alt="" width="68" height="154" /></a>
+         <a href="http://devstyle.pl/daj-sie-poznac/" target="_blank" rel="noopener noreferrer"><img class="wp-image-104 size-full alignright" title="Daj Się Poznać 2017" src="http://godev.gemustudio.com/assets/images/2017/02/dsp2017-3.png" alt="" width="68" height="154" /></a>
       </div>
       
       <div style="font-size: 10pt; padding: 10px;">

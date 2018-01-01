@@ -8,7 +8,7 @@ guid: http://godev.gemustudio.com/?p=1622
 permalink: /2017/07/17/domain-driven-design-jezyk-wszechobecny/
 dslc_post_template:
   - default
-image: /images/2017/07/blogging-photo-9933.jpg
+image: /assets/images/2017/07/blogging-photo-9933.jpg
 categories:
   - Bez kategorii
   - Domain-Driven Design
@@ -25,7 +25,7 @@ tags:
 <div id="dslc-theme-content">
   <div id="dslc-theme-content-inner">
     <p>
-      <img class="size-medium wp-image-1633 alignleft" src="http://godev.gemustudio.com/images/2017/07/blogging-photo-9933-300x200.jpg" alt="Domain-Driven Design" width="300" height="200" srcset="http://godev.gemustudio.com/images/2017/07/blogging-photo-9933-300x200.jpg 300w, http://godev.gemustudio.com/images/2017/07/blogging-photo-9933-768x512.jpg 768w, http://godev.gemustudio.com/images/2017/07/blogging-photo-9933.jpg 900w" sizes="(max-width: 300px) 100vw, 300px" />
+      <img class="size-medium wp-image-1633 alignleft" src="http://godev.gemustudio.com/assets/images/2017/07/blogging-photo-9933-300x200.jpg" alt="Domain-Driven Design" width="300" height="200" srcset="http://godev.gemustudio.com/assets/images/2017/07/blogging-photo-9933-300x200.jpg 300w, http://godev.gemustudio.com/assets/images/2017/07/blogging-photo-9933-768x512.jpg 768w, http://godev.gemustudio.com/assets/images/2017/07/blogging-photo-9933.jpg 900w" sizes="(max-width: 300px) 100vw, 300px" />
     </p>
     
     <p style="text-align: justify;">
@@ -57,7 +57,7 @@ tags:
     </p>
     
     <p>
-      <img class="wp-image-1630 size-full aligncenter" style="font-family: arial, helvetica, sans-serif; text-align: justify; margin: 0 auto;" src="http://godev.gemustudio.com/images/2017/07/g8266.png" alt="Domain-Driven Design - Ubiquitous Language" width="592" height="286" srcset="http://godev.gemustudio.com/images/2017/07/g8266.png 592w, http://godev.gemustudio.com/images/2017/07/g8266-300x145.png 300w" sizes="(max-width: 592px) 100vw, 592px" />
+      <img class="wp-image-1630 size-full aligncenter" style="font-family: arial, helvetica, sans-serif; text-align: justify; margin: 0 auto;" src="http://godev.gemustudio.com/assets/images/2017/07/g8266.png" alt="Domain-Driven Design - Ubiquitous Language" width="592" height="286" srcset="http://godev.gemustudio.com/assets/images/2017/07/g8266.png 592w, http://godev.gemustudio.com/assets/images/2017/07/g8266-300x145.png 300w" sizes="(max-width: 592px) 100vw, 592px" />
     </p>
     
     <p>
@@ -73,7 +73,7 @@ tags:
     </p>
     
     <p style="text-align: justify;">
-      <span style="font-size: 16px; font-family: arial, helvetica, sans-serif;"><span style="font-weight: 400;"><a href="http://godev.gemustudio.com/images/2017/07/blogging-photo-1191.jpg"><img class="size-medium wp-image-1636 alignright" src="http://godev.gemustudio.com/images/2017/07/blogging-photo-1191-200x300.jpg" alt="Ubiquitous Language" width="200" height="300" srcset="http://godev.gemustudio.com/images/2017/07/blogging-photo-1191-200x300.jpg 200w, http://godev.gemustudio.com/images/2017/07/blogging-photo-1191.jpg 600w" sizes="(max-width: 200px) 100vw, 200px" /></a>Słownictwo języka wszechobecnego powinno bazować na </span><b>Modelu Domeny (eng. Domain Model)</b><span style="font-weight: 400;">. Skutkuje to wykorzystaniem zdefiniowanych pojęć, w każdym aspekcie projektu. Od modelowania klas po dokumentację i komunikację dotyczącą projektu. Zespół powinien weryfikować wprowadzone pojęcia w celu eliminacji błędnych sformułowań. Dobrą praktyką jest wypowiadanie pojęć na głos, łatwiej będzie wówczas wyłapać dziwne sformułowania.</span></span>
+      <span style="font-size: 16px; font-family: arial, helvetica, sans-serif;"><span style="font-weight: 400;"><a href="http://godev.gemustudio.com/assets/images/2017/07/blogging-photo-1191.jpg"><img class="size-medium wp-image-1636 alignright" src="http://godev.gemustudio.com/assets/images/2017/07/blogging-photo-1191-200x300.jpg" alt="Ubiquitous Language" width="200" height="300" srcset="http://godev.gemustudio.com/assets/images/2017/07/blogging-photo-1191-200x300.jpg 200w, http://godev.gemustudio.com/assets/images/2017/07/blogging-photo-1191.jpg 600w" sizes="(max-width: 200px) 100vw, 200px" /></a>Słownictwo języka wszechobecnego powinno bazować na </span><b>Modelu Domeny (eng. Domain Model)</b><span style="font-weight: 400;">. Skutkuje to wykorzystaniem zdefiniowanych pojęć, w każdym aspekcie projektu. Od modelowania klas po dokumentację i komunikację dotyczącą projektu. Zespół powinien weryfikować wprowadzone pojęcia w celu eliminacji błędnych sformułowań. Dobrą praktyką jest wypowiadanie pojęć na głos, łatwiej będzie wówczas wyłapać dziwne sformułowania.</span></span>
     </p>
     
     <p style="text-align: justify;">

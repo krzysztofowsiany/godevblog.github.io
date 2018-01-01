@@ -8,7 +8,7 @@ guid: http://godev.gemustudio.com/?p=858
 permalink: /2017/04/21/grywalizacja/
 dslc_post_template:
   - default
-image: /images/2017/04/konsola-classic.jpg
+image: /assets/images/2017/04/konsola-classic.jpg
 categories:
   - Bez kategorii
   - Daj Się Poznać 2017
@@ -21,7 +21,7 @@ tags:
 <div id="dslc-theme-content">
   <div id="dslc-theme-content-inner">
     <p>
-      <img class="aligncenter wp-image-864 size-medium" style="margin: 0 auto;" src="http://godev.gemustudio.com/images/2017/04/konsola-classic-300x273.jpg" alt="Grywalizacja" width="300" height="273" srcset="http://godev.gemustudio.com/images/2017/04/konsola-classic-300x273.jpg 300w, http://godev.gemustudio.com/images/2017/04/konsola-classic.jpg 600w" sizes="(max-width: 300px) 100vw, 300px" />
+      <img class="aligncenter wp-image-864 size-medium" style="margin: 0 auto;" src="http://godev.gemustudio.com/assets/images/2017/04/konsola-classic-300x273.jpg" alt="Grywalizacja" width="300" height="273" srcset="http://godev.gemustudio.com/assets/images/2017/04/konsola-classic-300x273.jpg 300w, http://godev.gemustudio.com/assets/images/2017/04/konsola-classic.jpg 600w" sizes="(max-width: 300px) 100vw, 300px" />
     </p>
     
     <p style="text-align: justify;">
@@ -70,7 +70,7 @@ tags:
     </p>
     
     <p style="text-align: justify;">
-      <img class="size-medium aligncenter" style="margin: 0 auto;" src="https://wiki.teamfortress.com/w/images/thumb/3/3e/Achieved.png/200px-Achieved.png?t=20110424214508" width="200" height="200" />
+      <img class="size-medium aligncenter" style="margin: 0 auto;" src="https://wiki.teamfortress.com/w/assets/images/thumb/3/3e/Achieved.png/200px-Achieved.png?t=20110424214508" width="200" height="200" />
     </p>
     
     <p style="text-align: justify;">
@@ -133,7 +133,7 @@ tags:
       </div>
       
       <div style="text-align: center;">
-         <a href="http://devstyle.pl/daj-sie-poznac/" target="_blank" rel="noopener noreferrer"><img class="wp-image-104 size-full alignright" title="Daj Się Poznać 2017" src="http://godev.gemustudio.com/images/2017/02/dsp2017-3.png" alt="" width="68" height="154" /></a>
+         <a href="http://devstyle.pl/daj-sie-poznac/" target="_blank" rel="noopener noreferrer"><img class="wp-image-104 size-full alignright" title="Daj Się Poznać 2017" src="http://godev.gemustudio.com/assets/images/2017/02/dsp2017-3.png" alt="" width="68" height="154" /></a>
       </div>
       
       <div style="font-size: 10pt; padding: 10px;">

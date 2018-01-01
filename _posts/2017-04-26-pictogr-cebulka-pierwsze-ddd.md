@@ -6,7 +6,7 @@ author: gocom
 layout: post
 guid: http://godev.gemustudio.com/?p=893
 permalink: /2017/04/26/pictogr-cebulka-pierwsze-ddd/
-image: /images/2017/04/480-Zwiebel-zwiebel-Fotolia-28405313-c-vadim-yerofeyev.jpg
+image: /assets/images/2017/04/480-Zwiebel-zwiebel-Fotolia-28405313-c-vadim-yerofeyev.jpg
 categories:
   - Daj Się Poznać 2017
   - PictOgr
@@ -21,7 +21,7 @@ tags:
 <div id="dslc-theme-content">
   <div id="dslc-theme-content-inner">
     <p style="text-align: justify;">
-      Udało się<a href="http://godev.gemustudio.com/images/2017/04/onion.png"><img class="alignright wp-image-905 size-full" src="http://godev.gemustudio.com/images/2017/04/onion.png" alt="Clean Architecture" width="194" height="206" /></a> ugotować cebulkę, projekt wygląda znacznie lepiej aniżeli wcześniej. I dodatkowo ma większe możliwości.
+      Udało się<a href="http://godev.gemustudio.com/assets/images/2017/04/onion.png"><img class="alignright wp-image-905 size-full" src="http://godev.gemustudio.com/assets/images/2017/04/onion.png" alt="Clean Architecture" width="194" height="206" /></a> ugotować cebulkę, projekt wygląda znacznie lepiej aniżeli wcześniej. I dodatkowo ma większe możliwości.
     </p>
     
     <p style="text-align: justify;">
@@ -53,7 +53,7 @@ tags:
     </h1>
     
     <p style="text-align: justify;">
-      <a href="http://godev.gemustudio.com/images/2017/04/pictogr_infrastructure.png"><img class="alignleft wp-image-906 size-full" src="http://godev.gemustudio.com/images/2017/04/pictogr_infrastructure.png" alt="Onion Architecture" width="174" height="254" /></a>Wydzieliłem warstwę domeny w projekcie Core.
+      <a href="http://godev.gemustudio.com/assets/images/2017/04/pictogr_infrastructure.png"><img class="alignleft wp-image-906 size-full" src="http://godev.gemustudio.com/assets/images/2017/04/pictogr_infrastructure.png" alt="Onion Architecture" width="174" height="254" /></a>Wydzieliłem warstwę domeny w projekcie Core.
     </p>
     
     <p style="text-align: justify;">
@@ -418,7 +418,7 @@ namespace PictOgr.Infrastructure.Repositories
       </div>
       
       <div style="text-align: center;">
-         <a href="http://devstyle.pl/daj-sie-poznac/" target="_blank" rel="noopener noreferrer"><img class="wp-image-104 size-full alignright" title="Daj Się Poznać 2017" src="http://godev.gemustudio.com/images/2017/02/dsp2017-3.png" alt="" width="68" height="154" /></a>
+         <a href="http://devstyle.pl/daj-sie-poznac/" target="_blank" rel="noopener noreferrer"><img class="wp-image-104 size-full alignright" title="Daj Się Poznać 2017" src="http://godev.gemustudio.com/assets/images/2017/02/dsp2017-3.png" alt="" width="68" height="154" /></a>
       </div>
       
       <div style="font-size: 10pt; padding: 10px;">

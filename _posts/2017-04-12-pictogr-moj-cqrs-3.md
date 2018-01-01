@@ -6,7 +6,7 @@ author: gocom
 layout: post
 guid: http://godev.gemustudio.com/?p=768
 permalink: /2017/04/12/pictogr-moj-cqrs-3/
-image: /images/2017/04/event.png
+image: /assets/images/2017/04/event.png
 categories:
   - Daj Się Poznać 2017
   - PictOgr
@@ -25,7 +25,7 @@ tags:
     </h1>
     
     <p style="text-align: justify;">
-      <a href="http://godev.gemustudio.com/images/2017/04/IMG-2015-08-03-8084.jpg"><img class="alignleft wp-image-818 size-medium" src="http://godev.gemustudio.com/images/2017/04/IMG-2015-08-03-8084-300x200.jpg" alt="CQRS" width="300" height="200" srcset="http://godev.gemustudio.com/images/2017/04/IMG-2015-08-03-8084-300x200.jpg 300w, http://godev.gemustudio.com/images/2017/04/IMG-2015-08-03-8084-768x512.jpg 768w, http://godev.gemustudio.com/images/2017/04/IMG-2015-08-03-8084-1024x683.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px" /></a> <a href="http://godev.gemustudio.com/images/2017/04/event.png"><br /> </a>Niniejszy wpis dotyczy implementacji <strong>Event Sourcingu</strong> w moim <strong>CQRSie</strong>. Jest to kolejna szyna wykorzystywana na różne sposoby.
+      <a href="http://godev.gemustudio.com/assets/images/2017/04/IMG-2015-08-03-8084.jpg"><img class="alignleft wp-image-818 size-medium" src="http://godev.gemustudio.com/assets/images/2017/04/IMG-2015-08-03-8084-300x200.jpg" alt="CQRS" width="300" height="200" srcset="http://godev.gemustudio.com/assets/images/2017/04/IMG-2015-08-03-8084-300x200.jpg 300w, http://godev.gemustudio.com/assets/images/2017/04/IMG-2015-08-03-8084-768x512.jpg 768w, http://godev.gemustudio.com/assets/images/2017/04/IMG-2015-08-03-8084-1024x683.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px" /></a> <a href="http://godev.gemustudio.com/assets/images/2017/04/event.png"><br /> </a>Niniejszy wpis dotyczy implementacji <strong>Event Sourcingu</strong> w moim <strong>CQRSie</strong>. Jest to kolejna szyna wykorzystywana na różne sposoby.
     </p>
     
     <p style="text-align: justify;">
@@ -220,7 +220,7 @@ tags:
     </p>
     
     <p style="text-align: justify;">
-      Jest to lista zdarzeń, do której zostaną, która to dopiero będzie powiązana z listą obserwatorów.<a href="http://godev.gemustudio.com/images/2017/04/event2.png"><img class="alignright wp-image-820 size-medium" src="http://godev.gemustudio.com/images/2017/04/event2-300x200.png" alt="CQRS" width="300" height="200" srcset="http://godev.gemustudio.com/images/2017/04/event2-300x200.png 300w, http://godev.gemustudio.com/images/2017/04/event2-768x512.png 768w, http://godev.gemustudio.com/images/2017/04/event2-1024x683.png 1024w" sizes="(max-width: 300px) 100vw, 300px" /></a>
+      Jest to lista zdarzeń, do której zostaną, która to dopiero będzie powiązana z listą obserwatorów.<a href="http://godev.gemustudio.com/assets/images/2017/04/event2.png"><img class="alignright wp-image-820 size-medium" src="http://godev.gemustudio.com/assets/images/2017/04/event2-300x200.png" alt="CQRS" width="300" height="200" srcset="http://godev.gemustudio.com/assets/images/2017/04/event2-300x200.png 300w, http://godev.gemustudio.com/assets/images/2017/04/event2-768x512.png 768w, http://godev.gemustudio.com/assets/images/2017/04/event2-1024x683.png 1024w" sizes="(max-width: 300px) 100vw, 300px" /></a>
     </p>
     
     <p style="text-align: justify;">
@@ -429,7 +429,7 @@ public void event_bus_register_many_handlers_should_add_event_handler()
     </p>
     
     <h1>
-      Na koniec<a href="http://godev.gemustudio.com/images/2017/04/event.png"><img class="alignright wp-image-819 size-thumbnail" src="http://godev.gemustudio.com/images/2017/04/event-150x150.png" alt="CQRS" width="150" height="150" /></a>
+      Na koniec<a href="http://godev.gemustudio.com/assets/images/2017/04/event.png"><img class="alignright wp-image-819 size-thumbnail" src="http://godev.gemustudio.com/assets/images/2017/04/event-150x150.png" alt="CQRS" width="150" height="150" /></a>
     </h1>
     
     <p style="text-align: justify;">
@@ -466,7 +466,7 @@ public void event_bus_register_many_handlers_should_add_event_handler()
       </div>
       
       <div style="text-align: center;">
-         <a href="http://devstyle.pl/daj-sie-poznac/" target="_blank" rel="noopener noreferrer"><img class="wp-image-104 size-full alignright" title="Daj Się Poznać 2017" src="http://godev.gemustudio.com/images/2017/02/dsp2017-3.png" alt="" width="68" height="154" /></a>
+         <a href="http://devstyle.pl/daj-sie-poznac/" target="_blank" rel="noopener noreferrer"><img class="wp-image-104 size-full alignright" title="Daj Się Poznać 2017" src="http://godev.gemustudio.com/assets/images/2017/02/dsp2017-3.png" alt="" width="68" height="154" /></a>
       </div>
       
       <div style="font-size: 10pt; padding: 10px;">

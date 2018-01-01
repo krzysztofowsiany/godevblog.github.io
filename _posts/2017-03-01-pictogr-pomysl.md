@@ -6,7 +6,7 @@ author: gocom
 layout: post
 guid: http://godev.gemustudio.com/?p=99
 permalink: /2017/03/01/pictogr-pomysl/
-image: /images/2017/02/cropped-cropped-13312654_595082080667914_3264864257081669109_n-e1488920181990.jpg
+image: /assets/images/2017/02/cropped-cropped-13312654_595082080667914_3264864257081669109_n-e1488920181990.jpg
 categories:
   - Bez kategorii
   - Daj Się Poznać 2017
@@ -45,7 +45,7 @@ tags:
     </p>
     
     <h1 style="text-align: center;">
-      <img class="alignleft wp-image-164" src="http://godev.gemustudio.com/images/2017/03/super_gocom_small-171x300.png" alt="Good Developer" width="177" height="311" />Zaraz, zaraz przecież jestem <strong>programistą</strong>, mam sprzątać cały ten bałagan!!!
+      <img class="alignleft wp-image-164" src="http://godev.gemustudio.com/assets/images/2017/03/super_gocom_small-171x300.png" alt="Good Developer" width="177" height="311" />Zaraz, zaraz przecież jestem <strong>programistą</strong>, mam sprzątać cały ten bałagan!!!
     </h1>
     
     <p>
@@ -87,7 +87,7 @@ tags:
     <ul style="list-style: none;">
       <li>
         <div style="float: none; clear: both;">
-          <img class="size-full wp-image-134 alignleft" style="float: left;" src="http://godev.gemustudio.com/images/2017/02/Pokeball.png" width="15" height="15" />
+          <img class="size-full wp-image-134 alignleft" style="float: left;" src="http://godev.gemustudio.com/assets/images/2017/02/Pokeball.png" width="15" height="15" />
         </div>
         
         <div style="float: left;">
@@ -97,7 +97,7 @@ tags:
       
       <li>
         <div style="float: none; clear: both;">
-          <img class="size-full wp-image-134 alignleft" style="float: left;" src="http://godev.gemustudio.com/images/2017/02/Pokeball.png" width="15" height="15" />
+          <img class="size-full wp-image-134 alignleft" style="float: left;" src="http://godev.gemustudio.com/assets/images/2017/02/Pokeball.png" width="15" height="15" />
         </div>
         
         <div style="float: left;">
@@ -107,7 +107,7 @@ tags:
       
       <li>
         <div style="float: none; clear: both;">
-          <img class="size-full wp-image-134 alignleft" style="float: left;" src="http://godev.gemustudio.com/images/2017/02/Pokeball.png" width="15" height="15" />
+          <img class="size-full wp-image-134 alignleft" style="float: left;" src="http://godev.gemustudio.com/assets/images/2017/02/Pokeball.png" width="15" height="15" />
         </div>
         
         <div style="float: left;">
@@ -117,7 +117,7 @@ tags:
       
       <li>
         <div style="float: none; clear: both;">
-          <img class="size-full wp-image-134 alignleft" style="float: left;" src="http://godev.gemustudio.com/images/2017/02/Pokeball.png" width="15" height="15" />
+          <img class="size-full wp-image-134 alignleft" style="float: left;" src="http://godev.gemustudio.com/assets/images/2017/02/Pokeball.png" width="15" height="15" />
         </div>
         
         <div style="float: left;">
@@ -127,7 +127,7 @@ tags:
       
       <li>
         <div style="float: none; clear: both;">
-          <img class="size-full wp-image-134 alignleft" style="float: left;" src="http://godev.gemustudio.com/images/2017/02/Pokeball.png" width="15" height="15" />
+          <img class="size-full wp-image-134 alignleft" style="float: left;" src="http://godev.gemustudio.com/assets/images/2017/02/Pokeball.png" width="15" height="15" />
         </div>
         
         <div style="float: left;">
@@ -137,7 +137,7 @@ tags:
       
       <li>
         <div style="float: none; clear: both;">
-          <img class="size-full wp-image-134 alignleft" style="float: left;" src="http://godev.gemustudio.com/images/2017/02/Pokeball.png" width="15" height="15" />
+          <img class="size-full wp-image-134 alignleft" style="float: left;" src="http://godev.gemustudio.com/assets/images/2017/02/Pokeball.png" width="15" height="15" />
         </div>
         
         <div style="float: left;">
@@ -196,7 +196,7 @@ tags:
       </div>
       
       <div style="text-align: center;">
-         <a href="http://devstyle.pl/daj-sie-poznac/" target="_blank" rel="noopener noreferrer"><img class="wp-image-104 size-full alignright" title="Daj Się Poznać 2017" src="http://godev.gemustudio.com/images/2017/02/dsp2017-3.png" alt="" width="68" height="154" /></a>
+         <a href="http://devstyle.pl/daj-sie-poznac/" target="_blank" rel="noopener noreferrer"><img class="wp-image-104 size-full alignright" title="Daj Się Poznać 2017" src="http://godev.gemustudio.com/assets/images/2017/02/dsp2017-3.png" alt="" width="68" height="154" /></a>
       </div>
       
       <div style="font-size: 10pt; padding: 10px;">

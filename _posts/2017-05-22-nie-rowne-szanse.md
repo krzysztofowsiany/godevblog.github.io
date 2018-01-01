@@ -6,14 +6,14 @@ author: gocom
 layout: post
 guid: http://godev.gemustudio.com/?p=1135
 permalink: /2017/05/22/nie-rowne-szanse/
-image: /images/2017/05/blogging-photo-9589.jpg
+image: /assets/images/2017/05/blogging-photo-9589.jpg
 categories:
   - Bez kategorii
 ---
 <div id="dslc-theme-content">
   <div id="dslc-theme-content-inner">
     <p style="text-align: justify;">
-      <span style="font-weight: 400;"><a href="http://godev.gemustudio.com/images/2017/05/blogging-photo-0278.jpg"><img class="alignleft wp-image-1139 size-medium" src="http://godev.gemustudio.com/images/2017/05/blogging-photo-0278-300x200.jpg" alt="Nierówne szanse" width="300" height="200" srcset="http://godev.gemustudio.com/images/2017/05/blogging-photo-0278-300x200.jpg 300w, http://godev.gemustudio.com/images/2017/05/blogging-photo-0278-768x512.jpg 768w, http://godev.gemustudio.com/images/2017/05/blogging-photo-0278.jpg 900w" sizes="(max-width: 300px) 100vw, 300px" /></a>Mówi się, iż każdy rodzi się z równymi szansami. Niestety nie wierzę w taką przesłankę.</span>
+      <span style="font-weight: 400;"><a href="http://godev.gemustudio.com/assets/images/2017/05/blogging-photo-0278.jpg"><img class="alignleft wp-image-1139 size-medium" src="http://godev.gemustudio.com/assets/images/2017/05/blogging-photo-0278-300x200.jpg" alt="Nierówne szanse" width="300" height="200" srcset="http://godev.gemustudio.com/assets/images/2017/05/blogging-photo-0278-300x200.jpg 300w, http://godev.gemustudio.com/assets/images/2017/05/blogging-photo-0278-768x512.jpg 768w, http://godev.gemustudio.com/assets/images/2017/05/blogging-photo-0278.jpg 900w" sizes="(max-width: 300px) 100vw, 300px" /></a>Mówi się, iż każdy rodzi się z równymi szansami. Niestety nie wierzę w taką przesłankę.</span>
     </p>
     
     <p style="text-align: justify;">
@@ -46,7 +46,7 @@ categories:
     
     <div style="background-color: greenyellow; padding: 5px;">
       <h3 style="text-align: center;">
-        <strong>Jednak nigdy nie należy się poddawać i myśleć pozytywnie, o przyszłości, mar<a href="http://godev.gemustudio.com/images/2017/05/blogging-photo-00226.jpg"><img class=" wp-image-1141 alignright" src="http://godev.gemustudio.com/images/2017/05/blogging-photo-00226-300x200.jpg" alt="" width="191" height="127" srcset="http://godev.gemustudio.com/images/2017/05/blogging-photo-00226-300x200.jpg 300w, http://godev.gemustudio.com/images/2017/05/blogging-photo-00226-768x512.jpg 768w, http://godev.gemustudio.com/images/2017/05/blogging-photo-00226.jpg 900w" sizes="(max-width: 191px) 100vw, 191px" /></a>zyć. </strong>
+        <strong>Jednak nigdy nie należy się poddawać i myśleć pozytywnie, o przyszłości, mar<a href="http://godev.gemustudio.com/assets/images/2017/05/blogging-photo-00226.jpg"><img class=" wp-image-1141 alignright" src="http://godev.gemustudio.com/assets/images/2017/05/blogging-photo-00226-300x200.jpg" alt="" width="191" height="127" srcset="http://godev.gemustudio.com/assets/images/2017/05/blogging-photo-00226-300x200.jpg 300w, http://godev.gemustudio.com/assets/images/2017/05/blogging-photo-00226-768x512.jpg 768w, http://godev.gemustudio.com/assets/images/2017/05/blogging-photo-00226.jpg 900w" sizes="(max-width: 191px) 100vw, 191px" /></a>zyć. </strong>
       </h3>
       
       <h3 style="text-align: center;">

@@ -6,7 +6,7 @@ author: gocom
 layout: post
 guid: http://godev.gemustudio.com/?p=641
 permalink: /2017/03/30/wpf-wlasny-konwerter/
-image: /images/2017/03/20160806-IMG_562900040_sierpnia-06-2016.jpg
+image: /assets/images/2017/03/20160806-IMG_562900040_sierpnia-06-2016.jpg
 categories:
   - Daj Się Poznać 2017
 tags:
@@ -21,7 +21,7 @@ tags:
     </h1>
     
     <p style="text-align: justify;">
-      <a href="http://godev.gemustudio.com/images/2017/03/20160629-IMG_412501343_czerwca-29-2016.jpg"><img class="alignleft wp-image-652 size-medium" src="http://godev.gemustudio.com/images/2017/03/20160629-IMG_412501343_czerwca-29-2016-300x200.jpg" alt="WPF - własny konwerter." width="300" height="200" srcset="http://godev.gemustudio.com/images/2017/03/20160629-IMG_412501343_czerwca-29-2016-300x200.jpg 300w, http://godev.gemustudio.com/images/2017/03/20160629-IMG_412501343_czerwca-29-2016-768x512.jpg 768w, http://godev.gemustudio.com/images/2017/03/20160629-IMG_412501343_czerwca-29-2016-1024x683.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px" /></a>Budując aplikacje na bazie WPFu, mamy do dyspozycji wiele ciekawych możliwości ominięcia pisania tak zwanego kodu &#8222;<strong>code-behind</strong>&#8222;. W celu wiązania danych z widokiem wykorzystujemy <strong>Bindowanie </strong>(łączenie właściwości kontrolek z przypisanym do widoku kontekstem danych <strong>DataContext</strong>).
+      <a href="http://godev.gemustudio.com/assets/images/2017/03/20160629-IMG_412501343_czerwca-29-2016.jpg"><img class="alignleft wp-image-652 size-medium" src="http://godev.gemustudio.com/assets/images/2017/03/20160629-IMG_412501343_czerwca-29-2016-300x200.jpg" alt="WPF - własny konwerter." width="300" height="200" srcset="http://godev.gemustudio.com/assets/images/2017/03/20160629-IMG_412501343_czerwca-29-2016-300x200.jpg 300w, http://godev.gemustudio.com/assets/images/2017/03/20160629-IMG_412501343_czerwca-29-2016-768x512.jpg 768w, http://godev.gemustudio.com/assets/images/2017/03/20160629-IMG_412501343_czerwca-29-2016-1024x683.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px" /></a>Budując aplikacje na bazie WPFu, mamy do dyspozycji wiele ciekawych możliwości ominięcia pisania tak zwanego kodu &#8222;<strong>code-behind</strong>&#8222;. W celu wiązania danych z widokiem wykorzystujemy <strong>Bindowanie </strong>(łączenie właściwości kontrolek z przypisanym do widoku kontekstem danych <strong>DataContext</strong>).
     </p>
     
     <p style="text-align: justify;">
@@ -63,7 +63,7 @@ namespace GUITests.Converters
 }</pre>
     
     <p style="text-align: justify;">
-      Konwerter posiada dwie składowe metody jakie implementuje z interfejsu <strong>IValueConverter</strong>:<a href="http://godev.gemustudio.com/images/2017/03/20160806-IMG_562900040_sierpnia-06-2016.jpg"><img class="size-medium wp-image-648 alignright" src="http://godev.gemustudio.com/images/2017/03/20160806-IMG_562900040_sierpnia-06-2016-300x200.jpg" alt="" width="300" height="200" srcset="http://godev.gemustudio.com/images/2017/03/20160806-IMG_562900040_sierpnia-06-2016-300x200.jpg 300w, http://godev.gemustudio.com/images/2017/03/20160806-IMG_562900040_sierpnia-06-2016-768x512.jpg 768w, http://godev.gemustudio.com/images/2017/03/20160806-IMG_562900040_sierpnia-06-2016-1024x683.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px" /></a>
+      Konwerter posiada dwie składowe metody jakie implementuje z interfejsu <strong>IValueConverter</strong>:<a href="http://godev.gemustudio.com/assets/images/2017/03/20160806-IMG_562900040_sierpnia-06-2016.jpg"><img class="size-medium wp-image-648 alignright" src="http://godev.gemustudio.com/assets/images/2017/03/20160806-IMG_562900040_sierpnia-06-2016-300x200.jpg" alt="" width="300" height="200" srcset="http://godev.gemustudio.com/assets/images/2017/03/20160806-IMG_562900040_sierpnia-06-2016-300x200.jpg 300w, http://godev.gemustudio.com/assets/images/2017/03/20160806-IMG_562900040_sierpnia-06-2016-768x512.jpg 768w, http://godev.gemustudio.com/assets/images/2017/03/20160806-IMG_562900040_sierpnia-06-2016-1024x683.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px" /></a>
     </p>
     
     <ul style="text-align: justify;">
@@ -142,7 +142,7 @@ namespace GUITests.Converters
       </div>
       
       <div style="text-align: center;">
-         <a href="http://devstyle.pl/daj-sie-poznac/" target="_blank" rel="noopener noreferrer"><img class="wp-image-104 size-full alignright" title="Daj Się Poznać 2017" src="http://godev.gemustudio.com/images/2017/02/dsp2017-3.png" alt="" width="68" height="154" /></a>
+         <a href="http://devstyle.pl/daj-sie-poznac/" target="_blank" rel="noopener noreferrer"><img class="wp-image-104 size-full alignright" title="Daj Się Poznać 2017" src="http://godev.gemustudio.com/assets/images/2017/02/dsp2017-3.png" alt="" width="68" height="154" /></a>
       </div>
       
       <div style="font-size: 10pt; padding: 10px;">

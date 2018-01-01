@@ -6,7 +6,7 @@ author: gocom
 layout: post
 guid: http://godev.gemustudio.com/?p=376
 permalink: /2017/03/14/crek-hipopotam-cz-2/
-image: /images/2017/03/crek_head.png
+image: /assets/images/2017/03/crek_head.png
 categories:
   - Daj Się Poznać 2017
 tags:
@@ -18,7 +18,7 @@ tags:
 <div id="dslc-theme-content">
   <div id="dslc-theme-content-inner">
     <p style="text-align: justify;">
-      <img class="alignleft wp-image-382" src="http://godev.gemustudio.com/images/2017/03/crek-215x300.png" alt="C#rek" width="148" height="207" />Przechadzając się po zielonym, zalesionym bagnie C#rek rozmyślał o robocie, jaką może wykonać przy pomocy tego co się dowiedział. Napotkał też na pewien problem. Ludzie się go boją, uciekają gdy tylko zobaczą wielkiego, strasznego i brzydkiego zielonego stwora. Więc jak u licha zarobi na życie, skoro ludzie się boją i mówią w nieco innym języku. Zaiste to jest problem…
+      <img class="alignleft wp-image-382" src="http://godev.gemustudio.com/assets/images/2017/03/crek-215x300.png" alt="C#rek" width="148" height="207" />Przechadzając się po zielonym, zalesionym bagnie C#rek rozmyślał o robocie, jaką może wykonać przy pomocy tego co się dowiedział. Napotkał też na pewien problem. Ludzie się go boją, uciekają gdy tylko zobaczą wielkiego, strasznego i brzydkiego zielonego stwora. Więc jak u licha zarobi na życie, skoro ludzie się boją i mówią w nieco innym języku. Zaiste to jest problem…
     </p>
     
     <h3 style="text-align: center; padding: 10px;">
@@ -37,7 +37,7 @@ tags:
     </h2>
     
     <p>
-      <a href="http://godev.gemustudio.com/images/2017/03/Package-Manager-Console-1.png"><img class="alignright wp-image-389" src="http://godev.gemustudio.com/images/2017/03/Package-Manager-Console-1-300x139.png" alt="" width="315" height="146" srcset="http://godev.gemustudio.com/images/2017/03/Package-Manager-Console-1-300x139.png 300w, http://godev.gemustudio.com/images/2017/03/Package-Manager-Console-1.png 410w" sizes="(max-width: 315px) 100vw, 315px" /></a>
+      <a href="http://godev.gemustudio.com/assets/images/2017/03/Package-Manager-Console-1.png"><img class="alignright wp-image-389" src="http://godev.gemustudio.com/assets/images/2017/03/Package-Manager-Console-1-300x139.png" alt="" width="315" height="146" srcset="http://godev.gemustudio.com/assets/images/2017/03/Package-Manager-Console-1-300x139.png 300w, http://godev.gemustudio.com/assets/images/2017/03/Package-Manager-Console-1.png 410w" sizes="(max-width: 315px) 100vw, 315px" /></a>
     </p>
     
     <p style="text-align: justify;">
@@ -94,7 +94,7 @@ tags:
     </h2>
     
     <p style="text-align: justify;">
-      Ta mądra bestia potrafi zapamiętać co jest do zrobienia i w odpowiedni sposób przedstawić tą wiedzę.<a href="http://godev.gemustudio.com/images/2017/03/Task-List.png"><img class="alignleft wp-image-399 size-medium" src="http://godev.gemustudio.com/images/2017/03/Task-List-300x205.png" alt="" width="300" height="205" srcset="http://godev.gemustudio.com/images/2017/03/Task-List-300x205.png 300w, http://godev.gemustudio.com/images/2017/03/Task-List.png 377w" sizes="(max-width: 300px) 100vw, 300px" /></a>
+      Ta mądra bestia potrafi zapamiętać co jest do zrobienia i w odpowiedni sposób przedstawić tą wiedzę.<a href="http://godev.gemustudio.com/assets/images/2017/03/Task-List.png"><img class="alignleft wp-image-399 size-medium" src="http://godev.gemustudio.com/assets/images/2017/03/Task-List-300x205.png" alt="" width="300" height="205" srcset="http://godev.gemustudio.com/assets/images/2017/03/Task-List-300x205.png 300w, http://godev.gemustudio.com/assets/images/2017/03/Task-List.png 377w" sizes="(max-width: 300px) 100vw, 300px" /></a>
     </p>
     
     <p style="text-align: justify;">
@@ -146,7 +146,7 @@ namespace DietaOgra.Dziczyzna
     </h2>
     
     <p>
-      <a href="http://godev.gemustudio.com/images/2017/03/Skróty.png"><img class="alignright wp-image-390 size-medium" src="http://godev.gemustudio.com/images/2017/03/Skróty-300x206.png" alt="" width="300" height="206" srcset="http://godev.gemustudio.com/images/2017/03/Skróty-300x206.png 300w, http://godev.gemustudio.com/images/2017/03/Skróty-768x526.png 768w, http://godev.gemustudio.com/images/2017/03/Skróty.png 814w" sizes="(max-width: 300px) 100vw, 300px" /></a>
+      <a href="http://godev.gemustudio.com/assets/images/2017/03/Skróty.png"><img class="alignright wp-image-390 size-medium" src="http://godev.gemustudio.com/assets/images/2017/03/Skróty-300x206.png" alt="" width="300" height="206" srcset="http://godev.gemustudio.com/assets/images/2017/03/Skróty-300x206.png 300w, http://godev.gemustudio.com/assets/images/2017/03/Skróty-768x526.png 768w, http://godev.gemustudio.com/assets/images/2017/03/Skróty.png 814w" sizes="(max-width: 300px) 100vw, 300px" /></a>
     </p>
     
     <p style="text-align: justify;">
@@ -174,7 +174,7 @@ namespace DietaOgra.Dziczyzna
     </h2>
     
     <p>
-      <a href="http://godev.gemustudio.com/images/2017/03/2017-03-14_18h16_17.png"><img class="alignleft wp-image-402 size-medium" src="http://godev.gemustudio.com/images/2017/03/2017-03-14_18h16_17-287x300.png" alt="" width="287" height="300" srcset="http://godev.gemustudio.com/images/2017/03/2017-03-14_18h16_17-287x300.png 287w, http://godev.gemustudio.com/images/2017/03/2017-03-14_18h16_17.png 338w" sizes="(max-width: 287px) 100vw, 287px" /></a>
+      <a href="http://godev.gemustudio.com/assets/images/2017/03/2017-03-14_18h16_17.png"><img class="alignleft wp-image-402 size-medium" src="http://godev.gemustudio.com/assets/images/2017/03/2017-03-14_18h16_17-287x300.png" alt="" width="287" height="300" srcset="http://godev.gemustudio.com/assets/images/2017/03/2017-03-14_18h16_17-287x300.png 287w, http://godev.gemustudio.com/assets/images/2017/03/2017-03-14_18h16_17.png 338w" sizes="(max-width: 287px) 100vw, 287px" /></a>
     </p>
     
     <p style="text-align: justify;">
@@ -251,7 +251,7 @@ namespace DietaOgra.Dziczyzna
     </div>
     
     <div style="text-align: center;">
-      <a href="http://devstyle.pl/daj-sie-poznac/" target="_blank" rel="noopener noreferrer"><img class="wp-image-104 size-full alignright" title="Daj Się Poznać 2017" src="http://godev.gemustudio.com/images/2017/02/dsp2017-3.png" alt="" width="68" height="154" /></a>
+      <a href="http://devstyle.pl/daj-sie-poznac/" target="_blank" rel="noopener noreferrer"><img class="wp-image-104 size-full alignright" title="Daj Się Poznać 2017" src="http://godev.gemustudio.com/assets/images/2017/02/dsp2017-3.png" alt="" width="68" height="154" /></a>
     </div>
     
     <div style="font-size: 10pt; padding: 10px;">

@@ -6,7 +6,7 @@ author: gocom
 layout: post
 guid: http://godev.gemustudio.com/?p=736
 permalink: /2017/04/07/trening-przez-las/
-image: /images/2017/04/bieg-1.png
+image: /assets/images/2017/04/bieg-1.png
 categories:
   - Bieganie
   - Fat Can Run
@@ -19,7 +19,7 @@ tags:
 <div id="dslc-theme-content">
   <div id="dslc-theme-content-inner">
     <p style="text-align: justify;">
-      <a href="http://godev.gemustudio.com/images/2017/04/IMG_8782-2.jpg"><img class="size-medium wp-image-765 alignleft" src="http://godev.gemustudio.com/images/2017/04/IMG_8782-2-300x251.jpg" alt="Trening ... przez las." width="300" height="251" srcset="http://godev.gemustudio.com/images/2017/04/IMG_8782-2-300x251.jpg 300w, http://godev.gemustudio.com/images/2017/04/IMG_8782-2-768x643.jpg 768w, http://godev.gemustudio.com/images/2017/04/IMG_8782-2-1024x858.jpg 1024w, http://godev.gemustudio.com/images/2017/04/IMG_8782-2.jpg 1289w" sizes="(max-width: 300px) 100vw, 300px" /></a>Minęło trochę czasu odkąd intensywniej biegałem. Nadmienię, iż nie jest to mój debiut. Trochę już się nadreptałem z moją bagatelną nadwagą <strong>40 kg</strong>. Nazbierało się kilka medali na dystansach (5, 7, 10 km). Ale najważniejsze jest to, że chcę biegać i mam pewne cele jakie pragnę osiągnąć po schudnięciu i wybudowaniu formy, mianowicie <strong>koronę półmaratonów, i maratonów</strong>.
+      <a href="http://godev.gemustudio.com/assets/images/2017/04/IMG_8782-2.jpg"><img class="size-medium wp-image-765 alignleft" src="http://godev.gemustudio.com/assets/images/2017/04/IMG_8782-2-300x251.jpg" alt="Trening ... przez las." width="300" height="251" srcset="http://godev.gemustudio.com/assets/images/2017/04/IMG_8782-2-300x251.jpg 300w, http://godev.gemustudio.com/assets/images/2017/04/IMG_8782-2-768x643.jpg 768w, http://godev.gemustudio.com/assets/images/2017/04/IMG_8782-2-1024x858.jpg 1024w, http://godev.gemustudio.com/assets/images/2017/04/IMG_8782-2.jpg 1289w" sizes="(max-width: 300px) 100vw, 300px" /></a>Minęło trochę czasu odkąd intensywniej biegałem. Nadmienię, iż nie jest to mój debiut. Trochę już się nadreptałem z moją bagatelną nadwagą <strong>40 kg</strong>. Nazbierało się kilka medali na dystansach (5, 7, 10 km). Ale najważniejsze jest to, że chcę biegać i mam pewne cele jakie pragnę osiągnąć po schudnięciu i wybudowaniu formy, mianowicie <strong>koronę półmaratonów, i maratonów</strong>.
     </p>
     
     <p>

@@ -8,7 +8,7 @@ guid: http://godev.gemustudio.com/?p=1461
 permalink: /2017/06/22/czego-obawialem-sie-pierwszym-wystapieniem-publicznym/
 dslc_post_template:
   - default
-image: /images/2017/06/blogging-photo-9779.jpg
+image: /assets/images/2017/06/blogging-photo-9779.jpg
 categories:
   - Bez kategorii
   - Prelekcje
@@ -21,7 +21,7 @@ tags:
 <div id="dslc-theme-content">
   <div id="dslc-theme-content-inner">
     <p style="text-align: justify;">
-      <span style="font-weight: 400;"><span style="font-size: 20px;"><a href="http://godev.gemustudio.com/images/2017/06/blogging-photo-45.jpg"><img class=" wp-image-1469 alignright" src="http://godev.gemustudio.com/images/2017/06/blogging-photo-45-300x200.jpg" alt="Prezentacja o Grywalizacji" width="231" height="154" srcset="http://godev.gemustudio.com/images/2017/06/blogging-photo-45-300x200.jpg 300w, http://godev.gemustudio.com/images/2017/06/blogging-photo-45-768x512.jpg 768w, http://godev.gemustudio.com/images/2017/06/blogging-photo-45.jpg 900w" sizes="(max-width: 231px) 100vw, 231px" /></a>Za mną pierwsze i mam nadzieję nie ostatnie wystąpienie publiczne w ramach Gali Finałowej <strong><a href="http://devstyle.pl/daj-sie-poznac/">DSP2017</a></strong>, organizowanej przez <strong><a href="http://devstyle.pl">Macieja Aniserowicza</a></strong> w siedzibie <strong><a href="http://microsoft.com">Microsoftu</a></strong>. Niniejszym dzielę się swoimi przemyśleniami dotyczącymi obaw jakie odczuwałem w ramach tego “traumatycznego” przeżycia.</span></span>
+      <span style="font-weight: 400;"><span style="font-size: 20px;"><a href="http://godev.gemustudio.com/assets/images/2017/06/blogging-photo-45.jpg"><img class=" wp-image-1469 alignright" src="http://godev.gemustudio.com/assets/images/2017/06/blogging-photo-45-300x200.jpg" alt="Prezentacja o Grywalizacji" width="231" height="154" srcset="http://godev.gemustudio.com/assets/images/2017/06/blogging-photo-45-300x200.jpg 300w, http://godev.gemustudio.com/assets/images/2017/06/blogging-photo-45-768x512.jpg 768w, http://godev.gemustudio.com/assets/images/2017/06/blogging-photo-45.jpg 900w" sizes="(max-width: 231px) 100vw, 231px" /></a>Za mną pierwsze i mam nadzieję nie ostatnie wystąpienie publiczne w ramach Gali Finałowej <strong><a href="http://devstyle.pl/daj-sie-poznac/">DSP2017</a></strong>, organizowanej przez <strong><a href="http://devstyle.pl">Macieja Aniserowicza</a></strong> w siedzibie <strong><a href="http://microsoft.com">Microsoftu</a></strong>. Niniejszym dzielę się swoimi przemyśleniami dotyczącymi obaw jakie odczuwałem w ramach tego “traumatycznego” przeżycia.</span></span>
     </p>
     
     <h2>
@@ -96,7 +96,7 @@ tags:
     <hr />
     
     <p>
-      <img class="size-medium wp-image-1471 alignleft" src="http://godev.gemustudio.com/images/2017/06/blogging-photo-9779-300x200.jpg" alt="Pierwsza prezentacja." width="300" height="200" srcset="http://godev.gemustudio.com/images/2017/06/blogging-photo-9779-300x200.jpg 300w, http://godev.gemustudio.com/images/2017/06/blogging-photo-9779-768x512.jpg 768w, http://godev.gemustudio.com/images/2017/06/blogging-photo-9779.jpg 900w" sizes="(max-width: 300px) 100vw, 300px" />
+      <img class="size-medium wp-image-1471 alignleft" src="http://godev.gemustudio.com/assets/images/2017/06/blogging-photo-9779-300x200.jpg" alt="Pierwsza prezentacja." width="300" height="200" srcset="http://godev.gemustudio.com/assets/images/2017/06/blogging-photo-9779-300x200.jpg 300w, http://godev.gemustudio.com/assets/images/2017/06/blogging-photo-9779-768x512.jpg 768w, http://godev.gemustudio.com/assets/images/2017/06/blogging-photo-9779.jpg 900w" sizes="(max-width: 300px) 100vw, 300px" />
     </p>
     
     <h2>

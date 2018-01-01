@@ -8,7 +8,7 @@ guid: http://godev.gemustudio.com/?p=1853
 permalink: /2017/10/18/w-poszukiwaniu-programistoku/
 dslc_post_template:
   - default
-image: /images/2017/10/22289666_1445971908773940_4706789495857277480_o-1-e1508450091421.jpg
+image: /assets/images/2017/10/22289666_1445971908773940_4706789495857277480_o-1-e1508450091421.jpg
 categories:
   - Bez kategorii
   - Domain-Driven Design
@@ -163,7 +163,7 @@ categories:
     </p>
     
     <p>
-      <a href="http://godev.gemustudio.com/images/2017/10/20171007_115845-e1508449312334.jpg"><img class="aligncenter wp-image-1888 size-large" src="http://godev.gemustudio.com/images/2017/10/20171007_115845-1024x576.jpg" alt="Vlogerzy" width="855" height="481" /></a>
+      <a href="http://godev.gemustudio.com/assets/images/2017/10/20171007_115845-e1508449312334.jpg"><img class="aligncenter wp-image-1888 size-large" src="http://godev.gemustudio.com/assets/images/2017/10/20171007_115845-1024x576.jpg" alt="Vlogerzy" width="855" height="481" /></a>
     </p>
     
     <h2>
@@ -235,7 +235,7 @@ categories:
     </p>
     
     <h2>
-      <a href="http://godev.gemustudio.com/images/2017/10/22289666_1445971908773940_4706789495857277480_o.jpg"><img class="aligncenter size-medium wp-image-1891" src="http://godev.gemustudio.com/images/2017/10/22289666_1445971908773940_4706789495857277480_o-300x225.jpg" alt="Programistok 2017" width="300" height="225" srcset="http://godev.gemustudio.com/images/2017/10/22289666_1445971908773940_4706789495857277480_o-300x225.jpg 300w, http://godev.gemustudio.com/images/2017/10/22289666_1445971908773940_4706789495857277480_o-768x576.jpg 768w, http://godev.gemustudio.com/images/2017/10/22289666_1445971908773940_4706789495857277480_o-1024x768.jpg 1024w, http://godev.gemustudio.com/images/2017/10/22289666_1445971908773940_4706789495857277480_o.jpg 1280w" sizes="(max-width: 300px) 100vw, 300px" /></a>
+      <a href="http://godev.gemustudio.com/assets/images/2017/10/22289666_1445971908773940_4706789495857277480_o.jpg"><img class="aligncenter size-medium wp-image-1891" src="http://godev.gemustudio.com/assets/images/2017/10/22289666_1445971908773940_4706789495857277480_o-300x225.jpg" alt="Programistok 2017" width="300" height="225" srcset="http://godev.gemustudio.com/assets/images/2017/10/22289666_1445971908773940_4706789495857277480_o-300x225.jpg 300w, http://godev.gemustudio.com/assets/images/2017/10/22289666_1445971908773940_4706789495857277480_o-768x576.jpg 768w, http://godev.gemustudio.com/assets/images/2017/10/22289666_1445971908773940_4706789495857277480_o-1024x768.jpg 1024w, http://godev.gemustudio.com/assets/images/2017/10/22289666_1445971908773940_4706789495857277480_o.jpg 1280w" sizes="(max-width: 300px) 100vw, 300px" /></a>
     </h2>
     
     <h2>
@@ -259,7 +259,7 @@ categories:
     </h2>
     
     <p style="text-align: justify;">
-      <span style="font-size: 16px;"><a href="http://godev.gemustudio.com/images/2017/10/20171007_170058-e1508449420175.jpg"><img class="size-medium wp-image-1890 alignleft" src="http://godev.gemustudio.com/images/2017/10/20171007_170058-300x169.jpg" alt="" width="300" height="169" /></a>Na koniec trochę prelegentów brakowało, to <strong>Maciej</strong>, dobrał karty z widowni, i padło na <strong><a href="http://andrzejonsoftware.blogspot.com/">Andrzeja Krzywdę</a></strong>. Padło kilka pytań odnośnie chmurki, Open Source. Pochichrali, po odpowiadali. Miło i przyjemnie na sam koniec. Po panelu zebraliśmy się do wspólnego zdjęcia. Zdjęcie wyszło niczym te z &#8222;Gdzie jest Wally?&#8221;, tyla luda było do końca.:)</span>
+      <span style="font-size: 16px;"><a href="http://godev.gemustudio.com/assets/images/2017/10/20171007_170058-e1508449420175.jpg"><img class="size-medium wp-image-1890 alignleft" src="http://godev.gemustudio.com/assets/images/2017/10/20171007_170058-300x169.jpg" alt="" width="300" height="169" /></a>Na koniec trochę prelegentów brakowało, to <strong>Maciej</strong>, dobrał karty z widowni, i padło na <strong><a href="http://andrzejonsoftware.blogspot.com/">Andrzeja Krzywdę</a></strong>. Padło kilka pytań odnośnie chmurki, Open Source. Pochichrali, po odpowiadali. Miło i przyjemnie na sam koniec. Po panelu zebraliśmy się do wspólnego zdjęcia. Zdjęcie wyszło niczym te z &#8222;Gdzie jest Wally?&#8221;, tyla luda było do końca.:)</span>
     </p>
     
     <p>
@@ -287,7 +287,7 @@ categories:
     </p>
     
     <p>
-      <img class="size-medium wp-image-1886 alignright" src="http://godev.gemustudio.com/images/2017/10/20171007_202437-e1508449204646-169x300.jpg" alt="" width="169" height="300" srcset="http://godev.gemustudio.com/images/2017/10/20171007_202437-e1508449204646-169x300.jpg 169w, http://godev.gemustudio.com/images/2017/10/20171007_202437-e1508449204646-576x1024.jpg 576w, http://godev.gemustudio.com/images/2017/10/20171007_202437-e1508449204646.jpg 608w" sizes="(max-width: 169px) 100vw, 169px" />
+      <img class="size-medium wp-image-1886 alignright" src="http://godev.gemustudio.com/assets/images/2017/10/20171007_202437-e1508449204646-169x300.jpg" alt="" width="169" height="300" srcset="http://godev.gemustudio.com/assets/images/2017/10/20171007_202437-e1508449204646-169x300.jpg 169w, http://godev.gemustudio.com/assets/images/2017/10/20171007_202437-e1508449204646-576x1024.jpg 576w, http://godev.gemustudio.com/assets/images/2017/10/20171007_202437-e1508449204646.jpg 608w" sizes="(max-width: 169px) 100vw, 169px" />
     </p>
     
     <h2>

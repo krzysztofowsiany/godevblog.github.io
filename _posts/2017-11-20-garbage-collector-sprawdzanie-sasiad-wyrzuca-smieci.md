@@ -8,7 +8,7 @@ guid: http://godev.gemustudio.com/?p=1613
 permalink: /2017/11/20/garbage-collector-sprawdzanie-sasiad-wyrzuca-smieci/
 dslc_post_template:
   - default
-image: /images/2017/11/blogging-photo-2016.jpg
+image: /assets/images/2017/11/blogging-photo-2016.jpg
 categories:
   - Bez kategorii
   - 'C#'
@@ -38,7 +38,7 @@ tags:
     </h1>
     
     <p style="text-align: justify;">
-      <span style="font-size: 16px;"><strong><a href="http://godev.gemustudio.com/images/2017/11/blogging-photo-8399.jpg"><img class="size-medium wp-image-1944 alignright" src="http://godev.gemustudio.com/images/2017/11/blogging-photo-8399-300x200.jpg" alt="Dispose" width="300" height="200" srcset="http://godev.gemustudio.com/images/2017/11/blogging-photo-8399-300x200.jpg 300w, http://godev.gemustudio.com/images/2017/11/blogging-photo-8399-768x512.jpg 768w, http://godev.gemustudio.com/images/2017/11/blogging-photo-8399.jpg 900w" sizes="(max-width: 300px) 100vw, 300px" /></a>Garbage Collector</strong> skanując obiekty przeznaczone do niszczenia, inaczej traktuje obiekty zawierające finalizator. Umieszcza je na specjalnej kolejce obiektów nieosiągalnych (ang. <strong>freachable quaque</strong>).</span>
+      <span style="font-size: 16px;"><strong><a href="http://godev.gemustudio.com/assets/images/2017/11/blogging-photo-8399.jpg"><img class="size-medium wp-image-1944 alignright" src="http://godev.gemustudio.com/assets/images/2017/11/blogging-photo-8399-300x200.jpg" alt="Dispose" width="300" height="200" srcset="http://godev.gemustudio.com/assets/images/2017/11/blogging-photo-8399-300x200.jpg 300w, http://godev.gemustudio.com/assets/images/2017/11/blogging-photo-8399-768x512.jpg 768w, http://godev.gemustudio.com/assets/images/2017/11/blogging-photo-8399.jpg 900w" sizes="(max-width: 300px) 100vw, 300px" /></a>Garbage Collector</strong> skanując obiekty przeznaczone do niszczenia, inaczej traktuje obiekty zawierające finalizator. Umieszcza je na specjalnej kolejce obiektów nieosiągalnych (ang. <strong>freachable quaque</strong>).</span>
     </p>
     
     <p style="text-align: justify;">

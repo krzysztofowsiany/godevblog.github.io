@@ -8,7 +8,7 @@ guid: http://godev.gemustudio.com/?p=1772
 permalink: /2017/09/11/ddd-i-jego-zycie/
 dslc_post_template:
   - default
-image: /images/2017/09/blogging-photo-1381.jpg
+image: /assets/images/2017/09/blogging-photo-1381.jpg
 categories:
   - Bez kategorii
   - Domain-Driven Design
@@ -66,7 +66,7 @@ tags:
     </h2>
     
     <p>
-      <a href="http://godev.gemustudio.com/images/2017/09/blogging-photo-1112.jpg"><img class="alignright size-medium wp-image-1775" src="http://godev.gemustudio.com/images/2017/09/blogging-photo-1112-300x200.jpg" alt="Domain-Drive Design - Aggregates" width="300" height="200" srcset="http://godev.gemustudio.com/images/2017/09/blogging-photo-1112-300x200.jpg 300w, http://godev.gemustudio.com/images/2017/09/blogging-photo-1112-768x512.jpg 768w, http://godev.gemustudio.com/images/2017/09/blogging-photo-1112.jpg 900w" sizes="(max-width: 300px) 100vw, 300px" /></a> Jest to zbiór powiązanych ze sobą obiektów, dzięki temu można traktować je jako jedna całość (jeden obiekt). Agregat (ang. <strong>aggregate</strong>) zbudowany jest z dwóch części:
+      <a href="http://godev.gemustudio.com/assets/images/2017/09/blogging-photo-1112.jpg"><img class="alignright size-medium wp-image-1775" src="http://godev.gemustudio.com/assets/images/2017/09/blogging-photo-1112-300x200.jpg" alt="Domain-Drive Design - Aggregates" width="300" height="200" srcset="http://godev.gemustudio.com/assets/images/2017/09/blogging-photo-1112-300x200.jpg 300w, http://godev.gemustudio.com/assets/images/2017/09/blogging-photo-1112-768x512.jpg 768w, http://godev.gemustudio.com/assets/images/2017/09/blogging-photo-1112.jpg 900w" sizes="(max-width: 300px) 100vw, 300px" /></a> Jest to zbiór powiązanych ze sobą obiektów, dzięki temu można traktować je jako jedna całość (jeden obiekt). Agregat (ang. <strong>aggregate</strong>) zbudowany jest z dwóch części:
     </p>
     
     <ul>
@@ -103,7 +103,7 @@ tags:
     </h2>
     
     <p>
-      <a href="http://godev.gemustudio.com/images/2017/09/blogging-photo-1322.jpg"><img class="alignleft wp-image-1793" src="http://godev.gemustudio.com/images/2017/09/blogging-photo-1322-300x200.jpg" alt="Domain-Driven Design - Factories" width="300" height="200" srcset="http://godev.gemustudio.com/images/2017/09/blogging-photo-1322-300x200.jpg 300w, http://godev.gemustudio.com/images/2017/09/blogging-photo-1322-768x512.jpg 768w, http://godev.gemustudio.com/images/2017/09/blogging-photo-1322.jpg 900w" sizes="(max-width: 300px) 100vw, 300px" /></a>Kolejny z wzorców dzięki którym, tworzenie rozbudowanych agregatów będzie łatwiejsza i nie pozwoli na ich rozhermetyzowanie to fabryka (ang. <strong>factory</strong>). Fabryka jak sama nazwa wskazuje to obiekt którego, celem jest wytworzenie produktu jaki zamawiamy lub jego odtworzenie. Jest ona ściśle powiązana z konkretnym typem obiektu i jeżeli zachodzi potrzeba przeniesienia odpowiedzialności tworzenia tego obiektu, bez wahania należy to zrobić. Do tworzenia agregatów także należy wykorzystać fabrykę ściśle powiązaną z korzeniem agregatu (ang. <strong>Aggregate Root</strong>).
+      <a href="http://godev.gemustudio.com/assets/images/2017/09/blogging-photo-1322.jpg"><img class="alignleft wp-image-1793" src="http://godev.gemustudio.com/assets/images/2017/09/blogging-photo-1322-300x200.jpg" alt="Domain-Driven Design - Factories" width="300" height="200" srcset="http://godev.gemustudio.com/assets/images/2017/09/blogging-photo-1322-300x200.jpg 300w, http://godev.gemustudio.com/assets/images/2017/09/blogging-photo-1322-768x512.jpg 768w, http://godev.gemustudio.com/assets/images/2017/09/blogging-photo-1322.jpg 900w" sizes="(max-width: 300px) 100vw, 300px" /></a>Kolejny z wzorców dzięki którym, tworzenie rozbudowanych agregatów będzie łatwiejsza i nie pozwoli na ich rozhermetyzowanie to fabryka (ang. <strong>factory</strong>). Fabryka jak sama nazwa wskazuje to obiekt którego, celem jest wytworzenie produktu jaki zamawiamy lub jego odtworzenie. Jest ona ściśle powiązana z konkretnym typem obiektu i jeżeli zachodzi potrzeba przeniesienia odpowiedzialności tworzenia tego obiektu, bez wahania należy to zrobić. Do tworzenia agregatów także należy wykorzystać fabrykę ściśle powiązaną z korzeniem agregatu (ang. <strong>Aggregate Root</strong>).
     </p>
     
     <p>
@@ -157,7 +157,7 @@ tags:
     </h2>
     
     <p>
-      <a href="http://godev.gemustudio.com/images/2017/09/blogging-photo-9308.jpg"><img class="alignright size-medium wp-image-1795" src="http://godev.gemustudio.com/images/2017/09/blogging-photo-9308-300x200.jpg" alt="Domain-Driven Design - Repositories" width="300" height="200" srcset="http://godev.gemustudio.com/images/2017/09/blogging-photo-9308-300x200.jpg 300w, http://godev.gemustudio.com/images/2017/09/blogging-photo-9308-768x512.jpg 768w, http://godev.gemustudio.com/images/2017/09/blogging-photo-9308.jpg 900w" sizes="(max-width: 300px) 100vw, 300px" /></a>Wzorzec manipulacji obiektami trwale zachowanymi przy pomocy zaimplementowanych działań w warstwie infrastruktury. Repozytorium (ang. <strong>repository</strong>) to wzorzec hermetyzójacy działania na trwałych obiektach w swoim obrębie. Żądania jakie obsługuje wzorzec repozytorium (ang. <strong>repository</strong>). Zawierają w sobie zestaw kryteriów według jakich zostanie przeprowadzona selekcja obiektów.
+      <a href="http://godev.gemustudio.com/assets/images/2017/09/blogging-photo-9308.jpg"><img class="alignright size-medium wp-image-1795" src="http://godev.gemustudio.com/assets/images/2017/09/blogging-photo-9308-300x200.jpg" alt="Domain-Driven Design - Repositories" width="300" height="200" srcset="http://godev.gemustudio.com/assets/images/2017/09/blogging-photo-9308-300x200.jpg 300w, http://godev.gemustudio.com/assets/images/2017/09/blogging-photo-9308-768x512.jpg 768w, http://godev.gemustudio.com/assets/images/2017/09/blogging-photo-9308.jpg 900w" sizes="(max-width: 300px) 100vw, 300px" /></a>Wzorzec manipulacji obiektami trwale zachowanymi przy pomocy zaimplementowanych działań w warstwie infrastruktury. Repozytorium (ang. <strong>repository</strong>) to wzorzec hermetyzójacy działania na trwałych obiektach w swoim obrębie. Żądania jakie obsługuje wzorzec repozytorium (ang. <strong>repository</strong>). Zawierają w sobie zestaw kryteriów według jakich zostanie przeprowadzona selekcja obiektów.
     </p>
     
     <p>

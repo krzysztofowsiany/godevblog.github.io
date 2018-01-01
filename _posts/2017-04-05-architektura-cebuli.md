@@ -8,7 +8,7 @@ guid: http://godev.gemustudio.com/?p=663
 permalink: /2017/04/05/architektura-cebuli/
 dslc_post_template:
   - default
-image: /images/2017/04/480-Zwiebel-zwiebel-Fotolia-28405313-c-vadim-yerofeyev.jpg
+image: /assets/images/2017/04/480-Zwiebel-zwiebel-Fotolia-28405313-c-vadim-yerofeyev.jpg
 categories:
   - Daj Się Poznać 2017
 tags:
@@ -24,7 +24,7 @@ tags:
     </h1>
     
     <p>
-      <a href="http://godev.gemustudio.com/images/2017/04/480-Zwiebel-zwiebel-Fotolia-28405313-c-vadim-yerofeyev.jpg"><img class="alignleft wp-image-728 size-medium" src="http://godev.gemustudio.com/images/2017/04/480-Zwiebel-zwiebel-Fotolia-28405313-c-vadim-yerofeyev-300x209.jpg" alt="Architektura cebuli" width="300" height="209" srcset="http://godev.gemustudio.com/images/2017/04/480-Zwiebel-zwiebel-Fotolia-28405313-c-vadim-yerofeyev-300x209.jpg 300w, http://godev.gemustudio.com/images/2017/04/480-Zwiebel-zwiebel-Fotolia-28405313-c-vadim-yerofeyev.jpg 480w" sizes="(max-width: 300px) 100vw, 300px" /></a>
+      <a href="http://godev.gemustudio.com/assets/images/2017/04/480-Zwiebel-zwiebel-Fotolia-28405313-c-vadim-yerofeyev.jpg"><img class="alignleft wp-image-728 size-medium" src="http://godev.gemustudio.com/assets/images/2017/04/480-Zwiebel-zwiebel-Fotolia-28405313-c-vadim-yerofeyev-300x209.jpg" alt="Architektura cebuli" width="300" height="209" srcset="http://godev.gemustudio.com/assets/images/2017/04/480-Zwiebel-zwiebel-Fotolia-28405313-c-vadim-yerofeyev-300x209.jpg 300w, http://godev.gemustudio.com/assets/images/2017/04/480-Zwiebel-zwiebel-Fotolia-28405313-c-vadim-yerofeyev.jpg 480w" sizes="(max-width: 300px) 100vw, 300px" /></a>
     </p>
     
     <p style="text-align: justify;">
@@ -123,7 +123,7 @@ tags:
       </div>
       
       <div style="text-align: center;">
-         <a href="http://devstyle.pl/daj-sie-poznac/" target="_blank" rel="noopener noreferrer"><img class="wp-image-104 size-full alignright" title="Daj Się Poznać 2017" src="http://godev.gemustudio.com/images/2017/02/dsp2017-3.png" alt="" width="68" height="154" /></a>
+         <a href="http://devstyle.pl/daj-sie-poznac/" target="_blank" rel="noopener noreferrer"><img class="wp-image-104 size-full alignright" title="Daj Się Poznać 2017" src="http://godev.gemustudio.com/assets/images/2017/02/dsp2017-3.png" alt="" width="68" height="154" /></a>
       </div>
       
       <div style="font-size: 10pt; padding: 10px;">

@@ -6,7 +6,7 @@ author: gocom
 layout: post
 guid: http://godev.gemustudio.com/?p=895
 permalink: /2017/05/02/stylecop-pastuch-niechluja/
-image: /images/2017/05/IMG_9832.jpg
+image: /assets/images/2017/05/IMG_9832.jpg
 categories:
   - Daj Się Poznać 2017
 tags:
@@ -29,7 +29,7 @@ tags:
     </p>
     
     <p style="text-align: justify;">
-      <a href="http://godev.gemustudio.com/images/2017/05/stylecop.png"><img class="aligncenter wp-image-976 size-full" src="http://godev.gemustudio.com/images/2017/05/stylecop.png" alt="StyleCop " width="689" height="269" srcset="http://godev.gemustudio.com/images/2017/05/stylecop.png 689w, http://godev.gemustudio.com/images/2017/05/stylecop-300x117.png 300w" sizes="(max-width: 689px) 100vw, 689px" /></a>
+      <a href="http://godev.gemustudio.com/assets/images/2017/05/stylecop.png"><img class="aligncenter wp-image-976 size-full" src="http://godev.gemustudio.com/assets/images/2017/05/stylecop.png" alt="StyleCop " width="689" height="269" srcset="http://godev.gemustudio.com/assets/images/2017/05/stylecop.png 689w, http://godev.gemustudio.com/assets/images/2017/05/stylecop-300x117.png 300w" sizes="(max-width: 689px) 100vw, 689px" /></a>
     </p>
     
     <p style="text-align: justify;">
@@ -37,7 +37,7 @@ tags:
     </p>
     
     <p>
-      <a href="http://godev.gemustudio.com/images/2017/05/StyleCop2.png"><img class="aligncenter wp-image-978 size-full" src="http://godev.gemustudio.com/images/2017/05/StyleCop2.png" alt="StyleCop " width="851" height="546" srcset="http://godev.gemustudio.com/images/2017/05/StyleCop2.png 851w, http://godev.gemustudio.com/images/2017/05/StyleCop2-300x192.png 300w, http://godev.gemustudio.com/images/2017/05/StyleCop2-768x493.png 768w" sizes="(max-width: 851px) 100vw, 851px" /></a>
+      <a href="http://godev.gemustudio.com/assets/images/2017/05/StyleCop2.png"><img class="aligncenter wp-image-978 size-full" src="http://godev.gemustudio.com/assets/images/2017/05/StyleCop2.png" alt="StyleCop " width="851" height="546" srcset="http://godev.gemustudio.com/assets/images/2017/05/StyleCop2.png 851w, http://godev.gemustudio.com/assets/images/2017/05/StyleCop2-300x192.png 300w, http://godev.gemustudio.com/assets/images/2017/05/StyleCop2-768x493.png 768w" sizes="(max-width: 851px) 100vw, 851px" /></a>
     </p>
     
     <p style="text-align: justify;">
@@ -54,7 +54,7 @@ tags:
     
     <div>
       <div style="text-align: justify;">
-        <a href="http://godev.gemustudio.com/images/2017/05/StyleCop3.png"><img class="aligncenter wp-image-982 size-full" src="http://godev.gemustudio.com/images/2017/05/StyleCop3.png" alt="" width="569" height="222" srcset="http://godev.gemustudio.com/images/2017/05/StyleCop3.png 569w, http://godev.gemustudio.com/images/2017/05/StyleCop3-300x117.png 300w" sizes="(max-width: 569px) 100vw, 569px" /></a>
+        <a href="http://godev.gemustudio.com/assets/images/2017/05/StyleCop3.png"><img class="aligncenter wp-image-982 size-full" src="http://godev.gemustudio.com/assets/images/2017/05/StyleCop3.png" alt="" width="569" height="222" srcset="http://godev.gemustudio.com/assets/images/2017/05/StyleCop3.png 569w, http://godev.gemustudio.com/assets/images/2017/05/StyleCop3-300x117.png 300w" sizes="(max-width: 569px) 100vw, 569px" /></a>
       </div>
       
       <p>
@@ -71,7 +71,7 @@ tags:
     </p>
     
     <div style="text-align: justify;">
-      <a href="http://godev.gemustudio.com/images/2017/05/StyleCop5.png"><img class="aligncenter wp-image-983 size-full" src="http://godev.gemustudio.com/images/2017/05/StyleCop5.png" alt="" width="968" height="117" srcset="http://godev.gemustudio.com/images/2017/05/StyleCop5.png 968w, http://godev.gemustudio.com/images/2017/05/StyleCop5-300x36.png 300w, http://godev.gemustudio.com/images/2017/05/StyleCop5-768x93.png 768w" sizes="(max-width: 968px) 100vw, 968px" /></a>
+      <a href="http://godev.gemustudio.com/assets/images/2017/05/StyleCop5.png"><img class="aligncenter wp-image-983 size-full" src="http://godev.gemustudio.com/assets/images/2017/05/StyleCop5.png" alt="" width="968" height="117" srcset="http://godev.gemustudio.com/assets/images/2017/05/StyleCop5.png 968w, http://godev.gemustudio.com/assets/images/2017/05/StyleCop5-300x36.png 300w, http://godev.gemustudio.com/assets/images/2017/05/StyleCop5-768x93.png 768w" sizes="(max-width: 968px) 100vw, 968px" /></a>
     </div>
     
     <p>
@@ -100,7 +100,7 @@ tags:
       </div>
       
       <div style="text-align: justify;">
-        <a href="http://devstyle.pl/daj-sie-poznac/" target="_blank" rel="noopener noreferrer"><img class="wp-image-104 size-full alignright" title="Daj Się Poznać 2017" src="http://godev.gemustudio.com/images/2017/02/dsp2017-3.png" alt="" width="68" height="154" /></a>
+        <a href="http://devstyle.pl/daj-sie-poznac/" target="_blank" rel="noopener noreferrer"><img class="wp-image-104 size-full alignright" title="Daj Się Poznać 2017" src="http://godev.gemustudio.com/assets/images/2017/02/dsp2017-3.png" alt="" width="68" height="154" /></a>
       </div>
       
       <div style="font-size: 10pt; padding: 10px;">

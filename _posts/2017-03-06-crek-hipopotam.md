@@ -6,7 +6,7 @@ author: gocom
 layout: post
 guid: http://godev.gemustudio.com/?p=162
 permalink: /2017/03/06/crek-hipopotam/
-image: /images/2017/03/nieobliczalny-hipopotam_800x600-e1488919841465.jpg
+image: /assets/images/2017/03/nieobliczalny-hipopotam_800x600-e1488919841465.jpg
 categories:
   - Daj Się Poznać 2017
 tags:
@@ -69,7 +69,7 @@ tags:
     </p>
     
     <p>
-      <img class="size-full wp-image-189 alignleft" src="http://godev.gemustudio.com/images/2017/03/2017-03-06_15h02_13-1.png" alt="" width="522" height="415" srcset="http://godev.gemustudio.com/images/2017/03/2017-03-06_15h02_13-1.png 522w, http://godev.gemustudio.com/images/2017/03/2017-03-06_15h02_13-1-300x239.png 300w" sizes="(max-width: 522px) 100vw, 522px" />
+      <img class="size-full wp-image-189 alignleft" src="http://godev.gemustudio.com/assets/images/2017/03/2017-03-06_15h02_13-1.png" alt="" width="522" height="415" srcset="http://godev.gemustudio.com/assets/images/2017/03/2017-03-06_15h02_13-1.png 522w, http://godev.gemustudio.com/assets/images/2017/03/2017-03-06_15h02_13-1-300x239.png 300w" sizes="(max-width: 522px) 100vw, 522px" />
     </p>
     
     <p style="text-align: justify;">
@@ -97,7 +97,7 @@ tags:
     </h2>
     
     <p>
-      <img class="size-full wp-image-194 alignright" src="http://godev.gemustudio.com/images/2017/03/2017-03-07_07h27_30.png" alt="" width="259" height="289" />
+      <img class="size-full wp-image-194 alignright" src="http://godev.gemustudio.com/assets/images/2017/03/2017-03-07_07h27_30.png" alt="" width="259" height="289" />
     </p>
     
     <p style="text-align: justify;">
@@ -109,7 +109,7 @@ tags:
     </p>
     
     <p style="text-align: justify;">
-      <img class="wp-image-195 size-full alignleft" src="http://godev.gemustudio.com/images/2017/03/2017-03-07_07h34_16.png" width="291" height="70" />Potem już tylko się nawigować, tak samo można usunąć trasę z kodziku.
+      <img class="wp-image-195 size-full alignleft" src="http://godev.gemustudio.com/assets/images/2017/03/2017-03-07_07h34_16.png" width="291" height="70" />Potem już tylko się nawigować, tak samo można usunąć trasę z kodziku.
     </p>
     
     <p>
@@ -133,7 +133,7 @@ tags:
     </h2>
     
     <p style="text-align: justify;">
-      Jak się chce szybko <img class="size-full wp-image-199 alignleft" src="http://godev.gemustudio.com/images/2017/03/2017-03-07_07h45_21.png" alt="" width="302" height="356" srcset="http://godev.gemustudio.com/images/2017/03/2017-03-07_07h45_21.png 302w, http://godev.gemustudio.com/images/2017/03/2017-03-07_07h45_21-254x300.png 254w" sizes="(max-width: 302px) 100vw, 302px" />hipopotama użyć to można skorzystać z &#8222;rozkazów&#8221;, najpierw trzeba je przywołać  <strong>Crtl+Alt+A</strong>.
+      Jak się chce szybko <img class="size-full wp-image-199 alignleft" src="http://godev.gemustudio.com/assets/images/2017/03/2017-03-07_07h45_21.png" alt="" width="302" height="356" srcset="http://godev.gemustudio.com/assets/images/2017/03/2017-03-07_07h45_21.png 302w, http://godev.gemustudio.com/assets/images/2017/03/2017-03-07_07h45_21-254x300.png 254w" sizes="(max-width: 302px) 100vw, 302px" />hipopotama użyć to można skorzystać z &#8222;rozkazów&#8221;, najpierw trzeba je przywołać  <strong>Crtl+Alt+A</strong>.
     </p>
     
     <p style="text-align: justify;">
@@ -214,7 +214,7 @@ tags:
         </div>
         
         <div style="text-align: center;">
-           <a href="http://devstyle.pl/daj-sie-poznac/" target="_blank" rel="noopener noreferrer"><img class="wp-image-104 size-full alignright" title="Daj Się Poznać 2017" src="http://godev.gemustudio.com/images/2017/02/dsp2017-3.png" alt="" width="68" height="154" /></a>
+           <a href="http://devstyle.pl/daj-sie-poznac/" target="_blank" rel="noopener noreferrer"><img class="wp-image-104 size-full alignright" title="Daj Się Poznać 2017" src="http://godev.gemustudio.com/assets/images/2017/02/dsp2017-3.png" alt="" width="68" height="154" /></a>
         </div>
         
         <div style="font-size: 10pt; padding: 10px;">

@@ -6,7 +6,7 @@ author: gocom
 layout: post
 guid: http://godev.gemustudio.com/?p=991
 permalink: /2017/05/10/typowanie-generykow/
-image: /images/2017/05/IMG_1033.jpg
+image: /assets/images/2017/05/IMG_1033.jpg
 categories:
   - Bez kategorii
   - Daj Się Poznać 2017
@@ -18,7 +18,7 @@ tags:
 <div id="dslc-theme-content">
   <div id="dslc-theme-content-inner">
     <p style="text-align: justify;">
-      <a href="http://godev.gemustudio.com/images/2017/05/IMG_9491.jpg"><img class="aligncenter wp-image-1025 size-large" src="http://godev.gemustudio.com/images/2017/05/IMG_9491-1024x683.jpg" alt="Typowanie generyków" width="855" height="570" srcset="http://godev.gemustudio.com/images/2017/05/IMG_9491-1024x683.jpg 1024w, http://godev.gemustudio.com/images/2017/05/IMG_9491-300x200.jpg 300w, http://godev.gemustudio.com/images/2017/05/IMG_9491-768x512.jpg 768w" sizes="(max-width: 855px) 100vw, 855px" /></a>
+      <a href="http://godev.gemustudio.com/assets/images/2017/05/IMG_9491.jpg"><img class="aligncenter wp-image-1025 size-large" src="http://godev.gemustudio.com/assets/images/2017/05/IMG_9491-1024x683.jpg" alt="Typowanie generyków" width="855" height="570" srcset="http://godev.gemustudio.com/assets/images/2017/05/IMG_9491-1024x683.jpg 1024w, http://godev.gemustudio.com/assets/images/2017/05/IMG_9491-300x200.jpg 300w, http://godev.gemustudio.com/assets/images/2017/05/IMG_9491-768x512.jpg 768w" sizes="(max-width: 855px) 100vw, 855px" /></a>
     </p>
     
     <p>
@@ -75,7 +75,7 @@ public class SampleCompareClass&lt;TCompareType&gt; where TCompareType : SimpleT
 }</pre>
     
     <p>
-      <a href="http://godev.gemustudio.com/images/2017/05/IMG_9632.jpg"><img class="alignleft wp-image-1013 size-medium" src="http://godev.gemustudio.com/images/2017/05/IMG_9632-300x200.jpg" alt="Generics" width="300" height="200" srcset="http://godev.gemustudio.com/images/2017/05/IMG_9632-300x200.jpg 300w, http://godev.gemustudio.com/images/2017/05/IMG_9632-768x512.jpg 768w, http://godev.gemustudio.com/images/2017/05/IMG_9632-1024x683.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px" /></a>
+      <a href="http://godev.gemustudio.com/assets/images/2017/05/IMG_9632.jpg"><img class="alignleft wp-image-1013 size-medium" src="http://godev.gemustudio.com/assets/images/2017/05/IMG_9632-300x200.jpg" alt="Generics" width="300" height="200" srcset="http://godev.gemustudio.com/assets/images/2017/05/IMG_9632-300x200.jpg 300w, http://godev.gemustudio.com/assets/images/2017/05/IMG_9632-768x512.jpg 768w, http://godev.gemustudio.com/assets/images/2017/05/IMG_9632-1024x683.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px" /></a>
     </p>
     
     <p>
@@ -111,7 +111,7 @@ public class SampleCompareClass&lt;TCompareType&gt; where TCompareType : SimpleT
     </h1>
     
     <p style="text-align: justify;">
-      Oczywiście nie jest to jedyny sposób ograniczenia jest ich nieco więcej:<a href="http://godev.gemustudio.com/images/2017/05/IMG_9010.jpg"><img class="size-medium wp-image-1008 alignright" src="http://godev.gemustudio.com/images/2017/05/IMG_9010-300x199.jpg" alt="" width="300" height="199" srcset="http://godev.gemustudio.com/images/2017/05/IMG_9010-300x199.jpg 300w, http://godev.gemustudio.com/images/2017/05/IMG_9010-768x510.jpg 768w, http://godev.gemustudio.com/images/2017/05/IMG_9010-1024x680.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px" /></a>
+      Oczywiście nie jest to jedyny sposób ograniczenia jest ich nieco więcej:<a href="http://godev.gemustudio.com/assets/images/2017/05/IMG_9010.jpg"><img class="size-medium wp-image-1008 alignright" src="http://godev.gemustudio.com/assets/images/2017/05/IMG_9010-300x199.jpg" alt="" width="300" height="199" srcset="http://godev.gemustudio.com/assets/images/2017/05/IMG_9010-300x199.jpg 300w, http://godev.gemustudio.com/assets/images/2017/05/IMG_9010-768x510.jpg 768w, http://godev.gemustudio.com/assets/images/2017/05/IMG_9010-1024x680.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px" /></a>
     </p>
     
     <ul>
@@ -153,7 +153,7 @@ public class SampleCompareClass&lt;TCompareType&gt; where TCompareType : SimpleT
       </div>
       
       <div style="text-align: justify;">
-        <a href="http://devstyle.pl/daj-sie-poznac/" target="_blank" rel="noopener noreferrer"><img class="wp-image-104 size-full alignright" title="Daj Się Poznać 2017" src="http://godev.gemustudio.com/images/2017/02/dsp2017-3.png" alt="" width="68" height="154" /></a>
+        <a href="http://devstyle.pl/daj-sie-poznac/" target="_blank" rel="noopener noreferrer"><img class="wp-image-104 size-full alignright" title="Daj Się Poznać 2017" src="http://godev.gemustudio.com/assets/images/2017/02/dsp2017-3.png" alt="" width="68" height="154" /></a>
       </div>
       
       <div style="font-size: 10pt; padding: 10px;">

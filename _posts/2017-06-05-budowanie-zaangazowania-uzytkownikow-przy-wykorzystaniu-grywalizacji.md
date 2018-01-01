@@ -6,7 +6,7 @@ author: gocom
 layout: post
 guid: http://godev.gemustudio.com/?p=1310
 permalink: /2017/06/05/budowanie-zaangazowania-uzytkownikow-przy-wykorzystaniu-grywalizacji/
-image: /images/2017/06/blogging-photo-00880.jpg
+image: /assets/images/2017/06/blogging-photo-00880.jpg
 categories:
   - Bez kategorii
   - Daj Się Poznać 2017
@@ -21,7 +21,7 @@ tags:
 <div id="dslc-theme-content">
   <div id="dslc-theme-content-inner">
     <p style="text-align: justify;">
-      Udało się wyspecyfikować tytuł i tematykę mojej prelekcji na <strong>Gali Finałowej Daj Się Poznać 2017</strong>,<img class="alignright wp-image-1316 size-medium" src="http://godev.gemustudio.com/images/2017/06/blogging-photo-40-300x200.jpg" alt="Gala Finałowa Daj Się Poznać 2017" width="300" height="200" srcset="http://godev.gemustudio.com/images/2017/06/blogging-photo-40-300x200.jpg 300w, http://godev.gemustudio.com/images/2017/06/blogging-photo-40-768x512.jpg 768w, http://godev.gemustudio.com/images/2017/06/blogging-photo-40.jpg 900w" sizes="(max-width: 300px) 100vw, 300px" /> mam nadzieję, iż moje pierwsze publiczne wystąpienie przebiegnie zadowalająco.
+      Udało się wyspecyfikować tytuł i tematykę mojej prelekcji na <strong>Gali Finałowej Daj Się Poznać 2017</strong>,<img class="alignright wp-image-1316 size-medium" src="http://godev.gemustudio.com/assets/images/2017/06/blogging-photo-40-300x200.jpg" alt="Gala Finałowa Daj Się Poznać 2017" width="300" height="200" srcset="http://godev.gemustudio.com/assets/images/2017/06/blogging-photo-40-300x200.jpg 300w, http://godev.gemustudio.com/assets/images/2017/06/blogging-photo-40-768x512.jpg 768w, http://godev.gemustudio.com/assets/images/2017/06/blogging-photo-40.jpg 900w" sizes="(max-width: 300px) 100vw, 300px" /> mam nadzieję, iż moje pierwsze publiczne wystąpienie przebiegnie zadowalająco.
     </p>
     
     <p style="text-align: justify;">
@@ -131,7 +131,7 @@ tags:
         </div>
         
         <div style="text-align: justify;">
-          <a href="http://devstyle.pl/daj-sie-poznac/" target="_blank" rel="noopener noreferrer"><img class="wp-image-104 size-full alignright" title="Daj Się Poznać 2017" src="http://godev.gemustudio.com/images/2017/02/dsp2017-3.png" alt="" width="68" height="154" /></a>
+          <a href="http://devstyle.pl/daj-sie-poznac/" target="_blank" rel="noopener noreferrer"><img class="wp-image-104 size-full alignright" title="Daj Się Poznać 2017" src="http://godev.gemustudio.com/assets/images/2017/02/dsp2017-3.png" alt="" width="68" height="154" /></a>
         </div>
         
         <div style="font-size: 10pt; padding: 10px;">

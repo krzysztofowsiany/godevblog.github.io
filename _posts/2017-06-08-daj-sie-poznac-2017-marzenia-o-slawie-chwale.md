@@ -6,7 +6,7 @@ author: gocom
 layout: post
 guid: http://godev.gemustudio.com/?p=1335
 permalink: /2017/06/08/daj-sie-poznac-2017-marzenia-o-slawie-chwale/
-image: /images/2017/06/blogging-photo-8752.jpg
+image: /assets/images/2017/06/blogging-photo-8752.jpg
 categories:
   - Bez kategorii
   - Daj Się Poznać 2017
@@ -29,7 +29,7 @@ tags:
     </h2>
     
     <div style="text-align: justify;">
-      Przeszło <strong><a href="http://godev.gemustudio.com/images/2017/06/blogging-photo-8045.jpg"><img class="alignleft wp-image-1343 size-medium" src="http://godev.gemustudio.com/images/2017/06/blogging-photo-8045-300x200.jpg" alt="Grywalizacja." width="300" height="200" srcset="http://godev.gemustudio.com/images/2017/06/blogging-photo-8045-300x200.jpg 300w, http://godev.gemustudio.com/images/2017/06/blogging-photo-8045-768x512.jpg 768w, http://godev.gemustudio.com/images/2017/06/blogging-photo-8045.jpg 900w" sizes="(max-width: 300px) 100vw, 300px" /></a>1734</strong> odsłon mojego debiutu według analityka google. Dla mnie to duże osiągnięcie, zważywszy na dotychczasową bierność w działaniach autopromocyjnych.
+      Przeszło <strong><a href="http://godev.gemustudio.com/assets/images/2017/06/blogging-photo-8045.jpg"><img class="alignleft wp-image-1343 size-medium" src="http://godev.gemustudio.com/assets/images/2017/06/blogging-photo-8045-300x200.jpg" alt="Grywalizacja." width="300" height="200" srcset="http://godev.gemustudio.com/assets/images/2017/06/blogging-photo-8045-300x200.jpg 300w, http://godev.gemustudio.com/assets/images/2017/06/blogging-photo-8045-768x512.jpg 768w, http://godev.gemustudio.com/assets/images/2017/06/blogging-photo-8045.jpg 900w" sizes="(max-width: 300px) 100vw, 300px" /></a>1734</strong> odsłon mojego debiutu według analityka google. Dla mnie to duże osiągnięcie, zważywszy na dotychczasową bierność w działaniach autopromocyjnych.
     </div>
     
     <div style="text-align: justify;">
@@ -61,7 +61,7 @@ tags:
       </div>
       
       <div style="text-align: justify;">
-        <a href="http://devstyle.pl/daj-sie-poznac/" target="_blank" rel="noopener noreferrer"><img class="wp-image-104 size-full alignright" title="Daj Się Poznać 2017" src="http://godev.gemustudio.com/images/2017/02/dsp2017-3.png" alt="" width="68" height="154" /></a>
+        <a href="http://devstyle.pl/daj-sie-poznac/" target="_blank" rel="noopener noreferrer"><img class="wp-image-104 size-full alignright" title="Daj Się Poznać 2017" src="http://godev.gemustudio.com/assets/images/2017/02/dsp2017-3.png" alt="" width="68" height="154" /></a>
       </div>
       
       <div style="font-size: 10pt; padding: 10px;">

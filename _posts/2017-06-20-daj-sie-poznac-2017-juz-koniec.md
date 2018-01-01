@@ -6,7 +6,7 @@ author: gocom
 layout: post
 guid: http://godev.gemustudio.com/?p=1418
 permalink: /2017/06/20/daj-sie-poznac-2017-juz-koniec/
-image: /images/2017/06/IMG-20170617-WA0029-1.jpg
+image: /assets/images/2017/06/IMG-20170617-WA0029-1.jpg
 categories:
   - Bez kategorii
   - Daj Się Poznać 2017
@@ -18,7 +18,7 @@ tags:
 <div id="dslc-theme-content">
   <div id="dslc-theme-content-inner">
     <div style="text-align: justify;">
-      <a href="http://godev.gemustudio.com/images/2017/06/20170617_173109.jpg"><img class="size-medium wp-image-1438 alignleft" src="http://godev.gemustudio.com/images/2017/06/20170617_173109-300x169.jpg" alt="" width="300" height="169" srcset="http://godev.gemustudio.com/images/2017/06/20170617_173109-300x169.jpg 300w, http://godev.gemustudio.com/images/2017/06/20170617_173109-768x432.jpg 768w, http://godev.gemustudio.com/images/2017/06/20170617_173109-1024x576.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px" /></a>Gala finałowa <strong>Daj Się Poznać 2017</strong> ostatecznie zamyka tegoroczną edycję konkursu spłodzonego w pocie czoła przez <a href="http://devstyle.pl"><strong>Macieja</strong>.</a>
+      <a href="http://godev.gemustudio.com/assets/images/2017/06/20170617_173109.jpg"><img class="size-medium wp-image-1438 alignleft" src="http://godev.gemustudio.com/assets/images/2017/06/20170617_173109-300x169.jpg" alt="" width="300" height="169" srcset="http://godev.gemustudio.com/assets/images/2017/06/20170617_173109-300x169.jpg 300w, http://godev.gemustudio.com/assets/images/2017/06/20170617_173109-768x432.jpg 768w, http://godev.gemustudio.com/assets/images/2017/06/20170617_173109-1024x576.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px" /></a>Gala finałowa <strong>Daj Się Poznać 2017</strong> ostatecznie zamyka tegoroczną edycję konkursu spłodzonego w pocie czoła przez <a href="http://devstyle.pl"><strong>Macieja</strong>.</a>
     </div>
     
     <div style="text-align: justify;">
@@ -82,7 +82,7 @@ tags:
     </div>
     
     <div style="text-align: justify;">
-      <a href="http://devstyle.pl/daj-sie-poznac/" target="_blank" rel="noopener noreferrer"><img class="wp-image-104 size-full alignright" title="Daj Się Poznać 2017" src="http://godev.gemustudio.com/images/2017/02/dsp2017-3.png" alt="" width="68" height="154" /></a>
+      <a href="http://devstyle.pl/daj-sie-poznac/" target="_blank" rel="noopener noreferrer"><img class="wp-image-104 size-full alignright" title="Daj Się Poznać 2017" src="http://godev.gemustudio.com/assets/images/2017/02/dsp2017-3.png" alt="" width="68" height="154" /></a>
     </div>
     
     <div style="font-size: 10pt; padding: 10px;">

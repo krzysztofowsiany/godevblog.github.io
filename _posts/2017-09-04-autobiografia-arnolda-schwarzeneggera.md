@@ -8,7 +8,7 @@ guid: http://godev.gemustudio.com/?p=1725
 permalink: /2017/09/04/autobiografia-arnolda-schwarzeneggera/
 dslc_post_template:
   - default
-image: /images/2017/09/arnold.png
+image: /assets/images/2017/09/arnold.png
 categories:
   - Bez kategorii
   - Książka

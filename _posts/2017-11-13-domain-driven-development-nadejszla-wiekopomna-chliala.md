@@ -8,7 +8,7 @@ guid: http://godev.gemustudio.com/?p=1911
 permalink: /2017/11/13/domain-driven-development-nadejszla-wiekopomna-chliala/
 dslc_post_template:
   - default
-image: /images/2017/11/blogging-photo-3271.jpg
+image: /assets/images/2017/11/blogging-photo-3271.jpg
 categories:
   - Bez kategorii
   - Domain-Driven Design
@@ -30,7 +30,7 @@ tags:
     </p>
     
     <p style="text-align: justify;">
-      <span style="font-size: 16px;"><a href="http://godev.gemustudio.com/images/2017/11/blogging-photo-9818.jpg"><img class="size-medium wp-image-1916 alignright" src="http://godev.gemustudio.com/images/2017/11/blogging-photo-9818-200x300.jpg" alt="Domain Expert" width="200" height="300" srcset="http://godev.gemustudio.com/images/2017/11/blogging-photo-9818-200x300.jpg 200w, http://godev.gemustudio.com/images/2017/11/blogging-photo-9818.jpg 600w" sizes="(max-width: 200px) 100vw, 200px" /></a>Liznąwszy nieco wiedzy na temat <a href="http://godev.gemustudio.com/2017/07/13/domain-driven-design-wstep/" target="_blank" rel="noreferrer noopener"><strong>Domain-Driven Development</strong></a>, </span><strong><span style="color: #ff0000;"><em><span style="font-size: 16px;">pora wrzucić jakiegoś kota do wora</span>.</em></span></strong>
+      <span style="font-size: 16px;"><a href="http://godev.gemustudio.com/assets/images/2017/11/blogging-photo-9818.jpg"><img class="size-medium wp-image-1916 alignright" src="http://godev.gemustudio.com/assets/images/2017/11/blogging-photo-9818-200x300.jpg" alt="Domain Expert" width="200" height="300" srcset="http://godev.gemustudio.com/assets/images/2017/11/blogging-photo-9818-200x300.jpg 200w, http://godev.gemustudio.com/assets/images/2017/11/blogging-photo-9818.jpg 600w" sizes="(max-width: 200px) 100vw, 200px" /></a>Liznąwszy nieco wiedzy na temat <a href="http://godev.gemustudio.com/2017/07/13/domain-driven-design-wstep/" target="_blank" rel="noreferrer noopener"><strong>Domain-Driven Development</strong></a>, </span><strong><span style="color: #ff0000;"><em><span style="font-size: 16px;">pora wrzucić jakiegoś kota do wora</span>.</em></span></strong>
     </p>
     
     <h2>

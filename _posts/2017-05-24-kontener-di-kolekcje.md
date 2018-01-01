@@ -6,7 +6,7 @@ author: gocom
 layout: post
 guid: http://godev.gemustudio.com/?p=1155
 permalink: /2017/05/24/kontener-di-kolekcje/
-image: /images/2017/05/blogging-photo-7501.jpg
+image: /assets/images/2017/05/blogging-photo-7501.jpg
 categories:
   - 'C#'
   - Programowanie
@@ -21,7 +21,7 @@ tags:
 <div id="dslc-theme-content">
   <div id="dslc-theme-content-inner">
     <p style="text-align: justify;">
-      W zmaganiach z kontenerem <strong>AutoFac</strong>, natrafiłem na możliwość wstrzykiwania całych kolekcji implementujących ten sam interfejs.<a href="http://godev.gemustudio.com/images/2017/05/blogging-photo-5.jpg"><img class="wp-image-1165 alignright" src="http://godev.gemustudio.com/images/2017/05/blogging-photo-5-200x300.jpg" alt="" width="107" height="161" srcset="http://godev.gemustudio.com/images/2017/05/blogging-photo-5-200x300.jpg 200w, http://godev.gemustudio.com/images/2017/05/blogging-photo-5.jpg 600w" sizes="(max-width: 107px) 100vw, 107px" /></a>
+      W zmaganiach z kontenerem <strong>AutoFac</strong>, natrafiłem na możliwość wstrzykiwania całych kolekcji implementujących ten sam interfejs.<a href="http://godev.gemustudio.com/assets/images/2017/05/blogging-photo-5.jpg"><img class="wp-image-1165 alignright" src="http://godev.gemustudio.com/assets/images/2017/05/blogging-photo-5-200x300.jpg" alt="" width="107" height="161" srcset="http://godev.gemustudio.com/assets/images/2017/05/blogging-photo-5-200x300.jpg 200w, http://godev.gemustudio.com/assets/images/2017/05/blogging-photo-5.jpg 600w" sizes="(max-width: 107px) 100vw, 107px" /></a>
     </p>
     
     <p>
@@ -129,7 +129,7 @@ namespace Test
     </p>
     
     <p>
-      <a href="http://godev.gemustudio.com/images/2017/05/blogging-photo-9452.jpg"><img class="aligncenter size-medium wp-image-1175" src="http://godev.gemustudio.com/images/2017/05/blogging-photo-9452-300x200.jpg" alt="" width="300" height="200" srcset="http://godev.gemustudio.com/images/2017/05/blogging-photo-9452-300x200.jpg 300w, http://godev.gemustudio.com/images/2017/05/blogging-photo-9452-768x512.jpg 768w, http://godev.gemustudio.com/images/2017/05/blogging-photo-9452.jpg 900w" sizes="(max-width: 300px) 100vw, 300px" /></a>
+      <a href="http://godev.gemustudio.com/assets/images/2017/05/blogging-photo-9452.jpg"><img class="aligncenter size-medium wp-image-1175" src="http://godev.gemustudio.com/assets/images/2017/05/blogging-photo-9452-300x200.jpg" alt="" width="300" height="200" srcset="http://godev.gemustudio.com/assets/images/2017/05/blogging-photo-9452-300x200.jpg 300w, http://godev.gemustudio.com/assets/images/2017/05/blogging-photo-9452-768x512.jpg 768w, http://godev.gemustudio.com/assets/images/2017/05/blogging-photo-9452.jpg 900w" sizes="(max-width: 300px) 100vw, 300px" /></a>
     </p>
     
     <p>

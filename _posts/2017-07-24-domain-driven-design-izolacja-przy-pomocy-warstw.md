@@ -8,7 +8,7 @@ guid: http://godev.gemustudio.com/?p=1652
 permalink: /2017/07/24/domain-driven-design-izolacja-przy-pomocy-warstw/
 dslc_post_template:
   - default
-image: /images/2017/07/blogging-photo-1365.jpg
+image: /assets/images/2017/07/blogging-photo-1365.jpg
 categories:
   - Bez kategorii
   - Domain-Driven Design
@@ -22,7 +22,7 @@ tags:
 <div id="dslc-theme-content">
   <div id="dslc-theme-content-inner">
     <p style="text-align: justify;">
-      <span style="font-weight: 400; font-family: arial, helvetica, sans-serif; font-size: 16px;"><a href="http://godev.gemustudio.com/images/2017/07/blogging-photo-1365.jpg"><img class="size-medium wp-image-1660 alignleft" src="http://godev.gemustudio.com/images/2017/07/blogging-photo-1365-300x200.jpg" alt="loose-coupling" width="300" height="200" srcset="http://godev.gemustudio.com/images/2017/07/blogging-photo-1365-300x200.jpg 300w, http://godev.gemustudio.com/images/2017/07/blogging-photo-1365-768x512.jpg 768w, http://godev.gemustudio.com/images/2017/07/blogging-photo-1365.jpg 900w" sizes="(max-width: 300px) 100vw, 300px" /></a>Poprawne modelowanie dziedziny skutkuje bezwzględnym wymaganiem dotyczą jej izolacji od reszty systemu. Z pomocą przychodzi architektura warstwowa wyodrębniająca z aplikacji spójne ze sobą pod względem działania obszary. Zebrane w ten sposób funkcjonalności są składowymi warstw. Przy czym bazowy zestaw warstw został zdefiniowany i zawiera:</span>
+      <span style="font-weight: 400; font-family: arial, helvetica, sans-serif; font-size: 16px;"><a href="http://godev.gemustudio.com/assets/images/2017/07/blogging-photo-1365.jpg"><img class="size-medium wp-image-1660 alignleft" src="http://godev.gemustudio.com/assets/images/2017/07/blogging-photo-1365-300x200.jpg" alt="loose-coupling" width="300" height="200" srcset="http://godev.gemustudio.com/assets/images/2017/07/blogging-photo-1365-300x200.jpg 300w, http://godev.gemustudio.com/assets/images/2017/07/blogging-photo-1365-768x512.jpg 768w, http://godev.gemustudio.com/assets/images/2017/07/blogging-photo-1365.jpg 900w" sizes="(max-width: 300px) 100vw, 300px" /></a>Poprawne modelowanie dziedziny skutkuje bezwzględnym wymaganiem dotyczą jej izolacji od reszty systemu. Z pomocą przychodzi architektura warstwowa wyodrębniająca z aplikacji spójne ze sobą pod względem działania obszary. Zebrane w ten sposób funkcjonalności są składowymi warstw. Przy czym bazowy zestaw warstw został zdefiniowany i zawiera:</span>
     </p>
     
     <ul>
@@ -46,7 +46,7 @@ tags:
     </p>
     
     <p>
-      <a href="http://godev.gemustudio.com/images/2017/07/4layer_application.png"><img class="aligncenter wp-image-1677 size-medium" src="http://godev.gemustudio.com/images/2017/07/4layer_application-300x211.png" alt="Architektura warstwowa" width="300" height="211" srcset="http://godev.gemustudio.com/images/2017/07/4layer_application-300x211.png 300w, http://godev.gemustudio.com/images/2017/07/4layer_application.png 565w" sizes="(max-width: 300px) 100vw, 300px" /></a>
+      <a href="http://godev.gemustudio.com/assets/images/2017/07/4layer_application.png"><img class="aligncenter wp-image-1677 size-medium" src="http://godev.gemustudio.com/assets/images/2017/07/4layer_application-300x211.png" alt="Architektura warstwowa" width="300" height="211" srcset="http://godev.gemustudio.com/assets/images/2017/07/4layer_application-300x211.png 300w, http://godev.gemustudio.com/assets/images/2017/07/4layer_application.png 565w" sizes="(max-width: 300px) 100vw, 300px" /></a>
     </p>
     
     <p>
@@ -78,7 +78,7 @@ tags:
     </p>
     
     <p style="text-align: justify;">
-      <span style="font-weight: 400; font-family: arial, helvetica, sans-serif; font-size: 16px;">Warstwy powinny być zależne jedynie od warstwy niższej, jednocześnie luźno powiązane z warstwami wyżej.<a href="http://godev.gemustudio.com/images/2017/07/blogging-photo-1398.jpg"><img class="size-medium wp-image-1680 alignright" src="http://godev.gemustudio.com/images/2017/07/blogging-photo-1398-300x200.jpg" alt="high-cohesion" width="300" height="200" srcset="http://godev.gemustudio.com/images/2017/07/blogging-photo-1398-300x200.jpg 300w, http://godev.gemustudio.com/images/2017/07/blogging-photo-1398-768x512.jpg 768w, http://godev.gemustudio.com/images/2017/07/blogging-photo-1398.jpg 900w" sizes="(max-width: 300px) 100vw, 300px" /></a> </span>
+      <span style="font-weight: 400; font-family: arial, helvetica, sans-serif; font-size: 16px;">Warstwy powinny być zależne jedynie od warstwy niższej, jednocześnie luźno powiązane z warstwami wyżej.<a href="http://godev.gemustudio.com/assets/images/2017/07/blogging-photo-1398.jpg"><img class="size-medium wp-image-1680 alignright" src="http://godev.gemustudio.com/assets/images/2017/07/blogging-photo-1398-300x200.jpg" alt="high-cohesion" width="300" height="200" srcset="http://godev.gemustudio.com/assets/images/2017/07/blogging-photo-1398-300x200.jpg 300w, http://godev.gemustudio.com/assets/images/2017/07/blogging-photo-1398-768x512.jpg 768w, http://godev.gemustudio.com/assets/images/2017/07/blogging-photo-1398.jpg 900w" sizes="(max-width: 300px) 100vw, 300px" /></a> </span>
     </p>
     
     <p>

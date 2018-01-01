@@ -6,7 +6,7 @@ author: gocom
 layout: post
 guid: http://godev.gemustudio.com/?p=828
 permalink: /2017/04/20/pictogr-moj-cqrs-4/
-image: /images/2017/04/travis_ci-512.png
+image: /assets/images/2017/04/travis_ci-512.png
 categories:
   - Daj Się Poznać 2017
   - PictOgr
@@ -25,7 +25,7 @@ tags:
     </h1>
     
     <p style="text-align: justify;">
-      Zapowiadałem na ten wpis, iż będzie on dotyczył wykorzystania <strong>ES</strong> oraz walidatorów, jednak powstał mały bałagan w projekcie czego skutkiem było wyodrębnienie <strong>CQRS</strong> do osobnego repozytorium.<img class="alignright" src="https://cdn.travis-ci.org/images/logos/TravisCI-Mascot-1-20feeadb48fc2492ba741d89cb5a5c8a.png" alt="CQRS" width="226" height="224" />
+      Zapowiadałem na ten wpis, iż będzie on dotyczył wykorzystania <strong>ES</strong> oraz walidatorów, jednak powstał mały bałagan w projekcie czego skutkiem było wyodrębnienie <strong>CQRS</strong> do osobnego repozytorium.<img class="alignright" src="https://cdn.travis-ci.org/assets/images/logos/TravisCI-Mascot-1-20feeadb48fc2492ba741d89cb5a5c8a.png" alt="CQRS" width="226" height="224" />
     </p>
     
     <p>
@@ -140,7 +140,7 @@ script:
     </p>
     
     <p>
-      <a href="http://godev.gemustudio.com/images/2017/04/mycqrs.png"><img class="aligncenter wp-image-835 size-full" src="http://godev.gemustudio.com/images/2017/04/mycqrs.png" alt="CQRS - GitHub" width="687" height="577" srcset="http://godev.gemustudio.com/images/2017/04/mycqrs.png 687w, http://godev.gemustudio.com/images/2017/04/mycqrs-300x252.png 300w" sizes="(max-width: 687px) 100vw, 687px" /></a>
+      <a href="http://godev.gemustudio.com/assets/images/2017/04/mycqrs.png"><img class="aligncenter wp-image-835 size-full" src="http://godev.gemustudio.com/assets/images/2017/04/mycqrs.png" alt="CQRS - GitHub" width="687" height="577" srcset="http://godev.gemustudio.com/assets/images/2017/04/mycqrs.png 687w, http://godev.gemustudio.com/assets/images/2017/04/mycqrs-300x252.png 300w" sizes="(max-width: 687px) 100vw, 687px" /></a>
     </p>
     
     <h1 style="text-align: justify;">
@@ -198,7 +198,7 @@ script:
       </div>
       
       <div style="text-align: center;">
-         <a href="http://devstyle.pl/daj-sie-poznac/" target="_blank" rel="noopener noreferrer"><img class="wp-image-104 size-full alignright" title="Daj Się Poznać 2017" src="http://godev.gemustudio.com/images/2017/02/dsp2017-3.png" alt="" width="68" height="154" /></a>
+         <a href="http://devstyle.pl/daj-sie-poznac/" target="_blank" rel="noopener noreferrer"><img class="wp-image-104 size-full alignright" title="Daj Się Poznać 2017" src="http://godev.gemustudio.com/assets/images/2017/02/dsp2017-3.png" alt="" width="68" height="154" /></a>
       </div>
       
       <div style="font-size: 10pt; padding: 10px;">

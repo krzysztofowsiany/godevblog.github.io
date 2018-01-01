@@ -6,7 +6,7 @@ author: gocom
 layout: post
 guid: http://godev.gemustudio.com/?p=490
 permalink: /2017/03/21/pictogr-pierwszy-kod/
-image: /images/2017/03/kontener.png
+image: /assets/images/2017/03/kontener.png
 categories:
   - Bez kategorii
   - Daj Się Poznać 2017
@@ -45,7 +45,7 @@ tags:
     </p>
     
     <p style="text-align: justify;">
-      <img class="size-medium alignleft" src="http://docs.autofac.org/en/latest/_images/logo.png" width="185" height="150" />Kolejno przyszedł czas na wdrożenie <strong>DIP</strong> (<strong>Dependency Inversion Principle</strong>) przy wykorzystaniu <strong>Dependency Injection</strong>. Do tego po instalacji pakietu trzeba trochę popracować nad szkieletem wykorzystującym Autofac-a.
+      <img class="size-medium alignleft" src="http://docs.autofac.org/en/latest/_assets/images/logo.png" width="185" height="150" />Kolejno przyszedł czas na wdrożenie <strong>DIP</strong> (<strong>Dependency Inversion Principle</strong>) przy wykorzystaniu <strong>Dependency Injection</strong>. Do tego po instalacji pakietu trzeba trochę popracować nad szkieletem wykorzystującym Autofac-a.
     </p>
     
     <p style="text-align: justify;">
@@ -108,7 +108,7 @@ namespace PictOgr.Core.AutoFac
     </p>
     
     <p>
-      <img class="alignright wp-image-544 size-medium" src="http://godev.gemustudio.com/images/2017/03/kontener-300x200.png" alt="PictOgr - pierwszy kod" width="300" height="200" srcset="http://godev.gemustudio.com/images/2017/03/kontener-300x200.png 300w, http://godev.gemustudio.com/images/2017/03/kontener.png 331w" sizes="(max-width: 300px) 100vw, 300px" />
+      <img class="alignright wp-image-544 size-medium" src="http://godev.gemustudio.com/assets/images/2017/03/kontener-300x200.png" alt="PictOgr - pierwszy kod" width="300" height="200" srcset="http://godev.gemustudio.com/assets/images/2017/03/kontener-300x200.png 300w, http://godev.gemustudio.com/assets/images/2017/03/kontener.png 331w" sizes="(max-width: 300px) 100vw, 300px" />
     </p>
     
     <p>
@@ -267,7 +267,7 @@ namespace PictOgr
     </p>
     
     <p style="text-align: justify;">
-      W powyższym przykładzie rejestrujemy klase <strong>TestClass</strong> jako interfejs <strong>ITestClass</strong>.<img class="size-medium wp-image-529 alignright" src="http://godev.gemustudio.com/images/2017/03/20151125-IMG-2015-11-25-9999_4-300x200.jpg" alt="" width="300" height="200" />
+      W powyższym przykładzie rejestrujemy klase <strong>TestClass</strong> jako interfejs <strong>ITestClass</strong>.<img class="size-medium wp-image-529 alignright" src="http://godev.gemustudio.com/assets/images/2017/03/20151125-IMG-2015-11-25-9999_4-300x200.jpg" alt="" width="300" height="200" />
     </p>
     
     <p style="text-align: justify;">
@@ -332,7 +332,7 @@ namespace PictOgr
       </div>
       
       <div style="text-align: center;">
-         <a href="http://devstyle.pl/daj-sie-poznac/" target="_blank" rel="noopener noreferrer"><img class="wp-image-104 size-full alignright" title="Daj Się Poznać 2017" src="http://godev.gemustudio.com/images/2017/02/dsp2017-3.png" alt="" width="68" height="154" /></a>
+         <a href="http://devstyle.pl/daj-sie-poznac/" target="_blank" rel="noopener noreferrer"><img class="wp-image-104 size-full alignright" title="Daj Się Poznać 2017" src="http://godev.gemustudio.com/assets/images/2017/02/dsp2017-3.png" alt="" width="68" height="154" /></a>
       </div>
       
       <div style="font-size: 10pt; padding: 10px;">

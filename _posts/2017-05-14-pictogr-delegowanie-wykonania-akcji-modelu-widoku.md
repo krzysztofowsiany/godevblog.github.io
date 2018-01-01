@@ -6,7 +6,7 @@ author: gocom
 layout: post
 guid: http://godev.gemustudio.com/?p=1079
 permalink: /2017/05/14/pictogr-delegowanie-wykonania-akcji-modelu-widoku/
-image: /images/2017/05/IMG_9837-2.jpg
+image: /assets/images/2017/05/IMG_9837-2.jpg
 categories:
   - Bez kategorii
   - Daj Się Poznać 2017
@@ -21,7 +21,7 @@ tags:
 <div id="dslc-theme-content">
   <div id="dslc-theme-content-inner">
     <p style="text-align: justify;">
-      <a href="http://godev.gemustudio.com/images/2017/05/IMG_0061.jpg"><img class="alignright wp-image-1098 size-medium" src="http://godev.gemustudio.com/images/2017/05/IMG_0061-300x200.jpg" alt="PictOgr - delegowanie wykonania akcji do modelu widoku" width="300" height="200" srcset="http://godev.gemustudio.com/images/2017/05/IMG_0061-300x200.jpg 300w, http://godev.gemustudio.com/images/2017/05/IMG_0061-768x512.jpg 768w, http://godev.gemustudio.com/images/2017/05/IMG_0061-1024x683.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px" /></a>Nie zawsze dobrym rozwiązaniem jest budowanie komendy dla każdej operacji
+      <a href="http://godev.gemustudio.com/assets/images/2017/05/IMG_0061.jpg"><img class="alignright wp-image-1098 size-medium" src="http://godev.gemustudio.com/assets/images/2017/05/IMG_0061-300x200.jpg" alt="PictOgr - delegowanie wykonania akcji do modelu widoku" width="300" height="200" srcset="http://godev.gemustudio.com/assets/images/2017/05/IMG_0061-300x200.jpg 300w, http://godev.gemustudio.com/assets/images/2017/05/IMG_0061-768x512.jpg 768w, http://godev.gemustudio.com/assets/images/2017/05/IMG_0061-1024x683.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px" /></a>Nie zawsze dobrym rozwiązaniem jest budowanie komendy dla każdej operacji
     </p>
     
     <p style="text-align: justify;">
@@ -140,7 +140,7 @@ namespace PictOgr.MVVM.Configuration.ViewModels
 </pre>
     
     <p style="text-align: justify;">
-      <a href="http://godev.gemustudio.com/images/2017/05/IMG_0712.jpg"><img class="alignleft wp-image-1102 size-medium" src="http://godev.gemustudio.com/images/2017/05/IMG_0712-300x200.jpg" alt="PictOgr" width="300" height="200" srcset="http://godev.gemustudio.com/images/2017/05/IMG_0712-300x200.jpg 300w, http://godev.gemustudio.com/images/2017/05/IMG_0712-768x512.jpg 768w, http://godev.gemustudio.com/images/2017/05/IMG_0712-1024x683.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px" /></a>
+      <a href="http://godev.gemustudio.com/assets/images/2017/05/IMG_0712.jpg"><img class="alignleft wp-image-1102 size-medium" src="http://godev.gemustudio.com/assets/images/2017/05/IMG_0712-300x200.jpg" alt="PictOgr" width="300" height="200" srcset="http://godev.gemustudio.com/assets/images/2017/05/IMG_0712-300x200.jpg 300w, http://godev.gemustudio.com/assets/images/2017/05/IMG_0712-768x512.jpg 768w, http://godev.gemustudio.com/assets/images/2017/05/IMG_0712-1024x683.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px" /></a>
     </p>
     
     <p style="text-align: justify;">
@@ -227,7 +227,7 @@ namespace PictOgr.E2E
 }</pre>
     
     <h3 style="text-align: center;">
-      <a href="http://godev.gemustudio.com/images/2017/05/IMG_0022.jpg"><img class="aligncenter size-medium wp-image-1099" src="http://godev.gemustudio.com/images/2017/05/IMG_0022-300x200.jpg" alt="" width="300" height="200" srcset="http://godev.gemustudio.com/images/2017/05/IMG_0022-300x200.jpg 300w, http://godev.gemustudio.com/images/2017/05/IMG_0022-768x512.jpg 768w, http://godev.gemustudio.com/images/2017/05/IMG_0022-1024x683.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px" /></a>
+      <a href="http://godev.gemustudio.com/assets/images/2017/05/IMG_0022.jpg"><img class="aligncenter size-medium wp-image-1099" src="http://godev.gemustudio.com/assets/images/2017/05/IMG_0022-300x200.jpg" alt="" width="300" height="200" srcset="http://godev.gemustudio.com/assets/images/2017/05/IMG_0022-300x200.jpg 300w, http://godev.gemustudio.com/assets/images/2017/05/IMG_0022-768x512.jpg 768w, http://godev.gemustudio.com/assets/images/2017/05/IMG_0022-1024x683.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px" /></a>
     </h3>
     
     <p>
@@ -260,7 +260,7 @@ namespace PictOgr.E2E
       </div>
       
       <div style="text-align: center;">
-         <a href="http://devstyle.pl/daj-sie-poznac/" target="_blank" rel="noopener noreferrer"><img class="wp-image-104 size-full alignright" title="Daj Się Poznać 2017" src="http://godev.gemustudio.com/images/2017/02/dsp2017-3.png" alt="" width="68" height="154" /></a>
+         <a href="http://devstyle.pl/daj-sie-poznac/" target="_blank" rel="noopener noreferrer"><img class="wp-image-104 size-full alignright" title="Daj Się Poznać 2017" src="http://godev.gemustudio.com/assets/images/2017/02/dsp2017-3.png" alt="" width="68" height="154" /></a>
       </div>
       
       <div style="font-size: 10pt; padding: 10px;">

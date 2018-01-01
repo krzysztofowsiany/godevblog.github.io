@@ -8,7 +8,7 @@ guid: http://godev.gemustudio.com/?p=1564
 permalink: /2017/07/10/gala-finalowa-daj-sie-poznac-2017-wystapienie/
 dslc_post_template:
   - default
-image: /images/2017/07/blogging-photo-9873.jpg
+image: /assets/images/2017/07/blogging-photo-9873.jpg
 categories:
   - Bez kategorii
   - Daj Się Poznać 2017
@@ -78,7 +78,7 @@ tags:
     </div>
     
     <div style="text-align: justify;">
-      <span style="font-family: arial, helvetica, sans-serif;"><a href="http://devstyle.pl/daj-sie-poznac/" target="_blank" rel="noopener noreferrer"><img class="wp-image-104 size-full alignright" title="Daj Się Poznać 2017" src="http://godev.gemustudio.com/images/2017/02/dsp2017-3.png" alt="" width="68" height="154" /></a></span>
+      <span style="font-family: arial, helvetica, sans-serif;"><a href="http://devstyle.pl/daj-sie-poznac/" target="_blank" rel="noopener noreferrer"><img class="wp-image-104 size-full alignright" title="Daj Się Poznać 2017" src="http://godev.gemustudio.com/assets/images/2017/02/dsp2017-3.png" alt="" width="68" height="154" /></a></span>
     </div>
     
     <div style="font-size: 10pt; padding: 10px;">

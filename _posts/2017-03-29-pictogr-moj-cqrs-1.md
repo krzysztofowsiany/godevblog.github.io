@@ -6,7 +6,7 @@ author: gocom
 layout: post
 guid: http://godev.gemustudio.com/?p=582
 permalink: /2017/03/29/pictogr-moj-cqrs-1/
-image: /images/2017/03/13575771_612844145558374_5342566555726992706_o.jpg
+image: /assets/images/2017/03/13575771_612844145558374_5342566555726992706_o.jpg
 categories:
   - Bez kategorii
   - Daj Się Poznać 2017
@@ -25,7 +25,7 @@ tags:
     </h1>
     
     <p style="text-align: justify;">
-      <a href="http://godev.gemustudio.com/images/2017/03/13575771_612844145558374_5342566555726992706_o.jpg"><img class="alignleft wp-image-625 size-medium" src="http://godev.gemustudio.com/images/2017/03/13575771_612844145558374_5342566555726992706_o-300x200.jpg" alt="PictOgr - mój CQRS" width="300" height="200" srcset="http://godev.gemustudio.com/images/2017/03/13575771_612844145558374_5342566555726992706_o-300x200.jpg 300w, http://godev.gemustudio.com/images/2017/03/13575771_612844145558374_5342566555726992706_o-768x512.jpg 768w, http://godev.gemustudio.com/images/2017/03/13575771_612844145558374_5342566555726992706_o-1024x683.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px" /></a>Zachciało mi się&#8230; nauczyć czegoś przydatnego i noweg. Padło na separację operacji pobierania i zmieniania danych. W tym celu pokusiłem się o własną implementację <strong>CQRS</strong>. Wszystkie komponenty składowe ładowane przez Autofaca w odseparowanym module.
+      <a href="http://godev.gemustudio.com/assets/images/2017/03/13575771_612844145558374_5342566555726992706_o.jpg"><img class="alignleft wp-image-625 size-medium" src="http://godev.gemustudio.com/assets/images/2017/03/13575771_612844145558374_5342566555726992706_o-300x200.jpg" alt="PictOgr - mój CQRS" width="300" height="200" srcset="http://godev.gemustudio.com/assets/images/2017/03/13575771_612844145558374_5342566555726992706_o-300x200.jpg 300w, http://godev.gemustudio.com/assets/images/2017/03/13575771_612844145558374_5342566555726992706_o-768x512.jpg 768w, http://godev.gemustudio.com/assets/images/2017/03/13575771_612844145558374_5342566555726992706_o-1024x683.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px" /></a>Zachciało mi się&#8230; nauczyć czegoś przydatnego i noweg. Padło na separację operacji pobierania i zmieniania danych. W tym celu pokusiłem się o własną implementację <strong>CQRS</strong>. Wszystkie komponenty składowe ładowane przez Autofaca w odseparowanym module.
     </p>
     
     <p style="text-align: justify;">
@@ -73,7 +73,7 @@ tags:
     </p>
     
     <p>
-      <a href="http://godev.gemustudio.com/images/2017/03/myCQRS.png"><img class="size-full wp-image-584 aligncenter" src="http://godev.gemustudio.com/images/2017/03/myCQRS.png" alt="" width="268" height="381" srcset="http://godev.gemustudio.com/images/2017/03/myCQRS.png 268w, http://godev.gemustudio.com/images/2017/03/myCQRS-211x300.png 211w" sizes="(max-width: 268px) 100vw, 268px" /></a>
+      <a href="http://godev.gemustudio.com/assets/images/2017/03/myCQRS.png"><img class="size-full wp-image-584 aligncenter" src="http://godev.gemustudio.com/assets/images/2017/03/myCQRS.png" alt="" width="268" height="381" srcset="http://godev.gemustudio.com/assets/images/2017/03/myCQRS.png 268w, http://godev.gemustudio.com/assets/images/2017/03/myCQRS-211x300.png 211w" sizes="(max-width: 268px) 100vw, 268px" /></a>
     </p>
     
     <p style="text-align: justify;">
@@ -480,7 +480,7 @@ namespace PictOgr.SplashScreen.Commands
     </p>
     
     <h1>
-      Koniec<a href="http://godev.gemustudio.com/images/2017/03/13581925_612838085558980_6043402438851061498_o.jpg"><img class="wp-image-631 size-medium alignright" src="http://godev.gemustudio.com/images/2017/03/13581925_612838085558980_6043402438851061498_o-300x200.jpg" alt="" width="300" height="200" srcset="http://godev.gemustudio.com/images/2017/03/13581925_612838085558980_6043402438851061498_o-300x200.jpg 300w, http://godev.gemustudio.com/images/2017/03/13581925_612838085558980_6043402438851061498_o-768x512.jpg 768w, http://godev.gemustudio.com/images/2017/03/13581925_612838085558980_6043402438851061498_o-1024x683.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px" /></a>
+      Koniec<a href="http://godev.gemustudio.com/assets/images/2017/03/13581925_612838085558980_6043402438851061498_o.jpg"><img class="wp-image-631 size-medium alignright" src="http://godev.gemustudio.com/assets/images/2017/03/13581925_612838085558980_6043402438851061498_o-300x200.jpg" alt="" width="300" height="200" srcset="http://godev.gemustudio.com/assets/images/2017/03/13581925_612838085558980_6043402438851061498_o-300x200.jpg 300w, http://godev.gemustudio.com/assets/images/2017/03/13581925_612838085558980_6043402438851061498_o-768x512.jpg 768w, http://godev.gemustudio.com/assets/images/2017/03/13581925_612838085558980_6043402438851061498_o-1024x683.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px" /></a>
     </h1>
     
     <p style="text-align: justify;">
@@ -513,7 +513,7 @@ namespace PictOgr.SplashScreen.Commands
       </div>
       
       <div style="text-align: center;">
-         <a href="http://devstyle.pl/daj-sie-poznac/" target="_blank" rel="noopener noreferrer"><img class="wp-image-104 size-full alignright" title="Daj Się Poznać 2017" src="http://godev.gemustudio.com/images/2017/02/dsp2017-3.png" alt="" width="68" height="154" /></a>
+         <a href="http://devstyle.pl/daj-sie-poznac/" target="_blank" rel="noopener noreferrer"><img class="wp-image-104 size-full alignright" title="Daj Się Poznać 2017" src="http://godev.gemustudio.com/assets/images/2017/02/dsp2017-3.png" alt="" width="68" height="154" /></a>
       </div>
       
       <div style="font-size: 10pt; padding: 10px;">
