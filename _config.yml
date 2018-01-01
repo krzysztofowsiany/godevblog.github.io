@@ -1,5 +1,5 @@
 theme: jekyll-theme-architect
-url: http://godev.gemustudio.com/godev/
+url: http://godev.gemustudio.com
 name: Good Developer
 description: Blog programistyczy.
 plugins: ['jekyll-twitter-plugin']
