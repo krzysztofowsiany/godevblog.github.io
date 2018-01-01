@@ -5,7 +5,7 @@ date: 2017-04-07T09:03:43+00:00
 author: gocom
 layout: post
 guid: http://godev.gemustudio.com/?p=736
-permalink: /2017/04/07/trening-przez-las/
+permalink: /trening-przez-las/
 image: /assets/images/2017/04/bieg-1.png
 categories:
   - Bieganie

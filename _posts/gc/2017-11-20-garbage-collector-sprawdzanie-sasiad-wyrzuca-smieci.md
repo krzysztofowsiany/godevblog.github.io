@@ -5,12 +5,11 @@ date: 2017-11-20T20:03:06+00:00
 author: gocom
 layout: post
 guid: http://godev.gemustudio.com/?p=1613
-permalink: /2017/11/20/garbage-collector-sprawdzanie-sasiad-wyrzuca-smieci/
+permalink: /garbage-collector-sprawdzanie-sasiad-wyrzuca-smieci/
 dslc_post_template:
   - default
 image: /assets/images/2017/11/blogging-photo-2016.jpg
-categories:
-  - Bez kategorii
+categories:  
   - 'C#'
   - Programowanie
 tags:
