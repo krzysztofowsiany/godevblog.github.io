@@ -27,7 +27,7 @@ tags:
     <p style="text-align: justify;">
       <span style="font-size: 16px;"><strong>Garbage Collector</strong> ma zaimplementowaną pewną funkcjonalność. Daje nam ona kontrolę nad procesem niszczenia obiektów. Jako że do zarządzania pamięcią wykorzystywany jest specjalny agent i nie musimy się martwić o niszczenie obiektów. Tym samym nie wiemy, kiedy to nastąpi.</span>
     </p>
-    
+    <!--break-->
     <p style="text-align: justify;">
       <span style="font-size: 16px;">Użycie finalizatorów spowoduje możliwość uchwycenia procesu niszczenia obiektu w metodzie.</span>
     </p>
@@ -187,9 +187,5 @@ tags:
     <p>
       <strong>C.D.N.</strong>
     </p>
-    
-    <!-- AddThis Advanced Settings generic via filter on the_content -->
-    
-    <!-- AddThis Share Buttons generic via filter on the_content -->
   </div>
 </div>
