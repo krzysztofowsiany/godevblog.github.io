@@ -1,0 +1,36 @@
+@import "{{ site.theme }}";
+
+header {
+    height: 220px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, serif;
+}
+
+footer{
+    text-align: center
+}
+
+#main-content h1,#main-content h2,#main-content h3,#main-content h5, #main-content h6 {
+    font-family: 'Helvetica Neue', Helvetica, Arial, serif;
+}
+
+h3 {
+    font-size: 20pt;
+}
+
+#main-content {
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 14pt;
+}
+
+a.button { 
+    font-family: 'Helvetica Neue', Helvetica, Arial, serif;
+}
+
+.post-date {
+    float: right;
+}
+
+img.post_image {
+    width: 150px;
+}
