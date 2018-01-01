@@ -1,4 +1,9 @@
-theme: jekyll-theme-hacker
+theme: jekyll-theme-architect
 url: http://godev.gemustudio.com
 name: Good Developer
 description: Blog programistyczy.
+plugins: ['jekyll-twitter-plugin']
+
+author: Krzysztof Owsiany
+author_email: gocom@o2.pl
+
