@@ -31,6 +31,15 @@ a.button {
     float: right;
 }
 
-.post_image {
-    width: 150px;
+
+div.post_image {
+    float: left;
+    width: 100px;
+    height: 100px;
+}
+
+div.post_image img {
+	width:auto;
+	max-width:100%;
+	height:auto;
 }
