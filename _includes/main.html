@@ -16,8 +16,7 @@
             </div>
           </a>
 
-          {{ post.content | split:'
-          <!--break-->' | first }}
+          {{ post.content | split:'<!--break-->' | first }}
         </p>
 
         {% if post.content contains '
