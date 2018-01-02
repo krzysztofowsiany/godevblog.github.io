@@ -45,8 +45,13 @@ div.post_image img {
     height: auto;    
 }
 
-div.post_preview{
+div.post_preview {
     overflow:auto;
     display:block;
     min-height:100%;
+    
 }
+
+div.post_preview:nth-child(2n){
+    background:rgba(204, 204, 204, 0.089);
+  }
