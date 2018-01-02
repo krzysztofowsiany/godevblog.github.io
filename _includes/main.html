@@ -20,10 +20,10 @@
           {{ post.content | split:'<!--break-->' | first }}
         </p>
 
-        {% if post.content contains '
-        <!--break-->' %}
+        {% if post.content contains '<!--break-->' %}
         <a href="{{ post.url }}">więcej</a>
         {% endif %}
+        
       </div>
 
       <hr> {% endfor %}
