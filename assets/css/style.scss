@@ -44,3 +44,9 @@ div.post_image img {
     width: 200px;
     height: auto;    
 }
+
+div.post_preview{
+    overflow:scroll;
+    display:block;
+    min-height:100%;
+}

@@ -5,7 +5,7 @@ date: 2017-05-14T22:58:28+00:00
 author: gocom
 layout: post
 guid: http://godev.gemustudio.com/?p=1060
-permalink: /2017/05/14/wysypisko-smieci/
+permalink: /wysypisko-smieci/
 dslc_post_template:
   - default
 image: /assets/images/2017/05/IMG_9281.jpg
@@ -25,7 +25,7 @@ tags:
     <p>
       <a href="http://godev.gemustudio.com/assets/images/2017/05/IMG_0108.jpg"><img class="alignright wp-image-1089 size-medium" src="http://godev.gemustudio.com/assets/images/2017/05/IMG_0108-200x300.jpg" alt="Garbage Collector" width="200" height="300" srcset="http://godev.gemustudio.com/assets/images/2017/05/IMG_0108-200x300.jpg 200w, http://godev.gemustudio.com/assets/images/2017/05/IMG_0108-683x1024.jpg 683w, http://godev.gemustudio.com/assets/images/2017/05/IMG_0108.jpg 720w" sizes="(max-width: 200px) 100vw, 200px" /></a>Nasz wspaniały język C#, znosi z nas prawie pełną odpowiedzialność za sprzątanie po sobie.
     </p>
-    
+     <!--break-->
     <p style="text-align: justify;">
       Można by rzec, iż mamy zatrudnioną sprzątaczkę i nawet nie wiemy, kiedy magicznie bałagan znika. Oczywiści mowa tutaj o <strong>Garbage Collector</strong>.
     </p>

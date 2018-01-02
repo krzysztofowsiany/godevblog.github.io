@@ -5,7 +5,7 @@ date: 2017-10-18T22:40:49+00:00
 author: gocom
 layout: post
 guid: http://godev.gemustudio.com/?p=1853
-permalink: /2017/10/18/w-poszukiwaniu-programistoku/
+permalink: /w-poszukiwaniu-programistoku/
 dslc_post_template:
   - default
 image: /assets/images/2017/10/22289666_1445971908773940_4706789495857277480_o-1-e1508450091421.jpg
@@ -30,6 +30,8 @@ categories:
       <span style="font-size: 28px;">Gdy rękę wsadzisz w gębę <strong>Git Pulla</strong>,</span>
     </p>
     
+    <!--break-->
+
     <p style="text-align: center;">
       <span style="font-size: 28px;">znikasz jak dane słane w /dev/null-a.</span>
     </p>
