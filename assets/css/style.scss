@@ -36,13 +36,12 @@ a.button {
 
 
 div.post_image {
-    float: left;
-    width: 100px;
+    display: flex;
+    align-items: center;
     height: 100px;
 }
 
 div.post_image img {
-	width:auto;
-	max-width:100%;
-	height:auto;
+    height: auto;
+    
 }
