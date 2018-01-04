@@ -1,11 +1,11 @@
 ---
-id: 1586
+
 title: 'Domain-Driven Design &#8211; Wstęp'
 date: 2017-07-13T10:25:43+00:00
-author: gocom
+author: Krzysztof Owsiany
 layout: post
-guid: http://godev.gemustudio.com/?p=1586
-permalink: /2017/07/13/domain-driven-design-wstep/
+
+permalink: /domain-driven-design-wstep/
 dslc_post_template:
   - default
 image: /assets/images/2017/07/blogging-photo-16.jpg
@@ -22,7 +22,7 @@ tags:
     <p>
       <span style="font-size: 16px;">Niniejszym otwieram cykl postów związanych z rozkminianiem architektury wytwarzania oprogramowania o nazwie <strong>DDD => Domain-Driven Design</strong>. Jest to temat jaki od pewnego czasu dręczy mnie, i chcę rozwinąć swoje zdolności w tym konkretnym obszarze.</span>
     </p>
-    
+    <!--break-->
     <p>
       &nbsp;
     </p>

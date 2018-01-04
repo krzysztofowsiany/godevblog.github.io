@@ -1,10 +1,10 @@
 ---
-id: 1155
+
 title: 'Kontener DI &#8211; kolekcje'
 date: 2017-05-24T12:51:58+00:00
-author: gocom
+author: Krzysztof Owsiany
 layout: post
-guid: http://godev.gemustudio.com/?p=1155
+
 permalink: /2017/05/24/kontener-di-kolekcje/
 image: /assets/images/2017/05/blogging-photo-7501.jpg
 categories:
@@ -27,7 +27,7 @@ tags:
     <p>
       Dzięki takiemu podejściu udało mi się znacznie uprościć kod algorytmu. Niniejszym dzielę się swoimi spostrzeżeniami oraz przykładową poglądową implementacją rozwiązania jakie zastosowałem.
     </p>
-    
+    <!--break-->
     <p>
       &nbsp;
     </p>

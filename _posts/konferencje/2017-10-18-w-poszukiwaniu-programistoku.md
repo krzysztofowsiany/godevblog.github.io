@@ -1,10 +1,10 @@
 ---
-id: 1853
+
 title: W poszukiwaniu Programistoku
 date: 2017-10-18T22:40:49+00:00
-author: gocom
+author: Krzysztof Owsiany
 layout: post
-guid: http://godev.gemustudio.com/?p=1853
+
 permalink: /w-poszukiwaniu-programistoku/
 dslc_post_template:
   - default
@@ -18,24 +18,15 @@ categories:
 ---
 <div id="dslc-theme-content">
   <div id="dslc-theme-content-inner">
-    <h2>
-      Programistok 2017
-    </h2>
-    
-    <p>
-      &nbsp;
-    </p>
-    
-    <p style="text-align: center;">
+   <p style="text-align: center;">
       <span style="font-size: 28px;">Gdy rękę wsadzisz w gębę <strong>Git Pulla</strong>,</span>
     </p>
-    
-    <!--break-->
 
     <p style="text-align: center;">
       <span style="font-size: 28px;">znikasz jak dane słane w /dev/null-a.</span>
     </p>
-    
+   
+
     <p style="text-align: center;">
       <span style="font-size: 28px;">W Programistoku wylądujesz w NET,</span>
     </p>
@@ -44,9 +35,7 @@ categories:
       <span style="font-size: 28px;">Już nie pomoże ci CRTL+Z.</span>
     </p>
     
-    <p>
-      &nbsp;
-    </p>
+   <!--break-->
     
     <p style="text-align: justify;">
       <span style="font-size: 16px;">Przyznam się szczerze i bez bicia od pewnego czasu jak wróciło hasło <strong>Programistok 2017</strong>, wielokrotnie słuchałem klipu zwiastującego <strong>Programistok 2016</strong>, tak bardzo mi się spodobało wideo, iż wielokrotnie słuchałem i będę jeszcze słuchał:D.</span>

@@ -1,11 +1,11 @@
 ---
-id: 1564
+
 title: 'Gala Finałowa Daj Się Poznać 2017 &#8211; i Moje wystąpienie.'
 date: 2017-07-10T08:29:44+00:00
-author: gocom
+author: Krzysztof Owsiany
 layout: post
-guid: http://godev.gemustudio.com/?p=1564
-permalink: /2017/07/10/gala-finalowa-daj-sie-poznac-2017-wystapienie/
+
+permalink: /gala-finalowa-daj-sie-poznac-2017-wystapienie/
 dslc_post_template:
   - default
 image: /assets/images/2017/07/blogging-photo-9873.jpg
@@ -26,7 +26,7 @@ tags:
     <p style="text-align: justify;">
       <span style="font-size: 16px; font-family: arial, helvetica, sans-serif;"><strong>Hohoho</strong> jaka miła niespodzianka w poniedziałek. <a href="http://devstyle.pl"><strong>Maciej Aniserowicz</strong></a> zamieścił nagrania z wystąpień na <strong>Gali Finałowej Konkursu</strong> <a href="http://dajsiepoznac.pl"><strong>Daj Się Poznać 2017</strong></a> jaka się odbyła w siedzibie <strong><a href="http://microsoft.com.pl">Microsoftu</a></strong>.</span>
     </p>
-    
+     <!--break-->
     <p style="text-align: justify;">
       <span style="font-size: 16px; font-family: arial, helvetica, sans-serif;">Zapraszam do obejrzenia nie tylko Mojego wystąpienia.:D</span>
     </p>

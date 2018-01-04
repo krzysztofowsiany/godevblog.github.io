@@ -1,11 +1,11 @@
 ---
-id: 1725
+
 title: Autobiografia Arnolda Schwarzeneggera
 date: 2017-09-04T00:19:34+00:00
-author: gocom
+author: Krzysztof Owsiany
 layout: post
-guid: http://godev.gemustudio.com/?p=1725
-permalink: /2017/09/04/autobiografia-arnolda-schwarzeneggera/
+
+permalink: /autobiografia-arnolda-schwarzeneggera/
 dslc_post_template:
   - default
 image: /assets/images/2017/09/arnold.png
@@ -26,7 +26,7 @@ tags:
     <p style="text-align: justify;">
       <span style="font-weight: 400; font-size: 16px;">W trakcie czytania czułem się momentami zmieszany. Wiem, iż nie powinienem oceniać człowieka po tym co widzę, niestety dałem się znowu zwieść pozorom. </span>
     </p>
-    
+    <!--break-->
     <p style="text-align: justify;">
       <span style="font-weight: 400; font-size: 16px;">Arnold okazał się, rzeczywistości niezwykłą osobą wartą naśladowania.</span>
     </p>

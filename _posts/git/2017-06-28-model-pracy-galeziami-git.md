@@ -1,11 +1,11 @@
 ---
-id: 1530
+
 title: Model pracy z gałęziami w GIT
 date: 2017-06-28T10:17:19+00:00
-author: gocom
+author: Krzysztof Owsiany
 layout: post
-guid: http://godev.gemustudio.com/?p=1530
-permalink: /2017/06/28/model-pracy-galeziami-git/
+
+permalink: /model-pracy-galeziami-git/
 dslc_post_template:
   - default
 image: /assets/images/2017/06/blogging-photo-2016.jpg
@@ -31,6 +31,8 @@ tags:
       <span style="font-size: 20px;"><span style="font-weight: 400;">Ostatnimi czasy natknąłem się w internetach na model pracy z repozytorium GIT wykreowany przez <a href="http://nvie.com"><strong>Vincenta Driessena</strong></a>. Jego podejście sugeruje by trzymać się dwóch głównych gałęzi o nazwach </span><b>master</b><span style="font-weight: 400;"> i jej podgałęzi rozwojowej </span><b>develop</b><span style="font-weight: 400;">.</span></span>
     </p>
     
+    <!--break-->
+
     <p style="text-align: justify;">
       <span style="font-size: 20px;"><span style="font-weight: 400;">Gałąź master odzwierciedla docelowy kod programu jaki znajduje się na produkcji z niej wyciągane są podgałęzie w przypadku wymagania poprawek jest to warstwa gałęzi </span><b>hotfix branches</b><span style="font-weight: 400;">.</span></span>
     </p>

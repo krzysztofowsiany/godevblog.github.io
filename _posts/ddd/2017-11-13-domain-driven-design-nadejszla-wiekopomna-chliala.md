@@ -1,10 +1,10 @@
 ---
-id: 1911
+
 title: 'Domain-Driven Development &#8211; &#8222;nadejszła wiekopomna chłiła&#8221;'
 date: 2017-11-13T23:40:24+00:00
-author: gocom
+author: Krzysztof Owsiany
 layout: post
-guid: http://godev.gemustudio.com/?p=1911
+
 permalink: /domain-driven-design-nadejszla-wiekopomna-chliala/
 dslc_post_template:
   - default
@@ -28,23 +28,21 @@ tags:
     <p style="text-align: justify;">
       <span style="font-size: 16px;">Długo tutaj mnie nie było, wiele się działo, zmiana pracy, konferencje, wyjazdy. Blog-abstynencja.</span>
     </p>
-     <!--break-->
-    <p style="text-align: justify;">
-      <span style="font-size: 16px;"><a href="http://godev.gemustudio.com/assets/images/2017/11/blogging-photo-9818.jpg"><img class="size-medium wp-image-1916 alignright" src="http://godev.gemustudio.com/assets/images/2017/11/blogging-photo-9818-200x300.jpg" alt="Domain Expert" width="200" height="300" srcset="http://godev.gemustudio.com/assets/images/2017/11/blogging-photo-9818-200x300.jpg 200w, http://godev.gemustudio.com/assets/images/2017/11/blogging-photo-9818.jpg 600w" sizes="(max-width: 200px) 100vw, 200px" /></a>Liznąwszy nieco wiedzy na temat <a href="http://godev.gemustudio.com/2017/07/13/domain-driven-design-wstep/" target="_blank" rel="noreferrer noopener"><strong>Domain-Driven Development</strong></a>, </span><strong><span style="color: #ff0000;"><em><span style="font-size: 16px;">pora wrzucić jakiegoś kota do wora</span>.</em></span></strong>
-    </p>
     
-    <h2>
-      O projekcie
-    </h2>
+       
     
     <p style="text-align: justify;">
       <span style="font-size: 16px;">Chwilami rozmyślałem na temat projektu, jaki chciałbym zmaltretować. Wyszło przy tym kilka ciekawych pomysłów. Jednak do realizacji podejmę się projektu prostego, rozwiązującego mój mały problemik.</span>
     </p>
-    
+    <!--break-->
     <p>
       <span style="font-size: 16px;">Nie lubię np. tracić czasu na takie działanie jak:</span>
     </p>
     
+<p style="text-align: justify;">
+      <span style="font-size: 16px;"><a href="http://godev.gemustudio.com/assets/images/2017/11/blogging-photo-9818.jpg"><img class="size-medium wp-image-1916 alignright" src="http://godev.gemustudio.com/assets/images/2017/11/blogging-photo-9818-200x300.jpg" alt="Domain Expert" width="200" height="300" srcset="http://godev.gemustudio.com/assets/images/2017/11/blogging-photo-9818-200x300.jpg 200w, http://godev.gemustudio.com/assets/images/2017/11/blogging-photo-9818.jpg 600w" sizes="(max-width: 200px) 100vw, 200px" /></a>Liznąwszy nieco wiedzy na temat <a href="http://godev.gemustudio.com/2017/07/13/domain-driven-design-wstep/" target="_blank" rel="noreferrer noopener"><strong>Domain-Driven Development</strong></a>, </span><strong><span style="color: #ff0000;"><em><span style="font-size: 16px;">pora wrzucić jakiegoś kota do wora</span>.</em></span></strong>
+    </p>
+
     <ul>
       <li>
         <span style="font-size: 16px;">odpalanie gita w konkretnej lokalizacji,</span>

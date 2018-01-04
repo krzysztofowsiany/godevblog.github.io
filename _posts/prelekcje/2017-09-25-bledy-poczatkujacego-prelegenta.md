@@ -1,10 +1,10 @@
 ---
-id: 1827
+
 title: Błędy początkującego prelegenta
 date: 2017-09-25T14:50:44+00:00
-author: gocom
+author: Krzysztof Owsiany
 layout: post
-guid: http://godev.gemustudio.com/?p=1827
+
 permalink: /2017/09/25/bledy-poczatkujacego-prelegenta/
 dslc_post_template:
   - default
@@ -17,12 +17,9 @@ tags:
   - Prelekcja
   - Wystąpienie
 ---
+
 <div id="dslc-theme-content">
   <div id="dslc-theme-content-inner">
-    <h2>
-      Błędy początkującego prelegenta.
-    </h2>
-    
     <p>
       23-24 września to dzień, gdzie spotkało się ok 40 osób by w ramach DevStyle Speakers, szlifować swój kunszt prezenterski.
     </p>
@@ -30,7 +27,9 @@ tags:
     <p>
       W wymaganiach dla uczestników znajdowało się przygotowanie prezentacji, jaką należało następnie zaprezentować&#8230;
     </p>
-    
+  
+  <!--break-->
+
     <p>
       W pierwszy dzień odbyły się zajęcia teoretyczno-praktyczne. Wszyscy uczestnicy mieli za zadanie na żywo zaprezentować odpowiedzi na trzy pytania:
     </p>

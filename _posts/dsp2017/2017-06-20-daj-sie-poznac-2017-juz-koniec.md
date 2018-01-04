@@ -1,10 +1,10 @@
 ---
-id: 1418
+
 title: 'Daj Się Poznać 2017 &#8211; to już jest koniec&#8230;'
 date: 2017-06-20T07:39:13+00:00
-author: gocom
+author: Krzysztof Owsiany
 layout: post
-guid: http://godev.gemustudio.com/?p=1418
+
 permalink: /2017/06/20/daj-sie-poznac-2017-juz-koniec/
 image: /assets/images/2017/06/IMG-20170617-WA0029-1.jpg
 categories:
@@ -28,7 +28,7 @@ tags:
     <div style="text-align: justify;">
       Było to dla mnie bardzo interesujące wydarzenie, dzięki któremu mogłem zapoznać się z wieloma interesującymi osobistościami :D.
     </div>
-    
+     <!--break-->
     <div style="text-align: justify;">
       Atmosfera była zajefajna, pizza/kawa OK.
     </div>
