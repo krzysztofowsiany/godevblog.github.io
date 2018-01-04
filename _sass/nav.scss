@@ -1,0 +1,69 @@
+$link-background-color: rgb(77, 77, 77);
+$link-color: white;
+
+$link-hover-background-color: rgb(33, 184, 253);
+$link-hover-color: white;
+
+$link-dropdown-hover-background-color: rgb(156, 156, 156);
+$link-dropdown-hover-color: white;
+
+$link-dropdown-background-color: rgb(224, 224, 224);
+$link-dropdown-color: black;
+$link-dropdown-background-shadow-color: rgba(0,0,0,0.2);
+
+ul.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: $link-background-color;
+}
+
+li.nav {
+    float: left;
+}
+
+li.nav a, .dropbtn {
+    display: inline-block;
+    color: $link-hover-color;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li.nav a:hover, .dropdown:hover .dropbtn {
+    background-color: $link-hover-background-color;
+    color: $link-hover-color;
+}
+
+li.nav .dropdown:hover .dropbtn {
+    background-color: $link-dropdown-hover-background-color;
+    color: $link-dropdown-hover-color;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: $link-dropdown-background-color;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px $link-dropdown-background-shadow-color;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: $link-dropdown-color;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: $link-dropdown-hover-background-color}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}

@@ -1,10 +1,8 @@
 ---
-id: 1485
 title: Prelekcje
 date: 2017-06-23T11:11:07+00:00
-author: gocom
+author: Krzysztof Owsiany
 layout: page
-guid: http://godev.gemustudio.com/?page_id=1485
 ---
 <div id="dslc-theme-content">
   <div id="dslc-theme-content-inner">

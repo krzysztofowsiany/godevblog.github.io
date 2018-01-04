@@ -7,3 +7,11 @@ plugins: ['jekyll-twitter-plugin']
 author: Krzysztof Owsiany
 author_email: gocom@o2.pl
 
+tag_feed_layout: tag_feed
+tag_feed_dir: tag
+
+tag_page_layout: tag_page
+tag_page_dir: tag
+tag_permalink_style: pretty
+tag_page_data:
+  sitemap: false
