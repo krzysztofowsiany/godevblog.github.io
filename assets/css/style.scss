@@ -1,6 +1,7 @@
 ---
 ---
 
+
 @import "{{ site.theme }}";
 
 header {
@@ -54,3 +55,6 @@ div.post_preview {
 div.post_preview:nth-child(2n){
     background:rgba(204, 204, 204, 0.089);
   }
+
+
+  @import 'nav';
