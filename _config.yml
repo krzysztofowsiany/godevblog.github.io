@@ -17,3 +17,7 @@ tag_page_data:
   sitemap: false
 
   mailchimp-list: //redgadgets.us10.list-manage.com/subscribe/post?u=2123c1f8978fd64d7bf7612072d81977a-us15;id=32b5575059"
+
+
+paginate: 5
+paginate_path:       '/page:num/'

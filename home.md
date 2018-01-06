@@ -1,10 +1,10 @@
 ---
-id: 78
+
 title: Home
 date: 2017-02-23T08:12:41+00:00
-author: Mikołaj Jakubowski
+author: Krzysztof Owsiany
 layout: page
-guid: http://godev.gemustudio.com/?page_id=78
+
 numinous_sidebar_layout:
   - right-sidebar
 dslc_content_for_search:

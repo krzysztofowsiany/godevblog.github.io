@@ -2,7 +2,7 @@
   <div class="inner clearfix">
     <section id="main-content">
       <!-- using the split filter -->
-      {% for post in site.posts limit:20 %}
+      {% for post in paginator.posts %}
       <div class="post_preview">
         <span class="post-date">{{ post.date | date: "%d.%m.%Y" }}</span>
         <h2>
@@ -26,7 +26,14 @@
       </div>
 
       <hr> {% endfor %}
+
+      {% include pagination.html %}
+
     </section>
+
+
+
+
     {% include sidebar.html %}
   </div>
 </div>
