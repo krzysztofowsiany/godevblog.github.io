@@ -18,7 +18,7 @@ tags:
 ---
 <div id="dslc-theme-content">
   <div id="dslc-theme-content-inner">
-    <p style="text-align: justify;">
+
       C#rek trochę już obyty z <strong>GU</strong>J<strong>I</strong>, rozmyślając o zielonych migdałach, czasem też o programowaniu. Po wielu chwilach doszedł do wniosku, iż programowanie jest to ciężki kawałek chleba, ale warto poświęcić jedną, czy dwie kąpiele błotne na rzecz nauki. Szkoda tylko, że jest tak osamotniony w swych poczynaniach, w okolicy żadnego ogra o podobnych pomyślunkach.
     </p>
     
@@ -34,15 +34,15 @@ tags:
       Hipek ma mały problem z ro<a href="http://godev.gemustudio.com/assets/images/2017/03/menu_breakpoints.png"><img class="alignleft wp-image-487 size-full" src="http://godev.gemustudio.com/assets/images/2017/03/menu_breakpoints.png" alt="" width="613" height="124" srcset="http://godev.gemustudio.com/assets/images/2017/03/menu_breakpoints.png 613w, http://godev.gemustudio.com/assets/images/2017/03/menu_breakpoints-300x61.png 300w" sizes="(max-width: 613px) 100vw, 613px" /></a>balami i czasem te wredne istoty gryzą niemiłosiernie. Jest jednak na to rozwiązanie można pozastawiać pułapki. C#rek wie co to pułapki, nie raz łapał żaby.
     </p>
     
-    <p style="text-align: justify;">
+
       Jednak na spaślaku trzeba to robić dobrze, wykorzystać można do tego kilka magicznych sztuczek.
     </p>
     
-    <p style="text-align: justify;">
+
       Obieramy miejsce w kodziku, gdzie tą pułapke chcemy zastawić i zaklęciem <strong>F9</strong>, lub poprzez machnięcie lewym pośladkiem gryzonia (LPM), w menu <strong>Debug</strong>. W miejscu gdzie pułapka ma być postawiona celujemy w <strong>Toogle Breakpoint</strong>.
     </p>
     
-    <p style="text-align: justify;">
+
       Od razu tutaj można rzec, iż innym przydatnym zaklęciem <strong>Crtl+Shift+F9</strong> zdej<a href="http://godev.gemustudio.com/assets/images/2017/03/żaba.png"><img class="alignright wp-image-557 size-medium" src="http://godev.gemustudio.com/assets/images/2017/03/żaba-300x200.png" alt="C#rek" width="300" height="200" srcset="http://godev.gemustudio.com/assets/images/2017/03/żaba-300x200.png 300w, http://godev.gemustudio.com/assets/images/2017/03/żaba-768x512.png 768w, http://godev.gemustudio.com/assets/images/2017/03/żaba.png 1000w" sizes="(max-width: 300px) 100vw, 300px" /></a>mujemy wszystkie pułapki <strong>Delete All Breakpoints.</strong>
     </p>
     
@@ -78,7 +78,7 @@ tags:
       <a href="http://godev.gemustudio.com/assets/images/2017/03/breakpoints.png"><img class="alignright wp-image-486 size-full" src="http://godev.gemustudio.com/assets/images/2017/03/breakpoints.png" alt="" width="577" height="215" srcset="http://godev.gemustudio.com/assets/images/2017/03/breakpoints.png 577w, http://godev.gemustudio.com/assets/images/2017/03/breakpoints-300x112.png 300w" sizes="(max-width: 577px) 100vw, 577px" /></a>
     </h4>
     
-    <p style="text-align: justify;">
+
       C#rek ma małą pamięć, dlatego przyda się tutaj lista pułapek, można ją przywołać zaklęciem <strong>Crtl+D B.</strong>
     </p>
     
@@ -106,7 +106,7 @@ tags:
       <a href="http://godev.gemustudio.com/assets/images/2017/03/2017-03-21_23h03_26.png"><img class="alignright wp-image-564 size-full" src="http://godev.gemustudio.com/assets/images/2017/03/2017-03-21_23h03_26.png" alt="" width="266" height="313" srcset="http://godev.gemustudio.com/assets/images/2017/03/2017-03-21_23h03_26.png 266w, http://godev.gemustudio.com/assets/images/2017/03/2017-03-21_23h03_26-255x300.png 255w" sizes="(max-width: 266px) 100vw, 266px" /></a>Podczas śledzenia przyd<a href="http://godev.gemustudio.com/assets/images/2017/03/2017-03-21_23h26_50.png"><img class="alignleft wp-image-565 size-full" src="http://godev.gemustudio.com/assets/images/2017/03/2017-03-21_23h26_50.png" alt="" width="357" height="304" srcset="http://godev.gemustudio.com/assets/images/2017/03/2017-03-21_23h26_50.png 357w, http://godev.gemustudio.com/assets/images/2017/03/2017-03-21_23h26_50-300x255.png 300w" sizes="(max-width: 357px) 100vw, 357px" /></a>ać się może nieco informacji do nawigacji, tak by po omacku nie szukać robali.
     </p>
     
-    <p style="text-align: justify;">
+
       Trza tu wymienić następujące zaklęcia:
     </p>
     
@@ -198,7 +198,7 @@ tags:
       &nbsp;
     </p>
     
-    <p style="text-align: justify;">
+
       <span style="background-color: #ffffaa;">Po tej obszernej wiedzy, warto by poćwiczyć nowe zaklęcia/umiejętności.</span>
     </p>
     
@@ -210,11 +210,11 @@ tags:
       Koniec o hipopotamie
     </h2>
     
-    <p style="text-align: justify;">
+
       To ostatni wpis hipopotamowy, mam nadzieję, że forma i treść oraz wartość intelektualna, jaką chciałem przedstawić rozbawi i nauczy.
     </p>
     
-    <p style="text-align: justify;">
+
       Proszę o komentowanie, czy jest to dobra forma, czy też nie?
     </p>
     

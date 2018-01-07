@@ -20,19 +20,19 @@ tags:
 ---
 <div id="dslc-theme-content">
   <div id="dslc-theme-content-inner">
-    <p style="text-align: justify;">
+
       Udało się<a href="http://godev.gemustudio.com/assets/images/2017/04/onion.png"><img class="alignright wp-image-905 size-full" src="http://godev.gemustudio.com/assets/images/2017/04/onion.png" alt="Clean Architecture" width="194" height="206" /></a> ugotować cebulkę, projekt wygląda znacznie lepiej aniżeli wcześniej. I dodatkowo ma większe możliwości.
     </p>
     
-    <p style="text-align: justify;">
+
       Stworzyłem też moje pierwsze <strong>DDD (Domain-Driven Design)</strong>, ostatnio zachorowałem w tym kierunku (tak jak CQRS i Onion), i pragnę zgłębiac temat&#8230;
     </p>
     
-    <p style="text-align: justify;">
+
       Zmiana architektury na tak wczesnym etapie projektu nie była zbyt bolesna. Tym bardziej, iż CQRS został wyodrębniony wcześniej.
     </p>
     
-    <p style="text-align: justify;">
+
       <strong>Jest to moje pierwsze praktyczne zetknięcie z Clean Architecture (lamer).</strong>
     </p>
     
@@ -52,19 +52,19 @@ tags:
       Zmiany
     </h1>
     
-    <p style="text-align: justify;">
+
       <a href="http://godev.gemustudio.com/assets/images/2017/04/pictogr_infrastructure.png"><img class="alignleft wp-image-906 size-full" src="http://godev.gemustudio.com/assets/images/2017/04/pictogr_infrastructure.png" alt="Onion Architecture" width="174" height="254" /></a>Wydzieliłem warstwę domeny w projekcie Core.
     </p>
     
-    <p style="text-align: justify;">
+
       Infrastructure zawiera wykorzystane usług, <strong>CQRS</strong>, implementacje repozytoriuów, <strong>Autofac</strong>, <strong>DTO</strong>, <strong>AutoMapper</strong>, i inne potrzebne elementy, bardziej szczegółowy wykaz na drugim zrzucie.
     </p>
     
-    <p style="text-align: justify;">
+
       GUI aplikacji znajdować się będzie w projekcie <strong>MVVM</strong>, czyli XAMLe, <strong>ViewModele</strong> oraz moduły dla <strong>Autofaca</strong>.
     </p>
     
-    <p style="text-align: justify;">
+
       Dodałem też projekt, w którym znajdą się testy integracyjne o nazwie E2E.
     </p>
     
@@ -92,7 +92,7 @@ tags:
       Użycie eventa do zamykania okien
     </h3>
     
-    <p style="text-align: justify;">
+
       Na pierwszy ogień, klasa implementująca (<strong>IEvent</strong>) zdarzenie zamykania aplikacji.
     </p>
     
@@ -113,11 +113,11 @@ namespace PictOgr.Infrastructure.Events
       &nbsp;
     </p>
     
-    <p style="text-align: justify;">
+
       Powyższa klasa jest wykorzystywana przez powiązanego Handlera o nazwie <strong>ExitApplicationEventHandler</strong>.
     </p>
     
-    <p style="text-align: justify;">
+
       Jej celem  jest wywołanie przekazanego <strong>delegata</strong> do zamykania apikacji w metodzie <strong>Handle</strong>. To spowoduje zamknięcie okienka.
     </p>
     
@@ -147,7 +147,7 @@ namespace PictOgr.Infrastructure.Events
       &nbsp;
     </p>
     
-    <p style="text-align: justify;">
+
       Rejestrowanie handlera i przekazanie delegato do zamknięcia okienka.
     </p>
     
@@ -160,11 +160,11 @@ namespace PictOgr.Infrastructure.Events
       &nbsp;
     </p>
     
-    <p style="text-align: justify;">
+
       Pozostaje jedynie w odpowiedniej komendzie <strong>ExitApplicationHandler</strong> wykonać publikacje zdarzenia <strong>ExitApplicationEvent </strong>do szyny zdarzeń.
     </p>
     
-    <p style="text-align: justify;">
+
       Efektem jest zamknięcie wszystkich okienek w których zarejestrowany jest handler <strong>ExitApplicationEventHandler</strong> (kod wyżej).
     </p>
     
@@ -183,11 +183,11 @@ namespace PictOgr.Infrastructure.Events
       Wykorzystanie usług w zapytaniach CQRSa
     </h3>
     
-    <p style="text-align: justify;">
+
       Do przekazywania danych pomiędzy aplikacją, a modelem wykorzystana będzie odrębna klasa określana jako <strong>DTO (Data Transfer Object)</strong>.
     </p>
     
-    <p style="text-align: justify;">
+
       Dzięki takiemu odseparowaniu aplikacja nic nie wie o modelu domeny jaki zaimplementujemy w aplikacji.
     </p>
     
@@ -229,15 +229,15 @@ namespace PictOgr.Infrastructure.Mappers
 }
 </pre>
     
-    <p style="text-align: justify;">
+
       Konfiguracje ustawiamy dwu kierunkowo oznacza to iż będzie można mapować dane w obu kierunkach:
     </p>
     
-    <p style="text-align: justify;">
+
       <strong>ApplicationInformation</strong> = <strong>ApplicationInformationDto</strong>
     </p>
     
-    <p style="text-align: justify;">
+
       <strong>ApplicationInformationDto</strong> = <strong>ApplicationInformation</strong>
     </p>
     
@@ -245,7 +245,7 @@ namespace PictOgr.Infrastructure.Mappers
       &nbsp;
     </p>
     
-    <p style="text-align: justify;">
+
       Do pobierania danych z domeny użyjemy tym razem usługi, do jej implementacji wykorzytsamy interfejsik <strong>IApplicaitonService</strong>, zawierający definicję metody pobierania informacji o aplikacji.
     </p>
     
@@ -263,7 +263,7 @@ namespace PictOgr.Infrastructure.Services.ApplicationService
       &nbsp;
     </p>
     
-    <p style="text-align: justify;">
+
       Interfejs <strong>IApplicaitonService</strong>, jest zaimplementowany przez poniższą klasę <strong>ApplicationService</strong>.
     </p>
     
@@ -297,15 +297,15 @@ namespace PictOgr.Infrastructure.Services.ApplicationService
 }
 </pre>
     
-    <p style="text-align: justify;">
+
       W klasie usługi po pobraniu danych z repozytorium odbywa się mapowanie:
     </p>
     
-    <p style="text-align: justify;">
+
       <strong><em>return _mapper.Map<ApplicationInformation, ApplicationInformationDto>(applicationInformation);</em></strong>
     </p>
     
-    <p style="text-align: justify;">
+
       Efektem jest przeniesienie danych z obiektu domenowego do obiektu DTO.
     </p>
     
@@ -317,11 +317,11 @@ namespace PictOgr.Infrastructure.Services.ApplicationService
       Użycie modelu domeny do pobrania informacji o aplikacji
     </h3>
     
-    <p style="text-align: justify;">
+
       Pierwszy obiekt w moim modelu domeny. To klasa z informacjami o aplikacji.
     </p>
     
-    <p style="text-align: justify;">
+
       Bardzo banalna, różni się w zasadzie od klasy z nią powiązanej (<strong>DTO</strong>), wykorzystaniem konstruktora i możliwością ustawienia właściwości <strong>Version</strong> jedynie właśnie z tego konstruktora (lub metod klasy).
     </p>
     
@@ -342,7 +342,7 @@ namespace PictOgr.Infrastructure.Services.ApplicationService
       &nbsp;
     </p>
     
-    <p style="text-align: justify;">
+
       Jest tutaj też interfejsik z <strong>repozytorium</strong> pobierania informacji o aplikacji, owe repozytorium będzie implementowane dopiero w warstiwe wyżej (<strong>Infrastrukture</strong>). Repozytorium jest ściśle związane z modelem <strong>ApplicationInformation</strong>.
     </p>
     
@@ -360,7 +360,7 @@ namespace PictOgr.Core.Repositories
       &nbsp;
     </p>
     
-    <p style="text-align: justify;">
+
       Jedna metoda pobierania informacji jest implementowana w klasie repozytorium <strong>ApplicationInformationRepository</strong>, implementuje ona interfejs z modelu domeny <strong>IApplicaitonInformationRepository</strong>, i dostarcza informacji o aplikacji.
     </p>
     
@@ -380,7 +380,7 @@ namespace PictOgr.Infrastructure.Repositories
 	}
 }</pre>
     
-    <p style="text-align: justify;">
+
       Na chwilę obecną jest to tylko wersja plikacji, jednak z czasem może ulec rozbudowie o więcej ciekawych infomracji.
     </p>
     
@@ -392,11 +392,11 @@ namespace PictOgr.Infrastructure.Repositories
       Zakończenie
     </h3>
     
-    <p style="text-align: justify;">
+
       Tak wiem jest to prosty przykład, zapewne wogule nie powinno się robić w ten sposób. Jednak się uczę, i taki przykład dostarcza mi dużo doświadczenia.
     </p>
     
-    <p style="text-align: justify;">
+
       Dlatego też postanowiłem zrobić to w ten sposób, być może ktoś dzięki temu wpisowi zrozumie coś wiecej&#8230;
     </p>
     

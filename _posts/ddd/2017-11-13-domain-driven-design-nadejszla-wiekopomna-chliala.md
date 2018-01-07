@@ -1,13 +1,10 @@
 ---
-
-title: 'Domain-Driven Development &#8211; &#8222;nadejszła wiekopomna chłiła&#8221;'
+title: Domain-Driven Design &#8211; &#8222;nadejszła wiekopomna chłiła&#8221;
 date: 2017-11-13T23:40:24+00:00
 author: Krzysztof Owsiany
 layout: post
-
 permalink: domain-driven-design-nadejszla-wiekopomna-chliala
 published: false
-
 image: /assets/images/2017/11/blogging-photo-3271.jpg
 categories:
   - Bez kategorii

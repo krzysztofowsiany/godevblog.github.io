@@ -21,7 +21,7 @@ tags:
       Widok konfiguracji
     </h2>
     
-    <p style="text-align: justify;">
+
       Ważnym elementem PictOgr-a jest konfiguracja, w niej właśnie będzie definiowana struktura katalogów dla zdjęć. Nazwy powinny składać się z wielu <a href="http://godev.gemustudio.com/assets/images/2017/05/pictogr-config.png"><img class="alignright wp-image-1035 size-medium" src="http://godev.gemustudio.com/assets/images/2017/05/pictogr-config-300x263.png" alt="widok konfiguracji" width="300" height="263" srcset="http://godev.gemustudio.com/assets/images/2017/05/pictogr-config-300x263.png 300w, http://godev.gemustudio.com/assets/images/2017/05/pictogr-config.png 684w" sizes="(max-width: 300px) 100vw, 300px" /></a>modułów. W tym celu konfiguracja powinna dać możliwość składania wzorca lokalizacji pliku z dostępnych modułów nazwy jakie można wyciągnąć z pliku:
     </p>
     
@@ -44,19 +44,19 @@ tags:
       &nbsp;
     </p>
     
-    <p style="text-align: justify;">
+
       Widok dość prosty, zawiera zakładkę &#8222;Formats&#8221;, w której to będzie posortowana według kolejności dodawania lista modułów nazw z lewej strony natomiast z prawej pogrupowane moduły nazw z jakich będzie można zdefiniować nazwę i lokalizację pliku.
     </p>
     
-    <p style="text-align: justify;">
+
       Zdefiniowany w<a href="http://godev.gemustudio.com/assets/images/2017/05/pictogr-config2.png"><img class="wp-image-1036 size-full alignleft" src="http://godev.gemustudio.com/assets/images/2017/05/pictogr-config2.png" alt="" width="248" height="209" /></a>zorzec nazwy będzie wyświetlany na dole wraz z przykładową przetworzoną ścieżką do pliku.
     </p>
     
-    <p style="text-align: justify;">
+
       Widok nie zawiera możliwości zapisu/odczytu zdefiniowanego wzorca nazwy, to będzie rozbudowane w kolejnych etapach budowy aplikacji.
     </p>
     
-    <p style="text-align: justify;">
+
       Dodatkowo aplikacja będzie posiadała dziennik zadań, w którym to będzie można określić kiedy i o której godzinie ma zostać wykonana procedura porządkowania plików. Widok konfiguracji nie został przygotowany dlatego na tą chwilę będzie pominięty.
     </p>
     
@@ -64,7 +64,7 @@ tags:
       &nbsp;
     </p>
     
-    <p style="text-align: justify;">
+
       Podstawowa konfiguracja jaką będzie można ustawić to start aplikacji z systemem -> <strong>Tray</strong> oraz integracja z menu podręcznym tak by była możliwość uruchomienia porządkowania np. bezpośrednio na katalogu.
     </p>
     
@@ -76,7 +76,7 @@ tags:
       Rozbudowa modelu domeny
     </h1>
     
-    <p style="text-align: justify;">
+
       Każdy moduł będzie posiadał swój typ, do tego wykorzystany został typ wyliczeniowy , obecnie zawiera dwie pozycje dla EXIFa i bazowych modułów nazw.
     </p>
     
@@ -89,15 +89,15 @@ tags:
 	}
 }</pre>
     
-    <p style="text-align: justify;">
+
       Typ modułu wykorzystywany jest przez model nazwy: <strong>NameModule</strong>.
     </p>
     
-    <p style="text-align: justify;">
+
       Model składa się także z identyfikatora w formacie GUID, oraz nazwy.
     </p>
     
-    <p style="text-align: justify;">
+
       I to właśnie nazwa będzie odzwierciedlać moduł i następnie zostanie zastąpiona rzeczywistymi danymi pobranymi z pliku.
     </p>
     
@@ -145,15 +145,15 @@ namespace PictOgr.Core.Domain
 }
 </pre>
     
-    <p style="text-align: justify;">
+
       Jest to model domenowy dlatego jego ustawienie możliwe jest jedynie w konstruktorze z wykorzystaniem metod zawierających walidację.
     </p>
     
-    <p style="text-align: justify;">
+
       Tak utworzony obiekt nie będzie zmieniany w trakcie działania aplikacji.
     </p>
     
-    <p style="text-align: justify;">
+
       <a href="http://godev.gemustudio.com/assets/images/2017/05/IMG_9780.jpg"><img class="aligncenter size-medium wp-image-1046" src="http://godev.gemustudio.com/assets/images/2017/05/IMG_9780-300x200.jpg" alt="" width="300" height="200" srcset="http://godev.gemustudio.com/assets/images/2017/05/IMG_9780-300x200.jpg 300w, http://godev.gemustudio.com/assets/images/2017/05/IMG_9780-768x512.jpg 768w, http://godev.gemustudio.com/assets/images/2017/05/IMG_9780-1024x683.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px" /></a>
     </p>
     
@@ -175,11 +175,11 @@ namespace PictOgr.Infrastructure.DTO
 }
 </pre>
     
-    <p style="text-align: justify;">
+
       Klasa odpowiedzialna za przekazywanie danych z modelu domeny do aplikacji wygląda bardzo prosto i zawiera w zasadzie te same pola jakie znajdują się w domenie. W tym przypadku mogą ulegać modyfikacji.
     </p>
     
-    <p style="text-align: justify;">
+
       Moduły nazwy są wykorzystywane przez następny model domeny o nazwie <strong>CompositionName</strong>, zawiera on w sobie listę modułów nazw i identyfikator.
     </p>
     
@@ -211,7 +211,7 @@ namespace PictOgr.Core.Domain
       &nbsp;
     </p>
     
-    <p style="text-align: justify;">
+
       Także w tym przypadku model domeny ma swojego odpowiednika w warstwie infrastruktury o nazwie <strong>CompositionNameDto</strong>.
     </p>
     
@@ -228,15 +228,15 @@ namespace PictOgr.Infrastructure.DTO
 }
 </pre>
     
-    <p style="text-align: justify;">
+
       DTO dla kompozycji nazwy jest bardzo proste i zawiera jedynie listę nazw modułów, oraz identyfikator kompozycji.
     </p>
     
-    <p style="text-align: justify;">
+
       <a href="http://godev.gemustudio.com/assets/images/2017/05/IMG_0043.jpg"><img class="size-medium wp-image-1049 alignright" src="http://godev.gemustudio.com/assets/images/2017/05/IMG_0043-300x200.jpg" alt="" width="300" height="200" srcset="http://godev.gemustudio.com/assets/images/2017/05/IMG_0043-300x200.jpg 300w, http://godev.gemustudio.com/assets/images/2017/05/IMG_0043-768x512.jpg 768w, http://godev.gemustudio.com/assets/images/2017/05/IMG_0043-1024x683.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px" /></a>
     </p>
     
-    <p style="text-align: justify;">
+
       Czy to dobra czy nie dobra implementacja problemu, to już zostanę rozliczony przez historię:D. Jednak walczę nadal i pozostał tylko jeden post wymagany do ukończenia <strong>DSP2017</strong>. Tak że widzę światełko w tunelu oraz perspektywy na dalsze blogowanie i rozwijanie PictOgra.
     </p>
     

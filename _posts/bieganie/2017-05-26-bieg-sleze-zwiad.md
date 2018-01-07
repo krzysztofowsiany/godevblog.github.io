@@ -41,27 +41,27 @@ tags:
       Rozpoznanie
     </h3>
     
-    <p style="text-align: justify;">
+
       Pierwsze wrażenia, jakie odniosłem to głównie spokój jaki panuje w miejscowości  Sobótka  gdzie znajduje się start biegu. Miasteczko nie za duże, wszędzie można  dojść na  piechtę. Jest i Biedronka i Dino, nie zabrakło też Orlenu.
     </p>
     
-    <p style="text-align: justify;">
+
       &#8222;Hotel Pod Jeleniem&#8221; w jakim się  ulokowaliśmy z zewnątrz  nie zachęca, jednak po wejściu do środka jest całkiem przyjemnie i w sumie tanio.
     </p>
     
-    <p style="text-align: justify;">
+
       Pierwsze  wrażenie co do wyzwania&#8230; <strong>Oh Fuck</strong>!<a href="http://godev.gemustudio.com/assets/images/2017/05/20170526_192051.jpg"><img class="aligncenter wp-image-1180 size-medium" src="http://godev.gemustudio.com/assets/images/2017/05/20170526_192051-300x169.jpg" alt="Bieg na Ślężę" width="300" height="169" srcset="http://godev.gemustudio.com/assets/images/2017/05/20170526_192051-300x169.jpg 300w, http://godev.gemustudio.com/assets/images/2017/05/20170526_192051-768x432.jpg 768w, http://godev.gemustudio.com/assets/images/2017/05/20170526_192051-1024x576.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px" /></a>
     </p>
     
-    <p style="text-align: justify;">
+
       Po rozpoznaniu miejsca startu (Stadion Miejski), wybraliśmy się na trasę, po ok 500m pierwsze wzniesienie, przy szybkim marszu sadło dało o sobie znać i można się zasapać.
     </p>
     
-    <p style="text-align: justify;">
+
       Ewidentnie jest<a href="http://godev.gemustudio.com/assets/images/2017/05/20170526_203747-e1495832869314.jpg"><img class="size-medium wp-image-1184 alignleft" src="http://godev.gemustudio.com/assets/images/2017/05/20170526_203747-e1495832869314-169x300.jpg" alt="" width="169" height="300" srcset="http://godev.gemustudio.com/assets/images/2017/05/20170526_203747-e1495832869314-169x300.jpg 169w, http://godev.gemustudio.com/assets/images/2017/05/20170526_203747-e1495832869314-768x1365.jpg 768w, http://godev.gemustudio.com/assets/images/2017/05/20170526_203747-e1495832869314-576x1024.jpg 576w" sizes="(max-width: 169px) 100vw, 169px" /></a> wyzwanie &#8211; będzie satysfakcja!.
     </p>
     
-    <p style="text-align: justify;">
+
       Wstępnie po przebyciu ok <strong>1 z 5 km</strong>, trasa wygląda bardzo zielono i jest kręta/urozmaicona. Dotlenienie na maksa!
     </p>
     
@@ -77,7 +77,7 @@ tags:
       &nbsp;
     </p>
     
-    <p style="text-align: justify;">
+
       I to by było na tyle, a jutro. <strong>Bieg i walka z samym sobą!</strong>
     </p>
     

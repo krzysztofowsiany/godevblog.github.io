@@ -18,59 +18,59 @@ tags:
 ---
 <div id="dslc-theme-content">
   <div id="dslc-theme-content-inner">
-    <p style="text-align: justify;">
+
       Początkiem roku podjąłem męską decyzję, migruje do <strong>Dockera</strong> przed końcem 2017 roku. Wczoraj ok <strong>22:00</strong> wykonuję sobie deploja na serwer (<strong>Laravel</strong>), a tu trach problem. <strong>Memmory_limit</strong> w php. Ano to się zwiększy w końcu sobie administruję sam!. <strong>Vim -> /memory_limit -> e -> 256M -> ESC -> :wq</strong>. Brak efektu! <strong>WTF</strong>! Aaa restart <strong>indianina</strong> pomoże&#8230; <span style="font-size: 24px;"><strong><span style="color: #ff0000;">TRAHHHH padł serwer WWW!</span></strong></span>
     </p>
     
-    <p style="text-align: justify;">
+
       Aaaaaaaaaa i co teraz tyle stron projektów. <strong>OhFuck() ->BLOG!</strong>
     </p>
     
-    <p style="text-align: justify;">
+
       Dwie godziny walki z g____m, nic żadnego konstruktywnego rozwiązania  a tu zegar tyka pora spać strony nie działają&#8230;<a href="http://godev.gemustudio.com/assets/images/2017/04/event.png"><img class="wp-image-819 alignright" src="http://godev.gemustudio.com/assets/images/2017/04/event-300x272.png" alt="Laravel" width="292" height="265" srcset="http://godev.gemustudio.com/assets/images/2017/04/event-300x272.png 300w, http://godev.gemustudio.com/assets/images/2017/04/event-768x697.png 768w, http://godev.gemustudio.com/assets/images/2017/04/event.png 1000w" sizes="(max-width: 292px) 100vw, 292px" /></a>
     </p>
     
-    <p style="text-align: justify;">
+
       Chwile po tym.
     </p>
     
-    <p style="text-align: justify;">
+
       <span style="color: #00aa00;">shutdown</span>
     </p>
     
-    <p style="text-align: justify;">
+
       <span style="color: #00aa00;">*</span>
     </p>
     
-    <p style="text-align: justify;">
+
       <span style="color: #00aa00;">*</span>
     </p>
     
-    <p style="text-align: justify;">
+
       <span style="color: #00aa00;">*</span>
     </p>
     
-    <p style="text-align: justify;">
+
       <span style="color: #00aa00;">start</span>
     </p>
     
-    <p style="text-align: justify;">
+
       <span style="color: #00aa00;">loading&#8230;</span>
     </p>
     
-    <p style="text-align: justify;">
+
       <span style="color: #00aa00;">sytem started.</span>
     </p>
     
-    <p style="text-align: justify;">
+
       <strong>Oh fuck spałem! &#8211;</strong> a problem się nie naprawił.
     </p>
     
-    <p style="text-align: justify;">
+
       Po paru godzinach <a href="http://devblaze.gemustudio.com/">kolega</a> zasugerował backup and reinstall apache.
     </p>
     
-    <p style="text-align: justify;">
+
       Tak po tym działa, jeszcze przywracanie konfiguracji.
     </p>
     

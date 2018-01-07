@@ -19,19 +19,19 @@ tags:
 ---
 <div id="dslc-theme-content">
   <div id="dslc-theme-content-inner">
-    <p style="text-align: justify;">
+
       &#8222;Tworzeniem&#8221; gier zajmuję się od dziecka, tak naprawdę były to głownie próby. Nigdy za wyjątkiem gier planszowych (w dzieciństwie), nie udało mi się wcześniej stworzyć działającego produktu, przeważnie przychodziło znudzenie, i choć było wiele pomysłów i technologii, to nigdy nie udało się stworzyć grywalnej wersji.
     </p>
     
-    <p style="text-align: justify;">
+
       Aż do czasu powstania Santa Gifts, w raz z <a href="http://devblaze.gemustudio.com/">kolegą</a> wydaliśmy grę na Google Play. Gra powstała 3 tygodnie od rozpoczęcia, tak by zdążyć na Boże Narodzenie.
     </p>
     
-    <p style="text-align: justify;">
+
       Pracowaliśmy po godzinach, a najbardziej czasochłonnym zajęciem było tworzenie grafiki.
     </p>
     
-    <p style="text-align: justify;">
+
       Dużym plusem było to, iż obaj jesteśmy programistami i na tym poziomie mamy doświadczenie.
     </p>
     
@@ -43,7 +43,7 @@ tags:
       &nbsp;
     </p>
     
-    <p style="text-align: justify;">
+
       Gra budowana była w oparciu o <strong>Andorid Studio</strong> + <strong>LibGDX</strong>, z biblioteką styczność mieliśmy wcześniej na poziomie doświadczalnym.
     </p>
     
@@ -59,7 +59,7 @@ tags:
       <a href="http://godev.gemustudio.com/assets/images/2017/04/buy_reinder.png"><img class="aligncenter wp-image-957 size-medium" src="http://godev.gemustudio.com/assets/images/2017/04/buy_reinder-269x300.png" alt="Santa Gifts" width="269" height="300" srcset="http://godev.gemustudio.com/assets/images/2017/04/buy_reinder-269x300.png 269w, http://godev.gemustudio.com/assets/images/2017/04/buy_reinder.png 404w" sizes="(max-width: 269px) 100vw, 269px" /></a>
     </p>
     
-    <p style="text-align: justify;">
+
       Kilka wniosków z tego procederu:
     </p>
     
@@ -143,11 +143,11 @@ tags:
       </li>
     </ul>
     
-    <p style="text-align: justify;">
+
       Myślę, iż pomimo wielu spędzonych godzin i braku wymiernych $ korzyści, projekt był i jest dla nas bardzo wartościowy, wiele wniosków podczas kodowania wynieśliśmy z tego projektu.
     </p>
     
-    <p style="text-align: justify;">
+
       Chcemy go nadal rozwijać po mimo informacji od osób ściślej powiązanych z branżą gier, iż powinniśmy porzucić projekt.
     </p>
     

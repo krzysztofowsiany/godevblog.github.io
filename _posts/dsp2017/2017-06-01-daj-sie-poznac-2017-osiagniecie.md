@@ -24,30 +24,30 @@ tags:
     </div>
     
     <div>
-      <p style="text-align: justify;">
+  
         Udało się, zakwalifikowałem się do finalistów DSP 2017, a to nie koniec. Zostałem wytypowany do 20 minutowego wystąpienia na <strong>Gali Finałowej Daj Się Poznać 2017</strong> &#8211; SZOK!
       </p>
       
-      <p style="text-align: justify;">
+  
         Nie sądziłem, że będę w stanie dojść tak daleko zważywszy na natłok pracy jaki mam od początku roku&#8230;
       </p>
       
-      <p style="text-align: justify;">
+  
         Jeszcze głosowanie i opracowanie tematu.
       </p>
       
-      <p style="text-align: justify;">
+  
         Po głowie kręci się temat jaki chciał bym poruszyć. Wydaje mi się bardzo ciekawy, dotyczy wpisu jaki poruszyłem w jednym z postów o <a href="http://godev.gemustudio.com/2017/04/21/grywalizacja/">grywalizacji</a>.
       </p>
       
-      <p style="text-align: justify;">
+  
         </div> 
         
         <p>
           &nbsp;
         </p>
         
-        <p style="text-align: justify;">
+    
           Także do 6 czerwca 2017 muszę naskrobać temat, a potem go opracować &#8211; <strong>Run Forest Run!</strong>.
         </p>
         
@@ -55,7 +55,7 @@ tags:
           Podziękowania
         </h3>
         
-        <p style="text-align: justify;">
+    
           Chciałbym już teraz podzięk<a href="http://godev.gemustudio.com/assets/images/2017/06/blogging-photo-7892.jpg"><img class="alignleft wp-image-1264 size-medium" src="http://godev.gemustudio.com/assets/images/2017/06/blogging-photo-7892-300x200.jpg" alt="Daj Się Poznać 2017 - finalista." width="300" height="200" srcset="http://godev.gemustudio.com/assets/images/2017/06/blogging-photo-7892-300x200.jpg 300w, http://godev.gemustudio.com/assets/images/2017/06/blogging-photo-7892-768x512.jpg 768w, http://godev.gemustudio.com/assets/images/2017/06/blogging-photo-7892.jpg 900w" sizes="(max-width: 300px) 100vw, 300px" /></a>ować przede wszystkim:
         </p>
         

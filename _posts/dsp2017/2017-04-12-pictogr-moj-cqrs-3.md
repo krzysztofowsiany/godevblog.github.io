@@ -24,19 +24,19 @@ tags:
       Command Query Responsibility Segregation &#8211; 3 &#8211;
     </h1>
     
-    <p style="text-align: justify;">
+
       <a href="http://godev.gemustudio.com/assets/images/2017/04/IMG-2015-08-03-8084.jpg"><img class="alignleft wp-image-818 size-medium" src="http://godev.gemustudio.com/assets/images/2017/04/IMG-2015-08-03-8084-300x200.jpg" alt="CQRS" width="300" height="200" srcset="http://godev.gemustudio.com/assets/images/2017/04/IMG-2015-08-03-8084-300x200.jpg 300w, http://godev.gemustudio.com/assets/images/2017/04/IMG-2015-08-03-8084-768x512.jpg 768w, http://godev.gemustudio.com/assets/images/2017/04/IMG-2015-08-03-8084-1024x683.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px" /></a> <a href="http://godev.gemustudio.com/assets/images/2017/04/event.png"><br /> </a>Niniejszy wpis dotyczy implementacji <strong>Event Sourcingu</strong> w moim <strong>CQRSie</strong>. Jest to kolejna szyna wykorzystywana na różne sposoby.
     </p>
     
-    <p style="text-align: justify;">
+
       Można np. zachować (jeżeli system cały system oparty jest o <strong>CQRS/ES</strong>) stan aplikacji w poszczególnych etapach jej życia. Zapis stanów musi odbyć sie np. w bazie danych. Nie mniej jednak pozwoli to na przedstawienie historii od <strong>A</strong> do <strong>Z</strong> cyklu życia
     </p>
     
-    <p style="text-align: justify;">
+
       Dokładnie po wykonaniu każdej z komend jak zmienia się model aplikacji. Zdarzenia wyzalane są z komend.
     </p>
     
-    <p style="text-align: justify;">
+
       Zastosowanie zdarzeń pozwoli na powiadamianie różnych obszarów aplikacji o zmianie stanu aplikacji.
     </p>
     
@@ -76,7 +76,7 @@ tags:
 	}
 }</pre>
     
-    <p style="text-align: justify;">
+
       <strong>@event</strong> &#8211; jak wiadomo event to słowo kluczowe języka c#, jednak można to obejść wykorzystując znak małpki <strong>‚@’</strong>, nakazujemy kompilatorowi, iż nie chcemy skorzystać ze słowa kluczowego <strong>event</strong>, a jedynie użyć jako nazway zmiennej.
     </p>
     
@@ -119,7 +119,7 @@ tags:
       &nbsp;
     </p>
     
-    <p style="text-align: justify;">
+
       <strong>EventBus</strong> to implementacja interfejsu <strong>IEventBus</strong>.
     </p>
     
@@ -215,27 +215,27 @@ tags:
 	}
 }</pre>
     
-    <p style="text-align: justify;">
+
       <em>Lista eventList = new Dictionary<Type, List<object>>();</em>
     </p>
     
-    <p style="text-align: justify;">
+
       Jest to lista zdarzeń, do której zostaną, która to dopiero będzie powiązana z listą obserwatorów.<a href="http://godev.gemustudio.com/assets/images/2017/04/event2.png"><img class="alignright wp-image-820 size-medium" src="http://godev.gemustudio.com/assets/images/2017/04/event2-300x200.png" alt="CQRS" width="300" height="200" srcset="http://godev.gemustudio.com/assets/images/2017/04/event2-300x200.png 300w, http://godev.gemustudio.com/assets/images/2017/04/event2-768x512.png 768w, http://godev.gemustudio.com/assets/images/2017/04/event2-1024x683.png 1024w" sizes="(max-width: 300px) 100vw, 300px" /></a>
     </p>
     
-    <p style="text-align: justify;">
+
       [<strong>IEvent</strong> => { <strong>IEventHandler</strong>, <strong>IEventHandler</strong>, <strong>IEventHandler</strong>, etc.}]
     </p>
     
-    <p style="text-align: justify;">
+
       Metoda <strong>Register</strong>, sprawdza czy IEventHanlder jest już zarejestrowany, jeśli nie to dodaje do listy.
     </p>
     
-    <p style="text-align: justify;">
+
       <strong>UnRegister</strong>, sprawdza czy IEventHandler jest na liście, jeżeli jest to usuwa.
     </p>
     
-    <p style="text-align: justify;">
+
       <strong>Publish</strong> &#8211; iteruje po wszystkich IEvent, oraz podległych IEventHandlerach i publikuje zdarzenie.
     </p>
     
@@ -247,7 +247,7 @@ tags:
       Testy
     </h1>
     
-    <p style="text-align: justify;">
+
       Klasę testu zaczynamy od ustawienia (<strong>TearUp</strong>) podstawowych/najczęściej używanych w testach obiektów jak <strong>container</strong>, <strong>fakeEvent</strong>, <strong>eventFakeInvoke</strong>, <strong>fakeEventHandler</strong>.
     </p>
     
@@ -285,11 +285,11 @@ tags:
 				  });
 		}</pre>
     
-    <p style="text-align: justify;">
+
       Na końcu konstruktora tworzymy <strong>fake</strong> dla metody <strong>Handler</strong>, tak by pobierać <strong>event</strong> jaki jest do niej przekazywany jako parametr, tak na zaś do assertów.
     </p>
     
-    <p style="text-align: justify;">
+
       Pierwszy teścik taki symboliczny, czy faktycznie <strong>EventBus</strong> to <strong>EventBus</strong> prosto z <strong>AutoFac</strong>-a.
     </p>
     
@@ -304,11 +304,11 @@ public void test_event_bus_are_correct_resolved()
 	}
 }</pre>
     
-    <p style="text-align: justify;">
+
       Jak się powodzi to lecimy dalej.
     </p>
     
-    <p style="text-align: justify;">
+
       A tutaj to sprawdzimy czy szyna zdarzeń po publikacji (<strong>Publish</strong>) oszukanego zdarzenia (<strong>fakeEvent</strong>) rzuci wyjąteczkiem <strong>TypeUnloadedException</strong>.
     </p>
     
@@ -325,11 +325,11 @@ public void event_bus_publish_should_throw_excetion()
 	}
 }</pre>
     
-    <p style="text-align: justify;">
+
       A no bo <strong>POWINNA</strong>!
     </p>
     
-    <p style="text-align: justify;">
+
       Teraz to już powinno być dobrze, pierwsza publikacja i odebranie prawidłowego <strong>IEvent</strong>, część kodu zawarta w <strong>TearUp</strong>, tak że tutaj prościutko.
     </p>
     
@@ -348,11 +348,11 @@ public void event_bus_register_should_add_event_handler()
 	}
 }</pre>
     
-    <p style="text-align: justify;">
+
       Odebrany <strong>IEvent</strong> musi być taki sam jak ten publikowany!
     </p>
     
-    <p style="text-align: justify;">
+
       A tutaj sobie sprawdzimy jak działa <strong>Register</strong> i <strong>UnRegister</strong>.
     </p>
     
@@ -370,11 +370,11 @@ public void event_bus_register_should_add_event_handler()
     }
 }</pre>
     
-    <p style="text-align: justify;">
+
       Zarejestrowany <strong>IEventHandler</strong> i wyrejestrowany po publikacji wali wyjątkiem <strong>TypeUnloadedException</strong>!
     </p>
     
-    <p style="text-align: justify;">
+
       Ostatni tłusty teścik rejestruje aż 100 IEventHandlerów, po czym publikuje do nich <strong>fakeEvent</strong>-a.
     </p>
     
@@ -416,11 +416,11 @@ public void event_bus_register_many_handlers_should_add_event_handler()
 	}
 }</pre>
     
-    <p style="text-align: justify;">
+
       Tym samym powinno dojść 100 oszukanych eventów zapisanych do listy.
     </p>
     
-    <p style="text-align: justify;">
+
       Na końcu to już wyrejestrowanie handlerków, i sprawdzenie czy faktycznie te 100 eventów jest oszukanych (<strong>fakeEvent</strong>).
     </p>
     
@@ -432,11 +432,11 @@ public void event_bus_register_many_handlers_should_add_event_handler()
       Na koniec<a href="http://godev.gemustudio.com/assets/images/2017/04/event.png"><img class="alignright wp-image-819 size-thumbnail" src="http://godev.gemustudio.com/assets/images/2017/04/event-150x150.png" alt="CQRS" width="150" height="150" /></a>
     </h1>
     
-    <p style="text-align: justify;">
+
       Co prawda więcej w poście kodu niż treści, ale myślę, że zrozumiały tekst.
     </p>
     
-    <p style="text-align: justify;">
+
       W kolejnym poście połączymy <strong>ES</strong> z <strong>CQRS</strong>, oraz dodamy zapowiadane na ten post walidatory.
     </p>
     

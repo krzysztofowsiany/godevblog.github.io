@@ -28,7 +28,7 @@ tags:
     </h2>
     
     <p>
-      Poprzedni artykuł dotyczący składowych elementów wykorzystywanych w <a title="Domain-Driven Design - podstawowe części składowe." href="http://godev.gemustudio.com/2017/08/17/domain-driven-design-podstawowe-czesci-skladowe/">Domain-Driven Development</a>, charakteryzuje komponenty wykorzystywane przy budowie złożonych modelów dziedziny (ang. <strong>Domain Model</strong>).
+      Poprzedni artykuł dotyczący składowych elementów wykorzystywanych w <a title="Domain-Driven Design - podstawowe części składowe." href="http://godev.gemustudio.com/2017/08/17/domain-driven-design-podstawowe-czesci-skladowe/">Domain-Driven Design</a>, charakteryzuje komponenty wykorzystywane przy budowie złożonych modelów dziedziny (ang. <strong>Domain Model</strong>).
     </p>
     
     <p>

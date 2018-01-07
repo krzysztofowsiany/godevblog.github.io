@@ -19,7 +19,7 @@ tags:
 ---
 <div id="dslc-theme-content">
   <div id="dslc-theme-content-inner">
-    <p style="text-align: justify;">
+
       <span style="font-weight: 400; font-family: arial, helvetica, sans-serif; font-size: 16px;"><a href="http://godev.gemustudio.com/assets/images/2017/07/blogging-photo-1365.jpg"><img class="size-medium wp-image-1660 alignleft" src="http://godev.gemustudio.com/assets/images/2017/07/blogging-photo-1365-300x200.jpg" alt="loose-coupling" width="300" height="200" srcset="http://godev.gemustudio.com/assets/images/2017/07/blogging-photo-1365-300x200.jpg 300w, http://godev.gemustudio.com/assets/images/2017/07/blogging-photo-1365-768x512.jpg 768w, http://godev.gemustudio.com/assets/images/2017/07/blogging-photo-1365.jpg 900w" sizes="(max-width: 300px) 100vw, 300px" /></a>Poprawne modelowanie dziedziny skutkuje bezwzględnym wymaganiem dotyczą jej izolacji od reszty systemu. Z pomocą przychodzi architektura warstwowa wyodrębniająca z aplikacji spójne ze sobą pod względem działania obszary. Zebrane w ten sposób funkcjonalności są składowymi warstw. Przy czym bazowy zestaw warstw został zdefiniowany i zawiera:</span>
     </p>
     
@@ -71,11 +71,11 @@ tags:
       &nbsp;
     </p>
     
-    <p style="text-align: justify;">
+
       <span style="font-family: arial, helvetica, sans-serif; font-size: 16px;"><span style="font-weight: 400;">Każda z wymienionych warstw izoluje specyficzną dla siebie funkcjonalność. Pozwoliło to nie tylko odseparować </span><b>Model Dziedziny</b><span style="font-weight: 400;"> (ang. </span><b>Domain Model</b><span style="font-weight: 400;">), co także uporządkować składowe elementy aplikacji.</span></span>
     </p>
     
-    <p style="text-align: justify;">
+
       <span style="font-weight: 400; font-family: arial, helvetica, sans-serif; font-size: 16px;">Warstwy powinny być zależne jedynie od warstwy niższej, jednocześnie luźno powiązane z warstwami wyżej.<a href="http://godev.gemustudio.com/assets/images/2017/07/blogging-photo-1398.jpg"><img class="size-medium wp-image-1680 alignright" src="http://godev.gemustudio.com/assets/images/2017/07/blogging-photo-1398-300x200.jpg" alt="high-cohesion" width="300" height="200" srcset="http://godev.gemustudio.com/assets/images/2017/07/blogging-photo-1398-300x200.jpg 300w, http://godev.gemustudio.com/assets/images/2017/07/blogging-photo-1398-768x512.jpg 768w, http://godev.gemustudio.com/assets/images/2017/07/blogging-photo-1398.jpg 900w" sizes="(max-width: 300px) 100vw, 300px" /></a> </span>
     </p>
     
@@ -83,19 +83,19 @@ tags:
       <span style="font-size: 16px;"><span style="font-weight: 400; font-family: arial, helvetica, sans-serif;">Oznacza to, iż aplikacja cechuje się: </span>dużą spójnością (ang. <b style="font-family: arial, helvetica, sans-serif;">high-cohesion</b>), <span style="font-family: arial, helvetica, sans-serif;">słabym związaniem (ang. </span><b style="font-family: arial, helvetica, sans-serif;">loose-coupling</b><span style="font-family: arial, helvetica, sans-serif;">).</span></span>
     </p>
     
-    <p style="text-align: justify;">
+
       <span style="font-weight: 400; font-family: arial, helvetica, sans-serif; font-size: 16px;">Jakie zachodzi pomiędzy: warstwami, interfejsami, obiektami. </span>
     </p>
     
-    <p style="text-align: justify;">
+
       <span style="font-weight: 400; font-family: arial, helvetica, sans-serif; font-size: 16px;">Zależnie od złożoności systemu, istnieje możliwość dodania kolejnych warstw w celu większego rozproszenia funkcjonalności. Należy jednak pamiętać iż, w sytuacji nadmiernego przyrostu ilości warstw rośnie także złożoność aplikacji. Ta sytuacja z kolei utrudnia utrzymanie aplikacji.</span>
     </p>
     
-    <p style="text-align: justify;">
+
       <span style="font-family: arial, helvetica, sans-serif; font-size: 16px;"><span style="font-weight: 400;">Architekturę warstwową opisywałem także w poście: </span><a href="http://godev.gemustudio.com/2017/04/05/architektura-cebuli/"><span style="font-weight: 400;"><b>Architektura cebuli</b></span></a><span style="font-weight: 400;">.</span></span>
     </p>
     
-    <p style="text-align: justify;">
+
       <span style="font-family: arial, helvetica, sans-serif; font-size: 16px;"><span style="font-weight: 400;">Oczywiście nie są to wszystkie możliwe sposoby na wyizolowanie </span><b>Modelu Dziedziny</b><span style="font-weight: 400;"> (ang. </span><b>Domain Model</b><span style="font-weight: 400;">)  w aplikacji…</span></span>
     </p>
     

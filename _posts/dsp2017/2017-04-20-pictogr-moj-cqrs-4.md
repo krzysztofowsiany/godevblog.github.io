@@ -24,7 +24,7 @@ tags:
       Command Query Responsibility Segregation &#8211; 4 &#8211;
     </h1>
     
-    <p style="text-align: justify;">
+
       Zapowiadałem na ten wpis, iż będzie on dotyczył wykorzystania <strong>ES</strong> oraz walidatorów, jednak powstał mały bałagan w projekcie czego skutkiem było wyodrębnienie <strong>CQRS</strong> do osobnego repozytorium.<img class="alignright" src="https://cdn.travis-ci.org/assets/images/logos/TravisCI-Mascot-1-20feeadb48fc2492ba741d89cb5a5c8a.png" alt="CQRS" width="226" height="224" />
     </p>
     
@@ -40,15 +40,15 @@ tags:
       &nbsp;
     </p>
     
-    <p style="text-align: justify;">
+
       Biblioteka powiązana jest z napisanym już wcześniej modułami do implementacji testów.
     </p>
     
-    <p style="text-align: justify;">
+
       Takie podejście pozwoliło mi na wykorzystanie po raz pierwszy mechanizmu pod modułów w <strong>GIT,</strong><strong> EXP rośnie.:)</strong>
     </p>
     
-    <p style="text-align: justify;">
+
       Mechanizm ten pozwala na dołączanie do repozytorium innych repozytoriów jako pod moduły i korzystanie z nich.
     </p>
     
@@ -70,11 +70,11 @@ tags:
 
 </pre>
     
-    <p style="text-align: justify;">
+
       Należy określić, nazwę podmodułu, ścieżkę gdzie będzie znajdowało się dołączone repozytorium oraz jego adres.
     </p>
     
-    <p style="text-align: justify;">
+
       Po dodaniu pliku .gitmodules wydając polecenie <strong>git submodule update</strong> aktualizujemy dodane podmoduły.
     </p>
     
@@ -115,7 +115,7 @@ script:
       Plik ten daje duże możliwości, i przykład jaki wykorzystałem jest bardzo prosty, polegający na określeniu plików projektu, instalacji wymaganych zależności, następnie uruchomienie samego skryptu budowania <strong>xbuild</strong> oraz wykonania testów.
     </p>
     
-    <p style="text-align: justify;">
+
       Więcej o konfiguracji Travisa przy pomocy yamla pod adresem: <strong>https://docs.travis-ci.com/user/customizing-the-build</strong>.
     </p>
     
@@ -150,11 +150,11 @@ script:
       Koniec
     </h1>
     
-    <p style="text-align: justify;">
+
       Co prawda krótki post, jednak ostatni święta  i z nimi związane długie wyjazdy/powroty do rodziny. Dlatego wpis taki króciasty,
     </p>
     
-    <p style="text-align: justify;">
+
       Jednak mam nadzieję, że interesujący.
     </p>
     

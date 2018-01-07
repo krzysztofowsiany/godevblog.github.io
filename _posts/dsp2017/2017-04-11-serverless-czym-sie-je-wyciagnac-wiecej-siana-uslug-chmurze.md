@@ -17,15 +17,15 @@ tags:
 ---
 <div id="dslc-theme-content">
   <div id="dslc-theme-content-inner">
-    <p style="text-align: justify;">
+
       Był czas na <strong>monolity</strong>, przyszedł czas na <strong>mikroserwisy</strong> pora jeszcze bardziej zminimalizować, zejść do poziomu wykonywania pojedynczych funkcji, czyli<strong> serverless</strong>.
     </p>
     
-    <p style="text-align: justify;">
+
       Osobiście jeszcze nie zetknąłem się praktycznie z tą usługą, nie mniej jednak widziałem dwie prezentacje na konferencji <strong><a href="http://2016.4developers.org.pl/pl/">4D w Warszawie</a>,</strong> tym samym temat mnie nieco zainteresował.
     </p>
     
-    <p style="text-align: justify;">
+
       Niemniej jest ona bardzo interesująca. Na pewno w wielu przypadkach, gdzie dotychczas wymagane było stawienie kupy softu w celu wystawienia prostych usług będzie znacznie uproszczone i <strong>na pewno tańsze</strong>.
     </p>
     
@@ -33,19 +33,19 @@ tags:
       Monolityczny sytem
     </h1>
     
-    <p style="text-align: justify;">
+
       Może kilka przykładów. Na pierwszym obrazku przedstawiam prosty schemat serwera monolitycznego.
     </p>
     
-    <p style="text-align: justify;">
+
       <a href="http://godev.gemustudio.com/assets/images/2017/04/monolit.png"><img class="aligncenter wp-image-776 size-large" src="http://godev.gemustudio.com/assets/images/2017/04/monolit-1024x328.png" alt="System Monolityczny." width="855" height="274" srcset="http://godev.gemustudio.com/assets/images/2017/04/monolit-1024x328.png 1024w, http://godev.gemustudio.com/assets/images/2017/04/monolit-300x96.png 300w, http://godev.gemustudio.com/assets/images/2017/04/monolit-768x246.png 768w, http://godev.gemustudio.com/assets/images/2017/04/monolit.png 1160w" sizes="(max-width: 855px) 100vw, 855px" /></a>
     </p>
     
-    <p style="text-align: justify;">
+
       Jest to podejście gdzie na jednym serwerze instaluje się wszelkie oprogramowanie jakie jest niezbędne do udostępnienia usługi np. Apache, MySQL, Postfix.
     </p>
     
-    <p style="text-align: justify;">
+
       Oczywiście można uruchomić w takim podejściu wiele aplikacji, jednak wszystko znajduje się na jednym serwerze. Jest to marnotrawstwo zasobów i niesie ze sobą duże koszty utrzymania (serwer + obsługa).
     </p>
     
@@ -53,35 +53,35 @@ tags:
       Microservices
     </h1>
     
-    <p style="text-align: justify;">
+
       Nowszym podejściem jest wykorzystanie mikro-usług. Polega to na tym, iż rozbijamy na małe fragmenty budowaną aplikację i poszczególne moduły uruchamiamy <strong>1></strong> serwerach. Można znacznie prościej skalować system dzięki możliwości rozproszenia bardziej zasobożernych usług na osobne serwery.
     </p>
     
-    <p style="text-align: justify;">
+
       Wykorzystuje się w tej sytuacji tak zwane kontenery (np. <a href="https://www.docker.com/"><strong>Docker</strong></a>). To rozwiązanie powoduje zamknięcie mikro-serwisu w kontenerze, który jest tak naprawdę systemem operacyjnym specjalnie przygotowanym do obsługi danej usługi.
     </p>
     
-    <p style="text-align: justify;">
+
       <a href="http://godev.gemustudio.com/assets/images/2017/04/microservice.png"><img class="aligncenter wp-image-775 size-large" src="http://godev.gemustudio.com/assets/images/2017/04/microservice-1024x722.png" alt="Mikroserwisy" width="855" height="603" srcset="http://godev.gemustudio.com/assets/images/2017/04/microservice-1024x722.png 1024w, http://godev.gemustudio.com/assets/images/2017/04/microservice-300x212.png 300w, http://godev.gemustudio.com/assets/images/2017/04/microservice-768x542.png 768w, http://godev.gemustudio.com/assets/images/2017/04/microservice.png 1174w" sizes="(max-width: 855px) 100vw, 855px" /></a>
     </p>
     
-    <p style="text-align: justify;">
+
       Działa to niezależnie podobnie jak maszyna wirtualna, jednak to rozwiązanie jest zoptymalizowane pod kątem użycia zasobów. Dlatego też wspólne części systemów wykorzystanych przez kontener współdzielą swoje zasoby a jedynie różnice wynikające z potrzeb mikro-serwisu są odosobnione.
     </p>
     
-    <p style="text-align: justify;">
+
       Wykorzystanie kontenera to także kamień milowy w dostarczaniu oprogramowania do środowiska produkcyjnego, które w tym przypadku będzie identyczne jak to, na którym aplikacja jest testowana.
     </p>
     
-    <p style="text-align: justify;">
+
       Tak naprawdę nie dostarczamy samej aplikacji a cały ekosystem zbudowany i uruchamiany na serwerze/chmurze.
     </p>
     
-    <p style="text-align: justify;">
+
       Zbudowanie systemu w oparciu o architekturę mikro-usług jest trudniejszym podejściem (coś za coś) aniżeli system monolityczny.
     </p>
     
-    <p style="text-align: justify;">
+
       Wymaga zaplanowania jak podzielić mikro-usługi, przygotować odpowiednią konfigurację w procesie dostarczania. Jednak ten narzut jaki jest wymagany na początku tworzenia projektu przynosi efekty podczas jego utrzymania.
     </p>
     
@@ -89,11 +89,11 @@ tags:
       Serverless
     </h1>
     
-    <p style="text-align: justify;">
+
       Nowy trend idzie dalej, i polega na odseparowaniu na poziomie funkcji. Dzięki temu podejściu korzystając z dostępnego rozwiązania (chmury) z usługą mamy możliwość wykonania pojedyńczej funkcji. Używamy zasobów chmury jedynie wtedy kiedy jej faktycznie potrzebujemy, nie mamy uruchomionego tak zwanego serwera. Gdyż do dystpozycji mamy usługę udostępnioną przez wybranego dostawcę.
     </p>
     
-    <p style="text-align: justify;">
+
       <a href="http://godev.gemustudio.com/assets/images/2017/04/serverlees.png"><img class="aligncenter wp-image-777 size-large" src="http://godev.gemustudio.com/assets/images/2017/04/serverlees-1024x512.png" alt="Serverless" width="855" height="428" srcset="http://godev.gemustudio.com/assets/images/2017/04/serverlees-1024x512.png 1024w, http://godev.gemustudio.com/assets/images/2017/04/serverlees-300x150.png 300w, http://godev.gemustudio.com/assets/images/2017/04/serverlees-768x384.png 768w, http://godev.gemustudio.com/assets/images/2017/04/serverlees.png 1088w" sizes="(max-width: 855px) 100vw, 855px" /></a>
     </p>
     

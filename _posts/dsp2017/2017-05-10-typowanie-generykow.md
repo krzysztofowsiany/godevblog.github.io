@@ -17,7 +17,7 @@ tags:
 ---
 <div id="dslc-theme-content">
   <div id="dslc-theme-content-inner">
-    <p style="text-align: justify;">
+
       <a href="http://godev.gemustudio.com/assets/images/2017/05/IMG_9491.jpg"><img class="aligncenter wp-image-1025 size-large" src="http://godev.gemustudio.com/assets/images/2017/05/IMG_9491-1024x683.jpg" alt="Typowanie generyków" width="855" height="570" srcset="http://godev.gemustudio.com/assets/images/2017/05/IMG_9491-1024x683.jpg 1024w, http://godev.gemustudio.com/assets/images/2017/05/IMG_9491-300x200.jpg 300w, http://godev.gemustudio.com/assets/images/2017/05/IMG_9491-768x512.jpg 768w" sizes="(max-width: 855px) 100vw, 855px" /></a>
     </p>
     
@@ -33,7 +33,7 @@ tags:
     }
 }</pre>
     
-    <p style="text-align: justify;">
+
       Typ generyczny posiada swoją nazwę symboliczną, bardzo często wykorzystuje się  po prostu dużą literę <strong>T</strong>. Jednak nic nie stoi na przeszkodzie by nazwę określić w bardziej logiczny ciąg, np: <strong>TCompareType</strong>. Dobrą praktyką jest pozostawienie przedrostka T, która jak mniemam pochodzi z typów generycznych stosowanych w języku <strong>C++</strong> określanych jako <strong>T</strong>emplate.
     </p>
     
@@ -51,11 +51,11 @@ var isEqual = comparer.IsEqual(a, b);</pre>
       Ograniczenia na typach generycznych
     </h1>
     
-    <p style="text-align: justify;">
+
       Świat idzie do przodu, języki programowania także ewoluują, i tak doczekaliśmy się rozszerzenia możliwości typów generycznych o ograniczenia. Do tej pory można było przekazać prawie dowolny typ do klasy generycznej, obecnie można to bardzo ograniczyć tym samym gdy <strong>dev</strong> spróbuje przekazać nie odpowiedni typ, kompilator strzeli errorem prosto w &#8230;
     </p>
     
-    <p style="text-align: justify;">
+
       Od wujka &#8222;Billa&#8221;, dostajemy słówko kluczowe <strong>where</strong>, i tym samym możemy określić konkretny typ jaki może zostać &#8222;wstrzyknięty&#8221; do klasy generycznej.
     </p>
     
@@ -82,7 +82,7 @@ public class SampleCompareClass&lt;TCompareType&gt; where TCompareType : SimpleT
       Składnia użycia ograniczenia to: <span style="color: #3355ff;"><strong>where TGenericTypeName : TypeName</strong></span>.
     </p>
     
-    <p style="text-align: justify;">
+
       Jak można  zauważyć implementacja metody <strong>IsEqual</strong> uległa zmianie, wykorzystuje właściwość <strong>Value</strong>, w tym przypadku jeżeli przekażemy niespójny typ do klasy generycznej, nie będzie on posiadał właściwości <strong>Value</strong>, to walnie błędem.
     </p>
     
@@ -98,7 +98,7 @@ public class SampleCompareClass&lt;TCompareType&gt; where TCompareType : SimpleT
       Istnieje także możliwość ustawienie wielu ograniczeń dla typu generycznego:
     </p>
     
-    <p style="text-align: justify;">
+
       <span style="color: #3355ff;">public class SampleClass<<strong>TType</strong>> where <strong>TType</strong><strong>: Credential1</strong>, <strong>Credential2 </strong>{ }</span>
     </p>
     
@@ -110,7 +110,7 @@ public class SampleCompareClass&lt;TCompareType&gt; where TCompareType : SimpleT
       Typy ograniczeń
     </h1>
     
-    <p style="text-align: justify;">
+
       Oczywiście nie jest to jedyny sposób ograniczenia jest ich nieco więcej:<a href="http://godev.gemustudio.com/assets/images/2017/05/IMG_9010.jpg"><img class="size-medium wp-image-1008 alignright" src="http://godev.gemustudio.com/assets/images/2017/05/IMG_9010-300x199.jpg" alt="" width="300" height="199" srcset="http://godev.gemustudio.com/assets/images/2017/05/IMG_9010-300x199.jpg 300w, http://godev.gemustudio.com/assets/images/2017/05/IMG_9010-768x510.jpg 768w, http://godev.gemustudio.com/assets/images/2017/05/IMG_9010-1024x680.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px" /></a>
     </p>
     

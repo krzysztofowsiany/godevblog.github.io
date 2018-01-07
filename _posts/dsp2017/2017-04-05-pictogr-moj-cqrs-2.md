@@ -23,15 +23,15 @@ tags:
       Command Query Responsibility Segregation &#8211; 2 &#8211;
     </h1>
     
-    <p style="text-align: justify;">
+
       <a href="http://godev.gemustudio.com/assets/images/2017/04/metro.png"><img class="alignleft wp-image-685 size-medium" src="http://godev.gemustudio.com/assets/images/2017/04/metro-300x200.png" alt="CQRS" width="300" height="200" srcset="http://godev.gemustudio.com/assets/images/2017/04/metro-300x200.png 300w, http://godev.gemustudio.com/assets/images/2017/04/metro-768x512.png 768w, http://godev.gemustudio.com/assets/images/2017/04/metro-1024x683.png 1024w" sizes="(max-width: 300px) 100vw, 300px" /></a>Po omówieniu komend pora na przejście do zapytań. Ich celem jest odczytywanie danych i z wracanie w odpowiedniej do wymagania formie.
     </p>
     
-    <p style="text-align: justify;">
+
       Do wykonywania zapytań posłuży szyna zapytań. Dzięki jej zastosowaniu wywołanie zapytania odbywać się może w dowolnym miejscu aplikacji ze wstrzykniętą odpowiednią zależnością.
     </p>
     
-    <p style="text-align: justify;">
+
       Wykonanie handlera zapytania odbędzie się zawsze w tym samym środowisku (szyna), zawsze będzie opakowane tym samym algorytmem i nie trzeba tutaj się martwić np. o stosowanie wyjątków, logi, gdyż w trakcie wykonywania przez szynę zapytania będzie to standardowo obsłużone.
     </p>
     
@@ -210,7 +210,7 @@ namespace PictOgr.Core.CQRS.Bus
       Pierwsze zapytanie
     </h1>
     
-    <p style="text-align: justify;">
+
       Poniżej znajduje się pierwsza implementacja zapytania <strong>GetApplicationInformation</strong>, jako typ generyczny wykorzystana jest klasa <strong>ApplicationInformation</strong>, i to właśnie taki obiekt zostanie zwrócony po wykonaniu zapytania.
     </p>
     
@@ -288,19 +288,19 @@ namespace PictOgr.Core.Queries
       Testy
     </h1>
     
-    <p style="text-align: justify;">
+
       Automatyczne tworzenie obiektów przez <strong>Autofac</strong> przyczynia się do potrzeby nadpisania handlera dla testowanego zapytania.
     </p>
     
-    <p style="text-align: justify;">
+
       Tak<a href="http://godev.gemustudio.com/assets/images/2017/04/stadion_narodowy.png"><img class="size-medium wp-image-690 alignleft" src="http://godev.gemustudio.com/assets/images/2017/04/stadion_narodowy-300x200.png" alt="" width="300" height="200" srcset="http://godev.gemustudio.com/assets/images/2017/04/stadion_narodowy-300x200.png 300w, http://godev.gemustudio.com/assets/images/2017/04/stadion_narodowy-768x512.png 768w, http://godev.gemustudio.com/assets/images/2017/04/stadion_narodowy-1024x683.png 1024w" sizes="(max-width: 300px) 100vw, 300px" /></a> jak w przypadku komend, należy przygotować mocka dla interfejsu <strong>IQueryHandler</strong>.
     </p>
     
-    <p style="text-align: justify;">
+
       Dodatkowo określamy co ma zwracać metoda <strong>Execute</strong>, a dokładniej, z jakiego delegata ma skorzystać po jej wywołaniu.
     </p>
     
-    <p style="text-align: justify;">
+
       Dlatego każdy test korzystający z klasy <strong>QueryBaseTests</strong>, musi zaimplementować delegata. To pozwoli na dowolną imitację działania logiki zapytań.
     </p>
     
@@ -353,11 +353,11 @@ namespace PictOgr.Core.Queries
       &nbsp;
     </p>
     
-    <p style="text-align: justify;">
+
       Implementacja pierwszego testu, do generowania losowych ciągów znaków została wykorzystana biblioteka <strong>AutoFixture</strong>, spowoduje to losowość w trakcie uruchamiania testu.
     </p>
     
-    <p style="text-align: justify;">
+
       Do prawidłowego działania testu należy ustawić delegat <strong>handleMethod</strong> (podobnie jak w przypadku testowania komend). W tym przypadku wykorzystujemy lambdę, i ustawiamy klasę jaka zostanie zwrócona przy wywołaniu metody <strong>Process</strong> z handlera dla szyny zapytań.
     </p>
     
@@ -404,15 +404,15 @@ namespace PictOgr.Core.Queries
       Na koniec
     </h1>
     
-    <p style="text-align: justify;">
+
       <a href="http://godev.gemustudio.com/assets/images/2017/04/stadion_narodowy_filar.png"><img class="size-medium wp-image-691 alignright" src="http://godev.gemustudio.com/assets/images/2017/04/stadion_narodowy_filar-200x300.png" alt="" width="200" height="300" srcset="http://godev.gemustudio.com/assets/images/2017/04/stadion_narodowy_filar-200x300.png 200w, http://godev.gemustudio.com/assets/images/2017/04/stadion_narodowy_filar-768x1152.png 768w, http://godev.gemustudio.com/assets/images/2017/04/stadion_narodowy_filar-683x1024.png 683w, http://godev.gemustudio.com/assets/images/2017/04/stadion_narodowy_filar.png 1280w" sizes="(max-width: 200px) 100vw, 200px" /></a>Po implementacji komend i zapytań, mamy do dyspozycji bardzo potężny mechanizm, który można wykorzystać jako filar do budowy wielu aplikacji.
     </p>
     
-    <p style="text-align: justify;">
+
       Wcześniej nigdy nie korzystałem z tego podejścia, nie myślałem nawet o takiej formie.
     </p>
     
-    <p style="text-align: justify;">
+
       Moja interpretacja i implementacja zapewne odbiega od ideału.
     </p>
     

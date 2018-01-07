@@ -17,7 +17,7 @@ tags:
 ---
 <div id="dslc-theme-content">
   <div id="dslc-theme-content-inner">
-    <p style="text-align: justify;">
+
       <img class="alignleft wp-image-382" src="http://godev.gemustudio.com/assets/images/2017/03/crek-215x300.png" alt="C#rek" width="148" height="207" />Przechadzając się po zielonym, zalesionym bagnie C#rek rozmyślał o robocie, jaką może wykonać przy pomocy tego co się dowiedział. Napotkał też na pewien problem. Ludzie się go boją, uciekają gdy tylko zobaczą wielkiego, strasznego i brzydkiego zielonego stwora. Więc jak u licha zarobi na życie, skoro ludzie się boją i mówią w nieco innym języku. Zaiste to jest problem…
     </p>
     
@@ -40,19 +40,19 @@ tags:
       <a href="http://godev.gemustudio.com/assets/images/2017/03/Package-Manager-Console-1.png"><img class="alignright wp-image-389" src="http://godev.gemustudio.com/assets/images/2017/03/Package-Manager-Console-1-300x139.png" alt="" width="315" height="146" srcset="http://godev.gemustudio.com/assets/images/2017/03/Package-Manager-Console-1-300x139.png 300w, http://godev.gemustudio.com/assets/images/2017/03/Package-Manager-Console-1.png 410w" sizes="(max-width: 315px) 100vw, 315px" /></a>
     </p>
     
-    <p style="text-align: justify;">
+
       Hipopotam ma wiele ukrytych zdolności, na pierwszy rzut oka nie widać trzeba odpowiednio połaskotać, by się pojawiły. Połaskotać trzeba w specjalnym miejscu. Niestety nie ma tutaj żadnej sztuczki i trzeba się osobiście pofatygować do:
     </p>
     
-    <p style="text-align: justify;">
+
       <strong>View -> Other Windows -> Package Manager Console.</strong>
     </p>
     
-    <p style="text-align: justify;">
+
       I tam ukaże się dobrodziejstwo, jak się dobrze połaskota to można niezłe cuda znaleźć.
     </p>
     
-    <p style="text-align: justify;">
+
       Ale trzeba wiedzieć jak:
     </p>
     
@@ -93,15 +93,15 @@ tags:
       Obowiązki hipopotama &#8211; Task List
     </h2>
     
-    <p style="text-align: justify;">
+
       Ta mądra bestia potrafi zapamiętać co jest do zrobienia i w odpowiedni sposób przedstawić tą wiedzę.<a href="http://godev.gemustudio.com/assets/images/2017/03/Task-List.png"><img class="alignleft wp-image-399 size-medium" src="http://godev.gemustudio.com/assets/images/2017/03/Task-List-300x205.png" alt="" width="300" height="205" srcset="http://godev.gemustudio.com/assets/images/2017/03/Task-List-300x205.png 300w, http://godev.gemustudio.com/assets/images/2017/03/Task-List.png 377w" sizes="(max-width: 300px) 100vw, 300px" /></a>
     </p>
     
-    <p style="text-align: justify;">
+
       A, że ogry mają dobrą pamięć, bo krótką to warto skorzystać z tego zaklęcia: <strong>Crtl+W, T</strong>.
     </p>
     
-    <p style="text-align: justify;">
+
       W trakcie pracy wystarczy wpisać magiczne słowo <strong>//TODO: tekscik,</strong> a hipopotam zapamięta tą informację.
     </p>
     
@@ -149,19 +149,19 @@ namespace DietaOgra.Dziczyzna
       <a href="http://godev.gemustudio.com/assets/images/2017/03/Skróty.png"><img class="alignright wp-image-390 size-medium" src="http://godev.gemustudio.com/assets/images/2017/03/Skróty-300x206.png" alt="" width="300" height="206" srcset="http://godev.gemustudio.com/assets/images/2017/03/Skróty-300x206.png 300w, http://godev.gemustudio.com/assets/images/2017/03/Skróty-768x526.png 768w, http://godev.gemustudio.com/assets/images/2017/03/Skróty.png 814w" sizes="(max-width: 300px) 100vw, 300px" /></a>
     </p>
     
-    <p style="text-align: justify;">
+
       Żeby tego było mało, można przełączyć bestie w tryb serwisowy i wówczas to już można robić co się zechce. Pozamieniać nogi z uszami. Pozmieniać komendy do sztuczek, jakich nauczył się hipopotam przez swoje długie życie.
     </p>
     
-    <p style="text-align: justify;">
+
       W tym celu trzeba z menusa zapodać: <strong>Tools -> Options -> Environment -> Keyboard</strong>
     </p>
     
-    <p style="text-align: justify;">
+
       I wówczas całe dobrodziejstwo jest już dostępne, jak na widoczku obok.
     </p>
     
-    <p style="text-align: justify;">
+
       C#rek nie ogarnia tego ogromu możliwości i korzysta z defaultowych ustawień, ale może kiedyś, jak już wszystkie Księżniczki pocałują swoich Żabo-Księciów&#8230;
     </p>
     
@@ -177,11 +177,11 @@ namespace DietaOgra.Dziczyzna
       <a href="http://godev.gemustudio.com/assets/images/2017/03/2017-03-14_18h16_17.png"><img class="alignleft wp-image-402 size-medium" src="http://godev.gemustudio.com/assets/images/2017/03/2017-03-14_18h16_17-287x300.png" alt="" width="287" height="300" srcset="http://godev.gemustudio.com/assets/images/2017/03/2017-03-14_18h16_17-287x300.png 287w, http://godev.gemustudio.com/assets/images/2017/03/2017-03-14_18h16_17.png 338w" sizes="(max-width: 287px) 100vw, 287px" /></a>
     </p>
     
-    <p style="text-align: justify;">
+
       Jakby kto chciał i miał naprawdę dużego, wyrośniętego hipopotama, takiego co na 4K wchodzi. To wówczas można sobie pokroić bestię na kawałeczki.
     </p>
     
-    <p style="text-align: justify;">
+
       I z każdego korzystać jak się chce i gdzie się chce.
     </p>
     
@@ -213,19 +213,19 @@ namespace DietaOgra.Dziczyzna
       Na koniec
     </h2>
     
-    <p style="text-align: justify;">
+
       Najlepiej w boju także praktykować.<img class=" alignright" src="http://www.advancedcomputers.co.nz/wp-content/themes/ac/img/tv-screen-repair.jpg" width="278" height="185" />
     </p>
     
-    <p style="text-align: justify;">
+
       Więcej na temat hipopotama można znaleźć <a href="https://www.visualstudio.com/pl/vs/">tu</a>.
     </p>
     
-    <p style="text-align: justify;">
+
       Dziękuję za uwagę i proszę o nie rzucanie kamieniami.:D za jęzor i formę wypowiedzi.
     </p>
     
-    <p style="text-align: justify;">
+
       C. D. N.
     </p>
     

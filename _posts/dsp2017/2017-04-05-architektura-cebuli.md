@@ -25,7 +25,7 @@ tags:
       <a href="http://godev.gemustudio.com/assets/images/2017/04/480-Zwiebel-zwiebel-Fotolia-28405313-c-vadim-yerofeyev.jpg"><img class="alignleft wp-image-728 size-medium" src="http://godev.gemustudio.com/assets/images/2017/04/480-Zwiebel-zwiebel-Fotolia-28405313-c-vadim-yerofeyev-300x209.jpg" alt="Architektura cebuli" width="300" height="209" srcset="http://godev.gemustudio.com/assets/images/2017/04/480-Zwiebel-zwiebel-Fotolia-28405313-c-vadim-yerofeyev-300x209.jpg 300w, http://godev.gemustudio.com/assets/images/2017/04/480-Zwiebel-zwiebel-Fotolia-28405313-c-vadim-yerofeyev.jpg 480w" sizes="(max-width: 300px) 100vw, 300px" /></a>
     </p>
     
-    <p style="text-align: justify;">
+
       Jest to ogólne pojęcie określające architekturę tworzenia sytemu z uwzględnieniem kilku czynników:
     </p>
     
@@ -59,15 +59,15 @@ tags:
       <img class="aligncenter" src="https://8thlight.com/blog/assets/posts/2012-08-13-the-clean-architecture/CleanArchitecture-8b00a9d7e2543fa9ca76b81b05066629.jpg" alt="Clean Architecture" width="772" height="567" />
     </p>
     
-    <p style="text-align: justify;">
+
       Na powyższym obrazku zależności określone są poprzez strzałki, przykładowo:
     </p>
     
-    <p style="text-align: justify;">
+
       Warstwa <strong>Entities</strong> jest niezależna od żadnej warstwy, i przeważnie określa modele domenowe, warstwa wyżej <strong>Uses Cases</strong> jest zależna od warstwy <strong>Entities</strong> i aktywnie ją wykorzystuje.
     </p>
     
-    <p style="text-align: justify;">
+
       Dodatkowo ilość warstw w aplikacji nie jest z góry określona i może być zupełnie inna niż na przykładzie. Ważne jest zachowanie reguł <strong>Clean Architecture</strong>.
     </p>
     
@@ -75,15 +75,15 @@ tags:
       Onion Architecture
     </h1>
     
-    <p style="text-align: justify;">
+
       <strong><a href="http://jeffreypalermo.com/blog/the-onion-architecture-part-1/">Jeffrey Palermo</a></strong> przyrównał <strong>Clean Architecture</strong> do cebuli: <strong><em>&#8222;A good, clean architecture is built like an onion&#8221;</em></strong>.<img class="alignright" src="http://jeffreypalermo.com/files/media/image/WindowsLiveWriter/TheOnionArchitecturepart1_70A9/image%7B0%7D%5B59%5D.png" alt="Onion Architecture" width="366" height="259" />
     </p>
     
-    <p style="text-align: justify;">
+
       Na obrazku poniżej przestawiona jest owa architektura.
     </p>
     
-    <p style="text-align: justify;">
+
       Warstwy bliżej centrum cebuli, nie wiedzą nic o warstwach jakie otaczają, i nie jest im to potrzebne, spełniają przypisaną im rolę i tyle.
     </p>
     

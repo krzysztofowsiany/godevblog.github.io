@@ -19,7 +19,7 @@ tags:
 ---
 <div id="dslc-theme-content">
   <div id="dslc-theme-content-inner">
-    <p style="text-align: justify;">
+
       W zmaganiach z kontenerem <strong>AutoFac</strong>, natrafiłem na możliwość wstrzykiwania całych kolekcji implementujących ten sam interfejs.<a href="http://godev.gemustudio.com/assets/images/2017/05/blogging-photo-5.jpg"><img class="wp-image-1165 alignright" src="http://godev.gemustudio.com/assets/images/2017/05/blogging-photo-5-200x300.jpg" alt="" width="107" height="161" srcset="http://godev.gemustudio.com/assets/images/2017/05/blogging-photo-5-200x300.jpg 200w, http://godev.gemustudio.com/assets/images/2017/05/blogging-photo-5.jpg 600w" sizes="(max-width: 107px) 100vw, 107px" /></a>
     </p>
     
@@ -35,7 +35,7 @@ tags:
       Interfejs
     </h2>
     
-    <p style="text-align: justify;">
+
       Bardzo prosty interfejs <strong>IOnlyForTest</strong> zawierający szkielet metody <strong>Calc</strong> przyjmującej dwa parametry <strong>a</strong> i <strong>b</strong>, następnie zwracający wynik operacji.
     </p>
     
@@ -49,7 +49,7 @@ namespace Test
     }
 }</pre>
     
-    <p style="text-align: justify;">
+
       Klasa implementująca <strong>IOnlyForTest</strong> zostanie automatycznie wstrzyknięta jako jeden z elementów kolekcji.
     </p>
     
@@ -61,7 +61,7 @@ namespace Test
       Rejestrowanie klas w module kontenera AutoFac
     </h2>
     
-    <p style="text-align: justify;">
+
       Moduł rejestrowania klas implementujących interfejs <strong>IOnlyForTest</strong>.
     </p>
     
@@ -77,7 +77,7 @@ namespace Test
     }
 }</pre>
     
-    <p style="text-align: justify;">
+
       Można by tutaj powiedzieć, iż własnie budowane są kolejne elementy kolekcji jaka zostanie wstrzyknięta do docelowego obiektu.
     </p>
     
@@ -106,7 +106,7 @@ namespace Test
     }
 }</pre>
     
-    <p style="text-align: justify;">
+
       Druga funkcjonuje analogicznie z tym, iż zwraca różnicę.
     </p>
     
@@ -123,7 +123,7 @@ namespace Test
     }
 }</pre>
     
-    <p style="text-align: justify;">
+
       Obie są rejestrowane przez moduł kontenera <strong>AutoFac</strong>.
     </p>
     
@@ -139,7 +139,7 @@ namespace Test
       Użycie wstrzykiwania kolekcji
     </h2>
     
-    <p style="text-align: justify;">
+
       Na koniec pozostaje implementacja klasy <strong>TestEnumerable</strong>. To właśnie w niej zostanie wstrzyknięta kolekcja zawierająca listę zarejestrowanych klas implementujących <strong>IOnlyForTest</strong>.
     </p>
     
@@ -182,7 +182,7 @@ namespace Test
       Koniec
     </h2>
     
-    <p style="text-align: justify;">
+
       Niniejszy kod nie przedstawia żadnej logicznej implementacji, jest to tylko przykład testowy. Głównym jego założeniem jest przedstawienie sposobu łączenia klas implementujących ten sam interfejs w kolekcję. I następnie użycie ich w pętli.
     </p>
     

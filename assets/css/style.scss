@@ -91,6 +91,11 @@ div.post_preview:nth-child(2n){
 }
 
 
+div.more_url {
+    display:block;
+    text-align: right;
+}
+
   @import 'nav';
 
   @import 'pagination';

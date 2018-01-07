@@ -22,11 +22,11 @@ tags:
       <img class="aligncenter wp-image-864 size-medium" style="margin: 0 auto;" src="http://godev.gemustudio.com/assets/images/2017/04/konsola-classic-300x273.jpg" alt="Grywalizacja" width="300" height="273" srcset="http://godev.gemustudio.com/assets/images/2017/04/konsola-classic-300x273.jpg 300w, http://godev.gemustudio.com/assets/images/2017/04/konsola-classic.jpg 600w" sizes="(max-width: 300px) 100vw, 300px" />
     </p>
     
-    <p style="text-align: justify;">
+
       <strong><span style="font-size: 20px;">Grywalizacja</span></strong> jak sama nazwa wskazuje pojęcie związane z grami komputerowymi. Jak wiadomo wszem i wobec każdy użytkownik komputera miał styczność z grami komputerowymi.
     </p>
     
-    <p style="text-align: justify;">
+
       I z tego właśnie środowiska wywodzi się to pojęcie. Więcej idea bazuje właśnie na mechanice wykorzystywanej w grach komputerowych do urozmaicenia rozgrywki została zaadoptowana w innych dziedzinach.
     </p>
     
@@ -34,7 +34,7 @@ tags:
       <strong>Ale poco mieszać gry z innymi aspektami życia? => A to jest dość proste, by zwiększyć zaangażowanie jednostki w odniesieniu do dziedziny implementującej grywalizację.</strong>
     </h3>
     
-    <p style="text-align: justify;">
+
       Przy implementacji grywalizacji należy pamiętać o kilku jej składowych elementach:
     </p>
     
@@ -63,19 +63,19 @@ tags:
       &nbsp;
     </p>
     
-    <p style="text-align: justify;">
+
       Oczywiście nie są to wszystkie elementy grywalizacji, można je wykorzystywać, alenie trzeba, można dodać inne, ale warto implementować grywalizacje w systemach,w których jest taka możliwość.
     </p>
     
-    <p style="text-align: justify;">
+
       <img class="size-medium aligncenter" style="margin: 0 auto;" src="https://wiki.teamfortress.com/w/assets/images/thumb/3/3e/Achieved.png/200px-Achieved.png?t=20110424214508" width="200" height="200" />
     </p>
     
-    <p style="text-align: justify;">
+
       Można sobie nie zdawać sprawy z tego gdzie tak naprawdę jest wykorzystywa na mechanika gier. Dobrym przykładem jest szeroko pojęta edukacja. Gdzie zaszycie mechanizmów przyciągających w proces nauczania daje wymierne skutki dla osób uczestniczących w tym procederze. W końcu można rywalizować, zdobywać nagrody, i inne profity, dobrze się bawić i przy tym edukować.
     </p>
     
-    <p style="text-align: justify;">
+
       Zachęcam do zgłębienie szerzej tematu, mogę polecić książki:
     </p>
     

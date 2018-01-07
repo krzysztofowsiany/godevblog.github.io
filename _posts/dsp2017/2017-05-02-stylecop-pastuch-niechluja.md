@@ -16,23 +16,23 @@ tags:
 ---
 <div id="dslc-theme-content">
   <div id="dslc-theme-content-inner">
-    <p style="text-align: justify;">
+
       Jest pewien sprytny sposób na niechluja w kodzie. Można zmusić kodera do trzymania się określonej etykiety kodowania przy pomocy narzędzia o nazwie <strong><a href="https://stylecop.codeplex.com/">StyleCop</a>.</strong>
     </p>
     
-    <p style="text-align: justify;">
+
       W celu instalacji należy uwarzyć magiczną miksturę w kotle o nazwie <strong>Package Manager Console</strong>, <strong>Install-Package StyleCop.Analyzers.</strong>
     </p>
     
-    <p style="text-align: justify;">
+
       Po instalacji w okienku <strong>Solution Explorer</strong> znajdziemy w referencjach zainstalowanego <strong>StyleCopa</strong>, zawiera on w sobie listę dyrektyw jakie będzie można skonfigurować wedle własnego uznania.
     </p>
     
-    <p style="text-align: justify;">
+
       <a href="http://godev.gemustudio.com/assets/images/2017/05/stylecop.png"><img class="aligncenter wp-image-976 size-full" src="http://godev.gemustudio.com/assets/images/2017/05/stylecop.png" alt="StyleCop " width="689" height="269" srcset="http://godev.gemustudio.com/assets/images/2017/05/stylecop.png 689w, http://godev.gemustudio.com/assets/images/2017/05/stylecop-300x117.png 300w" sizes="(max-width: 689px) 100vw, 689px" /></a>
     </p>
     
-    <p style="text-align: justify;">
+
       <strong>VS</strong> podczas kompilacji wyrzuci listę ostrzeżeń dotyczących niezgodności w stylu kodowania. Obrazuje to poniższy zrzut ekranu.
     </p>
     
@@ -40,11 +40,11 @@ tags:
       <a href="http://godev.gemustudio.com/assets/images/2017/05/StyleCop2.png"><img class="aligncenter wp-image-978 size-full" src="http://godev.gemustudio.com/assets/images/2017/05/StyleCop2.png" alt="StyleCop " width="851" height="546" srcset="http://godev.gemustudio.com/assets/images/2017/05/StyleCop2.png 851w, http://godev.gemustudio.com/assets/images/2017/05/StyleCop2-300x192.png 300w, http://godev.gemustudio.com/assets/images/2017/05/StyleCop2-768x493.png 768w" sizes="(max-width: 851px) 100vw, 851px" /></a>
     </p>
     
-    <p style="text-align: justify;">
+
       W powyższym przypadku <strong>StyleCop</strong> sugeruje, iż usingi powinny być objęte w obszar przestrzeni nazw. Wskazuje na to odpowiednia dyrektywa <strong>SA1200.</strong>
     </p>
     
-    <p style="text-align: justify;">
+
       I teraz gdzie ten pastuch, a proste obecnie niespójności w stylu kodowania skutkują jedynie ostrzeżeniami. Można skonfigurować <strong>StyleCop</strong> tak by wywalał błędy:D. Tym samym zmuszał do poprawy.
     </p>
     

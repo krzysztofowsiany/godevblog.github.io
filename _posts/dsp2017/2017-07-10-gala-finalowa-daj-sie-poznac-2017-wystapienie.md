@@ -21,11 +21,11 @@ tags:
       <span style="font-family: arial, helvetica, sans-serif;">Moje wystąpienie</span>
     </h2>
     
-    <p style="text-align: justify;">
+
       <span style="font-size: 16px; font-family: arial, helvetica, sans-serif;"><strong>Hohoho</strong> jaka miła niespodzianka w poniedziałek. <a href="http://devstyle.pl"><strong>Maciej Aniserowicz</strong></a> zamieścił nagrania z wystąpień na <strong>Gali Finałowej Konkursu</strong> <a href="http://dajsiepoznac.pl"><strong>Daj Się Poznać 2017</strong></a> jaka się odbyła w siedzibie <strong><a href="http://microsoft.com.pl">Microsoftu</a></strong>.</span>
     </p>
      <!--break-->
-    <p style="text-align: justify;">
+
       <span style="font-size: 16px; font-family: arial, helvetica, sans-serif;">Zapraszam do obejrzenia nie tylko Mojego wystąpienia.:D</span>
     </p>
     
@@ -53,7 +53,7 @@ tags:
       <span style="font-family: arial, helvetica, sans-serif;">Pozostałe wystąpienia</span>
     </h2>
     
-    <p style="text-align: justify;">
+
       <span style="font-family: arial, helvetica, sans-serif; font-size: 16px;">W trakcie gali odbyło się <strong>15</strong> debiutanckich prelekcji, jedne wypadły gorzej (<a href="https://youtu.be/i3QY6uGDLLI?list=PLN2dx2pIJO6MmC_lihDpvc5jQ6LE7osSK">jak jak moja</a>), inne dużo lepiej.:D</span>
     </p>
     

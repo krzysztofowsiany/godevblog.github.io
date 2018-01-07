@@ -20,7 +20,7 @@ tags:
 ---
 <div id="dslc-theme-content">
   <div id="dslc-theme-content-inner">
-    <p style="text-align: justify;">
+
       <span style="font-weight: 400;"><span style="font-size: 20px;"><a href="http://godev.gemustudio.com/assets/images/2017/06/blogging-photo-45.jpg"><img class=" wp-image-1469 alignright" src="http://godev.gemustudio.com/assets/images/2017/06/blogging-photo-45-300x200.jpg" alt="Prezentacja o Grywalizacji" width="231" height="154" srcset="http://godev.gemustudio.com/assets/images/2017/06/blogging-photo-45-300x200.jpg 300w, http://godev.gemustudio.com/assets/images/2017/06/blogging-photo-45-768x512.jpg 768w, http://godev.gemustudio.com/assets/images/2017/06/blogging-photo-45.jpg 900w" sizes="(max-width: 231px) 100vw, 231px" /></a>Za mną pierwsze i mam nadzieję nie ostatnie wystąpienie publiczne w ramach Gali Finałowej <strong><a href="http://devstyle.pl/daj-sie-poznac/">DSP2017</a></strong>, organizowanej przez <strong><a href="http://devstyle.pl">Macieja Aniserowicza</a></strong> w siedzibie <strong><a href="http://microsoft.com">Microsoftu</a></strong>. Niniejszym dzielę się swoimi przemyśleniami dotyczącymi obaw jakie odczuwałem w ramach tego “traumatycznego” przeżycia.</span></span>
     </p>
     
@@ -30,7 +30,7 @@ tags:
       <b>Czas</b>
     </h2>
     
-    <p style="text-align: justify;">
+
       <span style="font-weight: 400; font-size: 20px;">Bardzo łatwo podczas stanu podniesionej adrenaliny jest popełnić proste błędy, np. mówić za wolno, tym samym mogłem nie zmieścić się w czasie jaki został na moje wystąpienie zagospodarowany.</span>
     </p>
     
@@ -42,7 +42,7 @@ tags:
       <b>Zaćmienia</b>
     </h2>
     
-    <p style="text-align: justify;">
+
       <span style="font-weight: 400; font-size: 20px;">Tak to jest poważny problem, zapomnieć co się miało powiedzieć, jako że przygotowanie moje opierało się głównie o przygotowane slajdy, zakrapiane zdjęciami oraz informacje jakie przechowywane są w moich zakamarkach kory mózgowej, to łatwo było przeoczyć, pewne fakty. Lub po prostu nie domówić pewnych zdań jakie planowało się powiedzieć.</span>
     </p>
     
@@ -66,7 +66,7 @@ tags:
       <b>Wystąpienia innych</b>
     </h2>
     
-    <p style="text-align: justify;">
+
       <span style="font-weight: 400; font-size: 20px;">Oglądając wystąpienia innych, dochodząc do wniosku jak dobrze się prezentują i jak blado wypadnę na ich tle. Dodatkowo nie pomagało w tym co miało nadejść. Prezentację miałem pod koniec, dlatego łatwo było porównywać się do innych w odniesieniu do tego co przygotowałem.</span>
     </p>
     
@@ -78,7 +78,7 @@ tags:
       <b>Rzeczywistość</b>
     </h2>
     
-    <p style="text-align: justify;">
+
       <span style="font-weight: 400; font-size: 20px;">Prawda jest taka, że większość osób miała zapewne przeżywała podobne obawy, nikt też nie był tam po to by wyśmiewać biednych młodych przestraszonych developerów stawiających pierwsze kroki w prezentacji dla szerokiego (wyszukanego grona) odbiorców swoją wiedzę wzbogaconą o wnioski &#8211; przemyślenia. Dodatkowo miejsce prelekcji było bardzo specyficzne, siedziba MS.</span>
     </p>
     
@@ -92,7 +92,7 @@ tags:
       <b>Wnioski</b>
     </h2>
     
-    <p style="text-align: justify;">
+
       <span style="font-size: 20px;">Wystąpienie myślę, wypadło dobrze jednak z subiektywnymi ocenami zaczekam do obejrzenia nagranego wideo. Na to jednak przyjdzie poczekać. Strach ma wielkie oczy, jednak w tej sytuacji jednak kiełkowała się myśl w głowie, iż gdy pójdzie źle to przecież nic wielkiego się nie stanie, nie jestem profesjonalnym prelegentem pomyłki to normalne. Wykreowany przez strach stres, myślę że był motywujący, przecież zależało mi na tym by dobrze wypaść.</span>
     </p>
     

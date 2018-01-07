@@ -24,11 +24,11 @@ tags:
       Zmiana biblioteki logów
     </h1>
     
-    <p style="text-align: justify;">
+
       Już na samym począteczku problemy, musiałem wymienić bibliotekę logów z <strong><a href="https://logging.apache.org/log4net/">log4net</a></strong> na <strong><a href="http://nlog-project.org/">NLog</a></strong>, okazało się, iż w moim projekcie opartym na.NET 4.5.2 nie można wykorzystać biblioteki log4net i tyle z nauki.
     </p>
     
-    <p style="text-align: justify;">
+
       Oczywiście, żeby było śmieszniej dowiedziałem się o tym po konfiguracji, instalacji w sytuacji wystąpienia problemu z zapisem logów, czyli X czasu poszło się paść.
     </p>
     
@@ -44,19 +44,19 @@ tags:
       &nbsp;
     </p>
     
-    <p style="text-align: justify;">
+
       <img class="size-medium alignleft" src="http://docs.autofac.org/en/latest/_assets/images/logo.png" width="185" height="150" />Kolejno przyszedł czas na wdrożenie <strong>DIP</strong> (<strong>Dependency Inversion Principle</strong>) przy wykorzystaniu <strong>Dependency Injection</strong>. Do tego po instalacji pakietu trzeba trochę popracować nad szkieletem wykorzystującym Autofac-a.
     </p>
     
-    <p style="text-align: justify;">
+
       A czym jest taki kontenerek? To bardzo proste, to składowisko obiektów naszej aplikacji. Trzeba go załadować w sposób jaki się chcę. A potem już tylko korzystać.
     </p>
     
-    <p style="text-align: justify;">
+
       Realizuje fragment zasad <strong>SOLID</strong>, a dokładnie ostatnią literkę.
     </p>
     
-    <p style="text-align: justify;">
+
       Zasada<strong> DIP</strong> określa, iż obiekty nie powinny być tworzone na żądanie, a wstrzykiwane z zewnątrz. Dzięki czemu zależność obiektu wykorzystującego inne klasy jest odwrócona. Określamy jakie klasy/interfejsy chcemy otrzymać, a kontener je dostarczy.
     </p>
     
@@ -68,7 +68,7 @@ tags:
       Dobra rada dla programisty &#8211; bądź SOLIDny.
     </h3>
     
-    <p style="text-align: justify;">
+
       Poniżej klasa statyczna implementująca ładowanie modułów kontenera.
     </p>
     
@@ -139,11 +139,11 @@ namespace PictOgr.Core.AutoFac
       Ładowanie moich śmieci
     </h1>
     
-    <p style="text-align: justify;">
+
       Z kolei kod poniżej to modulik, mały jest i w tym przypadku ładuje wszystkie zależności dla NLoga. Po wykonaniu tego kodu w programie można wstrzykiwać loggera.
     </p>
     
-    <p style="text-align: justify;">
+
       Oczywiście można rejestrować w kontenerze dowolne klasy np.<em><strong> builder.RegisterType<SplashScreenView>();</strong></em>
     </p>
     
@@ -175,15 +175,15 @@ namespace PictOgr.Core
       Używanie kontenera
     </h1>
     
-    <p style="text-align: justify;">
+
       Po załadowaniu fajnie byłoby użyć Autofaca, ale wiadomo wszystko ma swój początek i koniec, dlatego należy zainicjować kontener. W moim przypadku będzie to w głównej klasie <strong>App.</strong>
     </p>
     
-    <p style="text-align: justify;">
+
       L.12 tworzy kontener, czyli ładuje wszystkie moduliki z <a href="http://godev.gemustudio.com/2017/03/01/pictogr-pomysl/"><strong>PictOgr-a</strong></a>.
     </p>
     
-    <p style="text-align: justify;">
+
       Linia niżej to wyciągnięcie obiektu z kontenera, w tym przypadku okna powitalnego <strong>SplashScreenView</strong>.
     </p>
     
@@ -254,27 +254,27 @@ namespace PictOgr
       Ogromne możliwości
     </h1>
     
-    <p style="text-align: justify;">
+
       Autofac jest bardzo rozbudowaną biblioteką, pozwala w różny sposób tworzyć obiekty, zbudowany jest na bazie wzorca projektowego <strong>Fluent Interface</strong>, który to pozwala na kaskadowe wywoływanie metod z klasy macierzystej. Każda metoda zwraca referencję do klasy, tym samym bazujemy na jednej klasie i wykonujemy na niej operacje.
     </p>
     
-    <p style="text-align: justify;">
+
       Zastosowanie fluenta daje możliwość zapisu kolejnych etapów rejestrowania klasy z wykorzystaniem separacji kropką.
     </p>
     
-    <p style="text-align: justify;">
+
       <strong><span class="pln"> builder</span><span class="pun">.</span><span class="typ">RegisterType</span><span class="pun"><TestClass</span><span class="pun">>().</span><span class="typ">As</span><span class="pun"><</span><span class="typ">ITestClass</span><span class="pun">>();</span></strong>
     </p>
     
-    <p style="text-align: justify;">
+
       W powyższym przykładzie rejestrujemy klase <strong>TestClass</strong> jako interfejs <strong>ITestClass</strong>.<img class="size-medium wp-image-529 alignright" src="http://godev.gemustudio.com/assets/images/2017/03/20151125-IMG-2015-11-25-9999_4-300x200.jpg" alt="" width="300" height="200" />
     </p>
     
-    <p style="text-align: justify;">
+
       Możemy także określić, iż klasa ma mieć tylko jedną instancję (<strong>Wzorzec Singleton</strong>) poprzez dopisanie
     </p>
     
-    <p style="text-align: justify;">
+
       <span class="pln">builder</span><span class="pun">.</span><span class="typ">RegisterType</span><span class="pun"><TestClass</span><span class="pun">>().</span><span class="typ">As</span><span class="pun"><</span><span class="typ">ITestClass</span><span class="pun">>()</span><strong>.SingleInstance();</strong>
     </p>
     
@@ -314,11 +314,11 @@ namespace PictOgr
       &nbsp;
     </p>
     
-    <p style="text-align: justify;">
+
       Na dzisiaj tyle. Jestem w implementacji testów i CQRSa.
     </p>
     
-    <p style="text-align: justify;">
+
       Liczę na konstruktywne komentarze:).
     </p>
     

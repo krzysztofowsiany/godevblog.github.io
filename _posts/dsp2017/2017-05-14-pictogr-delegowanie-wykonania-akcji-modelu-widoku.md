@@ -20,19 +20,19 @@ tags:
 ---
 <div id="dslc-theme-content">
   <div id="dslc-theme-content-inner">
-    <p style="text-align: justify;">
+
       <a href="http://godev.gemustudio.com/assets/images/2017/05/IMG_0061.jpg"><img class="alignright wp-image-1098 size-medium" src="http://godev.gemustudio.com/assets/images/2017/05/IMG_0061-300x200.jpg" alt="PictOgr - delegowanie wykonania akcji do modelu widoku" width="300" height="200" srcset="http://godev.gemustudio.com/assets/images/2017/05/IMG_0061-300x200.jpg 300w, http://godev.gemustudio.com/assets/images/2017/05/IMG_0061-768x512.jpg 768w, http://godev.gemustudio.com/assets/images/2017/05/IMG_0061-1024x683.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px" /></a>Nie zawsze dobrym rozwiązaniem jest budowanie komendy dla każdej operacji
     </p>
     
-    <p style="text-align: justify;">
+
       wykonywanej na widoku, wręcz może okazać się uciążliwe przekazanie danych z formularza do  komendy. W takiej sytuacji z pomocą przychodzą delegaty.
     </p>
     
-    <p style="text-align: justify;">
+
       Implementacja interfejsu <strong>ICommand</strong> niesie ze sobą potrzebę deklaracji dwóch metod <strong>Execute</strong>, <strong>CanExecute </strong>oraz zdarzenie <strong>CanExecuteChanged</strong>.
     </p>
     
-    <p style="text-align: justify;">
+
       Jako że w  programowaniu nie istnieje jedno rozwiązanie problemu i w tym  przypadku można delegować wykonanie metod <strong>Execute</strong> oraz <strong>CanExecute</strong> do modelu widoku.
     </p>
     
@@ -79,11 +79,11 @@ namespace PictOgr.MVVM.Base
 }
 </pre>
     
-    <p style="text-align: justify;">
+
       Podczas tworzenia instancji na bazie klasy <strong>RelayCommand  </strong>przekazujemy do niej dwa delegaty: <strong>execute</strong>, <strong>canExecute</strong>.
     </p>
     
-    <p style="text-align: justify;">
+
       Wykonanie metody <strong>CanExecute</strong> nie zawsze jest istotne dlatego też w celu uproszczenia wykluczenia delegowania dla  tej metody powstała  klasa <strong>RelayCommand</strong> rozszerzająca klasę bazową  o tej samej nazwie i już określonym typie generycznym (object). Dzięki temu możemy przy tworzeniu nowej komendy wykorzystać prostą składnię: <span style="color: #3355ff;"><strong>new RelayCommand(executeDelegate);</strong></span>
     </p>
     
@@ -95,7 +95,7 @@ namespace PictOgr.MVVM.Base
       Przykład wykorzystania RelayCommand
     </h1>
     
-    <p style="text-align: justify;">
+
       Przy budowaniu widoku konfiguracji dla PictOgra, wykorzystany został mechanizm RelayCommand do ustawiania wzorca ścieżki z dostępnych komponentów nazw.
     </p>
     
@@ -139,23 +139,23 @@ namespace PictOgr.MVVM.Configuration.ViewModels
 }
 </pre>
     
-    <p style="text-align: justify;">
+
       <a href="http://godev.gemustudio.com/assets/images/2017/05/IMG_0712.jpg"><img class="alignleft wp-image-1102 size-medium" src="http://godev.gemustudio.com/assets/images/2017/05/IMG_0712-300x200.jpg" alt="PictOgr" width="300" height="200" srcset="http://godev.gemustudio.com/assets/images/2017/05/IMG_0712-300x200.jpg 300w, http://godev.gemustudio.com/assets/images/2017/05/IMG_0712-768x512.jpg 768w, http://godev.gemustudio.com/assets/images/2017/05/IMG_0712-1024x683.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px" /></a>
     </p>
     
-    <p style="text-align: justify;">
+
       Tak przygotowany kod pozwala obsłużyć dowolną ilość modułów nazwy jakie będą  zaimplementowane  w aplikacji.
     </p>
     
-    <p style="text-align: justify;">
+
       <strong>RelayCommand  </strong>pozwolił na delegacje  tego  mechanizmu do modelu widoku i operowaniu bezpośrednio z wykorzystaniem dostępnych właściwości.
     </p>
     
-    <p style="text-align: justify;">
+
       Właściwość <strong>PathFormat</strong>, wyświetla bieżący wzorzec nazwy w widoku konfiguracji.
     </p>
     
-    <p style="text-align: justify;">
+
       Każdy dodany nowy moduł nazwy (Button), wykorzystuje komendę <strong>AddNameModuleCommand</strong> z parametrem przechowującym identyfikator modułu nazwy.
     </p>
     
@@ -238,7 +238,7 @@ namespace PictOgr.E2E
       Zakończenie
     </h1>
     
-    <p style="text-align: justify;">
+
       Mechanizm <strong>RelayCommand</strong> w większości przypadków niweluje potrzebę tworzenia innych klas komend, skraca to kodowanie i powoduje powstawanie mniej błędów.
     </p>
     
