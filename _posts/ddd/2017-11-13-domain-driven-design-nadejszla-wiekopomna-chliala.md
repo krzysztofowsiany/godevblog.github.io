@@ -1,5 +1,5 @@
 ---
-title: Domain-Driven Design - &#8222;nadejszła wiekopomna chłiła&#8221;
+title: Domain-Driven Design - &#8222;Nadejszła wiekopomna chłiła&#8221;.
 date: 2017-11-13T23:40:24+00:00
 author: Krzysztof Owsiany
 layout: post
@@ -20,6 +20,9 @@ tags:
   - Visual Studio Code
 short: Chwilami rozmyślałem na temat projektu, jaki chciałbym zmaltretować. Wyszło przy tym kilka ciekawych pomysłów. Jednak do realizacji podejmę się projektu prostego, rozwiązującego mój mały problemik.
 ---
+{% include_relative preface.md %}
+
+## Wstęp
 [![Domain-Driven Design][post]][post-big]{:.post-left-image}
 Długo tutaj mnie nie było, wiele się działo, zmiana pracy, konferencje, wyjazdy. Blog-abstynencja.
 
@@ -74,6 +77,13 @@ Jako młody adept szkolenia przeprowadzonego przez **[Macieja Aniserowicza][proc
 Kod wrzuci się na **[GitHub-a][mygithub]**, może ktoś wykona **Code Review**.
 
 {% include_relative books.md %}
+
+---
+Wcześniejszy artykuł: **[Domain-Driven Design - DDD i jego życie.][previous]**
+
+---
+[previous]: {{site.url}}/ddd-i-jego-zycie
+
 
 [ddd]: {{site.url}}/domain-driven-design-wstep
 [onion]: {{site.url}}/architektura-cebuli

@@ -1,5 +1,5 @@
 ---
-title: 'Domain-Driven Design &#8211; izolacja przy pomocy warstw.'
+title: Domain-Driven Design - Izolacja przy pomocy warstw.
 date: 2017-07-24T16:50:49+00:00
 author: Krzysztof Owsiany
 layout: post
@@ -112,3 +112,12 @@ tags:
     </p>
     
 {% include_relative books.md %}
+
+---
+Wcześniejszy artykuł: **[Domain-Driven Design - Izolacja przy pomocy warstw.][previous]**
+
+Następny artykuł: **[Domain-Driven Design - Podstawowe części składowe.][next]**
+
+---
+[previous]: {{site.url}}/domain-driven-design-izolacja-przy-pomocy-warstw
+[next]: {{site.url}}/domain-driven-design-podstawowe-czesci-skladowe

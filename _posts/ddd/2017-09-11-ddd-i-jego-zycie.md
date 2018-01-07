@@ -1,5 +1,5 @@
 ---
-title: 'Domain-Driven Design &#8211; i jego życie'
+title: Domain-Driven Design - DDD i jego życie.
 date: 2017-09-11T08:47:48+00:00
 author: Krzysztof Owsiany
 layout: post
@@ -20,6 +20,10 @@ tags:
   - Repozytoria
 short: Domain-Driven Design charakteryzuje komponenty wykorzystywane przy budowie złożonych modelów dziedziny (ang. Domain Model). Jednak owe komponenty wchodzą w skład większego bytu, posiadają swój cykl życia.
 ---
+{% include_relative preface.md %}
+
+## Wstęp
+
 [![Domain-Driven Design][post]][post-big]{:.post-left-image}
 Domain-Driven Design charakteryzuje komponenty wykorzystywane przy budowie złożonych modelów dziedziny (ang. **Domain Model**).
 
@@ -94,10 +98,14 @@ Budowanie aplikacji na bazie **Domain-Driven Design**, wymusza na projgramiście
 Po takiej porcji wiedzy rozmyślam (w końcu) nad zastosowaniem w prostym projekcie. Oraz przedstawieniu swoich poczynań w kolejnych postach dotyczących **DDD**.
 
 {% include_relative books.md %}
+---
+Wcześniejszy artykuł: **[Domain-Driven Design - Podstawowe części składowe.][previous]**
 
-Wcześniejszy artykuł: [Domain-Driven Design - podstawowe części składowe.][previous]
+Następny artykuł: **[Domain-Driven Design - &#8222;Nadejszła wiekopomna chłiła&#8221;.][next]**
 
+---
 [previous]: {{site.url}}/domain-driven-design-podstawowe-czesci-skladowe
+[next]: {{site.url}}/domain-driven-design-nadejszla-wiekopomna-chliala
 
 
 [post]: /assets/images/2017/09/ddd-i-jego-zycie/post.jpg
