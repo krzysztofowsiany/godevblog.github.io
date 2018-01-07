@@ -4,6 +4,7 @@ date: 2017-11-20T20:03:06+00:00
 author: Krzysztof Owsiany
 layout: post
 published: true
+comments: true
 permalink: garbage-collector-sprawdzanie-sasiad-wyrzuca-smieci
 image: /assets/images/2017/11/garbage-collector-sprawdzanie-sasiad-wyrzuca-smieci/post.jpg
 categories:  

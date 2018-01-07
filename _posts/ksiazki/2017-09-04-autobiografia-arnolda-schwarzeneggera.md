@@ -5,6 +5,7 @@ author: Krzysztof Owsiany
 layout: post
 permalink: autobiografia-arnolda-schwarzeneggera
 published: true
+comments: true
 image: /assets/images/2017/09/autobiografia-arnolda-schwarzeneggera\post.png
 categories:
   - Książka

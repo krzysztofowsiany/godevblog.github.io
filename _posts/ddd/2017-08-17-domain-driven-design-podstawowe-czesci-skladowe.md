@@ -5,6 +5,7 @@ author: Krzysztof Owsiany
 layout: post
 permalink: domain-driven-design-podstawowe-czesci-skladowe
 published: false
+comments: true
 image: /assets/images/2017/08/blogging-photo-2144.jpg
 categories:
   - Domain-Driven Design

@@ -1,5 +1,4 @@
 ---
-id: 162
 title: 'C#rek &#8211; hipopotam cz.1.'
 date: 2017-03-06T23:57:45+00:00
 author: Krzysztof Owsiany

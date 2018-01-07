@@ -5,6 +5,7 @@ author: Krzysztof Owsiany
 layout: post
 permalink: domain-driven-design-nadejszla-wiekopomna-chliala
 published: true
+comments: true
 image: /assets/images/2017/11/domain-driven-design-nadejszla-wiekopomna-chliala/post.jpg
 categories:
   - Domain-Driven Design

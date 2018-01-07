@@ -5,6 +5,7 @@ author: Krzysztof Owsiany
 layout: post
 permalink: domain-driven-design-wstep
 published: true
+comments: true
 image: /assets/images/2017/07/domain-driven-design-wstep/post.jpg
 categories:
   - Domain-Driven Design

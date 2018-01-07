@@ -5,6 +5,7 @@ author: Krzysztof Owsiany
 layout: post
 permalink: ddd-i-jego-zycie
 published: true
+comments: true
 image: /assets/images/2017/09/ddd-i-jego-zycie/post.jpg
 categories:
   - Domain-Driven Design

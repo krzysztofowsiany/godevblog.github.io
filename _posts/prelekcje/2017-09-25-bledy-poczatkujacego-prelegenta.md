@@ -6,6 +6,7 @@ author: Krzysztof Owsiany
 layout: post
 permalink: bledy-poczatkujacego-prelegenta
 published: true
+comments: true
 image: /assets/images/2017/09/bledy-poczatkujacego-prelegenta/post.png
 categories:
   - Bez kategorii

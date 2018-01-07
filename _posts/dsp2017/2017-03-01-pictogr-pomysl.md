@@ -4,6 +4,7 @@ date: 2017-03-01T22:28:27+00:00
 author: Krzysztof Owsiany
 layout: post
 published: true
+comments: true
 permalink: /pictogr-pomysl
 image: /assets/images/2017/03/pictogr-pomysl/post.jpg
 categories:

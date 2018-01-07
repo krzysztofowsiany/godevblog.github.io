@@ -4,6 +4,7 @@ date: 2017-05-14T22:58:28+00:00
 author: Krzysztof Owsiany
 layout: post
 published: true
+comments: true
 permalink: wysypisko-smieci
 image: /assets/images/2017/05/wysypisko-smieci/post.jpg
 categories:

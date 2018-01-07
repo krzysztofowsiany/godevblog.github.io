@@ -5,6 +5,7 @@ author: Krzysztof Owsiany
 layout: post
 permalink: domain-driven-design-jezyk-wszechobecny
 published: true
+comments: true
 image: /assets/images/2017/07/domain-driven-design-jezyk-wszechobecny/post.jpg
 categories:
   - Domain-Driven Design

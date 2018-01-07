@@ -5,7 +5,7 @@ author: Krzysztof Owsiany
 layout: post
 permalink: domain-driven-design-izolacja-przy-pomocy-warstw
 published: false
-
+comments: true
 image: /assets/images/2017/07/blogging-photo-1365.jpg
 categories:
   - Bez kategorii
