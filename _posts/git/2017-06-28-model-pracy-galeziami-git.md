@@ -13,9 +13,6 @@ tags:
   - GIT
   - Model
 ---
-<div id="dslc-theme-content">
-  <div id="dslc-theme-content-inner">
-    <div id="attachment_1541" style="width: 236px" class="wp-caption alignright">
       <a href="http://godev.gemustudio.com/assets/images/2017/06/git-model@2x.png"><img class="wp-image-1541 size-medium" title="Model pracy z GITem od Vincenta Driessena" src="http://godev.gemustudio.com/assets/images/2017/06/git-model@2x-226x300.png" alt="Model pracy z GITem od Vincenta Driessena" width="226" height="300" srcset="http://godev.gemustudio.com/assets/images/2017/06/git-model@2x-226x300.png 226w, http://godev.gemustudio.com/assets/images/2017/06/git-model@2x-768x1018.png 768w, http://godev.gemustudio.com/assets/images/2017/06/git-model@2x-773x1024.png 773w, http://godev.gemustudio.com/assets/images/2017/06/git-model@2x.png 1150w" sizes="(max-width: 226px) 100vw, 226px" /></a>
       
       <p class="wp-caption-text">
@@ -24,10 +21,7 @@ tags:
     </div>
     
 
-      <span style="font-size: 20px;"><span style="font-weight: 400;">Ostatnimi czasy natknąłem się w internetach na model pracy z repozytorium GIT wykreowany przez <a href="http://nvie.com"><strong>Vincenta Driessena</strong></a>. Jego podejście sugeruje by trzymać się dwóch głównych gałęzi o nazwach </span><b>master</b><span style="font-weight: 400;"> i jej podgałęzi rozwojowej </span><b>develop</b><span style="font-weight: 400;">.</span></span>
-    </p>
-    
-    <!--break-->
+      Ostatnimi czasy natknąłem się w internetach na model pracy z repozytorium GIT wykreowany przez <a href="http://nvie.com"><strong>Vincenta Driessena</strong></a>. Jego podejście sugeruje by trzymać się dwóch głównych gałęzi o nazwach </span><b>master</b><span style="font-weight: 400;"> i jej podgałęzi rozwojowej </span><b>develop</b><span style="font-weight: 400;">.</span></span>
 
 
       <span style="font-size: 20px;"><span style="font-weight: 400;">Gałąź master odzwierciedla docelowy kod programu jaki znajduje się na produkcji z niej wyciągane są podgałęzie w przypadku wymagania poprawek jest to warstwa gałęzi </span><b>hotfix branches</b><span style="font-weight: 400;">.</span></span>
@@ -348,12 +342,4 @@ tags:
       <a href="http://nvie.com/files/Git-branching-model.pdf"><span style="font-weight: 400;">http://nvie.com/files/Git-branching-model.pdf</span></a><br /> <span style="font-weight: 400;">http://nvie.com/posts/a-successful-git-branching-model/</span>
     </p>
     
-    <p>
-      &nbsp;
-    </p>
-    
-    <!-- AddThis Advanced Settings generic via filter on the_content -->
-    
-    <!-- AddThis Share Buttons generic via filter on the_content -->
-  </div>
-</div>
+  
