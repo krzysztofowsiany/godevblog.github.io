@@ -1,4 +1,4 @@
-Ponownie polecam poniższe książki.
+## Polecane książki
 
 |[![Domain-Driven Design. Zapanuj nad złożonym systemem informatycznym. Eric Evans.][domdri-image]][domdri]{:.book-image}|[Domain-Driven Design. Zapanuj nad złożonym systemem informatycznym. Eric Evans.][domdri]|
 |[![DDD dla architektów oprogramowania, Vaughn Vernon.][dddaro-image]][dddaro]{:.book-image}|[DDD dla architektów oprogramowania, Vaughn Vernon.][dddaro]|

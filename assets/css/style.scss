@@ -96,6 +96,13 @@ div.more_url {
     text-align: right;
 }
 
+ol {
+    list-style-position: inside;
+    list-style: default; 
+    list-style-type: decimal;
+    padding: 0px;
+}
+
   @import 'nav';
 
   @import 'pagination';

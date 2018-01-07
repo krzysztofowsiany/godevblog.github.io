@@ -1,11 +1,11 @@
 ---
-title: 'VPS &#8211; noc grozy!'
+title: VPS - noc grozy!
 date: 2017-06-09T13:57:10+00:00
 author: Krzysztof Owsiany
 layout: post
 published: false
-permalink: /2017/06/09/vps-noc-grozy/
-image: /assets/images/2017/06/blogging-photo-7983.jpg
+permalink: vps-noc-grozy
+image: /assets/images/2017/06/ vps-noc-grozy/blogging-photo-7983.jpg
 categories:
   - Bez kategorii
 tags:
