@@ -5,7 +5,7 @@ date: 2017-11-13T23:40:24+00:00
 author: Krzysztof Owsiany
 layout: post
 
-permalink: /domain-driven-design-nadejszla-wiekopomna-chliala/
+permalink: domain-driven-design-nadejszla-wiekopomna-chliala
 published: false
 
 image: /assets/images/2017/11/blogging-photo-3271.jpg
@@ -77,7 +77,7 @@ Jako młody adept szkolenia przeprowadzonego przez **[Macieja Aniserowicza][proc
     
 Kod wrzuci się na **[GitHub-a][mygithub]**, może ktoś wykona **Code Review**.
 
-{% include_relative books.md %}
+
 
 [ddd]: {{site.url}}/domain-driven-design-wstep
 [onion]: {{site.url}}/architektura-cebuli

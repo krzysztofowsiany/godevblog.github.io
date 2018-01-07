@@ -4,8 +4,8 @@ date: 2017-11-20T20:03:06+00:00
 author: Krzysztof Owsiany
 layout: post
 published: true
-permalink: /garbage-collector-sprawdzanie-sasiad-wyrzuca-smieci/
-image: /assets/images/2017/11/blogging-photo-2016.jpg
+permalink: garbage-collector-sprawdzanie-sasiad-wyrzuca-smieci
+image: /assets/images/2017/11/garbage-collector-sprawdzanie-sasiad-wyrzuca-smieci/post.jpg
 categories:  
   - 'C#'
   - Programowanie
@@ -22,6 +22,7 @@ tags:
 short: Garbage Collector ma zaimplementowaną pewną funkcjonalność. Daje nam ona kontrolę nad procesem niszczenia obiektów. Jako że do zarządzania pamięcią wykorzystywany jest specjalny agent i nie musimy się martwić o niszczenie obiektów. Tym samym nie wiemy, kiedy to nastąpi.
 
 ---
+[![Dispose][post]][post-big]{:.post-left-image}
 **Garbage Collector** ma zaimplementowaną pewną funkcjonalność. Daje nam ona kontrolę nad procesem niszczenia obiektów. Jako że do zarządzania pamięcią wykorzystywany jest specjalny agent i nie musimy się martwić o niszczenie obiektów. Tym samym nie wiemy, kiedy to nastąpi.
 
 
@@ -29,12 +30,12 @@ Użycie finalizatorów spowoduje możliwość uchwycenia procesu niszczenia obie
 
 ## Działanie
 
-[![Dispose][image1]][image1-big]{:.post-left-image}
-
 **Garbage Collector** skanując obiekty przeznaczone do niszczenia, inaczej traktuje obiekty zawierające finalizator. Umieszcza je na specjalnej kolejce obiektów nieosiągalnych (ang. **freachable quaque**).
     
 Zawartość kolejki jest przetwarzana, i proces niszczenia obiektu jest delegowany do metody: **protected override void Finalize()**.
-    
+
+[![Dispose][image1]][image1-big]{:.post-right-image}
+
 Zwalnianie pamięci w ten sposób jest czasochłonne, dlatego należy go używać z rozwagą i w zasadzie powinno się stosować tylko do specyficznych sytuacji:
 * otwartych połączeń sieciowych,
 * połączeń do bazy danych,
@@ -48,7 +49,7 @@ Finalizatory można używać jedynie w klasach i tylko jedno wystąpienie na kla
 
     
 ## Jak użyć?
-       
+
 Szkielet metody **Finalize**.
         
 ```csharp 
@@ -133,5 +134,8 @@ W przypadku braku implementacji interfejsu **IDisposable** przez klasę, będzie
     
  **C.D.N.**
 
-[image1]: /assets/images/2017/11/blogging-photo-8399-300x200.jpg
-[image1-big]: /assets/images/2017/11/blogging-photo-8399.jpg
+[post]: /assets/images/2017/11/garbage-collector-sprawdzanie-sasiad-wyrzuca-smieci/post.jpg
+[post-big]: /assets/images/2017/11/garbage-collector-sprawdzanie-sasiad-wyrzuca-smieci/post-big.jpg
+
+[image1]: /assets/images/2017/11/garbage-collector-sprawdzanie-sasiad-wyrzuca-smieci/image1.jpg
+[image1-big]: /assets/images/2017/11/garbage-collector-sprawdzanie-sasiad-wyrzuca-smieci/image1-big.jpg
