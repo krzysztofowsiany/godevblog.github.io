@@ -2,9 +2,9 @@
 id: 1177
 title: 'Bieg na Ślężę &#8211; zwiad.'
 date: 2017-05-26T23:10:25+00:00
-author: gocom
+author: Krzysztof Owsiany
 layout: post
-guid: http://godev.gemustudio.com/?p=1177
+published: false
 permalink: /2017/05/26/bieg-sleze-zwiad/
 image: /assets/images/2017/05/20170526_192051.jpg
 categories:

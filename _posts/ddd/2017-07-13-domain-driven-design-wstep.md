@@ -4,8 +4,8 @@ date: 2017-07-13T10:25:43+00:00
 author: Krzysztof Owsiany
 layout: post
 permalink: domain-driven-design-wstep
-dslc_post_template:
-  - default
+published: false
+
 image: /assets/images/2017/07/blogging-photo-16.jpg
 categories:
   - Bez kategorii

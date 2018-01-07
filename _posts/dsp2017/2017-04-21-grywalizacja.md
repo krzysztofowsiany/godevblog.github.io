@@ -2,12 +2,10 @@
 id: 858
 title: Grywalizacja
 date: 2017-04-21T23:46:20+00:00
-author: gocom
+author: Krzysztof Owsiany
 layout: post
-guid: http://godev.gemustudio.com/?p=858
 permalink: /2017/04/21/grywalizacja/
-dslc_post_template:
-  - default
+published: false
 image: /assets/images/2017/04/konsola-classic.jpg
 categories:
   - Bez kategorii

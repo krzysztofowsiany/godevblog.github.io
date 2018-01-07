@@ -2,9 +2,9 @@
 id: 753
 title: 'IV Bieg &#8222;NASZA DYCHA&#8221; &#8211; udało się.'
 date: 2017-04-09T21:46:06+00:00
-author: gocom
+author: Krzysztof Owsiany
 layout: post
-guid: http://godev.gemustudio.com/?p=753
+published: false
 permalink: /2017/04/09/iv-bieg-nasza-dycha-udalo-sie/
 image: /assets/images/2017/04/IMG_8782-2.jpg
 categories:

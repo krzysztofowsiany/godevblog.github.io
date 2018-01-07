@@ -1,11 +1,11 @@
 ---
 title: 'Domain-Driven Design &#8211; i jego życie'
 date: 2017-09-11T08:47:48+00:00
-author: gocom
+author: Krzysztof Owsiany
 layout: post
 permalink: ddd-i-jego-zycie
-dslc_post_template:
-  - default
+published: false
+
 image: /assets/images/2017/09/blogging-photo-1381.jpg
 categories:
   - Bez kategorii

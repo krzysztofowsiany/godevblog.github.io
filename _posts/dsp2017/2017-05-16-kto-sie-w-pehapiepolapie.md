@@ -2,9 +2,9 @@
 id: 1110
 title: Kto się w pehapie połapie?
 date: 2017-05-16T15:03:45+00:00
-author: gocom
+author: Krzysztof Owsiany
 layout: post
-guid: http://godev.gemustudio.com/?p=1110
+published: false
 permalink: /2017/05/16/kto-sie-w-pehapiepolapie/
 image: /assets/images/2017/05/php.jpg
 categories:

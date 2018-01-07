@@ -2,9 +2,9 @@
 id: 951
 title: Przygoda z GameDev czyli Santa Gifts
 date: 2017-04-26T13:59:30+00:00
-author: gocom
+author: Krzysztof Owsiany
 layout: post
-guid: http://godev.gemustudio.com/?p=951
+published: false
 permalink: /2017/04/26/przygoda-gamedev-czyli-santa-gifts/
 image: /assets/images/2017/04/icon.png
 categories:

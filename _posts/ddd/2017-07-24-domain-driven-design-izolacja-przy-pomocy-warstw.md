@@ -1,11 +1,11 @@
 ---
 title: 'Domain-Driven Design &#8211; izolacja przy pomocy warstw.'
 date: 2017-07-24T16:50:49+00:00
-author: gocom
+author: Krzysztof Owsiany
 layout: post
 permalink: domain-driven-design-izolacja-przy-pomocy-warstw
-dslc_post_template:
-  - default
+published: false
+
 image: /assets/images/2017/07/blogging-photo-1365.jpg
 categories:
   - Bez kategorii

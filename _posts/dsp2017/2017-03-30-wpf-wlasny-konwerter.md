@@ -2,9 +2,9 @@
 id: 641
 title: 'WPF &#8211; własny konwerter.'
 date: 2017-03-30T00:21:46+00:00
-author: gocom
+author: Krzysztof Owsiany
 layout: post
-guid: http://godev.gemustudio.com/?p=641
+published: false
 permalink: /2017/03/30/wpf-wlasny-konwerter/
 image: /assets/images/2017/03/20160806-IMG_562900040_sierpnia-06-2016.jpg
 categories:

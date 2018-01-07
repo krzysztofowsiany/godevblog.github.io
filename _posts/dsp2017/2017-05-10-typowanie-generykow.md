@@ -2,9 +2,9 @@
 id: 991
 title: Typowanie generyków
 date: 2017-05-10T00:56:37+00:00
-author: gocom
+author: Krzysztof Owsiany
 layout: post
-guid: http://godev.gemustudio.com/?p=991
+published: false
 permalink: /2017/05/10/typowanie-generykow/
 image: /assets/images/2017/05/IMG_1033.jpg
 categories:

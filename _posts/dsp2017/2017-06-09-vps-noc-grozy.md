@@ -1,10 +1,9 @@
 ---
-id: 1376
 title: 'VPS &#8211; noc grozy!'
 date: 2017-06-09T13:57:10+00:00
-author: gocom
+author: Krzysztof Owsiany
 layout: post
-guid: http://godev.gemustudio.com/?p=1376
+published: false
 permalink: /2017/06/09/vps-noc-grozy/
 image: /assets/images/2017/06/blogging-photo-7983.jpg
 categories:

@@ -4,10 +4,8 @@ title: Błędy początkującego prelegenta
 date: 2017-09-25T14:50:44+00:00
 author: Krzysztof Owsiany
 layout: post
-
 permalink: /2017/09/25/bledy-poczatkujacego-prelegenta/
-dslc_post_template:
-  - default
+published: false
 image: /assets/images/2017/09/1warsaw-04455-1.png
 categories:
   - Bez kategorii

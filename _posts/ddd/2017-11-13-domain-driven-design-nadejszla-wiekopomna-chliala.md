@@ -6,8 +6,8 @@ author: Krzysztof Owsiany
 layout: post
 
 permalink: /domain-driven-design-nadejszla-wiekopomna-chliala/
-dslc_post_template:
-  - default
+published: false
+
 image: /assets/images/2017/11/blogging-photo-3271.jpg
 categories:
   - Bez kategorii

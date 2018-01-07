@@ -2,9 +2,9 @@
 id: 479
 title: 'C#rek &#8211; hipopotam cz.3.'
 date: 2017-03-21T23:50:51+00:00
-author: gocom
+author: Krzysztof Owsiany
 layout: post
-guid: http://godev.gemustudio.com/?p=479
+published: false
 permalink: /2017/03/21/crek-hipopotam-cz-3/
 image: /assets/images/2017/03/żaba.png
 categories:

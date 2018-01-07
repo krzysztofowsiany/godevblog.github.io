@@ -2,7 +2,14 @@ theme: jekyll-theme-architect
 url: http://godev.gemustudio.com/
 name: Good Developer
 description: Blog programistyczy.
-plugins: ['jekyll-twitter-plugin']
+plugins: [
+  'jekyll-twitter-plugin',
+  'jekyll-seo-tag',
+  'jekyll-tagging',
+  'jekyll-sitemap',
+  'jekyll-paginate'
+]
+
 
 author: Krzysztof Owsiany
 author_email: gocom@o2.pl
@@ -23,3 +30,4 @@ paginate: 5
 paginate_path:       '/page:num/'
 
 google_analytics: UA-93197123-1
+disqus: godev

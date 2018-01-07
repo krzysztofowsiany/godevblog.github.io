@@ -2,9 +2,9 @@
 id: 1079
 title: 'PictOgr &#8211; delegowanie wykonania akcji do modelu widoku.'
 date: 2017-05-14T23:03:49+00:00
-author: gocom
+author: Krzysztof Owsiany
 layout: post
-guid: http://godev.gemustudio.com/?p=1079
+published: false
 permalink: /2017/05/14/pictogr-delegowanie-wykonania-akcji-modelu-widoku/
 image: /assets/images/2017/05/IMG_9837-2.jpg
 categories:

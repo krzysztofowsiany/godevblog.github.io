@@ -2,9 +2,9 @@
 id: 490
 title: 'PictOgr &#8211; pierwszy kod'
 date: 2017-03-21T19:20:56+00:00
-author: gocom
+author: Krzysztof Owsiany
 layout: post
-guid: http://godev.gemustudio.com/?p=490
+published: false
 permalink: /2017/03/21/pictogr-pierwszy-kod/
 image: /assets/images/2017/03/kontener.png
 categories:

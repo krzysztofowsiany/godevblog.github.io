@@ -2,9 +2,9 @@
 id: 376
 title: 'C#rek &#8211; hipopotam cz.2.'
 date: 2017-03-14T23:54:02+00:00
-author: gocom
+author: Krzysztof Owsiany
 layout: post
-guid: http://godev.gemustudio.com/?p=376
+published: false
 permalink: /2017/03/14/crek-hipopotam-cz-2/
 image: /assets/images/2017/03/crek_head.png
 categories:

@@ -2,12 +2,10 @@
 id: 663
 title: Architektura cebuli
 date: 2017-04-05T18:14:01+00:00
-author: gocom
+author: Krzysztof Owsiany
 layout: post
-guid: http://godev.gemustudio.com/?p=663
+published: false
 permalink: /2017/04/05/architektura-cebuli/
-dslc_post_template:
-  - default
 image: /assets/images/2017/04/480-Zwiebel-zwiebel-Fotolia-28405313-c-vadim-yerofeyev.jpg
 categories:
   - Daj Się Poznać 2017

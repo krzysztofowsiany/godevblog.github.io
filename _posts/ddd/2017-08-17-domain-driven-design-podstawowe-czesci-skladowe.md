@@ -1,11 +1,11 @@
 ---
 title: 'Domain-Driven Design &#8211; podstawowe części składowe'
 date: 2017-08-17T08:16:00+00:00
-author: gocom
+author: Krzysztof Owsiany
 layout: post
 permalink: domain-driven-design-podstawowe-czesci-skladowe
-dslc_post_template:
-  - default
+published: false
+
 image: /assets/images/2017/08/blogging-photo-2144.jpg
 categories:
   - Bez kategorii

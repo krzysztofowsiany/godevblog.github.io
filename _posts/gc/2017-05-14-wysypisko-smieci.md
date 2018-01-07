@@ -1,16 +1,12 @@
 ---
-id: 1060
 title: 'Garbage Collector &#8211; Wysypisko śmieci.'
 date: 2017-05-14T22:58:28+00:00
-author: gocom
+author: Krzysztof Owsiany
 layout: post
-guid: http://godev.gemustudio.com/?p=1060
+published: false
 permalink: /wysypisko-smieci/
-dslc_post_template:
-  - default
 image: /assets/images/2017/05/IMG_9281.jpg
 categories:
-  - Bez kategorii
   - Daj Się Poznać 2017
 tags:
   - 'C#'

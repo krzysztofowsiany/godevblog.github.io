@@ -2,9 +2,9 @@
 id: 1235
 title: 'Daj Się Poznać 2017 &#8211; moje osiągnięcie.'
 date: 2017-06-01T10:10:41+00:00
-author: gocom
+author: Krzysztof Owsiany
 layout: post
-guid: http://godev.gemustudio.com/?p=1235
+published: false
 permalink: /2017/06/01/daj-sie-poznac-2017-osiagniecie/
 image: /assets/images/2017/06/blogging-photo-7892.jpg
 categories:

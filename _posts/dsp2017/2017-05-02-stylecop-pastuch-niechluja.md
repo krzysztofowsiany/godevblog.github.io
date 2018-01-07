@@ -2,9 +2,9 @@
 id: 895
 title: 'StyleCop &#8211; pastuch na niechluja!'
 date: 2017-05-02T22:44:41+00:00
-author: gocom
+author: Krzysztof Owsiany
 layout: post
-guid: http://godev.gemustudio.com/?p=895
+published: false
 permalink: /2017/05/02/stylecop-pastuch-niechluja/
 image: /assets/images/2017/05/IMG_9832.jpg
 categories:

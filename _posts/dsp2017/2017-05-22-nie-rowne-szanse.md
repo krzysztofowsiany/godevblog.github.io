@@ -2,9 +2,9 @@
 id: 1135
 title: Nierówne szanse
 date: 2017-05-22T12:10:13+00:00
-author: gocom
+author: Krzysztof Owsiany
 layout: post
-guid: http://godev.gemustudio.com/?p=1135
+published: false
 permalink: /2017/05/22/nie-rowne-szanse/
 image: /assets/images/2017/05/blogging-photo-9589.jpg
 categories:

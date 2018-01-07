@@ -2,9 +2,9 @@
 id: 1187
 title: 'Bieg na Ślężę &#8211; konfrontacja.'
 date: 2017-05-28T18:38:43+00:00
-author: gocom
+author: Krzysztof Owsiany
 layout: post
-guid: http://godev.gemustudio.com/?p=1187
+published: false
 permalink: /2017/05/28/bieg-sleze-konfrontacja/
 image: /assets/images/2017/05/medal.jpg
 categories:

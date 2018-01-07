@@ -2,9 +2,9 @@
 id: 264
 title: 'PictOgr &#8211; przygotowanie projektu'
 date: 2017-03-13T19:54:02+00:00
-author: gocom
+author: Krzysztof Owsiany
 layout: post
-guid: http://godev.gemustudio.com/?p=264
+published: false
 permalink: /2017/03/13/pictogr-przygotowanie-projektu/
 image: /assets/images/2017/03/13268041_594339104075545_5456660171174717784_o-e1489413262661.jpg
 categories:

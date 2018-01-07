@@ -2,7 +2,9 @@
   <div class="inner clearfix">
     <section id="main-content">
       <!-- using the split filter -->
-      {% for post in paginator.posts %}
+      published
+      {% assign relevant = paginator.posts | except:"published","false" %}
+      {% for post in relevant %}
       <div class="post_preview">
         <span class="post-date">{{ post.date | date: "%d.%m.%Y" }}</span>
         <h2>

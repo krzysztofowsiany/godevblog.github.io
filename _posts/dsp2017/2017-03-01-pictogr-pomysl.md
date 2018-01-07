@@ -2,9 +2,9 @@
 id: 99
 title: 'PictOgr &#8211; pomysł na realizację.'
 date: 2017-03-01T22:28:27+00:00
-author: gocom
+author: Krzysztof Owsiany
 layout: post
-guid: http://godev.gemustudio.com/?p=99
+published: false
 permalink: /2017/03/01/pictogr-pomysl/
 image: /assets/images/2017/02/cropped-cropped-13312654_595082080667914_3264864257081669109_n-e1488920181990.jpg
 categories:

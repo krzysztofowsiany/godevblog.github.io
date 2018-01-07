@@ -2,9 +2,9 @@
 id: 1123
 title: Delphin Developer
 date: 2017-05-17T14:46:29+00:00
-author: gocom
+author: Krzysztof Owsiany
 layout: post
-guid: http://godev.gemustudio.com/?p=1123
+published: false
 permalink: /2017/05/17/delphin-developer/
 image: /assets/images/2017/05/blogging-photo-115.jpg
 categories:

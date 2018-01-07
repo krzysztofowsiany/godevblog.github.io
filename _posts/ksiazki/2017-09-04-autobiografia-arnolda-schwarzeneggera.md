@@ -4,10 +4,8 @@ title: Autobiografia Arnolda Schwarzeneggera
 date: 2017-09-04T00:19:34+00:00
 author: Krzysztof Owsiany
 layout: post
-
 permalink: /autobiografia-arnolda-schwarzeneggera/
-dslc_post_template:
-  - default
+published: false
 image: /assets/images/2017/09/arnold.png
 categories:
   - Bez kategorii

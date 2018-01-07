@@ -1,14 +1,12 @@
 ---
-id: 1032
 title: 'PictOgr &#8211; widok konfiguracji + model domeny'
 date: 2017-05-10T00:56:26+00:00
-author: gocom
+author: Krzysztof Owsiany
 layout: post
-guid: http://godev.gemustudio.com/?p=1032
+published: false
 permalink: /2017/05/10/pictogr-widok-konfiguracji-model-domeny/
 image: /assets/images/2017/05/IMG_0950-1.jpg
 categories:
-  - Bez kategorii
   - Daj Się Poznać 2017
 tags:
   - dajsiepoznac2017

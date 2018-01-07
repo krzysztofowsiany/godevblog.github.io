@@ -2,12 +2,12 @@
 
 title: Czego obawiałem się przed pierwszym wystąpieniem publicznym?
 date: 2017-06-22T22:57:52+00:00
-author: gocom
+author: Krzysztof Owsiany
 layout: post
 
 permalink: /czego-obawialem-sie-pierwszym-wystapieniem-publicznym/
-dslc_post_template:
-  - default
+published: false
+
 image: /assets/images/2017/06/blogging-photo-9779.jpg
 categories:
   - Bez kategorii

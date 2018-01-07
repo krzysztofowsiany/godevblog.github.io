@@ -2,9 +2,9 @@
 id: 768
 title: 'PictOgr &#8211; mój CQRS -3-'
 date: 2017-04-12T21:43:58+00:00
-author: gocom
+author: Krzysztof Owsiany
 layout: post
-guid: http://godev.gemustudio.com/?p=768
+published: false
 permalink: /2017/04/12/pictogr-moj-cqrs-3/
 image: /assets/images/2017/04/event.png
 categories:

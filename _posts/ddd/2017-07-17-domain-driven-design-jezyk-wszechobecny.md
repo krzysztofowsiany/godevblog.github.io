@@ -1,11 +1,11 @@
 ---
 title: 'Domain-Driven Design &#8211; Język Wszechobecny.'
 date: 2017-07-17T20:25:14+00:00
-author: gocom
+author: Krzysztof Owsiany
 layout: post
 permalink: /domain-driven-design-jezyk-wszechobecny/
-dslc_post_template:
-  - default
+published: false
+
 image: /assets/images/2017/07/blogging-photo-9933.jpg
 categories:
   - Bez kategorii

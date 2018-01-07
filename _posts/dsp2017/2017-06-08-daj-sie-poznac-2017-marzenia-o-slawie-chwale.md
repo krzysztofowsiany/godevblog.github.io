@@ -2,9 +2,9 @@
 id: 1335
 title: 'Daj Się Poznać 2017 &#8211; marzenia o sławie i chwale&#8230;'
 date: 2017-06-08T20:15:46+00:00
-author: gocom
+author: Krzysztof Owsiany
 layout: post
-guid: http://godev.gemustudio.com/?p=1335
+published: false
 permalink: /2017/06/08/daj-sie-poznac-2017-marzenia-o-slawie-chwale/
 image: /assets/images/2017/06/blogging-photo-8752.jpg
 categories:

@@ -2,9 +2,9 @@
 id: 893
 title: 'PictOgr &#8211; cebulka + moje pierwsze DDD.'
 date: 2017-04-26T10:06:06+00:00
-author: gocom
+author: Krzysztof Owsiany
 layout: post
-guid: http://godev.gemustudio.com/?p=893
+published: false
 permalink: /2017/04/26/pictogr-cebulka-pierwsze-ddd/
 image: /assets/images/2017/04/480-Zwiebel-zwiebel-Fotolia-28405313-c-vadim-yerofeyev.jpg
 categories:

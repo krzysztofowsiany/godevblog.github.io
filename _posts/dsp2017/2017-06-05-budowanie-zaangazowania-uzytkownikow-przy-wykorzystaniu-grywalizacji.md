@@ -2,9 +2,9 @@
 id: 1310
 title: Budowanie zaangażowania użytkowników przy wykorzystaniu Grywalizacji
 date: 2017-06-05T08:43:33+00:00
-author: gocom
+author: Krzysztof Owsiany
 layout: post
-guid: http://godev.gemustudio.com/?p=1310
+published: false
 permalink: /2017/06/05/budowanie-zaangazowania-uzytkownikow-przy-wykorzystaniu-grywalizacji/
 image: /assets/images/2017/06/blogging-photo-00880.jpg
 categories:

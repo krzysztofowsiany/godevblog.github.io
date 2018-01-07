@@ -4,10 +4,8 @@ title: 'Gala Finałowa Daj Się Poznać 2017 &#8211; i Moje wystąpienie.'
 date: 2017-07-10T08:29:44+00:00
 author: Krzysztof Owsiany
 layout: post
-
 permalink: /gala-finalowa-daj-sie-poznac-2017-wystapienie/
-dslc_post_template:
-  - default
+published: false
 image: /assets/images/2017/07/blogging-photo-9873.jpg
 categories:
   - Bez kategorii

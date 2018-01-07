@@ -1,10 +1,9 @@
 ---
-
 title: 'Kontener DI &#8211; kolekcje'
 date: 2017-05-24T12:51:58+00:00
 author: Krzysztof Owsiany
 layout: post
-
+published: false
 permalink: /2017/05/24/kontener-di-kolekcje/
 image: /assets/images/2017/05/blogging-photo-7501.jpg
 categories:

@@ -4,10 +4,8 @@ title: W poszukiwaniu Programistoku
 date: 2017-10-18T22:40:49+00:00
 author: Krzysztof Owsiany
 layout: post
-
 permalink: /w-poszukiwaniu-programistoku/
-dslc_post_template:
-  - default
+published: false
 image: /assets/images/2017/10/22289666_1445971908773940_4706789495857277480_o-1-e1508450091421.jpg
 categories:
   - Bez kategorii

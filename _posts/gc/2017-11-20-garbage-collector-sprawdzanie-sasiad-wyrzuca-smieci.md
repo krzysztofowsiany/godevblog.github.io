@@ -1,13 +1,10 @@
 ---
-id: 1613
 title: 'Garbage Collector &#8211; Sprawdzanie kiedy sąsiad wyrzuca śmieci.'
 date: 2017-11-20T20:03:06+00:00
-author: gocom
+author: Krzysztof Owsiany
 layout: post
-guid: http://godev.gemustudio.com/?p=1613
+published: true
 permalink: /garbage-collector-sprawdzanie-sasiad-wyrzuca-smieci/
-dslc_post_template:
-  - default
 image: /assets/images/2017/11/blogging-photo-2016.jpg
 categories:  
   - 'C#'
@@ -21,11 +18,11 @@ tags:
   - GC
   - IDisposable
   - using
+
 short: Garbage Collector ma zaimplementowaną pewną funkcjonalność. Daje nam ona kontrolę nad procesem niszczenia obiektów. Jako że do zarządzania pamięcią wykorzystywany jest specjalny agent i nie musimy się martwić o niszczenie obiektów. Tym samym nie wiemy, kiedy to nastąpi.
 
 ---
 **Garbage Collector** ma zaimplementowaną pewną funkcjonalność. Daje nam ona kontrolę nad procesem niszczenia obiektów. Jako że do zarządzania pamięcią wykorzystywany jest specjalny agent i nie musimy się martwić o niszczenie obiektów. Tym samym nie wiemy, kiedy to nastąpi.
-
 
 
 Użycie finalizatorów spowoduje możliwość uchwycenia procesu niszczenia obiektu w metodzie.

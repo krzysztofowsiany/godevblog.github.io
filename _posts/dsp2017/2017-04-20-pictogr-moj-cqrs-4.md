@@ -2,9 +2,9 @@
 id: 828
 title: 'PictOgr &#8211; mój CQRS -4-'
 date: 2017-04-20T21:44:59+00:00
-author: gocom
+author: Krzysztof Owsiany
 layout: post
-guid: http://godev.gemustudio.com/?p=828
+published: false
 permalink: /2017/04/20/pictogr-moj-cqrs-4/
 image: /assets/images/2017/04/travis_ci-512.png
 categories:

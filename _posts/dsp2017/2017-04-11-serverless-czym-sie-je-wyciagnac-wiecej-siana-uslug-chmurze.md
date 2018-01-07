@@ -2,9 +2,9 @@
 id: 734
 title: 'Serverless &#8211; z czym się je i jak wyciągnąć więcej siana z usług w chmurze.'
 date: 2017-04-11T11:51:14+00:00
-author: gocom
+author: Krzysztof Owsiany
 layout: post
-guid: http://godev.gemustudio.com/?p=734
+published: false
 permalink: /2017/04/11/serverless-czym-sie-je-wyciagnac-wiecej-siana-uslug-chmurze/
 image: /assets/images/2017/04/Server.jpg
 categories:

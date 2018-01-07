@@ -1,16 +1,12 @@
 ---
-
 title: Model pracy z gałęziami w GIT
 date: 2017-06-28T10:17:19+00:00
 author: Krzysztof Owsiany
 layout: post
-
 permalink: /model-pracy-galeziami-git/
-dslc_post_template:
-  - default
+published: false
 image: /assets/images/2017/06/blogging-photo-2016.jpg
 categories:
-  - Bez kategorii
   - GIT
 tags:
   - Gałęzie

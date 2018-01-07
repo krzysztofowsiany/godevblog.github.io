@@ -2,9 +2,9 @@
 id: 162
 title: 'C#rek &#8211; hipopotam cz.1.'
 date: 2017-03-06T23:57:45+00:00
-author: gocom
+author: Krzysztof Owsiany
 layout: post
-guid: http://godev.gemustudio.com/?p=162
+published: false
 permalink: /2017/03/06/crek-hipopotam/
 image: /assets/images/2017/03/nieobliczalny-hipopotam_800x600-e1488919841465.jpg
 categories:
