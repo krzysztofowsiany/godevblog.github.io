@@ -21,72 +21,41 @@ tags:
   - GC
   - IDisposable
   - using
+short: Garbage Collector ma zaimplementowaną pewną funkcjonalność. Daje nam ona kontrolę nad procesem niszczenia obiektów. Jako że do zarządzania pamięcią wykorzystywany jest specjalny agent i nie musimy się martwić o niszczenie obiektów. Tym samym nie wiemy, kiedy to nastąpi.
+
 ---
-<div id="dslc-theme-content">
-  <div id="dslc-theme-content-inner">
-    <p style="text-align: justify;">
-      <span style="font-size: 16px;"><strong>Garbage Collector</strong> ma zaimplementowaną pewną funkcjonalność. Daje nam ona kontrolę nad procesem niszczenia obiektów. Jako że do zarządzania pamięcią wykorzystywany jest specjalny agent i nie musimy się martwić o niszczenie obiektów. Tym samym nie wiemy, kiedy to nastąpi.</span>
-    </p>
-    <!--break-->
-    <p style="text-align: justify;">
-      <span style="font-size: 16px;">Użycie finalizatorów spowoduje możliwość uchwycenia procesu niszczenia obiektu w metodzie.</span>
-    </p>
+**Garbage Collector** ma zaimplementowaną pewną funkcjonalność. Daje nam ona kontrolę nad procesem niszczenia obiektów. Jako że do zarządzania pamięcią wykorzystywany jest specjalny agent i nie musimy się martwić o niszczenie obiektów. Tym samym nie wiemy, kiedy to nastąpi.
+
+
+
+Użycie finalizatorów spowoduje możliwość uchwycenia procesu niszczenia obiektu w metodzie.
+
+## Działanie
+
+[![Dispose][image1]][image1]{:.post-left-image}
+
+**Garbage Collector** skanując obiekty przeznaczone do niszczenia, inaczej traktuje obiekty zawierające finalizator. Umieszcza je na specjalnej kolejce obiektów nieosiągalnych (ang. **freachable quaque**).
     
-    <h1>
-      Działanie
-    </h1>
+Zawartość kolejki jest przetwarzana, i proces niszczenia obiektu jest delegowany do metody: **protected override void Finalize()**.
     
-    <p style="text-align: justify;">
-      <span style="font-size: 16px;"><strong><a href="http://godev.gemustudio.com/assets/images/2017/11/blogging-photo-8399.jpg"><img class="size-medium wp-image-1944 alignright" src="http://godev.gemustudio.com/assets/images/2017/11/blogging-photo-8399-300x200.jpg" alt="Dispose" width="300" height="200" srcset="http://godev.gemustudio.com/assets/images/2017/11/blogging-photo-8399-300x200.jpg 300w, http://godev.gemustudio.com/assets/images/2017/11/blogging-photo-8399-768x512.jpg 768w, http://godev.gemustudio.com/assets/images/2017/11/blogging-photo-8399.jpg 900w" sizes="(max-width: 300px) 100vw, 300px" /></a>Garbage Collector</strong> skanując obiekty przeznaczone do niszczenia, inaczej traktuje obiekty zawierające finalizator. Umieszcza je na specjalnej kolejce obiektów nieosiągalnych (ang. <strong>freachable quaque</strong>).</span>
-    </p>
+Zwalnianie pamięci w ten sposób jest czasochłonne, dlatego należy go używać z rozwagą i w zasadzie powinno się stosować tylko do specyficznych sytuacji:
+* otwartych połączeń sieciowych,
+* połączeń do bazy danych,
+* otwartych plików,
+* użytych bibliotek spoza .NET półświatka,
+* obiektów COM (Component Object Model).
+
+Finalizatory można używać jedynie w klasach i tylko jedno wystąpienie na klasę.
     
-    <p style="text-align: justify;">
-      <span style="font-size: 16px;">Zawartość kolejki jest przetwarzana, i proces niszczenia obiektu jest delegowany do metody: <strong>protected override void Finalize()</strong>.</span>
-    </p>
+**Finalizujemy jedynie obszary niezarządzanego kodu.**{: .highlight-1}
+
     
-    <p style="text-align: justify;">
-      <span style="font-size: 16px;">Zwalnianie pamięci w ten sposób jest czasochłonne, dlatego należy go używać z rozwagą i w zasadzie powinno się stosować tylko do specyficznych sytuacji:</span>
-    </p>
-    
-    <ul style="text-align: justify;">
-      <li>
-        <span style="font-size: 16px;">otwartych połączeń sieciowych,</span>
-      </li>
-      <li>
-        <span style="font-size: 16px;">połączeń do bazy danych,</span>
-      </li>
-      <li>
-        <span style="font-size: 16px;">otwartych plików,</span>
-      </li>
-      <li>
-        <span style="font-size: 16px;">użytych bibliotek spoza .NET półświatka,</span>
-      </li>
-      <li>
-        <span style="font-size: 16px;">obiektów COM (Component Object Model).</span>
-      </li>
-    </ul>
-    
-    <p style="text-align: justify;">
-      <span style="font-size: 16px;">Finalizatory można używać jedynie w klasach i tylko jedno wystąpienie na klasę.</span>
-    </p>
-    
-    <h2 style="background: lightblue; text-align: center; padding: 10px;">
-      Finalizujemy jedynie obszary niezarządzanego kodu.
-    </h2>
-    
-    <p>
-      &nbsp;
-    </p>
-    
-    <h1>
-      Jak użyć?
-    </h1>
-    
-    <p style="text-align: justify;">
-      <span style="font-size: 16px;">Szkielet metody <strong>Finalize</strong>.</span>
-    </p>
-    
-    <pre class="lang:c# decode:true" title="Przykład metody finalize">protected override void Finalize()  
+## Jak użyć?
+       
+Szkielet metody **Finalize**.
+        
+```csharp 
+protected override void Finalize()  
 {  
     try  
     {  
@@ -96,44 +65,36 @@ tags:
     {  
         base.Finalize();  
     }  
-}</pre>
+}
+```
     
-    <p>
-      &nbsp;
-    </p>
-    
-    <p style="text-align: justify;">
-      <span style="font-size: 16px;">Możemy oczywiście użyć składni podobnej do jęcyka C++, czyli destruktora. Jednak będzie on przez kompilator zamieniony na metodę <strong>Finalize</strong>.</span>
-    </p>
-    
-    <pre class="lang:c# decode:true" title="Finalizator w formie destruktora">class NazwaKlasy
+Możemy oczywiście użyć składni podobnej do jęcyka C++, czyli destruktora. Jednak będzie on przez kompilator zamieniony na metodę **Finalize**.
+      
+```csharp 
+class NazwaKlasy
 {
     ~NazwaKlasy()  // destruktor taki jak w C++:)
     {
         // i czyścimy pamięć
     }
-}</pre>
+}
+```
+
+## Wykorzystanie interfejsu IDisposable
+
+Do poprawnego użycia finalizatorów wykorzystamy interfejs **IDisposable**.
+
+Poniżej znajduje się szkielet implementacji użycia **IDisposable**.
     
-    <p>
-      &nbsp;
-    </p>
-    
-    <h1>
-      Wykorzystanie interfejsu IDisposable
-    </h1>
-    
-    <p style="text-align: justify;">
-      <span style="font-size: 16px;">Do poprawnego użycia finalizatorów wykorzystamy interfejs <strong>IDisposable</strong>.</span>
-    </p>
-    
-    <p style="text-align: justify;">
-      <span style="font-size: 16px;">Poniżej znajduje się szkielet implementacji użycia <strong>IDisposable</strong>.</span>
-    </p>
-    
-    <pre class="lang:c# decode:true" title="Szkielet użycia IDisposable">public class NazwaKlasy: IDisposable {  
-   bool disposed = false; //przydatna flaga, określająca czy Dispose zostało już wykonane
+```csharp 
+public class NazwaKlasy: IDisposable {  
+   bool disposed = false; 
+   //przydatna flaga, 
+   //określająca czy Dispose zostało już wykonane
    
-   public void Dispose() //metoda pochodzi z interfejsu IDisposable, możemy ją wołać samodzielnie z kodu.
+   public void Dispose() 
+   //metoda pochodzi z interfejsu IDisposable, 
+   //możemy ją wołać samodzielnie z kodu.
    { 
       Dispose(true);
       GC.SuppressFinalize(this);           
@@ -157,35 +118,22 @@ tags:
    {
       Dispose(false);
    }
-}</pre>
+}
+```
+   
+Metoda Dispose może zostać wywołana z obiektu. Jest ona także wymagana, by wykorzystać dyrektywę języka **using**.
     
-    <p>
-      &nbsp;
-    </p>
-    
-    <p style="text-align: justify;">
-      <span style="font-size: 16px;">Metoda Dispose może zostać wywołana z obiektu. Jest ona także wymagana, by wykorzystać dyrektywę języka <strong>using</strong>.</span>
-    </p>
-    
-    <pre class="lang:c# decode:true" title="Użycie dyrektywy using.">using (var nazwaObiektu = new NazwaKlasy()) {
+```csharp 
+using (var nazwaObiektu = new NazwaKlasy()) {
     nazwaObiektu.Metoda();
     nazwaObiektu.Metoda2();
-}</pre>
+}
+```
+
+W takiej składni metoda **Dispose** z interfejsu **IDisposable** zostanie wywołana przez dyrektywę using. 
     
-    <p style="text-align: justify;">
-      <span style="font-size: 16px;">W takiej składni metoda <strong>Dispose</strong> z interfejsu <strong>IDisposable</strong> zostanie wywołana przez dyrektywę using. </span>
-    </p>
+W przypadku braku implementacji interfejsu **IDisposable** przez klasę, będziemy mieli błąd kompilacji.
     
-    <p style="text-align: justify;">
-      <span style="font-size: 16px;">W przypadku braku implementacji interfejsu <strong>IDisposable</strong> przez klasę, będziemy mieli błąd kompilacji.</span>
-    </p>
-    
-    <p>
-      &nbsp;
-    </p>
-    
-    <p>
-      <strong>C.D.N.</strong>
-    </p>
-  </div>
-</div>
+ **C.D.N.**
+
+[image1]: /assets/images/2017/11/blogging-photo-8399.jpg 

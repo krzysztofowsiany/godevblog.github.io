@@ -16,12 +16,9 @@
             </div>
           </a>
 
-          {{ post.content | split:'<!--break-->' | first }}
-        </p>
-
-        {% if post.content contains '<!--break-->' %}
-        <a href="{{ post.url }}">więcej</a>
-        {% endif %}
+          {{ post.short }}
+        </p>        
+        <a href="{{ post.url }}">więcej</a>        
 
       </div>
 

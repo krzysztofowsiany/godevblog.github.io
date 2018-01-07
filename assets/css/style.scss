@@ -17,13 +17,13 @@ footer{
     font-family: 'Helvetica Neue', Helvetica, Arial, serif;
 }
 
-h3 {
-    font-size: 20pt;
-}
-
 #main-content {
     text-align: justify;
     text-justify: inter-word;
+    font-size: 16pt;
+}
+
+code {
     font-size: 14pt;
 }
 
@@ -65,12 +65,35 @@ div.post_preview:nth-child(2n){
 #main-content h6:before
 {
     content: none;
-    margin-left: 0px;
+    margin: 0px;
+    padding: 0px;
 }
 
+#main-content h1 {
+    font-size: 28pt;
+    font-weight: bold;
+    text-align: left;
+}
 
+#main-content h2{
+    font-size: 22pt;
+    text-align: left;
+}
+
+#main-content h3{
+    font-size: 18pt;
+    text-align: left;
+}
+
+#main-content h4{
+    font-size: 16pt;
+    text-align: left;
+}
 
 
   @import 'nav';
 
   @import 'pagination';
+
+  @import 'images';
+  @import 'highlights';
