@@ -21,3 +21,5 @@ tag_page_data:
 
 paginate: 5
 paginate_path:       '/page:num/'
+
+google_analytics: UA-93197123-1
