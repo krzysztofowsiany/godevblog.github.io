@@ -30,7 +30,7 @@ Chwilami rozmyślałem na temat projektu, jaki chciałbym zmaltretować. Wyszło
     
 Nie lubię np. tracić czasu na takie działanie jak:
 
-[![Domain Expert][image1]][image1]{:.post-right-image}
+[![Domain Expert][image1]][image1-big]{:.post-right-image}
       
 Liznąwszy nieco wiedzy na temat **[Domain-Driven Design][ddd]**, pora wrzucić jakiegoś kota do wora:
 
@@ -86,3 +86,4 @@ Kod wrzuci się na **[GitHub-a][mygithub]**, może ktoś wykona **Code Review**.
 [mygithub]: https://github.com/krzysztofowsiany
 
 [image1]: /assets/images/2017/11/blogging-photo-9818-200x300.jpg
+[image1-big]: /assets/images/2017/11/blogging-photo-9818.jpg

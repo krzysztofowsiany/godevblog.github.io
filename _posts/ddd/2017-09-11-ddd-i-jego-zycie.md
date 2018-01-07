@@ -1,11 +1,9 @@
 ---
-id: 1772
 title: 'Domain-Driven Design &#8211; i jego życie'
 date: 2017-09-11T08:47:48+00:00
 author: gocom
 layout: post
-guid: http://godev.gemustudio.com/?p=1772
-permalink: /2017/09/11/ddd-i-jego-zycie/
+permalink: ddd-i-jego-zycie
 dslc_post_template:
   - default
 image: /assets/images/2017/09/blogging-photo-1381.jpg
@@ -200,24 +198,4 @@ tags:
       Po takiej porcji wiedzy rozmyślam (w końcu) nad zastosowaniem w prostym projekcie. Oraz przedstawieniu swoich poczynań w kolejnych postach dotyczących <strong>DDD</strong>.
     </p>
     
-    <p>
-      Ponownie polecam poniższe książki.
-    </p>
-    
-    <p>
-      <a href="http://ebookpoint.pl/view/90752/domdri.htm"> <img src="https://static01.helion.com.pl/global/okladki/326x466/0ec470d7102b93516012ee4849dc3a41,domdri.jpg" alt="Domain-Driven Design. Zapanuj nad złożonym systemem informatycznym. Eric Evans." width="70" height="100" /> <strong>Domain-Driven Design. Zapanuj nad złożonym systemem informatycznym. Eric Evans.</strong> </a>
-    </p>
-    
-    <p>
-      <a href="http://ebookpoint.pl/view/90752/dddaro.htm"> <img src="https://static01.helion.com.pl/global/okladki/326x466/91bb872731d822a7c801afc2b4e9b8cc,dddaro.jpg" alt="DDD dla architektów oprogramowania, Vaughn Vernon." width="70" height="100" /> <strong>DDD dla architektów oprogramowania, Vaughn Vernon.</strong> </a>
-    </p>
-    
-    <p>
-      <em>Są to linki afiliacyjne.</em>
-    </p>
-    
-    <!-- AddThis Advanced Settings generic via filter on the_content -->
-    
-    <!-- AddThis Share Buttons generic via filter on the_content -->
-  </div>
-</div>
+{% include_relative books.md %}

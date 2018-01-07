@@ -1,11 +1,9 @@
 ---
-id: 1652
 title: 'Domain-Driven Design &#8211; izolacja przy pomocy warstw.'
 date: 2017-07-24T16:50:49+00:00
 author: gocom
 layout: post
-guid: http://godev.gemustudio.com/?p=1652
-permalink: /2017/07/24/domain-driven-design-izolacja-przy-pomocy-warstw/
+permalink: domain-driven-design-izolacja-przy-pomocy-warstw
 dslc_post_template:
   - default
 image: /assets/images/2017/07/blogging-photo-1365.jpg
@@ -113,34 +111,4 @@ tags:
       &nbsp;
     </p>
     
-    <h2>
-      Polecane książki
-    </h2>
-    
-    <table class=" aligncenter" style="width: 450px; margin: 0 auto;">
-      <tr style="height: 100px;">
-        <td style="width: 100px; height: 100px;">
-          <a href="http://ebookpoint.pl/view/90752/domdri.htm"><img class="aligncenter" src="https://static01.helion.com.pl/global/okladki/326x466/0ec470d7102b93516012ee4849dc3a41,domdri.jpg" alt="Okładka książki Domain-Driven Design. Zapanuj nad złożonym systemem informatycznym" width="72" height="103" /></a>
-        </td>
-        
-        <td style="width: 350px; text-align: center; height: 100px;">
-          <a href="http://ebookpoint.pl/view/90752/domdri.htm">Domain-Driven Design. Zapanuj nad złożonym systemem informatycznym. Eric Evans.</a>
-        </td>
-      </tr>
-      
-      <tr style="height: 100px;">
-        <td style="width: 100px; height: 100px;">
-          <a href="http://ebookpoint.pl/view/90752/dddaro.htm"><img class="aligncenter" src="https://static01.helion.com.pl/global/okladki/326x466/91bb872731d822a7c801afc2b4e9b8cc,dddaro.jpg" alt="Okładka książki DDD dla architektów oprogramowania" width="70" height="100" /></a>
-        </td>
-        
-        <td style="width: 350px; text-align: center; height: 100px;">
-          <a href="http://ebookpoint.pl/view/90752/dddaro.htm">DDD dla architektów oprogramowania, Vaughn Vernon.</a>
-        </td>
-      </tr>
-    </table>
-    
-    <!-- AddThis Advanced Settings generic via filter on the_content -->
-    
-    <!-- AddThis Share Buttons generic via filter on the_content -->
-  </div>
-</div>
+{% include_relative books.md %}

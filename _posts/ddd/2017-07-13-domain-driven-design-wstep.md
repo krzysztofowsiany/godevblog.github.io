@@ -1,11 +1,9 @@
 ---
-
 title: 'Domain-Driven Design &#8211; Wstęp'
 date: 2017-07-13T10:25:43+00:00
 author: Krzysztof Owsiany
 layout: post
-
-permalink: /domain-driven-design-wstep/
+permalink: domain-driven-design-wstep
 dslc_post_template:
   - default
 image: /assets/images/2017/07/blogging-photo-16.jpg
@@ -112,8 +110,6 @@ tags:
       <span style="font-size: 14px;">Nadmieniam, tutaj iż głoszę swój osobisty punkt widzenia i sposób prezentacji wiedzy. A jako że nie jestem nieomylny, to mogą i zapewne będą zdarzać się błędy&#8230;</span>
     </p>
     
-    <!-- AddThis Advanced Settings generic via filter on the_content -->
-    
-    <!-- AddThis Share Buttons generic via filter on the_content -->
-  </div>
-</div>
+{% include_relative books.md %}
+
+[image1]: http://godev.gemustudio.com/assets/images/2017/07/blogging-photo-9871.jpg

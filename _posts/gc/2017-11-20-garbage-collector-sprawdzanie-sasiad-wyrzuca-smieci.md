@@ -32,7 +32,7 @@ Użycie finalizatorów spowoduje możliwość uchwycenia procesu niszczenia obie
 
 ## Działanie
 
-[![Dispose][image1]][image1]{:.post-left-image}
+[![Dispose][image1]][image1-big]{:.post-left-image}
 
 **Garbage Collector** skanując obiekty przeznaczone do niszczenia, inaczej traktuje obiekty zawierające finalizator. Umieszcza je na specjalnej kolejce obiektów nieosiągalnych (ang. **freachable quaque**).
     
@@ -136,4 +136,5 @@ W przypadku braku implementacji interfejsu **IDisposable** przez klasę, będzie
     
  **C.D.N.**
 
-[image1]: /assets/images/2017/11/blogging-photo-8399.jpg 
+[image1]: /assets/images/2017/11/blogging-photo-8399-300x200.jpg
+[image1-big]: /assets/images/2017/11/blogging-photo-8399.jpg

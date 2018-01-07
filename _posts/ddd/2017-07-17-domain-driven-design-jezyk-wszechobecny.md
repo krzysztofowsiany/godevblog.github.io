@@ -1,11 +1,9 @@
 ---
-id: 1622
 title: 'Domain-Driven Design &#8211; Język Wszechobecny.'
 date: 2017-07-17T20:25:14+00:00
 author: gocom
 layout: post
-guid: http://godev.gemustudio.com/?p=1622
-permalink: /2017/07/17/domain-driven-design-jezyk-wszechobecny/
+permalink: /domain-driven-design-jezyk-wszechobecny/
 dslc_post_template:
   - default
 image: /assets/images/2017/07/blogging-photo-9933.jpg
