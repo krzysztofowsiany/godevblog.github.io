@@ -1,24 +1,18 @@
 ---
 title: Prelekcje
-date: 2017-06-23T11:11:07+00:00
+date: 2018-01-205
 author: Krzysztof Owsiany
 layout: page
 ---
-<div id="dslc-theme-content">
-  <div id="dslc-theme-content-inner">
-    <h3 style="text-align: center;">
-      Budowanie zaangażowania użytkowników przy wykorzystaniu Grywalizacji.
-    </h3>
-    
-    <p>
-    </p>
-    
-    <h4 style="text-align: center;">
-      Gala Finałowa Daj Się Poznać 2017, Microsoft Warszawa &#8211; 17 czerwca 2017.
-    </h4>
-    
-    <!-- AddThis Advanced Settings generic via filter on the_content -->
-    
-    <!-- AddThis Share Buttons generic via filter on the_content -->
-  </div>
-</div>
+## Wystąpienia 2017
+
+* [Grywalizacja + projektowanie na wybranym przykładzie][grywalizacja2] - [dotNetConf.pl](dotnetconf.pl) - online,
+* [TDD][tdd] - [BeforeParty Programistok 2017][programistok] - Białystok,
+* GITDDOJO - DevStyle Speakers 01 - Warszawa,
+* [Budowanie zaangażowania użytkowników przy wykorzystaniu Grywalizacji][grywalizacja] - [Gala Finałowa DSP 2017][dsp] - Warszawa,
+
+[tdd]: https://www.youtube.com/watch?v=fIwqqddJjm4&feature=youtu.be
+[grywalizacja]: https://youtu.be/i3QY6uGDLLI?list=PLN2dx2pIJO6MmC_lihDpvc5jQ6LE7osSK
+[grywalizacja2]: https://youtu.be/94JwR8Bnnuo
+[programistok]: http://programistok.org
+[dsp]: http://dajsiepoznac.pl
