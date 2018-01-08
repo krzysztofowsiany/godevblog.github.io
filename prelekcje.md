@@ -1,6 +1,6 @@
 ---
 title: Prelekcje
-date: 2018-01-205
+date: 2018-01-05
 author: Krzysztof Owsiany
 layout: page
 ---
