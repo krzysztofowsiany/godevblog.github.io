@@ -24,7 +24,10 @@ short: Gdy rękę wsadzisz w gębę Git Pulla, znikasz jak dane słane w /dev/nu
     
 Przyznam się szczerze i bez bicia od pewnego czasu jak wróciło hasło **Programistok 2017**, wielokrotnie słuchałem klipu zwiastującego **Programistok 2016**, tak bardzo mi się spodobało wideo, iż wielokrotnie słuchałem i będę jeszcze słuchał:D.
 
-{% youtube "https://www.youtube.com/watch?v=QK-KZ5uxt28" %}
+<div class="embed-container">    
+  <iframe title="Klip promujący Programistok 2016" width="640" height="390"   src="//www.youtube.com/embed/QK-KZ5uxt28" frameborder="0" allowfullscreen="">
+  </iframe>
+</div>
 
 [Klip promujący Programistok 2016](https://www.youtube.com/watch?v=QK-KZ5uxt28)
 
@@ -32,7 +35,10 @@ Już dawno wiedziałem, że trzeba się wybrać na tą Białostocką konferencj�
 
 Gdy pojawił się klip zwiastujący **Programistok 2017**, spodobał mi się także, zwłaszcza oparcie o regionalną kulturę.
 
-{% youtube "https://www.youtube.com/watch?v=e8O8S28f7gI" %}
+<div class="embed-container">    
+  <iframe title="Klip promujący Programistok 2017" width="640" height="390"   src="//www.youtube.com/embed/e8O8S28f7gI" frameborder="0" allowfullscreen="">
+  </iframe>
+</div>
 
 [Klip promujący Programistok 2017](https://www.youtube.com/watch?v=e8O8S28f7gI)
 
@@ -45,7 +51,10 @@ Hmm, google jak to google podprowadziło nas od złej strony. Trochę zdrowej in
 Miałem tam wygłosić swoją prezentacje o **[smokach][dragons]**. **Adam Piotrowski** wypchnął mnie pierwszego. Jak to w wojsku, mięso armatnie idzie na początek.
 Coś jednak musiało się spodobać w moim show, gdyż nie oberwałem ani jednym pomidorem (bo już po sezonie), a nawet zdarzyło się usłyszeć oklaski (z radości, że skończyłem). 
 
-{% youtube "https://www.youtube.com/watch?v=fIwqqddJjm4" %}
+<div class="embed-container">    
+  <iframe title="Moja prezentacja na Before Party Programistok 2017" width="640" height="390"   src="//www.youtube.com/embed/fIwqqddJjm4" frameborder="0" allowfullscreen="">
+  </iframe>
+</div>
 
 **[Nagranie prezentacji](https://www.youtube.com/watch?v=fIwqqddJjm4)**, **[slajdy][dragons]**
 
