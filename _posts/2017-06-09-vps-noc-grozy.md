@@ -77,9 +77,3 @@ tags:
     <h2 style="background-color: lightyellow; text-align: center; padding: 10px;">
       <strong>Ewidentnie pora pozbyć się tego potwora, i w końcu popływać z wielorybem.</strong>
     </h2>
-    
-    <!-- AddThis Advanced Settings generic via filter on the_content -->
-    
-    <!-- AddThis Share Buttons generic via filter on the_content -->
-  </div>
-</div>

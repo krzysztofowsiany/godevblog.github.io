@@ -1,10 +1,10 @@
 ---
-title: 'C#rek &#8211; hipopotam cz.1.'
+title: C#rek - hipopotam cz.1.
 date: 2017-03-06T23:57:45+00:00
 author: Krzysztof Owsiany
 layout: post
 published: false
-permalink: /2017/03/06/crek-hipopotam/
+permalink: /crek-hipopotam
 image: /assets/images/2017/03/nieobliczalny-hipopotam_800x600-e1488919841465.jpg
 categories:
   - Daj Się Poznać 2017
@@ -13,28 +13,15 @@ tags:
   - dajsiepoznac2017
   - DSP2017
   - Visual Studio 2015
+short: Za górami, za lasami żył sobie pewien bardzo dziwny zielony stwór. Miał już dość tej monotonii straszenia ludzi i ciągłego babrania się w błocie. Wieczorami spoglądał na zachód słońca przez zwoje Windowsy. Pewnego wieczoru rozmyślając i bawiąc się woskowiną w uchu postanowił zmienić swoje życie. Od dziecka marzył, by zostać programistą, wiedział, że błoto i robale to nie cały świat i jest coś takiego jak C#!
 ---
-<div id="dslc-theme-content">
-  <div id="dslc-theme-content-inner">
+Za górami, za lasami żył sobie pewien bardzo dziwny zielony stwór. Miał już dość tej monotonii straszenia ludzi i ciągłego babrania się w błocie. Wieczorami spoglądał na zachód słońca przez zwoje Windowsy. Pewnego wieczoru rozmyślając i bawiąc się woskowiną w uchu postanowił zmienić swoje życie. Od dziecka marzył, by zostać programistą, wiedział, że błoto i robale to nie cały świat i jest coś takiego jak C#!
 
-      Za górami, za lasami żył sobie pewien bardzo dziwny zielony stwór. Miał już dość tej monotonii straszenia ludzi i ciągłego babrania się w błocie. Wieczorami spoglądał na zachód słońca przez zwoje Windowsy. Pewnego wieczoru rozmyślając i bawiąc się woskowiną w uchu postanowił zmienić swoje życie. Od dziecka marzył, by zostać programistą, wiedział, że błoto i robale to nie cały świat i jest coś takiego jak C#!
-    </p>
-    
-    <h4 style="text-align: center;">
-    </h4>
-    
     <h3 style="text-align: center;">
       Ale czy świat Devów był gotowy na nadejście <strong>C#reka</strong>&#8230;
     </h3>
     
-    <p>
-      &nbsp;
-    </p>
-    
-    <h2 style="background: #BBBBBB; padding: 2px;">
-      Hipopotam
-    </h2>
-    
+## Hipopotam
 
       <a href="https://www.visualstudio.com/"><img class="alignright" title="Visual Studio" src="http://zasoby.ekologia.pl/artykulyNew/13542/xxl/nieobliczalny-hipopotam_800x600.jpg" alt="C#rek - hipopotam" width="328" height="246" /></a><br /> Jako, że ciągnie swój do swego <strong>C#rek</strong> poszukał narzędzia spasionego.
     </p>
@@ -191,65 +178,4 @@ tags:
       C. D. N.
     </p>
     
-    <div>
-      <div style="text-align: center;">
-      </div>
-      
-      <div style="text-align: center;">
-      </div>
-      
-      <div style="text-align: center;">
-      </div>
-      
-      <div style="text-align: center;">
-      </div>
-      
-      <div style="text-align: center;">
-      </div>
-      
-      <div>
-        <div style="text-align: center;">
-          <strong>Jest to post przygotowany na potrzeby konkursu &#8222;Daj Się Poznać 2017&#8221; organizowanym przez <a href="http://devstyle.pl">Macieja Aniserowicza</a>.</strong>
-        </div>
-        
-        <div style="text-align: center;">
-           <a href="http://devstyle.pl/daj-sie-poznac/" target="_blank" rel="noopener noreferrer"><img class="wp-image-104 size-full alignright" title="Daj Się Poznać 2017" src="http://godev.gemustudio.com/assets/images/2017/02/dsp2017-3.png" alt="" width="68" height="154" /></a>
-        </div>
-        
-        <div style="font-size: 10pt; padding: 10px;">
-          <div>
-            <strong>Projekt: </strong><a href="http://godev.gemustudio.com/2017/03/01/pictogr-pomysl/">PictOgr</a>.
-          </div>
-          
-          <div>
-            <strong>GitHub: </strong><a href="https://github.com/krzysztofowsiany/pictogr">github.com/krzysztofowsiany/pictogr</a>
-          </div>
-          
-          <div>
-            <strong>Blog: </strong><a href="http://godev.gemustudio.com">godev.gemustudio.com</a>
-          </div>
-          
-          <div>
-            <strong>Snapchat</strong>: <a href="https://www.snapchat.com/add/gocom7" target="_blank" rel="noopener noreferrer">gocom7</a>
-          </div>
-          
-          <div>
-            <strong>RSS: </strong><a href="http://godev.gemustudio.com/category/daj-sie-poznac-2017/feed">godev.gemustudio.com/category/daj-sie-poznac-2017/feed</a>
-          </div>
-          
-          <div>
-            <strong>Facebook:</strong><a href="https://www.facebook.com/PictOgr-1729700930654225/">www.facebook.com/PictOgr-1729700930654225/</a>
-          </div>
-          
-          <div>
-            <strong>Twitter: </strong><a href="https://twitter.com/gemu_gocom">twitter.com/gemu_gocom</a>
-          </div>
-        </div>
-      </div>
-    </div>
-    
-    <!-- AddThis Advanced Settings generic via filter on the_content -->
-    
-    <!-- AddThis Share Buttons generic via filter on the_content -->
-  </div>
-</div>
+{% include_relative dsp.md %}

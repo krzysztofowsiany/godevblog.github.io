@@ -287,7 +287,7 @@ namespace PictOgr.Infrastructure.DTO
         </div>
         
         <div>
-          <strong>RSS: </strong><a href="http://godev.gemustudio.com/category/daj-sie-poznac-2017/feed">godev.gemustudio.com/category/daj-sie-poznac-2017/feed</a>
+          <strong>RSS: </strong><a href="http://godev.gemustudio.com/category/daj-sie-poznac-2017/feed">godev.{% include_relative dsp.md %}gemustudio.com/category/daj-sie-poznac-2017/feed</a>
         </div>
         
         <div>

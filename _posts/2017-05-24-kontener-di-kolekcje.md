@@ -190,8 +190,4 @@ namespace Test
       Mam nadzieję, iż ten wirtualny przykład znajdzie zadowolonego odbiorcę.
     </p>
     
-    <!-- AddThis Advanced Settings generic via filter on the_content -->
-    
-    <!-- AddThis Share Buttons generic via filter on the_content -->
-  </div>
-</div>
+{% include_relative dsp.md %}

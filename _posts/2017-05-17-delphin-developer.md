@@ -96,12 +96,4 @@ tags:
       <strong>Od taki Grandpa Developer.</strong>
     </h1>
     
-    <p>
-      &nbsp;
-    </p>
-    
-    <!-- AddThis Advanced Settings generic via filter on the_content -->
-    
-    <!-- AddThis Share Buttons generic via filter on the_content -->
-  </div>
-</div>
+{% include_relative dsp.md %}
