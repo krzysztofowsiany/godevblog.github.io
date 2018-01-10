@@ -3,7 +3,7 @@ title: W poszukiwaniu Programistoku
 date: 2017-10-18T22:40:49+00:00
 author: Krzysztof Owsiany
 layout: post
-permalink: /w-poszukiwaniu-programistoku/
+permalink: /w-poszukiwaniu-programistoku
 published: true
 image: /assets/images/2017/10/w-poszukiwaniu-programistoku/post.jpg
 categories:
