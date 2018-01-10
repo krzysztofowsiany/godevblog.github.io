@@ -12,7 +12,7 @@ gem 'jekyll-tagging', :git => 'https://github.com/pattex/jekyll-tagging.git'
 
 
 group :jekyll_plugins do
-    gem "jekyll-feed", "~> 0.6"
-    gem "jekyll-youtube"
+    gem "jekyll-feed", "~> 0.6",
+    gem "jekyll-youtube" 
  end
 
