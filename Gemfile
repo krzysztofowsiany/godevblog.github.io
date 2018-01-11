@@ -4,7 +4,7 @@ gem 'github-pages', group: :jekyll_plugins
 
 group :jekyll_plugins do
     gem 'jekyll', '3.6.2'
-    gem "jekyll-feed", "~> 0.6",
+    gem "jekyll-feed", "~> 0.6"
     gem "jekyll-youtube"
     gem 'jekyll-sitemap'
     gem 'jekyll-twitter-plugin'
