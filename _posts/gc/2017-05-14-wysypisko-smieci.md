@@ -40,7 +40,7 @@ Alokowanie pamięci odbywa się niejako w dwóch miejscach:
 
 Tak oznaczone obiekty nie zostaną usunięte w fazie drugiej (**Sweep**).
     
-**Tym sposobem dochodzimy do nazwy stosowanego w GC algorytmu -> Mark & Sweep.**{: .highlight-1}
+**Tym sposobem dochodzimy do nazwy stosowanego w GC algorytmu -> Mark & Sweep.**{: .h-1}
 
 Aplikacje składają  się z wielu obiektów, i proces czyszczenia może trwać dość długo, zależnie od ilości obiektów. Dlatego nie jest on często uruchamiany.
 

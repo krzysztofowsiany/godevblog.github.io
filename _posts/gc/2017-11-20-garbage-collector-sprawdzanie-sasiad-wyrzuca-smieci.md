@@ -45,7 +45,7 @@ Zwalnianie pamięci w ten sposób jest czasochłonne, dlatego należy go używa�
 
 Finalizatory można używać jedynie w klasach i tylko jedno wystąpienie na klasę.
     
-**Finalizujemy jedynie obszary niezarządzanego kodu.**{: .highlight-1}
+**Finalizujemy jedynie obszary niezarządzanego kodu.**{: .h-1}
 
     
 ## Jak użyć?

@@ -1,123 +1,56 @@
 ---
-id: 376
-title: 'C#rek &#8211; hipopotam cz.2.'
+title: C#rek - hipopotam cz.2.
 date: 2017-03-14T23:54:02+00:00
 author: Krzysztof Owsiany
 layout: post
-published: false
-permalink: /2017/03/14/crek-hipopotam-cz-2/
-image: /assets/images/2017/03/crek_head.png
+published: true
+permalink: /crek-hipopotam-cz-2
+image: /assets/images/2017/03/crek-hipopotam-cz-2/post.png
 categories:
   - Daj Się Poznać 2017
 tags:
   - 'C#rek'
   - dajsiepoznac2017
   - DSP2017
-  - Visual Studio 2015
+  - Visual Studio 
+short: Przechadzając się po zielonym, zalesionym bagnie C#rek rozmyślał o robocie, jaką może wykonać przy pomocy tego co się dowiedział. Napotkał też na pewien problem. Ludzie się go boją, uciekają gdy tylko zobaczą wielkiego, strasznego i brzydkiego zielonego stwora.
 ---
-<div id="dslc-theme-content">
-  <div id="dslc-theme-content-inner">
+[![C#rek][image1]][image1-big]{:.post-left-image}
+Przechadzając się po zielonym, zalesionym bagnie C#rek rozmyślał o robocie, jaką może wykonać przy pomocy tego co się dowiedział. Napotkał też na pewien problem. Ludzie się go boją, uciekają gdy tylko zobaczą wielkiego, strasznego i brzydkiego zielonego stwora. Więc jak u licha zarobi na życie, skoro ludzie się boją i mówią w nieco innym języku. Zaiste to jest problem…
+    
+Ale jak już **C#rek** zostanie starym **Ogrem**, to ludzie będą sami przychodzić. Wtedy się ich będzie straszyć! Nawet widły i ogień nie pomogą!
+    
+## Ukryte możliwości - Package Manager Console
+[![Package Manager Console][Package-Manager-Console]][Package-Manager-Console-big]{:.post-right-image} 
+Hipopotam ma wiele ukrytych zdolności, na pierwszy rzut oka nie widać trzeba odpowiednio połaskotać, by się pojawiły. Połaskotać trzeba w specjalnym miejscu. Niestety nie ma tutaj żadnej sztuczki i trzeba się osobiście pofatygować do:
 
-      <img class="alignleft wp-image-382" src="http://godev.gemustudio.com/assets/images/2017/03/crek-215x300.png" alt="C#rek" width="148" height="207" />Przechadzając się po zielonym, zalesionym bagnie C#rek rozmyślał o robocie, jaką może wykonać przy pomocy tego co się dowiedział. Napotkał też na pewien problem. Ludzie się go boją, uciekają gdy tylko zobaczą wielkiego, strasznego i brzydkiego zielonego stwora. Więc jak u licha zarobi na życie, skoro ludzie się boją i mówią w nieco innym języku. Zaiste to jest problem…
-    </p>
+**View -> Other Windows -> Package Manager Console.**
     
-    <h3 style="text-align: center; padding: 10px;">
-      Ale jak już C#rek zostanie starym Ogrem, to ludzie będą sami przychodzić. Wtedy się ich będzie straszyć! Nawet widły i ogień nie pomogą!
-    </h3>
-    
-    <h4 style="text-align: center;">
-    </h4>
-    
-    <p>
-      &nbsp;
-    </p>
-    
-    <h2 style="background: #BBBBBB; padding: 2px;">
-      Ukryte możliwości &#8211; Package Manager Console
-    </h2>
-    
-    <p>
-      <a href="http://godev.gemustudio.com/assets/images/2017/03/Package-Manager-Console-1.png"><img class="alignright wp-image-389" src="http://godev.gemustudio.com/assets/images/2017/03/Package-Manager-Console-1-300x139.png" alt="" width="315" height="146" srcset="http://godev.gemustudio.com/assets/images/2017/03/Package-Manager-Console-1-300x139.png 300w, http://godev.gemustudio.com/assets/images/2017/03/Package-Manager-Console-1.png 410w" sizes="(max-width: 315px) 100vw, 315px" /></a>
-    </p>
-    
+I tam ukaże się dobrodziejstwo, jak się dobrze połaskota to można niezłe cuda znaleźć.
 
-      Hipopotam ma wiele ukrytych zdolności, na pierwszy rzut oka nie widać trzeba odpowiednio połaskotać, by się pojawiły. Połaskotać trzeba w specjalnym miejscu. Niestety nie ma tutaj żadnej sztuczki i trzeba się osobiście pofatygować do:
-    </p>
-    
+Ale trzeba wiedzieć jak:
+* **get-help NuGet** - podstawowe łaskotanie pozwoli zobaczyć pełne możliwości,
+* **Find-Package** - tak wykryjemy jakie ukryte zdolności ma ta ociężała bestia,
+* **Get-Package** - to niezły ruch, bo pokaże wszystko co zwierzak potrafi,
+* **Package-Install** - jeśli chcemy, by ciągle np. przynosił badyl z bagienka to jest odpowiednie łaskotanie,
+* **Uninstall-Package** - jak się nie podoba sztuczka, to trzeba oduczyć,
+* **Update-Package** - warto czasem sprawdzić, czy hipek nie rozwinął już jakiejś znanej zdolności.
 
-      <strong>View -> Other Windows -> Package Manager Console.</strong>
-    </p>
+Gorzej jak bestia popuści na wyjściu **[NLoga]** lub **[log4neta]**.
     
+## Obowiązki hipopotama - Task List
+Ta mądra bestia potrafi zapamiętać co jest do zrobienia i w odpowiedni sposób przedstawić tą wiedzę.
+[![Task List][Task-List]][Task-List-big]{:.post-left-image} 
+A, że ogry mają dobrą pamięć, bo krótką to warto skorzystać z tego zaklęcia: **Crtl+W, T**.
 
-      I tam ukaże się dobrodziejstwo, jak się dobrze połaskota to można niezłe cuda znaleźć.
-    </p>
-    
+W trakcie pracy wystarczy wpisać magiczne słowo **//TODO: tekścik,** a hipopotam zapamięta tą informację.
 
-      Ale trzeba wiedzieć jak:
-    </p>
+Niżej fragment ogro-kodu autorstwa C#reka.
     
-    <ul>
-      <li style="text-align: justify;">
-        <strong>get-help NuGet</strong> &#8211; podstawowe łaskotanie pozwoli zobaczyć pełne możliwości,
-      </li>
-      <li style="text-align: justify;">
-        <strong>Find-Package</strong> &#8211; tak wykryjemy jakie ukryte zdolności ma ta ociężała bestia,
-      </li>
-      <li style="text-align: justify;">
-        <strong>Get-Package</strong> &#8211; to niezły ruch, bo pokaże wszystko co zwierzak potrafi,
-      </li>
-      <li style="text-align: justify;">
-        <strong>Package-Install</strong> &#8211; jeśli chcemy, by ciągle np. przynosił badyl z bagienka to jest odpowiednie łaskotanie,
-      </li>
-      <li style="text-align: justify;">
-        <strong>Uninstall-Package</strong> &#8211; jak się nie podoba sztuczka, to trzeba oduczyć,
-      </li>
-      <li style="text-align: justify;">
-        <strong>Update-Package</strong> &#8211; warto czasem sprawdzić, czy hipek nie rozwinął już jakiejś znanej zdolności.
-      </li>
-    </ul>
-    
-    <p>
-      &nbsp;
-    </p>
-    
-    <h3 style="text-align: center; background: #FFFF9C; padding: 5pt;">
-      Gorzej jak bestia popuści na wyjściu <strong><a href="http://nlog-project.org/">NLoga</a></strong> lub <strong><a href="https://logging.apache.org/log4net/">log4neta</a></strong>.
-    </h3>
-    
-    <p>
-      &nbsp;
-    </p>
-    
-    <h2 style="background: #BBBBBB; padding: 2px;">
-      Obowiązki hipopotama &#8211; Task List
-    </h2>
-    
+**Wszelkie prawa zastrzeżone pod groźbą usmażenia i zjedzenia!**{:.h-1}
 
-      Ta mądra bestia potrafi zapamiętać co jest do zrobienia i w odpowiedni sposób przedstawić tą wiedzę.<a href="http://godev.gemustudio.com/assets/images/2017/03/Task-List.png"><img class="alignleft wp-image-399 size-medium" src="http://godev.gemustudio.com/assets/images/2017/03/Task-List-300x205.png" alt="" width="300" height="205" srcset="http://godev.gemustudio.com/assets/images/2017/03/Task-List-300x205.png 300w, http://godev.gemustudio.com/assets/images/2017/03/Task-List.png 377w" sizes="(max-width: 300px) 100vw, 300px" /></a>
-    </p>
-    
-
-      A, że ogry mają dobrą pamięć, bo krótką to warto skorzystać z tego zaklęcia: <strong>Crtl+W, T</strong>.
-    </p>
-    
-
-      W trakcie pracy wystarczy wpisać magiczne słowo <strong>//TODO: tekscik,</strong> a hipopotam zapamięta tą informację.
-    </p>
-    
-    <p>
-      Niżej fragment ogro-kodu autorstwa C#reka.
-    </p>
-    
-    <h4 style="text-align: center;">
-      Wszelkie prawa zastrzeżone pod groźbą usmażenia i zjedzenia!
-    </h4>
-    
-    <p>
-      &nbsp;
-    </p>
-    
-    <pre class="c#">using DietaOgra;
+```csharp
+using DietaOgra;
 
 namespace DietaOgra.Dziczyzna
 {
@@ -129,104 +62,71 @@ namespace DietaOgra.Dziczyzna
              {
                    Gonic();            
                    Zlapac();
-                   //TODO: sprawdzić czy nie narobił w gacie.
+                   //TODO: 
+                   //sprawdzić czy nie narobił w gacie.
                    Zjesc(); 
             }
         }
     }
 }
-</pre>
+```
     
-    <p>
-      &nbsp;
-    </p>
-    
-    <h2 style="background: #BBBBBB; padding: 2px;">
-      WST (Wyższa Szkoła Tresury) &#8211; Options
-    </h2>
-    
-    <p>
-      <a href="http://godev.gemustudio.com/assets/images/2017/03/Skróty.png"><img class="alignright wp-image-390 size-medium" src="http://godev.gemustudio.com/assets/images/2017/03/Skróty-300x206.png" alt="" width="300" height="206" srcset="http://godev.gemustudio.com/assets/images/2017/03/Skróty-300x206.png 300w, http://godev.gemustudio.com/assets/images/2017/03/Skróty-768x526.png 768w, http://godev.gemustudio.com/assets/images/2017/03/Skróty.png 814w" sizes="(max-width: 300px) 100vw, 300px" /></a>
-    </p>
-    
+## WST (Wyższa Szkoła Tresury) - Options
+[![Options][Options]][Options-big]{:.post-left-image} 
+Żeby tego było mało, można przełączyć bestie w tryb serwisowy i wówczas to już można robić co się zechce. Pozamieniać nogi z uszami. Pozmieniać komendy do sztuczek, jakich nauczył się hipopotam przez swoje długie życie.
 
-      Żeby tego było mało, można przełączyć bestie w tryb serwisowy i wówczas to już można robić co się zechce. Pozamieniać nogi z uszami. Pozmieniać komendy do sztuczek, jakich nauczył się hipopotam przez swoje długie życie.
-    </p>
-    
+W tym celu trzeba z menusa zapodać: **Tools -> Options -> Environment -> Keyboard**.
 
-      W tym celu trzeba z menusa zapodać: <strong>Tools -> Options -> Environment -> Keyboard</strong>
-    </p>
-    
+I wówczas całe dobrodziejstwo jest już dostępne, jak na widoczku obok.
 
-      I wówczas całe dobrodziejstwo jest już dostępne, jak na widoczku obok.
-    </p>
+C#rek nie ogarnia tego ogromu możliwości i korzysta z defaultowych ustawień, ale może kiedyś, jak już wszystkie Księżniczki pocałują swoich Żabo-Księciów...
     
+## Krojenie - Split Code Windows
+[![Split Code Windows][console]][console-big]{:.post-right-image} 
+Jakby kto chciał i miał naprawdę dużego, wyrośniętego hipopotama, takiego co na 4K wchodzi. To wówczas można sobie pokroić bestię na kawałeczki.
 
-      C#rek nie ogarnia tego ogromu możliwości i korzysta z defaultowych ustawień, ale może kiedyś, jak już wszystkie Księżniczki pocałują swoich Żabo-Księciów&#8230;
-    </p>
-    
-    <p>
-      &nbsp;
-    </p>
-    
-    <h2 style="background: #BBBBBB; padding: 2px;">
-      Krojenie &#8211; Split Code Windows
-    </h2>
-    
-    <p>
-      <a href="http://godev.gemustudio.com/assets/images/2017/03/2017-03-14_18h16_17.png"><img class="alignleft wp-image-402 size-medium" src="http://godev.gemustudio.com/assets/images/2017/03/2017-03-14_18h16_17-287x300.png" alt="" width="287" height="300" srcset="http://godev.gemustudio.com/assets/images/2017/03/2017-03-14_18h16_17-287x300.png 287w, http://godev.gemustudio.com/assets/images/2017/03/2017-03-14_18h16_17.png 338w" sizes="(max-width: 287px) 100vw, 287px" /></a>
-    </p>
-    
+I z każdego korzystać jak się chce i gdzie się chce.
 
-      Jakby kto chciał i miał naprawdę dużego, wyrośniętego hipopotama, takiego co na 4K wchodzi. To wówczas można sobie pokroić bestię na kawałeczki.
-    </p>
-    
+Kompozycji jest wiele, można na lewo, można na prawo, na środek, na górę i dół. Trzeba tylko tym gryzoniem dobrze operować przy układaniu.
 
-      I z każdego korzystać jak się chce i gdzie się chce.
-    </p>
-    
-    <p>
-      Kompozycji jest wiele, można na lewo, można na prawo, na środek, na górę i dół. Trzeba tylko tym gryzoniem dobrze operować przy układaniu.
-    </p>
-    
-    <p>
-      Kawałki można na siebie w stertę układać i potem takie zakładki się pokazują. Można wyciągać kawałem na szczyt i na niego patrzeć.
-    </p>
-    
-    <p>
-      &nbsp;
-    </p>
-    
-    <p>
-      Jak się tak poukłada to już o tym było w <a href="http://godev.gemustudio.com/2017/03/06/crek-hipopotam/">poprzednim tekście</a>. Można zapisać i potem podmieniać wedle widzimisię.
-    </p>
-    
-    <p>
-      &nbsp;
-    </p>
-    
-    <p>
-      &nbsp;
-    </p>
-    
-    <h2 style="background: #BBBBBB; padding: 2px;">
-      Na koniec
-    </h2>
-    
+Kawałki można na siebie w stertę układać i potem takie zakładki się pokazują. Można wyciągać kawałem na szczyt i na niego patrzeć.
 
-      Najlepiej w boju także praktykować.<img class=" alignright" src="http://www.advancedcomputers.co.nz/wp-content/themes/ac/img/tv-screen-repair.jpg" width="278" height="185" />
-    </p>
+Jak się tak poukłada to już o tym było w [poprzednim tekście][crek-hipopotam]. Można zapisać i potem podmieniać wedle widzimisię.
     
+## Na koniec
+Najlepiej w boju także praktykować. 
+![Najlepiej w boju także praktykować][image2]{:.post-left-image} 
 
-      Więcej na temat hipopotama można znaleźć <a href="https://www.visualstudio.com/pl/vs/">tu</a>.
-    </p>
-    
+Więcej na temat hipopotama można znaleźć <a href="https://www.visualstudio.com/pl/vs/">tu</a>.
 
-      Dziękuję za uwagę i proszę o nie rzucanie kamieniami.:D za jęzor i formę wypowiedzi.
-    </p>
-    
+Dziękuję za uwagę i proszę o nie rzucanie kamieniami.:D za jęzor i formę wypowiedzi.
 
-      C. D. N.
-    </p>
+C. D. N.
     
 {% include_relative dsp.md %}
+
+[crek-hipopotam]: {{site.url}}/crek-hipopotam
+
+[NLoga]: http://nlog-project.org/
+[log4net]: https://logging.apache.org/log4net
+
+[post]: /assets/images/2017/03/crek-hipopotam-cz-2/post.jpg
+[post-big]: /assets/images/2017/03/crek-hipopotam-cz-2/post-big.jpg
+
+[image1]: /assets/images/2017/03/crek-hipopotam-cz-2/image1.png
+[image1-big]: /assets/images/2017/03/crek-hipopotam-cz-2/image1-big.png
+
+[image2]: /assets/images/2017/03/crek-hipopotam-cz-2/image2.jpg
+
+[Package-Manager-Console]: /assets/images/2017/03/crek-hipopotam-cz-2/Package-Manager-Console.png
+[Package-Manager-Console-big]: /assets/images/2017/03/crek-hipopotam-cz-2/Package-Manager-Console-big.png
+
+[Task-List]: /assets/images/2017/03/crek-hipopotam-cz-2/Task-List.png
+[Task-List-big]: /assets/images/2017/03/crek-hipopotam-cz-2/Task-List-big.png
+
+[Options]: /assets/images/2017/03/crek-hipopotam-cz-2/Options.png
+[Options-big]: /assets/images/2017/03/crek-hipopotam-cz-2/Options-big.png
+
+[console]: /assets/images/2017/03/crek-hipopotam-cz-2/console.png
+[console-big]: /assets/images/2017/03/crek-hipopotam-cz-2/console-big.png
+
