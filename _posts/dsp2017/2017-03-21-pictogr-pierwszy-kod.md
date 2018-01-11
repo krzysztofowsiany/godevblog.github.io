@@ -8,7 +8,6 @@ published: false
 permalink: /2017/03/21/pictogr-pierwszy-kod/
 image: /assets/images/2017/03/kontener.png
 categories:
-  - Bez kategorii
   - Daj Się Poznać 2017
   - PictOgr
 tags:

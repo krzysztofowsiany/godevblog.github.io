@@ -8,7 +8,6 @@ published: false
 permalink: /2017/04/11/serverless-czym-sie-je-wyciagnac-wiecej-siana-uslug-chmurze/
 image: /assets/images/2017/04/Server.jpg
 categories:
-  - Bez kategorii
   - Daj Się Poznać 2017
 tags:
   - dajsiepoznac2017

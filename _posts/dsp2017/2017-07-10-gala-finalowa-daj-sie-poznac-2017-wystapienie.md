@@ -8,7 +8,6 @@ permalink: /gala-finalowa-daj-sie-poznac-2017-wystapienie/
 published: false
 image: /assets/images/2017/07/blogging-photo-9873.jpg
 categories:
-  - Bez kategorii
   - Daj Się Poznać 2017
 tags:
   - dajsiepoznac2017

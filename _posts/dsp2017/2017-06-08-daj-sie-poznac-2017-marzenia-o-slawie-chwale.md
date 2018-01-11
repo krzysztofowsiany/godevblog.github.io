@@ -8,7 +8,6 @@ published: false
 permalink: /2017/06/08/daj-sie-poznac-2017-marzenia-o-slawie-chwale/
 image: /assets/images/2017/06/blogging-photo-8752.jpg
 categories:
-  - Bez kategorii
   - Daj Się Poznać 2017
   - GameDev
 tags:

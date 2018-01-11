@@ -8,7 +8,6 @@ published: false
 permalink: /2017/05/14/pictogr-delegowanie-wykonania-akcji-modelu-widoku/
 image: /assets/images/2017/05/IMG_9837-2.jpg
 categories:
-  - Bez kategorii
   - Daj Się Poznać 2017
   - PictOgr
 tags:

@@ -8,7 +8,6 @@ published: false
 permalink: /2017/05/28/bieg-sleze-konfrontacja/
 image: /assets/images/2017/05/medal.jpg
 categories:
-  - Bez kategorii
   - Bieganie
   - Fat Can Run
 tags:

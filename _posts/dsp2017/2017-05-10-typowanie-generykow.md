@@ -8,7 +8,6 @@ published: false
 permalink: /2017/05/10/typowanie-generykow/
 image: /assets/images/2017/05/IMG_1033.jpg
 categories:
-  - Bez kategorii
   - Daj Się Poznać 2017
 tags:
   - dajsiepoznac2017

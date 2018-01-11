@@ -8,7 +8,6 @@ published: false
 permalink: /2017/06/05/budowanie-zaangazowania-uzytkownikow-przy-wykorzystaniu-grywalizacji/
 image: /assets/images/2017/06/blogging-photo-00880.jpg
 categories:
-  - Bez kategorii
   - Daj Się Poznać 2017
   - Programowanie
 tags:

@@ -8,7 +8,6 @@ published: false
 permalink: /2017/05/17/delphin-developer/
 image: /assets/images/2017/05/blogging-photo-115.jpg
 categories:
-  - Bez kategorii
   - Legacy Code
   - Programowanie
 tags:

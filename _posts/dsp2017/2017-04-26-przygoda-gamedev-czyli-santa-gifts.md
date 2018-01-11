@@ -8,7 +8,6 @@ published: false
 permalink: /2017/04/26/przygoda-gamedev-czyli-santa-gifts/
 image: /assets/images/2017/04/icon.png
 categories:
-  - Bez kategorii
   - Daj Się Poznać 2017
   - GameDev
 tags:

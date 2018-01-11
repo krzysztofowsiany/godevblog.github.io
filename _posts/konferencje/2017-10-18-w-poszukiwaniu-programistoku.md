@@ -7,7 +7,6 @@ permalink: /w-poszukiwaniu-programistoku
 published: true
 image: /assets/images/2017/10/w-poszukiwaniu-programistoku/post.jpg
 categories:
-  - Bez kategorii
   - Domain-Driven Design
   - Konferencja
   - Prelekcje

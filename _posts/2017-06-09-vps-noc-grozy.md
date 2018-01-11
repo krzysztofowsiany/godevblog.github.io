@@ -7,7 +7,6 @@ published: false
 permalink: vps-noc-grozy
 image: /assets/images/2017/06/ vps-noc-grozy/blogging-photo-7983.jpg
 categories:
-  - Bez kategorii
 tags:
   - Apache
   - Docker

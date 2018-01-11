@@ -8,7 +8,6 @@ published: false
 permalink: /2017/03/29/pictogr-moj-cqrs-1/
 image: /assets/images/2017/03/13575771_612844145558374_5342566555726992706_o.jpg
 categories:
-  - Bez kategorii
   - Daj Się Poznać 2017
   - PictOgr
 tags:

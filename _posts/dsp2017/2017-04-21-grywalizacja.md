@@ -8,7 +8,6 @@ permalink: /2017/04/21/grywalizacja/
 published: false
 image: /assets/images/2017/04/konsola-classic.jpg
 categories:
-  - Bez kategorii
   - Daj Się Poznać 2017
 tags:
   - dajsiepoznac2017

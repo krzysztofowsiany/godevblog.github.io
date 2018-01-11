@@ -10,7 +10,6 @@ published: false
 
 image: /assets/images/2017/06/blogging-photo-9779.jpg
 categories:
-  - Bez kategorii
   - Prelekcje
 tags:
   - Grywalizacja

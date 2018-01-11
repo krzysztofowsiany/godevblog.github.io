@@ -9,7 +9,6 @@ published: true
 comments: true
 image: /assets/images/2017/09/bledy-poczatkujacego-prelegenta/post.png
 categories:
-  - Bez kategorii
   - Prelekcje
 tags:
   - Błędy

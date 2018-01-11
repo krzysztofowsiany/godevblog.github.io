@@ -8,7 +8,6 @@ published: false
 permalink: /2017/04/09/iv-bieg-nasza-dycha-udalo-sie/
 image: /assets/images/2017/04/IMG_8782-2.jpg
 categories:
-  - Bez kategorii
   - Bieganie
   - Fat Can Run
 ---

@@ -8,7 +8,6 @@ comments: true
 permalink: /pictogr-pomysl
 image: /assets/images/2017/03/pictogr-pomysl/post.jpg
 categories:
-  - Bez kategorii
   - Daj Się Poznać 2017
   - Fotografia
 tags:

@@ -8,7 +8,6 @@ published: false
 permalink: /2017/05/16/kto-sie-w-pehapiepolapie/
 image: /assets/images/2017/05/php.jpg
 categories:
-  - Bez kategorii
   - Legacy Code
 tags:
   - Legacy Code

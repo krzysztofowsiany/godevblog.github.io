@@ -8,7 +8,6 @@ published: false
 permalink: /2017/03/21/crek-hipopotam-cz-3/
 image: /assets/images/2017/03/żaba.png
 categories:
-  - Bez kategorii
   - Daj Się Poznać 2017
 tags:
   - 'C#rek'

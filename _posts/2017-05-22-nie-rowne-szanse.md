@@ -8,7 +8,6 @@ published: false
 permalink: /2017/05/22/nie-rowne-szanse/
 image: /assets/images/2017/05/blogging-photo-9589.jpg
 categories:
-  - Bez kategorii
 ---
 <div id="dslc-theme-content">
   <div id="dslc-theme-content-inner">

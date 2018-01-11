@@ -8,7 +8,6 @@ published: false
 permalink: /2017/06/01/daj-sie-poznac-2017-osiagniecie/
 image: /assets/images/2017/06/blogging-photo-7892.jpg
 categories:
-  - Bez kategorii
   - Daj Się Poznać 2017
   - GameDev
 tags:
