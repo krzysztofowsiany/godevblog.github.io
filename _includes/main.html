@@ -4,38 +4,17 @@
       <!-- using the split filter -->
       {% assign relevant = paginator.posts | except:"published","false" %}
       {% for post in relevant %}
-      {% assign mod = forloop.index | modulo: 2 %}
 
-      {% if mod == 0 %}            
-        <div class="post_preview highlight">
-      {% else %}
-        <div class="post_preview">
-      {% endif %}
-
-          <span class="post-date">{{ post.date | date: "%d.%m.%Y" }}</span>
-          <h2>
-            <a href="{{ post.url }}">{{ post.title }}</a>
-          </h2>
-          <div>
-
-            {% if mod == 0 %}            
-                <div class="post-right-image">
-            {% else %}
-                <div class="post-left-image">
-            {% endif %}
-
-              <a href="{{ post.url }}">
-                <div class="post_image">
-                  <img src="{{ post.image }}" alt="{{ post.title }}">
-                </div>
-              </a>
-            </div>
-            {{ post.short }}
-          </div>
-          <div class="more_url">
-            <a href="{{ post.url }}">więcej</a>       
-          </div>
-        </div>
+        {% if forloop.index == 1 and paginator.page == 1 %}
+          {% include main-first.html %}
+        {% else %}
+          {% assign mod = forloop.index | modulo: 2 %}
+          {% if mod == 0 %}            
+            {% include main-right-side.html %}
+          {% else %}
+            {% include main-left-side.html %}
+          {% endif %}
+        {% endif %}
       {% endfor %}
       
       {% include pagination.html %}

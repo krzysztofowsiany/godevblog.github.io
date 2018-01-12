@@ -1,7 +1,6 @@
 ---
 ---
 
-
 @import "{{ site.theme }}";
 
 header {
@@ -24,7 +23,7 @@ footer{
 }
 
 .highlight {
-    background-color:rgba(135, 206, 250, 0.589);
+    background-color:rgba(135, 227, 250, 0.144);
 }
 
 code {
@@ -55,10 +54,6 @@ div.post_preview {
     display:block;
     min-height:100%;    
 }
-
-div.post_preview:nth-child(2n){
-    background:rgba(204, 204, 204, 0.089);
-  }
 
 
 #main-content h1:before,

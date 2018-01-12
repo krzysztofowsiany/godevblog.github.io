@@ -1,6 +1,6 @@
 ---
 title: VPS - noc grozy!
-date: 2017-06-09T13:57:10+00:00
+date: 2017-06-09
 author: Krzysztof Owsiany
 layout: post
 published: false
