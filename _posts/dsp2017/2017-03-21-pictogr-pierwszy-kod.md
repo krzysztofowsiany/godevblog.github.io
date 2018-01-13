@@ -1,12 +1,11 @@
 ---
-id: 490
-title: 'PictOgr &#8211; pierwszy kod'
-date: 2017-03-21T19:20:56+00:00
+title: PictOgr - pierwszy kod
+date: 2017-03-21
 author: Krzysztof Owsiany
 layout: post
-published: false
-permalink: /2017/03/21/pictogr-pierwszy-kod/
-image: /assets/images/2017/03/kontener.png
+published: true
+permalink: /pictogr-pierwszy-kod
+image: /assets/images/2017/03/pictogr-pierwszy-kod/post.png
 categories:
   - Daj Się Poznać 2017
   - PictOgr
@@ -16,62 +15,29 @@ tags:
   - dajsiepoznac2017
   - DSP2017
   - PictOgr
+short: Już na samym począteczku problemy, musiałem wymienić bibliotekę logów z log4net na NLog, okazało się, iż w moim projekcie opartym na .NET 4.5.2 nie można wykorzystać biblioteki log4net i tyle z nauki.
 ---
-<div id="dslc-theme-content">
-  <div id="dslc-theme-content-inner">
-    <h1>
-      Zmiana biblioteki logów
-    </h1>
-    
+## Zmiana biblioteki logów
+Już na samym począteczku problemy, musiałem wymienić bibliotekę logów z **[log4net]** na **[NLog]**, okazało się, iż w moim projekcie opartym na .NET 4.5.2 nie można wykorzystać biblioteki log4net i tyle z nauki.
 
-      Już na samym począteczku problemy, musiałem wymienić bibliotekę logów z <strong><a href="https://logging.apache.org/log4net/">log4net</a></strong> na <strong><a href="http://nlog-project.org/">NLog</a></strong>, okazało się, iż w moim projekcie opartym na.NET 4.5.2 nie można wykorzystać biblioteki log4net i tyle z nauki.
-    </p>
+Oczywiście, żeby było śmieszniej dowiedziałem się o tym po konfiguracji, instalacji w sytuacji wystąpienia problemu z zapisem logów, czyli X czasu poszło się paść.
     
-
-      Oczywiście, żeby było śmieszniej dowiedziałem się o tym po konfiguracji, instalacji w sytuacji wystąpienia problemu z zapisem logów, czyli X czasu poszło się paść.
-    </p>
+## Autofac - kontenerek na moje śmieci
+![Autofac][autofac-logo]{:.post-left-image}
+Kolejno przyszedł czas na wdrożenie **DIP** (**Dependency Inversion Principle**) przy wykorzystaniu **Dependency Injection**. Do tego po instalacji pakietu trzeba trochę popracować nad szkieletem wykorzystującym Autofac-a.
     
-    <p>
-      &nbsp;
-    </p>
+A czym jest taki kontenerek? To bardzo proste, to składowisko obiektów naszej aplikacji. Trzeba go załadować w sposób jaki się chcę. A potem już tylko korzystać.
     
-    <h1>
-      Autofac &#8211; kontenerek na moje śmieci
-    </h1>
+Realizuje fragment zasad **SOLID**, a dokładnie ostatnią literkę.
     
-    <p>
-      &nbsp;
-    </p>
+Zasada **DIP** określa, iż obiekty nie powinny być tworzone na żądanie, a wstrzykiwane z zewnątrz. Dzięki czemu zależność obiektu wykorzystującego inne klasy jest odwrócona. Określamy jakie klasy/interfejsy chcemy otrzymać, a kontener je dostarczy.
     
-
-      <img class="size-medium alignleft" src="http://docs.autofac.org/en/latest/_assets/images/logo.png" width="185" height="150" />Kolejno przyszedł czas na wdrożenie <strong>DIP</strong> (<strong>Dependency Inversion Principle</strong>) przy wykorzystaniu <strong>Dependency Injection</strong>. Do tego po instalacji pakietu trzeba trochę popracować nad szkieletem wykorzystującym Autofac-a.
-    </p>
+**Dobra rada dla programisty - bądź SOLIDny.**{:.h-1}
     
-
-      A czym jest taki kontenerek? To bardzo proste, to składowisko obiektów naszej aplikacji. Trzeba go załadować w sposób jaki się chcę. A potem już tylko korzystać.
-    </p>
+Poniżej klasa statyczna implementująca ładowanie modułów kontenera.
     
-
-      Realizuje fragment zasad <strong>SOLID</strong>, a dokładnie ostatnią literkę.
-    </p>
-    
-
-      Zasada<strong> DIP</strong> określa, iż obiekty nie powinny być tworzone na żądanie, a wstrzykiwane z zewnątrz. Dzięki czemu zależność obiektu wykorzystującego inne klasy jest odwrócona. Określamy jakie klasy/interfejsy chcemy otrzymać, a kontener je dostarczy.
-    </p>
-    
-    <p>
-      &nbsp;
-    </p>
-    
-    <h3 style="text-align: center; background: #FFFF9C; padding: 5pt;">
-      Dobra rada dla programisty &#8211; bądź SOLIDny.
-    </h3>
-    
-
-      Poniżej klasa statyczna implementująca ładowanie modułów kontenera.
-    </p>
-    
-    <pre class="lang:c# decode:true" title="Budowanie kontenera">using System.Linq;
+{% highlight csharp linenos %}
+using System.Linq;
 using Autofac;
 using Autofac.Core;
 
@@ -92,7 +58,10 @@ namespace PictOgr.Core.AutoFac
         {
             var types = AppDomain.CurrentDomain.GetAssemblies()
                 .SelectMany(x =&gt; x.GetTypes())
-                .Where(t =&gt; t.IsAssignableTo() && t.IsClass && !t.IsAbstract);
+                .Where(t => 
+                    t.IsAssignableTo() 
+                    && t.IsClass 
+                    && !t.IsAbstract);
 
             foreach (var type in types)
             {
@@ -100,93 +69,49 @@ namespace PictOgr.Core.AutoFac
             }
         }
     }
-}</pre>
-    
-    <p>
-      &nbsp;
-    </p>
-    
-    <p>
-      <img class="alignright wp-image-544 size-medium" src="http://godev.gemustudio.com/assets/images/2017/03/kontener-300x200.png" alt="PictOgr - pierwszy kod" width="300" height="200" srcset="http://godev.gemustudio.com/assets/images/2017/03/kontener-300x200.png 300w, http://godev.gemustudio.com/assets/images/2017/03/kontener.png 331w" sizes="(max-width: 300px) 100vw, 300px" />
-    </p>
-    
-    <p>
-      &nbsp;
-    </p>
-    
-    <p>
-      Kontener można ładować parami, nie trzeba używać jednej łopaty. Można dodawać wiele ładując je automatycznie, za to odpowiedzialny jest zaznaczony fragment kodu.
-    </p>
-    
-    <p>
-      Polega to na przeszukaniu wszystkich klas w aplikacji i wyciągnięciu ich typów spełniających wskazane warunki.
-    </p>
-    
-    <p>
-      &nbsp;
-    </p>
-    
-    <p>
-      &nbsp;
-    </p>
-    
-    <p>
-      &nbsp;
-    </p>
-    
-    <h1>
-      Ładowanie moich śmieci
-    </h1>
-    
+}
+{% endhighlight %}
 
-      Z kolei kod poniżej to modulik, mały jest i w tym przypadku ładuje wszystkie zależności dla NLoga. Po wykonaniu tego kodu w programie można wstrzykiwać loggera.
-    </p>
+![PictOgr - pierwszy kod][post]{:.post-left-image} 
+Kontener można ładować parami, nie trzeba używać jednej łopaty. Można dodawać wiele ładując je automatycznie, za to odpowiedzialny jest zaznaczony fragment kodu.
     
+Polega to na przeszukaniu wszystkich klas w aplikacji i wyciągnięciu ich typów spełniających wskazane warunki.
+    
+## Ładowanie moich śmieci
+Z kolei kod poniżej to modulik, mały jest i w tym przypadku ładuje wszystkie zależności dla NLoga. Po wykonaniu tego kodu w programie można wstrzykiwać loggera.
 
-      Oczywiście można rejestrować w kontenerze dowolne klasy np.<em><strong> builder.RegisterType<SplashScreenView>();</strong></em>
-    </p>
-    
-    <pre class="lang:c# decode:true " title="Moduł kontenera">using Autofac;
+Oczywiście można rejestrować w kontenerze dowolne klasy np. **builder.RegisterType**<**SplashScreenView**>**();**
+
+{% highlight csharp linenos  %}
+using Autofac;
 using Autofac.Extras.NLog;
 
 namespace PictOgr.Core
 {
-	public class CoreModule : Module
-	{
-		protected override void Load(ContainerBuilder builder)
-		{
-			base.Load(builder);
+    public class CoreModule : Module
+    {
+        protected override void Load(ContainerBuilder builder)
+        {
+            base.Load(builder);
 			
-			builder.RegisterModule();
-		}
-	}
-}</pre>
+            builder.RegisterModule();
+        }
+    }
+}
+{% endhighlight %}
     
-    <p>
-      Moduły tworzymy zazwyczaj w obszarach powiązanych razem z klasami jakie są ładowane. Unikamy tym samym zwalenia tworzenie wszystkich obiektów w jednym miejscu, czyli porządeczek.
-    </p>
+Moduły tworzymy zazwyczaj w obszarach powiązanych razem z klasami jakie są ładowane. Unikamy tym samym zwalenia tworzenie wszystkich obiektów w jednym miejscu, czyli porządeczek.
     
-    <p>
-      &nbsp;
-    </p>
+## Używanie kontenera
+Po załadowaniu fajnie byłoby użyć Autofaca, ale wiadomo wszystko ma swój początek i koniec, dlatego należy zainicjować kontener. W moim przypadku będzie to w głównej klasie **App**.
     
-    <h1>
-      Używanie kontenera
-    </h1>
-    
+L.12 tworzy kontener, czyli ładuje wszystkie moduliki z **[PictOgr-a][pictogr]**.
 
-      Po załadowaniu fajnie byłoby użyć Autofaca, ale wiadomo wszystko ma swój początek i koniec, dlatego należy zainicjować kontener. W moim przypadku będzie to w głównej klasie <strong>App.</strong>
-    </p>
+Linia niżej to wyciągnięcie obiektu z kontenera, w tym przypadku okna powitalnego **SplashScreenView**.
     
-
-      L.12 tworzy kontener, czyli ładuje wszystkie moduliki z <a href="http://godev.gemustudio.com/2017/03/01/pictogr-pomysl/"><strong>PictOgr-a</strong></a>.
-    </p>
-    
-
-      Linia niżej to wyciągnięcie obiektu z kontenera, w tym przypadku okna powitalnego <strong>SplashScreenView</strong>.
-    </p>
-    
-    <pre class="lang:c# decode:true " title="Rejestrowanie obiektó w kontenerze, przy starcie aplikacji.">using System.Windows;
+Rejestrowanie obiektów w kontenerze, przy starcie aplikacji.
+{% highlight csharp linenos  %}
+using System.Windows;
 using Autofac;
 using PictOgr.Core.AutoFac;
 using PictOgr.SplashScreen.Views;
@@ -204,34 +129,17 @@ namespace PictOgr
 			splashScreenView.Show();
 		}
 	}
-}</pre>
-    
-    <p>
-      &nbsp;
-    </p>
-    
-    <div style="text-align: center;">
-      <img class="alignleft" src="http://emedical24.pl/userdata/gfx/44fe02e595bd5967e384623c8ef7df45.jpg" alt="" width="245" height="114" />
-    </div>
-    
-    <p>
-      &nbsp;
-    </p>
-    
-    <p>
-      Jednak w tym przypadku żądamy od kontenera konkretnego obiektu, nie różni się to za bardzo od klasycznego podejścia, czyli <strong>new Klasa()</strong>, dlatego DI wykonywać będziemy w następujący sposób:
-    </p>
-    
-    <p>
-      &nbsp;
-    </p>
-    
-    <p>
-      &nbsp;
-    </p>
-    
-    <pre class="lang:c# decode:true" title="Wstrzykiwanie zależności.">public class StartApplicationCommand : ICommand
-	{
+}
+{% endhighlight %}
+
+![Dependency Injection][dependency-injection]
+
+Jednak w tym przypadku żądamy od kontenera konkretnego obiektu, nie różni się to za bardzo od klasycznego podejścia, czyli **new Klasa()**, dlatego DI wykonywać będziemy w następujący sposób:
+
+Wstrzykiwanie zależności.
+{% highlight csharp linenos  %}
+public class StartApplicationCommand : ICommand
+{
 		private readonly MainWindowView mainWindowView;
 
 		public StartApplicationCommand(MainWindowView mainWindowView)
@@ -239,86 +147,48 @@ namespace PictOgr
 			this.mainWindowView = mainWindowView;
 		}
         ...
-</pre>
-    
-    <p>
-      Dotyczy to klasy <strong>MainWindowView</strong>, nigdzie nie jest ona tutaj tworzona, jest otrzymywana jako atrybut konstruktora, biblioteka Autofac wstrzykuje tą zależność.
-    </p>
-    
-    <p>
-      &nbsp;
-    </p>
-    
-    <h1>
-      Ogromne możliwości
-    </h1>
-    
+{% endhighlight %}
 
-      Autofac jest bardzo rozbudowaną biblioteką, pozwala w różny sposób tworzyć obiekty, zbudowany jest na bazie wzorca projektowego <strong>Fluent Interface</strong>, który to pozwala na kaskadowe wywoływanie metod z klasy macierzystej. Każda metoda zwraca referencję do klasy, tym samym bazujemy na jednej klasie i wykonujemy na niej operacje.
-    </p>
+Dotyczy to klasy **MainWindowView**, nigdzie nie jest ona tutaj tworzona, jest otrzymywana jako atrybut konstruktora, biblioteka Autofac wstrzykuje tą zależność.
     
+## Ogromne możliwości
+Autofac jest bardzo rozbudowaną biblioteką, pozwala w różny sposób tworzyć obiekty, zbudowany jest na bazie wzorca projektowego **Fluent Interface**, który to pozwala na kaskadowe wywoływanie metod z klasy macierzystej. Każda metoda zwraca referencję do klasy, tym samym bazujemy na jednej klasie i wykonujemy na niej operacje.
 
-      Zastosowanie fluenta daje możliwość zapisu kolejnych etapów rejestrowania klasy z wykorzystaniem separacji kropką.
-    </p>
+Zastosowanie fluenta daje możliwość zapisu kolejnych etapów rejestrowania klasy z wykorzystaniem separacji kropką.
     
+**builder**.**RegisterType**{:.color_1}<**TestClass**{:.color_2}>().**As**{:.color_1}<**ITestClass**{:.color_2}>();
 
-      <strong><span class="pln"> builder</span><span class="pun">.</span><span class="typ">RegisterType</span><span class="pun"><TestClass</span><span class="pun">>().</span><span class="typ">As</span><span class="pun"><</span><span class="typ">ITestClass</span><span class="pun">>();</span></strong>
-    </p>
-    
+W powyższym przykładzie rejestrujemy klase **TestClass** jako interfejs **ITestClass**.
 
-      W powyższym przykładzie rejestrujemy klase <strong>TestClass</strong> jako interfejs <strong>ITestClass</strong>.<img class="size-medium wp-image-529 alignright" src="http://godev.gemustudio.com/assets/images/2017/03/20151125-IMG-2015-11-25-9999_4-300x200.jpg" alt="" width="300" height="200" />
-    </p>
-    
+[![PictOgr - pierwszy kod][image1]][image1-big]{:.post-left-image}
 
-      Możemy także określić, iż klasa ma mieć tylko jedną instancję (<strong>Wzorzec Singleton</strong>) poprzez dopisanie
-    </p>
-    
+Możemy także określić, iż klasa ma mieć tylko jedną instancję (**Wzorzec Singleton**) poprzez dopisanie
 
-      <span class="pln">builder</span><span class="pun">.</span><span class="typ">RegisterType</span><span class="pun"><TestClass</span><span class="pun">>().</span><span class="typ">As</span><span class="pun"><</span><span class="typ">ITestClass</span><span class="pun">>()</span><strong>.SingleInstance();</strong>
-    </p>
+**builder**.**RegisterType**{:.color_1}<**TestClass**{:.color_2}>().**As**{:.color_1}<**ITestClass**{:.color_2}>().**SingleInstance**{:.color_1}();
     
-    <p>
-      &nbsp;
-    </p>
+Można zarejestrować klasę samodzielnie ją tworząc, taką operację wykonujemy poniższym poleceniem:
     
-    <p>
-      Można zarejestrować klasę samodzielnie ją tworząc, taką operację wykonujemy poniższym poleceniem:
-    </p>
-    
-    <p>
-      <strong><span class="pln">builder</span><span class="pun">.</span><span class="typ">RegisterInstance</span><span class="pun">(</span><span class="kwd">new</span> TestClass<span class="pun">())</span><span class="pun">.</span><span class="typ">As</span><span class="pun"><</span><span class="typ">ITestClass</span><span class="pun">>();</span></strong>
-    </p>
-    
-    <p>
-      &nbsp;
-    </p>
-    
-    <p>
-      Poniższy kodzik pokazuje, że można wykonać metodę w tworzonym obiekcie zaraz po jej utworzeniu.
-    </p>
-    
-    <p>
-      <strong><span class="pln">builder</span><span class="pun">.</span><span class="typ">RegisterType</span><span class="pun"><TestClass</span><span class="pun">>()</span><span class="pun">.</span><span class="typ">As</span><span class="pun"><<span class="typ">ITestClass</span></span><span class="pun">>()</span><span class="pun">.</span><span class="typ">OnActivated</span><span class="pun">(</span><span class="pln">e </span><span class="pun">=></span><span class="pln"> e</span><span class="pun">.</span><span class="typ">Instance</span><span class="pun">.</span><span class="typ">Test</span><span class="pun">());</span></strong>
-    </p>
-    
-    <p>
-      &nbsp;
-    </p>
-    
-    <h3 style="text-align: center; background: #FFFF9C; padding: 5pt;">
-      Teraz to już pozostaje tylko &#8222;wstrzykiwać&#8221;&#8230; zależności 😉
-    </h3>
-    
-    <p>
-      &nbsp;
-    </p>
-    
+**builder**.**RegisterInstance**{:.color_1}(new **TestClass**{:.color_2}()).**As**{:.color_1}<**ITestClass**{:.color_2}>();
 
-      Na dzisiaj tyle. Jestem w implementacji testów i CQRSa.
-    </p>
+Poniższy kodzik pokazuje, że można wykonać metodę w tworzonym obiekcie zaraz po jej utworzeniu.
     
+**builder**.**RegisterType**{:.color_1}<**TestClass**{:.color_2}>().**As**{:.color_1}<**ITestClass**{:.color_2}>().**OnActivated**{:.color_1}(e => e.**Instance**.**Test**{:.color_1}());
+    
+**Teraz to już pozostaje tylko &#8222;wstrzykiwać&#8221;&#8230; zależności 😉**{:.h-1}
 
-      Liczę na konstruktywne komentarze:).
-    </p>
+Na dzisiaj tyle. Jestem w implementacji testów i CQRSa.
+    
+Liczę na konstruktywne komentarze:).
     
 {% include_relative dsp.md %}
+
+[post]: /assets/images/2017/03/pictogr-pierwszy-kod/post.png
+[autofac-logo]: /assets/images/2017/03/pictogr-pierwszy-kod/autofac-logo.png
+[dependency-injection]: /assets/images/2017/03/pictogr-pierwszy-kod/dependency-injection.png
+
+[image1]: /assets/images/2017/03/pictogr-pierwszy-kod/image1.jpg
+[image1-big]: /assets/images/2017/03/pictogr-pierwszy-kod/image1-big.jpg
+
+[pictogr]: {{site.url}}/pictogr-pomysl
+[log4net]: https://logging.apache.org/log4net/
+[NLog]: http://nlog-project.org/

@@ -1,6 +1,6 @@
 ---
 id: 734
-title: 'Serverless &#8211; z czym się je i jak wyciągnąć więcej siana z usług w chmurze.'
+title: 'Serverless - z czym się je i jak wyciągnąć więcej siana z usług w chmurze.'
 date: 2017-04-11T11:51:14+00:00
 author: Krzysztof Owsiany
 layout: post
@@ -17,15 +17,15 @@ tags:
 <div id="dslc-theme-content">
   <div id="dslc-theme-content-inner">
 
-      Był czas na <strong>monolity</strong>, przyszedł czas na <strong>mikroserwisy</strong> pora jeszcze bardziej zminimalizować, zejść do poziomu wykonywania pojedynczych funkcji, czyli<strong> serverless</strong>.
+      Był czas na **monolity**, przyszedł czas na **mikroserwisy** pora jeszcze bardziej zminimalizować, zejść do poziomu wykonywania pojedynczych funkcji, czyli** serverless**.
     </p>
     
 
-      Osobiście jeszcze nie zetknąłem się praktycznie z tą usługą, nie mniej jednak widziałem dwie prezentacje na konferencji <strong><a href="http://2016.4developers.org.pl/pl/">4D w Warszawie</a>,</strong> tym samym temat mnie nieco zainteresował.
+      Osobiście jeszcze nie zetknąłem się praktycznie z tą usługą, nie mniej jednak widziałem dwie prezentacje na konferencji **<a href="http://2016.4developers.org.pl/pl/">4D w Warszawie</a>,** tym samym temat mnie nieco zainteresował.
     </p>
     
 
-      Niemniej jest ona bardzo interesująca. Na pewno w wielu przypadkach, gdzie dotychczas wymagane było stawienie kupy softu w celu wystawienia prostych usług będzie znacznie uproszczone i <strong>na pewno tańsze</strong>.
+      Niemniej jest ona bardzo interesująca. Na pewno w wielu przypadkach, gdzie dotychczas wymagane było stawienie kupy softu w celu wystawienia prostych usług będzie znacznie uproszczone i **na pewno tańsze**.
     </p>
     
     <h1 style="background: gold; padding: 5px;">
@@ -53,11 +53,11 @@ tags:
     </h1>
     
 
-      Nowszym podejściem jest wykorzystanie mikro-usług. Polega to na tym, iż rozbijamy na małe fragmenty budowaną aplikację i poszczególne moduły uruchamiamy <strong>1></strong> serwerach. Można znacznie prościej skalować system dzięki możliwości rozproszenia bardziej zasobożernych usług na osobne serwery.
+      Nowszym podejściem jest wykorzystanie mikro-usług. Polega to na tym, iż rozbijamy na małe fragmenty budowaną aplikację i poszczególne moduły uruchamiamy **1>** serwerach. Można znacznie prościej skalować system dzięki możliwości rozproszenia bardziej zasobożernych usług na osobne serwery.
     </p>
     
 
-      Wykorzystuje się w tej sytuacji tak zwane kontenery (np. <a href="https://www.docker.com/"><strong>Docker</strong></a>). To rozwiązanie powoduje zamknięcie mikro-serwisu w kontenerze, który jest tak naprawdę systemem operacyjnym specjalnie przygotowanym do obsługi danej usługi.
+      Wykorzystuje się w tej sytuacji tak zwane kontenery (np. <a href="https://www.docker.com/">**Docker**</a>). To rozwiązanie powoduje zamknięcie mikro-serwisu w kontenerze, który jest tak naprawdę systemem operacyjnym specjalnie przygotowanym do obsługi danej usługi.
     </p>
     
 
@@ -97,7 +97,7 @@ tags:
     </p>
     
     <p>
-      Nie interesują nas w tym przypadku aspekty techniczne związane z utrzymaniem środowiska do uruchomienia funkcji. Po prostu odpowiednio zaprogramowana i skonfigurowana <strong>funkcja</strong> jest nam udostępniona w formie jakiej potrzebujemy (np. JSON, XML).
+      Nie interesują nas w tym przypadku aspekty techniczne związane z utrzymaniem środowiska do uruchomienia funkcji. Po prostu odpowiednio zaprogramowana i skonfigurowana **funkcja** jest nam udostępniona w formie jakiej potrzebujemy (np. JSON, XML).
     </p>
     
     <p>
@@ -113,11 +113,11 @@ tags:
     </p>
     
     <p>
-      Można oszacować koszt jaki należy ponieść do obsługi aplikacji na stronie: <strong><a href="http://serverlesscalc.com/">serverlesscalc.com</a></strong>.
+      Można oszacować koszt jaki należy ponieść do obsługi aplikacji na stronie: **<a href="http://serverlesscalc.com/">serverlesscalc.com</a>**.
     </p>
     
     <p>
-      Obecnie wiele stron wykorzystuje zasoby z doskoku, na żądanie. Duża część zasobów jest marnotrawiona, dzięki wykorzystanie <strong>serverless</strong>, dostawca ma możliwość lepszego balansowania użycia serwera, tym samym wyciśnie więcej soków z infrastruktury co przełoży się intratnie na zyski.
+      Obecnie wiele stron wykorzystuje zasoby z doskoku, na żądanie. Duża część zasobów jest marnotrawiona, dzięki wykorzystanie **serverless**, dostawca ma możliwość lepszego balansowania użycia serwera, tym samym wyciśnie więcej soków z infrastruktury co przełoży się intratnie na zyski.
     </p>
     
     <p>

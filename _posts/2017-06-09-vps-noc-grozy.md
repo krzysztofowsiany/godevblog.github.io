@@ -18,11 +18,11 @@ tags:
 <div id="dslc-theme-content">
   <div id="dslc-theme-content-inner">
 
-      Początkiem roku podjąłem męską decyzję, migruje do <strong>Dockera</strong> przed końcem 2017 roku. Wczoraj ok <strong>22:00</strong> wykonuję sobie deploja na serwer (<strong>Laravel</strong>), a tu trach problem. <strong>Memmory_limit</strong> w php. Ano to się zwiększy w końcu sobie administruję sam!. <strong>Vim -> /memory_limit -> e -> 256M -> ESC -> :wq</strong>. Brak efektu! <strong>WTF</strong>! Aaa restart <strong>indianina</strong> pomoże&#8230; <span style="font-size: 24px;"><strong><span style="color: #ff0000;">TRAHHHH padł serwer WWW!</span></strong></span>
+      Początkiem roku podjąłem męską decyzję, migruje do **Dockera** przed końcem 2017 roku. Wczoraj ok **22:00** wykonuję sobie deploja na serwer (**Laravel**), a tu trach problem. **Memmory_limit** w php. Ano to się zwiększy w końcu sobie administruję sam!. **Vim -> /memory_limit -> e -> 256M -> ESC -> :wq**. Brak efektu! **WTF**! Aaa restart **indianina** pomoże&#8230; <span style="font-size: 24px;">**<span style="color: #ff0000;">TRAHHHH padł serwer WWW!</span>**</span>
     </p>
     
 
-      Aaaaaaaaaa i co teraz tyle stron projektów. <strong>OhFuck() ->BLOG!</strong>
+      Aaaaaaaaaa i co teraz tyle stron projektów. **OhFuck() ->BLOG!**
     </p>
     
 
@@ -62,7 +62,7 @@ tags:
     </p>
     
 
-      <strong>Oh fuck spałem! &#8211;</strong> a problem się nie naprawił.
+      **Oh fuck spałem! -** a problem się nie naprawił.
     </p>
     
 
@@ -74,5 +74,5 @@ tags:
     </p>
     
     <h2 style="background-color: lightyellow; text-align: center; padding: 10px;">
-      <strong>Ewidentnie pora pozbyć się tego potwora, i w końcu popływać z wielorybem.</strong>
+      **Ewidentnie pora pozbyć się tego potwora, i w końcu popływać z wielorybem.**
     </h2>

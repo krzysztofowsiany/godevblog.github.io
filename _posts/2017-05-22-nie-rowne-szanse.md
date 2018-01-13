@@ -45,15 +45,15 @@ categories:
     
     <div style="background-color: greenyellow; padding: 5px;">
       <h3 style="text-align: center;">
-        <strong>Jednak nigdy nie należy się poddawać i myśleć pozytywnie, o przyszłości, mar<a href="http://godev.gemustudio.com/assets/images/2017/05/blogging-photo-00226.jpg"><img class=" wp-image-1141 alignright" src="http://godev.gemustudio.com/assets/images/2017/05/blogging-photo-00226-300x200.jpg" alt="" width="191" height="127" srcset="http://godev.gemustudio.com/assets/images/2017/05/blogging-photo-00226-300x200.jpg 300w, http://godev.gemustudio.com/assets/images/2017/05/blogging-photo-00226-768x512.jpg 768w, http://godev.gemustudio.com/assets/images/2017/05/blogging-photo-00226.jpg 900w" sizes="(max-width: 191px) 100vw, 191px" /></a>zyć. </strong>
+        **Jednak nigdy nie należy się poddawać i myśleć pozytywnie, o przyszłości, mar<a href="http://godev.gemustudio.com/assets/images/2017/05/blogging-photo-00226.jpg"><img class=" wp-image-1141 alignright" src="http://godev.gemustudio.com/assets/images/2017/05/blogging-photo-00226-300x200.jpg" alt="" width="191" height="127" srcset="http://godev.gemustudio.com/assets/images/2017/05/blogging-photo-00226-300x200.jpg 300w, http://godev.gemustudio.com/assets/images/2017/05/blogging-photo-00226-768x512.jpg 768w, http://godev.gemustudio.com/assets/images/2017/05/blogging-photo-00226.jpg 900w" sizes="(max-width: 191px) 100vw, 191px" /></a>zyć. **
       </h3>
       
       <h3 style="text-align: center;">
-        <strong>Bez odpowiedniego nastawienia w trudnych chwilach jest ciężko!</strong>
+        **Bez odpowiedniego nastawienia w trudnych chwilach jest ciężko!**
       </h3>
       
       <h3 style="text-align: center;">
-        <strong>Człowiek jest jak grot strzały, wystrzelony powinien zawsze mknąć do przodu.</strong>
+        **Człowiek jest jak grot strzały, wystrzelony powinien zawsze mknąć do przodu.**
       </h3>
     </div>
     

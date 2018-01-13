@@ -1,5 +1,5 @@
 ---
-title: 'Daj Się Poznać 2017 &#8211; to już jest koniec&#8230;'
+title: 'Daj Się Poznać 2017 - to już jest koniec&#8230;'
 date: 2017-06-20T07:39:13+00:00
 author: Krzysztof Owsiany
 layout: post
@@ -16,7 +16,7 @@ tags:
 <div id="dslc-theme-content">
   <div id="dslc-theme-content-inner">
     <div style="text-align: justify;">
-      <a href="http://godev.gemustudio.com/assets/images/2017/06/20170617_173109.jpg"><img class="size-medium wp-image-1438 alignleft" src="http://godev.gemustudio.com/assets/images/2017/06/20170617_173109-300x169.jpg" alt="" width="300" height="169" srcset="http://godev.gemustudio.com/assets/images/2017/06/20170617_173109-300x169.jpg 300w, http://godev.gemustudio.com/assets/images/2017/06/20170617_173109-768x432.jpg 768w, http://godev.gemustudio.com/assets/images/2017/06/20170617_173109-1024x576.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px" /></a>Gala finałowa <strong>Daj Się Poznać 2017</strong> ostatecznie zamyka tegoroczną edycję konkursu spłodzonego w pocie czoła przez <a href="http://devstyle.pl"><strong>Macieja</strong>.</a>
+      <a href="http://godev.gemustudio.com/assets/images/2017/06/20170617_173109.jpg"><img class="size-medium wp-image-1438 alignleft" src="http://godev.gemustudio.com/assets/images/2017/06/20170617_173109-300x169.jpg" alt="" width="300" height="169" srcset="http://godev.gemustudio.com/assets/images/2017/06/20170617_173109-300x169.jpg 300w, http://godev.gemustudio.com/assets/images/2017/06/20170617_173109-768x432.jpg 768w, http://godev.gemustudio.com/assets/images/2017/06/20170617_173109-1024x576.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px" /></a>Gala finałowa **Daj Się Poznać 2017** ostatecznie zamyka tegoroczną edycję konkursu spłodzonego w pocie czoła przez <a href="http://devstyle.pl">**Macieja**.</a>
     </div>
     
     <div style="text-align: justify;">
@@ -44,7 +44,7 @@ tags:
     </p>
     
     <div style="text-align: justify;">
-      Prezentację oceniam dobrze, zważywszy na stres, zawsze mogło być lepiej.. lub gorzej&#8230; Tak że jestem zadowolony, <strong><a href="http://godev.gemustudio.com/2017/06/05/budowanie-zaangazowania-uzytkownikow-przy-wykorzystaniu-grywalizacji/">więcej na jej temat</a></strong>.
+      Prezentację oceniam dobrze, zważywszy na stres, zawsze mogło być lepiej.. lub gorzej&#8230; Tak że jestem zadowolony, **<a href="http://godev.gemustudio.com/2017/06/05/budowanie-zaangazowania-uzytkownikow-przy-wykorzystaniu-grywalizacji/">więcej na jej temat</a>**.
     </div>
     
     <div style="text-align: justify;">
@@ -64,7 +64,7 @@ tags:
     </div>
     
     <div style="text-align: justify;">
-      Pora była by naprawić błędy przeszłości, już w 2011 próbowałem swoich sił na <a href="https://www.youtube.com/playlist?list=PL4404D2D7BF05C63C"><strong>jutubie</strong>.</a> Być może to dobry czas by powrócić&#8230;
+      Pora była by naprawić błędy przeszłości, już w 2011 próbowałem swoich sił na <a href="https://www.youtube.com/playlist?list=PL4404D2D7BF05C63C">**jutubie**.</a> Być może to dobry czas by powrócić&#8230;
     </div>
     
     <div style="text-align: justify;">

@@ -64,11 +64,11 @@ tags:
     </p>
     
 
-      Warstwa <strong>Entities</strong> jest niezależna od żadnej warstwy, i przeważnie określa modele domenowe, warstwa wyżej <strong>Uses Cases</strong> jest zależna od warstwy <strong>Entities</strong> i aktywnie ją wykorzystuje.
+      Warstwa **Entities** jest niezależna od żadnej warstwy, i przeważnie określa modele domenowe, warstwa wyżej **Uses Cases** jest zależna od warstwy **Entities** i aktywnie ją wykorzystuje.
     </p>
     
 
-      Dodatkowo ilość warstw w aplikacji nie jest z góry określona i może być zupełnie inna niż na przykładzie. Ważne jest zachowanie reguł <strong>Clean Architecture</strong>.
+      Dodatkowo ilość warstw w aplikacji nie jest z góry określona i może być zupełnie inna niż na przykładzie. Ważne jest zachowanie reguł **Clean Architecture**.
     </p>
     
     <h1 style="background: LIGHTSALMON; padding: 5px;">
@@ -76,7 +76,7 @@ tags:
     </h1>
     
 
-      <strong><a href="http://jeffreypalermo.com/blog/the-onion-architecture-part-1/">Jeffrey Palermo</a></strong> przyrównał <strong>Clean Architecture</strong> do cebuli: <strong><em>&#8222;A good, clean architecture is built like an onion&#8221;</em></strong>.<img class="alignright" src="http://jeffreypalermo.com/files/media/image/WindowsLiveWriter/TheOnionArchitecturepart1_70A9/image%7B0%7D%5B59%5D.png" alt="Onion Architecture" width="366" height="259" />
+      **<a href="http://jeffreypalermo.com/blog/the-onion-architecture-part-1/">Jeffrey Palermo</a>** przyrównał **Clean Architecture** do cebuli: **<em>&#8222;A good, clean architecture is built like an onion&#8221;</em>**.<img class="alignright" src="http://jeffreypalermo.com/files/media/image/WindowsLiveWriter/TheOnionArchitecturepart1_70A9/image%7B0%7D%5B59%5D.png" alt="Onion Architecture" width="366" height="259" />
     </p>
     
 
@@ -88,7 +88,7 @@ tags:
     </p>
     
     <p>
-      Powiązanie z interfejsem użytkownika jest dość luźne i odbywa się za pośrednictwem <strong>REST/SOAP</strong>.
+      Powiązanie z interfejsem użytkownika jest dość luźne i odbywa się za pośrednictwem **REST/SOAP**.
     </p>
     
     <p>
@@ -96,7 +96,7 @@ tags:
     </p>
     
     <p>
-      W powyższym przypadku w samym centrum znajdują się modele domenowe (<strong>Domain-Driven Design</strong>).
+      W powyższym przypadku w samym centrum znajdują się modele domenowe (**Domain-Driven Design**).
     </p>
     
     <p>

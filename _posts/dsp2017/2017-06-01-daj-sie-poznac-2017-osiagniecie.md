@@ -1,6 +1,6 @@
 ---
 id: 1235
-title: 'Daj Się Poznać 2017 &#8211; moje osiągnięcie.'
+title: 'Daj Się Poznać 2017 - moje osiągnięcie.'
 date: 2017-06-01T10:10:41+00:00
 author: Krzysztof Owsiany
 layout: post
@@ -24,7 +24,7 @@ tags:
     
     <div>
   
-        Udało się, zakwalifikowałem się do finalistów DSP 2017, a to nie koniec. Zostałem wytypowany do 20 minutowego wystąpienia na <strong>Gali Finałowej Daj Się Poznać 2017</strong> &#8211; SZOK!
+        Udało się, zakwalifikowałem się do finalistów DSP 2017, a to nie koniec. Zostałem wytypowany do 20 minutowego wystąpienia na **Gali Finałowej Daj Się Poznać 2017** - SZOK!
       </p>
       
   
@@ -47,7 +47,7 @@ tags:
         </p>
         
     
-          Także do 6 czerwca 2017 muszę naskrobać temat, a potem go opracować &#8211; <strong>Run Forest Run!</strong>.
+          Także do 6 czerwca 2017 muszę naskrobać temat, a potem go opracować - **Run Forest Run!**.
         </p>
         
         <h3 style="text-align: justify;">
@@ -60,16 +60,16 @@ tags:
         
         <ul>
           <li style="text-align: justify;">
-            <strong>Maciejowi Aniserowiczowi</strong> &#8211; za wyknucie tak interesującej inicjatywy, a następnie wdrożenie jej na produkcję,
+            **Maciejowi Aniserowiczowi** - za wyknucie tak interesującej inicjatywy, a następnie wdrożenie jej na produkcję,
           </li>
           <li style="text-align: justify;">
-            <strong>Anicie Owsianej (żonie)</strong> &#8211; za wsparcie i wyrozumiałość i namawianie do uczestnictwa i przede wszystkim <strong>w wiarę we mnie</strong>,
+            **Anicie Owsianej (żonie)** - za wsparcie i wyrozumiałość i namawianie do uczestnictwa i przede wszystkim **w wiarę we mnie**,
           </li>
           <li style="text-align: justify;">
-            <strong>Mikołajowi Jakubowskiemu</strong> &#8211; za namówienie, wspieranie, i pomoc z tym cholernym W&#8230;
+            **Mikołajowi Jakubowskiemu** - za namówienie, wspieranie, i pomoc z tym cholernym W&#8230;
           </li>
           <li style="text-align: justify;">
-            <strong>Andrzejowi Krzywdzie</strong> &#8211; za ebooka, i wskazówki.
+            **Andrzejowi Krzywdzie** - za ebooka, i wskazówki.
           </li>
         </ul>
         
@@ -78,7 +78,7 @@ tags:
         </p>
         
         <h3 style="text-align: center;">
-          <strong>Bez tych osób nie dokonał bym tego co dokonałem, i dokonam!.</strong>
+          **Bez tych osób nie dokonał bym tego co dokonałem, i dokonam!.**
         </h3>
         
 {% include_relative dsp.md %}

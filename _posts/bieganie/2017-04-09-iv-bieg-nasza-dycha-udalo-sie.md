@@ -1,6 +1,6 @@
 ---
 id: 753
-title: 'IV Bieg &#8222;NASZA DYCHA&#8221; &#8211; udało się.'
+title: 'IV Bieg &#8222;NASZA DYCHA&#8221; - udało się.'
 date: 2017-04-09T21:46:06+00:00
 author: Krzysztof Owsiany
 layout: post
@@ -14,11 +14,11 @@ categories:
 <div id="dslc-theme-content">
   <div id="dslc-theme-content-inner">
 
-      <a href="http://godev.gemustudio.com/assets/images/2017/04/IMG_8782-2.jpg"><img class="alignleft wp-image-765 size-medium" src="http://godev.gemustudio.com/assets/images/2017/04/IMG_8782-2-300x251.jpg" alt="NASZA DYCHA" width="300" height="251" srcset="http://godev.gemustudio.com/assets/images/2017/04/IMG_8782-2-300x251.jpg 300w, http://godev.gemustudio.com/assets/images/2017/04/IMG_8782-2-768x643.jpg 768w, http://godev.gemustudio.com/assets/images/2017/04/IMG_8782-2-1024x858.jpg 1024w, http://godev.gemustudio.com/assets/images/2017/04/IMG_8782-2.jpg 1289w" sizes="(max-width: 300px) 100vw, 300px" /></a>Dzisiaj <strong>9 kwietnia, waga 103 kg. </strong>
+      <a href="http://godev.gemustudio.com/assets/images/2017/04/IMG_8782-2.jpg"><img class="alignleft wp-image-765 size-medium" src="http://godev.gemustudio.com/assets/images/2017/04/IMG_8782-2-300x251.jpg" alt="NASZA DYCHA" width="300" height="251" srcset="http://godev.gemustudio.com/assets/images/2017/04/IMG_8782-2-300x251.jpg 300w, http://godev.gemustudio.com/assets/images/2017/04/IMG_8782-2-768x643.jpg 768w, http://godev.gemustudio.com/assets/images/2017/04/IMG_8782-2-1024x858.jpg 1024w, http://godev.gemustudio.com/assets/images/2017/04/IMG_8782-2.jpg 1289w" sizes="(max-width: 300px) 100vw, 300px" /></a>Dzisiaj **9 kwietnia, waga 103 kg. **
     </p>
     
 
-      Udało się, pokonać swój rekord na trasie <strong>10 km</strong>. I pomimo końcowych wyników i braku medalu (zabrakło). To jestem zadowolony. Bieg był dość ciekawy i prowadził uliczkami miasta <a href="https://www.google.pl/maps/place/Gosty%C5%84/data=!4m2!3m1!1s0x47050c24afe812fd:0xfd09e37907ee05ce?sa=X&ved=0ahUKEwjwiqX7ipjTAhUySJoKHdTtCfsQ8gEIfTAL">Gostyń</a>.
+      Udało się, pokonać swój rekord na trasie **10 km**. I pomimo końcowych wyników i braku medalu (zabrakło). To jestem zadowolony. Bieg był dość ciekawy i prowadził uliczkami miasta <a href="https://www.google.pl/maps/place/Gosty%C5%84/data=!4m2!3m1!1s0x47050c24afe812fd:0xfd09e37907ee05ce?sa=X&ved=0ahUKEwjwiqX7ipjTAhUySJoKHdTtCfsQ8gEIfTAL">Gostyń</a>.
     </p>
     
 
@@ -57,7 +57,7 @@ categories:
     </p>
     
     <p>
-      Pozostał teraz ból: pleców, kostek, (o dziwo kolana ok). Ale takie są uroki biegania &#8211;<strong> z nadwagą</strong>
+      Pozostał teraz ból: pleców, kostek, (o dziwo kolana ok). Ale takie są uroki biegania -** z nadwagą**
     </p>
     
     <p>

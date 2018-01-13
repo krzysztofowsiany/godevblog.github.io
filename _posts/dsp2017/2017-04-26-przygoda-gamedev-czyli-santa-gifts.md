@@ -43,7 +43,7 @@ tags:
     </p>
     
 
-      Gra budowana była w oparciu o <strong>Andorid Studio</strong> + <strong>LibGDX</strong>, z biblioteką styczność mieliśmy wcześniej na poziomie doświadczalnym.
+      Gra budowana była w oparciu o **Andorid Studio** + **LibGDX**, z biblioteką styczność mieliśmy wcześniej na poziomie doświadczalnym.
     </p>
     
     <h2 style="text-align: center;">
@@ -51,7 +51,7 @@ tags:
     </h2>
     
     <h2 style="text-align: center;">
-      <strong><a href="https://play.google.com/store/apps/details?id=com.gemu.santas_gifts.android">https://play.google.com/store/apps/details?id=com.gemu.santas_gifts.android</a></strong>
+      **<a href="https://play.google.com/store/apps/details?id=com.gemu.santas_gifts.android">https://play.google.com/store/apps/details?id=com.gemu.santas_gifts.android</a>**
     </h2>
     
     <p>
@@ -66,7 +66,7 @@ tags:
       <li style="list-style-type: none;">
         <ul>
           <li style="text-align: justify;">
-            <strong>grafika</strong> &#8211; warto korzystać z pomocy grafika, profesjonalisty bądź z zamiłowania, nie tworzyłem grafiki ale wiem jaki to ból,
+            **grafika** - warto korzystać z pomocy grafika, profesjonalisty bądź z zamiłowania, nie tworzyłem grafiki ale wiem jaki to ból,
           </li>
         </ul>
       </li>
@@ -80,7 +80,7 @@ tags:
       <li style="list-style-type: none;">
         <ul>
           <li style="text-align: justify;">
-            <strong>LibGDX</strong> &#8211; dobre poznanie biblioteki ma duże znaczenie, i przyśpiesza tworzenie, na przykładzie ładowania Assetów, nacięliśmy się na budowanie mechanizmu jaki był już zaimplementowany i to znacznie lepiej aniżeli nasze dziwadło,
+            **LibGDX** - dobre poznanie biblioteki ma duże znaczenie, i przyśpiesza tworzenie, na przykładzie ładowania Assetów, nacięliśmy się na budowanie mechanizmu jaki był już zaimplementowany i to znacznie lepiej aniżeli nasze dziwadło,
           </li>
         </ul>
       </li>
@@ -94,7 +94,7 @@ tags:
       <li style="list-style-type: none;">
         <ul>
           <li style="text-align: justify;">
-            <strong>balansowanie</strong> &#8211; stworzenie gry to nie koniec, adaptacja rozgrywki to jest &#8222;masakra&#8221; jak ustawić by to miało sens, kiedy i ile punktów doliczać, z jaką szybkością powinno rosnąć doświadczenie lub trudność gry. Przy tworzeniu warto stworzyć luźne powiązanie do tych danych tak by można było potem łatwo korygować mechanikę gry, dobrze było by też stworzyć mechanizm aktualizowania tych parametrów, tak by po instalacji gry na urządzeniu mieć wpływ na grę,
+            **balansowanie** - stworzenie gry to nie koniec, adaptacja rozgrywki to jest &#8222;masakra&#8221; jak ustawić by to miało sens, kiedy i ile punktów doliczać, z jaką szybkością powinno rosnąć doświadczenie lub trudność gry. Przy tworzeniu warto stworzyć luźne powiązanie do tych danych tak by można było potem łatwo korygować mechanikę gry, dobrze było by też stworzyć mechanizm aktualizowania tych parametrów, tak by po instalacji gry na urządzeniu mieć wpływ na grę,
           </li>
         </ul>
       </li>
@@ -108,7 +108,7 @@ tags:
       <li style="list-style-type: none;">
         <ul>
           <li style="text-align: justify;">
-            <strong>oryginalność</strong> &#8211; duże <a href="http://godev.gemustudio.com/assets/images/2017/04/Screenshot_2015-12-16-00-50-52.png"><img class="size-medium wp-image-961 alignleft" src="http://godev.gemustudio.com/assets/images/2017/04/Screenshot_2015-12-16-00-50-52-300x169.png" alt="" width="300" height="169" srcset="http://godev.gemustudio.com/assets/images/2017/04/Screenshot_2015-12-16-00-50-52-300x169.png 300w, http://godev.gemustudio.com/assets/images/2017/04/Screenshot_2015-12-16-00-50-52-768x432.png 768w, http://godev.gemustudio.com/assets/images/2017/04/Screenshot_2015-12-16-00-50-52-1024x576.png 1024w" sizes="(max-width: 300px) 100vw, 300px" /></a>ma znaczenie, w przypadku naszej gry był to spontan, tak duża konkurencja powoduje, że ciężko jest się przebić i na razie się nie udało. Gra doczekała się kolejnych aktualizacji i są pomysły na dalszą rozbudowę, która doda więcej oryginalności,
+            **oryginalność** - duże <a href="http://godev.gemustudio.com/assets/images/2017/04/Screenshot_2015-12-16-00-50-52.png"><img class="size-medium wp-image-961 alignleft" src="http://godev.gemustudio.com/assets/images/2017/04/Screenshot_2015-12-16-00-50-52-300x169.png" alt="" width="300" height="169" srcset="http://godev.gemustudio.com/assets/images/2017/04/Screenshot_2015-12-16-00-50-52-300x169.png 300w, http://godev.gemustudio.com/assets/images/2017/04/Screenshot_2015-12-16-00-50-52-768x432.png 768w, http://godev.gemustudio.com/assets/images/2017/04/Screenshot_2015-12-16-00-50-52-1024x576.png 1024w" sizes="(max-width: 300px) 100vw, 300px" /></a>ma znaczenie, w przypadku naszej gry był to spontan, tak duża konkurencja powoduje, że ciężko jest się przebić i na razie się nie udało. Gra doczekała się kolejnych aktualizacji i są pomysły na dalszą rozbudowę, która doda więcej oryginalności,
           </li>
         </ul>
       </li>
@@ -122,7 +122,7 @@ tags:
       <li style="list-style-type: none;">
         <ul>
           <li style="text-align: justify;">
-            <strong>zabawa</strong> &#8211; tak to jest ważne by gra dawała radość, i nie była nudna,
+            **zabawa** - tak to jest ważne by gra dawała radość, i nie była nudna,
           </li>
         </ul>
       </li>
@@ -136,7 +136,7 @@ tags:
       <li style="list-style-type: none;">
         <ul>
           <li style="text-align: justify;">
-            <strong>Google Play</strong> &#8211; to nie jest bajka, trzeba się trochę postarać by wydać grę, wiele informacji wprowadzić nim będziemy mogli ujrzeć grę na sklepie, ale nie warto się zrażać, takie są zasady i nie mamy na nie wpływu, <strong>banalna gra</strong> &#8211; nigdy nie jest banalna, wymaga wiele czasu by wyszło coś grywalnego, tworzenie gier<br /> jest trudne ale daje ogromną satysfakcję.
+            **Google Play** - to nie jest bajka, trzeba się trochę postarać by wydać grę, wiele informacji wprowadzić nim będziemy mogli ujrzeć grę na sklepie, ale nie warto się zrażać, takie są zasady i nie mamy na nie wpływu, **banalna gra** - nigdy nie jest banalna, wymaga wiele czasu by wyszło coś grywalnego, tworzenie gier<br /> jest trudne ale daje ogromną satysfakcję.
           </li>
         </ul>
       </li>
@@ -151,7 +151,7 @@ tags:
     </p>
     
     <h3 style="text-align: center; background-color: yellow; padding: 10px;">
-      <strong>Nie zawsze ważny jest hajs, liczy się też dobra zabawa</strong> <strong>zwłaszcza przy tworzeniu gier&#8230;</strong>
+      **Nie zawsze ważny jest hajs, liczy się też dobra zabawa** **zwłaszcza przy tworzeniu gier&#8230;**
     </h3>
     
     <p>
@@ -159,7 +159,7 @@ tags:
     </p>
     
     <h3 style="text-align: center;">
-      <strong>Dziękuję za wytrwałość i zachęcam do komentowania.</strong>
+      **Dziękuję za wytrwałość i zachęcam do komentowania.**
     </h3>
     
 {% include_relative dsp.md %}

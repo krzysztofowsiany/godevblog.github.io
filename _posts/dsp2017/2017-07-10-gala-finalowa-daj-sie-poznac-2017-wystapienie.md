@@ -1,6 +1,6 @@
 ---
 
-title: 'Gala Finałowa Daj Się Poznać 2017 &#8211; i Moje wystąpienie.'
+title: 'Gala Finałowa Daj Się Poznać 2017 - i Moje wystąpienie.'
 date: 2017-07-10T08:29:44+00:00
 author: Krzysztof Owsiany
 layout: post
@@ -21,7 +21,7 @@ tags:
     </h2>
     
 
-      <span style="font-size: 16px; font-family: arial, helvetica, sans-serif;"><strong>Hohoho</strong> jaka miła niespodzianka w poniedziałek. <a href="http://devstyle.pl"><strong>Maciej Aniserowicz</strong></a> zamieścił nagrania z wystąpień na <strong>Gali Finałowej Konkursu</strong> <a href="http://dajsiepoznac.pl"><strong>Daj Się Poznać 2017</strong></a> jaka się odbyła w siedzibie <strong><a href="http://microsoft.com.pl">Microsoftu</a></strong>.</span>
+      <span style="font-size: 16px; font-family: arial, helvetica, sans-serif;">**Hohoho** jaka miła niespodzianka w poniedziałek. <a href="http://devstyle.pl">**Maciej Aniserowicz**</a> zamieścił nagrania z wystąpień na **Gali Finałowej Konkursu** <a href="http://dajsiepoznac.pl">**Daj Się Poznać 2017**</a> jaka się odbyła w siedzibie **<a href="http://microsoft.com.pl">Microsoftu</a>**.</span>
     </p>
      <!--break-->
 
@@ -53,7 +53,7 @@ tags:
     </h2>
     
 
-      <span style="font-family: arial, helvetica, sans-serif; font-size: 16px;">W trakcie gali odbyło się <strong>15</strong> debiutanckich prelekcji, jedne wypadły gorzej (<a href="https://youtu.be/i3QY6uGDLLI?list=PLN2dx2pIJO6MmC_lihDpvc5jQ6LE7osSK">jak jak moja</a>), inne dużo lepiej.:D</span>
+      <span style="font-family: arial, helvetica, sans-serif; font-size: 16px;">W trakcie gali odbyło się **15** debiutanckich prelekcji, jedne wypadły gorzej (<a href="https://youtu.be/i3QY6uGDLLI?list=PLN2dx2pIJO6MmC_lihDpvc5jQ6LE7osSK">jak jak moja</a>), inne dużo lepiej.:D</span>
     </p>
     
     <div style="text-align: justify;">
@@ -63,7 +63,7 @@ tags:
     </p>
     
     <p style="background-color: azure; padding: 10px; text-align: center;">
-      <span style="font-size: 20px;"><strong>Tak wiem króciutko, jednak powyższe wideło-treści dostarczają znacznie więcej aniżeli jestem wstanie obecnie przekazać. Zapraszam do oglądania!</strong></span>
+      <span style="font-size: 20px;">**Tak wiem króciutko, jednak powyższe wideło-treści dostarczają znacznie więcej aniżeli jestem wstanie obecnie przekazać. Zapraszam do oglądania!**</span>
     </p>
     
 {% include_relative dsp.md %}

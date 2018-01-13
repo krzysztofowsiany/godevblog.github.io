@@ -16,7 +16,7 @@ tags:
 <div id="dslc-theme-content">
   <div id="dslc-theme-content-inner">
 
-      I to właśnie dzisiaj, ten wspaniały dzień, poprawki w <strong>Legacy Code</strong> z przed, nie wiem już sprzed kiedy!
+      I to właśnie dzisiaj, ten wspaniały dzień, poprawki w **Legacy Code** z przed, nie wiem już sprzed kiedy!
     </p>
     
     <p>
@@ -28,7 +28,7 @@ tags:
     </p>
     
 
-      Choć nie jest to mój kod, to też tak kodowałem. :D. A że dodatkowo <strong>PHP</strong> nie lubię to jest to podwójnie uciążliwe:).
+      Choć nie jest to mój kod, to też tak kodowałem. :D. A że dodatkowo **PHP** nie lubię to jest to podwójnie uciążliwe:).
     </p>
     
 
@@ -40,7 +40,7 @@ tags:
     </p>
     
     <h2 style="text-align: center;">
-      <strong>Nie czyń drugiemu co tobie nie miłe. </strong>
+      **Nie czyń drugiemu co tobie nie miłe. **
     </h2>
     
 {% include_relative dsp.md %}

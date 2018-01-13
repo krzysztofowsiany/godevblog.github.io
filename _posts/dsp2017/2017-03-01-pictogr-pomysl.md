@@ -1,5 +1,5 @@
 ---
-title: 'PictOgr &#8211; pomysł na realizację.'
+title: 'PictOgr - pomysł na realizację.'
 date: 2017-03-01T22:28:27+00:00
 author: Krzysztof Owsiany
 layout: post

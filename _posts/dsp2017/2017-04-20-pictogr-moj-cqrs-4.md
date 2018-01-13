@@ -1,6 +1,6 @@
 ---
 id: 828
-title: 'PictOgr &#8211; mój CQRS -4-'
+title: 'PictOgr - mój CQRS -4-'
 date: 2017-04-20T21:44:59+00:00
 author: Krzysztof Owsiany
 layout: post
@@ -21,11 +21,11 @@ tags:
 <div id="dslc-theme-content">
   <div id="dslc-theme-content-inner">
     <h1 style="text-align: center; background: #FFFF9C; padding: 5pt;">
-      Command Query Responsibility Segregation &#8211; 4 &#8211;
+      Command Query Responsibility Segregation - 4 -
     </h1>
     
 
-      Zapowiadałem na ten wpis, iż będzie on dotyczył wykorzystania <strong>ES</strong> oraz walidatorów, jednak powstał mały bałagan w projekcie czego skutkiem było wyodrębnienie <strong>CQRS</strong> do osobnego repozytorium.<img class="alignright" src="https://cdn.travis-ci.org/assets/images/logos/TravisCI-Mascot-1-20feeadb48fc2492ba741d89cb5a5c8a.png" alt="CQRS" width="226" height="224" />
+      Zapowiadałem na ten wpis, iż będzie on dotyczył wykorzystania **ES** oraz walidatorów, jednak powstał mały bałagan w projekcie czego skutkiem było wyodrębnienie **CQRS** do osobnego repozytorium.<img class="alignright" src="https://cdn.travis-ci.org/assets/images/logos/TravisCI-Mascot-1-20feeadb48fc2492ba741d89cb5a5c8a.png" alt="CQRS" width="226" height="224" />
     </p>
     
     <p>
@@ -45,7 +45,7 @@ tags:
     </p>
     
 
-      Takie podejście pozwoliło mi na wykorzystanie po raz pierwszy mechanizmu pod modułów w <strong>GIT,</strong><strong> EXP rośnie.:)</strong>
+      Takie podejście pozwoliło mi na wykorzystanie po raz pierwszy mechanizmu pod modułów w **GIT,**** EXP rośnie.:)**
     </p>
     
 
@@ -57,11 +57,11 @@ tags:
     </p>
     
     <h1>
-      Pod moduły &#8211; GIT
+      Pod moduły - GIT
     </h1>
     
     <p>
-      Do konfiguracji pod modułów służy plik o nazwie <strong>.gitmodules</strong>.
+      Do konfiguracji pod modułów służy plik o nazwie **.gitmodules**.
     </p>
     
     <pre class="lang:c# decode:true" title="Plik .gitmodules.">[submodule "CQRS"]
@@ -75,7 +75,7 @@ tags:
     </p>
     
 
-      Po dodaniu pliku .gitmodules wydając polecenie <strong>git submodule update</strong> aktualizujemy dodane podmoduły.
+      Po dodaniu pliku .gitmodules wydając polecenie **git submodule update** aktualizujemy dodane podmoduły.
     </p>
     
     <p>
@@ -87,11 +87,11 @@ tags:
     </h1>
     
     <p>
-      Dodatkowo zaadaptowałem projekt tak by można było wykorzystać narzędzie o nazwie <strong><a href="https://travis-ci.org/">Travis-CI.</a></strong>
+      Dodatkowo zaadaptowałem projekt tak by można było wykorzystać narzędzie o nazwie **<a href="https://travis-ci.org/">Travis-CI.</a>**
     </p>
     
     <p>
-      Jest to darmowy serwer (dla oprogramowania <strong>Open Source)</strong> ciągłej integracji pozwalający na kontrolowanie poprawności działania aplikacji poprzez przygotowanie środowiska, instalację zależności, budowaniu, testowaniu, i raportowaniu tego procederu.
+      Jest to darmowy serwer (dla oprogramowania **Open Source)** ciągłej integracji pozwalający na kontrolowanie poprawności działania aplikacji poprzez przygotowanie środowiska, instalację zależności, budowaniu, testowaniu, i raportowaniu tego procederu.
     </p>
     
     <p>
@@ -99,7 +99,7 @@ tags:
     </p>
     
     <p>
-      Travis wymaga konfiguracji zapisanej w pliku o nazwie <strong>.travis.yml</strong>.
+      Travis wymaga konfiguracji zapisanej w pliku o nazwie **.travis.yml**.
     </p>
     
     <pre class="lang:yaml decode:true " title="Konfiguracja Travis-CI dla biblioteki CQRS.">language: csharp
@@ -112,15 +112,15 @@ script:
   - mono ./testrunner/xunit.runners.1.9.2/tools/xunit.console.clr4.exe ./CQRS.Tests/bin/Debug/CQRS.Tests.dll</pre>
     
     <p>
-      Plik ten daje duże możliwości, i przykład jaki wykorzystałem jest bardzo prosty, polegający na określeniu plików projektu, instalacji wymaganych zależności, następnie uruchomienie samego skryptu budowania <strong>xbuild</strong> oraz wykonania testów.
+      Plik ten daje duże możliwości, i przykład jaki wykorzystałem jest bardzo prosty, polegający na określeniu plików projektu, instalacji wymaganych zależności, następnie uruchomienie samego skryptu budowania **xbuild** oraz wykonania testów.
     </p>
     
 
-      Więcej o konfiguracji Travisa przy pomocy yamla pod adresem: <strong>https://docs.travis-ci.com/user/customizing-the-build</strong>.
+      Więcej o konfiguracji Travisa przy pomocy yamla pod adresem: **https://docs.travis-ci.com/user/customizing-the-build**.
     </p>
     
     <p>
-      Co ciekawe całe środowisko uruchomieniowe działa na Linuxie dlatego wykorzystywana jest tutaj platforma <strong><a href="http://www.mono-project.com/docs/about-mono/supported-platforms/linux/">mono</a></strong>.
+      Co ciekawe całe środowisko uruchomieniowe działa na Linuxie dlatego wykorzystywana jest tutaj platforma **<a href="http://www.mono-project.com/docs/about-mono/supported-platforms/linux/">mono</a>**.
     </p>
     
     <p>
@@ -136,7 +136,7 @@ script:
     </p>
     
     <p style="text-align: center;">
-      <strong><a href="https://travis-ci.org/krzysztofowsiany/cqrs"><img class="aligncenter" src="https://travis-ci.org/krzysztofowsiany/cqrs.svg?branch=master" /></a></strong>
+      **<a href="https://travis-ci.org/krzysztofowsiany/cqrs"><img class="aligncenter" src="https://travis-ci.org/krzysztofowsiany/cqrs.svg?branch=master" /></a>**
     </p>
     
     <p>
@@ -159,7 +159,7 @@ script:
     </p>
     
     <h3 style="text-align: justify;">
-      <strong>Linki:</strong>
+      **Linki:**
     </h3>
     
     <ul>
@@ -185,7 +185,7 @@ script:
     </p>
     
     <h3 style="text-align: center;">
-      <strong>Dziękuję za wytrwałość i zachęcam do komentowania.</strong>
+      **Dziękuję za wytrwałość i zachęcam do komentowania.**
     </h3>
     
  {% include_relative dsp.md %}

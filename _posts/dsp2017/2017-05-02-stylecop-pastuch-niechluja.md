@@ -1,6 +1,6 @@
 ---
 id: 895
-title: 'StyleCop &#8211; pastuch na niechluja!'
+title: 'StyleCop - pastuch na niechluja!'
 date: 2017-05-02T22:44:41+00:00
 author: Krzysztof Owsiany
 layout: post
@@ -17,15 +17,15 @@ tags:
 <div id="dslc-theme-content">
   <div id="dslc-theme-content-inner">
 
-      Jest pewien sprytny sposób na niechluja w kodzie. Można zmusić kodera do trzymania się określonej etykiety kodowania przy pomocy narzędzia o nazwie <strong><a href="https://stylecop.codeplex.com/">StyleCop</a>.</strong>
+      Jest pewien sprytny sposób na niechluja w kodzie. Można zmusić kodera do trzymania się określonej etykiety kodowania przy pomocy narzędzia o nazwie **<a href="https://stylecop.codeplex.com/">StyleCop</a>.**
     </p>
     
 
-      W celu instalacji należy uwarzyć magiczną miksturę w kotle o nazwie <strong>Package Manager Console</strong>, <strong>Install-Package StyleCop.Analyzers.</strong>
+      W celu instalacji należy uwarzyć magiczną miksturę w kotle o nazwie **Package Manager Console**, **Install-Package StyleCop.Analyzers.**
     </p>
     
 
-      Po instalacji w okienku <strong>Solution Explorer</strong> znajdziemy w referencjach zainstalowanego <strong>StyleCopa</strong>, zawiera on w sobie listę dyrektyw jakie będzie można skonfigurować wedle własnego uznania.
+      Po instalacji w okienku **Solution Explorer** znajdziemy w referencjach zainstalowanego **StyleCopa**, zawiera on w sobie listę dyrektyw jakie będzie można skonfigurować wedle własnego uznania.
     </p>
     
 
@@ -33,7 +33,7 @@ tags:
     </p>
     
 
-      <strong>VS</strong> podczas kompilacji wyrzuci listę ostrzeżeń dotyczących niezgodności w stylu kodowania. Obrazuje to poniższy zrzut ekranu.
+      **VS** podczas kompilacji wyrzuci listę ostrzeżeń dotyczących niezgodności w stylu kodowania. Obrazuje to poniższy zrzut ekranu.
     </p>
     
     <p>
@@ -41,11 +41,11 @@ tags:
     </p>
     
 
-      W powyższym przypadku <strong>StyleCop</strong> sugeruje, iż usingi powinny być objęte w obszar przestrzeni nazw. Wskazuje na to odpowiednia dyrektywa <strong>SA1200.</strong>
+      W powyższym przypadku **StyleCop** sugeruje, iż usingi powinny być objęte w obszar przestrzeni nazw. Wskazuje na to odpowiednia dyrektywa **SA1200.**
     </p>
     
 
-      I teraz gdzie ten pastuch, a proste obecnie niespójności w stylu kodowania skutkują jedynie ostrzeżeniami. Można skonfigurować <strong>StyleCop</strong> tak by wywalał błędy:D. Tym samym zmuszał do poprawy.
+      I teraz gdzie ten pastuch, a proste obecnie niespójności w stylu kodowania skutkują jedynie ostrzeżeniami. Można skonfigurować **StyleCop** tak by wywalał błędy:D. Tym samym zmuszał do poprawy.
     </p>
     
     <p>
@@ -62,7 +62,7 @@ tags:
       </p>
       
       <div style="text-align: justify;">
-        Zbrodni tej dokonać można  poprzez wskazanie dyrektywy w referencjach analizatora <strong>StyleCop.Analyzers</strong>. Wciśnięcie prawego przycisku myszki, wyborze <strong>Set Rule Set Severity</strong> i zaznaczeniu <strong>Error</strong>. Efekt działania na zrzucie poniżej.
+        Zbrodni tej dokonać można  poprzez wskazanie dyrektywy w referencjach analizatora **StyleCop.Analyzers**. Wciśnięcie prawego przycisku myszki, wyborze **Set Rule Set Severity** i zaznaczeniu **Error**. Efekt działania na zrzucie poniżej.
       </div>
     </div>
     
@@ -79,7 +79,7 @@ tags:
     </p>
     
     <div style="text-align: justify;">
-      Każdy fragment kodu nie spełniający dyrektywy <strong>SA1200</strong>, będzie powodował błąd, czyli będzie do poprawy, nawet najdrobniejszy szczegół jak za dużo spacji za średnikiem, czy za dużo pustych linii między metodami, jest tego wiele zachęcam do przetestowania!
+      Każdy fragment kodu nie spełniający dyrektywy **SA1200**, będzie powodował błąd, czyli będzie do poprawy, nawet najdrobniejszy szczegół jak za dużo spacji za średnikiem, czy za dużo pustych linii między metodami, jest tego wiele zachęcam do przetestowania!
     </div>
     
     <p>

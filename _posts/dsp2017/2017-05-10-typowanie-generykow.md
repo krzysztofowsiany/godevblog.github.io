@@ -33,7 +33,7 @@ tags:
 }</pre>
     
 
-      Typ generyczny posiada swoją nazwę symboliczną, bardzo często wykorzystuje się  po prostu dużą literę <strong>T</strong>. Jednak nic nie stoi na przeszkodzie by nazwę określić w bardziej logiczny ciąg, np: <strong>TCompareType</strong>. Dobrą praktyką jest pozostawienie przedrostka T, która jak mniemam pochodzi z typów generycznych stosowanych w języku <strong>C++</strong> określanych jako <strong>T</strong>emplate.
+      Typ generyczny posiada swoją nazwę symboliczną, bardzo często wykorzystuje się  po prostu dużą literę **T**. Jednak nic nie stoi na przeszkodzie by nazwę określić w bardziej logiczny ciąg, np: **TCompareType**. Dobrą praktyką jest pozostawienie przedrostka T, która jak mniemam pochodzi z typów generycznych stosowanych w języku **C++** określanych jako **T**emplate.
     </p>
     
     <pre class="lang:c# decode:true" title="Użycie typu generycznego.">var comparer = new SampleCompareClass&lt;int&gt;();
@@ -43,7 +43,7 @@ var b = 2;
 var isEqual = comparer.IsEqual(a, b);</pre>
     
     <p style="text-align: center;">
-      <strong>Nazewnictwo szczególnie przydatne gdy użyjemy więcej typów generycznych.</strong>
+      **Nazewnictwo szczególnie przydatne gdy użyjemy więcej typów generycznych.**
     </p>
     
     <h1 style="text-align: justify;">
@@ -51,11 +51,11 @@ var isEqual = comparer.IsEqual(a, b);</pre>
     </h1>
     
 
-      Świat idzie do przodu, języki programowania także ewoluują, i tak doczekaliśmy się rozszerzenia możliwości typów generycznych o ograniczenia. Do tej pory można było przekazać prawie dowolny typ do klasy generycznej, obecnie można to bardzo ograniczyć tym samym gdy <strong>dev</strong> spróbuje przekazać nie odpowiedni typ, kompilator strzeli errorem prosto w &#8230;
+      Świat idzie do przodu, języki programowania także ewoluują, i tak doczekaliśmy się rozszerzenia możliwości typów generycznych o ograniczenia. Do tej pory można było przekazać prawie dowolny typ do klasy generycznej, obecnie można to bardzo ograniczyć tym samym gdy **dev** spróbuje przekazać nie odpowiedni typ, kompilator strzeli errorem prosto w &#8230;
     </p>
     
 
-      Od wujka &#8222;Billa&#8221;, dostajemy słówko kluczowe <strong>where</strong>, i tym samym możemy określić konkretny typ jaki może zostać &#8222;wstrzyknięty&#8221; do klasy generycznej.
+      Od wujka &#8222;Billa&#8221;, dostajemy słówko kluczowe **where**, i tym samym możemy określić konkretny typ jaki może zostać &#8222;wstrzyknięty&#8221; do klasy generycznej.
     </p>
     
     <pre class="lang:c# decode:true" title="Klasa generyczna z ograniczeniem i użycie.">public class SimpleType {
@@ -78,11 +78,11 @@ public class SampleCompareClass&lt;TCompareType&gt; where TCompareType : SimpleT
     </p>
     
     <p>
-      Składnia użycia ograniczenia to: <span style="color: #3355ff;"><strong>where TGenericTypeName : TypeName</strong></span>.
+      Składnia użycia ograniczenia to: <span style="color: #3355ff;">**where TGenericTypeName : TypeName**</span>.
     </p>
     
 
-      Jak można  zauważyć implementacja metody <strong>IsEqual</strong> uległa zmianie, wykorzystuje właściwość <strong>Value</strong>, w tym przypadku jeżeli przekażemy niespójny typ do klasy generycznej, nie będzie on posiadał właściwości <strong>Value</strong>, to walnie błędem.
+      Jak można  zauważyć implementacja metody **IsEqual** uległa zmianie, wykorzystuje właściwość **Value**, w tym przypadku jeżeli przekażemy niespójny typ do klasy generycznej, nie będzie on posiadał właściwości **Value**, to walnie błędem.
     </p>
     
     <p>
@@ -90,7 +90,7 @@ public class SampleCompareClass&lt;TCompareType&gt; where TCompareType : SimpleT
     </p>
     
     <p>
-      <span style="color: #0055ff;">public class SampleClass<strong>TTypeOne</strong>, <strong>TTypeTwo</strong> where <strong>TTypeOne : Credential1</strong>, where TTypeTwo : <strong>Credential2</strong>{ }</span>
+      <span style="color: #0055ff;">public class SampleClass**TTypeOne**, **TTypeTwo** where **TTypeOne : Credential1**, where TTypeTwo : **Credential2**{ }</span>
     </p>
     
     <p>
@@ -98,7 +98,7 @@ public class SampleCompareClass&lt;TCompareType&gt; where TCompareType : SimpleT
     </p>
     
 
-      <span style="color: #3355ff;">public class SampleClass<<strong>TType</strong>> where <strong>TType</strong><strong>: Credential1</strong>, <strong>Credential2 </strong>{ }</span>
+      <span style="color: #3355ff;">public class SampleClass<**TType**> where **TType****: Credential1**, **Credential2 **{ }</span>
     </p>
     
     <p>
@@ -115,22 +115,22 @@ public class SampleCompareClass&lt;TCompareType&gt; where TCompareType : SimpleT
     
     <ul>
       <li style="text-align: justify;">
-        <strong>where TStruct: struct</strong> &#8211; ten typ ograniczenia określa, iż można wstrzyknąć do klasy generycznej typy wartości z wyjątkiem <strong>nullable</strong>, np: <strong>int</strong>, <strong>byte</strong>, <strong>long</strong>, jednak nie będą się już klasyfikować typy <strong>int?</strong>, <strong>long?,</strong>
+        **where TStruct: struct** - ten typ ograniczenia określa, iż można wstrzyknąć do klasy generycznej typy wartości z wyjątkiem **nullable**, np: **int**, **byte**, **long**, jednak nie będą się już klasyfikować typy **int?**, **long?,**
       </li>
       <li style="text-align: justify;">
-        <strong>where TClass : class</strong> &#8211; <strong> </strong>TClass może zostać zastąpiony przez typy referencyjne: class, interface, array,  delegate,
+        **where TClass : class** - ** **TClass może zostać zastąpiony przez typy referencyjne: class, interface, array,  delegate,
       </li>
       <li style="text-align: justify;">
-        <strong>where TNew : new()</strong> &#8211; można wykorzystać typy posiadające publiczny konstruktor bezparametrowy, to ograniczenie w przypadku stosowania wielu do typu generycznego powinno znajdować się na końcu,
+        **where TNew : new()** - można wykorzystać typy posiadające publiczny konstruktor bezparametrowy, to ograniczenie w przypadku stosowania wielu do typu generycznego powinno znajdować się na końcu,
       </li>
       <li style="text-align: justify;">
-        <strong>where TBaseClass : BaseClassName</strong> &#8211; typ musi bazować na klasie o nazwie <strong>BaseClassName</strong>,
+        **where TBaseClass : BaseClassName** - typ musi bazować na klasie o nazwie **BaseClassName**,
       </li>
       <li style="text-align: justify;">
-        <strong>where TInterface : InterfaceName</strong> &#8211; wstrzykiwany typ musi implementować interfejs o nazwie <strong>InterfaceName</strong>,
+        **where TInterface : InterfaceName** - wstrzykiwany typ musi implementować interfejs o nazwie **InterfaceName**,
       </li>
       <li style="text-align: justify;">
-        <strong>where TType: U</strong> &#8211; typ generyczny <strong>TType</strong> musi być typu generycznego <strong>U</strong>.
+        **where TType: U** - typ generyczny **TType** musi być typu generycznego **U**.
       </li>
     </ul>
     
@@ -139,7 +139,7 @@ public class SampleCompareClass&lt;TCompareType&gt; where TCompareType : SimpleT
     </p>
     
     <p style="text-align: center;">
-      <strong>Mam cichą nadzieję, iż jest to przydatna wiedza, ja na pewno nauczyłem się wiele pisząc tego posta, zachęcam do pisania zawsze jest duża szansa, iż napisałem jakąś  bujdę.</strong>
+      **Mam cichą nadzieję, iż jest to przydatna wiedza, ja na pewno nauczyłem się wiele pisząc tego posta, zachęcam do pisania zawsze jest duża szansa, iż napisałem jakąś  bujdę.**
     </p>
     
 {% include_relative dsp.md %}

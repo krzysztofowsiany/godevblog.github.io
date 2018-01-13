@@ -1,6 +1,6 @@
 ---
 id: 589
-title: 'PictOgr &#8211; mój CQRS -2-'
+title: 'PictOgr - mój CQRS -2-'
 date: 2017-04-05T00:20:53+00:00
 author: Krzysztof Owsiany
 layout: post
@@ -20,7 +20,7 @@ tags:
 <div id="dslc-theme-content">
   <div id="dslc-theme-content-inner">
     <h1 style="text-align: center; background: #FFFF9C; padding: 5pt;">
-      Command Query Responsibility Segregation &#8211; 2 &#8211;
+      Command Query Responsibility Segregation - 2 -
     </h1>
     
 
@@ -48,11 +48,11 @@ tags:
     </p>
     
     <p>
-      <strong>IQuery</strong> baza dla wszystkich zapytań
+      **IQuery** baza dla wszystkich zapytań
     </p>
     
     <p>
-      <strong>TResult</strong> &#8211; typ generyczny, określający zwracany wynik wykonania zapytania.
+      **TResult** - typ generyczny, określający zwracany wynik wykonania zapytania.
     </p>
     
     <pre class="lang:c# decode:true" title="Interfejs zapytań.">namespace PictOgr.Core.CQRS.Query
@@ -67,7 +67,7 @@ tags:
     </p>
     
     <p>
-      <strong>IQueryHandler</strong> &#8211; podobnie jak poprzednio (<strong>ICommandHandler</strong>), implementując ten kontrakt tworzymy kod przetwarzający logikę, a następnie zwracany jako typ generyczny <strong>TResult</strong>.
+      **IQueryHandler** - podobnie jak poprzednio (**ICommandHandler**), implementując ten kontrakt tworzymy kod przetwarzający logikę, a następnie zwracany jako typ generyczny **TResult**.
     </p>
     
     <pre class="lang:c# decode:true" title="Interfejs handlera zapytania.">namespace PictOgr.Core.CQRS.Query
@@ -84,7 +84,7 @@ tags:
     </p>
     
     <p>
-      <strong>IQueryBus</strong>, kontrakt dla szyny danych, analogicznie jak dla komend z tą różnicą, iż trzeba uwzględnić typ generyczny<strong> TResult</strong>.
+      **IQueryBus**, kontrakt dla szyny danych, analogicznie jak dla komend z tą różnicą, iż trzeba uwzględnić typ generyczny** TResult**.
     </p>
     
     <pre class="lang:c# decode:true" title="Interfejs szyny zapytań.">using PictOgr.Core.CQRS.Query;
@@ -103,7 +103,7 @@ namespace PictOgr.Core.CQRS.Bus
     </p>
     
     <p>
-      <strong>QueryBus</strong> to implementacja interfejsu <strong>IQueryBus</strong>.
+      **QueryBus** to implementacja interfejsu **IQueryBus**.
     </p>
     
     <pre class="lang:c# decode:true" title="Implementacja szyny zapytań.">using System;
@@ -172,19 +172,19 @@ namespace PictOgr.Core.CQRS.Bus
         Przekazanie zapytania do szyny przy pomocy wywołania metody <b>Process</b>.
       </li>
       <li style="text-align: justify;">
-        Jeżeli przekazane zapytanie jest pusta, to rzuca wyjątkiem <strong>ArgumentNullException</strong>,
+        Jeżeli przekazane zapytanie jest pusta, to rzuca wyjątkiem **ArgumentNullException**,
       </li>
       <li style="text-align: justify;">
         Wyciągnięcie z kontenera (Autofac) handlera dla przekazanego zapytania.
       </li>
       <li style="text-align: justify;">
-        Jeżeli handler jest pusty to rzuca wyjątek <strong>Exception</strong>.
+        Jeżeli handler jest pusty to rzuca wyjątek **Exception**.
       </li>
       <li style="text-align: left;">
         Tworzenie typu zwracanego z domyślnymi wartościami.
       </li>
       <li style="text-align: justify;">
-        Wywołanie zapytania poprzez metodę <strong>Execute</strong> w bloku <strong>try&#8230;catch</strong>.
+        Wywołanie zapytania poprzez metodę **Execute** w bloku **try&#8230;catch**.
       </li>
       <li style="text-align: justify;">
         Jeżeli wywołanie się nie powiedzie to zostanie zapisany log błędu.
@@ -211,7 +211,7 @@ namespace PictOgr.Core.CQRS.Bus
     </h1>
     
 
-      Poniżej znajduje się pierwsza implementacja zapytania <strong>GetApplicationInformation</strong>, jako typ generyczny wykorzystana jest klasa <strong>ApplicationInformation</strong>, i to właśnie taki obiekt zostanie zwrócony po wykonaniu zapytania.
+      Poniżej znajduje się pierwsza implementacja zapytania **GetApplicationInformation**, jako typ generyczny wykorzystana jest klasa **ApplicationInformation**, i to właśnie taki obiekt zostanie zwrócony po wykonaniu zapytania.
     </p>
     
     <pre class="lang:c# decode:true" title="Implementacja zapytania pobierani informacji o aplikacji.">using PictOgr.Core.CQRS.Query;
@@ -230,7 +230,7 @@ namespace PictOgr.Core.Queries
     </p>
     
     <p>
-      Za logikę wykonania zapytania odpowiedzialny jest handler <strong>GetApplicationInformationHandler</strong>. Jego celem jest pobranie z <strong>Assembly</strong> aktualnej wersji programu, a następnie zwrócenie jako klasę <strong>ApplicationInformation</strong> wyniku wykonania zapytania w metodzie <strong>Execute</strong>.
+      Za logikę wykonania zapytania odpowiedzialny jest handler **GetApplicationInformationHandler**. Jego celem jest pobranie z **Assembly** aktualnej wersji programu, a następnie zwrócenie jako klasę **ApplicationInformation** wyniku wykonania zapytania w metodzie **Execute**.
     </p>
     
     <pre class="lang:c# decode:true" title="Implementacja handlera zapytania pobierania informacji o aplikacji (wersja).">using System.Reflection;
@@ -256,7 +256,7 @@ namespace PictOgr.Core.Queries
     </p>
     
     <p>
-      Model jaki jest zwracany po wykonaniu zapytania <strong>GetApplicationInformation</strong>.
+      Model jaki jest zwracany po wykonaniu zapytania **GetApplicationInformation**.
     </p>
     
     <pre class="lang:c# decode:true" title="Model informacji aplikacji.">namespace PictOgr.Core.Models
@@ -289,27 +289,27 @@ namespace PictOgr.Core.Queries
     </h1>
     
 
-      Automatyczne tworzenie obiektów przez <strong>Autofac</strong> przyczynia się do potrzeby nadpisania handlera dla testowanego zapytania.
+      Automatyczne tworzenie obiektów przez **Autofac** przyczynia się do potrzeby nadpisania handlera dla testowanego zapytania.
     </p>
     
 
-      Tak<a href="http://godev.gemustudio.com/assets/images/2017/04/stadion_narodowy.png"><img class="size-medium wp-image-690 alignleft" src="http://godev.gemustudio.com/assets/images/2017/04/stadion_narodowy-300x200.png" alt="" width="300" height="200" srcset="http://godev.gemustudio.com/assets/images/2017/04/stadion_narodowy-300x200.png 300w, http://godev.gemustudio.com/assets/images/2017/04/stadion_narodowy-768x512.png 768w, http://godev.gemustudio.com/assets/images/2017/04/stadion_narodowy-1024x683.png 1024w" sizes="(max-width: 300px) 100vw, 300px" /></a> jak w przypadku komend, należy przygotować mocka dla interfejsu <strong>IQueryHandler</strong>.
+      Tak<a href="http://godev.gemustudio.com/assets/images/2017/04/stadion_narodowy.png"><img class="size-medium wp-image-690 alignleft" src="http://godev.gemustudio.com/assets/images/2017/04/stadion_narodowy-300x200.png" alt="" width="300" height="200" srcset="http://godev.gemustudio.com/assets/images/2017/04/stadion_narodowy-300x200.png 300w, http://godev.gemustudio.com/assets/images/2017/04/stadion_narodowy-768x512.png 768w, http://godev.gemustudio.com/assets/images/2017/04/stadion_narodowy-1024x683.png 1024w" sizes="(max-width: 300px) 100vw, 300px" /></a> jak w przypadku komend, należy przygotować mocka dla interfejsu **IQueryHandler**.
     </p>
     
 
-      Dodatkowo określamy co ma zwracać metoda <strong>Execute</strong>, a dokładniej, z jakiego delegata ma skorzystać po jej wywołaniu.
+      Dodatkowo określamy co ma zwracać metoda **Execute**, a dokładniej, z jakiego delegata ma skorzystać po jej wywołaniu.
     </p>
     
 
-      Dlatego każdy test korzystający z klasy <strong>QueryBaseTests</strong>, musi zaimplementować delegata. To pozwoli na dowolną imitację działania logiki zapytań.
+      Dlatego każdy test korzystający z klasy **QueryBaseTests**, musi zaimplementować delegata. To pozwoli na dowolną imitację działania logiki zapytań.
     </p>
     
     <p>
-      Po przygotowaniu obiektu <strong>fake</strong> dla handlera, ponownie rejestrujemy w kontenerze.
+      Po przygotowaniu obiektu **fake** dla handlera, ponownie rejestrujemy w kontenerze.
     </p>
     
     <p>
-      Po tej operacji oryginalna metoda <strong>Execute</strong> z handlera jest już nadpisana, i możemy śmiało testować logikę wykonywanych zapytań.
+      Po tej operacji oryginalna metoda **Execute** z handlera jest już nadpisana, i możemy śmiało testować logikę wykonywanych zapytań.
     </p>
     
     <p>
@@ -354,11 +354,11 @@ namespace PictOgr.Core.Queries
     </p>
     
 
-      Implementacja pierwszego testu, do generowania losowych ciągów znaków została wykorzystana biblioteka <strong>AutoFixture</strong>, spowoduje to losowość w trakcie uruchamiania testu.
+      Implementacja pierwszego testu, do generowania losowych ciągów znaków została wykorzystana biblioteka **AutoFixture**, spowoduje to losowość w trakcie uruchamiania testu.
     </p>
     
 
-      Do prawidłowego działania testu należy ustawić delegat <strong>handleMethod</strong> (podobnie jak w przypadku testowania komend). W tym przypadku wykorzystujemy lambdę, i ustawiamy klasę jaka zostanie zwrócona przy wywołaniu metody <strong>Process</strong> z handlera dla szyny zapytań.
+      Do prawidłowego działania testu należy ustawić delegat **handleMethod** (podobnie jak w przypadku testowania komend). W tym przypadku wykorzystujemy lambdę, i ustawiamy klasę jaka zostanie zwrócona przy wywołaniu metody **Process** z handlera dla szyny zapytań.
     </p>
     
     <pre class="lang:c# decode:true" title="Testowanie zapytania pobierania informacji aplikacji.">namespace PictOgr.Tests.Core.CQRS.Queries
@@ -393,7 +393,7 @@ namespace PictOgr.Core.Queries
 </pre>
     
     <p>
-      Po wykonaniu zapytania można sprawdzić wynik przy pomocy asercji:<em><strong> </strong>applicationInformation.Version.ShouldBe(version);</em>
+      Po wykonaniu zapytania można sprawdzić wynik przy pomocy asercji:<em>** **applicationInformation.Version.ShouldBe(version);</em>
     </p>
     
     <p>
@@ -421,11 +421,11 @@ namespace PictOgr.Core.Queries
     </p>
     
     <p>
-      Kolejnym krokiem będzie wykorzystanie <strong>Event Sourcing</strong>, i być może dodanie walidatorów, jednak to jest już temat na kolejny post.
+      Kolejnym krokiem będzie wykorzystanie **Event Sourcing**, i być może dodanie walidatorów, jednak to jest już temat na kolejny post.
     </p>
     
     <p>
-      Rozważam, możliwość wyodrębnienie a projektu <a href="http://godev.gemustudio.com/2017/03/01/pictogr-pomysl/"><strong>PictOgr</strong></a>, implementacji <strong>CQRS</strong>, tak by w przyszłości można było wielokrotnie wykorzystywać efekty mojej pracy.
+      Rozważam, możliwość wyodrębnienie a projektu <a href="http://godev.gemustudio.com/2017/03/01/pictogr-pomysl/">**PictOgr**</a>, implementacji **CQRS**, tak by w przyszłości można było wielokrotnie wykorzystywać efekty mojej pracy.
     </p>
     
     <p>
@@ -441,7 +441,7 @@ namespace PictOgr.Core.Queries
     </p>
     
     <h3 style="text-align: center;">
-      <strong>Dziękuję za wytrwałość i zachęcam do komentowania.</strong>
+      **Dziękuję za wytrwałość i zachęcam do komentowania.**
     </h3>
     
 {% include_relative dsp.md %}

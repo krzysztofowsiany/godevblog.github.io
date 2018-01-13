@@ -1,5 +1,5 @@
 ---
-title: 'Garbage Collector &#8211; Sprawdzanie kiedy sąsiad wyrzuca śmieci.'
+title: 'Garbage Collector - Sprawdzanie kiedy sąsiad wyrzuca śmieci.'
 date: 2017-11-20T20:03:06+00:00
 author: Krzysztof Owsiany
 layout: post

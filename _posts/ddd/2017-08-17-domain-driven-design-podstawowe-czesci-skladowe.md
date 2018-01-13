@@ -97,8 +97,8 @@ Projektowanie **Modelu Dziedziny** (ang. **Domain  Model**) nie jest pozbawion
 Przy podziale należy pamiętać, że: **nie kod jest wydzielany do modułów (ang. modules), a pojęcia dziedziny!**{:.color_1}
 
 Wydzielane **moduły** (ang. **modules**), powinny być:
-* luźno ze sobą powiązane (ang. **loose &#8211; coupling**),
-* zachować dużą spójność (ang. **high &#8211; cohesion**).
+* luźno ze sobą powiązane (ang. **loose - coupling**),
+* zachować dużą spójność (ang. **high - cohesion**).
     
 Rozdzielenie **modułów** (ang. **modules**), można odnieść do budowy książki. Gdzie **Model Dziedziny** (ang. **Domain Model**), traktujemy jako treść pewnej opowiadanej historii, natomiast **moduły** (ang. **modules**) odzwierciedlają rozdziały.
 

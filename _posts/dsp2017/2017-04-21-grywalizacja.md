@@ -22,7 +22,7 @@ tags:
     </p>
     
 
-      <strong><span style="font-size: 20px;">Grywalizacja</span></strong> jak sama nazwa wskazuje pojęcie związane z grami komputerowymi. Jak wiadomo wszem i wobec każdy użytkownik komputera miał styczność z grami komputerowymi.
+      **<span style="font-size: 20px;">Grywalizacja</span>** jak sama nazwa wskazuje pojęcie związane z grami komputerowymi. Jak wiadomo wszem i wobec każdy użytkownik komputera miał styczność z grami komputerowymi.
     </p>
     
 
@@ -30,7 +30,7 @@ tags:
     </p>
     
     <h3 style="background: LightSkyBlue; padding: 5px; text-align: center;">
-      <strong>Ale poco mieszać gry z innymi aspektami życia? => A to jest dość proste, by zwiększyć zaangażowanie jednostki w odniesieniu do dziedziny implementującej grywalizację.</strong>
+      **Ale poco mieszać gry z innymi aspektami życia? => A to jest dość proste, by zwiększyć zaangażowanie jednostki w odniesieniu do dziedziny implementującej grywalizację.**
     </h3>
     
 
@@ -39,22 +39,22 @@ tags:
     
     <ul>
       <li style="text-align: justify;">
-        <strong>Ranking</strong> &#8211; pozwala porównywać się z innymi uczestnikami &#8222;zabawy&#8221;, ludzie uwielbiają współzawodniczyć a to jest jeden z wyznaczników pozycji względem innych osób,
+        **Ranking** - pozwala porównywać się z innymi uczestnikami &#8222;zabawy&#8221;, ludzie uwielbiają współzawodniczyć a to jest jeden z wyznaczników pozycji względem innych osób,
       </li>
       <li style="text-align: justify;">
-        <strong>Wirtualna waluta</strong> &#8211; gromadzenie hajsu jest ważne, pozwala zaszyć w produkt element ekonomiczny, hajs można zdobywać poprzez aktywne uczestnictwo lub poprostu wydając realne pieniądze <strong>$</strong>,
+        **Wirtualna waluta** - gromadzenie hajsu jest ważne, pozwala zaszyć w produkt element ekonomiczny, hajs można zdobywać poprzez aktywne uczestnictwo lub poprostu wydając realne pieniądze **$**,
       </li>
       <li style="text-align: justify;">
-        <strong>Punkty</strong> &#8211; najprostrzy z możliwych wyznaczników pozycji uczestnika, pozwala w prosty sposób porównać się względem innych osób,
+        **Punkty** - najprostrzy z możliwych wyznaczników pozycji uczestnika, pozwala w prosty sposób porównać się względem innych osób,
       </li>
       <li style="text-align: justify;">
-        <strong>Osiągnięcia </strong>&#8211; ważny element grywalizacji, pozwala na gromadzenie trofeów w swoich zbiorach, powoduje to wzbudzanie porządania z właszcza w przypadku żadkich i trudnych w osiągnięciu trofeów, pozwala także na odpowiednie kierowanie użytkownika, wykorzystywane np. przy nauce użytkowania systemu,
+        **Osiągnięcia **- ważny element grywalizacji, pozwala na gromadzenie trofeów w swoich zbiorach, powoduje to wzbudzanie porządania z właszcza w przypadku żadkich i trudnych w osiągnięciu trofeów, pozwala także na odpowiednie kierowanie użytkownika, wykorzystywane np. przy nauce użytkowania systemu,
       </li>
       <li style="text-align: justify;">
-        <strong>Wyzwania</strong> &#8211; systematyczne wyzwania pozwalają na zbieranie osiągnięć, ale także podtrzymują zaangarzowanie,
+        **Wyzwania** - systematyczne wyzwania pozwalają na zbieranie osiągnięć, ale także podtrzymują zaangarzowanie,
       </li>
       <li style="text-align: justify;">
-        <strong>Poziomy</strong> &#8211; pozwalają na zmianę balansu grywalizacji w systemie, im wyższy poziom tym mechanika grywalizacji może zachowywać się inaczej.
+        **Poziomy** - pozwalają na zmianę balansu grywalizacji w systemie, im wyższy poziom tym mechanika grywalizacji może zachowywać się inaczej.
       </li>
     </ul>
     

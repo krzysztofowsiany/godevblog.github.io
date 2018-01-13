@@ -22,7 +22,7 @@ footer{
     font-size: 16pt;
 }
 
-.highlight {
+.highlight-post {
     background-color:rgba(135, 227, 250, 0.144);
 }
 
@@ -107,3 +107,4 @@ ol {
 @import 'images';
 @import 'highlights';
 @import 'tdd';
+@import 'syntax';

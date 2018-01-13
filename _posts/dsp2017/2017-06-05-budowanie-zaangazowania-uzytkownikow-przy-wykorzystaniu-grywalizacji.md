@@ -20,16 +20,16 @@ tags:
 <div id="dslc-theme-content">
   <div id="dslc-theme-content-inner">
 
-      Udało się wyspecyfikować tytuł i tematykę mojej prelekcji na <strong>Gali Finałowej Daj Się Poznać 2017</strong>,<img class="alignright wp-image-1316 size-medium" src="http://godev.gemustudio.com/assets/images/2017/06/blogging-photo-40-300x200.jpg" alt="Gala Finałowa Daj Się Poznać 2017" width="300" height="200" srcset="http://godev.gemustudio.com/assets/images/2017/06/blogging-photo-40-300x200.jpg 300w, http://godev.gemustudio.com/assets/images/2017/06/blogging-photo-40-768x512.jpg 768w, http://godev.gemustudio.com/assets/images/2017/06/blogging-photo-40.jpg 900w" sizes="(max-width: 300px) 100vw, 300px" /> mam nadzieję, iż moje pierwsze publiczne wystąpienie przebiegnie zadowalająco.
+      Udało się wyspecyfikować tytuł i tematykę mojej prelekcji na **Gali Finałowej Daj Się Poznać 2017**,<img class="alignright wp-image-1316 size-medium" src="http://godev.gemustudio.com/assets/images/2017/06/blogging-photo-40-300x200.jpg" alt="Gala Finałowa Daj Się Poznać 2017" width="300" height="200" srcset="http://godev.gemustudio.com/assets/images/2017/06/blogging-photo-40-300x200.jpg 300w, http://godev.gemustudio.com/assets/images/2017/06/blogging-photo-40-768x512.jpg 768w, http://godev.gemustudio.com/assets/images/2017/06/blogging-photo-40.jpg 900w" sizes="(max-width: 300px) 100vw, 300px" /> mam nadzieję, iż moje pierwsze publiczne wystąpienie przebiegnie zadowalająco.
     </p>
     
 
   
-        <span style="color: #ff0000;"><strong>UWAGA: agenda ewoluowała z dniem 13.06.2017.</strong></span>
+        <span style="color: #ff0000;">**UWAGA: agenda ewoluowała z dniem 13.06.2017.**</span>
       </p>
       
   
-        <span style="color: #ff0000;"><strong>Tym samy jest przygotowana na galę!</strong></span>
+        <span style="color: #ff0000;">**Tym samy jest przygotowana na galę!**</span>
       </p>
       
       <h2 style="text-align: justify;">
@@ -106,7 +106,7 @@ tags:
               Yanosik
             </li>
             <li data-aria-posinset="1" data-aria-level="3">
-              mBank &#8211; mGra
+              mBank - mGra
             </li>
           </ol>
         </li>

@@ -1,5 +1,5 @@
 ---
-title: 'Kontener DI &#8211; kolekcje'
+title: 'Kontener DI - kolekcje'
 date: 2017-05-24T12:51:58+00:00
 author: Krzysztof Owsiany
 layout: post
@@ -20,7 +20,7 @@ tags:
 <div id="dslc-theme-content">
   <div id="dslc-theme-content-inner">
 
-      W zmaganiach z kontenerem <strong>AutoFac</strong>, natrafiłem na możliwość wstrzykiwania całych kolekcji implementujących ten sam interfejs.<a href="http://godev.gemustudio.com/assets/images/2017/05/blogging-photo-5.jpg"><img class="wp-image-1165 alignright" src="http://godev.gemustudio.com/assets/images/2017/05/blogging-photo-5-200x300.jpg" alt="" width="107" height="161" srcset="http://godev.gemustudio.com/assets/images/2017/05/blogging-photo-5-200x300.jpg 200w, http://godev.gemustudio.com/assets/images/2017/05/blogging-photo-5.jpg 600w" sizes="(max-width: 107px) 100vw, 107px" /></a>
+      W zmaganiach z kontenerem **AutoFac**, natrafiłem na możliwość wstrzykiwania całych kolekcji implementujących ten sam interfejs.<a href="http://godev.gemustudio.com/assets/images/2017/05/blogging-photo-5.jpg"><img class="wp-image-1165 alignright" src="http://godev.gemustudio.com/assets/images/2017/05/blogging-photo-5-200x300.jpg" alt="" width="107" height="161" srcset="http://godev.gemustudio.com/assets/images/2017/05/blogging-photo-5-200x300.jpg 200w, http://godev.gemustudio.com/assets/images/2017/05/blogging-photo-5.jpg 600w" sizes="(max-width: 107px) 100vw, 107px" /></a>
     </p>
     
     <p>
@@ -36,7 +36,7 @@ tags:
     </h2>
     
 
-      Bardzo prosty interfejs <strong>IOnlyForTest</strong> zawierający szkielet metody <strong>Calc</strong> przyjmującej dwa parametry <strong>a</strong> i <strong>b</strong>, następnie zwracający wynik operacji.
+      Bardzo prosty interfejs **IOnlyForTest** zawierający szkielet metody **Calc** przyjmującej dwa parametry **a** i **b**, następnie zwracający wynik operacji.
     </p>
     
     <pre class="lang:c# decode:true" title="Interfejs wykorzystywany w kolekcji.">using System;
@@ -50,7 +50,7 @@ namespace Test
 }</pre>
     
 
-      Klasa implementująca <strong>IOnlyForTest</strong> zostanie automatycznie wstrzyknięta jako jeden z elementów kolekcji.
+      Klasa implementująca **IOnlyForTest** zostanie automatycznie wstrzyknięta jako jeden z elementów kolekcji.
     </p>
     
     <p>
@@ -62,7 +62,7 @@ namespace Test
     </h2>
     
 
-      Moduł rejestrowania klas implementujących interfejs <strong>IOnlyForTest</strong>.
+      Moduł rejestrowania klas implementujących interfejs **IOnlyForTest**.
     </p>
     
     <pre class="lang:c# decode:true" title="Rejestrowanie klas obiektów implementujących interfejs IOnlyForTest.">namespace Test
@@ -90,7 +90,7 @@ namespace Test
     </h2>
     
     <p>
-      Pierwsza z klas zwraca wynik dodawania liczby <strong>a</strong> i <strong>b</strong>;
+      Pierwsza z klas zwraca wynik dodawania liczby **a** i **b**;
     </p>
     
     <pre class="lang:c# decode:true " title="Implementacja interfejsu IOnlyForTest, wynikiem jest dodawanie dwóch liczb a i b.">using System;
@@ -124,7 +124,7 @@ namespace Test
 }</pre>
     
 
-      Obie są rejestrowane przez moduł kontenera <strong>AutoFac</strong>.
+      Obie są rejestrowane przez moduł kontenera **AutoFac**.
     </p>
     
     <p>
@@ -140,7 +140,7 @@ namespace Test
     </h2>
     
 
-      Na koniec pozostaje implementacja klasy <strong>TestEnumerable</strong>. To właśnie w niej zostanie wstrzyknięta kolekcja zawierająca listę zarejestrowanych klas implementujących <strong>IOnlyForTest</strong>.
+      Na koniec pozostaje implementacja klasy **TestEnumerable**. To właśnie w niej zostanie wstrzyknięta kolekcja zawierająca listę zarejestrowanych klas implementujących **IOnlyForTest**.
     </p>
     
     <pre class="lang:c# decode:true" title="Użycie DI + enumeracji do wyliczeń.">using System;

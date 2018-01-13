@@ -1,6 +1,6 @@
 ---
 id: 1079
-title: 'PictOgr &#8211; delegowanie wykonania akcji do modelu widoku.'
+title: 'PictOgr - delegowanie wykonania akcji do modelu widoku.'
 date: 2017-05-14T23:03:49+00:00
 author: Krzysztof Owsiany
 layout: post
@@ -28,11 +28,11 @@ tags:
     </p>
     
 
-      Implementacja interfejsu <strong>ICommand</strong> niesie ze sobą potrzebę deklaracji dwóch metod <strong>Execute</strong>, <strong>CanExecute </strong>oraz zdarzenie <strong>CanExecuteChanged</strong>.
+      Implementacja interfejsu **ICommand** niesie ze sobą potrzebę deklaracji dwóch metod **Execute**, **CanExecute **oraz zdarzenie **CanExecuteChanged**.
     </p>
     
 
-      Jako że w  programowaniu nie istnieje jedno rozwiązanie problemu i w tym  przypadku można delegować wykonanie metod <strong>Execute</strong> oraz <strong>CanExecute</strong> do modelu widoku.
+      Jako że w  programowaniu nie istnieje jedno rozwiązanie problemu i w tym  przypadku można delegować wykonanie metod **Execute** oraz **CanExecute** do modelu widoku.
     </p>
     
     <pre class="lang:c# decode:true" title="Komenda RelayCommand z delegacją logiki działania na zewnątrz obiektu.">using System;
@@ -79,11 +79,11 @@ namespace PictOgr.MVVM.Base
 </pre>
     
 
-      Podczas tworzenia instancji na bazie klasy <strong>RelayCommand  </strong>przekazujemy do niej dwa delegaty: <strong>execute</strong>, <strong>canExecute</strong>.
+      Podczas tworzenia instancji na bazie klasy **RelayCommand  **przekazujemy do niej dwa delegaty: **execute**, **canExecute**.
     </p>
     
 
-      Wykonanie metody <strong>CanExecute</strong> nie zawsze jest istotne dlatego też w celu uproszczenia wykluczenia delegowania dla  tej metody powstała  klasa <strong>RelayCommand</strong> rozszerzająca klasę bazową  o tej samej nazwie i już określonym typie generycznym (object). Dzięki temu możemy przy tworzeniu nowej komendy wykorzystać prostą składnię: <span style="color: #3355ff;"><strong>new RelayCommand(executeDelegate);</strong></span>
+      Wykonanie metody **CanExecute** nie zawsze jest istotne dlatego też w celu uproszczenia wykluczenia delegowania dla  tej metody powstała  klasa **RelayCommand** rozszerzająca klasę bazową  o tej samej nazwie i już określonym typie generycznym (object). Dzięki temu możemy przy tworzeniu nowej komendy wykorzystać prostą składnię: <span style="color: #3355ff;">**new RelayCommand(executeDelegate);**</span>
     </p>
     
     <p>
@@ -147,15 +147,15 @@ namespace PictOgr.MVVM.Configuration.ViewModels
     </p>
     
 
-      <strong>RelayCommand  </strong>pozwolił na delegacje  tego  mechanizmu do modelu widoku i operowaniu bezpośrednio z wykorzystaniem dostępnych właściwości.
+      **RelayCommand  **pozwolił na delegacje  tego  mechanizmu do modelu widoku i operowaniu bezpośrednio z wykorzystaniem dostępnych właściwości.
     </p>
     
 
-      Właściwość <strong>PathFormat</strong>, wyświetla bieżący wzorzec nazwy w widoku konfiguracji.
+      Właściwość **PathFormat**, wyświetla bieżący wzorzec nazwy w widoku konfiguracji.
     </p>
     
 
-      Każdy dodany nowy moduł nazwy (Button), wykorzystuje komendę <strong>AddNameModuleCommand</strong> z parametrem przechowującym identyfikator modułu nazwy.
+      Każdy dodany nowy moduł nazwy (Button), wykorzystuje komendę **AddNameModuleCommand** z parametrem przechowującym identyfikator modułu nazwy.
     </p>
     
     <p>
@@ -167,7 +167,7 @@ namespace PictOgr.MVVM.Configuration.ViewModels
     </h1>
     
     <p>
-      Poniżej znajduje się proste testy sprawdzające działanie klasy <strong>RelayCommand</strong> w projekcie  <strong>E2E</strong>.
+      Poniżej znajduje się proste testy sprawdzające działanie klasy **RelayCommand** w projekcie  **E2E**.
     </p>
     
     <pre class="lang:c# decode:true" title="Testowanie RelayCommand.">using PictOgr.MVVM.Base;
@@ -238,7 +238,7 @@ namespace PictOgr.E2E
     </h1>
     
 
-      Mechanizm <strong>RelayCommand</strong> w większości przypadków niweluje potrzebę tworzenia innych klas komend, skraca to kodowanie i powoduje powstawanie mniej błędów.
+      Mechanizm **RelayCommand** w większości przypadków niweluje potrzebę tworzenia innych klas komend, skraca to kodowanie i powoduje powstawanie mniej błędów.
     </p>
     
     <p>
@@ -246,7 +246,7 @@ namespace PictOgr.E2E
     </p>
     
     <h3 style="text-align: center;">
-      <strong>Dziękuję za wytrwałość i zachęcam do komentowania.</strong>
+      **Dziękuję za wytrwałość i zachęcam do komentowania.**
     </h3>
     
 {% include_relative dsp.md %}

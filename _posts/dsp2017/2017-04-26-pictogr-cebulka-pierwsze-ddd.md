@@ -1,6 +1,6 @@
 ---
 id: 893
-title: 'PictOgr &#8211; cebulka + moje pierwsze DDD.'
+title: 'PictOgr - cebulka + moje pierwsze DDD.'
 date: 2017-04-26T10:06:06+00:00
 author: Krzysztof Owsiany
 layout: post
@@ -25,7 +25,7 @@ tags:
     </p>
     
 
-      Stworzyłem też moje pierwsze <strong>DDD (Domain-Driven Design)</strong>, ostatnio zachorowałem w tym kierunku (tak jak CQRS i Onion), i pragnę zgłębiac temat&#8230;
+      Stworzyłem też moje pierwsze **DDD (Domain-Driven Design)**, ostatnio zachorowałem w tym kierunku (tak jak CQRS i Onion), i pragnę zgłębiac temat&#8230;
     </p>
     
 
@@ -33,11 +33,11 @@ tags:
     </p>
     
 
-      <strong>Jest to moje pierwsze praktyczne zetknięcie z Clean Architecture (lamer).</strong>
+      **Jest to moje pierwsze praktyczne zetknięcie z Clean Architecture (lamer).**
     </p>
     
     <p>
-      <strong>PictOgr</strong> obecnie składa się z 7 projektów tak jak to widać na pierwszym zrzucie.
+      **PictOgr** obecnie składa się z 7 projektów tak jak to widać na pierwszym zrzucie.
     </p>
     
     <p>
@@ -57,11 +57,11 @@ tags:
     </p>
     
 
-      Infrastructure zawiera wykorzystane usług, <strong>CQRS</strong>, implementacje repozytoriuów, <strong>Autofac</strong>, <strong>DTO</strong>, <strong>AutoMapper</strong>, i inne potrzebne elementy, bardziej szczegółowy wykaz na drugim zrzucie.
+      Infrastructure zawiera wykorzystane usług, **CQRS**, implementacje repozytoriuów, **Autofac**, **DTO**, **AutoMapper**, i inne potrzebne elementy, bardziej szczegółowy wykaz na drugim zrzucie.
     </p>
     
 
-      GUI aplikacji znajdować się będzie w projekcie <strong>MVVM</strong>, czyli XAMLe, <strong>ViewModele</strong> oraz moduły dla <strong>Autofaca</strong>.
+      GUI aplikacji znajdować się będzie w projekcie **MVVM**, czyli XAMLe, **ViewModele** oraz moduły dla **Autofaca**.
     </p>
     
 
@@ -81,7 +81,7 @@ tags:
     </p>
     
     <p style="text-align: center;">
-      <strong>Zmiana architektury niesie ze sobą kilka zmian dotyczących mechanizmów działania aplikacji!</strong>
+      **Zmiana architektury niesie ze sobą kilka zmian dotyczących mechanizmów działania aplikacji!**
     </p>
     
     <p>
@@ -93,7 +93,7 @@ tags:
     </h3>
     
 
-      Na pierwszy ogień, klasa implementująca (<strong>IEvent</strong>) zdarzenie zamykania aplikacji.
+      Na pierwszy ogień, klasa implementująca (**IEvent**) zdarzenie zamykania aplikacji.
     </p>
     
     <pre class="lang:c# decode:true" title="Zdarzenie zamykania aplikacji.">using CQRS.Event;
@@ -114,11 +114,11 @@ namespace PictOgr.Infrastructure.Events
     </p>
     
 
-      Powyższa klasa jest wykorzystywana przez powiązanego Handlera o nazwie <strong>ExitApplicationEventHandler</strong>.
+      Powyższa klasa jest wykorzystywana przez powiązanego Handlera o nazwie **ExitApplicationEventHandler**.
     </p>
     
 
-      Jej celem  jest wywołanie przekazanego <strong>delegata</strong> do zamykania apikacji w metodzie <strong>Handle</strong>. To spowoduje zamknięcie okienka.
+      Jej celem  jest wywołanie przekazanego **delegata** do zamykania apikacji w metodzie **Handle**. To spowoduje zamknięcie okienka.
     </p>
     
     <pre class="lang:c# decode:true" title="Handler zdarzenia zamykania aplikacji.">using System;
@@ -161,11 +161,11 @@ namespace PictOgr.Infrastructure.Events
     </p>
     
 
-      Pozostaje jedynie w odpowiedniej komendzie <strong>ExitApplicationHandler</strong> wykonać publikacje zdarzenia <strong>ExitApplicationEvent </strong>do szyny zdarzeń.
+      Pozostaje jedynie w odpowiedniej komendzie **ExitApplicationHandler** wykonać publikacje zdarzenia **ExitApplicationEvent **do szyny zdarzeń.
     </p>
     
 
-      Efektem jest zamknięcie wszystkich okienek w których zarejestrowany jest handler <strong>ExitApplicationEventHandler</strong> (kod wyżej).
+      Efektem jest zamknięcie wszystkich okienek w których zarejestrowany jest handler **ExitApplicationEventHandler** (kod wyżej).
     </p>
     
     <pre class="lang:c# decode:true " title="Publikowanie zdarzenia na szynę w handlerze comendy zamykania aplikacji.">public void Handle(ExitApplication command)
@@ -184,7 +184,7 @@ namespace PictOgr.Infrastructure.Events
     </h3>
     
 
-      Do przekazywania danych pomiędzy aplikacją, a modelem wykorzystana będzie odrębna klasa określana jako <strong>DTO (Data Transfer Object)</strong>.
+      Do przekazywania danych pomiędzy aplikacją, a modelem wykorzystana będzie odrębna klasa określana jako **DTO (Data Transfer Object)**.
     </p>
     
 
@@ -200,7 +200,7 @@ namespace PictOgr.Infrastructure.Events
 }</pre>
     
     <p>
-      Dane pomiędzy modelem domeny a klasą DTO muszą być przekazane, i można to zrobić pod górkę poprostu przepisaując właściwości z wykorzystaniem klasy pośredniczącej (np. jakiegoś Adaptera), lub zywkorzytaniem biblioteczki <strong><a href="http://automapper.org/">AutoMapper</a></strong>.
+      Dane pomiędzy modelem domeny a klasą DTO muszą być przekazane, i można to zrobić pod górkę poprostu przepisaując właściwości z wykorzystaniem klasy pośredniczącej (np. jakiegoś Adaptera), lub zywkorzytaniem biblioteczki **<a href="http://automapper.org/">AutoMapper</a>**.
     </p>
     
     <p>
@@ -208,7 +208,7 @@ namespace PictOgr.Infrastructure.Events
     </p>
     
     <p>
-      Poniżej znajduje się konfiguracja AutoMappera dla klas <strong>ApplicationInformation</strong> <=> <strong>ApplicationInformationDto</strong>.
+      Poniżej znajduje się konfiguracja AutoMappera dla klas **ApplicationInformation** <=> **ApplicationInformationDto**.
     </p>
     
     <pre class="lang:c# decode:true " title="Mapowanie obiektu domeny na obiekt DTO.">using AutoMapper;
@@ -234,11 +234,11 @@ namespace PictOgr.Infrastructure.Mappers
     </p>
     
 
-      <strong>ApplicationInformation</strong> = <strong>ApplicationInformationDto</strong>
+      **ApplicationInformation** = **ApplicationInformationDto**
     </p>
     
 
-      <strong>ApplicationInformationDto</strong> = <strong>ApplicationInformation</strong>
+      **ApplicationInformationDto** = **ApplicationInformation**
     </p>
     
     <p>
@@ -246,7 +246,7 @@ namespace PictOgr.Infrastructure.Mappers
     </p>
     
 
-      Do pobierania danych z domeny użyjemy tym razem usługi, do jej implementacji wykorzytsamy interfejsik <strong>IApplicaitonService</strong>, zawierający definicję metody pobierania informacji o aplikacji.
+      Do pobierania danych z domeny użyjemy tym razem usługi, do jej implementacji wykorzytsamy interfejsik **IApplicaitonService**, zawierający definicję metody pobierania informacji o aplikacji.
     </p>
     
     <pre class="lang:c# decode:true" title="Interfejsik dla usług aplikacji.">using PictOgr.Infrastructure.DTO;
@@ -264,7 +264,7 @@ namespace PictOgr.Infrastructure.Services.ApplicationService
     </p>
     
 
-      Interfejs <strong>IApplicaitonService</strong>, jest zaimplementowany przez poniższą klasę <strong>ApplicationService</strong>.
+      Interfejs **IApplicaitonService**, jest zaimplementowany przez poniższą klasę **ApplicationService**.
     </p>
     
     <pre class="lang:c# decode:true" title="Usługa aplikacji implementująca swój interfejsik.">using AutoMapper;
@@ -302,7 +302,7 @@ namespace PictOgr.Infrastructure.Services.ApplicationService
     </p>
     
 
-      <strong><em>return _mapper.Map<ApplicationInformation, ApplicationInformationDto>(applicationInformation);</em></strong>
+      **<em>return _mapper.Map<ApplicationInformation, ApplicationInformationDto>(applicationInformation);</em>**
     </p>
     
 
@@ -322,7 +322,7 @@ namespace PictOgr.Infrastructure.Services.ApplicationService
     </p>
     
 
-      Bardzo banalna, różni się w zasadzie od klasy z nią powiązanej (<strong>DTO</strong>), wykorzystaniem konstruktora i możliwością ustawienia właściwości <strong>Version</strong> jedynie właśnie z tego konstruktora (lub metod klasy).
+      Bardzo banalna, różni się w zasadzie od klasy z nią powiązanej (**DTO**), wykorzystaniem konstruktora i możliwością ustawienia właściwości **Version** jedynie właśnie z tego konstruktora (lub metod klasy).
     </p>
     
     <pre class="lang:c# decode:true" title="Obiekt domeny zawierający informacje o aplikacji.">namespace PictOgr.Core.Domain
@@ -343,7 +343,7 @@ namespace PictOgr.Infrastructure.Services.ApplicationService
     </p>
     
 
-      Jest tutaj też interfejsik z <strong>repozytorium</strong> pobierania informacji o aplikacji, owe repozytorium będzie implementowane dopiero w warstiwe wyżej (<strong>Infrastrukture</strong>). Repozytorium jest ściśle związane z modelem <strong>ApplicationInformation</strong>.
+      Jest tutaj też interfejsik z **repozytorium** pobierania informacji o aplikacji, owe repozytorium będzie implementowane dopiero w warstiwe wyżej (**Infrastrukture**). Repozytorium jest ściśle związane z modelem **ApplicationInformation**.
     </p>
     
     <pre class="lang:c# decode:true" title="Interfejsik repozytorium pobierania informacji o aplikacji.">using PictOgr.Core.Domain;
@@ -361,7 +361,7 @@ namespace PictOgr.Core.Repositories
     </p>
     
 
-      Jedna metoda pobierania informacji jest implementowana w klasie repozytorium <strong>ApplicationInformationRepository</strong>, implementuje ona interfejs z modelu domeny <strong>IApplicaitonInformationRepository</strong>, i dostarcza informacji o aplikacji.
+      Jedna metoda pobierania informacji jest implementowana w klasie repozytorium **ApplicationInformationRepository**, implementuje ona interfejs z modelu domeny **IApplicaitonInformationRepository**, i dostarcza informacji o aplikacji.
     </p>
     
     <pre class="lang:c# decode:true " title="Implementacja repozytorium pobierania danych o aplikacji (warstwa infrastruktury).">using System.Reflection;
@@ -385,7 +385,7 @@ namespace PictOgr.Infrastructure.Repositories
     </p>
     
     <p style="text-align: center;">
-      <strong>To tyle z dużych zmian w projekcie, myślę iż teraz pujdzie już znacznie lepiej (dla oka = GUI).</strong>
+      **To tyle z dużych zmian w projekcie, myślę iż teraz pujdzie już znacznie lepiej (dla oka = GUI).**
     </p>
     
     <h3 style="background: #ffff9c; padding: 5pt; text-align: left;">
@@ -405,7 +405,7 @@ namespace PictOgr.Infrastructure.Repositories
     </p>
     
     <h3 style="text-align: center;">
-      <strong>Dziękuję za wytrwałość i zachęcam do komentowania.</strong>
+      **Dziękuję za wytrwałość i zachęcam do komentowania.**
     </h3>
     
 {% include_relative dsp.md %}

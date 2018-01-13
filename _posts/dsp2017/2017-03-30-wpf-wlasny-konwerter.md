@@ -1,6 +1,6 @@
 ---
 id: 641
-title: 'WPF &#8211; własny konwerter.'
+title: 'WPF - własny konwerter.'
 date: 2017-03-30T00:21:46+00:00
 author: Krzysztof Owsiany
 layout: post
@@ -21,11 +21,11 @@ tags:
     </h1>
     
 
-      <a href="http://godev.gemustudio.com/assets/images/2017/03/20160629-IMG_412501343_czerwca-29-2016.jpg"><img class="alignleft wp-image-652 size-medium" src="http://godev.gemustudio.com/assets/images/2017/03/20160629-IMG_412501343_czerwca-29-2016-300x200.jpg" alt="WPF - własny konwerter." width="300" height="200" srcset="http://godev.gemustudio.com/assets/images/2017/03/20160629-IMG_412501343_czerwca-29-2016-300x200.jpg 300w, http://godev.gemustudio.com/assets/images/2017/03/20160629-IMG_412501343_czerwca-29-2016-768x512.jpg 768w, http://godev.gemustudio.com/assets/images/2017/03/20160629-IMG_412501343_czerwca-29-2016-1024x683.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px" /></a>Budując aplikacje na bazie WPFu, mamy do dyspozycji wiele ciekawych możliwości ominięcia pisania tak zwanego kodu &#8222;<strong>code-behind</strong>&#8222;. W celu wiązania danych z widokiem wykorzystujemy <strong>Bindowanie </strong>(łączenie właściwości kontrolek z przypisanym do widoku kontekstem danych <strong>DataContext</strong>).
+      <a href="http://godev.gemustudio.com/assets/images/2017/03/20160629-IMG_412501343_czerwca-29-2016.jpg"><img class="alignleft wp-image-652 size-medium" src="http://godev.gemustudio.com/assets/images/2017/03/20160629-IMG_412501343_czerwca-29-2016-300x200.jpg" alt="WPF - własny konwerter." width="300" height="200" srcset="http://godev.gemustudio.com/assets/images/2017/03/20160629-IMG_412501343_czerwca-29-2016-300x200.jpg 300w, http://godev.gemustudio.com/assets/images/2017/03/20160629-IMG_412501343_czerwca-29-2016-768x512.jpg 768w, http://godev.gemustudio.com/assets/images/2017/03/20160629-IMG_412501343_czerwca-29-2016-1024x683.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px" /></a>Budując aplikacje na bazie WPFu, mamy do dyspozycji wiele ciekawych możliwości ominięcia pisania tak zwanego kodu &#8222;**code-behind**&#8222;. W celu wiązania danych z widokiem wykorzystujemy **Bindowanie **(łączenie właściwości kontrolek z przypisanym do widoku kontekstem danych **DataContext**).
     </p>
     
 
-      Niemniej jednak zdarza się, iż wyświetlanie danych w takiej postaci jest nie wystarczające np. chcemy przy pomocy zmiennej <strong>bool</strong> ustawić widoczność kontrolki która przyjmuje właściwości typu <strong>Visibility</strong> (<strong>Collapsed</strong>, <strong>Hidden</strong>, <strong>Visible</strong>). W takiej sytuacji z pomocą przychodzi nam <strong>konwerter</strong>, dzięki któremu możemy dokonać transformacji: <strong>bool -> Visibility</strong>.
+      Niemniej jednak zdarza się, iż wyświetlanie danych w takiej postaci jest nie wystarczające np. chcemy przy pomocy zmiennej **bool** ustawić widoczność kontrolki która przyjmuje właściwości typu **Visibility** (**Collapsed**, **Hidden**, **Visible**). W takiej sytuacji z pomocą przychodzi nam **konwerter**, dzięki któremu możemy dokonać transformacji: **bool -> Visibility**.
     </p>
     
     <p>
@@ -63,18 +63,18 @@ namespace GUITests.Converters
 }</pre>
     
 
-      Konwerter posiada dwie składowe metody jakie implementuje z interfejsu <strong>IValueConverter</strong>:<a href="http://godev.gemustudio.com/assets/images/2017/03/20160806-IMG_562900040_sierpnia-06-2016.jpg"><img class="size-medium wp-image-648 alignright" src="http://godev.gemustudio.com/assets/images/2017/03/20160806-IMG_562900040_sierpnia-06-2016-300x200.jpg" alt="" width="300" height="200" srcset="http://godev.gemustudio.com/assets/images/2017/03/20160806-IMG_562900040_sierpnia-06-2016-300x200.jpg 300w, http://godev.gemustudio.com/assets/images/2017/03/20160806-IMG_562900040_sierpnia-06-2016-768x512.jpg 768w, http://godev.gemustudio.com/assets/images/2017/03/20160806-IMG_562900040_sierpnia-06-2016-1024x683.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px" /></a>
+      Konwerter posiada dwie składowe metody jakie implementuje z interfejsu **IValueConverter**:<a href="http://godev.gemustudio.com/assets/images/2017/03/20160806-IMG_562900040_sierpnia-06-2016.jpg"><img class="size-medium wp-image-648 alignright" src="http://godev.gemustudio.com/assets/images/2017/03/20160806-IMG_562900040_sierpnia-06-2016-300x200.jpg" alt="" width="300" height="200" srcset="http://godev.gemustudio.com/assets/images/2017/03/20160806-IMG_562900040_sierpnia-06-2016-300x200.jpg 300w, http://godev.gemustudio.com/assets/images/2017/03/20160806-IMG_562900040_sierpnia-06-2016-768x512.jpg 768w, http://godev.gemustudio.com/assets/images/2017/03/20160806-IMG_562900040_sierpnia-06-2016-1024x683.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px" /></a>
     </p>
     
     <ul style="text-align: justify;">
       <li>
-        <strong>Convert</strong> &#8211; jest używana w przypadku konwersji z typu źródłowego na docelowy, może przyjmować parametry. Właśnie w tej metodzie dokonujemy transformacji <strong>bool</strong> na <strong>VIsibility</strong>. Wartość zwracana jest w miejscu użycia w kontrolce.
+        **Convert** - jest używana w przypadku konwersji z typu źródłowego na docelowy, może przyjmować parametry. Właśnie w tej metodzie dokonujemy transformacji **bool** na **VIsibility**. Wartość zwracana jest w miejscu użycia w kontrolce.
       </li>
     </ul>
     
     <ul>
       <li style="text-align: justify;">
-        <strong>ConvertBack</strong> &#8211; alternatywna operacja, jeżeli chcemy wykonać wsteczną konwersję z typu <strong>VIsibility</strong> na <strong>bool</strong>, działa bardzo podobnie jedynie jest inna transformacja danych.
+        **ConvertBack** - alternatywna operacja, jeżeli chcemy wykonać wsteczną konwersję z typu **VIsibility** na **bool**, działa bardzo podobnie jedynie jest inna transformacja danych.
       </li>
     </ul>
     
@@ -98,7 +98,7 @@ namespace GUITests.Converters
 &lt;Button Visibility="{Binding Path=Visible, Mode=TwoWay, Converter={StaticResource boolToVisibilityConverter}, ConverterParameter=params}"/&gt;</pre>
     
 
-      W celu użycia konwertera należy go załadować do zasobów okna (linie 1 &#8211; 5).
+      W celu użycia konwertera należy go załadować do zasobów okna (linie 1 - 5).
     </p>
     
 
@@ -111,16 +111,16 @@ namespace GUITests.Converters
     
     <ul>
       <li style="text-align: justify;">
-        <strong>Path</strong> &#8211; określa źródło danych w <strong>DataContext</strong>, na te wartości typu <strong>bool</strong> będzie reagował konwerter <strong>BoolToVisibilityConverter</strong>,
+        **Path** - określa źródło danych w **DataContext**, na te wartości typu **bool** będzie reagował konwerter **BoolToVisibilityConverter**,
       </li>
       <li style="text-align: justify;">
-        <strong>Mode</strong> &#8211; typ wiązania, <strong>TwoWay</strong>, oznacza wiązanie w dwie strony, cczyli zapis i odczyt właściwości,
+        **Mode** - typ wiązania, **TwoWay**, oznacza wiązanie w dwie strony, cczyli zapis i odczyt właściwości,
       </li>
       <li style="text-align: justify;">
-        <strong>Converter</strong> &#8211; definicja konwertera, należy określić iż pochodzi ze statycznych zasobów, jego nazwę,
+        **Converter** - definicja konwertera, należy określić iż pochodzi ze statycznych zasobów, jego nazwę,
       </li>
       <li style="text-align: justify;">
-        <strong>ConverterParameter </strong>&#8211; w razie potrzeby można przekazać parametry do konwertera.
+        **ConverterParameter **- w razie potrzeby można przekazać parametry do konwertera.
       </li>
     </ul>
     

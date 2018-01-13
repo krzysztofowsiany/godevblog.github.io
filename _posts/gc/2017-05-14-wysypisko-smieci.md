@@ -1,5 +1,5 @@
 ---
-title: 'Garbage Collector &#8211; Wysypisko śmieci.'
+title: 'Garbage Collector - Wysypisko śmieci.'
 date: 2017-05-14T22:58:28+00:00
 author: Krzysztof Owsiany
 layout: post
@@ -33,8 +33,8 @@ Teraz w dobie ogromnych pamięci RAM, **GC**, często można  zapomnieć o wyci
 ## Działanie
 [![Garbage Collector][image1]][image1-big]{:.post-right-image}
 Alokowanie pamięci odbywa się niejako w dwóch miejscach:
-* na **stosie (Stack)** &#8211; zarządzaniem zajmuje się **CLR** (Common Language Runtime), i zawiera referencje do faktycznie utworzonych obiektów na stercie,
-* na **sterta (Heap)** &#8211;  zarządzaniem zajmuje się GC.
+* na **stosie (Stack)** - zarządzaniem zajmuje się **CLR** (Common Language Runtime), i zawiera referencje do faktycznie utworzonych obiektów na stercie,
+* na **sterta (Heap)** -  zarządzaniem zajmuje się GC.
 
 Śmietnik działa  bardzo sprytnie, w pierwszej fazie (**Mark**) znakuje obiekty jakie są używane -> istnieją powiązane z obiektem referencje (**Stack -> Heap**{:.color_1}),  po czym  zaznacza je.
 
@@ -59,7 +59,7 @@ Do generacji przydzielany jest budżet, dla 0 przyjmuje się wielkość **256 KB
 
 Po przeczyszczeniu następuje ponowna próba alokacji jeżeli się nie powiedzie to automatycznie obiekt awansuje do wyższej generacji.
 
-Generacja zerowa jest miejscem gdzie obiekty są najczęściej tworzone i niszczone, dlatego też jej wielkość **256 KB**, jest obszarem, który powinien z łatwością zmieścić się w pamięci  **L2 &#8211; cache procesora**.
+Generacja zerowa jest miejscem gdzie obiekty są najczęściej tworzone i niszczone, dlatego też jej wielkość **256 KB**, jest obszarem, który powinien z łatwością zmieścić się w pamięci  **L2 - cache procesora**.
 
 **C.D.N.**
 

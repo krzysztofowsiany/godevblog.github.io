@@ -1,6 +1,6 @@
 ---
 id: 1187
-title: 'Bieg na Ślężę &#8211; konfrontacja.'
+title: 'Bieg na Ślężę - konfrontacja.'
 date: 2017-05-28T18:38:43+00:00
 author: Krzysztof Owsiany
 layout: post
@@ -23,11 +23,11 @@ tags:
     </p>
     
 
-      Po starcie trochę kurzu i truchcik pod prażącym słońcem. Pierwsza górka + słońce i sadło już nie chciało za szybko biec. Jednak udało się szczęśliwy pobiegłem dalej, jednak moja partnerka biegowo &#8211; życiowa czyli Żona, <strong>defektowała</strong>, tym samym z  góry wiedziałem że bieg będzie podwójnie ciężki. Z jednej strony wymagająca trasa z drugiej jęczenie, marudzenie i inne efekty specjalne.<a href="http://godev.gemustudio.com/assets/images/2017/05/20170527_141318-e1495988370754.jpg"><img class="size-medium wp-image-1196 alignright" src="http://godev.gemustudio.com/assets/images/2017/05/20170527_141318-e1495988352223-169x300.jpg" alt="" width="169" height="300" /></a>
+      Po starcie trochę kurzu i truchcik pod prażącym słońcem. Pierwsza górka + słońce i sadło już nie chciało za szybko biec. Jednak udało się szczęśliwy pobiegłem dalej, jednak moja partnerka biegowo - życiowa czyli Żona, **defektowała**, tym samym z  góry wiedziałem że bieg będzie podwójnie ciężki. Z jednej strony wymagająca trasa z drugiej jęczenie, marudzenie i inne efekty specjalne.<a href="http://godev.gemustudio.com/assets/images/2017/05/20170527_141318-e1495988370754.jpg"><img class="size-medium wp-image-1196 alignright" src="http://godev.gemustudio.com/assets/images/2017/05/20170527_141318-e1495988352223-169x300.jpg" alt="" width="169" height="300" /></a>
     </p>
     
 
-      Wcześniejsze rozpoznanie nie dało całego obrazu trasy, nigdy wcześniej nie wchodziłem na tą górę. Jednak  to z czym przyszło się mierzyć w trakcie podbiegu pod Wierzycę, to była po prostu masakra, podobne trasy widziałem przy wchodzeniu na <strong>Giewont</strong> i <strong>Dolinę pięciu stawów</strong>.
+      Wcześniejsze rozpoznanie nie dało całego obrazu trasy, nigdy wcześniej nie wchodziłem na tą górę. Jednak  to z czym przyszło się mierzyć w trakcie podbiegu pod Wierzycę, to była po prostu masakra, podobne trasy widziałem przy wchodzeniu na **Giewont** i **Dolinę pięciu stawów**.
     </p>
     
 
@@ -35,7 +35,7 @@ tags:
     </p>
     
 
-      Wielkim bólem nie tylko serca udało się wbiec &#8211; wspiąć się  na szczyt <strong>Wieżycy</strong>, gdzie czekała niespodzianka droga w dół &#8211; cielsko odpocznie. Tak ale co jak się za bardzo rozpędzi&#8230; Katastrofa i staranowane osoby z przodu, jak to dobrze że w tym tempie to już z  przodu nikogo nie było:). Ostrożnie i udało się, potem to już przede wszystkim w górę, po kamieniach, po igłach po śliskich kamieniach. Z jęczącą partnerką, która nie mogła się zdecydować czy na dół czy do góry.
+      Wielkim bólem nie tylko serca udało się wbiec - wspiąć się  na szczyt **Wieżycy**, gdzie czekała niespodzianka droga w dół - cielsko odpocznie. Tak ale co jak się za bardzo rozpędzi&#8230; Katastrofa i staranowane osoby z przodu, jak to dobrze że w tym tempie to już z  przodu nikogo nie było:). Ostrożnie i udało się, potem to już przede wszystkim w górę, po kamieniach, po igłach po śliskich kamieniach. Z jęczącą partnerką, która nie mogła się zdecydować czy na dół czy do góry.
     </p>
     
 
@@ -43,7 +43,7 @@ tags:
     </p>
     
 
-      Tak udało się wdrapać na szczyt, po ok <strong>86 minutach</strong>, w tym pewnie lekko 30 minut postojów, karmienia i wodopoju. A, że moja maruda uparta jak osioł to nie szło wbiec trybem biegomarszu, jedynie bieg i postój bieg i postój. Nie wspomnę ile razy trzeba było otrzeć pot z czoła, a że grubasek się poci&#8230;
+      Tak udało się wdrapać na szczyt, po ok **86 minutach**, w tym pewnie lekko 30 minut postojów, karmienia i wodopoju. A, że moja maruda uparta jak osioł to nie szło wbiec trybem biegomarszu, jedynie bieg i postój bieg i postój. Nie wspomnę ile razy trzeba było otrzeć pot z czoła, a że grubasek się poci&#8230;
     </p>
     
 
@@ -51,7 +51,7 @@ tags:
     </p>
     
 
-      I tym samym bieg na <strong>Ślężę</strong> zakończył się prawie <strong>11 km</strong> w terenie górskim.:D.
+      I tym samym bieg na **Ślężę** zakończył się prawie **11 km** w terenie górskim.:D.
     </p>
     
     <h2 style="background-color: lightgreen; padding: 5px; text-align: center;">
@@ -59,11 +59,11 @@ tags:
     </h2>
     
 
-      Trenując przebiegliśmy wcześniej trasę <strong>10 km</strong> (z 2 km naddatkiem) <strong>Biegu Górskiego w Lesznie</strong>. I teraz powiem jedno &#8222;Co to jest?&#8221;, bo nie bieg górski.:D<a href="http://godev.gemustudio.com/assets/images/2017/05/20170527_090537-e1495989341311.jpg"><img class="size-medium wp-image-1204 alignright" src="http://godev.gemustudio.com/assets/images/2017/05/20170527_090537-300x169.jpg" alt="" width="300" height="169" /></a>
+      Trenując przebiegliśmy wcześniej trasę **10 km** (z 2 km naddatkiem) **Biegu Górskiego w Lesznie**. I teraz powiem jedno &#8222;Co to jest?&#8221;, bo nie bieg górski.:D<a href="http://godev.gemustudio.com/assets/images/2017/05/20170527_090537-e1495989341311.jpg"><img class="size-medium wp-image-1204 alignright" src="http://godev.gemustudio.com/assets/images/2017/05/20170527_090537-300x169.jpg" alt="" width="300" height="169" /></a>
     </p>
     
 
-      Myślę, że wrócę&#8230; poprawić wynik, kiedy &#8211; może za rok&#8230; Tym bardziej, że maruda już marudzi o  kolejnym biegu na Ślężę!
+      Myślę, że wrócę&#8230; poprawić wynik, kiedy - może za rok&#8230; Tym bardziej, że maruda już marudzi o  kolejnym biegu na Ślężę!
     </p>
     
     <!-- AddThis Advanced Settings generic via filter on the_content -->

@@ -28,39 +28,39 @@ tags:
     </p>
     
 
-      <span style="font-weight: 400;">Tak to były czasy &#8211; dawne czasy.</span>
+      <span style="font-weight: 400;">Tak to były czasy - dawne czasy.</span>
     </p>
     
 
-      <strong>.</strong>
+      **.**
     </p>
     
 
-      <strong>.</strong>
+      **.**
     </p>
     
 
-      <strong>.</strong>
+      **.**
     </p>
     
 
-      <span style="font-weight: 400;">Lata później moja pierwsza praca jako programista <strong>Delphi</strong>n. Przenoszenie kontrolek klikanie kodowanie. <strong>Beginy &#8211; endy</strong>, podział na funkcje i procedury. Cudowne wskaźniki z daszkiem <strong>^</strong>. </span>
+      <span style="font-weight: 400;">Lata później moja pierwsza praca jako programista **Delphi**n. Przenoszenie kontrolek klikanie kodowanie. **Beginy - endy**, podział na funkcje i procedury. Cudowne wskaźniki z daszkiem **^**. </span>
     </p>
     
 
-      <span style="font-weight: 400;">Deklaracja zmiennych przy pomocy <strong>var</strong> ponad ciałem funkcji i metod. </span>
+      <span style="font-weight: 400;">Deklaracja zmiennych przy pomocy **var** ponad ciałem funkcji i metod. </span>
     </p>
     
 
-      <span style="font-weight: 400;">Tak i zwracanie wszystkiego przez <strong>result</strong>. </span>
+      <span style="font-weight: 400;">Tak i zwracanie wszystkiego przez **result**. </span>
     </p>
     
 
-      <span style="font-weight: 400;">Byłbym zapomniał o przypisaniach <strong>:=</strong>.</span>
+      <span style="font-weight: 400;">Byłbym zapomniał o przypisaniach **:=**.</span>
     </p>
     
 
-      <span style="font-weight: 400;">Minęło 20 lat od mojej pierwszej styczności z Pascalem, a ja nadal mam styczność z tym językiem i Delphinem nacodzień. Mój <strong>Legacy Code</strong> sprzed 6 lat, próby unowocześnienia wprowadzania wzorców.</span>
+      <span style="font-weight: 400;">Minęło 20 lat od mojej pierwszej styczności z Pascalem, a ja nadal mam styczność z tym językiem i Delphinem nacodzień. Mój **Legacy Code** sprzed 6 lat, próby unowocześnienia wprowadzania wzorców.</span>
     </p>
     
 
@@ -76,11 +76,11 @@ tags:
     </p>
     
 
-      <span style="font-weight: 400;">A wystarczyło, by ktoś wskazał drogę, przeprowadził za rączkę w odpowiednim czasie. </span><span style="font-weight: 400;"><strong>Testy</strong>, <strong>wzorce projektowe</strong>, <strong>DRY</strong>, <strong>SOLID</strong>, <strong>wzorce architektoniczne</strong>, <strong>DDD</strong>, itd. Gdzieś zawsze był/są po drodze!</span>
+      <span style="font-weight: 400;">A wystarczyło, by ktoś wskazał drogę, przeprowadził za rączkę w odpowiednim czasie. </span><span style="font-weight: 400;">**Testy**, **wzorce projektowe**, **DRY**, **SOLID**, **wzorce architektoniczne**, **DDD**, itd. Gdzieś zawsze był/są po drodze!</span>
     </p>
     
 
-      <span style="font-weight: 400;">I tak ja z bagażem doświadczeń w programowaniu ponad 20 lat (nie zaczynałem od Pascala). Czuję się niekiedy jak <strong>Baby Developer</strong>. </span><span style="font-weight: 400;">Jednak ciągle walczą, ze swoją głupotą/nie wiedzą/błędami!</span>
+      <span style="font-weight: 400;">I tak ja z bagażem doświadczeń w programowaniu ponad 20 lat (nie zaczynałem od Pascala). Czuję się niekiedy jak **Baby Developer**. </span><span style="font-weight: 400;">Jednak ciągle walczą, ze swoją głupotą/nie wiedzą/błędami!</span>
     </p>
     
 
@@ -92,7 +92,7 @@ tags:
     </p>
     
     <h1 style="text-align: center;">
-      <strong>Od taki Grandpa Developer.</strong>
+      **Od taki Grandpa Developer.**
     </h1>
     
 {% include_relative dsp.md %}

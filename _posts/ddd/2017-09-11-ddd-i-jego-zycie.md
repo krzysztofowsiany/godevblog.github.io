@@ -43,8 +43,8 @@ Stosowanie powyższych wzorców porządkuje modele i tym samym umożliwia łatwi
 [![Domain-Drive Design - Aggregates][image1]][image1-big]{:.post-right-image}
 
 Jest to zbiór powiązanych ze sobą obiektów, dzięki temu można traktować je jako jedna całość (jeden obiekt). Agregat (ang. **aggregate**) zbudowany jest z dwóch części:
-* **korzenia** (ang. **Aggregate Root**) &#8211; jedna z encji (ang. **entity**) wchodząca w skład zbioru obiektów,
-* **granicy** (ang. **Boundary**) &#8211; definiuje zawartość agregatu, czyli jakie obiekty będą się znajdować w jego obrębie.
+* **korzenia** (ang. **Aggregate Root**) - jedna z encji (ang. **entity**) wchodząca w skład zbioru obiektów,
+* **granicy** (ang. **Boundary**) - definiuje zawartość agregatu, czyli jakie obiekty będą się znajdować w jego obrębie.
     
 Agregat (ang. **aggregate**) otacza granicą swoje obiekty. Dostęp do obiektów możliwy jest jedynie w obrębie granicy. Dostęp do agregatu odbywa się poprzez korzeń.
 

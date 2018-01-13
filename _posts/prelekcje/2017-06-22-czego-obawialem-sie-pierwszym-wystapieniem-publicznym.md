@@ -20,7 +20,7 @@ tags:
 <div id="dslc-theme-content">
   <div id="dslc-theme-content-inner">
 
-      <span style="font-weight: 400;"><span style="font-size: 20px;"><a href="http://godev.gemustudio.com/assets/images/2017/06/blogging-photo-45.jpg"><img class=" wp-image-1469 alignright" src="http://godev.gemustudio.com/assets/images/2017/06/blogging-photo-45-300x200.jpg" alt="Prezentacja o Grywalizacji" width="231" height="154" srcset="http://godev.gemustudio.com/assets/images/2017/06/blogging-photo-45-300x200.jpg 300w, http://godev.gemustudio.com/assets/images/2017/06/blogging-photo-45-768x512.jpg 768w, http://godev.gemustudio.com/assets/images/2017/06/blogging-photo-45.jpg 900w" sizes="(max-width: 231px) 100vw, 231px" /></a>Za mną pierwsze i mam nadzieję nie ostatnie wystąpienie publiczne w ramach Gali Finałowej <strong><a href="http://devstyle.pl/daj-sie-poznac/">DSP2017</a></strong>, organizowanej przez <strong><a href="http://devstyle.pl">Macieja Aniserowicza</a></strong> w siedzibie <strong><a href="http://microsoft.com">Microsoftu</a></strong>. Niniejszym dzielę się swoimi przemyśleniami dotyczącymi obaw jakie odczuwałem w ramach tego “traumatycznego” przeżycia.</span></span>
+      <span style="font-weight: 400;"><span style="font-size: 20px;"><a href="http://godev.gemustudio.com/assets/images/2017/06/blogging-photo-45.jpg"><img class=" wp-image-1469 alignright" src="http://godev.gemustudio.com/assets/images/2017/06/blogging-photo-45-300x200.jpg" alt="Prezentacja o Grywalizacji" width="231" height="154" srcset="http://godev.gemustudio.com/assets/images/2017/06/blogging-photo-45-300x200.jpg 300w, http://godev.gemustudio.com/assets/images/2017/06/blogging-photo-45-768x512.jpg 768w, http://godev.gemustudio.com/assets/images/2017/06/blogging-photo-45.jpg 900w" sizes="(max-width: 231px) 100vw, 231px" /></a>Za mną pierwsze i mam nadzieję nie ostatnie wystąpienie publiczne w ramach Gali Finałowej **<a href="http://devstyle.pl/daj-sie-poznac/">DSP2017</a>**, organizowanej przez **<a href="http://devstyle.pl">Macieja Aniserowicza</a>** w siedzibie **<a href="http://microsoft.com">Microsoftu</a>**. Niniejszym dzielę się swoimi przemyśleniami dotyczącymi obaw jakie odczuwałem w ramach tego “traumatycznego” przeżycia.</span></span>
     </p>
     
   <!--break-->
@@ -78,7 +78,7 @@ tags:
     </h2>
     
 
-      <span style="font-weight: 400; font-size: 20px;">Prawda jest taka, że większość osób miała zapewne przeżywała podobne obawy, nikt też nie był tam po to by wyśmiewać biednych młodych przestraszonych developerów stawiających pierwsze kroki w prezentacji dla szerokiego (wyszukanego grona) odbiorców swoją wiedzę wzbogaconą o wnioski &#8211; przemyślenia. Dodatkowo miejsce prelekcji było bardzo specyficzne, siedziba MS.</span>
+      <span style="font-weight: 400; font-size: 20px;">Prawda jest taka, że większość osób miała zapewne przeżywała podobne obawy, nikt też nie był tam po to by wyśmiewać biednych młodych przestraszonych developerów stawiających pierwsze kroki w prezentacji dla szerokiego (wyszukanego grona) odbiorców swoją wiedzę wzbogaconą o wnioski - przemyślenia. Dodatkowo miejsce prelekcji było bardzo specyficzne, siedziba MS.</span>
     </p>
     
     <hr />
