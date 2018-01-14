@@ -16,6 +16,7 @@ tags:
   - DI
   - IEnumerable
   - Kolekcje
+short: W zmaganiach z kontenerem AutoFac, natrafiłem na możliwość wstrzykiwania całych kolekcji implementujących ten sam interfejs. Dzięki takiemu podejściu udało mi się znacznie uprościć kod algorytmu. Niniejszym dzielę się swoimi spostrzeżeniami oraz przykładową poglądową implementacją rozwiązania jakie zastosowałem.
 ---
 [![Kolekcje w kontrolerze Dependency Injection - Autofac][post]][post-big]{:.post-right-image}
 W zmaganiach z kontenerem **AutoFac**, natrafiłem na możliwość wstrzykiwania całych kolekcji implementujących ten sam interfejs.
@@ -26,7 +27,7 @@ Dzięki takiemu podejściu udało mi się znacznie uprościć kod algorytmu. Nin
 Bardzo prosty interfejs **IOnlyForTest** zawierający szkielet metody **Calc** przyjmującej dwa parametry **a** i **b**, następnie zwracający wynik operacji.
 
 Interfejs wykorzystywany w kolekcji.
-{% hightlight csharp linenos %}
+{% highlight csharp linenos %}
 using System;
 namespace Test
 {
@@ -35,7 +36,7 @@ namespace Test
         int Calc(int a, Int b);
     }
 }
-{% endhightlight %}
+{% endhighlight %}
 
 Klasa implementująca **IOnlyForTest** zostanie automatycznie wstrzyknięta jako jeden z elementów kolekcji.
 
@@ -60,12 +61,12 @@ namespace Test
 Można by tutaj powiedzieć, iż własnie budowane są kolejne elementy kolekcji jaka zostanie wstrzyknięta do docelowego obiektu.
     
 ## Przykładowe klasy implementujące interfejs
-[![Kolekcje w kontrolerze Dependency Injection - Autofac][image1]][image1-big]{:.post-center-image}
+[![Kolekcje w kontrolerze Dependency Injection - Autofac][image1]][image1-big]{:.post-right-image}
 
 Pierwsza z klas zwraca wynik dodawania liczby **a** i **b**;
 
 Implementacja interfejsu IOnlyForTest, wynikiem jest dodawanie dwóch liczb a i b.
-{% hightlight charp linenos %}
+{% highlight charp linenos %}
 using System;
 
 namespace Test
@@ -83,7 +84,7 @@ namespace Test
 Druga funkcjonuje analogicznie z tym, iż zwraca różnicę.
 
 Implementacja interfejsu IOnlyForTest, wynikiem jest odejmowanie dwóch liczb a i b.
-{% hightlight csharp linenos %}
+{% highlight csharp linenos %}
 using System;
 
 namespace Test
@@ -98,8 +99,10 @@ namespace Test
 }
 {% endhighlight %}
 
+[![Kolekcje w kontrolerze Dependency Injection - Autofac][image2]][image2-big]{:.post-center-image}
+
 Obie są rejestrowane przez moduł kontenera **AutoFac**.
-[![Kolekcje w kontrolerze Dependency Injection - Autofac][image2]][image2-big]{:.post-left-image}
+
 
 # Użycie wstrzykiwania kolekcji
 Na koniec pozostaje implementacja klasy **TestEnumerable**. To właśnie w niej zostanie wstrzyknięta kolekcja zawierająca listę zarejestrowanych klas implementujących **IOnlyForTest**.

@@ -21,17 +21,23 @@ Początkiem roku podjąłem męską decyzję, migruje do **Dockera** przed końc
 Aaaaaaaaaa i co teraz tyle stron projektów. **OhFuck() ->BLOG!**
 
 Dwie godziny walki z g____m, nic żadnego konstruktywnego rozwiązania  a tu zegar tyka pora spać strony nie działają&#8230;
-[![Laravel][image1]][image1-big]{:.post-left-image}
+[![Laravel][image1]][image1-big]{:.post-right-image}
     
 Chwile po tym.
 
-**shutdown**\
-**#**\
-**#**\
-**#**\
-**start**\
-**loading&#8230;**\
-**sytem started**\
+**shutdown**
+
+**#**
+
+**#**
+
+**#**
+
+**start**
+
+**loading&#8230;**
+
+**sytem started**
 
 **Oh fuck spałem!** - a problem się nie naprawił.
 
