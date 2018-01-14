@@ -16,7 +16,15 @@ tags:
   - Wystąpienie
 short: Udało się, zakwalifikowałem się do finalistów DSP 2017, a to nie koniec. Zostałem wytypowany do 20 minutowego wystąpienia na Gali Finałowej Daj Się Poznać 2017 - SZOK!
 ---
-Gdy dzisiaj wstałem z rana,<br /> Stała się rzecz nie słychana.<br /> Spośród wszystkich uczestników,<br /> Procent wskazał 184 czeladników.<br /> &nbsp;<br /> Idąc dalej tym krokiem,<br /> Od wczoraj wieczorem już wiem,<br /> Będę bawił finalistów, słów potokiem,<br /> Nadszedł stresu cień.
+**Gdy dzisiaj wstałem z rana,
+Stała się rzecz nie słychana.
+Spośród wszystkich uczestników,
+Procent wskazał 184 czeladników.
+
+Idąc dalej tym krokiem,
+Od wczoraj wieczorem już wiem,
+Będę bawił finalistów, słów potokiem,
+Nadszedł stresu cień.**{:.center_big}
   
 Udało się, zakwalifikowałem się do finalistów DSP 2017, a to nie koniec. Zostałem wytypowany do 20 minutowego wystąpienia na **Gali Finałowej Daj Się Poznać 2017** - SZOK!
 
@@ -29,7 +37,7 @@ Po głowie kręci się temat jaki chciał bym poruszyć. Wydaje mi się bardzo c
 Do 6 czerwca 2017 muszę naskrobać temat, a potem go opracować - **Run Forest Run!**.
 
 ## Podziękowania
-[![Daj Się Poznać 2017 - finalista.][post]][post-big]{:.post-left-image}
+[![Daj Się Poznać 2017 - finalista.][post]][post-big]{:.post-right-image}
 Chciałbym już teraz podziękować przede wszystkim:
 * **Maciejowi Aniserowiczowi** - za wyknucie tak interesującej inicjatywy, a następnie wdrożenie jej na produkcję,
 * **Anicie Owsianej (żonie)** - za wsparcie i wyrozumiałość i namawianie do uczestnictwa i przede wszystkim **w wiarę we mnie**,
