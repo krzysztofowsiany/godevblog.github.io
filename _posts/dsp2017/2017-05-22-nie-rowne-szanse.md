@@ -1,60 +1,43 @@
 ---
-id: 1135
 title: Nierówne szanse
-date: 2017-05-22T12:10:13+00:00
+date: 2017-05-22
 author: Krzysztof Owsiany
 layout: post
-published: false
-permalink: /2017/05/22/nie-rowne-szanse/
-image: /assets/images/2017/05/blogging-photo-9589.jpg
+published: true
+permalink: /nie-rowne-szanse
+image: /assets/images/2017/05/nie-rowne-szanse/post.jpg
 categories:
+short: Mówi się, iż każdy rodzi się z równymi szansami. Niestety nie wierzę w taką przesłankę. Miejsce narodzin człowieka ma ogromne znaczenie dla jego życia od samego początku. Późniejsze życie i środowisko determinuje osobowość, wiedzę człowieka.
 ---
-<div id="dslc-theme-content">
-  <div id="dslc-theme-content-inner">
+[![Nierówne szanse][image1]][image1-big]{:.post-left-image}
+Mówi się, iż każdy rodzi się z równymi szansami. Niestety nie wierzę w taką przesłankę.
 
-      <span style="font-weight: 400;"><a href="http://godev.gemustudio.com/assets/images/2017/05/blogging-photo-0278.jpg"><img class="alignleft wp-image-1139 size-medium" src="http://godev.gemustudio.com/assets/images/2017/05/blogging-photo-0278-300x200.jpg" alt="Nierówne szanse" width="300" height="200" srcset="http://godev.gemustudio.com/assets/images/2017/05/blogging-photo-0278-300x200.jpg 300w, http://godev.gemustudio.com/assets/images/2017/05/blogging-photo-0278-768x512.jpg 768w, http://godev.gemustudio.com/assets/images/2017/05/blogging-photo-0278.jpg 900w" sizes="(max-width: 300px) 100vw, 300px" /></a>Mówi się, iż każdy rodzi się z równymi szansami. Niestety nie wierzę w taką przesłankę.</span>
-    </p>
-    
+Miejsce narodzin człowieka ma ogromne znaczenie dla jego życia od samego początku. Późniejsze życie i środowisko determinuje osobowość, wiedzę człowieka.
 
-      <span style="font-weight: 400;">Miejsce narodzin człowieka ma ogromne znaczenie dla jego życia od samego początku. Późniejsze życie i środowisko determinuje osobowość, wiedzę człowieka. </span>
-    </p>
-    
+Każdy jest inny a to właśnie jest skutek wszystkich małych i dużych sytuacji jakie napotka na swojej drodze.
 
-      <span style="font-weight: 400;">Każdy jest inny a to właśnie jest skutek wszystkich małych i dużych sytuacji jakie napotka na swojej drodze.</span>
-    </p>
-    
+We wczesnej fazie rozwoju nie ma możliwości dokonywania wyboru, wraz ze wzrostem to się zmienia. Można determinować swoje cele i do nich dążyć lub nie. Iść na żywioł. Kierować się w stronę dobra albo zła. 
 
-      <span style="font-weight: 400;">We wczesnej fazie rozwoju nie ma możliwości dokonywania wyboru, wraz ze wzrostem to się zmienia. Można determinować swoje cele i do nich dążyć lub nie. Iść na żywioł. Kierować się w stronę dobra albo zła. </span>
-    </p>
-    
+Efektem jest bieżący stan, w którym się znajdujemy.
 
-      <span style="font-weight: 400;">Efektem jest bieżący stan, w którym się znajdujemy.</span>
-    </p>
-    
+Zmiany, niby to takie proste. Wyjść ze strefy komfortu. Jedna mała decyzja i życie się zmienia. 
 
-      <span style="font-weight: 400;">Zmiany, niby to takie proste. Wyjść ze strefy komfortu. Jedna mała decyzja i życie się zmienia. </span>
-    </p>
-    
+Niestety i w tym przypadku można uczynić wiele błędów rzutujących na późniejsze życie. Nie ma odpowiedzi tak naprawdę czy jest to złe czy nie. 
 
-      <span style="font-weight: 400;">Niestety i w tym przypadku można uczynić wiele błędów rzutujących na późniejsze życie. Nie ma odpowiedzi tak naprawdę czy jest to złe czy nie. </span>
-    </p>
-    
+Najgorzej wpaść do kotła z poczuciem winy popełnionych błędów, zmarnowanego życia. Nie łatwo jest potem z niego wyjść.
 
-      <span style="font-weight: 400;">Najgorzej wpaść do kotła z poczuciem winy popełnionych błędów, zmarnowanego życia. Nie łatwo jest potem z niego wyjść.</span>
-    </p>
-    
-    <div style="background-color: greenyellow; padding: 5px;">
-      <h3 style="text-align: center;">
-        **Jednak nigdy nie należy się poddawać i myśleć pozytywnie, o przyszłości, mar<a href="http://godev.gemustudio.com/assets/images/2017/05/blogging-photo-00226.jpg"><img class=" wp-image-1141 alignright" src="http://godev.gemustudio.com/assets/images/2017/05/blogging-photo-00226-300x200.jpg" alt="" width="191" height="127" srcset="http://godev.gemustudio.com/assets/images/2017/05/blogging-photo-00226-300x200.jpg 300w, http://godev.gemustudio.com/assets/images/2017/05/blogging-photo-00226-768x512.jpg 768w, http://godev.gemustudio.com/assets/images/2017/05/blogging-photo-00226.jpg 900w" sizes="(max-width: 191px) 100vw, 191px" /></a>zyć. **
-      </h3>
-      
-      <h3 style="text-align: center;">
-        **Bez odpowiedniego nastawienia w trudnych chwilach jest ciężko!**
-      </h3>
-      
-      <h3 style="text-align: center;">
-        **Człowiek jest jak grot strzały, wystrzelony powinien zawsze mknąć do przodu.**
-      </h3>
-    </div>
+[![Myśleć pozytywnie!][image2]][image2-big]{:.post-right-image}
+**Jednak nigdy nie należy się poddawać i myśleć pozytywnie, o przyszłości, marzyć.**{:.h-2}
+**Bez odpowiedniego nastawienia w trudnych chwilach jest ciężko!**{:.h-2}
+**Człowiek jest jak grot strzały, wystrzelony powinien zawsze mknąć do przodu.**{:.h-2}
     
 {% include_relative dsp.md %}
+
+[post]: /assets/images/2017/05/nie-rowne-szanse/post.jpg
+[post-big]: /assets/images/2017/05/nie-rowne-szanse/post-big.jpg
+
+[iamge1]: /assets/images/2017/05/nie-rowne-szanse/iamge1.jpg
+[iamge1-big]: /assets/images/2017/05/nie-rowne-szanse/iamge1-big.jpg
+
+[iamge2]: /assets/images/2017/05/nie-rowne-szanse/iamge2.jpg
+[iamge2-big]: /assets/images/2017/05/nie-rowne-szanse/iamge2-big.jpg

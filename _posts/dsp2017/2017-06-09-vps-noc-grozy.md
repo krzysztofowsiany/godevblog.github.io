@@ -14,6 +14,7 @@ tags:
   - PHP
   - Story from my life
   - Z życia wzięte
+short: Początkiem roku podjąłem męską decyzję, migruje do Dockera przed końcem 2017 roku. Wczoraj ok 22:00 wykonuję sobie deploja na serwer (Laravel), a tu trach problem. 
 ---
 Początkiem roku podjąłem męską decyzję, migruje do **Dockera** przed końcem 2017 roku. Wczoraj ok **22:00** wykonuję sobie deploja na serwer (**Laravel**), a tu trach problem. **Memmory_limit** w php. Ano to się zwiększy w końcu sobie administruję sam!. **Vim -> /memory_limit -> e -> 256M -> ESC -> :wq**. Brak efektu! **WTF**! Aaa restart **indianina** pomoże&#8230; **TRAHHHH padł serwer WWW!**.
 

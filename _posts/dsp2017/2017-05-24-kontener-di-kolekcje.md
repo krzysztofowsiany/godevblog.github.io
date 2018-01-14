@@ -1,11 +1,11 @@
 ---
-title: 'Kontener DI - kolekcje'
-date: 2017-05-24T12:51:58+00:00
+title: Kontener DI - kolekcje
+date: 2017-05-24
 author: Krzysztof Owsiany
 layout: post
-published: false
-permalink: /2017/05/24/kontener-di-kolekcje/
-image: /assets/images/2017/05/blogging-photo-7501.jpg
+published: true
+permalink: /kontener-di-kolekcje
+image: /assets/images/2017/05/kontener-di-kolekcje/post.jpg
 categories:
   - 'C#'
   - Programowanie
@@ -17,55 +17,34 @@ tags:
   - IEnumerable
   - Kolekcje
 ---
-<div id="dslc-theme-content">
-  <div id="dslc-theme-content-inner">
+[![Kolekcje w kontrolerze Dependency Injection - Autofac][post]][post-big]{:.post-right-image}
+W zmaganiach z kontenerem **AutoFac**, natrafiłem na możliwość wstrzykiwania całych kolekcji implementujących ten sam interfejs.
+    
+Dzięki takiemu podejściu udało mi się znacznie uprościć kod algorytmu. Niniejszym dzielę się swoimi spostrzeżeniami oraz przykładową poglądową implementacją rozwiązania jakie zastosowałem.
 
-      W zmaganiach z kontenerem **AutoFac**, natrafiłem na możliwość wstrzykiwania całych kolekcji implementujących ten sam interfejs.<a href="http://godev.gemustudio.com/assets/images/2017/05/blogging-photo-5.jpg"><img class="wp-image-1165 alignright" src="http://godev.gemustudio.com/assets/images/2017/05/blogging-photo-5-200x300.jpg" alt="" width="107" height="161" srcset="http://godev.gemustudio.com/assets/images/2017/05/blogging-photo-5-200x300.jpg 200w, http://godev.gemustudio.com/assets/images/2017/05/blogging-photo-5.jpg 600w" sizes="(max-width: 107px) 100vw, 107px" /></a>
-    </p>
-    
-    <p>
-      Dzięki takiemu podejściu udało mi się znacznie uprościć kod algorytmu. Niniejszym dzielę się swoimi spostrzeżeniami oraz przykładową poglądową implementacją rozwiązania jakie zastosowałem.
-    </p>
-    <!--break-->
-    <p>
-      &nbsp;
-    </p>
-    
-    <h2 style="text-align: justify;">
-      Interfejs
-    </h2>
-    
+## Interfejs
+Bardzo prosty interfejs **IOnlyForTest** zawierający szkielet metody **Calc** przyjmującej dwa parametry **a** i **b**, następnie zwracający wynik operacji.
 
-      Bardzo prosty interfejs **IOnlyForTest** zawierający szkielet metody **Calc** przyjmującej dwa parametry **a** i **b**, następnie zwracający wynik operacji.
-    </p>
-    
-    <pre class="lang:c# decode:true" title="Interfejs wykorzystywany w kolekcji.">using System;
-
+Interfejs wykorzystywany w kolekcji.
+{% hightlight csharp linenos %}
+using System;
 namespace Test
 {
     public interface IOnlyForTest
     {
         int Calc(int a, Int b);
     }
-}</pre>
-    
+}
+{% endhightlight %}
 
-      Klasa implementująca **IOnlyForTest** zostanie automatycznie wstrzyknięta jako jeden z elementów kolekcji.
-    </p>
-    
-    <p>
-      &nbsp;
-    </p>
-    
-    <h2 style="text-align: justify;">
-      Rejestrowanie klas w module kontenera AutoFac
-    </h2>
-    
+Klasa implementująca **IOnlyForTest** zostanie automatycznie wstrzyknięta jako jeden z elementów kolekcji.
 
-      Moduł rejestrowania klas implementujących interfejs **IOnlyForTest**.
-    </p>
+## Rejestrowanie klas w module kontenera AutoFac
+Moduł rejestrowania klas implementujących interfejs **IOnlyForTest**.
     
-    <pre class="lang:c# decode:true" title="Rejestrowanie klas obiektów implementujących interfejs IOnlyForTest.">namespace Test
+Rejestrowanie klas obiektów implementujących interfejs IOnlyForTest.
+{% highlight csharp linenos%}
+namespace Test
 {
     public class TestModule : Module
     {
@@ -75,25 +54,19 @@ namespace Test
             builder.RegisterType&lt;SubdOnlyForTest&gt;().AsImplementedInterfaces();
         }
     }
-}</pre>
-    
+}
+{% endhighlight %}
 
-      Można by tutaj powiedzieć, iż własnie budowane są kolejne elementy kolekcji jaka zostanie wstrzyknięta do docelowego obiektu.
-    </p>
+Można by tutaj powiedzieć, iż własnie budowane są kolejne elementy kolekcji jaka zostanie wstrzyknięta do docelowego obiektu.
     
-    <p>
-      &nbsp;
-    </p>
-    
-    <h2 style="text-align: justify;">
-      Przykładowe klasy implementujące interfejs
-    </h2>
-    
-    <p>
-      Pierwsza z klas zwraca wynik dodawania liczby **a** i **b**;
-    </p>
-    
-    <pre class="lang:c# decode:true " title="Implementacja interfejsu IOnlyForTest, wynikiem jest dodawanie dwóch liczb a i b.">using System;
+## Przykładowe klasy implementujące interfejs
+[![Kolekcje w kontrolerze Dependency Injection - Autofac][image1]][image1-big]{:.post-center-image}
+
+Pierwsza z klas zwraca wynik dodawania liczby **a** i **b**;
+
+Implementacja interfejsu IOnlyForTest, wynikiem jest dodawanie dwóch liczb a i b.
+{% hightlight charp linenos %}
+using System;
 
 namespace Test
 {
@@ -104,13 +77,14 @@ namespace Test
             return a + b;
         }
     }
-}</pre>
-    
+}
+{% endhighlight %}
 
-      Druga funkcjonuje analogicznie z tym, iż zwraca różnicę.
-    </p>
-    
-    <pre class="lang:c# decode:true " title="Implementacja interfejsu IOnlyForTest, wynikiem jest odejmowanie dwóch liczb a i b.">using System;
+Druga funkcjonuje analogicznie z tym, iż zwraca różnicę.
+
+Implementacja interfejsu IOnlyForTest, wynikiem jest odejmowanie dwóch liczb a i b.
+{% hightlight csharp linenos %}
+using System;
 
 namespace Test
 {
@@ -121,39 +95,27 @@ namespace Test
             return a - b;
         }
     }
-}</pre>
-    
+}
+{% endhighlight %}
 
-      Obie są rejestrowane przez moduł kontenera **AutoFac**.
-    </p>
-    
-    <p>
-      <a href="http://godev.gemustudio.com/assets/images/2017/05/blogging-photo-9452.jpg"><img class="aligncenter size-medium wp-image-1175" src="http://godev.gemustudio.com/assets/images/2017/05/blogging-photo-9452-300x200.jpg" alt="" width="300" height="200" srcset="http://godev.gemustudio.com/assets/images/2017/05/blogging-photo-9452-300x200.jpg 300w, http://godev.gemustudio.com/assets/images/2017/05/blogging-photo-9452-768x512.jpg 768w, http://godev.gemustudio.com/assets/images/2017/05/blogging-photo-9452.jpg 900w" sizes="(max-width: 300px) 100vw, 300px" /></a>
-    </p>
-    
-    <p>
-      &nbsp;
-    </p>
-    
-    <h2 style="text-align: justify;">
-      Użycie wstrzykiwania kolekcji
-    </h2>
-    
+Obie są rejestrowane przez moduł kontenera **AutoFac**.
+[![Kolekcje w kontrolerze Dependency Injection - Autofac][image2]][image2-big]{:.post-left-image}
 
-      Na koniec pozostaje implementacja klasy **TestEnumerable**. To właśnie w niej zostanie wstrzyknięta kolekcja zawierająca listę zarejestrowanych klas implementujących **IOnlyForTest**.
-    </p>
-    
-    <pre class="lang:c# decode:true" title="Użycie DI + enumeracji do wyliczeń.">using System;
+# Użycie wstrzykiwania kolekcji
+Na koniec pozostaje implementacja klasy **TestEnumerable**. To właśnie w niej zostanie wstrzyknięta kolekcja zawierająca listę zarejestrowanych klas implementujących **IOnlyForTest**.
+
+Użycie DI + enumeracji do wyliczeń.
+{% highlight csharp linenos %}
+using System;
 using System.Collections.Generic;
-
 
 namespace Test
 {
     public class TestEnumerable
     {
-        private readonly IEnumerable&lt;IOnlyForTest&gt; _testEnumerableList;
+        private readonly IEnumerable<IOnlyForTest> _testEnumerableList;
 
-        public TestEnumerable(IEnumerable&lt;IOnlyForTest&gt; testEnumerableList)                
+        public TestEnumerable(IEnumerable<IOnlyForTest> testEnumerableList)                
         {
             _testEnumerableList = testEnumerableList;
 
@@ -172,22 +134,21 @@ namespace Test
             }           
         }
     }
-}</pre>
+}
+{% endhighlight %}
     
-    <p>
-      &nbsp;
-    </p>
-    
-    <h2 style="text-align: justify;">
-      Koniec
-    </h2>
-    
+## Koniec
+Niniejszy kod nie przedstawia żadnej logicznej implementacji, jest to tylko przykład testowy. Głównym jego założeniem jest przedstawienie sposobu łączenia klas implementujących ten sam interfejs w kolekcję. I następnie użycie ich w pętli.
 
-      Niniejszy kod nie przedstawia żadnej logicznej implementacji, jest to tylko przykład testowy. Głównym jego założeniem jest przedstawienie sposobu łączenia klas implementujących ten sam interfejs w kolekcję. I następnie użycie ich w pętli.
-    </p>
-    
-    <p>
-      Mam nadzieję, iż ten wirtualny przykład znajdzie zadowolonego odbiorcę.
-    </p>
+Mam nadzieję, iż ten wirtualny przykład znajdzie zadowolonego odbiorcę.
     
 {% include_relative dsp.md %}
+
+[post]: /assets/images/2017/05/kontener-di-kolekcje/post.jpg
+[post-big]: /assets/images/2017/05/kontener-di-kolekcje/post-big.jpg
+
+[image1]: /assets/images/2017/05/kontener-di-kolekcje/image1.jpg
+[image1-big]: /assets/images/2017/05/kontener-di-kolekcje/image1-big.jpg
+
+[image2]: /assets/images/2017/05/kontener-di-kolekcje/image2.jpg
+[image2-big]: /assets/images/2017/05/kontener-di-kolekcje/image2-big.jpg
