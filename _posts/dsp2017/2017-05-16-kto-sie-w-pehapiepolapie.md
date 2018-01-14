@@ -5,7 +5,7 @@ author: Krzysztof Owsiany
 layout: post
 published: true
 permalink: /kto-sie-w-pehapiepolapie
-image: /assets/images/2017/05/kto-sie-w-pehapiepolapie/php.jpg
+image: /assets/images/2017/05/kto-sie-w-pehapiepolapie/php.png
 categories:
   - Legacy Code
 tags:
