@@ -16,15 +16,15 @@ tags:
   - Wystąpienie
 short: Udało się, zakwalifikowałem się do finalistów DSP 2017, a to nie koniec. Zostałem wytypowany do 20 minutowego wystąpienia na Gali Finałowej Daj Się Poznać 2017 - SZOK!
 ---
-**Gdy dzisiaj wstałem z rana,
-Stała się rzecz nie słychana.
-Spośród wszystkich uczestników,
-Procent wskazał 184 czeladników.
+**Gdy dzisiaj wstałem z rana,**{:.center_big}
+**Stała się rzecz nie słychana.**{:.center_big}
+**Spośród wszystkich uczestników,**{:.center_big}
+**Procent wskazał 184 czeladników.**{:.center_big}
 
-Idąc dalej tym krokiem,
-Od wczoraj wieczorem już wiem,
-Będę bawił finalistów, słów potokiem,
-Nadszedł stresu cień.**{:.center_big}
+**Idąc dalej tym krokiem,**{:.center_big}
+**Od wczoraj wieczorem już wiem,**{:.center_big}
+**Będę bawił finalistów, słów potokiem,**{:.center_big}
+**Nadszedł stresu cień.**{:.center_big}
   
 Udało się, zakwalifikowałem się do finalistów DSP 2017, a to nie koniec. Zostałem wytypowany do 20 minutowego wystąpienia na **Gali Finałowej Daj Się Poznać 2017** - SZOK!
 
