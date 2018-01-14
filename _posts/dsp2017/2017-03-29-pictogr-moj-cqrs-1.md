@@ -1,12 +1,11 @@
 ---
-id: 582
-title: 'PictOgr - mój CQRS -1-'
-date: 2017-03-29T10:18:55+00:00
+title: PictOgr - mój CQRS -1-
+date: 2017-03-29
 author: Krzysztof Owsiany
 layout: post
-published: false
-permalink: /2017/03/29/pictogr-moj-cqrs-1/
-image: /assets/images/2017/03/13575771_612844145558374_5342566555726992706_o.jpg
+published: true
+permalink: /pictogr-moj-cqrs-1
+image: /assets/images/2017/03/pictogr-moj-cqrs-1/post.jpg
 categories:
   - Daj Się Poznać 2017
   - PictOgr
@@ -16,147 +15,81 @@ tags:
   - dajsiepoznac2017
   - DSP2017
   - PictOgr
+short: Zachciało mi się&#8230; nauczyć czegoś przydatnego i noweg. Padło na separację operacji pobierania i zmieniania danych. W tym celu pokusiłem się o własną implementację CQRS. Wszystkie komponenty składowe ładowane przez Autofaca w odseparowanym module.
 ---
-<div id="dslc-theme-content">
-  <div id="dslc-theme-content-inner">
-    <h1 style="text-align: center; background: #FFFF9C; padding: 5pt;">
-      Command Query Responsibility Segregation - 1 -
-    </h1>
+[![PictOgr - mój CQRS.][post]][post-big]{:.post-left-image}
+Zachciało mi się&#8230; nauczyć czegoś przydatnego i noweg. Padło na separację operacji pobierania i zmieniania danych. W tym celu pokusiłem się o własną implementację **CQRS**. Wszystkie komponenty składowe ładowane przez Autofaca w odseparowanym module.
     
+Funkcjonalność w połączeniu z **MVVM** funkcjonuje dobrze, a i ja się czegoś nowego nauczyłem.
 
-      <a href="http://godev.gemustudio.com/assets/images/2017/03/13575771_612844145558374_5342566555726992706_o.jpg"><img class="alignleft wp-image-625 size-medium" src="http://godev.gemustudio.com/assets/images/2017/03/13575771_612844145558374_5342566555726992706_o-300x200.jpg" alt="PictOgr - mój CQRS" width="300" height="200" srcset="http://godev.gemustudio.com/assets/images/2017/03/13575771_612844145558374_5342566555726992706_o-300x200.jpg 300w, http://godev.gemustudio.com/assets/images/2017/03/13575771_612844145558374_5342566555726992706_o-768x512.jpg 768w, http://godev.gemustudio.com/assets/images/2017/03/13575771_612844145558374_5342566555726992706_o-1024x683.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px" /></a>Zachciało mi się&#8230; nauczyć czegoś przydatnego i noweg. Padło na separację operacji pobierania i zmieniania danych. W tym celu pokusiłem się o własną implementację **CQRS**. Wszystkie komponenty składowe ładowane przez Autofaca w odseparowanym module.
-    </p>
-    
+Tym samym dzielę się ze światem, informacjami na tema rozwoju [PictOgr-a].
 
-      Funkcjonalność w połączeniu z **MVVM** funkcjonuje dobrze, a i ja się czegoś nowego nauczyłem.
-    </p>
-    
+Zważywszy, iż mam duży bagaż doświadczeń (nie koniecznie dobrych), i zmiana podejścia do budowania aplikacji z wykluczeniem **code-behind** jest dla mnie bardzo ekscytująca. W końcu od ponad 20 lat uwielbiam się rozwijać w IT, a to kolejna okazja.
 
-      Tym samym dzielę się ze światem, informacjami na tema rozwoju <a href="http://godev.gemustudio.com/2017/03/01/pictogr-pomysl/">PictOgr-a</a>.
-    </p>
-    
+## Struktura w projekcie
+[![PictOgr - mój CQRS.][mycqrs]][mycqrs-big]{:.post-right-image}
+Struktura mojego CQRSa w projekcie wygląda tak jak na przedstawionym obrazku.
 
-      Zważywszy, iż mam duży bagaż doświadczeń (nie koniecznie dobrych), i zmiana podejścia do budowania aplikacji z wykluczeniem **code-behind** jest dla mnie bardzo ekscytująca. W końcu od ponad 20 lat uwielbiam się rozwijać w IT, a to kolejna okazja.
-    </p>
-    
-    <p>
-      &nbsp;
-    </p>
-    
-    <h1>
-      Struktura w projekcie
-    </h1>
-    
+Rozdzieliłem bazę do budowania komend i zapytań w podfolderze **CQRS** wraz z odpowiednimi nazwami:
+* **Bus** - implementqacja szynu dla komend i zapytań zawierająca interfejs szyny komend (**ICommandBus**) i zapytań(**IQueryBus**) w raz z ich implementacją (**CommandBus**, **QueryBus**),
+* **Command** - kontrakty komend w skład których wchodzi interfejs: **ICommand** i **ICommandHandler**,
+* **Query** - kontrakty dla zapytań i tu wyodrębnić można: **IQuery**, **IQueryHandler**.
 
-      Struktura mojego CQRSa w projekcie wygląda tak jak na przedstawionym obrazku.
-    </p>
-    
+Wszystkie komponenty bazowe CQRS-a tworzone są w module **CQRSModule**.
 
-      Rozdzieliłem bazę do budowania komend i zapytań w podfolderze **CQRS** wraz z odpowiednimi nazwami:
-    </p>
-    
-    <ul>
-      <li style="text-align: justify;">
-        **Bus** - implementqacja szynu dla komend i zapytań zawierająca interfejs szyny komend (**ICommandBus**) i zapytań(**IQueryBus**) w raz z ich implementacją (**CommandBus**, **QueryBus**),
-      </li>
-      <li style="text-align: justify;">
-        **Command** - kontrakty komend w skład których wchodzi interfejs: **ICommand** i **ICommandHandler**,
-      </li>
-      <li style="text-align: justify;">
-        **Query** - kontrakty dla zapytań i tu wyodrębnić można: **IQuery**, **IQueryHandler**.
-      </li>
-    </ul>
-    
-    <p>
-      &nbsp;
-    </p>
-    
-    <p>
-      <a href="http://godev.gemustudio.com/assets/images/2017/03/myCQRS.png"><img class="size-full wp-image-584 aligncenter" src="http://godev.gemustudio.com/assets/images/2017/03/myCQRS.png" alt="" width="268" height="381" srcset="http://godev.gemustudio.com/assets/images/2017/03/myCQRS.png 268w, http://godev.gemustudio.com/assets/images/2017/03/myCQRS-211x300.png 211w" sizes="(max-width: 268px) 100vw, 268px" /></a>
-    </p>
-    
-
-      Wszystkie komponenty bazowe CQRS-a tworzone są w module **CQRSModule**.
-    </p>
-    
-    <p>
-      &nbsp;
-    </p>
-    
-    <h1>
-      Komendy i szyna komend
-    </h1>
-    
-
-       Pora nieco omówić implementację komend, do budowy zostały wykorzystane następujace kontrakty:
-    </p>
-    
-    <ul>
-      <li style="text-align: justify;">
-        **ICommand** - bazowy interfejs dla każdej komendy nie posiada żadnego szkieletu, poprzez implementację określamy dane jakie należy przezkazać do handler-a  komendy,
-      </li>
-    </ul>
-    
-    <pre class="lang:c# decode:true" title="Interfejs komend.">namespace PictOgr.Core.CQRS.Command
+## Komendy i szyna komend
+Pora nieco omówić implementację komend, do budowy zostały wykorzystane następujace kontrakty:
+* **ICommand** - bazowy interfejs dla każdej komendy nie posiada żadnego szkieletu, poprzez implementację określamy dane jakie należy przezkazać do handler-a komendy,
+Interfejs komend.
+{% highlight csharp linenos %}    
+namespace PictOgr.Core.CQRS.Command
 {
 	public interface ICommand
 	{
 	}
-}</pre>
-    
-    <p>
-      &nbsp;
-    </p>
-    
-    <ul>
-      <li style="text-align: justify;">
-        **ICommandHandler** - interfejs jaki należy zaimplementować w klasie handler-a, tego typu komenda nie otrzymuje żadnych danych,
-      </li>
-      <li style="text-align: justify;">
-        **ICommandHandler<ICommand>** - tworząc implementację na bazie tego kontraktu, przekazać należy dane, które to następnie zostaną przetworzone przez handlera.
-      </li>
-    </ul>
-    
-    <pre class="lang:c# decode:true" title="Interfejs handlerów komend.">namespace PictOgr.Core.CQRS.Command
+}
+{% endhighlight %}
+
+* **ICommandHandler** - interfejs jaki należy zaimplementować w klasie handler-a, tego typu komenda nie otrzymuje żadnych danych,
+* **ICommandHandler**<**ICommand**> - tworząc implementację na bazie tego kontraktu, przekazać należy dane, które to następnie zostaną przetworzone przez handlera.
+
+Interfejs handlerów komend.
+{% highlight csharp linenos %}    
+namespace PictOgr.Core.CQRS.Command
 {
 	public interface ICommandHandler
 	{
 	}
 
-	public interface ICommandHandler&lt;in TCommand&gt; : ICommandHandler where TCommand : ICommand
+	public interface ICommandHandler<in TCommand> : ICommandHandler 
+      where TCommand : ICommand
 	{
 		void Handle(TCommand command);
 	}
-}</pre>
-    
+}
+{% endhighlight %}
 
-      ** **
-    </p>
-    
+* **ICommandBus** to kontrakt dotyczący szyny komend, na którą będą wrzucane komendy i przetwarzane.
 
-      **ICommandBus** to kontrakt dotyczący szyny komend, na którą będą wrzucane komendy i przetwarzane.** **
-    </p>
-    
-    <pre class="lang:c# decode:true" title="Interfejs szyny komend.">using PictOgr.Core.CQRS.Command;
+Interfejs szyny komend.
+{% highlight csharp linenos %}
+using PictOgr.Core.CQRS.Command;
 
 namespace PictOgr.Core.CQRS.Bus
 {
 	public interface ICommandBus
 	{
-		void SendCommand&lt;TCommand&gt;(TCommand command) where TCommand : ICommand;
+		void SendCommand<TCommand>(TCommand command)
+          where TCommand : ICommand;
 	}
 }
-</pre>
+{% endhighlight %}
     
-    <p>
-      &nbsp;
-    </p>
-    
-    <p>
-      Implementacja szyny komend **CommandBus**.
-    </p>
-    
-    <pre class="lang:c# decode:true" title="Szyna komend.">using System;
+Implementacja szyny komend **CommandBus**.
+   
+Szyna komend.
+{% highlight csharp linenos %}
+using System;
 using Autofac;
 using Autofac.Extras.NLog;
 using PictOgr.Core.CQRS.Command;
@@ -174,18 +107,20 @@ namespace PictOgr.Core.CQRS.Bus
 			this.logger = logger;
 		}
 
-		public void SendCommand&lt;TCommand&gt;(TCommand command) where TCommand : ICommand
+		public void SendCommand<TCommand>(TCommand command) 
+        where TCommand : ICommand
 		{
 			if (command == null)
 			{
 				throw new ArgumentNullException(nameof(command));
 			}
 
-			var commandHandler = container.ResolveOptional&lt;ICommandHandler&lt;TCommand&gt;&gt;();
+			var commandHandler = container.ResolveOptional<ICommandHandler<TCommand>>();
 
 			if (commandHandler == null)
 			{
-				throw new Exception($"Not found handler for Command: '{command.GetType().FullName}'");
+				throw new Exception(
+          $"Not found handler for Command: '{command.GetType().FullName}'");
 			}
 
 			try
@@ -199,54 +134,24 @@ namespace PictOgr.Core.CQRS.Bus
 		}
 	}
 }
-</pre>
-    
-    <p>
-      &nbsp;
-    </p>
-    
-    <h4>
-      Proces przetwarzania komendy można przedstawić w następujący sposób:
-    </h4>
-    
-    <ol>
-      <li>
-        Przekazanie komendy do szyny przy pomocy wywołania metody **SendCommand**.
-      </li>
-      <li>
-        Jeżeli przekazana komenda jest pusta, to rzuca wyjątkiem **ArgumentNullException**,
-      </li>
-      <li>
-        Wyciągnięcie z kontenera (Autofac) handlera dla przekazanej komendy.
-      </li>
-      <li>
-        Jeżeli handler jest pusty to rzuca wyjątek **Exception**.
-      </li>
-      <li>
-        Wywołanie komendy poprzez metodę **Handle** w bloku **try&#8230;catch**.
-      </li>
-      <li>
-        Jeżeli wywołanie się nie powiedzie to zostanie zapisany log błędu.
-      </li>
-    </ol>
-    
-    <p>
-      &nbsp;
-    </p>
-    
-    <h1>
-      Pierwsza komenda
-    </h1>
-    
+{% endhighlight %}
 
-      Pierwsza komenda jaka została zaimplementowana **ExitApplication** dotyczy zamykanai aplikacji.
-    </p>
+Proces przetwarzania komendy można przedstawić w następujący sposób:
+* Przekazanie komendy do szyny przy pomocy wywołania metody **SendCommand**.
+* Jeżeli przekazana komenda jest pusta, to rzuca wyjątkiem **ArgumentNullException**,
+* Wyciągnięcie z kontenera (Autofac) handlera dla przekazanej komendy.
+* Jeżeli handler jest pusty to rzuca wyjątek **Exception**.
+* Wywołanie komendy poprzez metodę **Handle** w bloku **try&#8230;catch**.
+* Jeżeli wywołanie się nie powiedzie to zostanie zapisany log błędu.
     
+## Pierwsza komenda
+Pierwsza komenda jaka została zaimplementowana **ExitApplication** dotyczy zamykanai aplikacji.
 
-      Dane jakie zostają przekazane to kod wyjścia.
-    </p>
-    
-    <pre class="lang:c# decode:true" title="Komenda zamykania aplikacji.">using PictOgr.Core.CQRS.Command;
+Dane jakie zostają przekazane to kod wyjścia.
+
+Komenda zamykania aplikacji.
+{% highlight csharp linenos %}
+using PictOgr.Core.CQRS.Command;
 
 namespace PictOgr.Core.Commands
 {
@@ -259,26 +164,21 @@ namespace PictOgr.Core.Commands
 			ExitCode = exitCode;
 		}
 	}
-}</pre>
+}
+{% endhighlight %}
+
+Kod błędu wykorzystany jest przez handlera **ExitApplicationHandler**, jest on wymagany przez metodę **System.Environment.Exit(ExitCode)**.
     
-    <p>
-      &nbsp;
-    </p>
-    
-    <p>
-      Kod błędu wykorzystany jest przez handlera **ExitApplicationHandler**, jest on wymagany przez metodę **System.Environment.Exit(ExitCode)**.
-    </p>
-    
-    <p>
-      Dodatkowo zapisywany jest log informujący. iż aplikacja została zamknięta.
-    </p>
-    
-    <pre class="lang:c# decode:true" title="Handler zamykania aplikacji.">using Autofac.Extras.NLog;
+Dodatkowo zapisywany jest log informujący. iż aplikacja została zamknięta.
+
+Handler zamykania aplikacji.
+{% highlight csharp linenos %}
+using Autofac.Extras.NLog;
 using PictOgr.Core.CQRS.Command;
 
 namespace PictOgr.Core.Commands
 {
-	public class ExitApplicationHandler : ICommandHandler&lt;ExitApplication&gt;
+	public class ExitApplicationHandler : ICommandHandler<ExitApplication>
 	{
 		private readonly ILogger logger;
 
@@ -293,21 +193,16 @@ namespace PictOgr.Core.Commands
 			System.Environment.Exit(command.ExitCode);
 		}
 	}
-}</pre>
-    
-    <p>
-      &nbsp;
-    </p>
-    
+}
+{% endhighlight %}
 
-      Kod poniżej przedstawia, użycie komendy zamykania aplikacji, w komendach wywoływanych przez widok MVVM.
-    </p>
-    
+Kod poniżej przedstawia, użycie komendy zamykania aplikacji, w komendach wywoływanych przez widok MVVM.
 
-      Do obiektu **ExitApplicationCommand** została wstrzyknięta szyna komend.
-    </p>
-    
-    <pre class="lang:c# decode:true" title="Użycie komendy ExitApplication.">using System;
+Do obiektu **ExitApplicationCommand** została wstrzyknięta szyna komend.
+
+Użycie komendy ExitApplication.
+{% highlight csharp linenos %}
+using System;
 using PictOgr.Core.Commands;
 using PictOgr.Core.CQRS.Bus;
 using ICommand = System.Windows.Input.ICommand;
@@ -330,42 +225,28 @@ namespace PictOgr.SplashScreen.Commands
 
 		public void Execute(object parameter)
 		{
-			commandBus.SendCommand&lt;ExitApplication&gt;(new ExitApplication(0));
+			commandBus.SendCommand<ExitApplication>(new ExitApplication(0));
 		}
 
 		public event EventHandler CanExecuteChanged;
 	}
-}</pre>
-    
+}
+{% endhighlight %}
 
-      Uzycie komendy **ExitApplication**, sprowadza sie do 1 linijki kodu <em>commandBus.SendCommand<ExitApplication>(new ExitApplication(0));</em>
-    </p>
-    
-    <p>
-      &nbsp;
-    </p>
-    
-    <h1>
-      Testy
-    </h1>
-    
+Uzycie komendy **ExitApplication**, sprowadza sie do 1 linijki kodu *commandBus.SendCommand<ExitApplication>(new ExitApplication(0));*
 
-      Do przetestowania działania komend w ujęciu testów jednostkowych wymagane jest przysłonięcie metody **Handle**.
-    </p>
-    
+## Testy
+Do przetestowania działania komend w ujęciu testów jednostkowych wymagane jest przysłonięcie metody **Handle**.
 
-      W tym celu napisałem specjalną klasę matkę z mockiem (zaznaczone linie 18-27 w kodzie).
-    </p>
-    
+W tym celu napisałem specjalną klasę matkę z mockiem (zaznaczone linie 18-27 w kodzie).
 
-      Ponieważ w projekcie został zastosowany mechanizm automatycznego rejstrowania obiektów w Autofacku, należy podmienić (ponownie zarejestrować) komendę jaką chcemy przetestować.
-    </p>
-    
+Ponieważ w projekcie został zastosowany mechanizm automatycznego rejstrowania obiektów w Autofacku, należy podmienić (ponownie zarejestrować) komendę jaką chcemy przetestować.
 
-      Dodatkowo stosuję tutaj typ generyczny, tak by użyc klasy bazowej dla większej ilości testów.
-    </p>
-    
-    <pre class="lang:c# mark:18-27 decode:true" title="Baza do testowania komend.">namespace PictOgr.Tests.Core.CQRS.Commands
+Dodatkowo stosuję tutaj typ generyczny, tak by użyc klasy bazowej dla większej ilości testów.
+
+Baza do testowania komend.
+{% highlight csharp linenos %}
+namespace PictOgr.Tests.Core.CQRS.Commands
 {
     using System;
     using Autofac;
@@ -374,68 +255,58 @@ namespace PictOgr.SplashScreen.Commands
     using PictOgr.Core.CQRS.Bus;
     using PictOgr.Core.CQRS.Command;
 
-    public class CommandBaseTests&lt;T&gt; where T : ICommand
+    public class CommandBaseTests<T> where T : ICommand
     {
         protected ICommandBus commandBus;
-        protected Action&lt;ICommand&gt; handleMethod;
+        protected Action<ICommand> handleMethod;
 
         public CommandBaseTests()
         {
             var builder = Container.CreateBuilder();
 
-            var fakeHandler = A.Fake&lt;ICommandHandler&lt;T&gt;&gt;();
+            var fakeHandler = A.Fake<ICommandHandler<T>>();
 
-            A.CallTo(() =&gt; fakeHandler.Handle(A&lt;T&gt;._))
-                .Invokes((T command) =&gt;
+            A.CallTo(() => fakeHandler.Handle(A<T>._))
+                .Invokes((T command) =>
                 {
                     handleMethod?.Invoke(command);
                 });
 
-            builder.Register(c =&gt; fakeHandler).AsImplementedInterfaces();
+            builder.Register(c => fakeHandler).AsImplementedInterfaces();
 
             var container = builder.Build();
 
-            commandBus = container.Resolve&lt;ICommandBus&gt;();
+            commandBus = container.Resolve<ICommandBus>();
         }
     }
 }
-</pre>
-    
-    <p>
-      Metoda **handleMethod** jest to delegat jaki musi być przypisany w teście.
-    </p>
-    
-    <p>
-      &nbsp;
-    </p>
-    
+{% endhighlight %}
 
-      Powyższa implementacja jest rozszeżana we właściwym kodzie testu **ExitApplicationCommandTest**.
-    </p>
-    
+Metoda **handleMethod** jest to delegat jaki musi być przypisany w teście.
 
-      Przesłnięcie metody handleMethod, pozwala na pobranie kodu wyjścia z wywoływanej komendy.
-    </p>
-    
+Powyższa implementacja jest rozszeżana we właściwym kodzie testu **ExitApplicationCommandTest**.
 
-      Kod następnie jest przepisany do zmiennej lokalnej, i wówczas możemy już wykonać asercję: <em>exitCode.ShouldBe(expectedValue);</em>
-    </p>
-    
-    <pre class="lang:c# decode:true " title="Testowanie komendy Exit.">namespace PictOgr.Tests.Core.CQRS.Commands
+Przesłnięcie metody handleMethod, pozwala na pobranie kodu wyjścia z wywoływanej komendy.
+
+Kod następnie jest przepisany do zmiennej lokalnej, i wówczas możemy już wykonać asercję: *exitCode.ShouldBe(expectedValue);*
+
+Testowanie komendy Exit.
+{% highlight csharp linenos %}
+namespace PictOgr.Tests.Core.CQRS.Commands
 {
     using PictOgr.Core.Commands;
     using SplashScreen.Commands;
     using Shouldly;
     using Xunit;
 
-    public class ExitApplicationCommandTest : CommandBaseTests&lt;ExitApplication&gt;
+    public class ExitApplicationCommandTest : CommandBaseTests<ExitApplication>
     {
         private readonly int expectedValue = 123;
         private int exitCode;
 
         public ExitApplicationCommandTest()
         {
-            handleMethod = command =&gt;
+            handleMethod = command =>
             {
                 var exitApplication = command as ExitApplication;
                 exitCode = exitApplication.ExitCode;
@@ -445,7 +316,7 @@ namespace PictOgr.SplashScreen.Commands
         [Fact]
         public void exit_application_command_should_be_handled_by_command_bus()
         {
-            commandBus.SendCommand&lt;ExitApplication&gt;(new ExitApplication(expectedValue));
+            commandBus.SendCommand<ExitApplication>(new ExitApplication(expectedValue));
 
             exitCode.ShouldBe(expectedValue);
         }
@@ -460,46 +331,35 @@ namespace PictOgr.SplashScreen.Commands
             exitCode.ShouldBe(0);
         }
     }
-}</pre>
-    
+}
+{% endhighlight %}
 
-      Drugi test jaki został zaimplementowany to sprawdzenie działania komendy wywołanej z widoku w celu zamknięcia aplikacji.
-    </p>
-    
+Drugi test jaki został zaimplementowany to sprawdzenie działania komendy wywołanej z widoku w celu zamknięcia aplikacji.
 
-      W tym przypadku dane jakie zostają przekazane do komendy ustalane są w klasie **ExitApplicationCommand**, i kod prawidłowego wyjścia jest równy 0.
-    </p>
-    
+W tym przypadku dane jakie zostają przekazane do komendy ustalane są w klasie **ExitApplicationCommand**, i kod prawidłowego wyjścia jest równy 0.
 
-      Dlatego asercję należy wykonać do wartości 0.
-    </p>
-    
-    <p>
-      &nbsp;
-    </p>
-    
-    <h1>
-      Koniec<a href="http://godev.gemustudio.com/assets/images/2017/03/13581925_612838085558980_6043402438851061498_o.jpg"><img class="wp-image-631 size-medium alignright" src="http://godev.gemustudio.com/assets/images/2017/03/13581925_612838085558980_6043402438851061498_o-300x200.jpg" alt="" width="300" height="200" srcset="http://godev.gemustudio.com/assets/images/2017/03/13581925_612838085558980_6043402438851061498_o-300x200.jpg 300w, http://godev.gemustudio.com/assets/images/2017/03/13581925_612838085558980_6043402438851061498_o-768x512.jpg 768w, http://godev.gemustudio.com/assets/images/2017/03/13581925_612838085558980_6043402438851061498_o-1024x683.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px" /></a>
-    </h1>
-    
+Dlatego asercję należy wykonać do wartości 0.
 
-      To tyle jeśli chodzi o zaimplementowany przeze mnie fragment **CQRS** dotyczący komend, w następnej części przedstawię implementację zapytań.
-    </p>
-    
+[![MyCQRS - Travis][mycqrs-travis]][mycqrs-travis-big]{:.post-left-image}
 
-      Zastanawiam się także nad wykorzystaniem **ES** w projekcie, oraz reorganizacją projektu w celu wyodrębnienie CQRSa do osobnej biblioteki.
-    </p>
-    
-    <p>
-      &nbsp;
-    </p>
-    
-    <p>
-      &nbsp;
-    </p>
-    
-    <h3 style="text-align: center;">
-      Jeżeli ktoś wytrzymał do końca to dziękuję za uwagę i zapraszam do dalszego śledzenia bloga.
-    </h3>
-  
+To tyle jeśli chodzi o zaimplementowany przeze mnie fragment **CQRS** dotyczący komend, w następnej części przedstawię implementację zapytań.
+
+Zastanawiam się także nad wykorzystaniem **ES** w projekcie, oraz reorganizacją projektu w celu wyodrębnienie CQRSa do osobnej biblioteki.
+
+**Jeżeli ktoś wytrzymał do końca to dziękuję za uwagę i zapraszam do dalszego śledzenia bloga.**{:.h-1}
+
 {% include_relative dsp.md %}
+
+[PictOgr-a]: {{site.url}}/pictogr-pomysl
+
+[post]: /assets/images/2017/03/pictogr-moj-cqrs-1/post.jpg
+[post-big]: /assets/images/2017/03/pictogr-moj-cqrs-1/post-big.jpg
+
+[image1]: /assets/images/2017/03/pictogr-moj-cqrs-1/image1.jpg
+[image1-big]: /assets/images/2017/03/pictogr-moj-cqrs-1/image1-big.jpg
+
+[mycqrs]: /assets/images/2017/03/pictogr-moj-cqrs-1/mycqrs.png
+[mycqrs-big]: /assets/images/2017/03/pictogr-moj-cqrs-1/mycqrs-big.png
+
+[mycqrs-travis]: /assets/images/2017/03/pictogr-moj-cqrs-1/mycqrs-travis.png
+[mycqrs-travis-big]: /assets/images/2017/03/pictogr-moj-cqrs-1/mycqrs-travis-big.png
