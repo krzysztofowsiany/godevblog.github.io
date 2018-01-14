@@ -1,147 +1,93 @@
 ---
-id: 734
-title: 'Serverless - z czym się je i jak wyciągnąć więcej siana z usług w chmurze.'
-date: 2017-04-11T11:51:14+00:00
+title: Serverless - z czym się je i jak wyciągnąć więcej siana z usług w chmurze.
+date: 2017-04-11
 author: Krzysztof Owsiany
 layout: post
-published: false
-permalink: /2017/04/11/serverless-czym-sie-je-wyciagnac-wiecej-siana-uslug-chmurze/
-image: /assets/images/2017/04/Server.jpg
+published: true
+permalink: /serverless-czym-sie-je-wyciagnac-wiecej-siana-uslug-chmurze
+image: /assets/images/2017/04/serverless-czym-sie-je-wyciagnac-wiecej-siana-uslug-chmurze/post.jpg
 categories:
   - Daj Się Poznać 2017
 tags:
   - dajsiepoznac2017
   - DSP2017
   - Serverlees
+short: Był czas na monolity, przyszedł czas na mikroserwisy pora jeszcze bardziej zminimalizować, zejść do poziomu wykonywania pojedynczych funkcji, czyli serverless. Osobiście jeszcze nie zetknąłem się praktycznie z tą usługą, nie mniej jednak widziałem dwie prezentacje na konferencji 4D w Warszawie, tym samym temat mnie nieco zainteresował.
 ---
-<div id="dslc-theme-content">
-  <div id="dslc-theme-content-inner">
+[![Serverless][post]][post-big]{:.post-right-image}
+Był czas na **monolity**, przyszedł czas na **mikroserwisy** pora jeszcze bardziej zminimalizować, zejść do poziomu wykonywania pojedynczych funkcji, czyli **serverless**.
 
-      Był czas na **monolity**, przyszedł czas na **mikroserwisy** pora jeszcze bardziej zminimalizować, zejść do poziomu wykonywania pojedynczych funkcji, czyli** serverless**.
-    </p>
-    
+Osobiście jeszcze nie zetknąłem się praktycznie z tą usługą, nie mniej jednak widziałem dwie prezentacje na konferencji **[4D w Warszawie]**, tym samym temat mnie nieco zainteresował.
 
-      Osobiście jeszcze nie zetknąłem się praktycznie z tą usługą, nie mniej jednak widziałem dwie prezentacje na konferencji **<a href="http://2016.4developers.org.pl/pl/">4D w Warszawie</a>,** tym samym temat mnie nieco zainteresował.
-    </p>
-    
+Niemniej jest ona bardzo interesująca. Na pewno w wielu przypadkach, gdzie dotychczas wymagane było stawienie kupy softu w celu wystawienia prostych usług będzie znacznie uproszczone i **na pewno tańsze**.
 
-      Niemniej jest ona bardzo interesująca. Na pewno w wielu przypadkach, gdzie dotychczas wymagane było stawienie kupy softu w celu wystawienia prostych usług będzie znacznie uproszczone i **na pewno tańsze**.
-    </p>
-    
-    <h1 style="background: gold; padding: 5px;">
-      Monolityczny sytem
-    </h1>
-    
+## Monolityczny sytem
+Może kilka przykładów. Na pierwszym obrazku przedstawiam prosty schemat serwera monolitycznego.
+[![System Monolityczny][monolit]][monolit-big]{:.post-left-image}
+Jest to podejście gdzie na jednym serwerze instaluje się wszelkie oprogramowanie jakie jest niezbędne do udostępnienia usługi np. Apache, MySQL, Postfix.
 
-      Może kilka przykładów. Na pierwszym obrazku przedstawiam prosty schemat serwera monolitycznego.
-    </p>
-    
+Oczywiście można uruchomić w takim podejściu wiele aplikacji, jednak wszystko znajduje się na jednym serwerze. Jest to marnotrawstwo zasobów i niesie ze sobą duże koszty utrzymania (serwer + obsługa).
 
-      <a href="http://godev.gemustudio.com/assets/images/2017/04/monolit.png"><img class="aligncenter wp-image-776 size-large" src="http://godev.gemustudio.com/assets/images/2017/04/monolit-1024x328.png" alt="System Monolityczny." width="855" height="274" srcset="http://godev.gemustudio.com/assets/images/2017/04/monolit-1024x328.png 1024w, http://godev.gemustudio.com/assets/images/2017/04/monolit-300x96.png 300w, http://godev.gemustudio.com/assets/images/2017/04/monolit-768x246.png 768w, http://godev.gemustudio.com/assets/images/2017/04/monolit.png 1160w" sizes="(max-width: 855px) 100vw, 855px" /></a>
-    </p>
-    
+## Microservices
+Nowszym podejściem jest wykorzystanie mikro-usług. Polega to na tym, iż rozbijamy na małe fragmenty budowaną aplikację i poszczególne moduły uruchamiamy **1>** serwerach. Można znacznie prościej skalować system dzięki możliwości rozproszenia bardziej zasobożernych usług na osobne serwery.
 
-      Jest to podejście gdzie na jednym serwerze instaluje się wszelkie oprogramowanie jakie jest niezbędne do udostępnienia usługi np. Apache, MySQL, Postfix.
-    </p>
-    
+Wykorzystuje się w tej sytuacji tak zwane kontenery (np. **[Docker]**). To rozwiązanie powoduje zamknięcie mikro-serwisu w kontenerze, który jest tak naprawdę systemem operacyjnym specjalnie przygotowanym do obsługi danej usługi.
 
-      Oczywiście można uruchomić w takim podejściu wiele aplikacji, jednak wszystko znajduje się na jednym serwerze. Jest to marnotrawstwo zasobów i niesie ze sobą duże koszty utrzymania (serwer + obsługa).
-    </p>
-    
-    <h1 style="background: gold; padding: 5px;">
-      Microservices
-    </h1>
-    
+[![Mikroserwisy][microservice]][microservice-big]{:.post-right-image}
+Działa to niezależnie podobnie jak maszyna wirtualna, jednak to rozwiązanie jest zoptymalizowane pod kątem użycia zasobów. Dlatego też wspólne części systemów wykorzystanych przez kontener współdzielą swoje zasoby a jedynie różnice wynikające z potrzeb mikro-serwisu są odosobnione.
 
-      Nowszym podejściem jest wykorzystanie mikro-usług. Polega to na tym, iż rozbijamy na małe fragmenty budowaną aplikację i poszczególne moduły uruchamiamy **1>** serwerach. Można znacznie prościej skalować system dzięki możliwości rozproszenia bardziej zasobożernych usług na osobne serwery.
-    </p>
-    
+Wykorzystanie kontenera to także kamień milowy w dostarczaniu oprogramowania do środowiska produkcyjnego, które w tym przypadku będzie identyczne jak to, na którym aplikacja jest testowana.
 
-      Wykorzystuje się w tej sytuacji tak zwane kontenery (np. <a href="https://www.docker.com/">**Docker**</a>). To rozwiązanie powoduje zamknięcie mikro-serwisu w kontenerze, który jest tak naprawdę systemem operacyjnym specjalnie przygotowanym do obsługi danej usługi.
-    </p>
-    
+Tak naprawdę nie dostarczamy samej aplikacji a cały ekosystem zbudowany i uruchamiany na serwerze/chmurze.
 
-      <a href="http://godev.gemustudio.com/assets/images/2017/04/microservice.png"><img class="aligncenter wp-image-775 size-large" src="http://godev.gemustudio.com/assets/images/2017/04/microservice-1024x722.png" alt="Mikroserwisy" width="855" height="603" srcset="http://godev.gemustudio.com/assets/images/2017/04/microservice-1024x722.png 1024w, http://godev.gemustudio.com/assets/images/2017/04/microservice-300x212.png 300w, http://godev.gemustudio.com/assets/images/2017/04/microservice-768x542.png 768w, http://godev.gemustudio.com/assets/images/2017/04/microservice.png 1174w" sizes="(max-width: 855px) 100vw, 855px" /></a>
-    </p>
-    
+Zbudowanie systemu w oparciu o architekturę mikro-usług jest trudniejszym podejściem (coś za coś) aniżeli system monolityczny.
 
-      Działa to niezależnie podobnie jak maszyna wirtualna, jednak to rozwiązanie jest zoptymalizowane pod kątem użycia zasobów. Dlatego też wspólne części systemów wykorzystanych przez kontener współdzielą swoje zasoby a jedynie różnice wynikające z potrzeb mikro-serwisu są odosobnione.
-    </p>
-    
+Wymaga zaplanowania jak podzielić mikro-usługi, przygotować odpowiednią konfigurację w procesie dostarczania. Jednak ten narzut jaki jest wymagany na początku tworzenia projektu przynosi efekty podczas jego utrzymania.
 
-      Wykorzystanie kontenera to także kamień milowy w dostarczaniu oprogramowania do środowiska produkcyjnego, które w tym przypadku będzie identyczne jak to, na którym aplikacja jest testowana.
-    </p>
-    
+## Serverless
+Nowy trend idzie dalej, i polega na odseparowaniu na poziomie funkcji. Dzięki temu podejściu korzystając z dostępnego rozwiązania (chmury) z usługą mamy możliwość wykonania pojedyńczej funkcji. Używamy zasobów chmury jedynie wtedy kiedy jej faktycznie potrzebujemy, nie mamy uruchomionego tak zwanego serwera. Gdyż do dystpozycji mamy usługę udostępnioną przez wybranego dostawcę.
 
-      Tak naprawdę nie dostarczamy samej aplikacji a cały ekosystem zbudowany i uruchamiany na serwerze/chmurze.
-    </p>
-    
+[![Serverless][serverlees]][serverlees-big]{:.post-left-image}
 
-      Zbudowanie systemu w oparciu o architekturę mikro-usług jest trudniejszym podejściem (coś za coś) aniżeli system monolityczny.
-    </p>
+Nie interesują nas w tym przypadku aspekty techniczne związane z utrzymaniem środowiska do uruchomienia funkcji. Po prostu odpowiednio zaprogramowana i skonfigurowana **funkcja** jest nam udostępniona w formie jakiej potrzebujemy (np. JSON, XML).
     
+## $$$
+Stosunek oszczędności między monolitem a serverlessem są znaczące. Odchodzi utrzymanie kosztownego serwera. W pewnych sytuacjach tak naprawdę serwerless może być darmowy w ramach wykorzystanej usługi rozliczenie uzależnione jest od ilości wykonanych funkcji oraz zasobów jakie do tej funkcji zostaną przypisane ([AWS Lambda]).
 
-      Wymaga zaplanowania jak podzielić mikro-usługi, przygotować odpowiednią konfigurację w procesie dostarczania. Jednak ten narzut jaki jest wymagany na początku tworzenia projektu przynosi efekty podczas jego utrzymania.
-    </p>
-    
-    <h1 style="background: gold; padding: 5px;">
-      Serverless
-    </h1>
-    
+Można oszacować koszt jaki należy ponieść do obsługi aplikacji na stronie: **[serverlesscalc.com]**.
 
-      Nowy trend idzie dalej, i polega na odseparowaniu na poziomie funkcji. Dzięki temu podejściu korzystając z dostępnego rozwiązania (chmury) z usługą mamy możliwość wykonania pojedyńczej funkcji. Używamy zasobów chmury jedynie wtedy kiedy jej faktycznie potrzebujemy, nie mamy uruchomionego tak zwanego serwera. Gdyż do dystpozycji mamy usługę udostępnioną przez wybranego dostawcę.
-    </p>
-    
+Obecnie wiele stron wykorzystuje zasoby z doskoku, na żądanie. Duża część zasobów jest marnotrawiona, dzięki wykorzystanie **serverless**, dostawca ma możliwość lepszego balansowania użycia serwera, tym samym wyciśnie więcej soków z infrastruktury co przełoży się intratnie na zyski.
 
-      <a href="http://godev.gemustudio.com/assets/images/2017/04/serverlees.png"><img class="aligncenter wp-image-777 size-large" src="http://godev.gemustudio.com/assets/images/2017/04/serverlees-1024x512.png" alt="Serverless" width="855" height="428" srcset="http://godev.gemustudio.com/assets/images/2017/04/serverlees-1024x512.png 1024w, http://godev.gemustudio.com/assets/images/2017/04/serverlees-300x150.png 300w, http://godev.gemustudio.com/assets/images/2017/04/serverlees-768x384.png 768w, http://godev.gemustudio.com/assets/images/2017/04/serverlees.png 1088w" sizes="(max-width: 855px) 100vw, 855px" /></a>
-    </p>
-    
-    <p>
-      Nie interesują nas w tym przypadku aspekty techniczne związane z utrzymaniem środowiska do uruchomienia funkcji. Po prostu odpowiednio zaprogramowana i skonfigurowana **funkcja** jest nam udostępniona w formie jakiej potrzebujemy (np. JSON, XML).
-    </p>
-    
-    <p>
-      &nbsp;
-    </p>
-    
-    <h1 style="background: gold; padding: 5px;">
-      $$$
-    </h1>
-    
-    <p>
-      Stosunek oszczędności między monolitem a serverlessem są znaczące. Odchodzi utrzymanie kosztownego serwera. W pewnych sytuacjach tak naprawdę serwerless może być darmowy w ramach wykorzystanej usługi rozliczenie uzależnione jest od ilości wykonanych funkcji oraz zasobów jakie do tej funkcji zostaną przypisane (<a href="https://aws.amazon.com/lambda/">AWS Lambda</a>).
-    </p>
-    
-    <p>
-      Można oszacować koszt jaki należy ponieść do obsługi aplikacji na stronie: **<a href="http://serverlesscalc.com/">serverlesscalc.com</a>**.
-    </p>
-    
-    <p>
-      Obecnie wiele stron wykorzystuje zasoby z doskoku, na żądanie. Duża część zasobów jest marnotrawiona, dzięki wykorzystanie **serverless**, dostawca ma możliwość lepszego balansowania użycia serwera, tym samym wyciśnie więcej soków z infrastruktury co przełoży się intratnie na zyski.
-    </p>
-    
-    <p>
-      Być może, pojawia się porównania, które dogłębnie ukażą różnicę. Niestety nie znalazłem na chwilę obecną żadnych wykresów. I tym samym jeżeli ktoś posiada takowa wiedzę to zapraszam do smarowania (obsmarowania) w komentarzach.
-    </p>
-    
-    <p>
-      Przydatne linki:
-    </p>
-    
-    <p>
-      <a href="https://serverless.com/">https://serverless.com</a>
-    </p>
-    
-    <p>
-      <a href="https://azure.microsoft.com/en-us/services/functions/">https://azure.microsoft.com/en-us/services/functions/</a>
-    </p>
-    
-    <p>
-      <a href="https://aws.amazon.com/lambda/serverless-architectures-learn-more/">https://aws.amazon.com/lambda/serverless-architectures-learn-more/</a>
-    </p>
-    
-    <p>
-      <a href="https://aws.amazon.com/serverless/">https://aws.amazon.com/serverless/</a>
-    </p>
-    
+Być może, pojawia się porównania, które dogłębnie ukażą różnicę. Niestety nie znalazłem na chwilę obecną żadnych wykresów. I tym samym jeżeli ktoś posiada takowa wiedzę to zapraszam do smarowania (obsmarowania) w komentarzach.
+
+Przydatne linki:
+* [serverless.com],
+* [azure.microsoft.com/en-us/services/functions],
+* [aws.amazon.com/lambda/serverless-architectures-learn-more],
+* [aws.amazon.com/serverless].
+
 {% include_relative dsp.md %}
+
+[serverlesscalc.com]: http://serverlesscalc.com
+[serverless.com]: https://serverless.com
+[azure.microsoft.com/en-us/services/functions]: https://azure.microsoft.com/en-us/services/functions
+[aws.amazon.com/lambda/serverless-architectures-learn-more]: https://aws.amazon.com/lambda/serverless-architectures-learn-more
+[aws.amazon.com/serverless]: https://aws.amazon.com/serverless
+
+[4D w Warszawie]: http://2016.4developers.org.pl/pl
+
+[Docker]: https://www.docker.com
+
+[AWS Lambda]: https://aws.amazon.com/lambda/
+
+[post]: /assets/images/2017/04/serverless-czym-sie-je-wyciagnac-wiecej-siana-uslug-chmurze/post.jpg
+[post-big]: /assets/images/2017/04/serverless-czym-sie-je-wyciagnac-wiecej-siana-uslug-chmurze/post-big.jpg
+
+[microservice]: /assets/images/2017/04/serverless-czym-sie-je-wyciagnac-wiecej-siana-uslug-chmurze/microservice.png
+[microservice-big]: /assets/images/2017/04/serverless-czym-sie-je-wyciagnac-wiecej-siana-uslug-chmurze/microservice-big.png
+
+[serverlees]: /assets/images/2017/04/serverless-czym-sie-je-wyciagnac-wiecej-siana-uslug-chmurze/serverlees.png
+[serverlees-big]: /assets/images/2017/04/serverless-czym-sie-je-wyciagnac-wiecej-siana-uslug-chmurze/serverlees-big.png
+
+[monolit]: /assets/images/2017/04/serverless-czym-sie-je-wyciagnac-wiecej-siana-uslug-chmurze/monolit.png
+[monolit-big]: /assets/images/2017/04/serverless-czym-sie-je-wyciagnac-wiecej-siana-uslug-chmurze/monolit-big.png
