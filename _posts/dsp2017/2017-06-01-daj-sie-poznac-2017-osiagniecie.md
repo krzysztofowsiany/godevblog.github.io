@@ -1,12 +1,11 @@
 ---
-id: 1235
-title: 'Daj Się Poznać 2017 - moje osiągnięcie.'
-date: 2017-06-01T10:10:41+00:00
+title: Daj Się Poznać 2017 - moje osiągnięcie.
+date: 2017-06-01
 author: Krzysztof Owsiany
 layout: post
-published: false
-permalink: /2017/06/01/daj-sie-poznac-2017-osiagniecie/
-image: /assets/images/2017/06/blogging-photo-7892.jpg
+published: true
+permalink: /daj-sie-poznac-2017-osiagniecie
+image: /assets/images/2017/06/daj-sie-poznac-2017-osiagniecie/post.jpg
 categories:
   - Daj Się Poznać 2017
   - GameDev
@@ -15,70 +14,33 @@ tags:
   - DSP2017
   - Grywalizacja
   - Wystąpienie
+short: Udało się, zakwalifikowałem się do finalistów DSP 2017, a to nie koniec. Zostałem wytypowany do 20 minutowego wystąpienia na Gali Finałowej Daj Się Poznać 2017 - SZOK!
 ---
-<div id="dslc-theme-content">
-  <div id="dslc-theme-content-inner">
-    <div id="letter">
-      Gdy dzisiaj wstałem z rana,<br /> Stała się rzecz nie słychana.<br /> Spośród wszystkich uczestników,<br /> Procent wskazał 184 czeladników.<br /> &nbsp;<br /> Idąc dalej tym krokiem,<br /> Od wczoraj wieczorem już wiem,<br /> Będę bawił finalistów, słów potokiem,<br /> Nadszedł stresu cień.
-    </div>
-    
-    <div>
+Gdy dzisiaj wstałem z rana,<br /> Stała się rzecz nie słychana.<br /> Spośród wszystkich uczestników,<br /> Procent wskazał 184 czeladników.<br /> &nbsp;<br /> Idąc dalej tym krokiem,<br /> Od wczoraj wieczorem już wiem,<br /> Będę bawił finalistów, słów potokiem,<br /> Nadszedł stresu cień.
   
-        Udało się, zakwalifikowałem się do finalistów DSP 2017, a to nie koniec. Zostałem wytypowany do 20 minutowego wystąpienia na **Gali Finałowej Daj Się Poznać 2017** - SZOK!
-      </p>
-      
-  
-        Nie sądziłem, że będę w stanie dojść tak daleko zważywszy na natłok pracy jaki mam od początku roku&#8230;
-      </p>
-      
-  
-        Jeszcze głosowanie i opracowanie tematu.
-      </p>
-      
-  
-        Po głowie kręci się temat jaki chciał bym poruszyć. Wydaje mi się bardzo ciekawy, dotyczy wpisu jaki poruszyłem w jednym z postów o <a href="http://godev.gemustudio.com/2017/04/21/grywalizacja/">grywalizacji</a>.
-      </p>
-      
-  
-        </div> 
-        
-        <p>
-          &nbsp;
-        </p>
-        
-    
-          Także do 6 czerwca 2017 muszę naskrobać temat, a potem go opracować - **Run Forest Run!**.
-        </p>
-        
-        <h3 style="text-align: justify;">
-          Podziękowania
-        </h3>
-        
-    
-          Chciałbym już teraz podzięk<a href="http://godev.gemustudio.com/assets/images/2017/06/blogging-photo-7892.jpg"><img class="alignleft wp-image-1264 size-medium" src="http://godev.gemustudio.com/assets/images/2017/06/blogging-photo-7892-300x200.jpg" alt="Daj Się Poznać 2017 - finalista." width="300" height="200" srcset="http://godev.gemustudio.com/assets/images/2017/06/blogging-photo-7892-300x200.jpg 300w, http://godev.gemustudio.com/assets/images/2017/06/blogging-photo-7892-768x512.jpg 768w, http://godev.gemustudio.com/assets/images/2017/06/blogging-photo-7892.jpg 900w" sizes="(max-width: 300px) 100vw, 300px" /></a>ować przede wszystkim:
-        </p>
-        
-        <ul>
-          <li style="text-align: justify;">
-            **Maciejowi Aniserowiczowi** - za wyknucie tak interesującej inicjatywy, a następnie wdrożenie jej na produkcję,
-          </li>
-          <li style="text-align: justify;">
-            **Anicie Owsianej (żonie)** - za wsparcie i wyrozumiałość i namawianie do uczestnictwa i przede wszystkim **w wiarę we mnie**,
-          </li>
-          <li style="text-align: justify;">
-            **Mikołajowi Jakubowskiemu** - za namówienie, wspieranie, i pomoc z tym cholernym W&#8230;
-          </li>
-          <li style="text-align: justify;">
-            **Andrzejowi Krzywdzie** - za ebooka, i wskazówki.
-          </li>
-        </ul>
-        
-        <p>
-          &nbsp;
-        </p>
-        
-        <h3 style="text-align: center;">
-          **Bez tych osób nie dokonał bym tego co dokonałem, i dokonam!.**
-        </h3>
+Udało się, zakwalifikowałem się do finalistów DSP 2017, a to nie koniec. Zostałem wytypowany do 20 minutowego wystąpienia na **Gali Finałowej Daj Się Poznać 2017** - SZOK!
+
+Nie sądziłem, że będę w stanie dojść tak daleko zważywszy na natłok pracy jaki mam od początku roku&#8230;
+
+Jeszcze głosowanie i opracowanie tematu.
+ 
+Po głowie kręci się temat jaki chciał bym poruszyć. Wydaje mi się bardzo ciekawy, dotyczy wpisu jaki poruszyłem w jednym z postów o **[grywalizacji]**.
+
+Do 6 czerwca 2017 muszę naskrobać temat, a potem go opracować - **Run Forest Run!**.
+
+## Podziękowania
+[![Daj Się Poznać 2017 - finalista.][post]][post-big]{:.post-left-image}
+Chciałbym już teraz podziękować przede wszystkim:
+* **Maciejowi Aniserowiczowi** - za wyknucie tak interesującej inicjatywy, a następnie wdrożenie jej na produkcję,
+* **Anicie Owsianej (żonie)** - za wsparcie i wyrozumiałość i namawianie do uczestnictwa i przede wszystkim **w wiarę we mnie**,
+* **Mikołajowi Jakubowskiemu** - za namówienie, wspieranie, i pomoc z tym cholernym W&#8230;,
+* **Andrzejowi Krzywdzie** - za ebooka, i wskazówki.
+
+**Bez tych osób nie dokonał bym tego co dokonałem, i dokonam!.**
         
 {% include_relative dsp.md %}
+
+[grywalizacji]: {{site.url}}/grywalizacja
+
+[post]: /assets/images/2017/06/daj-sie-poznac-2017-osiagniecie/post.jpg
+[post-big]: /assets/images/2017/06/daj-sie-poznac-2017-osiagniecie/post-big.jpg
