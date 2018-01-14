@@ -3,9 +3,9 @@ title: VPS - noc grozy!
 date: 2017-06-09
 author: Krzysztof Owsiany
 layout: post
-published: false
-permalink: vps-noc-grozy
-image: /assets/images/2017/06/ vps-noc-grozy/blogging-photo-7983.jpg
+published: true
+permalink: /vps-noc-grozy
+image: /assets/images/2017/06/vps-noc-grozy/post.jpg
 categories:
 tags:
   - Apache
@@ -15,64 +15,36 @@ tags:
   - Story from my life
   - Z życia wzięte
 ---
-<div id="dslc-theme-content">
-  <div id="dslc-theme-content-inner">
+Początkiem roku podjąłem męską decyzję, migruje do **Dockera** przed końcem 2017 roku. Wczoraj ok **22:00** wykonuję sobie deploja na serwer (**Laravel**), a tu trach problem. **Memmory_limit** w php. Ano to się zwiększy w końcu sobie administruję sam!. **Vim -> /memory_limit -> e -> 256M -> ESC -> :wq**. Brak efektu! **WTF**! Aaa restart **indianina** pomoże&#8230; **TRAHHHH padł serwer WWW!**.
 
-      Początkiem roku podjąłem męską decyzję, migruje do **Dockera** przed końcem 2017 roku. Wczoraj ok **22:00** wykonuję sobie deploja na serwer (**Laravel**), a tu trach problem. **Memmory_limit** w php. Ano to się zwiększy w końcu sobie administruję sam!. **Vim -> /memory_limit -> e -> 256M -> ESC -> :wq**. Brak efektu! **WTF**! Aaa restart **indianina** pomoże&#8230; <span style="font-size: 24px;">**<span style="color: #ff0000;">TRAHHHH padł serwer WWW!</span>**</span>
-    </p>
-    
+Aaaaaaaaaa i co teraz tyle stron projektów. **OhFuck() ->BLOG!**
 
-      Aaaaaaaaaa i co teraz tyle stron projektów. **OhFuck() ->BLOG!**
-    </p>
+Dwie godziny walki z g____m, nic żadnego konstruktywnego rozwiązania  a tu zegar tyka pora spać strony nie działają&#8230;
+[![Laravel][image1]][image1-big]{:.post-left-image}
     
+Chwile po tym.
 
-      Dwie godziny walki z g____m, nic żadnego konstruktywnego rozwiązania  a tu zegar tyka pora spać strony nie działają&#8230;<a href="http://godev.gemustudio.com/assets/images/2017/04/event.png"><img class="wp-image-819 alignright" src="http://godev.gemustudio.com/assets/images/2017/04/event-300x272.png" alt="Laravel" width="292" height="265" srcset="http://godev.gemustudio.com/assets/images/2017/04/event-300x272.png 300w, http://godev.gemustudio.com/assets/images/2017/04/event-768x697.png 768w, http://godev.gemustudio.com/assets/images/2017/04/event.png 1000w" sizes="(max-width: 292px) 100vw, 292px" /></a>
-    </p>
-    
+**shutdown**\
+**#**\
+**#**\
+**#**\
+**start**\
+**loading&#8230;**\
+**sytem started**\
 
-      Chwile po tym.
-    </p>
-    
+**Oh fuck spałem!** - a problem się nie naprawił.
 
-      <span style="color: #00aa00;">shutdown</span>
-    </p>
-    
+Po paru godzinach [kolega] zasugerował backup and reinstall apache.
+Tak po tym działa, jeszcze przywracanie konfiguracji.
 
-      <span style="color: #00aa00;">*</span>
-    </p>
-    
+**Ewidentnie pora pozbyć się tego potwora, i w końcu popływać z wielorybem.**{:.h-2}
 
-      <span style="color: #00aa00;">*</span>
-    </p>
-    
+{% include_relative dsp.md %}
 
-      <span style="color: #00aa00;">*</span>
-    </p>
-    
+[post]: /assets/images/2017/06/vps-noc-grozy/post.jpg
+[post-big]: /assets/images/2017/06/vps-noc-grozy/post-big.jpg
 
-      <span style="color: #00aa00;">start</span>
-    </p>
-    
+[image1]: /assets/images/2017/06/vps-noc-grozy/image1.png
+[image1-big]: /assets/images/2017/06/vps-noc-grozy/image1-big.png
 
-      <span style="color: #00aa00;">loading&#8230;</span>
-    </p>
-    
-
-      <span style="color: #00aa00;">sytem started.</span>
-    </p>
-    
-
-      **Oh fuck spałem! -** a problem się nie naprawił.
-    </p>
-    
-
-      Po paru godzinach <a href="http://devblaze.gemustudio.com/">kolega</a> zasugerował backup and reinstall apache.
-    </p>
-    
-
-      Tak po tym działa, jeszcze przywracanie konfiguracji.
-    </p>
-    
-    <h2 style="background-color: lightyellow; text-align: center; padding: 10px;">
-      **Ewidentnie pora pozbyć się tego potwora, i w końcu popływać z wielorybem.**
-    </h2>
+[kolega]: {{site.blaze}}

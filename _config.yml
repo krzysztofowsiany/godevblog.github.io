@@ -1,5 +1,6 @@
 theme: jekyll-theme-architect
 url: http://godev.gemustudio.com
+blaze: http://blog.blazestudio.pl
 name: Good Developer
 description: Blog programistyczy.
 plugins:

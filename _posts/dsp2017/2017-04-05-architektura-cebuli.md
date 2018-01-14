@@ -5,7 +5,7 @@ author: Krzysztof Owsiany
 layout: post
 published: true
 permalink: /architektura-cebuli
-image: /assets/images/2017/04/architektura-cebuli/post.jpg
+image: /assets/images/2017/04/architektura-cebuli/post.png
 categories:
   - Daj Się Poznać 2017
 tags:
@@ -57,8 +57,8 @@ Pewne elementy aplikacji np. logi, dostęp do plików/bazy, usługi zewnętrzne,
     
 {% include_relative dsp.md %}
 
-[post]: /assets/images/2017/04/architektura-cebuli/post.jpg
-[post-big]: /assets/images/2017/04/architektura-cebuli/post-big.jpg
+[post]: /assets/images/2017/04/architektura-cebuli/post.png
+[post-big]: /assets/images/2017/04/architektura-cebuli/post-big.png
 
 [onion-architecture]: /assets/images/2017/04/architektura-cebuli/onion-architecture.png
 
