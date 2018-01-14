@@ -1,6 +1,6 @@
 ---
 title: WPF - własny konwerter.
-date: 2017-03-30T00:21:46+00:00
+date: 2017-03-30
 author: Krzysztof Owsiany
 layout: post
 published: true
@@ -12,6 +12,7 @@ tags:
   - dajsiepoznac2017
   - DSP2017
   - WPF
+short: Budując aplikacje na bazie WPFu, mamy do dyspozycji wiele ciekawych możliwości ominięcia pisania tak zwanego kodu &#8222;code-behind&#8222;. W celu wiązania danych z widokiem wykorzystujemy Bindowanie (łączenie właściwości kontrolek z przypisanym do widoku kontekstem danych DataContext).
 ---
 ## Czym jest konwerter
 [![WPF - własny konwerter.][post]][post-big]{:.post-left-image}
