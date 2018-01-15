@@ -115,12 +115,13 @@ namespace PictOgr.Core.CQRS.Bus
 				throw new ArgumentNullException(nameof(command));
 			}
 
-			var commandHandler = container.ResolveOptional<ICommandHandler<TCommand>>();
+			var commandHandler = container
+									.ResolveOptional<ICommandHandler<TCommand>>();
 
 			if (commandHandler == null)
 			{
 				throw new Exception(
-          $"Not found handler for Command: '{command.GetType().FullName}'");
+          			$"Not found handler for Command: '{command.GetType().FullName}'");
 			}
 
 			try
@@ -340,8 +341,6 @@ W tym przypadku dane jakie zostają przekazane do komendy ustalane są w klasie 
 
 Dlatego asercję należy wykonać do wartości 0.
 
-[![MyCQRS - Travis][mycqrs-travis]][mycqrs-travis-big]{:.post-left-image}
-
 To tyle jeśli chodzi o zaimplementowany przeze mnie fragment **CQRS** dotyczący komend, w następnej części przedstawię implementację zapytań.
 
 Zastanawiam się także nad wykorzystaniem **ES** w projekcie, oraz reorganizacją projektu w celu wyodrębnienie CQRSa do osobnej biblioteki.
@@ -360,6 +359,3 @@ Zastanawiam się także nad wykorzystaniem **ES** w projekcie, oraz reorganizacj
 
 [mycqrs]: /assets/images/2017/03/pictogr-moj-cqrs-1/mycqrs.png
 [mycqrs-big]: /assets/images/2017/03/pictogr-moj-cqrs-1/mycqrs-big.png
-
-[mycqrs-travis]: /assets/images/2017/03/pictogr-moj-cqrs-1/mycqrs-travis.png
-[mycqrs-travis-big]: /assets/images/2017/03/pictogr-moj-cqrs-1/mycqrs-travis-big.png
