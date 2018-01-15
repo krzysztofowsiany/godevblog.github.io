@@ -1,12 +1,11 @@
 ---
-id: 768
-title: 'PictOgr - mój CQRS -3-'
-date: 2017-04-12T21:43:58+00:00
+title: PictOgr - mój CQRS -3-
+date: 2017-04-12
 author: Krzysztof Owsiany
 layout: post
-published: false
-permalink: /2017/04/12/pictogr-moj-cqrs-3/
-image: /assets/images/2017/04/event.png
+published: true
+permalink: /pictogr-moj-cqrs-3
+image: /assets/images/2017/04/pictogr-moj-cqrs-3/event2.png
 categories:
   - Daj Się Poznać 2017
   - PictOgr
@@ -17,90 +16,53 @@ tags:
   - Event Sourcing
   - EventBus
   - PictOgr
+short: Niniejszy wpis dotyczy implementacji Event Sourcingu w moim CQRSie. Jest to kolejna szyna wykorzystywana na różne sposoby. Można np. zachować (jeżeli system cały system oparty jest o CQRS/ES) stan aplikacji w poszczególnych etapach jej życia. Zapis stanów musi odbyć sie np. w bazie danych.
 ---
-<div id="dslc-theme-content">
-  <div id="dslc-theme-content-inner">
-    <h1 style="text-align: center; background: #FFFF9C; padding: 5pt;">
-      Command Query Responsibility Segregation - 3 -
-    </h1>
-    
+[![CQRS][image1]][image1-big]{:.post-left-image}
+Niniejszy wpis dotyczy implementacji **Event Sourcingu** w moim **CQRSie**. Jest to kolejna szyna wykorzystywana na różne sposoby.
 
-      <a href="http://godev.gemustudio.com/assets/images/2017/04/IMG-2015-08-03-8084.jpg"><img class="alignleft wp-image-818 size-medium" src="http://godev.gemustudio.com/assets/images/2017/04/IMG-2015-08-03-8084-300x200.jpg" alt="CQRS" width="300" height="200" srcset="http://godev.gemustudio.com/assets/images/2017/04/IMG-2015-08-03-8084-300x200.jpg 300w, http://godev.gemustudio.com/assets/images/2017/04/IMG-2015-08-03-8084-768x512.jpg 768w, http://godev.gemustudio.com/assets/images/2017/04/IMG-2015-08-03-8084-1024x683.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px" /></a> <a href="http://godev.gemustudio.com/assets/images/2017/04/event.png"><br /> </a>Niniejszy wpis dotyczy implementacji **Event Sourcingu** w moim **CQRSie**. Jest to kolejna szyna wykorzystywana na różne sposoby.
-    </p>
-    
+Można np. zachować (jeżeli system cały system oparty jest o **CQRS/ES**) stan aplikacji w poszczególnych etapach jej życia. Zapis stanów musi odbyć sie np. w bazie danych. Nie mniej jednak pozwoli to na przedstawienie historii od **A** do **Z** cyklu życia.
 
-      Można np. zachować (jeżeli system cały system oparty jest o **CQRS/ES**) stan aplikacji w poszczególnych etapach jej życia. Zapis stanów musi odbyć sie np. w bazie danych. Nie mniej jednak pozwoli to na przedstawienie historii od **A** do **Z** cyklu życia
-    </p>
-    
+Dokładnie po wykonaniu każdej z komend jak zmienia się model aplikacji. Zdarzenia wyzalane są z komend.
 
-      Dokładnie po wykonaniu każdej z komend jak zmienia się model aplikacji. Zdarzenia wyzalane są z komend.
-    </p>
-    
+Zastosowanie zdarzeń pozwoli na powiadamianie różnych obszarów aplikacji o zmianie stanu aplikacji.
 
-      Zastosowanie zdarzeń pozwoli na powiadamianie różnych obszarów aplikacji o zmianie stanu aplikacji.
-    </p>
+## Zdarzenia i szyna zdarzeń
+**IEvent** interfejs bazowy dla wszystkich zapytań, klas implementująca zostanie przekazana do zarejestrowanych obserwatorów.
     
-    <p>
-      &nbsp;
-    </p>
-    
-    <h1>
-      Zdarzenia i szyna zdarzeń
-    </h1>
-    
-    <p>
-      **IEvent** interfejs bazowy dla wszystkich zapytań, klas implementująca zostanie przekazana do zarejestrowanych obserwatorów.
-    </p>
-    
-    <pre class="lang:c# decode:true" title="Interfejs zdarzeń.">namespace PictOgr.Core.CQRS.Event
+Interfejs zdarzeń.
+{% highlight csharp linenos %}
+namespace PictOgr.Core.CQRS.Event
 {
 	public interface IEvent
 	{
 	}
 }
-</pre>
+{% endhighlight %}
+
+**IEventHandler** - podobnie jak poprzednio (**IQueryHandler**), implementując ten kontrakt tworzymy kod przetwarzający logikę.
     
-    <p>
-      &nbsp;
-    </p>
-    
-    <p>
-      **IEventHandler** - podobnie jak poprzednio (**IQueryHandler**), implementując ten kontrakt tworzymy kod przetwarzający logikę.
-    </p>
-    
-    <pre class="lang:c# decode:true" title="Interfejs handlera zdarzeń.">namespace PictOgr.Core.CQRS.Event
+Interfejs handlera zdarzeń.
+{% highlight csharp linenos %}
+namespace PictOgr.Core.CQRS.Event
 {
 	public interface IEventHandler&lt;TEvent&gt; where TEvent : IEvent
 	{
 		void Handle(TEvent @event);
 	}
-}</pre>
-    
+}
+{% endhighlight %}
 
-      **@event** - jak wiadomo event to słowo kluczowe języka c#, jednak można to obejść wykorzystując znak małpki **‚@’**, nakazujemy kompilatorowi, iż nie chcemy skorzystać ze słowa kluczowego **event**, a jedynie użyć jako nazway zmiennej.
-    </p>
+**@event** - jak wiadomo event to słowo kluczowe języka c#, jednak można to obejść wykorzystując znak małpki **‚@’**, nakazujemy kompilatorowi, iż nie chcemy skorzystać ze słowa kluczowego **event**, a jedynie użyć jako nazway zmiennej.
+
+**IEventBus**, kontrakt dla szyny zdarzeń, w tym przypadku klasa implementująca musi zawierać trzy metody:
+* **Register** - służy do rejestrowania obserwatora zdarzenia,
+* **UnRegister** - analogicznie tą metodą wyrzucamy obserwatora zdarzeń,
+* **Publish** - dzięki tej metodzie przekazujemy wszystkim słuchaczom zdarzenie.
     
-    <p>
-      &nbsp;
-    </p>
-    
-    <p>
-      **IEventBus**, kontrakt dla szyny zdarzeń, w tym przypadku klasa implementująca musi zawierać trzy metody:
-    </p>
-    
-    <ul>
-      <li>
-        **Register** - służy do rejestrowania obserwatora zdarzenia,
-      </li>
-      <li>
-        **UnRegister** - analogicznie tą metodą wyrzucamy obserwatora zdarzeń,
-      </li>
-      <li>
-        **Publish** - dzięki tej metodzie przekazujemy wszystkim słuchaczom zdarzenie.
-      </li>
-    </ul>
-    
-    <pre class="lang:c# decode:true" title="Interfejs szyny zdarzeń.">namespace PictOgr.Core.CQRS.Bus.Event
+Interfejs szyny zdarzeń.
+{% highlight csharp linenos %}
+namespace PictOgr.Core.CQRS.Bus.Event
 {
 	using CQRS.Event;
 
@@ -113,17 +75,13 @@ tags:
 		void Publish&lt;TEvent&gt;(TEvent @event) where TEvent : IEvent;
 	}
 }
-</pre>
-    
-    <p>
-      &nbsp;
-    </p>
-    
+{% endhighlight %}
 
-      **EventBus** to implementacja interfejsu **IEventBus**.
-    </p>
+**EventBus** to implementacja interfejsu **IEventBus**.
     
-    <pre class="lang:c# decode:true" title="Implementacja szyny zdarzeń.">namespace PictOgr.Core.CQRS.Bus.Event
+Implementacja szyny zdarzeń.
+{% highlight csharp linenos %}
+namespace PictOgr.Core.CQRS.Bus.Event
 {
 	using System;
 	using System.Collections.Generic;
@@ -213,45 +171,25 @@ tags:
 			}
 		}
 	}
-}</pre>
-    
+}
+{% endhighlight %}
 
-      <em>Lista eventList = new Dictionary<Type, List<object>>();</em>
-    </p>
-    
+Lista eventList = new Dictionary<Type, List<object>>();
 
-      Jest to lista zdarzeń, do której zostaną, która to dopiero będzie powiązana z listą obserwatorów.<a href="http://godev.gemustudio.com/assets/images/2017/04/event2.png"><img class="alignright wp-image-820 size-medium" src="http://godev.gemustudio.com/assets/images/2017/04/event2-300x200.png" alt="CQRS" width="300" height="200" srcset="http://godev.gemustudio.com/assets/images/2017/04/event2-300x200.png 300w, http://godev.gemustudio.com/assets/images/2017/04/event2-768x512.png 768w, http://godev.gemustudio.com/assets/images/2017/04/event2-1024x683.png 1024w" sizes="(max-width: 300px) 100vw, 300px" /></a>
-    </p>
-    
+Jest to lista zdarzeń, do której zostaną, która to dopiero będzie powiązana z listą obserwatorów.
+[![CQRS][event2]][event2-big]{:.post-right-image}
 
-      [**IEvent** => { **IEventHandler**, **IEventHandler**, **IEventHandler**, etc.}]
-    </p>
-    
+[**IEvent** => { **IEventHandler**, **IEventHandler**, **IEventHandler**, etc.}]
+Metoda **Register**, sprawdza czy IEventHanlder jest już zarejestrowany, jeśli nie to dodaje do listy.
+**UnRegister**, sprawdza czy IEventHandler jest na liście, jeżeli jest to usuwa.
+**Publish** - iteruje po wszystkich IEvent, oraz podległych IEventHandlerach i publikuje zdarzenie.
 
-      Metoda **Register**, sprawdza czy IEventHanlder jest już zarejestrowany, jeśli nie to dodaje do listy.
-    </p>
+## Testy
+Klasę testu zaczynamy od ustawienia (**TearUp**) podstawowych/najczęściej używanych w testach obiektów jak **container**, **fakeEvent**, **eventFakeInvoke**, **fakeEventHandler**.
     
-
-      **UnRegister**, sprawdza czy IEventHandler jest na liście, jeżeli jest to usuwa.
-    </p>
-    
-
-      **Publish** - iteruje po wszystkich IEvent, oraz podległych IEventHandlerach i publikuje zdarzenie.
-    </p>
-    
-    <p>
-      &nbsp;
-    </p>
-    
-    <h1>
-      Testy
-    </h1>
-    
-
-      Klasę testu zaczynamy od ustawienia (**TearUp**) podstawowych/najczęściej używanych w testach obiektów jak **container**, **fakeEvent**, **eventFakeInvoke**, **fakeEventHandler**.
-    </p>
-    
-    <pre class="lang:c# decode:true " title="Klasa do testowania zdarzeń.">namespace PictOgr.Tests.Core.CQRS.Events
+Klasa do testowania zdarzeń.
+{% highlight csharp linenos %}
+namespace PictOgr.Tests.Core.CQRS.Events
 {
 	using System.Collections.Generic;
 	using System;
@@ -283,17 +221,16 @@ tags:
 				  {
 					  eventFromInvoke = ev;
 				  });
-		}</pre>
-    
+		}
+{% endhighlight %}
 
-      Na końcu konstruktora tworzymy **fake** dla metody **Handler**, tak by pobierać **event** jaki jest do niej przekazywany jako parametr, tak na zaś do assertów.
-    </p>
-    
+Na końcu konstruktora tworzymy **fake** dla metody **Handler**, tak by pobierać **event** jaki jest do niej przekazywany jako parametr, tak na zaś do assertów.
 
-      Pierwszy teścik taki symboliczny, czy faktycznie **EventBus** to **EventBus** prosto z **AutoFac**-a.
-    </p>
-    
-    <pre class="lang:c# decode:true " title="Test poprawności pobierania szyny zdarzeń z kontenera AutoFac.">[Fact]
+Pierwszy teścik taki symboliczny, czy faktycznie **EventBus** to **EventBus** prosto z **AutoFac**-a.
+
+Test poprawności pobierania szyny zdarzeń z kontenera AutoFac.
+{% highlight csharp linenos %}
+[Fact]
 public void test_event_bus_are_correct_resolved()
 {
 	using (var scope = container.BeginLifetimeScope())
@@ -302,17 +239,16 @@ public void test_event_bus_are_correct_resolved()
 
 		eventBus.ShouldBeOfType&lt;EventBus&gt;();
 	}
-}</pre>
-    
+}
+{% endhighlight %}
 
-      Jak się powodzi to lecimy dalej.
-    </p>
-    
+Jak się powodzi to lecimy dalej.
 
-      A tutaj to sprawdzimy czy szyna zdarzeń po publikacji (**Publish**) oszukanego zdarzenia (**fakeEvent**) rzuci wyjąteczkiem **TypeUnloadedException**.
-    </p>
+A tutaj to sprawdzimy czy szyna zdarzeń po publikacji (**Publish**) oszukanego zdarzenia (**fakeEvent**) rzuci wyjąteczkiem **TypeUnloadedException**.
     
-    <pre class="lang:c# decode:true" title="Próba publikacji zdarzenia, na pustą szynę, rzuca wyjątkiem.">[Fact]
+Próba publikacji zdarzenia, na pustą szynę, rzuca wyjątkiem.
+{% highlight csharp linenos %}
+[Fact]
 public void event_bus_publish_should_throw_excetion()
 {
 	using (var scope = container.BeginLifetimeScope())
@@ -323,17 +259,16 @@ public void event_bus_publish_should_throw_excetion()
 
 		Should.Throw&lt;TypeUnloadedException&gt;(() =&gt; { eventBus.Publish(fakeEvent); });
 	}
-}</pre>
-    
+}
+{% endhighlight %}
 
-      A no bo **POWINNA**!
-    </p>
-    
+A no bo **POWINNA**!
 
-      Teraz to już powinno być dobrze, pierwsza publikacja i odebranie prawidłowego **IEvent**, część kodu zawarta w **TearUp**, tak że tutaj prościutko.
-    </p>
+Teraz to już powinno być dobrze, pierwsza publikacja i odebranie prawidłowego **IEvent**, część kodu zawarta w **TearUp**, tak że tutaj prościutko.
     
-    <pre class="lang:c# decode:true " title="Próba publikacji zdarzenia z wyrejestrowanie, powinna się powieść.">[Fact]
+Próba publikacji zdarzenia z wyrejestrowanie, powinna się powieść.
+{% highlight csharp linenos %}
+[Fact]
 public void event_bus_register_should_add_event_handler()
 {
 	using (var scope = container.BeginLifetimeScope())
@@ -346,17 +281,16 @@ public void event_bus_register_should_add_event_handler()
 
 		eventFromInvoke.ShouldBeSameAs(fakeEvent);
 	}
-}</pre>
-    
+}
+{% endhighlight %}
 
-      Odebrany **IEvent** musi być taki sam jak ten publikowany!
-    </p>
-    
+Odebrany **IEvent** musi być taki sam jak ten publikowany!
 
-      A tutaj sobie sprawdzimy jak działa **Register** i **UnRegister**.
-    </p>
+A tutaj sobie sprawdzimy jak działa **Register** i **UnRegister**.
     
-    <pre class="lang:c# decode:true" title="Rzucanie wyjątkiem dla zarejestrowanego a następnie wyrejestrowanego hanldera.">public void event_bus_register_and_unregister_should_throw_exception_when_publish()
+Rzucanie wyjątkiem dla zarejestrowanego a następnie wyrejestrowanego hanldera.
+{% highlight csharp linenos %}
+public void event_bus_register_and_unregister_should_throw_exception_when_publish()
 {
     using (var scope = container.BeginLifetimeScope())
     {
@@ -368,17 +302,16 @@ public void event_bus_register_should_add_event_handler()
         Should.Throw&lt;TypeUnloadedException&gt;(() =&gt; { eventBus.Publish(fakeEvent); });
         eventFromInvoke.ShouldBeNull();
     }
-}</pre>
-    
+}
+{% endhighlight %}
 
-      Zarejestrowany **IEventHandler** i wyrejestrowany po publikacji wali wyjątkiem **TypeUnloadedException**!
-    </p>
-    
+Zarejestrowany **IEventHandler** i wyrejestrowany po publikacji wali wyjątkiem **TypeUnloadedException**!
 
-      Ostatni tłusty teścik rejestruje aż 100 IEventHandlerów, po czym publikuje do nich **fakeEvent**-a.
-    </p>
+Ostatni tłusty teścik rejestruje aż 100 IEventHandlerów, po czym publikuje do nich **fakeEvent**-a.
     
-    <pre class="lang:c# decode:true " title="Rejestrowanie 100 handlerów, i sprawdzanie czy otrzymują 100 prawidłowych zdarzeń.">[Fact]
+Rejestrowanie 100 handlerów, i sprawdzanie czy otrzymują 100 prawidłowych zdarzeń.
+{% highlight csharp linenos %}
+[Fact]
 public void event_bus_register_many_handlers_should_add_event_handler()
 {
 	using (var scope = container.BeginLifetimeScope())
@@ -414,42 +347,28 @@ public void event_bus_register_many_handlers_should_add_event_handler()
 			@event.ShouldBeSameAs(fakeEvent);
 		}
 	}
-}</pre>
-    
+}
+{% endhighlight %}
 
-      Tym samym powinno dojść 100 oszukanych eventów zapisanych do listy.
-    </p>
-    
+Tym samym powinno dojść 100 oszukanych eventów zapisanych do listy.
 
-      Na końcu to już wyrejestrowanie handlerków, i sprawdzenie czy faktycznie te 100 eventów jest oszukanych (**fakeEvent**).
-    </p>
-    
-    <p>
-      &nbsp;
-    </p>
-    
-    <h1>
-      Na koniec<a href="http://godev.gemustudio.com/assets/images/2017/04/event.png"><img class="alignright wp-image-819 size-thumbnail" src="http://godev.gemustudio.com/assets/images/2017/04/event-150x150.png" alt="CQRS" width="150" height="150" /></a>
-    </h1>
-    
+Na końcu to już wyrejestrowanie handlerków, i sprawdzenie czy faktycznie te 100 eventów jest oszukanych (**fakeEvent**).
 
-      Co prawda więcej w poście kodu niż treści, ale myślę, że zrozumiały tekst.
-    </p>
-    
+## Na koniec
+[![CQRS][event]][event-big]{:.post-left-image}
+Co prawda więcej w poście kodu niż treści, ale myślę, że zrozumiały tekst.
 
-      W kolejnym poście połączymy **ES** z **CQRS**, oraz dodamy zapowiadane na ten post walidatory.
-    </p>
-    
-    <p>
-      &nbsp;
-    </p>
-    
-    <p>
-      &nbsp;
-    </p>
-    
-    <h3 style="text-align: center;">
-      **Dziękuję za wytrwałość i zachęcam do komentowania.**
-    </h3>
-    
+W kolejnym poście połączymy **ES** z **CQRS**, oraz dodamy zapowiadane na ten post walidatory.
+
+**Dziękuję za wytrwałość i zachęcam do komentowania.**{:h-1}
+
 {% include_relative dsp.md %}
+
+[event]: /assets/images/2017/04/pictogr-moj-cqrs-3/event.png
+[event-big]: /assets/images/2017/04/pictogr-moj-cqrs-3/event-big.png
+
+[event2]: /assets/images/2017/04/pictogr-moj-cqrs-3/event2.png
+[event2-big]: /assets/images/2017/04/pictogr-moj-cqrs-3/event2-big.png
+
+[image1]: /assets/images/2017/04/pictogr-moj-cqrs-3/image1.jpg
+[image1-big]: /assets/images/2017/04/pictogr-moj-cqrs-3/image1-big.jpg

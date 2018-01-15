@@ -5,7 +5,7 @@ author: Krzysztof Owsiany
 layout: post
 published: true
 permalink: /pictogr-moj-cqrs-2
-image: /assets/images/2017/04/pictogr-moj-cqrs-3/metro.png
+image: /assets/images/2017/04/pictogr-moj-cqrs-2/metro.png
 categories:
   - Daj Się Poznać 2017
   - PictOgr
@@ -247,7 +247,8 @@ namespace PictOgr.Tests.Core.CQRS.Queries
     
 Implementacja pierwszego testu, do generowania losowych ciągów znaków została wykorzystana biblioteka **AutoFixture**, spowoduje to losowość w trakcie uruchamiania testu.
 
-Do prawidłowego działania testu należy ustawić delegat **handleMethod** (podobnie jak w przypadku testowania komend). W tym przypadku wykorzystujemy lambdę, i ustawiamy klasę jaka zostanie zwrócona przy wywołaniu metody **Process** z handlera dla szyny zapytań.
+Do prawidłowego działania testu należy ustawić delegat **handleMethod** (podobnie jak w przypadku testowania komend). 
+W tym przypadku wykorzystujemy lambdę, i ustawiamy klasę jaka zostanie zwrócona przy wywołaniu metody **Process** z handlera dla szyny zapytań.
     
 Testowanie zapytania pobierania informacji aplikacji.
 {% highlight csharp linenos %}
@@ -302,14 +303,14 @@ Rozważam, możliwość wyodrębnienie a projektu **[PictOgr]**, implementacji *
 
 [PictOgr]: {{site.url}}/pictogr-pomysl
 
-[stadion-narodowy]: /assets/images/2017/04/pictogr-moj-cqrs-3/stadion-narodowy.png
-[stadion-narodowy-big]: /assets/images/2017/04/pictogr-moj-cqrs-3/stadion-narodowy-big.png
+[stadion-narodowy]: /assets/images/2017/04/pictogr-moj-cqrs-2/stadion-narodowy.png
+[stadion-narodowy-big]: /assets/images/2017/04/pictogr-moj-cqrs-2/stadion-narodowy-big.png
 
-[palac]: /assets/images/2017/04/pictogr-moj-cqrs-3/palac.png
-[palac-big]: /assets/images/2017/04/pictogr-moj-cqrs-3/palac-big.png
+[palac]: /assets/images/2017/04/pictogr-moj-cqrs-2/palac.png
+[palac-big]: /assets/images/2017/04/pictogr-moj-cqrs-2/palac-big.png
 
-[metro]: /assets/images/2017/04/pictogr-moj-cqrs-3/metro.png
-[metro-big]: /assets/images/2017/04/pictogr-moj-cqrs-3/metro-big.png
+[metro]: /assets/images/2017/04/pictogr-moj-cqrs-2/metro.png
+[metro-big]: /assets/images/2017/04/pictogr-moj-cqrs-2/metro-big.png
 
-[stadion-narodowy-filar]: /assets/images/2017/04/pictogr-moj-cqrs-3/stadion-narodowy-filar.png
-[stadion-narodowy-filar-big]: /assets/images/2017/04/pictogr-moj-cqrs-3/stadion-narodowy-filar-big.png
+[stadion-narodowy-filar]: /assets/images/2017/04/pictogr-moj-cqrs-2/stadion-narodowy-filar.png
+[stadion-narodowy-filar-big]: /assets/images/2017/04/pictogr-moj-cqrs-2/stadion-narodowy-filar-big.png
