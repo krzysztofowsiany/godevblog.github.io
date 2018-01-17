@@ -1,12 +1,11 @@
 ---
-id: 1310
-title: Budowanie zaangażowania użytkowników przy wykorzystaniu Grywalizacji
-date: 2017-06-05T08:43:33+00:00
+title: Budowanie zaangażowania użytkowników przy wykorzystaniu Grywalizacji.
+date: 2017-06-05
 author: Krzysztof Owsiany
 layout: post
-published: false
-permalink: /2017/06/05/budowanie-zaangazowania-uzytkownikow-przy-wykorzystaniu-grywalizacji/
-image: /assets/images/2017/06/blogging-photo-00880.jpg
+published: true
+permalink: /budowanie-zaangazowania-uzytkownikow-przy-wykorzystaniu-grywalizacji
+image: /assets/images/2017/06/budowanie-zaangazowania-uzytkownikow-przy-wykorzystaniu-grywalizacji/post.jpg
 categories:
   - Daj Się Poznać 2017
   - Programowanie
@@ -16,108 +15,51 @@ tags:
   - DSP2017
   - Grywalizacja
   - Prelekcja
+short: Udało się wyspecyfikować tytuł i tematykę mojej prelekcji na Gali Finałowej Daj Się Poznać 2017, mam nadzieję, iż moje pierwsze publiczne wystąpienie przebiegnie zadowalająco. Tym samy jest przygotowana na galę!
 ---
-<div id="dslc-theme-content">
-  <div id="dslc-theme-content-inner">
+[![Gala Finałowa Daj Się Poznać 2017][post]][post-big]{:.post-left-image}
 
-      Udało się wyspecyfikować tytuł i tematykę mojej prelekcji na **Gali Finałowej Daj Się Poznać 2017**,<img class="alignright wp-image-1316 size-medium" src="http://godev.gemustudio.com/assets/images/2017/06/blogging-photo-40-300x200.jpg" alt="Gala Finałowa Daj Się Poznać 2017" width="300" height="200" srcset="http://godev.gemustudio.com/assets/images/2017/06/blogging-photo-40-300x200.jpg 300w, http://godev.gemustudio.com/assets/images/2017/06/blogging-photo-40-768x512.jpg 768w, http://godev.gemustudio.com/assets/images/2017/06/blogging-photo-40.jpg 900w" sizes="(max-width: 300px) 100vw, 300px" /> mam nadzieję, iż moje pierwsze publiczne wystąpienie przebiegnie zadowalająco.
-    </p>
-    
+Udało się wyspecyfikować tytuł i tematykę mojej prelekcji na **Gali Finałowej Daj Się Poznać 2017**.
 
-  
-        <span style="color: #ff0000;">**UWAGA: agenda ewoluowała z dniem 13.06.2017.**</span>
-      </p>
+Mam nadzieję, iż moje pierwsze publiczne wystąpienie przebiegnie zadowalająco.
+
+**Tym samy jest przygotowana na galę!**{:.h-1}
+
+**Agenda**
+
+1. Wstęp:
+* O mnie.
+* Temat.
+* Pytanie do publiczności.
+* Definicja.
+[![Gala Finałowa Daj Się Poznać 2017][image1]][image1-big]{:.post-right-image}
+2. Mechanika gier w projektach IT:  
+* Punkty.
+* Poziomy.
+* Tabela wyników.
+* Odznaczenia.
+* Przyuczenie.
+* Wyzwania.
+* Pętla zaangażowania społecznego.
+
+3. Korzyści:
+* Budowa zaangażowania.
+* Marketing.
+* Monetyzacja.
+
+4. Przykłady wdrożenia:
+* Duolingo.
+* Yanosik.
+* mBank - mGra.
+
+5. Książki.
       
-  
-        <span style="color: #ff0000;">**Tym samy jest przygotowana na galę!**</span>
-      </p>
-      
-      <h2 style="text-align: justify;">
-      </h2>
-      
-      <h2 style="text-align: justify;">
-        Agenda
-      </h2>
-      
-      <ol>
-        <li data-aria-posinset="1" data-aria-level="1">
-          Wstęp <ol>
-            <li data-aria-posinset="1" data-aria-level="1">
-              O mnie
-            </li>
-            <li data-aria-posinset="1" data-aria-level="1">
-              Temat
-            </li>
-            <li data-aria-posinset="1" data-aria-level="1">
-              Pytanie do publiczności
-            </li>
-            <li data-aria-posinset="1" data-aria-level="1">
-              Definicja
-            </li>
-          </ol>
-        </li>
-        
-        <li data-aria-posinset="1" data-aria-level="1">
-          Mechanika gier w projektach IT. <ol>
-            <li data-aria-posinset="1" data-aria-level="2">
-              Punkty
-            </li>
-            <li data-aria-posinset="2" data-aria-level="2">
-              Poziomy
-            </li>
-            <li data-aria-posinset="2" data-aria-level="2">
-              Tabela wyników
-            </li>
-            <li data-aria-posinset="2" data-aria-level="2">
-              Odznaczenia
-            </li>
-            <li data-aria-posinset="2" data-aria-level="2">
-              Przyuczenie
-            </li>
-            <li data-aria-posinset="2" data-aria-level="2">
-              Wyzwania
-            </li>
-            <li data-aria-posinset="2" data-aria-level="2">
-              Pętla zaangażowania społecznego
-            </li>
-          </ol>
-        </li>
-        
-        <li data-aria-posinset="2" data-aria-level="1">
-          Korzyści <ol>
-            <li data-aria-posinset="1" data-aria-level="2">
-              Budowa zaangażowania
-            </li>
-            <li data-aria-posinset="1" data-aria-level="2">
-              Marketing
-            </li>
-            <li data-aria-posinset="1" data-aria-level="2">
-              Monetyzacja
-            </li>
-          </ol>
-        </li>
-        
-        <li data-aria-posinset="5" data-aria-level="1">
-          Przykłady wdrożenia <ol style="list-style-type: lower-alpha;">
-            <li data-aria-posinset="1" data-aria-level="3">
-              Duolingo
-            </li>
-            <li data-aria-posinset="1" data-aria-level="3">
-              Yanosik
-            </li>
-            <li data-aria-posinset="1" data-aria-level="3">
-              mBank - mGra
-            </li>
-          </ol>
-        </li>
-        
-        <li data-aria-posinset="6" data-aria-level="1">
-          Książki
-        </li>
-      </ol>
-      
-      <h4 style="text-align: justify;">
-        Do zobaczenia na mojej prelekcji.:D
-      </h4>
-      
+**Do zobaczenia na mojej prelekcji.:D**{:.h-1}
+
 {% include_relative dsp.md %}
+
+[post]: /assets/images/2017/06/budowanie-zaangazowania-uzytkownikow-przy-wykorzystaniu-grywalizacji/post.jpg
+[post-big]: /assets/images/2017/06/budowanie-zaangazowania-uzytkownikow-przy-wykorzystaniu-grywalizacji/post-big.jpg
+
+[image1]: /assets/images/2017/06/budowanie-zaangazowania-uzytkownikow-przy-wykorzystaniu-grywalizacji/image1.jpg
+[image1-big]: /assets/images/2017/06/budowanie-zaangazowania-uzytkownikow-przy-wykorzystaniu-grywalizacji/image1-big.jpg
