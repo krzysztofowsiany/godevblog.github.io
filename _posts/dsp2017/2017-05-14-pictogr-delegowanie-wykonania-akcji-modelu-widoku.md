@@ -191,8 +191,6 @@ namespace PictOgr.E2E
 [![PictOgr.][image2]][image2-big]{:.post-right-image}
 Mechanizm **RelayCommand** w większości przypadków niweluje potrzebę tworzenia innych klas komend, skraca to kodowanie i powoduje powstawanie mniej błędów.
 
-
-
 **Dziękuję za wytrwałość i zachęcam do komentowania**.
     
 {% include_relative dsp.md %}
