@@ -1,11 +1,11 @@
 ---
-title: 'PictOgr - widok konfiguracji + model domeny'
-date: 2017-05-10T00:56:26+00:00
+title: PictOgr - widok konfiguracji + model domeny
+date: 2017-05-10
 author: Krzysztof Owsiany
 layout: post
-published: false
-permalink: /2017/05/10/pictogr-widok-konfiguracji-model-domeny/
-image: /assets/images/2017/05/IMG_0950-1.jpg
+published: true
+permalink: /pictogr-widok-konfiguracji-model-domeny
+image: /assets/images/2017/05/pictogr-widok-konfiguracji-model-domeny/post.jpg
 categories:
   - Daj Się Poznać 2017
 tags:
@@ -14,94 +14,52 @@ tags:
   - DSP2017
   - PictOgr
   - WPF
+short: Ważnym elementem PictOgr-a jest konfiguracja, w niej właśnie będzie definiowana struktura katalogów dla zdjęć. Nazwy powinny składać się z wielu modułów.
 ---
-<div id="dslc-theme-content">
-  <div id="dslc-theme-content-inner">
-    <h2 style="background: #ffff9c; padding: 5pt; text-align: left;">
-      Widok konfiguracji
-    </h2>
+Ważnym elementem PictOgr-a jest konfiguracja, w niej właśnie będzie definiowana struktura katalogów dla zdjęć. Nazwy powinny składać się z wielu modułów. W tym celu konfiguracja powinna dać możliwość składania wzorca lokalizacji pliku z dostępnych modułów nazwy jakie można wyciągnąć z pliku:
+* **EXIF** - Exchangeable Image FIle Format - bogactwo możliwości definicji nazw,
+* czasy utworzenia,
+* nazwa pliku,
+* podstawowe znaki jak: -, _, / i inne jakie dojdą w trakcie.
     
+[![Widok konfiguracji][pictogr-config]][pictogr-config-big]{:.post-center-image}
 
-      Ważnym elementem PictOgr-a jest konfiguracja, w niej właśnie będzie definiowana struktura katalogów dla zdjęć. Nazwy powinny składać się z wielu <a href="http://godev.gemustudio.com/assets/images/2017/05/pictogr-config.png"><img class="alignright wp-image-1035 size-medium" src="http://godev.gemustudio.com/assets/images/2017/05/pictogr-config-300x263.png" alt="widok konfiguracji" width="300" height="263" srcset="http://godev.gemustudio.com/assets/images/2017/05/pictogr-config-300x263.png 300w, http://godev.gemustudio.com/assets/images/2017/05/pictogr-config.png 684w" sizes="(max-width: 300px) 100vw, 300px" /></a>modułów. W tym celu konfiguracja powinna dać możliwość składania wzorca lokalizacji pliku z dostępnych modułów nazwy jakie można wyciągnąć z pliku:
-    </p>
-    
-    <ul>
-      <li style="text-align: justify;">
-        **EXIF** - Exchangeable Image FIle Format - bogactwo możliwości definicji nazw,
-      </li>
-      <li style="text-align: justify;">
-        czasy utworzenia
-      </li>
-      <li style="text-align: justify;">
-        nazwa pliku
-      </li>
-      <li style="text-align: justify;">
-        podstawowe znaki jak: -, _, / i inne jakie dojdą w trakcie.
-      </li>
-    </ul>
-    
-    <p>
-      &nbsp;
-    </p>
-    
+Widok dość prosty, zawiera zakładkę &#8222;Formats&#8221;, w której to będzie posortowana według kolejności dodawania lista modułów nazw z lewej strony natomiast z prawej pogrupowane moduły nazw z jakich będzie można zdefiniować nazwę i lokalizację pliku.
 
-      Widok dość prosty, zawiera zakładkę &#8222;Formats&#8221;, w której to będzie posortowana według kolejności dodawania lista modułów nazw z lewej strony natomiast z prawej pogrupowane moduły nazw z jakich będzie można zdefiniować nazwę i lokalizację pliku.
-    </p>
-    
+Zdefiniowany wzorzec nazwy będzie wyświetlany na dole wraz z przykładową przetworzoną ścieżką do pliku.
 
-      Zdefiniowany w<a href="http://godev.gemustudio.com/assets/images/2017/05/pictogr-config2.png"><img class="wp-image-1036 size-full alignleft" src="http://godev.gemustudio.com/assets/images/2017/05/pictogr-config2.png" alt="" width="248" height="209" /></a>zorzec nazwy będzie wyświetlany na dole wraz z przykładową przetworzoną ścieżką do pliku.
-    </p>
-    
+Widok nie zawiera możliwości zapisu/odczytu zdefiniowanego wzorca nazwy, to będzie rozbudowane w kolejnych etapach budowy aplikacji.
 
-      Widok nie zawiera możliwości zapisu/odczytu zdefiniowanego wzorca nazwy, to będzie rozbudowane w kolejnych etapach budowy aplikacji.
-    </p>
-    
+![Widok konfiguracji][pictogr-config2]{:.post-right-image}
 
-      Dodatkowo aplikacja będzie posiadała dziennik zadań, w którym to będzie można określić kiedy i o której godzinie ma zostać wykonana procedura porządkowania plików. Widok konfiguracji nie został przygotowany dlatego na tą chwilę będzie pominięty.
-    </p>
-    
-    <p>
-      &nbsp;
-    </p>
-    
+Dodatkowo aplikacja będzie posiadała dziennik zadań, w którym to będzie można określić kiedy i o której godzinie ma zostać wykonana procedura porządkowania plików. Widok konfiguracji nie został przygotowany dlatego na tą chwilę będzie pominięty.
 
-      Podstawowa konfiguracja jaką będzie można ustawić to start aplikacji z systemem -> **Tray** oraz integracja z menu podręcznym tak by była możliwość uruchomienia porządkowania np. bezpośrednio na katalogu.
-    </p>
-    
-    <p>
-      &nbsp;
-    </p>
-    
-    <h1 style="background: #ffff9c; padding: 5pt; text-align: left;">
-      Rozbudowa modelu domeny
-    </h1>
-    
+Podstawowa konfiguracja jaką będzie można ustawić to start aplikacji z systemem -> **Tray** oraz integracja z menu podręcznym tak by była możliwość uruchomienia porządkowania np. bezpośrednio na katalogu.
 
-      Każdy moduł będzie posiadał swój typ, do tego wykorzystany został typ wyliczeniowy , obecnie zawiera dwie pozycje dla EXIFa i bazowych modułów nazw.
-    </p>
+## Rozbudowa modelu domeny
+Każdy moduł będzie posiadał swój typ, do tego wykorzystany został typ wyliczeniowy , obecnie zawiera dwie pozycje dla EXIFa i bazowych modułów nazw.
     
-    <pre class="lang:c# decode:true" title="Enumeracja listy typów modułów nazw.">namespace PictOgr.Core.Domain
+Enumeracja listy typów modułów nazw.
+{% highlight csharp lineno %}
+namespace PictOgr.Core.Domain
 {
 	public enum ModuleType
 	{
 		Base = 0,
 		EXIF = 1
 	}
-}</pre>
-    
+}
+{% endhighlight %}
 
-      Typ modułu wykorzystywany jest przez model nazwy: **NameModule**.
-    </p>
-    
+Typ modułu wykorzystywany jest przez model nazwy: **NameModule**.
 
-      Model składa się także z identyfikatora w formacie GUID, oraz nazwy.
-    </p>
-    
+Model składa się także z identyfikatora w formacie GUID, oraz nazwy.
 
-      I to właśnie nazwa będzie odzwierciedlać moduł i następnie zostanie zastąpiona rzeczywistymi danymi pobranymi z pliku.
-    </p>
-    
-    <pre class="lang:c# decode:true " title="Model nazwy modułu.">using System;
+I to właśnie nazwa będzie odzwierciedlać moduł i następnie zostanie zastąpiona rzeczywistymi danymi pobranymi z pliku.
+
+Model nazwy modułu.
+{% highlight csharp lineno %}
+using System;
 
 namespace PictOgr.Core.Domain
 {
@@ -143,25 +101,16 @@ namespace PictOgr.Core.Domain
 		}
 	}
 }
-</pre>
-    
+{% endhighlight %}
 
-      Jest to model domenowy dlatego jego ustawienie możliwe jest jedynie w konstruktorze z wykorzystaniem metod zawierających walidację.
-    </p>
-    
+Jest to model domenowy dlatego jego ustawienie możliwe jest jedynie w konstruktorze z wykorzystaniem metod zawierających walidację.
 
-      Tak utworzony obiekt nie będzie zmieniany w trakcie działania aplikacji.
-    </p>
-    
 
-      <a href="http://godev.gemustudio.com/assets/images/2017/05/IMG_9780.jpg"><img class="aligncenter size-medium wp-image-1046" src="http://godev.gemustudio.com/assets/images/2017/05/IMG_9780-300x200.jpg" alt="" width="300" height="200" srcset="http://godev.gemustudio.com/assets/images/2017/05/IMG_9780-300x200.jpg 300w, http://godev.gemustudio.com/assets/images/2017/05/IMG_9780-768x512.jpg 768w, http://godev.gemustudio.com/assets/images/2017/05/IMG_9780-1024x683.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px" /></a>
-    </p>
+Tak utworzony obiekt nie będzie zmieniany w trakcie działania aplikacji.
     
-    <p>
-      &nbsp;
-    </p>
-    
-    <pre class="lang:c# decode:true " title="DTO modułu nazwy.">using System;
+DTO modułu nazwy.
+{% highlight csharp lineno %}
+using System;
 using PictOgr.Core.Domain;
 
 namespace PictOgr.Infrastructure.DTO
@@ -173,17 +122,16 @@ namespace PictOgr.Infrastructure.DTO
 		public Guid NameModuleId { get; set; }
 	}
 }
-</pre>
-    
+{% endhighlight %}
 
-      Klasa odpowiedzialna za przekazywanie danych z modelu domeny do aplikacji wygląda bardzo prosto i zawiera w zasadzie te same pola jakie znajdują się w domenie. W tym przypadku mogą ulegać modyfikacji.
-    </p>
-    
+[![Widok konfiguracji][image1]][image1-big]{:.post-left-image}
+Klasa odpowiedzialna za przekazywanie danych z modelu domeny do aplikacji wygląda bardzo prosto i zawiera w zasadzie te same pola jakie znajdują się w domenie. W tym przypadku mogą ulegać modyfikacji.
 
-      Moduły nazwy są wykorzystywane przez następny model domeny o nazwie **CompositionName**, zawiera on w sobie listę modułów nazw i identyfikator.
-    </p>
+Moduły nazwy są wykorzystywane przez następny model domeny o nazwie **CompositionName**, zawiera on w sobie listę modułów nazw i identyfikator.
     
-    <pre class="lang:c# decode:true" title="Model skomponowanego wzorca nazwy.">using System;
+Model skomponowanego wzorca nazwy.
+{% highlight csharp lineno %}
+using System;
 using System.Collections.Generic;
 
 namespace PictOgr.Core.Domain
@@ -205,17 +153,13 @@ namespace PictOgr.Core.Domain
 		}
 	}
 }
-</pre>
-    
-    <p>
-      &nbsp;
-    </p>
-    
+{% endhighlight %}
 
-      Także w tym przypadku model domeny ma swojego odpowiednika w warstwie infrastruktury o nazwie **CompositionNameDto**.
-    </p>
+Także w tym przypadku model domeny ma swojego odpowiednika w warstwie infrastruktury o nazwie **CompositionNameDto**.
     
-    <pre class="lang:c# decode:true " title="DTO kompozycji nazwy.">using System;
+DTO kompozycji nazwy.
+{% highlight csharp lineno %}
+using System;
 using System.Collections.Generic;
 
 namespace PictOgr.Infrastructure.DTO
@@ -226,82 +170,28 @@ namespace PictOgr.Infrastructure.DTO
 		public Guid CompositionId { get; set; }
 	}
 }
-</pre>
-    
+{% endhighlight %}
 
-      DTO dla kompozycji nazwy jest bardzo proste i zawiera jedynie listę nazw modułów, oraz identyfikator kompozycji.
-    </p>
-    
+DTO dla kompozycji nazwy jest bardzo proste i zawiera jedynie listę nazw modułów, oraz identyfikator kompozycji.
 
-      <a href="http://godev.gemustudio.com/assets/images/2017/05/IMG_0043.jpg"><img class="size-medium wp-image-1049 alignright" src="http://godev.gemustudio.com/assets/images/2017/05/IMG_0043-300x200.jpg" alt="" width="300" height="200" srcset="http://godev.gemustudio.com/assets/images/2017/05/IMG_0043-300x200.jpg 300w, http://godev.gemustudio.com/assets/images/2017/05/IMG_0043-768x512.jpg 768w, http://godev.gemustudio.com/assets/images/2017/05/IMG_0043-1024x683.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px" /></a>
-    </p>
-    
+[![Widok konfiguracji][image2]][image2-big]{:.post-right-image}
 
-      Czy to dobra czy nie dobra implementacja problemu, to już zostanę rozliczony przez historię:D. Jednak walczę nadal i pozostał tylko jeden post wymagany do ukończenia **DSP2017**. Tak że widzę światełko w tunelu oraz perspektywy na dalsze blogowanie i rozwijanie PictOgra.
-    </p>
+Czy to dobra czy nie dobra implementacja problemu, to już zostanę rozliczony przez historię:D. Jednak walczę nadal i pozostał tylko jeden post wymagany do ukończenia **DSP2017**. Tak że widzę światełko w tunelu oraz perspektywy na dalsze blogowanie i rozwijanie PictOgra.
     
-    <p>
-      &nbsp;
-    </p>
-    
-    <p>
-      &nbsp;
-    </p>
-    
-    <h3 style="text-align: center;">
-      **Dziękuję za wytrwałość i zachęcam do komentowania.**
-    </h3>
-    
-    <p>
-      &nbsp;
-    </p>
-    
-    <p>
-      &nbsp;
-    </p>
-    
-    <div>
-      <div style="text-align: center;">
-        **Jest to post przygotowany na potrzeby konkursu &#8222;Daj Się Poznać 2017&#8221; organizowanym przez <a href="http://devstyle.pl">Macieja Aniserowicza</a>.**
-      </div>
-      
-      <div style="text-align: center;">
-         <a href="http://devstyle.pl/daj-sie-poznac/" target="_blank" rel="noopener noreferrer"><img class="wp-image-104 size-full alignright" title="Daj Się Poznać 2017" src="http://godev.gemustudio.com/assets/images/2017/02/dsp2017-3.png" alt="" width="68" height="154" /></a>
-      </div>
-      
-      <div style="font-size: 10pt; padding: 10px;">
-        <div>
-          **Projekt: **<a href="http://godev.gemustudio.com/2017/03/01/pictogr-pomysl/">PictOgr</a>.
-        </div>
-        
-        <div>
-          **GitHub: **<a href="https://github.com/krzysztofowsiany/pictogr">github.com/krzysztofowsiany/pictogr</a>
-        </div>
-        
-        <div>
-          **Blog: **<a href="http://godev.gemustudio.com">godev.gemustudio.com</a>
-        </div>
-        
-        <div>
-          **Snapchat**: <a href="https://www.snapchat.com/add/gocom7" target="_blank" rel="noopener noreferrer">gocom7</a>
-        </div>
-        
-        <div>
-          **RSS: **<a href="http://godev.gemustudio.com/category/daj-sie-poznac-2017/feed">godev.{% include_relative dsp.md %}gemustudio.com/category/daj-sie-poznac-2017/feed</a>
-        </div>
-        
-        <div>
-          **Facebook:**<a href="https://www.facebook.com/PictOgr-1729700930654225/">www.facebook.com/PictOgr-1729700930654225/</a>
-        </div>
-        
-        <div>
-          **Twitter: **<a href="https://twitter.com/gemu_gocom">twitter.com/gemu_gocom</a>
-        </div>
-      </div>
-    </div>
-    
-    <!-- AddThis Advanced Settings generic via filter on the_content -->
-    
-    <!-- AddThis Share Buttons generic via filter on the_content -->
-  </div>
-</div>
+**Dziękuję za wytrwałość i zachęcam do komentowania.**
+
+{% include_relative dsp.md %}
+
+[post]: /assets/images/2017/05/pictogr-widok-konfiguracji-model-domeny/post.jpg
+[post-big]: /assets/images/2017/05/pictogr-widok-konfiguracji-model-domeny/post-big.jpg
+
+[pictogr-config]: /assets/images/2017/05/pictogr-widok-konfiguracji-model-domeny/pictogr-config.png
+[pictogr-config-big]: /assets/images/2017/05/pictogr-widok-konfiguracji-model-domeny/pictogr-config-big.png
+
+[pictogr-config2]: /assets/images/2017/05/pictogr-widok-konfiguracji-model-domeny/pictogr-config2.png
+
+[image1]: /assets/images/2017/05/pictogr-widok-konfiguracji-model-domeny/image1.jpg
+[image1-big]: /assets/images/2017/05/pictogr-widok-konfiguracji-model-domeny/image1-big.jpg
+
+[image2]: /assets/images/2017/05/pictogr-widok-konfiguracji-model-domeny/image2.jpg
+[image2-big]: /assets/images/2017/05/pictogr-widok-konfiguracji-model-domeny/image2-big.jpg
