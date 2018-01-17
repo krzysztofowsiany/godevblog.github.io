@@ -23,50 +23,9 @@ Implementacja interfejsu **ICommand** niesie ze sobą potrzebę deklaracji dwóc
 Jako że w  programowaniu nie istnieje jedno rozwiązanie problemu i w tym  przypadku można delegować wykonanie metod **Execute** oraz **CanExecute** do modelu widoku.
     
 Komenda RelayCommand z delegacją logiki działania na zewnątrz obiektu.
-{% highlight csharp linenos %}
-using System;
-using System.Windows.Input;
 
-namespace PictOgr.MVVM.Base
-{
-	public class RelayCommand<TParam> : ICommand where TParam : class
-	{
-		private readonly Action<TParam> execute;
-		private readonly Func<TParam, bool> canExecute;
 
-		public RelayCommand(Action<TParam> execute, Func<TParam, bool> canExecute = null)
-		{
-			this.execute = execute;
-			this.canExecute = canExecute;
-		}
 
-		public event EventHandler CanExecuteChanged
-		{
-			add { CommandManager.RequerySuggested += value; }
-			remove { CommandManager.RequerySuggested -= value; }
-		}
-
-		public bool CanExecute(object parameter)
-		{
-			return canExecute == null || canExecute(parameter as TParam);
-		}
-
-		public void Execute(object parameter)
-		{
-			execute(parameter as TParam);
-		}
-	}
-
-	public class RelayCommand : RelayCommand<object>
-	{
-		public RelayCommand(Action<object> execute, Func<object, bool> canExecute = null)
-			: base(execute, canExecute)
-		{
-		}
-	}
-}
-{% endhighlight %}
-    
 Podczas tworzenia instancji na bazie klasy **RelayCommand  **przekazujemy do niej dwa delegaty: **execute**, **canExecute**.
 
 Wykonanie metody **CanExecute** nie zawsze jest istotne dlatego też w celu uproszczenia wykluczenia delegowania dla  tej metody powstała  klasa **RelayCommand** rozszerzająca klasę bazową  o tej samej nazwie i już określonym typie generycznym (object). Dzięki temu możemy przy tworzeniu nowej komendy wykorzystać prostą składnię: 
@@ -76,46 +35,7 @@ Wykonanie metody **CanExecute** nie zawsze jest istotne dlatego też w celu upro
 Przy budowaniu widoku konfiguracji dla PictOgra, wykorzystany został mechanizm RelayCommand do ustawiania wzorca ścieżki z dostępnych komponentów nazw.
     
 Przykład wykorzystania RelayCommand.
-{% highlight csharp linenos %}
-using System.Windows.Input;
-using Autofac.Extras.NLog;
-using CQRS.Bus.Query;
-using PictOgr.MVVM.Base;
 
-namespace PictOgr.MVVM.Configuration.ViewModels
-{
-	public class ConfigurationViewModel : BaseViewModel
-	{
-		private string pathFormat;
-
-		public string PathFormat
-		{
-			get { return pathFormat; }
-			set
-			{
-				pathFormat = value;
-				OnPropertyChanged(nameof(PathFormat));
-			}
-		}
-
-		public ICommand AddNameModuleCommand { get; private set; }
-
-		public ConfigurationViewModel(IQueryBus queryBus, ILogger logger) : base(queryBus, logger)
-		{
-			PathFormat = string.Empty;
-
-			AddNameModuleCommand = new RelayCommand(AddNameModule);
-		}
-
-		private void AddNameModule(object parameter)
-		{
-			var nameModule = parameter.ToString();
-
-			PathFormat += nameModule;
-		}
-	}
-}
-{% endhighlight %}
     
 [![PictOgr.][image1]][image1-big]{:.post-left-image}
 Tak przygotowany kod pozwala obsłużyć dowolną ilość modułów nazwy jakie będą  zaimplementowane  w aplikacji.
@@ -130,62 +50,7 @@ Każdy dodany nowy moduł nazwy (Button), wykorzystuje komendę **AddNameModuleC
 Poniżej znajduje się proste testy sprawdzające działanie klasy **RelayCommand** w projekcie  **E2E**.
     
 Testowanie RelayCommand.
-{% highlight csharp linenos %}
-using PictOgr.MVVM.Base;
-using Shouldly;
-using Xunit;
 
-namespace PictOgr.E2E
-{
-	public class RelayCommandTest
-	{
-		private string executeParam;
-		private readonly RelayCommand relayCommand;
-		private bool canExecute;
-
-		public RelayCommandTest()
-		{
-			relayCommand = new RelayCommand(ExecuteDelegate, CanExecute);
-		}
-
-		private bool CanExecute(object parameter)
-		{
-			var testString = parameter.ToString();
-			
-			canExecute = !string.IsNullOrWhiteSpace(testString);
-
-			return canExecute;
-		}
-
-		private void ExecuteDelegate(object parameter)
-		{
-			executeParam = parameter.ToString();
-		}
-
-		[Fact]
-		public void execute_relaycommand_should_set_param_and_can_execute()
-		{
-			var testString = "ok";
-
-			relayCommand.CanExecute(testString);
-			relayCommand.Execute(testString);
-
-			executeParam.ShouldBe(testString);
-			canExecute.ShouldBeTrue();
-		}
-
-		[Fact]
-		public void execute_relaycommand_should_not_set_param_and_can_execute()
-		{
-			var testString = string.Empty;
-
-			relayCommand.CanExecute(testString);
-
-			canExecute.ShouldBeFalse();
-		}
-	}
-}
-{% endhighlight %}
 
 [![PictOgr.][image2]][image2-big]{:.post-right-image}
 
