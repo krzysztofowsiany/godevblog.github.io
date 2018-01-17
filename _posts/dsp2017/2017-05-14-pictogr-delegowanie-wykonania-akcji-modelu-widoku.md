@@ -1,12 +1,11 @@
 ---
-id: 1079
-title: 'PictOgr - delegowanie wykonania akcji do modelu widoku.'
-date: 2017-05-14T23:03:49+00:00
+title: PictOgr - delegowanie wykonania akcji do modelu widoku.
+date: 2017-05-14
 author: Krzysztof Owsiany
 layout: post
-published: false
-permalink: /2017/05/14/pictogr-delegowanie-wykonania-akcji-modelu-widoku/
-image: /assets/images/2017/05/IMG_9837-2.jpg
+published: true
+permalink: /pictogr-delegowanie-wykonania-akcji-modelu-widoku
+image: /assets/images/2017/05/pictogr-delegowanie-wykonania-akcji-modelu-widoku/post.jpg
 categories:
   - Daj Się Poznać 2017
   - PictOgr
@@ -16,36 +15,26 @@ tags:
   - PictOgr
   - RelayCommand
   - WPF
+short: Nie zawsze dobrym rozwiązaniem jest budowanie komendy dla każdej operacji wykonywanej na widoku, wręcz może okazać się uciążliwe przekazanie danych z formularza do  komendy. W takiej sytuacji z pomocą przychodzą delegaty.
 ---
-<div id="dslc-theme-content">
-  <div id="dslc-theme-content-inner">
-
-      <a href="http://godev.gemustudio.com/assets/images/2017/05/IMG_0061.jpg"><img class="alignright wp-image-1098 size-medium" src="http://godev.gemustudio.com/assets/images/2017/05/IMG_0061-300x200.jpg" alt="PictOgr - delegowanie wykonania akcji do modelu widoku" width="300" height="200" srcset="http://godev.gemustudio.com/assets/images/2017/05/IMG_0061-300x200.jpg 300w, http://godev.gemustudio.com/assets/images/2017/05/IMG_0061-768x512.jpg 768w, http://godev.gemustudio.com/assets/images/2017/05/IMG_0061-1024x683.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px" /></a>Nie zawsze dobrym rozwiązaniem jest budowanie komendy dla każdej operacji
-    </p>
+[![PictOgr - delegowanie wykonania akcji do modelu widoku.][post]][post-big]{:.post-right-image}
+Nie zawsze dobrym rozwiązaniem jest budowanie komendy dla każdej operacji wykonywanej na widoku, wręcz może okazać się uciążliwe przekazanie danych z formularza do  komendy. W takiej sytuacji z pomocą przychodzą delegaty.
+Implementacja interfejsu **ICommand** niesie ze sobą potrzebę deklaracji dwóch metod **Execute**, **CanExecute** oraz zdarzenie **CanExecuteChanged**.
+Jako że w  programowaniu nie istnieje jedno rozwiązanie problemu i w tym  przypadku można delegować wykonanie metod **Execute** oraz **CanExecute** do modelu widoku.
     
-
-      wykonywanej na widoku, wręcz może okazać się uciążliwe przekazanie danych z formularza do  komendy. W takiej sytuacji z pomocą przychodzą delegaty.
-    </p>
-    
-
-      Implementacja interfejsu **ICommand** niesie ze sobą potrzebę deklaracji dwóch metod **Execute**, **CanExecute **oraz zdarzenie **CanExecuteChanged**.
-    </p>
-    
-
-      Jako że w  programowaniu nie istnieje jedno rozwiązanie problemu i w tym  przypadku można delegować wykonanie metod **Execute** oraz **CanExecute** do modelu widoku.
-    </p>
-    
-    <pre class="lang:c# decode:true" title="Komenda RelayCommand z delegacją logiki działania na zewnątrz obiektu.">using System;
+Komenda RelayCommand z delegacją logiki działania na zewnątrz obiektu.
+{% highlight csharp linenos %}
+using System;
 using System.Windows.Input;
 
 namespace PictOgr.MVVM.Base
 {
-	public class RelayCommand&lt;TParam&gt; : ICommand where TParam : class
+	public class RelayCommand<TParam> : ICommand where TParam : class
 	{
-		private readonly Action&lt;TParam&gt; execute;
-		private readonly Func&lt;TParam, bool&gt; canExecute;
+		private readonly Action<TParam> execute;
+		private readonly Func<TParam, bool> canExecute;
 
-		public RelayCommand(Action&lt;TParam&gt; execute, Func&lt;TParam, bool&gt; canExecute = null)
+		public RelayCommand(Action<TParam> execute, Func<TParam, bool> canExecute = null)
 		{
 			this.execute = execute;
 			this.canExecute = canExecute;
@@ -68,37 +57,27 @@ namespace PictOgr.MVVM.Base
 		}
 	}
 
-	public class RelayCommand : RelayCommand&lt;object&gt;
+	public class RelayCommand : RelayCommand<object>
 	{
-		public RelayCommand(Action&lt;object&gt; execute, Func&lt;object, bool&gt; canExecute = null)
+		public RelayCommand(Action<object> execute, Func<object, bool> canExecute = null)
 			: base(execute, canExecute)
 		{
 		}
 	}
 }
-</pre>
+{% endhighlight %}
     
+Podczas tworzenia instancji na bazie klasy **RelayCommand  **przekazujemy do niej dwa delegaty: **execute**, **canExecute**.
 
-      Podczas tworzenia instancji na bazie klasy **RelayCommand  **przekazujemy do niej dwa delegaty: **execute**, **canExecute**.
-    </p>
-    
+Wykonanie metody **CanExecute** nie zawsze jest istotne dlatego też w celu uproszczenia wykluczenia delegowania dla  tej metody powstała  klasa **RelayCommand** rozszerzająca klasę bazową  o tej samej nazwie i już określonym typie generycznym (object). Dzięki temu możemy przy tworzeniu nowej komendy wykorzystać prostą składnię: 
+**new RelayCommand(executeDelegate);**{:.color_1}
 
-      Wykonanie metody **CanExecute** nie zawsze jest istotne dlatego też w celu uproszczenia wykluczenia delegowania dla  tej metody powstała  klasa **RelayCommand** rozszerzająca klasę bazową  o tej samej nazwie i już określonym typie generycznym (object). Dzięki temu możemy przy tworzeniu nowej komendy wykorzystać prostą składnię: <span style="color: #3355ff;">**new RelayCommand(executeDelegate);**</span>
-    </p>
+## Przykład wykorzystania RelayCommand
+Przy budowaniu widoku konfiguracji dla PictOgra, wykorzystany został mechanizm RelayCommand do ustawiania wzorca ścieżki z dostępnych komponentów nazw.
     
-    <p>
-      &nbsp;
-    </p>
-    
-    <h1 style="background: #ffff9c; padding: 5pt; text-align: left;">
-      Przykład wykorzystania RelayCommand
-    </h1>
-    
-
-      Przy budowaniu widoku konfiguracji dla PictOgra, wykorzystany został mechanizm RelayCommand do ustawiania wzorca ścieżki z dostępnych komponentów nazw.
-    </p>
-    
-    <pre class="lang:c# decode:true" title="Przykład wykorzystania RelayCommand.">using System.Windows.Input;
+Przykład wykorzystania RelayCommand.
+{% highlight csharp linenos %}
+using System.Windows.Input;
 using Autofac.Extras.NLog;
 using CQRS.Bus.Query;
 using PictOgr.MVVM.Base;
@@ -136,41 +115,23 @@ namespace PictOgr.MVVM.Configuration.ViewModels
 		}
 	}
 }
-</pre>
+{% endhighlight %}
     
+[![PictOgr.][image1]][image1-big]{:.post-left-image}
+Tak przygotowany kod pozwala obsłużyć dowolną ilość modułów nazwy jakie będą  zaimplementowane  w aplikacji.
 
-      <a href="http://godev.gemustudio.com/assets/images/2017/05/IMG_0712.jpg"><img class="alignleft wp-image-1102 size-medium" src="http://godev.gemustudio.com/assets/images/2017/05/IMG_0712-300x200.jpg" alt="PictOgr" width="300" height="200" srcset="http://godev.gemustudio.com/assets/images/2017/05/IMG_0712-300x200.jpg 300w, http://godev.gemustudio.com/assets/images/2017/05/IMG_0712-768x512.jpg 768w, http://godev.gemustudio.com/assets/images/2017/05/IMG_0712-1024x683.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px" /></a>
-    </p>
-    
+**RelayCommand** pozwolił na delegacje  tego  mechanizmu do modelu widoku i operowaniu bezpośrednio z wykorzystaniem dostępnych właściwości.
 
-      Tak przygotowany kod pozwala obsłużyć dowolną ilość modułów nazwy jakie będą  zaimplementowane  w aplikacji.
-    </p>
-    
+Właściwość **PathFormat**, wyświetla bieżący wzorzec nazwy w widoku konfiguracji.
 
-      **RelayCommand  **pozwolił na delegacje  tego  mechanizmu do modelu widoku i operowaniu bezpośrednio z wykorzystaniem dostępnych właściwości.
-    </p>
-    
+Każdy dodany nowy moduł nazwy (Button), wykorzystuje komendę **AddNameModuleCommand** z parametrem przechowującym identyfikator modułu nazwy.
 
-      Właściwość **PathFormat**, wyświetla bieżący wzorzec nazwy w widoku konfiguracji.
-    </p>
+## Testowanie RelayCommand
+Poniżej znajduje się proste testy sprawdzające działanie klasy **RelayCommand** w projekcie  **E2E**.
     
-
-      Każdy dodany nowy moduł nazwy (Button), wykorzystuje komendę **AddNameModuleCommand** z parametrem przechowującym identyfikator modułu nazwy.
-    </p>
-    
-    <p>
-      &nbsp;
-    </p>
-    
-    <h1 style="background: #ffff9c; padding: 5pt; text-align: left;">
-      Testowanie RelayCommand
-    </h1>
-    
-    <p>
-      Poniżej znajduje się proste testy sprawdzające działanie klasy **RelayCommand** w projekcie  **E2E**.
-    </p>
-    
-    <pre class="lang:c# decode:true" title="Testowanie RelayCommand.">using PictOgr.MVVM.Base;
+Testowanie RelayCommand.
+{% highlight csharp linenos %}
+using PictOgr.MVVM.Base;
 using Shouldly;
 using Xunit;
 
@@ -223,30 +184,24 @@ namespace PictOgr.E2E
 			canExecute.ShouldBeFalse();
 		}
 	}
-}</pre>
+}
+{% endhighlight %}
     
-    <h3 style="text-align: center;">
-      <a href="http://godev.gemustudio.com/assets/images/2017/05/IMG_0022.jpg"><img class="aligncenter size-medium wp-image-1099" src="http://godev.gemustudio.com/assets/images/2017/05/IMG_0022-300x200.jpg" alt="" width="300" height="200" srcset="http://godev.gemustudio.com/assets/images/2017/05/IMG_0022-300x200.jpg 300w, http://godev.gemustudio.com/assets/images/2017/05/IMG_0022-768x512.jpg 768w, http://godev.gemustudio.com/assets/images/2017/05/IMG_0022-1024x683.jpg 1024w" sizes="(max-width: 300px) 100vw, 300px" /></a>
-    </h3>
-    
-    <p>
-      &nbsp;
-    </p>
-    
-    <h1 style="background: #ffff9c; padding: 5pt; text-align: left;">
-      Zakończenie
-    </h1>
-    
+## Zakończenie
+[![PictOgr.][image2]][image2-big]{:.post-right-image}
+Mechanizm **RelayCommand** w większości przypadków niweluje potrzebę tworzenia innych klas komend, skraca to kodowanie i powoduje powstawanie mniej błędów.
 
-      Mechanizm **RelayCommand** w większości przypadków niweluje potrzebę tworzenia innych klas komend, skraca to kodowanie i powoduje powstawanie mniej błędów.
-    </p>
-    
-    <p>
-      &nbsp;
-    </p>
-    
-    <h3 style="text-align: center;">
-      **Dziękuję za wytrwałość i zachęcam do komentowania.**
-    </h3>
+
+
+**Dziękuję za wytrwałość i zachęcam do komentowania**.
     
 {% include_relative dsp.md %}
+
+[post]: /assets/images/2017/05/pictogr-delegowanie-wykonania-akcji-modelu-widoku/post.jpg
+[post-big]: /assets/images/2017/05/pictogr-delegowanie-wykonania-akcji-modelu-widoku/post-big.jpg
+
+[image1]: /assets/images/2017/05/pictogr-delegowanie-wykonania-akcji-modelu-widoku/image1.jpg
+[image1-big]: /assets/images/2017/05/pictogr-delegowanie-wykonania-akcji-modelu-widoku/image1-big.jpg
+
+[image2]: /assets/images/2017/05/pictogr-delegowanie-wykonania-akcji-modelu-widoku/image2.jpg
+[image2-big]: /assets/images/2017/05/pictogr-delegowanie-wykonania-akcji-modelu-widoku/image2-big.jpg

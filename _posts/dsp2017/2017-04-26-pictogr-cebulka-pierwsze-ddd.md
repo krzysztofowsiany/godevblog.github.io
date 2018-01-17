@@ -1,12 +1,11 @@
 ---
-id: 893
-title: 'PictOgr - cebulka + moje pierwsze DDD.'
-date: 2017-04-26T10:06:06+00:00
+title: PictOgr - cebulka + moje pierwsze DDD.
+date: 2017-04-26
 author: Krzysztof Owsiany
 layout: post
-published: false
-permalink: /2017/04/26/pictogr-cebulka-pierwsze-ddd/
-image: /assets/images/2017/04/480-Zwiebel-zwiebel-Fotolia-28405313-c-vadim-yerofeyev.jpg
+published: true
+permalink: /pictogr-cebulka-pierwsze-ddd
+image: /assets/images/2017/04/pictogr-cebulka-pierwsze-ddd/post.png
 categories:
   - Daj Się Poznać 2017
   - PictOgr
@@ -17,86 +16,37 @@ tags:
   - DSP2017
   - Onion
   - PictOgr
+short: Udało się ugotować cebulkę, projekt wygląda znacznie lepiej aniżeli wcześniej. I dodatkowo ma większe możliwości. Stworzyłem też moje pierwsze DDD (Domain-Driven Design), ostatnio zachorowałem...
 ---
-<div id="dslc-theme-content">
-  <div id="dslc-theme-content-inner">
+[![Clean Architecture][post]][post-big]{:.post-right-image}
+Udało się ugotować cebulkę, projekt wygląda znacznie lepiej aniżeli wcześniej. I dodatkowo ma większe możliwości.
+Stworzyłem też moje pierwsze **DDD (Domain-Driven Design)**, ostatnio zachorowałem w tym kierunku (tak jak CQRS i Onion), i pragnę zgłębiac temat&#8230;
 
-      Udało się<a href="http://godev.gemustudio.com/assets/images/2017/04/onion.png"><img class="alignright wp-image-905 size-full" src="http://godev.gemustudio.com/assets/images/2017/04/onion.png" alt="Clean Architecture" width="194" height="206" /></a> ugotować cebulkę, projekt wygląda znacznie lepiej aniżeli wcześniej. I dodatkowo ma większe możliwości.
-    </p>
-    
+Zmiana architektury na tak wczesnym etapie projektu nie była zbyt bolesna. Tym bardziej, iż CQRS został wyodrębniony wcześniej.
 
-      Stworzyłem też moje pierwsze **DDD (Domain-Driven Design)**, ostatnio zachorowałem w tym kierunku (tak jak CQRS i Onion), i pragnę zgłębiac temat&#8230;
-    </p>
-    
+**Jest to moje pierwsze praktyczne zetknięcie z Clean Architecture (lamer).**
 
-      Zmiana architektury na tak wczesnym etapie projektu nie była zbyt bolesna. Tym bardziej, iż CQRS został wyodrębniony wcześniej.
-    </p>
-    
+**PictOgr** obecnie składa się z 7 projektów tak jak to widać na pierwszym zrzucie.
 
-      **Jest to moje pierwsze praktyczne zetknięcie z Clean Architecture (lamer).**
-    </p>
-    
-    <p>
-      **PictOgr** obecnie składa się z 7 projektów tak jak to widać na pierwszym zrzucie.
-    </p>
-    
-    <p>
-      &nbsp;
-    </p>
-    
-    <p>
-      &nbsp;
-    </p>
-    
-    <h1 style="background: #ffff9c; padding: 5pt; text-align: left;">
-      Zmiany
-    </h1>
-    
+## Zmiany
+![Onion Architecture][pictogr-infrastructure]{:.post-left-image}    
+     
+Wydzieliłem warstwę domeny w projekcie Core.    
 
-      <a href="http://godev.gemustudio.com/assets/images/2017/04/pictogr_infrastructure.png"><img class="alignleft wp-image-906 size-full" src="http://godev.gemustudio.com/assets/images/2017/04/pictogr_infrastructure.png" alt="Onion Architecture" width="174" height="254" /></a>Wydzieliłem warstwę domeny w projekcie Core.
-    </p>
-    
+Infrastructure zawiera wykorzystane usług, **CQRS**, implementacje repozytoriuów, **Autofac**, **DTO**, **AutoMapper**, i inne potrzebne elementy, bardziej szczegółowy wykaz na drugim zrzucie.
 
-      Infrastructure zawiera wykorzystane usług, **CQRS**, implementacje repozytoriuów, **Autofac**, **DTO**, **AutoMapper**, i inne potrzebne elementy, bardziej szczegółowy wykaz na drugim zrzucie.
-    </p>
-    
+GUI aplikacji znajdować się będzie w projekcie **MVVM**, czyli XAMLe, **ViewModele** oraz moduły dla **Autofaca**.
 
-      GUI aplikacji znajdować się będzie w projekcie **MVVM**, czyli XAMLe, **ViewModele** oraz moduły dla **Autofaca**.
-    </p>
-    
+Dodałem też projekt, w którym znajdą się testy integracyjne o nazwie E2E.
 
-      Dodałem też projekt, w którym znajdą się testy integracyjne o nazwie E2E.
-    </p>
-    
-    <p>
-      &nbsp;
-    </p>
-    
-    <p>
-      &nbsp;
-    </p>
-    
-    <p>
-      &nbsp;
-    </p>
-    
-    <p style="text-align: center;">
-      **Zmiana architektury niesie ze sobą kilka zmian dotyczących mechanizmów działania aplikacji!**
-    </p>
-    
-    <p>
-      &nbsp;
-    </p>
-    
-    <h3 style="background: #ffff9c; padding: 5pt; text-align: left;">
-      Użycie eventa do zamykania okien
-    </h3>
-    
+**Zmiana architektury niesie ze sobą kilka zmian dotyczących mechanizmów działania aplikacji!**
 
-      Na pierwszy ogień, klasa implementująca (**IEvent**) zdarzenie zamykania aplikacji.
-    </p>
-    
-    <pre class="lang:c# decode:true" title="Zdarzenie zamykania aplikacji.">using CQRS.Event;
+## Użycie eventa do zamykania okien
+Na pierwszy ogień, klasa implementująca (**IEvent**) zdarzenie zamykania aplikacji.
+
+Zdarzenie zamykania aplikacji.
+{% highlight csharp linenos %}
+using CQRS.Event;
 
 namespace PictOgr.Infrastructure.Events
 {
@@ -107,21 +57,16 @@ namespace PictOgr.Infrastructure.Events
 	        
 	    }
 	}
-}</pre>
-    
-    <p>
-      &nbsp;
-    </p>
-    
+}
+{% endhighlight %}
 
-      Powyższa klasa jest wykorzystywana przez powiązanego Handlera o nazwie **ExitApplicationEventHandler**.
-    </p>
-    
+Powyższa klasa jest wykorzystywana przez powiązanego Handlera o nazwie **ExitApplicationEventHandler**.
 
-      Jej celem  jest wywołanie przekazanego **delegata** do zamykania apikacji w metodzie **Handle**. To spowoduje zamknięcie okienka.
-    </p>
+Jej celem  jest wywołanie przekazanego **delegata** do zamykania apikacji w metodzie **Handle**. To spowoduje zamknięcie okienka.
     
-    <pre class="lang:c# decode:true" title="Handler zdarzenia zamykania aplikacji.">using System;
+Handler zdarzenia zamykania aplikacji.
+{% highlight csharp linenos %}
+using System;
 using CQRS.Event;
 
 namespace PictOgr.Infrastructure.Events
@@ -141,77 +86,54 @@ namespace PictOgr.Infrastructure.Events
         }
     }
 }
-</pre>
-    
-    <p>
-      &nbsp;
-    </p>
-    
+{% endhighlight %}
 
-      Rejestrowanie handlera i przekazanie delegato do zamknięcia okienka.
-    </p>
+Rejestrowanie handlera i przekazanie delegato do zamknięcia okienka.
     
-    <pre class="lang:c# decode:true" title="Rejestrowanie handlera do zdarzenia zamykania aplikacji.">eventBus.Register(new ExitApplicationEventHandler(() =&gt;
+Rejestrowanie handlera do zdarzenia zamykania aplikacji.
+{% highlight csharp linenos %}
+eventBus.Register(new ExitApplicationEventHandler(() =>
 {
 	Close();
-}));</pre>
+}));
+{% endhighlight %}
     
-    <p>
-      &nbsp;
-    </p>
-    
+Pozostaje jedynie w odpowiedniej komendzie **ExitApplicationHandler** wykonać publikacje zdarzenia **ExitApplicationEvent **do szyny zdarzeń.
 
-      Pozostaje jedynie w odpowiedniej komendzie **ExitApplicationHandler** wykonać publikacje zdarzenia **ExitApplicationEvent **do szyny zdarzeń.
-    </p>
+Efektem jest zamknięcie wszystkich okienek w których zarejestrowany jest handler **ExitApplicationEventHandler** (kod wyżej).
     
-
-      Efektem jest zamknięcie wszystkich okienek w których zarejestrowany jest handler **ExitApplicationEventHandler** (kod wyżej).
-    </p>
-    
-    <pre class="lang:c# decode:true " title="Publikowanie zdarzenia na szynę w handlerze comendy zamykania aplikacji.">public void Handle(ExitApplication command)
+Publikowanie zdarzenia na szynę w handlerze comendy zamykania aplikacji.
+{% highlight csharp linenos %}
+public void Handle(ExitApplication command)
 {
     _logger.Info("Exit application.");
     _eventBus.Publish(new ExitApplicationEvent(command.ExitCode));
     System.Environment.Exit(command.ExitCode);
-}</pre>
-    
-    <p>
-      &nbsp;
-    </p>
-    
-    <h3 style="background: #ffff9c; padding: 5pt; text-align: left;">
-      Wykorzystanie usług w zapytaniach CQRSa
-    </h3>
-    
+}
+{% endhighlight %}
 
-      Do przekazywania danych pomiędzy aplikacją, a modelem wykorzystana będzie odrębna klasa określana jako **DTO (Data Transfer Object)**.
-    </p>
+## Wykorzystanie usług w zapytaniach CQRSa
+Do przekazywania danych pomiędzy aplikacją, a modelem wykorzystana będzie odrębna klasa określana jako **DTO (Data Transfer Object)**.
+Dzięki takiemu odseparowaniu aplikacja nic nie wie o modelu domeny jaki zaimplementujemy w aplikacji.
     
-
-      Dzięki takiemu odseparowaniu aplikacja nic nie wie o modelu domeny jaki zaimplementujemy w aplikacji.
-    </p>
-    
-    <pre class="lang:c# decode:true" title="Klasa informacji o aplikacji, DTO - Data Transfer Object, do przekazania informacji od modelu domenowego.">namespace PictOgr.Infrastructure.DTO
+Klasa informacji o aplikacji, DTO - Data Transfer Object, do przekazania informacji od modelu domenowego.
+{% highlight csharp linenos %}
+namespace PictOgr.Infrastructure.DTO
 {
 	public class ApplicationInformationDto
 	{
 		public string Version { get; set; }
 	}
-}</pre>
+}
+{% endhighlight %}
     
-    <p>
-      Dane pomiędzy modelem domeny a klasą DTO muszą być przekazane, i można to zrobić pod górkę poprostu przepisaując właściwości z wykorzystaniem klasy pośredniczącej (np. jakiegoś Adaptera), lub zywkorzytaniem biblioteczki **<a href="http://automapper.org/">AutoMapper</a>**.
-    </p>
+Dane pomiędzy modelem domeny a klasą DTO muszą być przekazane, i można to zrobić pod górkę poprostu przepisaując właściwości z wykorzystaniem klasy pośredniczącej (np. jakiegoś Adaptera), lub zywkorzytaniem biblioteczki **[AutoMapper]**.
+
+Poniżej znajduje się konfiguracja AutoMappera dla klas **ApplicationInformation** <=> **ApplicationInformationDto**.
     
-    <p>
-      &nbsp;
-    </p>
-    
-    <p>
-      Poniżej znajduje się konfiguracja AutoMappera dla klas **ApplicationInformation** <=> **ApplicationInformationDto**.
-    </p>
-    
-    <pre class="lang:c# decode:true " title="Mapowanie obiektu domeny na obiekt DTO.">using AutoMapper;
+Mapowanie obiektu domeny na obiekt DTO.
+{% highlight csharp linenos %}    
+using AutoMapper;
 using PictOgr.Core.Domain;
 using PictOgr.Infrastructure.DTO;
 
@@ -221,35 +143,23 @@ namespace PictOgr.Infrastructure.Mappers
 	{
 		public static IMapper Initialize() =&gt; new MapperConfiguration(config =&gt;
 		{
-			config.CreateMap&lt;ApplicationInformation, ApplicationInformationDto&gt;();
-			config.CreateMap&lt;ApplicationInformationDto, ApplicationInformation&gt;();
+			config.CreateMap<ApplicationInformation, ApplicationInformationDto>();
+			config.CreateMap<ApplicationInformationDto, ApplicationInformation>();
 
 		}).CreateMapper();
 	}
 }
-</pre>
-    
+{% endhighlight %}
 
-      Konfiguracje ustawiamy dwu kierunkowo oznacza to iż będzie można mapować dane w obu kierunkach:
-    </p>
-    
+Konfiguracje ustawiamy dwu kierunkowo oznacza to iż będzie można mapować dane w obu kierunkach:
+* **ApplicationInformation** = **ApplicationInformationDto**{:.color_1},
+* **ApplicationInformationDto**{:.color_1} = **ApplicationInformation**.
 
-      **ApplicationInformation** = **ApplicationInformationDto**
-    </p>
-    
+Do pobierania danych z domeny użyjemy tym razem usługi, do jej implementacji wykorzytsamy interfejsik **IApplicaitonService**, zawierający definicję metody pobierania informacji o aplikacji.
 
-      **ApplicationInformationDto** = **ApplicationInformation**
-    </p>
-    
-    <p>
-      &nbsp;
-    </p>
-    
-
-      Do pobierania danych z domeny użyjemy tym razem usługi, do jej implementacji wykorzytsamy interfejsik **IApplicaitonService**, zawierający definicję metody pobierania informacji o aplikacji.
-    </p>
-    
-    <pre class="lang:c# decode:true" title="Interfejsik dla usług aplikacji.">using PictOgr.Infrastructure.DTO;
+Interfejsik dla usług aplikacji.
+{% highlight csharp linenos %}
+using PictOgr.Infrastructure.DTO;
 
 namespace PictOgr.Infrastructure.Services.ApplicationService
 {
@@ -257,17 +167,14 @@ namespace PictOgr.Infrastructure.Services.ApplicationService
 	{
 		ApplicationInformationDto GetApplicationInformation();
 	}
-}</pre>
+}
+{% endhighlight %}
     
-    <p>
-      &nbsp;
-    </p>
+Interfejs **IApplicaitonService**, jest zaimplementowany przez poniższą klasę **ApplicationService**.
     
-
-      Interfejs **IApplicaitonService**, jest zaimplementowany przez poniższą klasę **ApplicationService**.
-    </p>
-    
-    <pre class="lang:c# decode:true" title="Usługa aplikacji implementująca swój interfejsik.">using AutoMapper;
+Usługa aplikacji implementująca swój interfejsik.
+{% highlight csharp linenos %}
+using AutoMapper;
 using PictOgr.Core.Domain;
 using PictOgr.Core.Repositories;
 using PictOgr.Infrastructure.DTO;
@@ -295,37 +202,22 @@ namespace PictOgr.Infrastructure.Services.ApplicationService
 		}
 	}
 }
-</pre>
-    
+{% endhighlight %}
 
-      W klasie usługi po pobraniu danych z repozytorium odbywa się mapowanie:
-    </p>
+W klasie usługi po pobraniu danych z repozytorium odbywa się mapowanie:
+{% highlight csharp linenos %}
+return _mapper.Map<ApplicationInformation, ApplicationInformationDto>(applicationInformation);
+{% endhighlight %}
+Efektem jest przeniesienie danych z obiektu domenowego do obiektu DTO.
     
+## Użycie modelu domeny do pobrania informacji o aplikacji
+Pierwszy obiekt w moim modelu domeny. To klasa z informacjami o aplikacji.
 
-      **<em>return _mapper.Map<ApplicationInformation, ApplicationInformationDto>(applicationInformation);</em>**
-    </p>
+Bardzo banalna, różni się w zasadzie od klasy z nią powiązanej (**DTO**), wykorzystaniem konstruktora i możliwością ustawienia właściwości **Version** jedynie właśnie z tego konstruktora (lub metod klasy).
     
-
-      Efektem jest przeniesienie danych z obiektu domenowego do obiektu DTO.
-    </p>
-    
-    <p>
-      &nbsp;
-    </p>
-    
-    <h3 style="background: #ffff9c; padding: 5pt; text-align: left;">
-      Użycie modelu domeny do pobrania informacji o aplikacji
-    </h3>
-    
-
-      Pierwszy obiekt w moim modelu domeny. To klasa z informacjami o aplikacji.
-    </p>
-    
-
-      Bardzo banalna, różni się w zasadzie od klasy z nią powiązanej (**DTO**), wykorzystaniem konstruktora i możliwością ustawienia właściwości **Version** jedynie właśnie z tego konstruktora (lub metod klasy).
-    </p>
-    
-    <pre class="lang:c# decode:true" title="Obiekt domeny zawierający informacje o aplikacji.">namespace PictOgr.Core.Domain
+Obiekt domeny zawierający informacje o aplikacji.
+{% highlight csharp linenos %}
+namespace PictOgr.Core.Domain
 {
 	public class ApplicationInformation
 	{
@@ -336,17 +228,14 @@ namespace PictOgr.Infrastructure.Services.ApplicationService
 
 		public string Version { get; private set; }
 	}
-}</pre>
+}
+{% endhighlight %}
     
-    <p>
-      &nbsp;
-    </p>
+Jest tutaj też interfejsik z **repozytorium** pobierania informacji o aplikacji, owe repozytorium będzie implementowane dopiero w warstiwe wyżej (**Infrastrukture**). Repozytorium jest ściśle związane z modelem **ApplicationInformation**.
     
-
-      Jest tutaj też interfejsik z **repozytorium** pobierania informacji o aplikacji, owe repozytorium będzie implementowane dopiero w warstiwe wyżej (**Infrastrukture**). Repozytorium jest ściśle związane z modelem **ApplicationInformation**.
-    </p>
-    
-    <pre class="lang:c# decode:true" title="Interfejsik repozytorium pobierania informacji o aplikacji.">using PictOgr.Core.Domain;
+Interfejsik repozytorium pobierania informacji o aplikacji.
+{% highlight csharp linenos %}
+using PictOgr.Core.Domain;
 
 namespace PictOgr.Core.Repositories
 {
@@ -354,17 +243,14 @@ namespace PictOgr.Core.Repositories
 	{
 		ApplicationInformation GetApplicationInformation();
 	}
-}</pre>
+}
+{% endhighlight %}
     
-    <p>
-      &nbsp;
-    </p>
+Jedna metoda pobierania informacji jest implementowana w klasie repozytorium **ApplicationInformationRepository**, implementuje ona interfejs z modelu domeny **IApplicaitonInformationRepository**, i dostarcza informacji o aplikacji.
     
-
-      Jedna metoda pobierania informacji jest implementowana w klasie repozytorium **ApplicationInformationRepository**, implementuje ona interfejs z modelu domeny **IApplicaitonInformationRepository**, i dostarcza informacji o aplikacji.
-    </p>
-    
-    <pre class="lang:c# decode:true " title="Implementacja repozytorium pobierania danych o aplikacji (warstwa infrastruktury).">using System.Reflection;
+Implementacja repozytorium pobierania danych o aplikacji (warstwa infrastruktury).
+{% highlight csharp linenos %}
+using System.Reflection;
 using PictOgr.Core.Domain;
 using PictOgr.Core.Repositories;
 
@@ -378,34 +264,28 @@ namespace PictOgr.Infrastructure.Repositories
 			return new ApplicationInformation($"{version.Major}.{version.Minor}.{version.Build}");
 		}
 	}
-}</pre>
+}
+{% endhighlight %}
     
+Na chwilę obecną jest to tylko wersja plikacji, jednak z czasem może ulec rozbudowie o więcej ciekawych infomracji.
+**To tyle z dużych zmian w projekcie, myślę iż teraz pujdzie już znacznie lepiej (dla oka = GUI).**
 
-      Na chwilę obecną jest to tylko wersja plikacji, jednak z czasem może ulec rozbudowie o więcej ciekawych infomracji.
-    </p>
-    
-    <p style="text-align: center;">
-      **To tyle z dużych zmian w projekcie, myślę iż teraz pujdzie już znacznie lepiej (dla oka = GUI).**
-    </p>
-    
-    <h3 style="background: #ffff9c; padding: 5pt; text-align: left;">
-      Zakończenie
-    </h3>
-    
+## Zakończenie
+Tak wiem jest to prosty przykład, zapewne wogule nie powinno się robić w ten sposób. Jednak się uczę, i taki przykład dostarcza mi dużo doświadczenia.
 
-      Tak wiem jest to prosty przykład, zapewne wogule nie powinno się robić w ten sposób. Jednak się uczę, i taki przykład dostarcza mi dużo doświadczenia.
-    </p>
-    
+Dlatego też postanowiłem zrobić to w ten sposób, być może ktoś dzięki temu wpisowi zrozumie coś wiecej&#8230;
 
-      Dlatego też postanowiłem zrobić to w ten sposób, być może ktoś dzięki temu wpisowi zrozumie coś wiecej&#8230;
-    </p>
-    
-    <p>
-      &nbsp;
-    </p>
-    
-    <h3 style="text-align: center;">
-      **Dziękuję za wytrwałość i zachęcam do komentowania.**
-    </h3>
+## **Dziękuję za wytrwałość i zachęcam do komentowania.**
     
 {% include_relative dsp.md %}
+
+[post]: /assets/images/2017/04/pictogr-cebulka-pierwsze-ddd/post.png
+[post-big]: /assets/images/2017/04/pictogr-cebulka-pierwsze-ddd/post-big.png
+
+[onion]: /assets/images/2017/04/pictogr-cebulka-pierwsze-ddd/onion.png
+[onion-big]: /assets/images/2017/04/pictogr-cebulka-pierwsze-ddd/onion-big.png
+
+[pictogr-infrastructure]: /assets/images/2017/04/pictogr-cebulka-pierwsze-ddd/pictogr-infrastructure.png
+
+[AutoMapper]: http://automapper.org
+
