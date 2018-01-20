@@ -29,7 +29,11 @@ Szczególnie podobał mi się rozdział dotyczący Liderów, wymienione reguły 
 
 Książka jak dla mnie jest dobra i na pewno polecę ją każdemu zainteresowanemu programowaniem i nie tylko. Część rozdziałów można na pewno polecić ludziskom spoza IT:D.
 
-Uważam, że autor zrobił dobrą robotę, i taka publikacja była potrzebna. Wiele osób nie zdaje sobie sprawy z tego jak wygląda branża IT.
+Wiele osób zwłaszcza doświadczonych może się czuć rozczarowanych. Myślę, że to wszystko zależy od indywidualnych doświadczeń. I nawet doświadczony deweloper, zapewne znajdzie coś interesującego. W końcu każdy podąża swoją indywidualną ścieżką.
+
+**Uważam, że autor zrobił dobrą robotę, i taka publikacja była potrzebna. Wiele osób nie zdaje sobie sprawy z tego jak wygląda branża IT**.
+
+PS: Zapewne będę zbluzgany przez kogoś, gdzieś za to, że napisałem co myślę. Ale to mój punkt widzenia!:p
 
 [Zawód: Programista]: https://zawodprogramista.pl/
 [Autora]: https://devstyle.pl/
