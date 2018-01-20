@@ -5,6 +5,8 @@ groups:
     url: /wspolpraca
   - title: Autor
     urls:
+      - page: Cele
+        url: /cele    
       - page: O mnie
         url: /o-mnie
       - page: Wystąpienia
