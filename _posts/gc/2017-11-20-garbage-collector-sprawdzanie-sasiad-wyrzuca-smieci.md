@@ -1,11 +1,11 @@
 ---
-title: 'Garbage Collector - Sprawdzanie kiedy sąsiad wyrzuca śmieci.'
+title: Garbage Collector - Sprawdzanie kiedy sąsiad wyrzuca śmieci.
 date: 2017-11-20T20:03:06+00:00
 author: Krzysztof Owsiany
 layout: post
 published: true
 comments: true
-permalink: garbage-collector-sprawdzanie-sasiad-wyrzuca-smieci
+permalink: /garbage-collector-sprawdzanie-sasiad-wyrzuca-smieci
 image: /assets/images/2017/11/garbage-collector-sprawdzanie-sasiad-wyrzuca-smieci/post.jpg
 categories:  
   - 'C#'
@@ -19,9 +19,10 @@ tags:
   - GC
   - IDisposable
   - using
-
 short: Garbage Collector ma zaimplementowaną pewną funkcjonalność. Daje nam ona kontrolę nad procesem niszczenia obiektów. Jako że do zarządzania pamięcią wykorzystywany jest specjalny agent i nie musimy się martwić o niszczenie obiektów.
 ---
+{% include_relative preface.md %}
+
 [![Dispose][post]][post-big]{:.post-left-image}
 **Garbage Collector** ma zaimplementowaną pewną funkcjonalność. Daje nam ona kontrolę nad procesem niszczenia obiektów. Jako że do zarządzania pamięcią wykorzystywany jest specjalny agent i nie musimy się martwić o niszczenie obiektów. Tym samym nie wiemy, kiedy to nastąpi.
 
@@ -133,6 +134,10 @@ W takiej składni metoda **Dispose** z interfejsu **IDisposable** zostanie wywo�
 W przypadku braku implementacji interfejsu **IDisposable** przez klasę, będziemy mieli błąd kompilacji.
     
  **C.D.N.**
+
+{% include_relative end.md %}
+
+{% include_relative refs.md %}
 
 [post]: /assets/images/2017/11/garbage-collector-sprawdzanie-sasiad-wyrzuca-smieci/post.jpg
 [post-big]: /assets/images/2017/11/garbage-collector-sprawdzanie-sasiad-wyrzuca-smieci/post-big.jpg

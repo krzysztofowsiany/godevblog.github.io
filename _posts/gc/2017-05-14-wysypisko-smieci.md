@@ -1,11 +1,11 @@
 ---
-title: 'Garbage Collector - Wysypisko śmieci.'
+title: Garbage Collector - Wysypisko śmieci.
 date: 2017-05-14T22:58:28+00:00
 author: Krzysztof Owsiany
 layout: post
 published: true
 comments: true
-permalink: wysypisko-smieci
+permalink: /wysypisko-smieci
 image: /assets/images/2017/05/wysypisko-smieci/post.jpg
 categories:
   - Daj Się Poznać 2017
@@ -18,6 +18,8 @@ tags:
   - 'Mark&Sweep'
 short: Nasz wspaniały język C#, znosi z nas prawie pełną odpowiedzialność za sprzątanie po sobie. Można by rzec, iż mamy zatrudnioną sprzątaczkę i nawet nie wiemy, kiedy magicznie bałagan znika. Oczywiści mowa tutaj o Garbage Collector...
 ---
+{% include_relative preface.md %}
+
 [![Garbage Collector][post]][post-big]{:.post-left-image}
  
 Nasz wspaniały język C#, znosi z nas prawie pełną odpowiedzialność za sprzątanie po sobie.
@@ -62,6 +64,10 @@ Po przeczyszczeniu następuje ponowna próba alokacji jeżeli się nie powiedzie
 Generacja zerowa jest miejscem gdzie obiekty są najczęściej tworzone i niszczone, dlatego też jej wielkość **256 KB**, jest obszarem, który powinien z łatwością zmieścić się w pamięci  **L2 - cache procesora**.
 
 **C.D.N.**
+
+{% include_relative end.md %}
+
+{% include_relative refs.md %}
 
 {% include_relative dsp.md %}
 
