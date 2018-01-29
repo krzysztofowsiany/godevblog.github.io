@@ -1,0 +1,90 @@
+books:
+  - title: Domain-Driven Design. Zapanuj nad złożonym systemem informatycznym. Eric Evans.
+    image: /assets/images/books/domdri.jpg
+    url: http://ebookpoint.pl/view/90752/domdri.htm
+    category: Domain-Driven Design
+   
+  - title: DDD dla architektów oprogramowania. Vaughn Vernon.
+    image: /assets/images/books/dddaro.jpg
+    url: http://ebookpoint.pl/view/90752/dddaro.htm
+    category: Domain-Driven Design
+   
+  - title: GRYWALIZACJA. Jak zastosować mechanizmy gier w działaniach marketingowych. Paweł Tkaczyk.
+    image: /assets/images/books/grywal.jpg
+    url: http://ebookpoint.pl/view/90752/grywal.htm
+    category: Grywalizacja
+
+  - title: Grywalizacja. Mechanika gry na stronach WWW i w aplikacjach mobilnych. Gabe Zichermann, Christopher Cunningham.
+    image: /assets/images/books/grymeg.jpg
+    url: http://ebookpoint.pl/view/90752/grymeg.htm
+    category: Grywalizacja
+
+  - title: Ograć nawyki. Jak zastosować mechanizmy gier w procesie zmiany osobistej. Jadwiga Korzeniewska.
+    image: /assets/images/books/ograna.jpg
+    url: http://ebookpoint.pl/view/90752/ograna.htm
+    category: Grywalizacja
+
+  - title: Kontrola wersji z systemem Git. Narzędzia i techniki programistów. Jon Loeliger, Matthew McCullough.
+    image: /assets/images/books/koweg2.jpg
+    url: http://ebookpoint.pl/view/90752/koweg2.htm
+    category: System kontroli wersji
+
+  - title: Git. Rozproszony system kontroli wersji. Włodzimierz Gajda.
+    image: /assets/images/books/gitroz.jpg
+    url: http://ebookpoint.pl/view/90752/gitroz.htm
+    category: System kontroli wersji
+
+  - title: Getting Things Done, czyli sztuka bezstresowej efektywności. David Allen.
+    image: /assets/images/books/getti2.jpg
+    url: http://ebookpoint.pl/view/90752/getti2.htm
+    category: Efektywność
+
+  - title: Getting Things Programmed. Droga do efektywności. Michał Bartyzel.
+    image: /assets/images/books/droppp.jpg
+    url: http://ebookpoint.pl/view/90752/droppp.htm
+    category: Efektywność
+
+  - title: Nawyk samodyscypliny. Zaprogramuj wewnętrznego stróża. Neil Fiore.
+    image: /assets/images/books/samodv.jpg
+    url: http://ebookpoint.pl/view/90752/samodv.htm
+    category: Efektywność
+
+  - title: Filozofia Kaizen. Jak mały krok może zmienić Twoje życie. Robert Maurer.
+    image: /assets/images/books/filokv.jpg
+    url: http://ebookpoint.pl/view/90752/filokv.htm
+    category: Efektywność
+
+  - title: Czysty kod. Podręcznik dobrego programisty. Robert C. Martin.
+    image: /assets/images/books/czykov.jpg
+    url: http://ebookpoint.pl/view/90752/czykov.htm
+    category: Kunszt programisty
+
+  - title: Ciągłe dostarczanie oprogramowania. Automatyzacja kompilacji, testowania i wdrażania. Jez Humble, David Farley.
+    image: /assets/images/books/cidoop.jpg
+    url: http://ebookpoint.pl/view/90752/cidoop.htm
+    category: Kunszt programisty    
+
+  - title: Wzorce projektowe. Elementy oprogramowania obiektowego wielokrotnego użytku. Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides.
+    image: /assets/images/books/wzoelv.jpg
+    url: http://ebookpoint.pl/view/90752/wzoelv.htm
+    category: Kunszt programisty  
+
+  - title: TDD. Sztuka tworzenia dobrego kodu. Kent Beck.
+    image: /assets/images/books/tddszt.jpg
+    url: http://ebookpoint.pl/view/90752/tddszt.htm
+    category: Testowanie
+
+  - title: Testy jednostkowe. Świat niezawodnych aplikacji. Roy Osherove.
+    image: /assets/images/books/tesjed.jpg
+    url: http://ebookpoint.pl/view/90752/tesjed.htm
+    category: Testowanie
+
+  - title: JavaScript. Wzorce. Stoyan Stefanov
+    image: /assets/images/books/jascwz.jpg
+    url: http://ebookpoint.pl/view/90752/jascwz.htm
+    category: Java Script
+  
+  - title: Pamięć absolutna. Arnold Schwarzenegger.
+    image: /assets/images/books/arnold.jpg
+    url: http://lubimyczytac.pl/ksiazka/169173/pamiec-absolutna
+    category: Biografia          

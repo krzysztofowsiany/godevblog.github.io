@@ -1,0 +1,36 @@
+<div id="content-wrapper">
+    <div class="inner clearfix">
+            <h1>Biblioteczka</h1>
+
+            {% assign books = site.data.library.books | sort: 'category' %}            
+            {% assign last_category = '' %}      
+            {% for book in books %}
+                
+                {% if last_category != book.category %}
+
+                    {% if last_category != '' %}
+                        </div>
+                        <hr class="book_hr">
+                    {% endif %}
+
+                    <h2 class="book_category">{{ book.category }}</h2>    
+
+                    <div class="book_category">
+
+                    {% assign last_category = book.category %} 
+
+                {% endif %}
+                <div class="book_main">
+                    <a href="{{ book.url }}">
+                        <div class="book">
+                            <div class="book_image"><img src="{{ book.image }}" width="150" alt="{{ book.title }}"></div>  
+
+                            {{ book.title }}
+                        </div>
+                    </a>
+                </div>
+                
+            {% endfor %}
+
+    </div>
+</div>

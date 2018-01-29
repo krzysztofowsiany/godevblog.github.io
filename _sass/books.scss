@@ -1,0 +1,39 @@
+div.book_main{
+    text-align: center;
+    display: inline-flex;
+}
+
+div.book {
+    padding: 0 6px;
+    text-align: center;
+    width: 240px;
+    display: block;
+    font-size: 18px;
+}
+
+div.book_image {
+
+}
+
+h2.book_category {    
+    text-align: left;
+    display: block;
+    clear: both;
+    padding:15px;    
+}
+
+div.book_category {    
+    text-align: center;
+    margin: 0 auto;
+}
+
+hr.book_hr{
+    clear: both;
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 2px;
+}
