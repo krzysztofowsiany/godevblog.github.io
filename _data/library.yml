@@ -3,88 +3,182 @@ books:
     image: /assets/images/books/domdri.jpg
     url: http://ebookpoint.pl/view/90752/domdri.htm
     category: Domain-Driven Design
+    readed: 30
+    recommendation: true
    
   - title: DDD dla architektów oprogramowania. Vaughn Vernon.
     image: /assets/images/books/dddaro.jpg
     url: http://ebookpoint.pl/view/90752/dddaro.htm
     category: Domain-Driven Design
+    readed: 0
+    recommendation: false
    
   - title: GRYWALIZACJA. Jak zastosować mechanizmy gier w działaniach marketingowych. Paweł Tkaczyk.
     image: /assets/images/books/grywal.jpg
     url: http://ebookpoint.pl/view/90752/grywal.htm
     category: Grywalizacja
+    readed: 100
+    recommendation: true
 
   - title: Grywalizacja. Mechanika gry na stronach WWW i w aplikacjach mobilnych. Gabe Zichermann, Christopher Cunningham.
     image: /assets/images/books/grymeg.jpg
     url: http://ebookpoint.pl/view/90752/grymeg.htm
     category: Grywalizacja
+    readed: 100
+    recommendation: false
 
   - title: Ograć nawyki. Jak zastosować mechanizmy gier w procesie zmiany osobistej. Jadwiga Korzeniewska.
     image: /assets/images/books/ograna.jpg
     url: http://ebookpoint.pl/view/90752/ograna.htm
     category: Grywalizacja
+    readed: 0
+    recommendation: false
 
   - title: Kontrola wersji z systemem Git. Narzędzia i techniki programistów. Jon Loeliger, Matthew McCullough.
     image: /assets/images/books/koweg2.jpg
     url: http://ebookpoint.pl/view/90752/koweg2.htm
     category: System kontroli wersji
+    readed: 80
+    recommendation: false
 
   - title: Git. Rozproszony system kontroli wersji. Włodzimierz Gajda.
     image: /assets/images/books/gitroz.jpg
     url: http://ebookpoint.pl/view/90752/gitroz.htm
     category: System kontroli wersji
+    readed: 0
+    recommendation: false
 
   - title: Getting Things Done, czyli sztuka bezstresowej efektywności. David Allen.
     image: /assets/images/books/getti2.jpg
     url: http://ebookpoint.pl/view/90752/getti2.htm
     category: Efektywność
+    readed: 100
+    recommendation: true
 
   - title: Getting Things Programmed. Droga do efektywności. Michał Bartyzel.
     image: /assets/images/books/droppp.jpg
     url: http://ebookpoint.pl/view/90752/droppp.htm
     category: Efektywność
+    readed: 20
+    recommendation: false
 
   - title: Nawyk samodyscypliny. Zaprogramuj wewnętrznego stróża. Neil Fiore.
     image: /assets/images/books/samodv.jpg
     url: http://ebookpoint.pl/view/90752/samodv.htm
     category: Efektywność
+    readed: 100
+    recommendation: false
 
   - title: Filozofia Kaizen. Jak mały krok może zmienić Twoje życie. Robert Maurer.
     image: /assets/images/books/filokv.jpg
     url: http://ebookpoint.pl/view/90752/filokv.htm
     category: Efektywność
+    readed: 100
+    recommendation: true
 
   - title: Czysty kod. Podręcznik dobrego programisty. Robert C. Martin.
     image: /assets/images/books/czykov.jpg
     url: http://ebookpoint.pl/view/90752/czykov.htm
     category: Kunszt programisty
+    readed: 20
+    recommendation: false
 
   - title: Ciągłe dostarczanie oprogramowania. Automatyzacja kompilacji, testowania i wdrażania. Jez Humble, David Farley.
     image: /assets/images/books/cidoop.jpg
     url: http://ebookpoint.pl/view/90752/cidoop.htm
-    category: Kunszt programisty    
+    category: Kunszt programisty
+    readed: 20
+    recommendation: false
 
   - title: Wzorce projektowe. Elementy oprogramowania obiektowego wielokrotnego użytku. Erich Gamma, Richard Helm, Ralph Johnson, John Vlissides.
     image: /assets/images/books/wzoelv.jpg
     url: http://ebookpoint.pl/view/90752/wzoelv.htm
-    category: Kunszt programisty  
+    category: Kunszt programisty
+    readed: 100
+    recommendation: true
+
+  - title: 'Zawód: Programista. Maciej Aniserowicz.'
+    image: /assets/images/books/zawod-programista.jpg
+    url: https://zawodprogramista.pl/
+    category: Kunszt programisty
+    readed: 100
+    recommendation: true
 
   - title: TDD. Sztuka tworzenia dobrego kodu. Kent Beck.
     image: /assets/images/books/tddszt.jpg
     url: http://ebookpoint.pl/view/90752/tddszt.htm
     category: Testowanie
+    readed: 100
+    recommendation: true
 
   - title: Testy jednostkowe. Świat niezawodnych aplikacji. Roy Osherove.
     image: /assets/images/books/tesjed.jpg
     url: http://ebookpoint.pl/view/90752/tesjed.htm
     category: Testowanie
+    readed: 30
+    recommendation: false
 
   - title: JavaScript. Wzorce. Stoyan Stefanov
     image: /assets/images/books/jascwz.jpg
     url: http://ebookpoint.pl/view/90752/jascwz.htm
     category: Java Script
+    readed: 100
+    recommendation: true
   
   - title: Pamięć absolutna. Arnold Schwarzenegger.
     image: /assets/images/books/arnold.jpg
     url: http://lubimyczytac.pl/ksiazka/169173/pamiec-absolutna
-    category: Biografia          
+    category: Biografia     
+    readed: 100
+    recommendation: true
+
+  - title: Biegiem przez życie. Jerzy Skarżyński.
+    image: /assets/images/books/biegiem-przez-zycie.jpg
+    url: http://skarzynski.pl/produkt/biegiem-przez-zycie/
+    category: Rozwój osobisty
+    readed: 35
+    recommendation: true
+
+  - title: Myśl!... i bogać się. Napoleon Hill.
+    image: /assets/images/books/e_580a.jpg
+    url: http://ebookpoint.pl/view/90752/e_580a.htm
+    category: Rozwój osobisty     
+    readed: 100
+    recommendation: true
+
+  - title: 4-godzinny tydzień pracy. Timothy Ferriss.
+    image: /assets/images/books/4h-work.jpg
+    url: https://upolujebooka.pl/oferta,17750,4-godzinny_tydzien_pracy.html
+    category: Efektywność
+    readed: 0
+    recommendation: false
+
+  - title: Dochodząc do TAK. Negocjowanie bez poddawania się. Fisher Roger, Ury William, Patton Bruce.
+    image: /assets/images/books/a_03u1.jpg
+    url: http://ebookpoint.pl/view/90752/a_03u1.htm
+    category: Rozwój osobisty
+    readed: 35
+    recommendation: true
+
+  - title: Narratologia. Paweł Tkaczyk.
+    image: /assets/images/books/e_0hal.jpg
+    url: http://ebookpoint.pl/view/90752/e_0hal.htm
+    category: Wystąpienia publiczne
+    readed: 0
+    recommendation: false
+
+  - title: Mów i zwyciężaj. Brian Tracy.
+    image: /assets/images/books/e_596v.jpg
+    url: http://ebookpoint.pl/view/90752/e_596v.htm
+    category: Wystąpienia publiczne
+    readed: 15
+    recommendation: false
+    
+  - title: Mistrzowskie prezentacje. Slajdowy poradnik mówcy doskonałego. Wydanie 2. Agata Rzędowska, Jerzy Rzędowski.
+    image: /assets/images/books/mispr2.jpg
+    url: http://ebookpoint.pl/view/90752/mispr2.htm
+    category: Wystąpienia publiczne
+    readed: 25
+    recommendation: false
+
+
