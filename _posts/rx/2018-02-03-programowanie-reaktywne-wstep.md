@@ -19,7 +19,7 @@ tags:
   - Observable
   - Programowanie Reaktywne
   - Rx
-short: Od dawien dawna, tworzenie oprogramowania zwłaszcza związanego z graficznymi interfejsami użytkownika (na potrzeby uproszczenia będę odnosił się właśnie do problemów z GUI). Boryka się z problemem, zacinania, lagów, przechodzenia programów w stan nieokreślony aż do momentu zakończenia przetwarzania pewnego obszaru w kodzie.
+short: Od dawien dawna, tworzenie oprogramowania zwłaszcza związanego z graficznymi interfejsami użytkownika (na potrzeby uproszczenia będę odnosił się właśnie do problemów z GUI).
 ---
 {% include_relative preface.md %}
 
@@ -66,6 +66,13 @@ Trochę teorii się przyda. W kolejnych postach będę przekazywał bardziej pra
 Zapraszam do śledzenia, komentowania.
 
 {% include_relative end.md %}
+
+------
+Następny: **[Programowanie Reaktywne - Zabawa z czasem - Timer.][next]**
+
+------
+
+[next]: {{site.url}}/programowanie-reaktywne-zabawa-z-czasem-timer
 
 [post]: /assets/images/2018/02/programowanie-reaktywne-wstep/post.jpg
 [post-big]: /assets/images/2018/02/programowanie-reaktywne-wstep/post-big.jpg
