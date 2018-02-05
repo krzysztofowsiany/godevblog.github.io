@@ -112,10 +112,12 @@ Zapraszam na **[GitHub]** do przejrzenia mojej "twórczości".
 ------
 Wcześniejszy: **[Programowanie Reaktywne - Wstęp.][previous]**
 
+Następny: **[Programowanie Reaktywne - Kto za tym stoi? - Sheduler.][next]**
+
 ------
 
 [previous]: {{site.url}}/programowanie-reaktywne-wstep
-[next]: {{site.url}}/domain-driven-design-podstawowe-czesci-skladowe
+[next]: {{site.url}}/programowanie-kto-za-tym-stoi-sheduler
 
 [post]: /assets/images/2018/02/programowanie-reaktywne-zabawa-z-czasem-timer/post.jpg
 [post-big]: /assets/images/2018/02/programowanie-reaktywne-zabawa-z-czasem-timer/post-big.jpg

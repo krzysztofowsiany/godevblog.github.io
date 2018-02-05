@@ -5,6 +5,7 @@ Artykuł ten jest częścią serii arykułów na temat **Programowania reaktywne
 
 1. [Wstęp][1]
 2. [Zabawa z czasem - Timer][2]
+3. [Kto za tym stoi? - Sheduler][3]
 
 <!--
 3. [Zabawa z czasem - Interval]
@@ -43,3 +44,4 @@ Artykuł ten jest częścią serii arykułów na temat **Programowania reaktywne
 
 [1]: {{ site.url }}/programowanie-reaktywne-wstep
 [2]: {{ site.url }}/programowanie-reaktywne-zabawa-z-czasem-timer
+[3]: {{ site.url }}/programowanie-kto-za-tym-stoi-sheduler
