@@ -3,11 +3,11 @@ title: Programowanie Reaktywne - Kto za tym stoi? - Sheduler.
 date: 2018-02-05
 author: Krzysztof Owsiany
 layout: post
-permalink: programowanie-kto-za-tym-stoi-sheduler
+permalink: programowanie-reaktywne-kto-za-tym-stoi-sheduler
 published: true
 comments: true        
-image: /assets/images/2018/02/programowanie-kto-za-tym-stoi-sheduler/post.jpg
-image_big: /assets/images/2018/02/programowanie-kto-za-tym-stoi-sheduler/post-big.jpg
+image: /assets/images/2018/02/programowanie-reaktywne/kto-za-tym-stoi-sheduler/post.jpg
+image_big: /assets/images/2018/02/programowanie-reaktywne/kto-za-tym-stoi-sheduler/post-big.jpg
 categories:
   - Programowanie Reaktywne
   - '30 day challenge'
@@ -20,7 +20,7 @@ tags:
   - Programowanie Reaktywne
   - Rx
   - Sheduler
-short: A jak funkcjonują ten cały mechanizm obserwowanego i obserwatora? Przecież muszą być obrabiane w pocie czoła przez nasze wspaniałe CPU... Magia dzieje się poza naszym polem widzenia.
+short: A jak funkcjonują ten cały mechanizm obserwowanego i obserwatora? Przecież muszą być obrabiane w pocie czoła przez nasze wspaniałe CPU. Magia dzieje się poza naszym polem widzenia. Biblioteka Rx udostępnia mechanizm harmonogramu.
 ---
 {% include_relative preface.md %}
 
@@ -95,13 +95,14 @@ To na tyle w tym pościku, zapraszam do kolejnych.
 ------
 Wcześniejszy: **[Programowanie Reaktywne - Zabawa z czasem - Timer.][previous]**
 
+Następny: **[Programowanie Reaktywne - Nie zapominaj - Subscribe][next]**
 ------
 
 [previous]: {{site.url}}/programowanie-reaktywne-zabawa-z-czasem-timer
+[next]: {{site.url}}/programowanie-reaktywne-nie-zapominaj-subscribe
 
+[post]: /assets/images/2018/02/programowanie-reaktywne/kto-za-tym-stoi-sheduler/post.jpg
+[post-big]: /assets/images/2018/02/programowanie-reaktywne/kto-za-tym-stoi-sheduler/post-big.jpg
 
-[post]: /assets/images/2018/02/programowanie-kto-za-tym-stoi-sheduler/post.jpg
-[post-big]: /assets/images/2018/02/programowanie-kto-za-tym-stoi-sheduler/post-big.jpg
-
-[image1]: /assets/images/2018/02/programowanie-kto-za-tym-stoi-sheduler/image1.jpg
-[image1-big]: /assets/images/2018/02/programowanie-kto-za-tym-stoi-sheduler/image1-big.jpg
+[image1]: /assets/images/2018/02/programowanie-reaktywne/kto-za-tym-stoi-sheduler/image1.jpg
+[image1-big]: /assets/images/2018/02/programowanie-reaktywne/kto-za-tym-stoi-sheduler/image1-big.jpg

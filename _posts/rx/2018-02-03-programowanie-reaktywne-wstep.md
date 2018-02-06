@@ -6,8 +6,8 @@ layout: post
 permalink: programowanie-reaktywne-wstep
 published: true
 comments: true        
-image: /assets/images/2018/02/programowanie-reaktywne-wstep/post.jpg
-image_big: /assets/images/2018/02/programowanie-reaktywne-wstep/post-big.jpg
+image: /assets/images/2018/02/programowanie-reaktywne/wstep/post.jpg
+image_big: /assets/images/2018/02/programowanie-reaktywne/wstep/post-big.jpg
 categories:
   - Programowanie Reaktywne
   - '30 day challenge'
@@ -19,7 +19,7 @@ tags:
   - Observable
   - Programowanie Reaktywne
   - Rx
-short: Od dawien dawna, tworzenie oprogramowania zwłaszcza związanego z graficznymi interfejsami użytkownika (na potrzeby uproszczenia będę odnosił się właśnie do problemów z GUI).
+short: Od dawien dawna, tworzenie oprogramowania zwłaszcza związanego z graficznymi interfejsami użytkownika (na potrzeby uproszczenia będę odnosił się właśnie do problemów z GUI). Boryka się z problemem, zacinania...
 ---
 {% include_relative preface.md %}
 
@@ -74,11 +74,11 @@ Następny: **[Programowanie Reaktywne - Zabawa z czasem - Timer.][next]**
 
 [next]: {{site.url}}/programowanie-reaktywne-zabawa-z-czasem-timer
 
-[post]: /assets/images/2018/02/programowanie-reaktywne-wstep/post.jpg
-[post-big]: /assets/images/2018/02/programowanie-reaktywne-wstep/post-big.jpg
+[post]: /assets/images/2018/02/programowanie-reaktywne/wstep/post.jpg
+[post-big]: /assets/images/2018/02/programowanie-reaktywne/wstep/post-big.jpg
 
-[image1]: /assets/images/2018/02/programowanie-reaktywne-wstep/image1.jpg
-[image1-big]: /assets/images/2018/02/programowanie-reaktywne-wstep/image1-big.jpg
+[image1]: /assets/images/2018/02/programowanie-reaktywne/wstep/image1.jpg
+[image1-big]: /assets/images/2018/02/programowanie-reaktywne/wstep/image1-big.jpg
 
 [linq]: https://msdn.microsoft.com/en-us/library/bb308959.aspx
 [ms]: http://microsoft.com

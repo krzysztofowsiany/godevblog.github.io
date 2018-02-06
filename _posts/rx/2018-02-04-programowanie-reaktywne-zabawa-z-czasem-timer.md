@@ -6,8 +6,8 @@ layout: post
 permalink: programowanie-reaktywne-zabawa-z-czasem-timer
 published: true
 comments: true        
-image: /assets/images/2018/02/programowanie-reaktywne-zabawa-z-czasem-timer/post.jpg
-image_big: /assets/images/2018/02/programowanie-reaktywne-zabawa-z-czasem-timer/post-big.jpg
+image: /assets/images/2018/02/programowanie-reaktywne/zabawa-z-czasem-timer/post.jpg
+image_big: /assets/images/2018/02/programowanie-reaktywne/zabawa-z-czasem-timer/post-big.jpg
 categories:
   - Programowanie Reaktywne
   - '30 day challenge'
@@ -117,13 +117,13 @@ Następny: **[Programowanie Reaktywne - Kto za tym stoi? - Sheduler.][next]**
 ------
 
 [previous]: {{site.url}}/programowanie-reaktywne-wstep
-[next]: {{site.url}}/programowanie-kto-za-tym-stoi-sheduler
+[next]: {{site.url}}/programowanie-reaktywne-kto-za-tym-stoi-sheduler
 
-[post]: /assets/images/2018/02/programowanie-reaktywne-zabawa-z-czasem-timer/post.jpg
-[post-big]: /assets/images/2018/02/programowanie-reaktywne-zabawa-z-czasem-timer/post-big.jpg
+[post]: /assets/images/2018/02/programowanie-reaktywne/zabawa-z-czasem-timer/post.jpg
+[post-big]: /assets/images/2018/02/programowanie-reaktywne/zabawa-z-czasem-timer/post-big.jpg
 
-[image1]: /assets/images/2018/02/programowanie-reaktywne-zabawa-z-czasem-timer/image1.jpg
-[image1-big]: /assets/images/2018/02/programowanie-reaktywne-zabawa-z-czasem-timer/image1-big.jpg
+[image1]: /assets/images/2018/02/programowanie-reaktywne/zabawa-z-czasem-timer/image1.jpg
+[image1-big]: /assets/images/2018/02/programowanie-reaktywne/zabawa-z-czasem-timer/image1-big.jpg
 
 [linq]: https://msdn.microsoft.com/en-us/library/bb308959.aspx
 [ms]: http://microsoft.com
