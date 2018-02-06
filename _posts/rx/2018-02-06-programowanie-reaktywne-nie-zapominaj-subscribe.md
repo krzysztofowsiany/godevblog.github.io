@@ -24,7 +24,7 @@ tags:
   - OnError
   - OnComplete
   - Timer
-short: sadfadsf
+short: Trochę czasu już upłynęło... Warto by było przyswoić pewne dodatkowe informacje procesie zapisu na strumienie. Przykłady przedstawione do tej pory w postach są bardzo uproszczone. var observableTimer = Observable.Timer(_dueTime, _period, scheduler);
 ---
 {% include_relative preface.md %}
 
