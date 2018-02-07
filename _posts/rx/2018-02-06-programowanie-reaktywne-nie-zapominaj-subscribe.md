@@ -139,9 +139,9 @@ Mam nadzieję, że ponownie przybliżyłem **Reactive Extensions**:).
 {% include_relative end.md %}
 
 ------
-Wcześniejszy: **[Programowanie Reaktywne - Kto za tym stoi? - Sheduler][previous]**
+Wcześniejszy: **[Programowanie Reaktywne - Kto za tym stoi? - Sheduler.][previous]**
 
-<!--Następny: **[Programowanie Reaktywne - Kto za tym stoi? - Sheduler.][next]**-->
+Następny: **[Programowanie Reaktywne - Zabawa z czasem - ][next]**
 
 ------
 

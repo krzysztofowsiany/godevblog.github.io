@@ -33,7 +33,7 @@ Biblioteka **Rx** udostępnia mechanizm harmonogramu. Odpowiedzialny jest za roz
 ## Shedulery
 Do dyspozycji mamy dość sporą grupę sheduler-ów, skupię się na kilku głównych.
 
-W tym celu napisałem klasę pomocniczą opartą na poznanym już terminie [Timerów][previous] o nazwie **ExampleTimer**{:.color-1}
+W tym celu napisałem klasę pomocniczą opartą na poznanym już terminie [Timerów][previous] o nazwie **ExampleTimer**{:.color_1}
 
 {% highlight csharp linenos %}
 public ExampleTimer(String name, IScheduler scheduler)
@@ -95,7 +95,7 @@ To na tyle w tym pościku, zapraszam do kolejnych.
 ------
 Wcześniejszy: **[Programowanie Reaktywne - Zabawa z czasem - Timer.][previous]**
 
-Następny: **[Programowanie Reaktywne - Nie zapominaj - Subscribe][next]**
+Następny: **[Programowanie Reaktywne - Nie zapominaj - Subscribe.][next]**
 ------
 
 [previous]: {{site.url}}/programowanie-reaktywne-zabawa-z-czasem-timer

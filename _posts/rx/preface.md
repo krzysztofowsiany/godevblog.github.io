@@ -7,14 +7,15 @@ Artykuł ten jest częścią serii arykułów na temat **Programowania reaktywne
 2. [Zabawa z czasem - Timer][2]
 3. [Kto za tym stoi? - Sheduler][3]
 4. [Nie zapomiaj - Subscribe][4]
+5. [Zabawa z czasem - Interval][5]
 
 <!--
-3. [Zabawa z czasem - Interval]
 4. [Zabawa z czasem - TimeInterval]
 5. [Zabawa z czasem - Buffer]
 6. [Zabawa z czasem - Throttle]
 7. [Zabawa z czasem - Timeout]
 8. [Zabawa z czasem - Delay]
+
 9. [Warunki - Where]
 10. [Warunki - Where Drilldown]
 
@@ -47,3 +48,4 @@ Artykuł ten jest częścią serii arykułów na temat **Programowania reaktywne
 [2]: {{ site.url }}/programowanie-reaktywne-zabawa-z-czasem-timer
 [3]: {{ site.url }}/programowanie-reaktywne-kto-za-tym-stoi-sheduler
 [4]: {{ site.url }}/programowanie-reaktywne-nie-zapominaj-subscribe
+[5]: {{ site.url }}/programowanie-reaktywne-zabawa-z-czasem-interval

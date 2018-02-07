@@ -31,7 +31,7 @@ Mowa tutaj o wykorzystaniu **Timera** lub **Thread**.
 Pierwszy z nich polega na utworzeniu klasy, która będzie cyklicznie co określony czas wyzwalała **event**.
 
 Natomiast druga opcja to wykorzystanie wątku + pętli. 
-Do pętli wrzucamy to co chcemy cyklicznie wykonywać, wzbogacone o opóźnienie czasowe np. **Thread.Sleep(100)**{:.color-1}.
+Do pętli wrzucamy to co chcemy cyklicznie wykonywać, wzbogacone o opóźnienie czasowe np. **Thread.Sleep(100)**{:.color_1}.
 
 Ale hola miało być o reaktywnym programowaniu! 
 
@@ -67,7 +67,7 @@ _lambdaSubscribe = timerObservable.Subscribe(index =>
 **_lambdaSubscribe** jest nam potrzebne, by potem zniszczyć subskrybuje na strumień.
 **index** to identyfikator publikowania treści dla subskrybentów. Po każdej publikacji zwiększany jest o 1.
 
-Korzystamy tutaj z **lambdy**{:.color-1} jednak nic nie stoi na przeszkodzie, by skorzystać z normalnej metody.
+Korzystamy tutaj z **lambdy**{:.color_1} jednak nic nie stoi na przeszkodzie, by skorzystać z normalnej metody.
 {% highlight csharp linenos %}
     _methodSubscribe = timerObservable.Subscribe(OnTimer);
 }
@@ -96,10 +96,10 @@ public TimerDueTimeAndPeriod(TimeSpan dueTime, TimeSpan period)
 
 Dochodzi kolejny parametr **period**, określa powtarzanie publikacji co określony czas (nie należy zapomnieć, iż rozpocznie się to dopiero po upłynięciu dueTime).
 
-Tym sposobem mamy do dyspozycji ładny timer-ek z wykorzystaniem **RX-ów**{:.color-1}.
+Tym sposobem mamy do dyspozycji ładny timer-ek z wykorzystaniem **RX-ów**{:.color_1}.
 
 ## Zakończenie
-Pierwsze koty za płoty. Myślę, że na dzisiaj wystarczy. Jednak nie jest to Całkowie wyczerpanie tematów **Timer**-ów. W kolejnym poście opiszę czym są **Schedulery**{:.color-1}, czyli kolejny parametr, jaki możemy przekazać w metodzie **Observable.Timer(...)**{:.color-1}.
+Pierwsze koty za płoty. Myślę, że na dzisiaj wystarczy. Jednak nie jest to Całkowie wyczerpanie tematów **Timer**-ów. W kolejnym poście opiszę czym są **Schedulery**{:.color_1}, czyli kolejny parametr, jaki możemy przekazać w metodzie **Observable.Timer(...)**{:.color_1}.
 
 Zapraszam na **[GitHub]** do przejrzenia mojej "twórczości".
 
