@@ -1,5 +1,7 @@
 ----
 Artykuł ten jest częścią serii arykułów na temat **Programowania reaktywnego**.
+
+Zapraszam na **[GitHub-a]**{:.color_1}
  
 **Agenda**
 
@@ -8,10 +10,11 @@ Artykuł ten jest częścią serii arykułów na temat **Programowania reaktywne
 3. [Kto za tym stoi? - Sheduler][3]
 4. [Nie zapomiaj - Subscribe][4]
 5. [Zabawa z czasem - Interval][5]
+6. [Zabawa z czasem - Buffer][6]
 
 <!--
 4. [Zabawa z czasem - TimeInterval]
-5. [Zabawa z czasem - Buffer]
+
 6. [Zabawa z czasem - Throttle]
 7. [Zabawa z czasem - Timeout]
 8. [Zabawa z czasem - Delay]
@@ -49,3 +52,4 @@ Artykuł ten jest częścią serii arykułów na temat **Programowania reaktywne
 [3]: {{ site.url }}/programowanie-reaktywne-kto-za-tym-stoi-sheduler
 [4]: {{ site.url }}/programowanie-reaktywne-nie-zapominaj-subscribe
 [5]: {{ site.url }}/programowanie-reaktywne-zabawa-z-czasem-interval
+[6]: {{ site.url }}/programowanie-reaktywne-zabawa-z-czasem-buffer

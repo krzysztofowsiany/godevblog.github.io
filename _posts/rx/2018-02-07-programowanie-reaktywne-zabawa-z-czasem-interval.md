@@ -82,11 +82,11 @@ Jednak im mniej kodu, tym lepiej:)...
 ------
 Wcześniejszy: **[Programowanie Reaktywne - Nie zapominaj - Subscribe][previous]**
 
-<!--Następny: **[Programowanie Reaktywne - Kto za tym stoi? - Sheduler.][next]**-->
+Następny: **[Programowanie Reaktywne - Zabawa z czasem - Buffer][next]**
 
 ------
 [previous]: {{site.url}}/programowanie-reaktywne-nie-zapominaj-subscribe
-[next]: {{site.url}}/programowanie-reaktywne-zabawa-z-czasem-interval
+[next]: {{site.url}}/programowanie-reaktywne-zabawa-z-czasem-buffer
 
 [Programowanie Reaktywne - Kto za tym stoi? - Sheduler]: {{site.url}}/programowanie-reaktywne-kto-za-tym-stoi-sheduler
 
