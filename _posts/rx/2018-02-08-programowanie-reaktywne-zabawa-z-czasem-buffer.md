@@ -101,7 +101,7 @@ Zapraszam na **[GitHub-a]**!
 ------
 Wcześniejszy: **[Programowanie Reaktywne - Zabawa z czasem - Interval][previous]**
 
-Następny: **[Programowanie Reaktywne - Zabawa z czasem - Interval][next]**
+Następny: **[Programowanie Reaktywne - Zabawa z czasem - Delay][next]**
 
 ------
 [previous]: {{site.url}}/programowanie-reaktywne-zabawa-z-czasem-interval
