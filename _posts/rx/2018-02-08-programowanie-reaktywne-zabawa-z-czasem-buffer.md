@@ -29,7 +29,7 @@ short: Dużo tych operatorów na klasie Observable powiązanych z czasem można 
 
 Dużo tych operatorów na klasie **Observable**{:.color_1} powiązanych z czasem można znaleźć w bibliotece **Rx-ów**. Dzisiaj zajmiemy się dość ciekawym tworem, dzięki któremu możemy operować strumieniami niczym światłami drogowymi...
 
-## Buffer
+## Observable.Buffer
 Bufor działa jak zapora pomiędzy danymi do publikacji a samą publikacją. Gdzie analogia do świateł? 
 Dojeżdżając do skrzyżowania, jeżeli mamy szczęście to jest zielone i jedziemy. Natomiast jeśli trafimy na ten gorszy czas to wówczas jesteśmy "zbuforowani" do czasu, gdy światła ponownie nas przepuszczą.
 
@@ -101,11 +101,11 @@ Zapraszam na **[GitHub-a]**!
 ------
 Wcześniejszy: **[Programowanie Reaktywne - Zabawa z czasem - Interval][previous]**
 
-<!--Następny: **[Programowanie Reaktywne - Kto za tym stoi? - Sheduler.][next]**-->
+Następny: **[Programowanie Reaktywne - Zabawa z czasem - Interval][next]**
 
 ------
 [previous]: {{site.url}}/programowanie-reaktywne-zabawa-z-czasem-interval
-[next]: {{site.url}}/programowanie-reaktywne-zabawa-z-czasem-interval
+[next]: {{site.url}}/programowanie-reaktywne-zabawa-z-czasem-delay
 
 
 [post]: /assets/images/2018/02/programowanie-reaktywne/zabawa-z-czasem-buffer/post.jpg

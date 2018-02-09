@@ -1,7 +1,7 @@
 ----
 Artykuł ten jest częścią serii arykułów na temat **Programowania reaktywnego**.
 
-Zapraszam na **[GitHub-a]**{:.color_1}
+Zapraszam na **[GitHub-a]**{:.color_1}.
  
 **Agenda**
 
@@ -11,6 +11,7 @@ Zapraszam na **[GitHub-a]**{:.color_1}
 4. [Nie zapomiaj - Subscribe][4]
 5. [Zabawa z czasem - Interval][5]
 6. [Zabawa z czasem - Buffer][6]
+6. [Zabawa z czasem - Delay][7]
 
 <!--
 4. [Zabawa z czasem - TimeInterval]
@@ -53,3 +54,4 @@ Zapraszam na **[GitHub-a]**{:.color_1}
 [4]: {{ site.url }}/programowanie-reaktywne-nie-zapominaj-subscribe
 [5]: {{ site.url }}/programowanie-reaktywne-zabawa-z-czasem-interval
 [6]: {{ site.url }}/programowanie-reaktywne-zabawa-z-czasem-buffer
+[7]: {{ site.url }}/programowanie-reaktywne-zabawa-z-czasem-delay

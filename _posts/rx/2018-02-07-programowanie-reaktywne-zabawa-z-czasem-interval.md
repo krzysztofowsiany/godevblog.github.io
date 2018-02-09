@@ -30,7 +30,7 @@ short: Po uporządkowaniu pewnych kolejnych spraw. Pora na kolejny obiekt, jaki 
 Po uporządkowaniu pewnych kolejnych spraw. Pora na kolejny obiekt, jaki możemy obserwować. Wchodzący w skład timerów. 
 Tym razem chodzi o uproszczoną werjse **Observable.Timer**... 
 
-## Interval
+## Observable.Interval
 Jeżeli nie ma potrzeby opóźnienia wyzwolenia pierwszego powiadomienia do obserwatorów. Wówczas można skorzystać z prostszej formy timer o nazwie **Interval**{:.color_1}. 
 
 Przyjmuje co najmniej jeden parametr i jest to czas co ile będą wyzwalane powiadamianie subskrybentów. Wartość ta jest typu **TimeSpan**.

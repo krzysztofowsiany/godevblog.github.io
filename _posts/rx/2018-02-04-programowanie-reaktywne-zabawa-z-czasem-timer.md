@@ -36,7 +36,7 @@ Do pętli wrzucamy to co chcemy cyklicznie wykonywać, wzbogacone o opóźnienie
 Ale hola miało być o reaktywnym programowaniu! 
 
 
-## Reactive Extensions - Timer
+## Observable.Timer
 W tej sytuacji z pomocą przychodzi Reactive Extensions oraz bogaty zestaw strumieni do cyklicznego wyzwalania reakcji na obserwatorach.
 
 Pierwszy z nich dość prosty to **Timer**.
