@@ -102,6 +102,11 @@ ol {
     padding: 0px;
 }
 
+div.blog_rss {
+    display:block;
+    margin: 0 auto;
+}
+
 @import 'nav';
 @import 'pagination';
 @import 'images';
