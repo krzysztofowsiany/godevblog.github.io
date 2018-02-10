@@ -1,6 +1,6 @@
 ---
 title: Programowanie Reaktywne - Zabawa z czasem - Delay.
-date: 2018-02-08
+date: 2018-02-09
 author: Krzysztof Owsiany
 layout: post
 permalink: programowanie-reaktywne-zabawa-z-czasem-delay
@@ -89,11 +89,11 @@ Zapraszam do przeanalizowania projektu **Delay**{:.color_2}, na [GitHub].
 ------
 Wcześniejszy: **[Programowanie Reaktywne - Zabawa z czasem - Buffer][previous]**
 
-<!--Następny: **[Programowanie Reaktywne - Kto za tym stoi? - Sheduler.][next]**-->
+Następny: **[Programowanie Reaktywne - Kto za tym stoi? - Sample.][next]**
 
 ------
 [previous]: {{site.url}}/programowanie-reaktywne-zabawa-z-czasem-buffer
-[next]: {{site.url}}/programowanie-reaktywne-zabawa-z-czasem-interval
+[next]: {{site.url}}/programowanie-reaktywne-zabawa-z-czasem-sample
 
 
 [post]: /assets/images/2018/02/programowanie-reaktywne/zabawa-z-czasem-delay/post.jpg
