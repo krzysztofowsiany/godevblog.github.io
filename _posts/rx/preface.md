@@ -13,6 +13,7 @@ Zapraszam na **[GitHub-a]**{:.color_1}.
 6. [Zabawa z czasem - Buffer][6]
 7. [Zabawa z czasem - Delay][7]
 8. [Zabawa z czasem - Sample][8]
+9. [Zabawa z czasem - Throttle][9]
 
 <!--
 4. [Zabawa z czasem - TimeInterval]
@@ -57,3 +58,4 @@ Zapraszam na **[GitHub-a]**{:.color_1}.
 [6]: {{ site.url }}/programowanie-reaktywne-zabawa-z-czasem-buffer
 [7]: {{ site.url }}/programowanie-reaktywne-zabawa-z-czasem-delay
 [8]: {{ site.url }}/programowanie-reaktywne-zabawa-z-czasem-sample
+[9]: {{ site.url }}/programowanie-reaktywne-zabawa-z-czasem-throttle

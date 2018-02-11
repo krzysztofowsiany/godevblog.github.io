@@ -90,11 +90,11 @@ Strzelił mi dzisiaj do głowy niecny plan. By nagrać serie video na **[YT]** o
 ------
 Wcześniejszy: **[Programowanie Reaktywne - Zabawa z czasem - Delay][previous]**
 
-<!--Następny: **[Programowanie Reaktywne - Kto za tym stoi? - Sheduler.][next]**-->
+Następny: **[Programowanie Reaktywne - Zabawa z czasem - Throttle.][next]**-->
 
 ------
 [previous]: {{site.url}}/programowanie-reaktywne-zabawa-z-czasem-delay
-[next]: {{site.url}}/programowanie-reaktywne-zabawa-z-czasem-interval
+[next]: {{site.url}}/programowanie-reaktywne-zabawa-z-czasem-throttle
 
 [post]: /assets/images/2018/02/programowanie-reaktywne/zabawa-z-czasem-sample/post.jpg
 [post-big]: /assets/images/2018/02/programowanie-reaktywne/zabawa-z-czasem-sample/post-big.jpg
