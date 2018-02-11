@@ -86,7 +86,7 @@ Dzięki klasie stworzony został timer i w nim domyślnie obsługa **OnError**{:
 Czyli już nie ma co się nimi martwić.
 
 Kolejny fragment pokazuje jak zapisywać obserwatorów.
-Pierwszy przykład od linii:1. Nie będzie powodował problemu dlatego pozwoliłem sobie napisać w najprostrzej postaci.
+Pierwszy przykład od linii:1. Nie będzie powodował problemu dlatego pozwoliłem sobie napisać w najprostszej postaci.
 
 {% highlight csharp linenos %}
 timer.Subscribe(index =>
@@ -115,7 +115,7 @@ timer.Subscribe(index =>
 [![Reactive Extensions - Subscribe][image1]][image1-big]{:.post-right-image}
 
 Linia:6 zawiera w sobie mechanizm obsługi wyjątków, a to dlatego, że rzucamy jednym w przeciwnym wypadku aplikacja zostałaby zatrzymana.
-W linii:18 zaczyna się fragment kodu, który spowoduje wywalenie programu. W repozytorium jest on zakomentowany tak by program się uruchamiał i działał.
+W linii:18 zaczyna się fragment kodu, który spowoduje wywalenie programu. W repozytorium jest on za komentowany tak by program się uruchamiał i działał.
 
 ## Zakończenie
 Warto byłoby wspomnieć także, o sprzątaniu po sobie. Czyli używaniu **Dispose**. Najpierw zapisujemy zapisanego subskrybenta. Tak by potem na koniec można było ich wszystkich wywalić na zbity r__.

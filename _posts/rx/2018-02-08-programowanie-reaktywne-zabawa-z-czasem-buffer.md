@@ -90,7 +90,7 @@ _bufferSubscribent = _bufferObservable.Subscribe(
 
 W pętli dodałem opóźnienie w celach demonstracyjnych tak by symulować przejeżdżanie samochodów.
 
-Zawartość **newCars** będzie zawierała wygenerowaną sekwencję danych(samochodów) w danej chwili. Jeżeli coś się wydarzy nie przewidzianego to wóczas cała lista zostanie utracona!
+Zawartość **newCars** będzie zawierała wygenerowaną sekwencję danych(samochodów) w danej chwili. Jeżeli coś się wydarzy nie przewidzianego to wówczas cała lista zostanie utracona!
 
 ## Zakończenie
 Taki kulawy przykład myślę, że przynajmniej po części pozwoli na zrozumienie **Observable.Buffer**{:.color_1}. Oczywiście metoda zawiera wiele braci i sióstr. Jednak zapoznałem Was tylko z jedną. Proponuję poeksperymentować tak jak Ja to zrobiłem w tym przykładzie.

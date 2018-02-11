@@ -43,7 +43,7 @@ Drążąc głębiej tematykę, jest to po prostu implementacja wzorca projektowe
 
 [![Reactive Extensions!][image1]][image1-big]{:.post-right-image}
 Słynna firma z [Redmond][ms] udostępnia nam już istniejący mechanizm owego wzorca, jaki możemy implementować we własnych rozwiązaniach o nazwie **[Reactive Extensions] (RX)**. Na bazie tej biblioteki mamy możliwość użycia kilku sztuczek:
-* pozbycie się problematycznych eventów (**+/-= new EventXXXX()**{:.color_1}) z kodu,
+* pozbycie się problematycznych event-ów (**+/-= new EventXXXX()**{:.color_1}) z kodu,
 * wykorzystanie jako odmierzacze czasu (Timery), lub wątki (Thread),
 * implementację własnych rozwiązań na bazie interfejsów **IObservable**{:.color_1}, **IObserver**{:.color_1}.
 

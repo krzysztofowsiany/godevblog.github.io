@@ -20,12 +20,12 @@ tags:
   - Programowanie Reaktywne
   - Rx
   - Delay
-short: Dzisiaj na tapetę coś prostego. Bazujując na operatorze Interval. Złapiemy ogon niczym w filmach szpiegowskich. A nawet wiele...
+short: Dzisiaj na tapetę coś prostego. Bazując na operatorze Interval. Złapiemy ogon niczym w filmach szpiegowskich. A nawet wiele...
 ---
 {% include_relative preface.md %}
 
 ## Wstęp
-Dzisiaj na tapetę coś prostego. Bazujując na operatorze Interval. Złapiemy ogon niczym w filmach szpiegowskich. A nawet wiele...
+Dzisiaj na tapetę coś prostego. Bazując na operatorze Interval. Złapiemy ogon niczym w filmach szpiegowskich. A nawet wiele...
 
 ## Observable.Delay
 [![Reactive Extensions - Delay][post]][post-big]{:.post-left-image}

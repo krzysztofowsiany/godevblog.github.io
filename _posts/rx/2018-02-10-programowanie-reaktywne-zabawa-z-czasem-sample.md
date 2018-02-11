@@ -81,7 +81,7 @@ var sampleList = new List<IDisposable>
 Zapisanych będzie trzech odbiorców. Z odpowiednio ustawionymi czasami pobierania próbek na **1s**, **3s**, **5s**.
 
 ## Zakończenie
-Wyniki działania zamieszczonych fragmentów kodu, najlepiej sprwdzić odpalając cały projekt z **[GitHub-a]**. Zapraszam.
+Wyniki działania zamieszczonych fragmentów kodu, najlepiej sprawdzić odpalając cały projekt z **[GitHub-a]**. Zapraszam.
 
 Strzelił mi dzisiaj do głowy niecny plan. By nagrać serie video na **[YT]** o podobnej tematyce. Ale czy to dojdzie do skutku. Być może to temat kolejnego wyzwania...
 

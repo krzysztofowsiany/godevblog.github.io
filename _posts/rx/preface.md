@@ -8,7 +8,7 @@ Zapraszam na **[GitHub-a]**{:.color_1}.
 1. [Wstęp][1]
 2. [Zabawa z czasem - Timer][2]
 3. [Kto za tym stoi? - Sheduler][3]
-4. [Nie zapomiaj - Subscribe][4]
+4. [Nie zapominaj - Subscribe][4]
 5. [Zabawa z czasem - Interval][5]
 6. [Zabawa z czasem - Buffer][6]
 7. [Zabawa z czasem - Delay][7]

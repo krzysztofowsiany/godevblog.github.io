@@ -20,7 +20,7 @@ tags:
   - Programowanie Reaktywne
   - Rx
   - Interval
-short: Po uporządkowaniu pewnych kolejnych spraw. Pora na kolejny obiekt, jaki możemy obserwować. Wchodzący w skład timerów. Tym razem chodzi o uproszczoną werjse Observable.Timer... 
+short: Po uporządkowaniu pewnych kolejnych spraw. Pora na kolejny obiekt, jaki możemy obserwować. Wchodzący w skład timerów. Tym razem chodzi o uproszczoną wersje Observable.Timer... 
 ---
 {% include_relative preface.md %}
 
@@ -28,7 +28,7 @@ short: Po uporządkowaniu pewnych kolejnych spraw. Pora na kolejny obiekt, jaki 
 [![Reactive Extensions - Scheduler][post]][post-big]{:.post-right-image}
 
 Po uporządkowaniu pewnych kolejnych spraw. Pora na kolejny obiekt, jaki możemy obserwować. Wchodzący w skład timerów. 
-Tym razem chodzi o uproszczoną werjse **Observable.Timer**... 
+Tym razem chodzi o uproszczoną wersje **Observable.Timer**... 
 
 ## Observable.Interval
 Jeżeli nie ma potrzeby opóźnienia wyzwolenia pierwszego powiadomienia do obserwatorów. Wówczas można skorzystać z prostszej formy timer o nazwie **Interval**{:.color_1}. 

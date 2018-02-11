@@ -66,7 +66,7 @@ private IEnumerable<int> GetStream()
 Jak widać na powyższym fragmencie, pętla **while**{:.color_2} odpowiada za publikowanie danych na strumień. Natomiast pole **_publish**{:.color_2} - określa czy publikować treści, czy czekać na zmianę statusu.
 
 Dla uproszczenia konwersję z **IEnumerable => IObservable**{:.color_1} wykonują w klasie pod właściwością: **Stream**{:.color_2}.
-Do tego celu wykorzystałem rozszeżenie **ToObservable**{:.color_1} z Rx-ów. Pozwalające właśnie na taką zamianę.
+Do tego celu wykorzystałem rozszerzenie **ToObservable**{:.color_1} z Rx-ów. Pozwalające właśnie na taką zamianę.
 
 Kolejny fragment to użycie **[Observable.Interval]**{:.color_2} do zmiany statusu publikacji danych na strumieniu dla **Observable.Throttle**{:.color_2}. Dodatkowo wyświetlanych jest trochę informacji na temat zmiany. 
 {% highlight csharp linenos %}
