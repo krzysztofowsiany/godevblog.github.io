@@ -112,11 +112,11 @@ Zapraszam do zabawy z przykładem jaki zamieściłem na **[GitHub]**. Samodzieln
 ------
 Wcześniejszy: **[Programowanie Reaktywne - Zabawa z czasem - Sample][previous]**
 
-<!--Następny: **[Programowanie Reaktywne - Zabawa z czasem - Delay.][next]**-->
+Następny: **[Programowanie Reaktywne - Zabawa z czasem - Timestamp/TimeInterval.][next]**
 
 ------
 [previous]: {{site.url}}/programowanie-reaktywne-zabawa-z-czasem-sample
-[next]: {{site.url}}/programowanie-reaktywne-zabawa-z-czasem-interval
+[next]: {{site.url}}/programowanie-reaktywne-zabawa-z-czasem-timestamp-and-timeinterval
 
 [post]: /assets/images/2018/02/programowanie-reaktywne/zabawa-z-czasem-throttle/post.jpg
 [post-big]: /assets/images/2018/02/programowanie-reaktywne/zabawa-z-czasem-throttle/post-big.jpg

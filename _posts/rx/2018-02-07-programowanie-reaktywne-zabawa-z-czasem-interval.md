@@ -51,7 +51,7 @@ private static void AddSubscribent(List<IDisposable> subscribents,
 
 [![Reactive Extensions - Interval][image1]][image1-big]{:.post-left-image}
 
-Drugi parametr to Scheduler, o którym trochę pisałem w poście: [Programowanie Reaktywne - Kto za tym stoi? - Sheduler]. Podobnie jak poprzednio możemy określić kto będzie odpowiedzialny za obsługę całego bałaganu.
+Drugi parametr to Scheduler, o którym trochę pisałem w poście: [Programowanie Reaktywne - Kto za tym stoi? - Scheduler]. Podobnie jak poprzednio możemy określić kto będzie odpowiedzialny za obsługę całego bałaganu.
 
 Kod jest bardzo prosty dlatego też pozwoliłem sobie zapisać całe ciało delegatów odpowiednio dla każdej z metod (**OnNext**{:.color_1}, **OnError**{:.color_1}, **OnCompleted**{:.color_1}) w jednej linii.
 
@@ -60,12 +60,12 @@ Oczywiście tak jak poprzednio zachowujemy obserwatorów w liście, do później
 {% highlight csharp linenos %}
 var observableInterval = Observable.Interval(TimeSpan.FromMilliseconds(200));
 
-var observableIntervalSheduler = Observable.Interval(
+var observableIntervalScheduler = Observable.Interval(
   TimeSpan.FromMilliseconds(2000), 
   TaskPoolScheduler.Default);
 
 AddSubscribent(subscribents, observableInterval);
-AddSubscribent(subscribents, observableIntervalSheduler);
+AddSubscribent(subscribents, observableIntervalScheduler);
 {% endhighlight %}
 
 W celach demonstracyjnych tworzymy dwa obserwowane obiekty, jeden, korzystając z **TaskPoolScheduler** w celu wymuszenia korzystania z **TaskPool**.
@@ -88,7 +88,7 @@ Następny: **[Programowanie Reaktywne - Zabawa z czasem - Buffer][next]**
 [previous]: {{site.url}}/programowanie-reaktywne-nie-zapominaj-subscribe
 [next]: {{site.url}}/programowanie-reaktywne-zabawa-z-czasem-buffer
 
-[Programowanie Reaktywne - Kto za tym stoi? - Sheduler]: {{site.url}}/programowanie-reaktywne-kto-za-tym-stoi-sheduler
+[Programowanie Reaktywne - Kto za tym stoi? - Scheduler]: {{site.url}}/programowanie-reaktywne-kto-za-tym-stoi-scheduler
 
 [post]: /assets/images/2018/02/programowanie-reaktywne/zabawa-z-czasem-interval/post.jpg
 [post-big]: /assets/images/2018/02/programowanie-reaktywne/zabawa-z-czasem-interval/post-big.jpg

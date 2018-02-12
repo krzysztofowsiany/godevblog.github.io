@@ -1,13 +1,13 @@
 ---
-title: Programowanie Reaktywne - Kto za tym stoi? - Sheduler.
+title: Programowanie Reaktywne - Kto za tym stoi? - Scheduler.
 date: 2018-02-05
 author: Krzysztof Owsiany
 layout: post
-permalink: programowanie-reaktywne-kto-za-tym-stoi-sheduler
+permalink: programowanie-reaktywne-kto-za-tym-stoi-scheduler
 published: true
 comments: true        
-image: /assets/images/2018/02/programowanie-reaktywne/kto-za-tym-stoi-sheduler/post.jpg
-image_big: /assets/images/2018/02/programowanie-reaktywne/kto-za-tym-stoi-sheduler/post-big.jpg
+image: /assets/images/2018/02/programowanie-reaktywne/kto-za-tym-stoi-scheduler/post.jpg
+image_big: /assets/images/2018/02/programowanie-reaktywne/kto-za-tym-stoi-scheduler/post-big.jpg
 categories:
   - Programowanie Reaktywne
   - '30 day challenge'
@@ -19,7 +19,7 @@ tags:
   - Observable
   - Programowanie Reaktywne
   - Rx
-  - Sheduler
+  - Scheduler
 short: A jak funkcjonują ten cały mechanizm obserwowanego i obserwatora? Przecież muszą być obrabiane w pocie czoła przez nasze wspaniałe CPU. Magia dzieje się poza naszym polem widzenia. Biblioteka Rx udostępnia mechanizm harmonogramu.
 ---
 {% include_relative preface.md %}
@@ -30,8 +30,8 @@ A jak funkcjonują ten cały mechanizm obserwowanego i obserwatora? Przecież mu
 
 Biblioteka **Rx** udostępnia mechanizm harmonogramu. Odpowiedzialny jest za rozsyłanie powiadomień do subskrybentów.
 
-## Shedulery
-Do dyspozycji mamy dość sporą grupę sheduler-ów, skupię się na kilku głównych.
+## Schedulery
+Do dyspozycji mamy dość sporą grupę scheduler-ów, skupię się na kilku głównych.
 
 W tym celu napisałem klasę pomocniczą opartą na poznanym już terminie [Timerów][previous] o nazwie **ExampleTimer**{:.color_1}
 
@@ -86,7 +86,7 @@ new ExampleTimer("TaskPoolScheduler", TaskPoolScheduler.Default)
 Jeżeli nie zdefiniujemy żadnego schedulera, to wówczas zostanie przydzielony automatycznie na podstawie kontekstu tworzenia obiektu obserwowanego.
 
 ## Zakończenie
-Przeważnie nie ma potrzeby manipulowaniem automatycznego przydzielania Shedulera. Jednak w pewnych sytuacjach można wpłynąć na to jak będzie się zachowywał. 
+Przeważnie nie ma potrzeby manipulowaniem automatycznego przydzielania Schedulera. Jednak w pewnych sytuacjach można wpłynąć na to jak będzie się zachowywał. 
 
 To na tyle w tym pościku, zapraszam do kolejnych.
 
@@ -101,8 +101,8 @@ Następny: **[Programowanie Reaktywne - Nie zapominaj - Subscribe.][next]**
 [previous]: {{site.url}}/programowanie-reaktywne-zabawa-z-czasem-timer
 [next]: {{site.url}}/programowanie-reaktywne-nie-zapominaj-subscribe
 
-[post]: /assets/images/2018/02/programowanie-reaktywne/kto-za-tym-stoi-sheduler/post.jpg
-[post-big]: /assets/images/2018/02/programowanie-reaktywne/kto-za-tym-stoi-sheduler/post-big.jpg
+[post]: /assets/images/2018/02/programowanie-reaktywne/kto-za-tym-stoi-scheduler/post.jpg
+[post-big]: /assets/images/2018/02/programowanie-reaktywne/kto-za-tym-stoi-scheduler/post-big.jpg
 
-[image1]: /assets/images/2018/02/programowanie-reaktywne/kto-za-tym-stoi-sheduler/image1.jpg
-[image1-big]: /assets/images/2018/02/programowanie-reaktywne/kto-za-tym-stoi-sheduler/image1-big.jpg
+[image1]: /assets/images/2018/02/programowanie-reaktywne/kto-za-tym-stoi-scheduler/image1.jpg
+[image1-big]: /assets/images/2018/02/programowanie-reaktywne/kto-za-tym-stoi-scheduler/image1-big.jpg

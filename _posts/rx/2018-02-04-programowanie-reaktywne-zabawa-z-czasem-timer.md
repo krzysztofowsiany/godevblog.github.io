@@ -112,12 +112,12 @@ Zapraszam na **[GitHub]** do przejrzenia mojej "twórczości".
 ------
 Wcześniejszy: **[Programowanie Reaktywne - Wstęp.][previous]**
 
-Następny: **[Programowanie Reaktywne - Kto za tym stoi? - Sheduler.][next]**
+Następny: **[Programowanie Reaktywne - Kto za tym stoi? - Scheduler.][next]**
 
 ------
 
 [previous]: {{site.url}}/programowanie-reaktywne-wstep
-[next]: {{site.url}}/programowanie-reaktywne-kto-za-tym-stoi-sheduler
+[next]: {{site.url}}/programowanie-reaktywne-kto-za-tym-stoi-scheduler
 
 [post]: /assets/images/2018/02/programowanie-reaktywne/zabawa-z-czasem-timer/post.jpg
 [post-big]: /assets/images/2018/02/programowanie-reaktywne/zabawa-z-czasem-timer/post-big.jpg

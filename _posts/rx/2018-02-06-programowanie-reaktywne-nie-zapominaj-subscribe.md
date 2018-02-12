@@ -139,13 +139,13 @@ Mam nadzieję, że ponownie przybliżyłem **Reactive Extensions**:).
 {% include_relative end.md %}
 
 ------
-Wcześniejszy: **[Programowanie Reaktywne - Kto za tym stoi? - Sheduler.][previous]**
+Wcześniejszy: **[Programowanie Reaktywne - Kto za tym stoi? - Scheduler.][previous]**
 
 Następny: **[Programowanie Reaktywne - Zabawa z czasem - Interval][next]**
 
 ------
 
-[previous]: {{site.url}}/programowanie-reaktywne-kto-za-tym-stoi-sheduler
+[previous]: {{site.url}}/programowanie-reaktywne-kto-za-tym-stoi-scheduler
 [next]: {{site.url}}/programowanie-reaktywne-zabawa-z-czasem-interval
 
 [post]: /assets/images/2018/02/programowanie-reaktywne/nie-zapominaj-subscribe/post.jpg

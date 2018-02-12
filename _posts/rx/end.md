@@ -9,6 +9,7 @@ Wszelkie kody związane z postami znajdują się na repozytorium **[GitHub]**.
 
 {% include_relative refs.md %}
 
+[GitHub-ie]: https://github.com/godevblog/30DayChallenge.git 
 [GitHub-a]: https://github.com/godevblog/30DayChallenge.git
 [GitHub]: https://github.com/godevblog/30DayChallenge.git
 [MIROBURN]: http://trzypoziomy.pl
