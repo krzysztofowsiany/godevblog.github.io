@@ -21,7 +21,7 @@ tags:
   - Rx
   - Throttle
   - ToObservable
-short: Jazda z koksem... Dzisiaj poruszymy tematykę - kolejnego operatora związanego z czasem. Hurra... Znowu. To jednak już przed ostatnia część związana z czasem...
+short: Jazda z koksem... Dzisiaj poruszymy tematykę - kolejnego operatora związanego z czasem. Hurra... Znowu. To jednak już przed ostatnia część związana z czasem... Zapraszam ponownie do krainy reaktywnej magii.
 ---
 {% include_relative preface.md %}
 
