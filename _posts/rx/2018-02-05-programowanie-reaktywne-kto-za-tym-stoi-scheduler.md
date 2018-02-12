@@ -96,6 +96,7 @@ To na tyle w tym pościku, zapraszam do kolejnych.
 Wcześniejszy: **[Programowanie Reaktywne - Zabawa z czasem - Timer.][previous]**
 
 Następny: **[Programowanie Reaktywne - Nie zapominaj - Subscribe.][next]**
+
 ------
 
 [previous]: {{site.url}}/programowanie-reaktywne-zabawa-z-czasem-timer
