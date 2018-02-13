@@ -15,14 +15,9 @@ Zapraszam na **[GitHub-a]**{:.color_1}.
 8. [Zabawa z czasem - Sample][8]
 9. [Zabawa z czasem - Throttle][9]
 10. [Zabawa z czasem - Timestamp/TimeInterval][10]
+11. [Tworzymy dane - Generators][11]
 
 <!--
-4. [Zabawa z czasem - TimeInterval]
-
-6. [Zabawa z czasem - Throttle]
-7. [Zabawa z czasem - Timeout]
-8. [Zabawa z czasem - Delay]
-
 9. [Warunki - Where]
 10. [Warunki - Where Drilldown]
 
@@ -61,3 +56,4 @@ Zapraszam na **[GitHub-a]**{:.color_1}.
 [8]: {{ site.url }}/programowanie-reaktywne-zabawa-z-czasem-sample
 [9]: {{ site.url }}/programowanie-reaktywne-zabawa-z-czasem-throttle
 [10]: {{ site.url }}/programowanie-reaktywne-zabawa-z-czasem-timestamp-and-timeinterval
+[11]: {{ site.url }}/programowanie-reaktywne-tworzymy-dane-generators

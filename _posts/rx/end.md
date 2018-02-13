@@ -1,11 +1,13 @@
 --------------
 **Jest to post wchodzący w skład podjętego wyzwania ogłoszonego przez [MIROBURN] we [vlogu] z dnia 3 lutego 2018 roku**.
 
-Celem wyzwania jest systematyczne działanie w ciągu 3 dni. 
+Celem wyzwania jest systematyczne działanie w ciągu 30 dni. 
 
-Postanowiłem pisać post dziennie o tematyce programowania reaktywnego dla platformy .NET.
+Postanowiłem pisać post dziennie o tematyce Programowania Reaktywnego dla platformy .NET.
 
-Wszelkie kody związane z postami znajdują się na repozytorium **[GitHub]**.
+Wszelkie źródła związane z postami znajdują się na repozytorium **[GitHub]**.
+
+**Stan obecny wyzwania**{:.color_1}: **11**{:.color_2} z **30**{:.color_2} dni.
 
 {% include_relative refs.md %}
 

@@ -111,11 +111,11 @@ W kolejnych poznawać będziemy inne mechanizmy, operatory jakie dostarczają bi
 ------
 Wcześniejszy: **[Programowanie Reaktywne - Zabawa z czasem - Throttle][previous]**
 
-<!--Następny: **[Programowanie Reaktywne - Zabawa z czasem - Delay.][next]**-->
+Następny: **[Programowanie Reaktywne - Tworzymy dane - Generators][next]**
 
 ------
 [previous]: {{site.url}}/programowanie-reaktywne-zabawa-z-czasem-throttle
-[next]: {{site.url}}/programowanie-reaktywne-zabawa-z-czasem-interval
+[next]: {{site.url}}/programowanie-reaktywne-tworzymy-dane-generators
 
 [post]: /assets/images/2018/02/programowanie-reaktywne/zabawa-z-czasem-timestamp-and-timeinterval/post.jpg
 [post-big]: /assets/images/2018/02/programowanie-reaktywne/zabawa-z-czasem-timestamp-and-timeinterval/post-big.jpg
