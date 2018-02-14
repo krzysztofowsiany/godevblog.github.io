@@ -16,6 +16,7 @@ Zapraszam na **[GitHub-a]**{:.color_1}.
 9. [Zabawa z czasem - Throttle][9]
 10. [Zabawa z czasem - Timestamp/TimeInterval][10]
 11. [Tworzymy dane - Generators][11]
+12. [Tworzymy dane - Własna klasa publikująca][12]
 
 <!--
 9. [Warunki - Where]
@@ -57,3 +58,4 @@ Zapraszam na **[GitHub-a]**{:.color_1}.
 [9]: {{ site.url }}/programowanie-reaktywne-zabawa-z-czasem-throttle
 [10]: {{ site.url }}/programowanie-reaktywne-zabawa-z-czasem-timestamp-and-timeinterval
 [11]: {{ site.url }}/programowanie-reaktywne-tworzymy-dane-generators
+[12]: {{ site.url }}/programowanie-reaktywne-tworzymy-dane-wlasna-klasa-publikujaca

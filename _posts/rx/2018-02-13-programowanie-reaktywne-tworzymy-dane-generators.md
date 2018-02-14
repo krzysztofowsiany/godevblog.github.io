@@ -126,11 +126,11 @@ Jak widać w powyższych moich wypocinach. Możemy wygenerować interesujące da
 ------
 Wcześniejszy: **[Programowanie Reaktywne - Zabawa z czasem - Timestamp/TimeInterval][previous]**
 
-<!--Następny: **[Programowanie Reaktywne - Zabawa z czasem - Delay.][next]**-->
+Następny: **[Programowanie Reaktywne - Tworzymy dane - Własna klasa publikująca.][next]**
 
 ------
 [previous]: {{site.url}}/programowanie-reaktywne-zabawa-z-czasem-timestamp-and-timeinterval
-[next]: {{site.url}}/programowanie-reaktywne-zabawa-z-czasem-interval
+[next]: {{site.url}}/programowanie-reaktywne-tworzymy-dane-wlasna-klasa-publikujaca
 
 [post]: /assets/images/2018/02/programowanie-reaktywne/tworzymy-dane-generators/post.jpg
 [post-big]: /assets/images/2018/02/programowanie-reaktywne/tworzymy-dane-generators/post-big.jpg
