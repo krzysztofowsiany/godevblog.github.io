@@ -54,7 +54,7 @@ public TimerDueTimeAndPeriod(TimeSpan dueTime, TimeSpan period)
 	_timerObservable = Observable.Timer(dueTime, period);
 {% endhighlight %}
 
-**_className** - wykorzystana jedynie do celów identyfikacji wyrzucanych na konsole treści;).
+Zmienna **_className** wykorzystana jest jedynie do celów identyfikacji, wyrzucanych na konsole treści;).
 
 A tak się zapisujemy na timer-ek.
 {% highlight csharp linenos %}
@@ -64,7 +64,8 @@ _lambdaSubscribe = timerObservable.Subscribe(index =>
 });
 {% endhighlight %}
 
-**_lambdaSubscribe** jest nam potrzebne, by potem zniszczyć subskrybuje na strumień.
+Dzięki tej zmiennej: **_lambdaSubscribe** kasujemy zapis obserwatora na strumień publikowany przez obiekt obserwowany.
+
 **index** to identyfikator publikowania treści dla subskrybentów. Po każdej publikacji zwiększany jest o 1.
 
 Korzystamy tutaj z **lambdy**{:.color_1} jednak nic nie stoi na przeszkodzie, by skorzystać z normalnej metody.
@@ -79,7 +80,7 @@ private void OnTimer(long index)
 {% endhighlight %}
 
 [![Reactive Extensions - Timer][image1]][image1-big]{:.post-left-image}
-**_methodSubscribe** jest nam potrzebne, by potem zniszczyć subskrybuje na strumień.
+Zmienna **_methodSubscribe** jest nam potrzebna do późniejszego zniszczenia subskrybowanego strumienia.
 
 Powyższe fragmenty kodu znajdują się w klasie: **TimerDueTime**.
 
