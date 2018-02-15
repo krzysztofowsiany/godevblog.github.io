@@ -227,11 +227,11 @@ static void Main(string[] args)
 ------
 Wcześniejszy: **[Programowanie Reaktywne - Tworzymy dane - Generators][previous]**
 
-<!--Następny: **[Programowanie Reaktywne - Zabawa z czasem - Delay.][next]**-->
+Następny: **[Programowanie Reaktywne - Marudzimy - Skip][next]**
 
 ------
 [previous]: {{site.url}}/programowanie-reaktywne-tworzymy-dane-generators
-[next]: {{site.url}}/programowanie-reaktywne-zabawa-z-czasem-interval
+[next]: {{site.url}}/programowanie-reaktywne-marudzimy-skip
 
 [post]: /assets/images/2018/02/programowanie-reaktywne/tworzymy-dane-wlasna-klasa-publikujaca/post.jpg
 [post-big]: /assets/images/2018/02/programowanie-reaktywne/tworzymy-dane-wlasna-klasa-publikujaca/post-big.jpg

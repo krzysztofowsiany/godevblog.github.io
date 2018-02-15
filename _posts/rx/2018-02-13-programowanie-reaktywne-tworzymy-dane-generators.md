@@ -126,7 +126,7 @@ Jak widać w powyższych moich wypocinach. Możemy wygenerować interesujące da
 ------
 Wcześniejszy: **[Programowanie Reaktywne - Zabawa z czasem - Timestamp/TimeInterval][previous]**
 
-Następny: **[Programowanie Reaktywne - Tworzymy dane - Własna klasa publikująca.][next]**
+Następny: **[Programowanie Reaktywne - Tworzymy dane - Własna klasa publikująca][next]**
 
 ------
 [previous]: {{site.url}}/programowanie-reaktywne-zabawa-z-czasem-timestamp-and-timeinterval
