@@ -21,10 +21,10 @@ tags:
   - Rx
   - TimeInterval  
   - Generate
-  - Take
-  - TakeLast
-  - TakeWhile
-  - TakeUntil
+  - Skip
+  - SkipLast
+  - SkipWhile
+  - SkipUntil
 short: Po wczorajszym sowitym poście, dzisiaj trochę przystopujemy. Będzie krócej. Poruszymy tematykę marudzenia ;). Marudzić można na dwa sposoby. Albo że się coś chcę albo nie! Na początek pomarudzimy że czegoś nie chcemy, zapraszam!
 ---
 {% include_relative preface.md %}
@@ -129,11 +129,11 @@ PS: Dzisiaj 13 post, być może pechowy. Kto wie co będzie jutro...
 ------
 Wcześniejszy: **[Programowanie Reaktywne - Tworzymy dane - Własna klasa publikująca][previous]**
 
-<!--Następny: **[Programowanie Reaktywne - Zabawa z czasem - Delay.][next]**-->
+Następny: **[Programowanie Reaktywne - Marudzimy - Take][next]**
 
 ------
 [previous]: {{site.url}}/programowanie-reaktywne-tworzymy-dane-wlasna-klasa-publikujaca
-[next]: {{site.url}}/programowanie-reaktywne-zabawa-z-czasem-interval
+[next]: {{site.url}}/programowanie-reaktywne-marudzimy-take
 
 [post]: /assets/images/2018/02/programowanie-reaktywne/marudzimy-skip/post.jpg
 [post-big]: /assets/images/2018/02/programowanie-reaktywne/marudzimy-skip/post-big.jpg

@@ -18,6 +18,7 @@ Zapraszam na **[GitHub-a]**{:.color_1}.
 11. [Tworzymy dane - Generators][11]
 12. [Tworzymy dane - Własna klasa publikująca][12]
 13. [Marudzimy - Skip][13]
+14. [Marudzimy - Take][14]
 
 ------
 
@@ -35,3 +36,4 @@ Zapraszam na **[GitHub-a]**{:.color_1}.
 [11]: {{ site.url }}/programowanie-reaktywne-tworzymy-dane-generators
 [12]: {{ site.url }}/programowanie-reaktywne-tworzymy-dane-wlasna-klasa-publikujaca
 [13]: {{ site.url }}/programowanie-reaktywne-marudzimy-skip
+[14]: {{ site.url }}/programowanie-reaktywne-marudzimy-take
