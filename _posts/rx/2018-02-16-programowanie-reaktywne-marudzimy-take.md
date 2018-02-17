@@ -121,11 +121,11 @@ Trochę napsuły mi dzisiaj krwi. Walczyłem, walczyłem, a potem zmieniłem tak
 ------
 Wcześniejszy: **[Programowanie Reaktywne - Marudzimy - Skip][previous]**
 
-<!--Następny: **[Programowanie Reaktywne - Zabawa z czasem - Delay.][next]**-->
+Następny: **[Programowanie Reaktywne - Łap To - ConsoleKey][next]**
 
 ------
 [previous]: {{site.url}}/programowanie-reaktywne-marudzimy-skip
-[next]: {{site.url}}/programowanie-reaktywne-zabawa-z-czasem-interval
+[next]: {{site.url}}/programowanie-reaktywne-lap-to-console-key
 
 [post]: /assets/images/2018/02/programowanie-reaktywne/marudzimy-take/post.jpg
 [post-big]: /assets/images/2018/02/programowanie-reaktywne/marudzimy-take/post-big.jpg
