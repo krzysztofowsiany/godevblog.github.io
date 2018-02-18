@@ -7,7 +7,7 @@ Postanowiłem pisać post dziennie o tematyce Programowania Reaktywnego dla plat
 
 Wszelkie źródła związane z postami znajdują się na repozytorium **[GitHub]**.
 
-**Stan obecny wyzwania**{:.color_1}: **15**{:.color_2} z **30**{:.color_2} dni.
+**Stan obecny wyzwania**{:.color_1}: **17**{:.color_2} z **30**{:.color_2} dni.
 
 {% include_relative refs.md %}
 

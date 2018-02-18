@@ -20,7 +20,7 @@ tags:
   - Programowanie Reaktywne
   - Rx
   - Concat
-short: Dzisiejszy post, tak jak i kilka następnych będzie dotyczył kombinowania. Będziemy korzystać z wielu strumieni publikujących dane tego samego typu do łączenia ich w jedną całość.
+short: Dzisiejszy post, tak jak i kilka następnych będzie dotyczył kombinowania. Będziemy korzystać z wielu strumieni publikujących dane tego samego typu do łączenia ich w jedną całość. I dopiero wówczas będzie można...
 ---
 {% include_relative preface.md %}
 

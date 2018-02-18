@@ -21,8 +21,7 @@ Zapraszam na **[GitHub-a]**{:.color_1}.
 14. [Marudzimy - Take][14]
 15. [Łap To! - ConsoleKey][15]
 16. [Kombinatorzy - Concat][16]
-
-<!--17. [Kombinatorzy - Repeat][17]-->
+17. [Kombinatorzy - Repeat][17]
 <!--18. [Kombinatorzy - Start With][18]-->
 <!--19. [Kombinatorzy - Switch][19]-->
 <!--20. [Kombinatorzy - Ambiguous][20]-->
