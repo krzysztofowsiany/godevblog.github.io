@@ -20,6 +20,12 @@ Zapraszam na **[GitHub-a]**{:.color_1}.
 13. [Marudzimy - Skip][13]
 14. [Marudzimy - Take][14]
 15. [Łap To! - ConsoleKey][15]
+16. [Kombinatorzy - Concat][16]
+
+<!--17. [Kombinatorzy - Repeat][17]-->
+<!--18. [Kombinatorzy - Start With][18]-->
+<!--19. [Kombinatorzy - Switch][19]-->
+<!--20. [Kombinatorzy - Ambiguous][20]-->
 
 ------
 
@@ -39,3 +45,8 @@ Zapraszam na **[GitHub-a]**{:.color_1}.
 [13]: {{ site.url }}/programowanie-reaktywne-marudzimy-skip
 [14]: {{ site.url }}/programowanie-reaktywne-marudzimy-take
 [15]: {{ site.url }}/programowanie-reaktywne-lap-to-console-key
+[16]: {{ site.url }}/programowanie-reaktywne-kombinatorzy-concat
+[17]: {{ site.url }}/programowanie-reaktywne-kombinatorzy-repeat
+[18]: {{ site.url }}/programowanie-reaktywne-kombinatorzy-start-with
+[19]: {{ site.url }}/programowanie-reaktywne-kombinatorzy-switch
+[20]: {{ site.url }}/programowanie-reaktywne-kombinatorzy-ambiguous
