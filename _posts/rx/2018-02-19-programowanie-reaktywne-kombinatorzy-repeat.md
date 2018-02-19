@@ -87,7 +87,7 @@ Dziękuję i zapraszam do dalszego czytania:).
 ------
 Wcześniejszy: **[Programowanie Reaktywne - Kombinatorzy - Concat][previous]**
 
-<!--Następny: **[Programowanie Reaktywne - Kombinatorzy - Start With][next]**-->
+Następny: **[Programowanie Reaktywne - Kombinatorzy - Start With][next]**
 
 ------
 [previous]: {{site.url}}/programowanie-reaktywne-kombinatorzy-concat
