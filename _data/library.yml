@@ -59,7 +59,7 @@ books:
     image: /assets/images/books/droppp.jpg
     url: http://ebookpoint.pl/view/90752/droppp.htm
     category: Efektywność
-    readed: 20
+    readed: 40
     recommendation: false
 
   - title: Nawyk samodyscypliny. Zaprogramuj wewnętrznego stróża. Neil Fiore.
@@ -150,7 +150,7 @@ books:
     image: /assets/images/books/4h-work.jpg
     url: https://upolujebooka.pl/oferta,17750,4-godzinny_tydzien_pracy.html
     category: Efektywność
-    readed: 0
+    readed: 25
     recommendation: false
 
   - title: Dochodząc do TAK. Negocjowanie bez poddawania się. Fisher Roger, Ury William, Patton Bruce.
@@ -178,7 +178,7 @@ books:
     image: /assets/images/books/mispr2.jpg
     url: http://ebookpoint.pl/view/90752/mispr2.htm
     category: Wystąpienia publiczne
-    readed: 25
+    readed: 40
     recommendation: false
 
 
