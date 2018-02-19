@@ -1,0 +1,23 @@
+<div id="content-wrapper">
+  <div class="inner clearfix">
+    <section id="main-content">
+      {% assign curDate = site.time | date: '%Y-%W' %}
+      
+      {% assign relevant = site.posts | except:"published","false"  %}
+      {% for post in relevant %}
+      {% assign postStartDate = post.date | date: '%s' %}
+        {% if postStartDate >= curDate %}
+
+            {% assign mod = forloop.index | modulo: 2 %}
+            {% if mod == 0 %}            
+              {% include main-right-side.html %}
+            {% else %}
+              {% include main-left-side.html %}
+            {% endif %}
+          {% endif %}
+      {% endfor %}
+      
+    </section>
+    {% include sidebar.html %}
+  </div>
+</div>
