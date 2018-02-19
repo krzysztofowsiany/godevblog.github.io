@@ -4,7 +4,7 @@ date: 2018-02-20
 author: Krzysztof Owsiany
 layout: post
 permalink: programowanie-reaktywne-kombinatorzy-start-with
-published: true
+published: false
 comments: true        
 image: /assets/images/2018/02/programowanie-reaktywne/kombinatorzy-start-with/post.jpg
 image_big: /assets/images/2018/02/programowanie-reaktywne/kombinatorzy-start-with/post-big.jpg

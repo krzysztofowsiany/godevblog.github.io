@@ -1,6 +1,6 @@
 ---
 title: Programowanie Reaktywne - Kombinatorzy - Repeat.
-date: 2018-02-18
+date: 2018-02-19
 author: Krzysztof Owsiany
 layout: post
 permalink: programowanie-reaktywne-kombinatorzy-repeat
