@@ -96,5 +96,3 @@ Następny: **[Programowanie Reaktywne - Kombinatorzy - Merge][next]**
 
 [image1]: /assets/images/2018/02/programowanie-reaktywne/kombinatorzy-ambiguous/image1.jpg
 [image1-big]: /assets/images/2018/02/programowanie-reaktywne/kombinatorzy-ambiguous/image1-big.jpg
-
-[devwarsztaty.pl]: http://devwarsztaty.pl/warsztaty/2018-02-24-wro/
