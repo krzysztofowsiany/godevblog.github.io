@@ -83,7 +83,7 @@ Oczywiście w tym przypadku wszystkie wepchane obiekty **Time** zostaną wypchni
 ## Zakończenie
 **StartWith** może się okazać bardzo przydatnym operatorem, jeżeli będziemy chcieli mieć pewien rodzaj kontroli nad tym co ma znaleźć się na początku strumienia. W przeciwnym przypadku nie wiedzę zbyt przydatnego zastosowania. 
 Jednak warto wiedzieć, że można taką manipulację wykonać. 
-Jak zawsze zapraszam na **[GitHub]**.
+Jak zawsze zapraszam na **[GitHub]******.
 Do zaczytaczyska :).
 
 
@@ -92,11 +92,11 @@ Do zaczytaczyska :).
 ------
 Wcześniejszy: **[Programowanie Reaktywne - Kombinatorzy - Repeat][previous]**
 
-<!--Następny: **[Programowanie Reaktywne - Kombinatorzy - Start With][next]**-->
+Następny: **[Programowanie Reaktywne - Kombinatorzy - Ambiguous][next]**
 
 ------
 [previous]: {{site.url}}/programowanie-reaktywne-kombinatorzy-repeat
-[next]: {{site.url}}/programowanie-reaktywne-kombinatorzy-concat
+[next]: {{site.url}}/programowanie-reaktywne-kombinatorzy-ambiguous
 
 [post]: /assets/images/2018/02/programowanie-reaktywne/kombinatorzy-start-with/post.jpg
 [post-big]: /assets/images/2018/02/programowanie-reaktywne/kombinatorzy-start-with/post-big.jpg
