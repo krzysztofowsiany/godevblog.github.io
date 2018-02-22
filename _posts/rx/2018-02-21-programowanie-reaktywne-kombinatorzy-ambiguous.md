@@ -85,11 +85,11 @@ Dzięki i zapraszam na kolejne...
 ------
 Wcześniejszy: **[Programowanie Reaktywne - Kombinatorzy - Start With][previous]**
 
-<!--Następny: **[Programowanie Reaktywne - Kombinatorzy - Start With][next]**-->
+Następny: **[Programowanie Reaktywne - Kombinatorzy - Merge][next]**
 
 ------
 [previous]: {{site.url}}/programowanie-reaktywne-kombinatorzy-start-wtih
-[next]: {{site.url}}/programowanie-reaktywne-kombinatorzy-concat
+[next]: {{site.url}}/programowanie-reaktywne-kombinatorzy-merge
 
 [post]: /assets/images/2018/02/programowanie-reaktywne/kombinatorzy-ambiguous/post.jpg
 [post-big]: /assets/images/2018/02/programowanie-reaktywne/kombinatorzy-ambiguous/post-big.jpg

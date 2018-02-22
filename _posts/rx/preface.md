@@ -24,7 +24,7 @@ Zapraszam na **[GitHub-a]**{:.color_1}.
 17. [Kombinatorzy - Repeat][17]
 18. [Kombinatorzy - Start With][18]
 19. [Kombinatorzy - Ambiguous][19]
-<!--20. [Kombinatorzy - Ambiguous][20]-->
+20. [Kombinatorzy - Merge][20]
 
 ------
 
@@ -48,4 +48,4 @@ Zapraszam na **[GitHub-a]**{:.color_1}.
 [17]: {{ site.url }}/programowanie-reaktywne-kombinatorzy-repeat
 [18]: {{ site.url }}/programowanie-reaktywne-kombinatorzy-start-with
 [19]: {{ site.url }}/programowanie-reaktywne-kombinatorzy-ambiguous
-[20]: {{ site.url }}/programowanie-reaktywne-kombinatorzy-switch
+[20]: {{ site.url }}/programowanie-reaktywne-kombinatorzy-merge
