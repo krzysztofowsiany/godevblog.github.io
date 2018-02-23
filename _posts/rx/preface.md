@@ -25,6 +25,7 @@ Zapraszam na **[GitHub-a]**{:.color_1}.
 18. [Kombinatorzy - Start With][18]
 19. [Kombinatorzy - Ambiguous][19]
 20. [Kombinatorzy - Merge][20]
+21. [Kombinatorzy - Zip][21]
 
 ------
 
@@ -49,3 +50,4 @@ Zapraszam na **[GitHub-a]**{:.color_1}.
 [18]: {{ site.url }}/programowanie-reaktywne-kombinatorzy-start-with
 [19]: {{ site.url }}/programowanie-reaktywne-kombinatorzy-ambiguous
 [20]: {{ site.url }}/programowanie-reaktywne-kombinatorzy-merge
+[21]: {{ site.url }}/programowanie-reaktywne-kombinatorzy-zip

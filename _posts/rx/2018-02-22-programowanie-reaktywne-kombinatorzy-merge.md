@@ -110,11 +110,11 @@ Kończę by sobie już wstydu oszczędzić.
 ------
 Wcześniejszy: **[Programowanie Reaktywne - Kombinatorzy - Ambiguous][previous]**
 
-<!--Następny: **[Programowanie Reaktywne - Kombinatorzy - Start With][next]**-->
+Następny: **[Programowanie Reaktywne - Kombinatorzy - Zip][next]**
 
 ------
 [previous]: {{site.url}}/programowanie-reaktywne-kombinatorzy-ambiguous
-[next]: {{site.url}}/programowanie-reaktywne-kombinatorzy-concat
+[next]: {{site.url}}/programowanie-reaktywne-kombinatorzy-zip
 
 [post]: /assets/images/2018/02/programowanie-reaktywne/kombinatorzy-merge/post.jpg
 [post-big]: /assets/images/2018/02/programowanie-reaktywne/kombinatorzy-merge/post-big.jpg
