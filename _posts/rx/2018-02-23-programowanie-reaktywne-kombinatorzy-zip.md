@@ -102,11 +102,11 @@ To tyle w ten piątkowy wieczór. Po przeczytaniu posta mam cichą nadzieję, ż
 ------
 Wcześniejszy: **[Programowanie Reaktywne - Kombinatorzy - Merge][previous]**
 
-<!--Następny: **[Programowanie Reaktywne - Kombinatorzy - Start With][next]**-->
+Następny: **[Programowanie Reaktywne - Kombinatorzy - Switch][next]**
 
 ------
 [previous]: {{site.url}}/programowanie-reaktywne-kombinatorzy-merge
-[next]: {{site.url}}/programowanie-reaktywne-kombinatorzy-concat
+[next]: {{site.url}}/programowanie-reaktywne-kombinatorzy-switch
 
 [post]: /assets/images/2018/02/programowanie-reaktywne/kombinatorzy-zip/post.jpg
 [post-big]: /assets/images/2018/02/programowanie-reaktywne/kombinatorzy-zip/post-big.jpg
