@@ -1,0 +1,28 @@
+level-groups:
+  - name: Rozwój
+    levels:
+      - name: Level name
+        level: 1
+        done: true
+        prize: Browar
+        deadline: 2012-02
+
+      - name: Level 2 name
+        level: 2
+        done: false
+        prize: Browar
+        deadline: 2012-02    
+
+      - name: Level 3 name
+        level: 3
+        done: true
+        prize: Browar
+        deadline: 2012-02           
+  - name: Grupa Name
+    levels:
+      - name: Level name
+        level: 1
+        done: false
+        prize: XX
+        deadline: 2012-02    
+

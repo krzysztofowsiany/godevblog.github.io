@@ -1,0 +1,28 @@
+    <ol>
+        {% for group in site.data.levels.level-groups %}
+            <li>{{ group.name }}
+                <ul>
+                    {% for level in group.levels %}
+                        <li>
+                            <div class="level_block">
+                                <div class="level_a">
+                                    <div class="level_{{ level.level }}">{{ level.level }}</div>
+                                    {{ level.name }}.
+                                </div>
+                                <div class="level_a">
+                                    <b>Nagroda:</b> {{ level.prize }}, 
+
+                                    {% if level.done %}
+                                    <b>done:</b> {{ level.deadline }}
+                                    {% else %}
+                                    <b>deadline:</b> {{ level.deadline }}
+                                    {% endif %}
+                                </div>
+                            </div>
+                        </li>
+                    {% endfor %}
+                </ul>
+            </li>
+        {% endfor %}
+    </ol>
+   
