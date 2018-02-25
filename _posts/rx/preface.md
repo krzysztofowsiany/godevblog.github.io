@@ -27,7 +27,7 @@ Zapraszam na **[GitHub-a]**{:.color_1}.
 20. [Kombinatorzy - Merge][20]
 21. [Kombinatorzy - Zip][21]
 22. [Kombinatorzy - Switch][22]
-23. [Kombinatorzy - Switch][23]
+23. [Kombinatorzy - When-And-Then][23]
 
 ------
 
@@ -54,7 +54,7 @@ Zapraszam na **[GitHub-a]**{:.color_1}.
 [20]: {{ site.url }}/programowanie-reaktywne-kombinatorzy-merge
 [21]: {{ site.url }}/programowanie-reaktywne-kombinatorzy-zip
 [22]: {{ site.url }}/programowanie-reaktywne-kombinatorzy-switch
-[23]: {{ site.url }}/programowanie-reaktywne-kombinatorzy-
+[23]: {{ site.url }}/programowanie-reaktywne-kombinatorzy-when-and-then
 
 [24]: {{ site.url }}/programowanie-reaktywne-kombinatorzy-
 [25]: {{ site.url }}/programowanie-reaktywne-kombinatorzy-
