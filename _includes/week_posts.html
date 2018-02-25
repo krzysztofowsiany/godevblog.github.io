@@ -1,12 +1,12 @@
 <div id="content-wrapper">
   <div class="inner clearfix">
     <section id="main-content">
-      {% assign curDate = site.time | date: '%Y-%W' %}
-      
-      {% assign relevant = site.posts | except:"published","false"  %}
-      {% for post in relevant %}
-      {% assign postStartDate = post.date | date: '%s' %}
-        {% if postStartDate >= curDate %}
+        {% assign timeframe = 604800 %}
+        {% for post in site.posts %}
+          {% assign post_in_seconds = post.date | date: "%s" | plus: 0 %}
+          {% assign recent_posts = "now" | date: "%s" | minus: timeframe  %}
+        
+          {% if post_in_seconds > recent_posts %}
 
             {% assign mod = forloop.index | modulo: 2 %}
             {% if mod == 0 %}            
@@ -15,8 +15,7 @@
               {% include main-left-side.html %}
             {% endif %}
           {% endif %}
-      {% endfor %}
-      
+        {% endfor %}
     </section>
     {% include sidebar.html %}
   </div>
