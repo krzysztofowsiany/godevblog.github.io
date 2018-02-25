@@ -142,11 +142,11 @@ W obecnym projekcie na chwilę obecną nie owe metody nie są wykorzystywane. Ic
 ------
 Wcześniejszy: **[Programowanie Reaktywne - Kombinatorzy - Zip][previous]**
 
-<!--Następny: **[Programowanie Reaktywne - Kombinatorzy - Start With][next]**-->
+Następny: **[Programowanie Reaktywne - Kombinatorzy - When-And-Then][next]**
 
 ------
 [previous]: {{site.url}}/programowanie-reaktywne-kombinatorzy-zip
-[next]: {{site.url}}/programowanie-reaktywne-kombinatorzy-concat
+[next]: {{site.url}}/programowanie-reaktywne-kombinatorzy-when-and-then
 
 [post]: /assets/images/2018/02/programowanie-reaktywne/kombinatorzy-switch/post.jpg
 [post-big]: /assets/images/2018/02/programowanie-reaktywne/kombinatorzy-switch/post-big.jpg
