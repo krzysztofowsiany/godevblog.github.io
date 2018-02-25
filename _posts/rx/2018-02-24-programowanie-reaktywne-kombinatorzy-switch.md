@@ -26,7 +26,7 @@ short: Swego czasu był taki film gdzie głównie bohaterowie zamieniają się m
 
 ## Wstęp
 [![Reactive Extensions - Switch][post]][post-big]{:.post-right-image}
-Swego czasu był taki film gdzie głównie bohaterowie zamieniają się między sobą swoimi zasobami. W przypadku **Rx-ów** do czynienia mamy z metodą pozwalając przetaczać na inną usługę w przypadku gdy pierwsza zawieszę.
+Swego czasu był taki film gdzie głównie bohaterowie zamieniają się między sobą swoimi ciałami. W przypadku **Rx-ów** do czynienia mamy z metodą pozwalając przełączać się pomiędzy strumieniami. Warunkiem przełączenia jest wiek publikowanych danych.
 
 ## Observable.Switch
 Samą implementację rozpoczynam od stworzenia listy generatorów. Lista ta będzie niezbędna w procesie budowania **Switch-a**{:.color_1}. Listę trzeba uprzednio przekonwertować na odpowiedni typ. W tym przypadku będzie to typ: ```IObservable<IObservable<Randomizer>>```. Do konwertowania wykorzystujemy wbudowaną funkcjonalność w **Rx-ach**: **ToObservable**{:.color_1}.
@@ -81,7 +81,7 @@ namespace RXLib.Randomizer
 		}
 {% endhighlight %}
 
-Dodatkowo stworzyłem całą klasę o nazwie: **ObservableRandomizer**{:.color_1} zawierającą poniższy wątek jaki odpowiedzialny jest za publikowanie danych po sieci.
+Dodatkowo stworzyłem klasę o nazwie: **ObservableRandomizer**{:.color_1} zawierającą poniższy wątek jaki odpowiedzialny jest za publikowanie danych dos strumienia.
 
 {% highlight csharp linenos %}
 private void StartThread()
@@ -109,6 +109,8 @@ private void ThreadMethod()
 
 Owe działania odbywają się w wątkach. Dlatego, że aplikacja ma działać samodzielnie. Przygotowując a następnie publikując dane.
 
+Głównym celem tworzenia strumienia opartego o klasę **ObservableRandomizer**{:.color_1} jest instancja dystrybutora losowych danych (z podanego zakresu). By wprowadzić dodatkową losowość czasu publikowania danych na strumień wykorzystałem opóźnienie z losową wartością dla **Thread.Sleep**{:.color_2}.
+
 ## Zakończenie
 W trakcie rozwoju programu dotyczącego **Switch**. Napisałem dwie klasy pomocnicze, jednak nie są one obecnie wykorzystywane.
 Pierwsza z nich dodaje do strumienia **Timestamp**, a następnie go wyświetla.
@@ -135,7 +137,7 @@ public static IDisposable PrintWithTimeInterval<T>(this IObservable<T> source, s
 
 {% include_relative end.md %}
 
-W obecnym projekcie na chwilę obecną nie owe metody nie są wykorzystywane. Ich implementację napisałem w trakcie pracy nad dzisiejszym aktorem czyli metodą **Switch**{:.olor_1}.
+W obecnym projekcie na chwilę obecną nie owe metody nie są wykorzystywane. Ich implementację napisałem w trakcie pracy nad dzisiejszym aktorem czyli metodą **Switch**{:.color_1}.
 
 ------
 Wcześniejszy: **[Programowanie Reaktywne - Kombinatorzy - Zip][previous]**
