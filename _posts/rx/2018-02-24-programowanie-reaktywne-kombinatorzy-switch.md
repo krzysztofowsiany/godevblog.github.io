@@ -135,9 +135,9 @@ public static IDisposable PrintWithTimeInterval<T>(this IObservable<T> source, s
       item =>
 {% endhighlight %}
 
-{% include_relative end.md %}
-
 W obecnym projekcie na chwilę obecną nie owe metody nie są wykorzystywane. Ich implementację napisałem w trakcie pracy nad dzisiejszym aktorem czyli metodą **Switch**{:.color_1}.
+
+{% include_relative end.md %}
 
 ------
 Wcześniejszy: **[Programowanie Reaktywne - Kombinatorzy - Zip][previous]**

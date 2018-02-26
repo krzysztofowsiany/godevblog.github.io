@@ -94,14 +94,16 @@ Plecionka jaką zbudujemy przy wykorzystaniu powyższych operatorów, może być
 
 Może mieć też zastosowanie nieco inne, po splocie może się przydać gdy kolejny raz już przyjdzie się "powiesić" na wskutek walki ze środowiskami ;)....
 
+{% include_relative end.md %}
+
 ------
 Wcześniejszy: **[Programowanie Reaktywne - Kombinatorzy - Switch][previous]**
 
-<!--Następny: **[Programowanie Reaktywne - Kombinatorzy - Start With][next]**-->
+Następny: **[Programowanie Reaktywne - Kombinatorzy - Combine Latest][next]**
 
 ------
 [previous]: {{site.url}}/programowanie-reaktywne-kombinatorzy-switch
-[next]: {{site.url}}/programowanie-reaktywne-kombinatorzy-concat
+[next]: {{site.url}}/programowanie-reaktywne-kombinatorzy-combine-latest
 
 [post]: /assets/images/2018/02/programowanie-reaktywne/kombinatorzy-when-and-then/post.jpg
 [post-big]: /assets/images/2018/02/programowanie-reaktywne/kombinatorzy-when-and-then/post-big.jpg
