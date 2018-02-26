@@ -1,7 +1,7 @@
 ----
 Artykuł ten jest częścią serii artykułów na temat **Programowania reaktywnego**.
 
-Zapraszam na **[GitHub-a]**{:.color_1}.
+Zapraszam na **[GitHub-a]**.
  
 **Tematy**
 
@@ -28,6 +28,7 @@ Zapraszam na **[GitHub-a]**{:.color_1}.
 21. [Kombinatorzy - Zip][21]
 22. [Kombinatorzy - Switch][22]
 23. [Kombinatorzy - When-And-Then][23]
+24. [Kombinatorzy - Combine Latest][24]
 
 ------
 
@@ -55,8 +56,8 @@ Zapraszam na **[GitHub-a]**{:.color_1}.
 [21]: {{ site.url }}/programowanie-reaktywne-kombinatorzy-zip
 [22]: {{ site.url }}/programowanie-reaktywne-kombinatorzy-switch
 [23]: {{ site.url }}/programowanie-reaktywne-kombinatorzy-when-and-then
+[24]: {{ site.url }}/programowanie-reaktywne-kombinatorzy-combine-latest
 
-[24]: {{ site.url }}/programowanie-reaktywne-kombinatorzy-
 [25]: {{ site.url }}/programowanie-reaktywne-kombinatorzy-
 [26]: {{ site.url }}/programowanie-reaktywne-kombinatorzy-
 [27]: {{ site.url }}/programowanie-reaktywne-kombinatorzy-
