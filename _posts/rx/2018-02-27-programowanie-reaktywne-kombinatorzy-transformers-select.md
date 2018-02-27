@@ -1,6 +1,6 @@
 ---
 title: Programowanie Reaktywne - Transformers - Select.
-date: 2018-02-26
+date: 2018-02-27
 author: Krzysztof Owsiany
 layout: post
 permalink: programowanie-reaktywne-transformers-select
