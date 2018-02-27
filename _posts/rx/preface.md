@@ -30,6 +30,7 @@ Zapraszam na **[GitHub-a]**.
 23. [Kombinatorzy - When-And-Then][23]
 24. [Kombinatorzy - Combine Latest][24]
 25. [Transformers - Select][25]
+
 ------
 
 [1]: {{ site.url }}/programowanie-reaktywne-wstep
