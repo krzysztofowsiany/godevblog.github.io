@@ -86,11 +86,11 @@ Dzisiaj dziękuję za poświęcony czas.
 ------
 Wcześniejszy: **[Programowanie Reaktywne - Kombinatorzy - When-And-Then][previous]**
 
-<!--Następny: **[Programowanie Reaktywne - Kombinatorzy - Start With][next]**-->
+Następny: **[Programowanie Reaktywne - Transformers - Select][next]**
 
 ------
 [previous]: {{site.url}}/programowanie-reaktywne-kombinatorzy-when-and-then
-[next]: {{site.url}}/programowanie-reaktywne-kombinatorzy-concat
+[next]: {{site.url}}/programowanie-reaktywne-transformers-select
 
 [post]: /assets/images/2018/02/programowanie-reaktywne/kombinatorzy-combine-latest/post.jpg
 [post-big]: /assets/images/2018/02/programowanie-reaktywne/kombinatorzy-combine-latest/post-big.jpg
