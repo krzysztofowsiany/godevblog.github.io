@@ -69,11 +69,11 @@ Wówczas opisałem na szybko działanie, ze względu na potrzebę użycia. Pozos
 ------
 Wcześniejszy: **[Programowanie Reaktywne - Kombinatorzy - Combine Latest][previous]**
 
-<!--Następny: **[Programowanie Reaktywne - Kombinatorzy - Start With][next]**-->
+Następny: **[Programowanie Reaktywne - Transformers - OfType and Cast][next]**
 
 ------
 [previous]: {{site.url}}/programowanie-reaktywne-kombinatorzy-combine-latest
-[next]: {{site.url}}/programowanie-reaktywne-kombinatorzy-concat
+[next]: {{site.url}}/programowanie-reaktywne-transformers-of-type-and-cast
 
 [Timestamp/TimeInterval]: {{site.url}}/programowanie-reaktywne-zabawa-z-czasem-timestamp-and-timeinterval
 
