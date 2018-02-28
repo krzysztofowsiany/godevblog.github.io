@@ -30,6 +30,7 @@ Zapraszam na **[GitHub-a]**.
 23. [Kombinatorzy - When-And-Then][23]
 24. [Kombinatorzy - Combine Latest][24]
 25. [Transformers - Select][25]
+26. [Transformers - OfType and Cast][26]
 
 ------
 
@@ -58,9 +59,9 @@ Zapraszam na **[GitHub-a]**.
 [22]: {{ site.url }}/programowanie-reaktywne-kombinatorzy-switch
 [23]: {{ site.url }}/programowanie-reaktywne-kombinatorzy-when-and-then
 [24]: {{ site.url }}/programowanie-reaktywne-kombinatorzy-combine-latest
-
 [25]: {{ site.url }}/programowanie-reaktywne-transformers-select
-[26]: {{ site.url }}/programowanie-reaktywne-kombinatorzy-
+[26]: {{ site.url }}/programowanie-reaktywne-transformers-of-type-and-cast
+
 [27]: {{ site.url }}/programowanie-reaktywne-kombinatorzy-
 [28]: {{ site.url }}/programowanie-reaktywne-kombinatorzy-
 [29]: {{ site.url }}/programowanie-reaktywne-kombinatorzy-
