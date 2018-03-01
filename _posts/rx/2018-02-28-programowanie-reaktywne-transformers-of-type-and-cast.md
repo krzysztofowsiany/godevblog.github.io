@@ -116,11 +116,11 @@ Kończąc na dzisiaj, zapraszam do jutra na kolejny post.
 ------
 Wcześniejszy: **[Programowanie Reaktywne - Transformers - Select][previous]**
 
-<!--Następny: **[Programowanie Reaktywne - Kombinatorzy - Start With][next]**-->
+Następny: **[Programowanie Reaktywne - Transformers - Metadata][next]**
 
 ------
 [previous]: {{site.url}}/programowanie-reaktywne-transformers-select
-[next]: {{site.url}}/programowanie-reaktywne-kombinatorzy-concat
+[next]: {{site.url}}/programowanie-reaktywne-transformers-metadata
 
 [post]: /assets/images/2018/02/programowanie-reaktywne/transformers-of-type-and-cast/post.jpg
 [post-big]: /assets/images/2018/02/programowanie-reaktywne/transformers-of-type-and-cast/post-big.jpg

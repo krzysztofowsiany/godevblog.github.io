@@ -31,6 +31,7 @@ Zapraszam na **[GitHub-a]**.
 24. [Kombinatorzy - Combine Latest][24]
 25. [Transformers - Select][25]
 26. [Transformers - OfType and Cast][26]
+27. [Transformers - Metadata][27]
 
 ------
 
@@ -61,8 +62,8 @@ Zapraszam na **[GitHub-a]**.
 [24]: {{ site.url }}/programowanie-reaktywne-kombinatorzy-combine-latest
 [25]: {{ site.url }}/programowanie-reaktywne-transformers-select
 [26]: {{ site.url }}/programowanie-reaktywne-transformers-of-type-and-cast
+[27]: {{ site.url }}/programowanie-reaktywne-transformers-metadata
 
-[27]: {{ site.url }}/programowanie-reaktywne-kombinatorzy-
-[28]: {{ site.url }}/programowanie-reaktywne-kombinatorzy-
-[29]: {{ site.url }}/programowanie-reaktywne-kombinatorzy-
-[30]: {{ site.url }}/programowanie-reaktywne-kombinatorzy-
+[28]: {{ site.url }}/programowanie-reaktywne--
+[29]: {{ site.url }}/programowanie-reaktywne--
+[30]: {{ site.url }}/programowanie-reaktywne--
