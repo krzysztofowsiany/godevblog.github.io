@@ -6,8 +6,8 @@ layout: post
 permalink: programowanie-reaktywne-transformers-metadata
 published: true
 comments: true        
-image: /assets/images/2018/02/programowanie-reaktywne/transformers-metadata/post.jpg
-image_big: /assets/images/2018/02/programowanie-reaktywne/transformers-metadata/post-big.jpg
+image: /assets/images/2018/03/programowanie-reaktywne/transformers-metadata/post.jpg
+image_big: /assets/images/2018/03/programowanie-reaktywne/transformers-metadata/post-big.jpg
 categories:
   - Programowanie Reaktywne
   - '30 day challenge'
@@ -126,14 +126,14 @@ Dziękuję za czytactwo i zapraszam do śledzenia moich blogowych poczynań...
 ------
 Wcześniejszy: **[Programowanie Reaktywne - Transformers - OfType and Cast][previous]**
 
-<!--Następny: **[Programowanie Reaktywne - Kombinatorzy - Start With][next]**-->
+Następny: **[Programowanie Reaktywne - Bileciki do kontroli - Unit Tests of Interval][next]**
 
 ------
 [previous]: {{site.url}}/programowanie-reaktywne-transformers-of-type-and-cast
-[next]: {{site.url}}/programowanie-reaktywne-kombinatorzy-concat
+[next]: {{site.url}}/programowanie-reaktywne-bileciki-do-kontroli-unit-tests-of-interval
 
-[post]: /assets/images/2018/02/programowanie-reaktywne/transformers-metadata/post.jpg
-[post-big]: /assets/images/2018/02/programowanie-reaktywne/transformers-metadata/post-big.jpg
+[post]: /assets/images/2018/03/programowanie-reaktywne/transformers-metadata/post.jpg
+[post-big]: /assets/images/2018/03/programowanie-reaktywne/transformers-metadata/post-big.jpg
 
-[image1]: /assets/images/2018/02/programowanie-reaktywne/transformers-metadata/image1.jpg
-[image1-big]: /assets/images/2018/02/programowanie-reaktywne/transformers-metadata/image1-big.jpg
+[image1]: /assets/images/2018/03/programowanie-reaktywne/transformers-metadata/image1.jpg
+[image1-big]: /assets/images/2018/03/programowanie-reaktywne/transformers-metadata/image1-big.jpg
