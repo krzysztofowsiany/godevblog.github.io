@@ -1,6 +1,6 @@
 ---
 title: Programowanie Reaktywne - Kombinatorzy - When-And-Then.
-date: 2018-02-26
+date: 2018-03-04
 author: Krzysztof Owsiany
 layout: post
 permalink: programowanie-reaktywne-kombinatorzy-when-and-then
