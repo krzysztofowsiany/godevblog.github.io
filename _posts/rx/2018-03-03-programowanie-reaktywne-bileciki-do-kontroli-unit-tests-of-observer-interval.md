@@ -123,11 +123,11 @@ Dobrym tutaj podejściem było by pisanie testów przed implementacją, i nawet 
 ------
 Wcześniejszy: **[Programowanie Reaktywne - Transformers - OfType and Cast][previous]**
 
-<!--Następny: **[Programowanie Reaktywne - Kombinatorzy - Start With][next]**-->
+Następny: **[Programowanie Reaktywne - Bileciki do kontroli - Unit Tests of Observer Interval][next]**
 
 ------
 [previous]: {{site.url}}/programowanie-reaktywne-bileciki-do-kontroli-unit-tests-of-interval
-[next]: {{site.url}}/programowanie-reaktywne-bileciki-do-kontroli-unit-tests-of-interval
+[next]: {{site.url}}/programowanie-reaktywne-bileciki-do-kontroli-unit-tests-of-create-cold-hot-observable
 
 [post]: /assets/images/2018/03/programowanie-reaktywne/bileciki-do-kontroli-unit-tests-of-observer-interval/post.jpg
 [post-big]: /assets/images/2018/03/programowanie-reaktywne/bileciki-do-kontroli-unit-tests-of-observer-interval/post-big.jpg
