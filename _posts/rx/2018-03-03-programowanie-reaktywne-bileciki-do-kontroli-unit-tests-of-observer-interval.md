@@ -24,7 +24,7 @@ tags:
   - Tests
   - TDD
   - Test-Driven Development
-short: Nie
+short: Dzisiaj postanowiłem kontynuować wczorajszą tematykę. Czyli testowanie. W przypadku Rx-ów nie jest to takie proste. Ze względu na potrzebę kontroli nad procesem publikowania danych na strumień.
 ---
 {% include_relative preface.md %}
 
