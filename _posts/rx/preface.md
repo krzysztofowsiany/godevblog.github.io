@@ -2,7 +2,7 @@
 Artykuł ten jest częścią serii artykułów na temat **Programowania reaktywnego**.
 
 Zapraszam na **[GitHub-a]**.
- 
+
 **Tematy**
 
 1. [Wstęp][1]
@@ -33,7 +33,8 @@ Zapraszam na **[GitHub-a]**.
 26. [Transformers - OfType and Cast][26]
 27. [Transformers - Metadata][27]
 28. [Bileciki do kontroli - Unit Tests of Interval][28]
-28. [Bileciki do kontroli - Unit Tests of Observer Interval][28]
+29. [Bileciki do kontroli - Unit Tests of Observer Interval][29]
+30. [Bileciki do kontroli - Unit Tests of Create Cold/Hot Observable][30]
 
 ------
 
@@ -67,6 +68,5 @@ Zapraszam na **[GitHub-a]**.
 [27]: {{ site.url }}/programowanie-reaktywne-transformers-metadata
 [28]: {{ site.url }}/programowanie-reaktywne-bileciki-do-kontroli-unit-tests-of-interval
 [29]: {{ site.url }}/programowanie-reaktywne-bileciki-do-kontroli-unit-tests-of-interval
-
-[30]: {{ site.url }}/programowanie-reaktywne-bileciki-do-kontroli-unit-tests-of-interval
+[30]: {{ site.url }}/programowanie-reaktywne-bileciki-do-kontroli-unit-tests-of-create-cold-hot-observable
 

@@ -138,11 +138,11 @@ Testowanie to bardzo ważny aspekt wytarzania oprogramowania.  Dlatego zapewne d
 ------
 Wcześniejszy: **[Programowanie Reaktywne - Transformers - Metadata][previous]**
 
-Następny: **[Programowanie Reaktywne - Bileciki do kontroli - Unit Tests of Interval][next]**
+Następny: **[Programowanie Reaktywne - Bileciki do kontroli - Unit Tests of Observer Interval][next]**
 
 ------
 [previous]: {{site.url}}/programowanie-reaktywne-transformers-metadata
-[next]: {{site.url}}/programowanie-reaktywne-bileciki-do-kontroli-unit-tests-of-interval
+[next]: {{site.url}}/programowanie-reaktywne-bileciki-do-kontroli-unit-tests-of-observer-interval
 
 [post]: /assets/images/2018/03/programowanie-reaktywne/bileciki-do-kontroli-unit-tests-of-interval/post.jpg
 [post-big]: /assets/images/2018/03/programowanie-reaktywne/bileciki-do-kontroli-unit-tests-of-interval/post-big.jpg
