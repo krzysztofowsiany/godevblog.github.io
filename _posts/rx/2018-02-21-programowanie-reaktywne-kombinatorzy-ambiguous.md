@@ -13,6 +13,8 @@ categories:
   - '30 day challenge'
   - Programowanie
   - Reactive Extensions
+  - C#
+  - Rx
 tags:
   - Reactive Extensions
   - Observer
