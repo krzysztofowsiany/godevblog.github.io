@@ -9,6 +9,8 @@ Wszelkie źródła związane z postami znajdują się na repozytorium **[GitHub]
 
 **Stan obecny wyzwania**{:.color_1}: **30**{:.color_2} z **30**{:.color_2} dni.
 
+{% include subscribe_form_bottom_post.html %}
+
 {% include_relative refs.md %}
  
 [GitHub-ie]: https://github.com/godevblog/30DayChallenge.git 
@@ -16,5 +18,4 @@ Wszelkie źródła związane z postami znajdują się na repozytorium **[GitHub]
 [GitHub]: https://github.com/godevblog/30DayChallenge.git
 [MIROBURN]: http://trzypoziomy.pl
 [vlogu]: https://www.youtube.com/watch?v=7CPtT7nMI-w
-
 [YT]: https://www.youtube.com/user/TheGocom/videos
