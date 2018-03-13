@@ -35,6 +35,7 @@ Zapraszam na **[GitHub-a]**.
 28. [Bileciki do kontroli - Unit Tests of Interval][28]
 29. [Bileciki do kontroli - Unit Tests of Observer Interval][29]
 30. [Bileciki do kontroli - Unit Tests of Create Cold/Hot Observable][30]
+31. [Szpryca - AutoFac.][31]
 
 ------
 
@@ -69,4 +70,5 @@ Zapraszam na **[GitHub-a]**.
 [28]: {{ site.url }}/programowanie-reaktywne-bileciki-do-kontroli-unit-tests-of-interval
 [29]: {{ site.url }}/programowanie-reaktywne-bileciki-do-kontroli-unit-tests-of-interval
 [30]: {{ site.url }}/programowanie-reaktywne-bileciki-do-kontroli-unit-tests-of-create-cold-hot-observable
+[31]: {{ site.url }}/programowanie-reaktywne-szpryca-auto-fac
 
