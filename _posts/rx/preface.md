@@ -35,7 +35,7 @@ Zapraszam na **[GitHub-a]**.
 28. [Bileciki do kontroli - Unit Tests of Interval][28]
 29. [Bileciki do kontroli - Unit Tests of Observer Interval][29]
 30. [Bileciki do kontroli - Unit Tests of Create Cold/Hot Observable][30]
-31. [Szpryca - AutoFac.][31]
+31. [Szpryca - AutoFac][31]
 
 ------
 
