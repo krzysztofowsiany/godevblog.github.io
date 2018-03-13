@@ -27,13 +27,13 @@ tags:
   - Test-Driven Development
   - Create Hot Observable
   - Create Cold Observable
-short: W ostatnim poście wyzwania poruszę ponownie tematykę związaną z testowanie. Dzisiaj wejdziemy jeszcze głębiej i przetestujemy dokładniej co się dzieje w trakcie odbierania danych od dystrybutora. Zapraszam do czytania.
+short: W ostatnim poście wyzwania poruszę ponownie tematykę związaną z testowanie. Dzisiaj wejdziemy jeszcze głębiej i przetestujemy dokładniej co się dzieje w trakcie odbierania danych od dystrybutora. Zapraszam do absorbowania treści.
 ---
 {% include_relative preface.md %}
 
 ## Wstęp
 [![Reactive Extensions - CreateHotObservable][post]][post-big]{:.post-left-image}
-W ostatnim poście wyzwania poruszę ponownie tematykę związaną z testowanie. Dzisiaj wejdziemy jeszcze głębiej i przetestujemy dokładniej co się dzieje w trakcie odbierania danych od dystrybutora. Zapraszam do czytania.
+W ostatnim poście wyzwania poruszę ponownie tematykę związaną z testowanie. Dzisiaj wejdziemy jeszcze głębiej i przetestujemy dokładniej co się dzieje w trakcie odbierania danych od dystrybutora. Zapraszam do absorbowania treści.
 
 ## CreateColdObservable i CreateHotObservable
 Na tapetę wybrałem dzisiaj dwa sposoby tworzenia obiektów obserwowanych:
@@ -262,11 +262,11 @@ Jestem obecnie skłonny choć w małym stopniu poczuć się jak **[Gutek]** w je
 ------
 Wcześniejszy: **[Programowanie Reaktywne - Bileciki do kontroli - Unit Tests of Observer Interval][previous]**
 
-<!--Następny: **[Programowanie Reaktywne - Kombinatorzy - Start With][next]**-->
+Następny: **[Programowanie Reaktywne - Szpryca - AutoFac][next]**
 
 ------
 [previous]: {{site.url}}/programowanie-reaktywne-bileciki-do-kontroli-unit-tests-of-observer-interval
-[next]: {{site.url}}/programowanie-reaktywne-kombinatorzy-concat
+[next]: {{site.url}}/programowanie-reaktywne-szpryca-auto-fac
 
 [post]: /assets/images/2018/03/programowanie-reaktywne/bileciki-do-kontroli-unit-tests-of-create-cold-hot-observable/post.jpg
 [post-big]: /assets/images/2018/03/programowanie-reaktywne/bileciki-do-kontroli-unit-tests-of-create-cold-hot-observable/post-big.jpg
