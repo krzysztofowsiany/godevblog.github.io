@@ -32,8 +32,8 @@ Ruszyłem z przygotowaniami mojej prezentacji: **Reactive Extensions - wzorzec o
 Niespodziewanie, bardzo mi się przydało doświadczenie jakie zdobyłem podczas 30-dniowego wyzwania.
 
 Rozrzuciłem na ścianie wszystkie pojęcia, słowa jakie mi przyszły do głowy dotyczące tematu. I przez pewien czas tak to zostało, czasem dokładałem coś jeszcze. 
-Jak już odniosłem, wrażenie, że więcej nic z siebie nie wyduszę to zrobiłem z tych pojęć, grupy (**Bounding Context**). Miałem  dzięki temu pogląd jakie slajdy chcę zbudować.
-Kolejnym krokiem było rozdysponowanie czasu na: wstęp, zakończenie, prezentację typowo związaną z tematykę oraz livecoding:
+Jak już odniosłem wrażenie, że więcej nic z siebie nie wyduszę to zrobiłem z tych pojęć grupy (**Bounding Context**). Miałem  dzięki temu pogląd jakie slajdy chcę zbudować.
+Kolejnym krokiem było rozdysponowanie czasu na: wstęp, zakończenie, prezentację typowo związaną z tematyką oraz livecoding:
 * Wstęp 2x3 minuty,
 * Teoria 4x3 minuty,
 * Livecoding 8x3 minuty,
@@ -41,28 +41,28 @@ Kolejnym krokiem było rozdysponowanie czasu na: wstęp, zakończenie, prezentac
 
 Łącznie daje to 45 minut.
 
-Kolejnym etapem było zbudowanie mięcha, przykładów. Powstało ich 5. Wszystkie poszły na [github-a].
+Kolejnym etapem było zbudowanie mięcha - przykładów. Powstało ich 5. Wszystkie poszły na [github-a].
 
 Na końcu zabrałem się za stworzenie samej prezentacji.
 
-Po wszystkich przygotowaniach, pora na przetestowanie tej implementacji.
-Okazało się, że zdołam pokazać nie 5, nie 3 a tylko 1 przykład, i to z lekkim nagięciem czasu.
+Po wszystkich przygotowaniach pora na przetestowanie tej implementacji.
+Okazało się, że zdołam pokazać nie 5, nie 3 a tylko 1 przykład i to z lekkim nagięciem czasu.
 
 Skutkiem tego było zmniejszenie czasu poświęconego na slajdy.
 
-Po pierwszych testach mogłem już trenować. I tutaj rozplanowałem  sobie co i kiedy.
+Po pierwszych testach mogłem już trenować. I tutaj rozplanowałem sobie co i kiedy.
 
 Ten plan dowiozłem do końca. Jednak lekko ucierpiało na tym moje gardło:)
 
-Nigdy wcześniej nie byłem tak dobrze przygotowany do prezentacji, ale także skala wydarzenia dla mnie nie była  jeszcze tak duża:)
+Nigdy wcześniej nie byłem tak dobrze przygotowany do prezentacji, ale także skala wydarzenia dla mnie nie była jeszcze tak duża:)
 
 ## Konferencja i before
 [![4Developers][image2]][image2-big]{:.post-left-image}
-Dzień wyjazdu na konferencje był lekko zwariowany, najpierw trenowanie prezentacji, potem bieg na 10km, super szybkie ogarnięcie się po biegu, i wyjazd do warszawy. 330km:)
+Dzień wyjazdu na konferencję był lekko zwariowany, najpierw trenowanie prezentacji, potem bieg na 10 km, super szybkie ogarnięcie się po biegu i wyjazd do Warszawy 330 km:)
 
 Udało się dotrzeć ok. godziny 21. Rejestracja, meldunek i wypad na before. Jako, że wszędzie jeżdżę z moją maskotką IT (Żona;)).
 
-Tym razem było nie inaczej, udało nam się spotkać kilu znajomych z czego jestem bardzo zadowolony.
+Tym razem było nie inaczej, udało nam się spotkać kilku znajomych z czego jestem bardzo zadowolony.
 
 9 kwietnia, w hotelu tłumy, wyjście na pierwszą prezentację dostarczoną przez **[Arka Benedykta]** -> **100% pokrycia testami, czy to jest w ogóle możliwe?**{:.color_1}.
 
@@ -70,16 +70,16 @@ Szczególnie w pamięci utkwi mi slajd przedstawiający 100% pokrycie testami pr
 
 **W planach mieliśmy jeszcze obejrzeć kilka prezentacji, jednak miałem zaplanowany trening własnej i należało go przeprowadzić, tak strzeliła godzina:)**{:.h-1}
 
-Kolejne wystąpienia jakie odwiedziliśmy, to występ Maestro **[Korsan-a]** -> **Disco.js**{:.color_1}. Super interaktywna prezentacja związana z przetwarzaniem  dźwięku w przeglądarkach z wykorzystaniem JS. Oczywiście nie miałem pojęcia, że ta technologia tak mocno się rozwinęła. To co zobaczyłem, dostarczyło mi masę wiedzy w na temat manipulacją dźwiękiem w przeglądarce:). 
+Kolejne wystąpienia jakie odwiedziliśmy, to występ Maestro **[Korsan-a]** -> **Disco.js**{:.color_1}. Super interaktywna prezentacja związana z przetwarzaniem  dźwięku w przeglądarkach z wykorzystaniem JS. Oczywiście nie miałem pojęcia, że ta technologia tak mocno się rozwinęła. To co zobaczyłem dostarczyło mi masę wiedzy w na temat manipulacją dźwiękiem w przeglądarce:). 
 
-Prezentację można spokojnie brać w kontekście inspiracji, by łamać wzorce, reguły. I dostarczać naprawdę świetne prezentacji:). Jak to mówi **Maciej**: **"Tworzenie front-end-u to sztuka, a nie programowanie."**{:.color_1}
+Prezentację można spokojnie brać w kontekście inspiracji, by łamać wzorce, reguły i dostarczać naprawdę świetne prezentacje:). Jak to mówi **Maciej**: **"Tworzenie front-end-u to sztuka, a nie programowanie."**{:.color_1}
 
 Nie mogłem oczywiście pominąć prezentacji o wielorybach jaką przygotowali wspólnie **[Piotr Gankiewicz]** i **[Dariusz Pawlukiewicz]** -> **Distributed .NET Core**{:.color_1}. Oczywiście się nie zawiodłem: **CQRS**, Architektura przedstawionej aplikacji, **Rancher**, **TravisCI**, etc :D. Prezentacja z dużą ilością wiedzy z naciskiem na budowanie oprogramowania na bazie mikro-serwisów i .NET Core. Nie zabrakło oczywiście automatyzacji (CI/DI).
-Jedyny minus, to temperatura w sali. Ale się nie dziwię było tyle podniesionych kontenerów w tej serwerowni, że klima nie dawała rady;) Ale to logiczne, że mikro-serwisy podnoszą poziom utylizacji serwera:)  Nawet na podłodze i w kątach się instancje znalazły;) 
+Jedyny minus, to temperatura w sali, ale się nie dziwię było tyle podniesionych kontenerów w tej serwerowni, że klima nie dawała rady;) i to logiczne, że mikro-serwisy podnoszą poziom utylizacji serwera:)  Nawet na podłodze i w kątach się instancje znalazły;) 
 
 **Tutaj pora na mój show ale o tym niżej;)**{:.color_1}
 
-Kolejny na celowniku był **[Rafała Hryniewski]** -> **ORM - the tip of an iceberg**{:.color_1}. Okazało się, że to niezły wyjadacz **SQL-owy**{:.color_1}. Wnioski oczywiście nieco zbliżone do moich. Tak jak czysty **SQL**{:.color_1} nie jest lekiem na całe zło, tak samo jest ze stosowaniem **ORM-ów**{:.color_1}. Jak zwykle sprawdza się stwierdzenie, że wszystko zależy od zastosowania. 
+Kolejny na celowniku był **[Rafał Hryniewski]** -> **ORM - the tip of an iceberg**{:.color_1}. Okazało się, że to niezły wyjadacz **SQL-owy**{:.color_1}. Wnioski oczywiście nieco zbliżone do moich. Tak jak czysty **SQL**{:.color_1} nie jest lekiem na całe zło, tak samo jest ze stosowaniem **ORM-ów**{:.color_1}. Jak zwykle sprawdza się stwierdzenie, że wszystko zależy od zastosowania. 
 
 Zainteresował mnie aspekt nowych możliwości jakie daje **SQLServe-a**{:.color_1}, np. maskowanie danych w bazie. Świetnie się nadaje do ukrywania danych. Być może bardzo przydatne w trakcie nadejścia RODO:) Oczywiście Rafał dowiózł świetną prezentację, a co ważniejsze dużo **[SQL-wej]**{:.color_1} wiedzy.
 
@@ -88,25 +88,25 @@ Na koniec prezentacja **[Radka Maziarki]** -> **CQRS w 4 krokach**{:.color_1}. W
 
 ## Moje wystąpienie
 [![4Developers][image1]][image1-big]{:.post-right-image}
-O dziwo nie denerwowałem się cały dzień. Tak na prawdę to przed samym wystąpieniem, lekko poczułem nerwy. Zapewne to były skutki przygotowania:). Niefortunnie sobie uszkodziłem odbiornik prezentera przy podpinaniu kabelka HDMI. Peszek ale działa. Kolejny problem jaki miałem to pierwszy kontakt ze zdalnym mikrofonem. Ale sobie poradziłem (I'm engineer :).
+O dziwo nie denerwowałem się cały dzień. Tak naprawdę to przed samym wystąpieniem lekko poczułem nerwy. Zapewne to były skutki przygotowania:). Niefortunnie sobie uszkodziłem odbiornik prezentera przy podpinaniu kabelka HDMI. Peszek, ale działa. Kolejny problem jaki miałem to pierwszy kontakt ze zdalnym mikrofonem, ale sobie poradziłem (I'm engineer :).
 
-Wybiła 15:15 jak w westernie, i jazda pofrunąłem. W trakcie wyczuwałem zdenerwowanie, ale to naprawdę kosmos do tego co było dawniej! Nie nauczyłem się na pamięć, wiedziałem jedynie co chcę powiedzieć i mówiłem. Po czym przeszedłem do kodowania. I w formie jaką przygotowałem było to moje ostatnie wystąpienie. Kolejne jakie przygotuję:) Będą inne. Już mam plany na refaktoryzację prezentacji! Po mimo trudności dowiozłem prezentację, pokazałem kulki:) 
+Wybiła 15:15 jak w westernie i jazda pofrunąłem. W trakcie wyczuwałem zdenerwowanie, ale to naprawdę kosmos do tego co było dawniej! Nie nauczyłem się na pamięć, wiedziałem jedynie co chcę powiedzieć i mówiłem. Po czym przeszedłem do kodowania. I w formie jaką przygotowałem było to moje ostatnie wystąpienie. Kolejne jakie przygotuję:) będą inne. Już mam plany na refaktoryzację prezentacji! Po mimo trudności dowiozłem prezentację, pokazałem kulki:) 
 Kończąc poprosiłem o krytyczny feedback jako podkreślając na końcu, że mi się przyda bo to moja pierwsza prelekcja na taką skalę i w takich warunkach.
 Oczywiście mam dużą nadzieję, żę nie ostatnia:)
 Brawa były - nie było źle. Nikt nie buczał. Nawet były osoby, którym się podobało :)
-Feadback też dostałem, indywidualnie, niestety nie wiem tak na prawdę od kogo. Ale z góry dziękuję.
+Feedback też dostałem indywidualnie, niestety nie wiem tak na prawdę od kogo. Ale z góry dziękuję.
 
 ## Wnioski
-Z czasem jaki upływa od mojej prelekcji, coraz bardziej uświadamiam sobie co się stało. I moje zadowolenie bardzo rośnie!!! Prawda jest taka, że już się nie mogę doczekać kolejnej edycji i zgłoszenia tematów:) Zdecydowanie myślę, też o wystąpieniu w innych miejscach. **[Nawet mam już zabukowane terminy na kilku grupach .NET:)][prelekcje]**
+Z czasem, jaki upływa od mojej prelekcji, coraz bardziej uświadamiam sobie co się stało. I moje zadowolenie bardzo rośnie!!! Prawda jest taka, że już się nie mogę doczekać kolejnej edycji i zgłoszenia tematów:) Zdecydowanie myślę, też o wystąpieniu w innych miejscach. **[Nawet mam już zabukowane terminy na kilku grupach .NET:)][prelekcje]**
 
-Mówiąc po cichu, planowałem w tym roku wystąpić na jakiejś konferencji. Taki cel jeden z celów na 2018. Kto by pomyślał, że zostanie zrealizowany już w pierwszym kwartale. I to jeszcze w takiej skali:)
+Mówiąc po cichu, planowałem w tym roku wystąpić na jakiejś konferencji. Taki cel jeden z celów na 2018. Kto by pomyślał, że zostanie zrealizowany już w drugim kwartale. I to jeszcze w takiej skali:)
 
-Pozostaje, nanieść poprawki i koko-jumbo i do przodu:)
+Pozostaje nanieść poprawki i koko-jumbo i do przodu:)
 
 ## Podziękowania
-Kończąc chciałbym podziękować za to, że mogłem wystąpić w zasadzie należy się to głównie opiekunowi ścieżek .NET na 4Developers **[Maciejowi]**. Za to, że nie wiem Bóg Perun uderzył w niego piorunem i wybrał między innymi mój temat:). A tak naprawdę to za to, że wyciągnął Mnie i wiele innych osób z piwnicy:). **Inspiruje!**{:.color_1} **Motywuje!**{:.color_1} **Stylizuje!**{:.color_1}
+Kończąc chciałbym podziękować za to, że mogłem wystąpić, w zasadzie należy się to głównie opiekunowi ścieżek .NET na 4Developers **[Maciejowi]**. Za to, że nie wiem, Bóg Perun uderzył w niego piorunem i wybrał między innymi mój temat:). A tak naprawdę to za to, że wyciągnął mnie i wiele innych osób z piwnicy:). **Inspiruje!**{:.color_1} **Motywuje!**{:.color_1} **Stylizuje!**{:.color_1}
 
-Zdecydowanie, podziękowania też należą się mojej Żonie. Za cierpliwość oraz za to, że w chwilach zwątpienie, potrafi mnie opie...... I zmotywować do działania:)
+Zdecydowanie podziękowania też należą się mojej żonie. Za cierpliwość oraz za to, że w chwilach zwątpienia, potrafi mnie opie...... i zmotywować do działania:)
 
 Podziękowania też należą się organizatorom **[4Developers]**, za organizację tak dużej konferencji.
 
