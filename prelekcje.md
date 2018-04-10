@@ -8,11 +8,16 @@ layout: page
 
 # 2018
 ## Prelekcje
-* 9 kwiecień 2018: Warszaw, **[4Developers]**, **Reactive Extensions - wzorzec obserwatora, czyli programowanie sterowane zdarzeniami**{:.color_1}. 
+**Reactive Extensions - wzorzec obserwatora, czyli programowanie sterowane zdarzeniami**{:.color_1}:
+* 9 kwiecień 2018: Warszaw, **[4Developers]**, 
+* 17 kwiecień 2018: **[Wrocławska Grupa .NET][wrocnet]**,
+* 16 maja 2018: **[Białostocka Grupa .NET][bstoknet]**, 
+* 13 grudzień 2018: **[Rzeszowska Grupa Dev][rg-dev]**.
 
 
 ## devWarsztaty
 * 24 luty 2018: Wrocław, **[PGS]**, **[GIT - TDD - DOJO]**.
+* 13 maja 2018: Warszaw, **[PGS]**, **[GIT - TDD - DOJO]**.
 
 
 # 2017
@@ -31,3 +36,7 @@ layout: page
 [grywalizacja2]: https://youtu.be/94JwR8Bnnuo
 [programistok]: http://programistok.org
 [dsp]: http://dajsiepoznac.pl
+
+[wrocnet]: https://www.meetup.com/pl-PL/wrocnet/
+[bstoknet]: https://www.facebook.com/groups/bstoknet/
+[rg-dev]: https://www.meetup.com/pl-PL/rg-dev/
