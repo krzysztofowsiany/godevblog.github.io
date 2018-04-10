@@ -41,7 +41,7 @@ Kolejnym krokiem było rozdysponowanie czasu na: wstęp, zakończenie, prezentac
 
 Łącznie daje to 45 minut.
 
-Kolejnym etapem było zbudowanie mięcha - przykładów. Powstało ich 5. Wszystkie poszły na [github-a].
+Kolejnym etapem było zbudowanie "mięcha" - przykładów. Powstało ich 5, wszystkie poszły na [github-a].
 
 Na końcu zabrałem się za stworzenie samej prezentacji.
 
