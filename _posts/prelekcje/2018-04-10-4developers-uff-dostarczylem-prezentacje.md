@@ -18,10 +18,10 @@ tags:
   - Prezentacja
   - 4Developers
   - Wstąpienie  
-short: Dawna, a nawet bardzo dawno mnie tutaj nie było po wyzwaniu od Mirka, praktycznie jeden post powstał. Czemu tak się stało? To był j ak piorun z jasnego nie ba, po moim zgłoszeniu jako prelegent na konferencje 4Developers 2018 organizowaną w Warszawie. Okazało się, że się dostałem!!!!
+short: Dawno, a nawet bardzo dawno mnie tutaj nie było po wyzwaniu od Mirka, praktycznie jeden post powstał. Czemu tak się stało? To był j ak piorun z jasnego nie ba, po moim zgłoszeniu jako prelegent na konferencje 4Developers 2018 organizowaną w Warszawie. Okazało się, że się dostałem!!!!
 ---
 
-Dawna, a nawet bardzo dawno mnie tutaj nie było po wyzwaniu od **[Mirka]**, praktycznie jeden post powstał.
+Dawno, a nawet bardzo dawno mnie tutaj nie było po wyzwaniu od **[Mirka]**, praktycznie jeden post powstał.
 Czemu tak się stało?
 To był j ak piorun z jasnego nie ba, po moim zgłoszeniu jako prelegent na konferencje 4Developers 2018 organizowaną w Warszawie. Okazało się, że się dostałem!!!!
 
