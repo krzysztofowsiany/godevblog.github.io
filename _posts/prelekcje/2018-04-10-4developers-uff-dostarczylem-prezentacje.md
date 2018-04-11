@@ -18,12 +18,12 @@ tags:
   - Prezentacja
   - 4Developers
   - Wstąpienie  
-short: Dawno, a nawet bardzo dawno mnie tutaj nie było po wyzwaniu od Mirka, praktycznie jeden post powstał. Czemu tak się stało? To był j ak piorun z jasnego nie ba, po moim zgłoszeniu jako prelegent na konferencje 4Developers 2018 organizowaną w Warszawie. Okazało się, że się dostałem!!!!
+short: Dawno, a nawet bardzo dawno mnie tutaj nie było po wyzwaniu od Mirka, praktycznie jeden post powstał. Czemu tak się stało? To był jak piorun z jasnego nie ba, po moim zgłoszeniu jako prelegent na konferencje 4Developers 2018 organizowaną w Warszawie. Okazało się, że się dostałem!!!!
 ---
 
 Dawno, a nawet bardzo dawno mnie tutaj nie było po wyzwaniu od **[Mirka]**, praktycznie jeden post powstał.
 Czemu tak się stało?
-To był j ak piorun z jasnego nie ba, po moim zgłoszeniu jako prelegent na konferencje 4Developers 2018 organizowaną w Warszawie. Okazało się, że się dostałem!!!!
+To był jak piorun z jasnego nie ba, po moim zgłoszeniu jako prelegent na konferencje 4Developers 2018 organizowaną w Warszawie. Okazało się, że się dostałem!!!!
 
 ## Prezentacja
 [![4Developers][post]][post-big]{:.post-right-image}
@@ -92,7 +92,7 @@ O dziwo nie denerwowałem się cały dzień. Tak naprawdę to przed samym wystą
 
 Wybiła 15:15 jak w westernie i jazda pofrunąłem. W trakcie wyczuwałem zdenerwowanie, ale to naprawdę kosmos do tego co było dawniej! Nie nauczyłem się na pamięć, wiedziałem jedynie co chcę powiedzieć i mówiłem. Po czym przeszedłem do kodowania. I w formie jaką przygotowałem było to moje ostatnie wystąpienie. Kolejne jakie przygotuję:) będą inne. Już mam plany na refaktoryzację prezentacji! Po mimo trudności dowiozłem prezentację, pokazałem kulki:) 
 Kończąc poprosiłem o krytyczny feedback jako podkreślając na końcu, że mi się przyda bo to moja pierwsza prelekcja na taką skalę i w takich warunkach.
-Oczywiście mam dużą nadzieję, żę nie ostatnia:)
+Oczywiście mam dużą nadzieję, że nie ostatnia:)
 Brawa były - nie było źle. Nikt nie buczał. Nawet były osoby, którym się podobało :)
 Feedback też dostałem indywidualnie, niestety nie wiem tak na prawdę od kogo. Ale z góry dziękuję.
 
