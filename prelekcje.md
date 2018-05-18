@@ -9,15 +9,14 @@ layout: page
 # 2018
 ## Prelekcje
 **Reactive Extensions - wzorzec obserwatora, czyli programowanie sterowane zdarzeniami**{:.color_1}:
-* 9 kwiecień 2018: Warszaw, **[4Developers]**, 
-* 17 kwiecień 2018: **[Wrocławska Grupa .NET][wrocnet]**,
-* 16 maja 2018: **[Białostocka Grupa .NET][bstoknet]**, 
-* 17 maja 2018: **[Warszawska Grupa .NET][wgdotnet]** ([slajdy][wgdotnet-slides]), 
 * 13 grudzień 2018: **[Rzeszowska Grupa Dev][rg-dev]**.
-
+* **17 maja 2018**{:.color_2}: **[Warszawska Grupa .NET][wgdotnet]** ([slajdy][wgdotnet-slides]), 
+* **16 maja 2018**{:.color_2}: **[Białostocka Grupa .NET][bstoknet]**, 
+* **17 kwiecień 2018**{:.color_2}: **[Wrocławska Grupa .NET][wrocnet]**,
+* **9 kwiecień 2018**{:.color_2}: **[4 Developers Warszawa]**, 
 
 ## devWarsztaty
-* 24 luty 2018: Wrocław, **[PGS]**, **[GIT - TDD - DOJO]**.
+* **24 luty 2018: Wrocław**{:.color_2}, **[PGS]**, **[GIT - TDD - DOJO]**.
 
 # 2017
 ## Prelekcje
@@ -27,7 +26,7 @@ layout: page
 * [Budowanie zaangażowania użytkowników przy wykorzystaniu Grywalizacji][grywalizacja] - [Gala Finałowa DSP 2017][dsp] - Warszawa,
 
 [GIT - TDD - DOJO]: http://devwarsztaty.pl/warsztaty/2018-02-24-wro/
-[4Developers]: https://4developers.org.pl/
+[4 Developers Warszawa]: https://4developers.org.pl/
 [PGS]: https://www.pgs-soft.com/pl/
 
 [tdd]: https://www.youtube.com/watch?v=fIwqqddJjm4&feature=youtu.be
@@ -38,8 +37,6 @@ layout: page
 
 [wrocnet]: https://www.meetup.com/pl-PL/wrocnet/
 [bstoknet]: https://www.facebook.com/groups/bstoknet/
-[wgdotnet]: https://www.facebook.com/groups/wgdotnet/
-
-[wgdotnet-slides]: /assets/slides/rx-wgdotnet.odp
-
 [rg-dev]: https://www.meetup.com/pl-PL/rg-dev/
+[wgdotnet]: https://www.facebook.com/groups/wgdotnet/
+[wgdotnet-slides]: /assets/slides/rx-wgdotnet.odp
