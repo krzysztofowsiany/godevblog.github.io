@@ -1,0 +1,708 @@
+level-groups:
+  - name: Rozwój
+    goals:
+      - name: Biegacz
+        inspire: Jacek Wiśniowski
+        base: Trzy 1/2 maratony za sobą.
+        levels:
+          - name: Korona 1/2 maratonów.
+            level: I
+            prize: 2 x Porter Bałtycki
+            done: false
+            deadline: XYZ
+
+          - name: Przebiegłem bieg Rzeznika.
+            level: II
+            prize: brak
+            done: false
+            deadline: XYZ
+
+          - name: Biegam 2 000 km w rok.
+            level: III
+            prize: brak
+            done: false
+            deadline: XYZ
+
+      - name: Vloger
+        inspire: Mirek   
+        base: Nieopublikowane próbki.
+        levels:
+          - name: Nagrywałem vloga przez 1000 dni.
+            level: I
+            prize: 2 x Porter Bałtycki
+            done: false
+            deadline: XYZ
+
+          - name: Nagrywałem vloga przez 365 dni.
+            level: II
+            prize: brak
+            done: false
+            deadline: XYZ
+
+          - name: Nagrywałem vloga przez 30 dni.
+            level: III
+            prize: brak
+            done: false
+            deadline: XYZ          
+
+      - name: Bloger
+        inspire: Gutek
+        base: Daj Się Poznać 2017
+        levels:
+          - name: Pisałem posty przez 30 dni.   
+            level: I
+            prize: 2 x Porter Bałtycki
+            done: true
+            deadline: 2018
+
+          - name: Pisałem posty przez 365 dni.
+            level: II
+            prize: brak
+            done: false
+            deadline: XYZ
+
+          - name: Pisałem posty przez 1000 dni.
+            level: III
+            prize: brak
+            done: false
+            deadline: XYZ
+
+      - name: Mnich
+        inspire: Budda
+        base: Rozmyślanie w kościele
+        levels:
+          - name: Medytowałem przez 30 dni.
+            level: I
+            prize: 2 x Porter Bałtycki
+            done: false
+            deadline: XYZ
+
+          - name: Medytowałem przez 365 dni.
+            level: II
+            prize: brak
+            done: false
+            deadline: XYZ
+
+          - name: Medytowałęm przez 1000 dni.
+            level: III
+            prize: brak
+            done: false
+            deadline: XYZ
+
+      - name: Mówca
+        inspire: Maciej Aniserowicz
+        base: 4D Warszawa, grupy .NET.
+        levels:
+          - name: Wystąpiłem przed 200 osobami.
+            level: I
+            prize: 2 x Porter Bałtycki
+            done: false
+            deadline: XYZ
+
+          - name: Wystąpiłem przed 1000 osobami.
+            level: II
+            prize: brak
+            done: false
+            deadline: XYZ
+
+          - name: Wystąpiłem przed 5000 osobami.
+            level: III
+            prize: brak
+            done: false
+            deadline: XYZ
+
+      - name: Lingwista
+        base: Samodzielna nauka.
+        inspire: bratanek
+        levels:
+          - name: Znam język angielski na poziomie komunikatywnym.
+            level: I
+            prize: 2 x Porter Bałtycki
+            done: false
+            deadline: XYZ
+
+          - name: Znam biegle język angielski.
+            level: II
+            prize: brak
+            done: false
+            deadline: XYZ
+
+          - name: Znam język angielski na poziomie C2.
+            level: III
+            prize: brak
+            done: false
+            deadline: XYZ
+  
+      - name: Bogacz
+        inspire: Bill Gates
+        base: 5 tyś PLN/miesiąc
+        levels:
+          - name: Zarabiam 20 tyś PLN/miesiąc.
+            level: I
+            prize: 2 x Porter Bałtycki
+            done: false
+            deadline: XYZ
+
+          - name: Zarabiam 100 tyś PLN/miesiąc.
+            level: II
+            prize: brak
+            done: false
+            deadline: XYZ
+
+          - name: Zarabiam 1mln PLN/miesiąc.
+            level: III
+            prize: brak
+            done: false
+            deadline: XYZ
+  
+      - name: Chudzielec
+        base: 106 kg
+        inspire: Hmm?
+        levels:
+          - name: Ważę 95kg.
+            level: I
+            prize: 2 x Porter Bałtycki
+            done: false
+            deadline: XYZ
+
+          - name: Ważę 85kg.
+            level: II
+            prize: brak
+            done: false
+            deadline: XYZ
+
+          - name: Ważę 70kg.
+            level: III
+            prize: brak
+            done: false
+            deadline: XYZ
+
+      - name: Dywersyfikator Hajsu
+        inspire: Mirek, Richard Branson
+        base: 1 żródło
+        levels:
+          - name: Mam 5 różnych źródeł dochodu.
+            level: I
+            prize: 2 x Porter Bałtycki
+            done: false
+            deadline: XYZ
+
+          - name: Mam 15 różnych źródeł dochodu.
+            level: II
+            prize: brak
+            done: false
+            deadline: XYZ
+
+          - name: Mam 40 różnych źródeł dochodu.
+            level: III
+            prize: brak
+            done: false
+            deadline: XYZ
+
+      - name: Podcaster
+        inspire: Michał Szafrański, Maciej Aniserowicz
+        base: 
+        levels:
+          - name: Nagrywam 10 podcastów. 
+            level: I
+            prize: 2 x Porter Bałtycki
+            done: false
+            deadline: XYZ
+
+          - name: Nagrywam 500 podcastów. 
+            level: II
+            prize: brak
+            done: false
+            deadline: XYZ
+
+          - name: Nagrywam 200 podcastów. 
+            level: III
+            prize: brak
+            done: false
+            deadline: XYZ
+
+      - name: Softwator
+        inspire: Michał Śliwiński
+        base: nieudane projekty
+        levels:
+          - name: Posiadam 1 tyś subskrybentów oprogramowania.
+            level: I
+            prize: 2 x Porter Bałtycki
+            done: false
+            deadline: XYZ
+
+          - name: Posiadam 50 tyś subskrybentów oprogramowania.
+            level: II
+            prize: brak
+            done: false
+            deadline: XYZ
+
+          - name: Posiadam 1 mln subskrybentów oprogramowania.
+            level: III
+            prize: brak
+            done: false
+            deadline: XYZ
+
+      - name: Hipidriver
+        inspire: Hipisi
+        base: #KOnTour
+        levels:
+          - name: Objechałem w 14 dni z żoną Polskę.
+            level: I
+            prize: 2 x Porter Bałtycki
+            done: false
+            deadline: XYZ
+
+          - name: Objechałem w 30 dni z żoną Europę Zachodnią.
+            level: II
+            prize: brak
+            done: false
+            deadline: XYZ
+
+          - name: Objechałem w 30 dni z żoną USA.
+            level: III
+            prize: brak
+            done: false
+            deadline: XYZ
+
+      - name: Pisarz
+        inspire: J.K. Rowling
+        base: Ebook z wierszami.
+        levels:
+          - name: Sprzedałem 1000 egzemplarzy książki.
+            level: I
+            prize: 2 x Porter Bałtycki
+            done: false
+            deadline: XYZ
+
+          - name: Sprzedałem 100 tyś egzemplarzy książki.
+            level: II
+            prize: brak
+            done: false
+            deadline: XYZ
+
+          - name: Sprzedałem 1 mln egzemplarzy książki.
+            level: III
+            prize: brak
+            done: false
+            deadline: XYZ            
+
+      - name: Kopter
+        inspire: 
+        base: Apache Commodore C64
+        levels:
+          - name: Odbyłem pierwszy lot helikopterem
+            level: I
+            prize: 2 x Porter Bałtycki
+            done: false
+            deadline: XYZ
+
+          - name: Zrobiłem licencję pilota.
+            level: II
+            prize: brak
+            done: false
+            deadline: XYZ
+
+          - name: Zakupiłem helikopter.
+            level: III
+            prize: brak
+            done: false
+            deadline: XYZ
+
+          - name: Latam helikopterem do domu rodzinnego 12x w roku.
+            level: IV
+            prize: brak
+            done: false
+            deadline: XYZ
+
+      - name: Zdjęciorób
+        inspire: Korsan
+        base: Sporadyczne fotki lustrzanką
+        levels:
+          - name: Zrobiłem zdjęcie co dzień przez 30 dni.
+            level: I
+            prize: 2 x Porter Bałtycki
+            done: false
+            deadline: XYZ
+
+          - name: Zrobiłem zdjęcie co dzień przez 365 dni.
+            level: II
+            prize: brak
+            done: false
+            deadline: XYZ
+
+          - name: Zrobiłem zdjęcie co dzień przez 2000 dni.
+            level: III
+            prize: brak
+            done: false
+            deadline: XYZ
+
+      - name: Biegacz
+        base: Trzy 1/2 maratony za sobą.
+        levels:
+          - name: Korona 1/2 maratonów.
+            level: I
+            prize: 2 x Porter Bałtycki
+            done: false
+            deadline: XYZ
+
+          - name: Przebiegłem bieg Rzeznika.
+            level: II
+            prize: brak
+            done: false
+            deadline: XYZ
+
+          - name: Potrafię przebiec 2 000 km w rok.
+            level: III
+            prize: brak
+            done: false
+            deadline: XYZ
+
+      - name: Pożeracz tekstu
+        base: Systematyczne czytanie codziennie
+        levels:
+          - name: 12 książek na rok.
+            level: I
+            prize: 2 x Porter Bałtycki
+            done: false
+            deadline: XYZ
+
+          - name: 52 książki na rok.
+            level: II
+            prize: brak
+            done: false
+            deadline: XYZ
+
+          - name: 120 książek na rok.
+            level: III
+            prize: brak
+            done: false
+            deadline: XYZ
+  
+      - name: Biegacz
+        base: Trzy 1/2 maratony za sobą.
+        levels:
+          - name: Korona 1/2 maratonów.
+            level: I
+            prize: 2 x Porter Bałtycki
+            done: false
+            deadline: XYZ
+
+          - name: Przebiegłem bieg Rzeznika.
+            level: II
+            prize: brak
+            done: false
+            deadline: XYZ
+
+          - name: Potrafię przebiec 2 000 km w rok.
+            level: III
+            prize: brak
+            done: false
+            deadline: XYZ
+    
+      - name: Kolekcjoner złomu
+        base: Scenik 98r.
+        levels:
+          - name: Nowy samochód.
+            level: I
+            prize: 2 x Porter Bałtycki
+            done: false
+            deadline: XYZ
+
+          - name: Posiadam Toyote Fortuner.
+            level: II
+            prize: brak
+            done: false
+            deadline: XYZ
+
+          - name: Ford Mustang Shelby GT 500 + Harley-Davidson Road King.
+            level: III
+            prize: brak
+            done: false
+            deadline: XYZ
+
+      - name: Trener
+        inspire: Maciej Aniserowicz, Piotr Gankiewicz
+        base: devarsztaty
+        levels:
+          - name: 1x w miesiącu prowadzę otwarte szkolenie.
+            level: I
+            prize: 2 x Porter Bałtycki
+            done: false
+            deadline: XYZ
+
+          - name: Stworzyłem szkolenia online.
+            level: II
+            prize: brak
+            done: false
+            deadline: XYZ
+
+          - name: Trener Bottega IT Minds
+            level: III
+            prize: brak
+            done: false
+            deadline: XYZ
+
+      - name: Podróżnik
+        inspire: 
+        base: Co roczne wyjazdy w góry i nad morze
+        levels:
+          - name: 2x w roku wyjeżdżam w polskie góry lub nad polskie morze.
+            level: I
+            prize: 2 x Porter Bałtycki
+            done: false
+            deadline: XYZ
+
+          - name: 4x w roku wyjeżdżam w polskie góry lub nad polskie morze.
+            level: II
+            prize: brak
+            done: false
+            deadline: XYZ
+
+          - name: 2x w roku wyjeżdżam za granicę na miesiąc.
+            level: III
+            prize: brak
+            done: false
+            deadline: XYZ
+
+      - name: Podrywacz
+        inspire: Ja
+        base: Sporadyczne wypady do kawiarni
+        levels:
+          - name: 1x na 6 miesięcy wychodzę z żoną na randkę. 
+            level: I
+            prize: 2 x Porter Bałtycki
+            done: false
+            deadline: XYZ
+
+          - name: 1x w miesiącu wychodzę z żoną na randkę. 
+            level: II
+            prize: brak
+            done: false
+            deadline: XYZ
+
+          - name: 1x w tygodniu wychodzę z żoną na randkę. 
+            level: III
+            prize: brak
+            done: false
+            deadline: XYZ
+
+      - name: Robol
+        inspire: Andrzej Krzywda, Michał Śliwiński
+        base: Pracuję 80% zdalnie.
+        levels:
+          - name: Pracuję 100% zdalnie.
+            level: I
+            prize: 2 x Porter Bałtycki
+            done: false
+            deadline: XYZ
+
+          - name: 100% zdalnie i tylko nad własnymi projektami.
+            level: II
+            prize: brak
+            done: false
+            deadline: XYZ
+
+          - name: Pracuję 20h/tydzień.
+            level: III
+            prize: brak
+            done: false
+            deadline: XYZ            
+  
+      - name: Mentor biznesowy
+        inspire: 
+        base: 
+        levels:
+          - name: Pomagam żonie rozkręcić biznes zarabiający 10 tyś/miesiąc.
+            level: I
+            prize: 2 x Porter Bałtycki
+            done: false
+            deadline: XYZ
+
+          - name: Pomagam bratu rozkręcić biznes zarabiający 20 tyś/miesiąc.
+            level: II
+            prize: brak
+            done: false
+            deadline: XYZ
+
+          - name: Pomagam żonie rozkręcić biznes zarabiający 50 tyś/miesiąc.
+            level: III
+            prize: brak
+            done: false
+            deadline: XYZ
+
+      - name: Król
+        inspire: Robbie Williams
+        base: 
+        levels:
+          - name: Przenocowałem z rodziną 1 noc w zamku.
+            level: I
+            prize: 2 x Porter Bałtycki
+            done: false
+            deadline: XYZ
+
+          - name: Przygotowałem projekt, wykonawców i gotówkę do budowy zamku.
+            level: II
+            prize: brak
+            done: false
+            deadline: XYZ
+
+          - name: Wybudowałem zamek i spędziłem z rodziną pierwszą noc.
+            level: III
+            prize: brak
+            done: false
+            deadline: XYZ
+
+      - name: Społecznik
+        inspire: 
+        base: Od czasu do czasu
+        levels:
+          - name: Uczestniczę w 1 spotkaniach ze znajomymi w miesiącu.
+            level: I
+            prize: 2 x Porter Bałtycki
+            done: false
+            deadline: XYZ
+
+          - name: Uczestniczę w 2 spotkaniach ze znajomymi w miesiącu.
+            level: II
+            prize: brak
+            done: false
+            deadline: XYZ
+
+          - name: Uczestniczę w 8 spotkaniach ze znajomymi w miesiącu.
+            level: III
+            prize: brak
+            done: false
+            deadline: XYZ
+  
+      - name: Talker
+        inspire: Maciej Aniserowicz, Jarek Pałka
+        base: 4D.
+        levels:
+          - name: Wystąpiłem na wszystkich polskich grupach .NET.
+            level: I
+            prize: 2 x Porter Bałtycki
+            done: false
+            deadline: XYZ
+
+          - name: Wystąpiłem na 5 konferencjach w rok z (4D, Programistok, BoilingFrogs, InfoShare, RzemiosłoIT, GreenFieldConf, BBQ4, GET.NET, Wroc#, .NET DeveloperDays)
+            level: II
+            prize: brak
+            done: false
+            deadline: XYZ
+
+          - name: Wystąpiłem na 10 konferencjach w rok (4D, Programistok, BoilingFrogs, InfoShare, RzemiosłoIT, GreenFieldConf, BBQ4, GET.NET, Wroc#, .NET DeveloperDays)
+            level: III
+            prize: brak
+            done: false
+            deadline: XYZ
+  
+      - name: Hotelarz
+        inspire: Arnold
+        base: 
+        levels:
+          - name: Posiadam mieszkania na wynajem w Lesznie.
+            level: I
+            prize: 2 x Porter Bałtycki
+            done: false
+            deadline: XYZ
+
+          - name: Posiadam mieszkania w Warszawie, Wrocławiu, Krakowie.
+            level: II
+            prize: brak
+            done: false
+            deadline: XYZ
+
+          - name: Posiadam mieszkania w (SkyTower, Złota 44, Boulevard).
+            level: III
+            prize: brak
+            done: false
+            deadline: XYZ
+    
+      - name: Konferencjer
+        base: 
+        inspire: BBQ4
+        levels:
+          - name: Organizuję 50 osobowy meetup przy ognisku.
+            level: I
+            prize: 2 x Porter Bałtycki
+            done: false
+            deadline: XYZ
+
+          - name: Organizuję 200 osobowy meetup przy ognisku.
+            level: II
+            prize: brak
+            done: false
+            deadline: XYZ
+
+          - name: Organizuję konferencję dla 1000 osób przy ognisku. 
+            level: III
+            prize: brak
+            done: false
+            deadline: XYZ
+
+      - name: Meetupper
+        inspire: 
+        base: W miare regularny wypad na WrocNet
+        levels:
+          - name: 1x w miesiącu uczestniczę w meetup-ach.
+            level: I
+            prize: 2 x Porter Bałtycki
+            done: false
+            deadline: XYZ
+
+          - name: 2x w miesiącu uczestniczę w meetup-ach.
+            level: II
+            prize: brak
+            done: false
+            deadline: XYZ
+
+          - name: 4x w miesiącu uczestniczę w meetup-ach.
+            level: III
+            prize: brak
+            done: false
+            deadline: XYZ
+
+      - name: Qń - (Kuń)
+        inspire: 
+        base: Sporadyczna dieta
+        levels:
+          - name: Sotusję dietę przez 3 miesiące w roku.
+            level: I
+            prize: 2 x Porter Bałtycki
+            done: false
+            deadline: XYZ
+
+          - name: Sotusję dietę przez 6 miesiące w roku.
+            level: II
+            prize: brak
+            done: false
+            deadline: XYZ
+
+          - name: Sotusję dietę przez 11 miesiące w roku.
+            level: III
+            prize: brak
+            done: false
+            deadline: XYZ
+
+      - name: Niejadek
+        inspire: 
+        base: 1 dniowy post
+        levels:
+          - name: 3 dniowy post 2x w roku.
+            level: I
+            prize: 2 x Porter Bałtycki
+            done: false
+            deadline: XYZ
+
+          - name: 5 dniowy post 3x w roku.
+            level: II
+            prize: brak
+            done: false
+            deadline: XYZ
+
+          - name: 30 dniowy post 1x w roku.
+            level: III
+            prize: brak
+            done: false
+            deadline: XYZ

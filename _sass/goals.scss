@@ -33,3 +33,32 @@ div.level_a {
 div.level_block {
     display: inline;
 }
+
+b.level_blue {
+    color: blue;
+}
+
+b.level_green {
+    color: green;
+}
+
+b.level_todo {
+    color: green;
+}
+
+b.level_done {
+    color: darkgreen;
+    text-decoration: line-through;
+}
+
+b.level_prize {
+    color: darkorange;
+}
+
+b.level_red{
+    color: red;
+}
+
+b.level_deadline{
+    color: darkred;
+}
