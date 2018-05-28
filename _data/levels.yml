@@ -27,7 +27,7 @@ level-groups:
         inspire: Mirek   
         base: Nieopublikowane próbki.
         levels:
-          - name: Nagrywałem vloga przez 1000 dni.
+          - name: Nagrywałem vloga przez 30 dni.
             level: I
             prize: 2 x Porter Bałtycki
             done: false
@@ -39,7 +39,7 @@ level-groups:
             done: false
             deadline: XYZ
 
-          - name: Nagrywałem vloga przez 30 dni.
+          - name: Nagrywałem vloga przez 1000 dni.
             level: III
             prize: brak
             done: false
