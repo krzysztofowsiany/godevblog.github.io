@@ -1,28 +1,707 @@
 level-groups:
   - name: Rozwój
-    levels:
-      - name: Level name
-        level: 1
-        done: true
-        prize: Browar
-        deadline: 2012-02
+    goals:
+      - name: Biegacz
+        index: 1
+        base: Trzy 1/2 maratony za sobą.
+        levels:
+          - name: Korona 1/2 maratonów.
+            level: I
+            prize: 2 x Porter Bałtycki
+            done: false
+            deadline: XYZ
 
-      - name: Level 2 name
-        level: 2
-        done: false
-        prize: Browar
-        deadline: 2012-02    
+          - name: Przebiegłem bieg Rzeznika.
+            level: II
+            prize: brak
+            done: true
+            deadline: XYZ
 
-      - name: Level 3 name
-        level: 3
-        done: true
-        prize: Browar
-        deadline: 2012-02           
-  - name: Grupa Name
-    levels:
-      - name: Level name
-        level: 1
-        done: false
-        prize: XX
-        deadline: 2012-02    
+          - name: Potrafię przebiec 2 000 km w rok.
+            level: III
+            prize: brak
+            done: false
+            deadline: XYZ
 
+      - name: Biegacz
+        index: 2
+        base: Trzy 1/2 maratony za sobą.
+        levels:
+          - name: Korona 1/2 maratonów.
+            level: I
+            prize: 2 x Porter Bałtycki
+            done: false
+            deadline: XYZ
+
+          - name: Przebiegłem bieg Rzeznika.
+            level: II
+            prize: brak
+            done: true
+            deadline: XYZ
+
+          - name: Potrafię przebiec 2 000 km w rok.
+            level: III
+            prize: brak
+            done: false
+            deadline: XYZ          
+
+
+
+      - name: Biegacz
+        index: 3
+        base: Trzy 1/2 maratony za sobą.
+        levels:
+          - name: Korona 1/2 maratonów.
+            level: I
+            prize: 2 x Porter Bałtycki
+            done: false
+            deadline: XYZ
+
+          - name: Przebiegłem bieg Rzeznika.
+            level: II
+            prize: brak
+            done: true
+            deadline: XYZ
+
+          - name: Potrafię przebiec 2 000 km w rok.
+            level: III
+            prize: brak
+            done: false
+            deadline: XYZ
+
+
+
+      - name: Biegacz
+        index: 4
+        base: Trzy 1/2 maratony za sobą.
+        levels:
+          - name: Korona 1/2 maratonów.
+            level: I
+            prize: 2 x Porter Bałtycki
+            done: false
+            deadline: XYZ
+
+          - name: Przebiegłem bieg Rzeznika.
+            level: II
+            prize: brak
+            done: true
+            deadline: XYZ
+
+          - name: Potrafię przebiec 2 000 km w rok.
+            level: III
+            prize: brak
+            done: false
+            deadline: XYZ
+
+
+      - name: Biegacz
+        index: 5
+        base: Trzy 1/2 maratony za sobą.
+        levels:
+          - name: Korona 1/2 maratonów.
+            level: I
+            prize: 2 x Porter Bałtycki
+            done: false
+            deadline: XYZ
+
+          - name: Przebiegłem bieg Rzeznika.
+            level: II
+            prize: brak
+            done: true
+            deadline: XYZ
+
+          - name: Potrafię przebiec 2 000 km w rok.
+            level: III
+            prize: brak
+            done: false
+            deadline: XYZ
+
+
+
+
+      - name: Biegacz
+        index: 6
+        base: Trzy 1/2 maratony za sobą.
+        levels:
+          - name: Korona 1/2 maratonów.
+            level: I
+            prize: 2 x Porter Bałtycki
+            done: false
+            deadline: XYZ
+
+          - name: Przebiegłem bieg Rzeznika.
+            level: II
+            prize: brak
+            done: true
+            deadline: XYZ
+
+          - name: Potrafię przebiec 2 000 km w rok.
+            level: III
+            prize: brak
+            done: false
+            deadline: XYZ
+
+  
+      - name: Biegacz
+        index: 7
+        base: Trzy 1/2 maratony za sobą.
+        levels:
+          - name: Korona 1/2 maratonów.
+            level: I
+            prize: 2 x Porter Bałtycki
+            done: false
+            deadline: XYZ
+
+          - name: Przebiegłem bieg Rzeznika.
+            level: II
+            prize: brak
+            done: true
+            deadline: XYZ
+
+          - name: Potrafię przebiec 2 000 km w rok.
+            level: III
+            prize: brak
+            done: false
+            deadline: XYZ
+
+
+  
+      - name: Biegacz
+        index: 8
+        base: Trzy 1/2 maratony za sobą.
+        levels:
+          - name: Korona 1/2 maratonów.
+            level: I
+            prize: 2 x Porter Bałtycki
+            done: false
+            deadline: XYZ
+
+          - name: Przebiegłem bieg Rzeznika.
+            level: II
+            prize: brak
+            done: true
+            deadline: XYZ
+
+          - name: Potrafię przebiec 2 000 km w rok.
+            level: III
+            prize: brak
+            done: false
+            deadline: XYZ
+
+    
+      - name: Biegacz
+        index: 9
+        base: Trzy 1/2 maratony za sobą.
+        levels:
+          - name: Korona 1/2 maratonów.
+            level: I
+            prize: 2 x Porter Bałtycki
+            done: false
+            deadline: XYZ
+
+          - name: Przebiegłem bieg Rzeznika.
+            level: II
+            prize: brak
+            done: true
+            deadline: XYZ
+
+          - name: Potrafię przebiec 2 000 km w rok.
+            level: III
+            prize: brak
+            done: false
+            deadline: XYZ
+
+
+    
+      - name: Biegacz
+        index: 10
+        base: Trzy 1/2 maratony za sobą.
+        levels:
+          - name: Korona 1/2 maratonów.
+            level: I
+            prize: 2 x Porter Bałtycki
+            done: false
+            deadline: XYZ
+
+          - name: Przebiegłem bieg Rzeznika.
+            level: II
+            prize: brak
+            done: true
+            deadline: XYZ
+
+          - name: Potrafię przebiec 2 000 km w rok.
+            level: III
+            prize: brak
+            done: false
+            deadline: XYZ
+
+
+    
+      - name: Biegacz
+        index: 11
+        base: Trzy 1/2 maratony za sobą.
+        levels:
+          - name: Korona 1/2 maratonów.
+            level: I
+            prize: 2 x Porter Bałtycki
+            done: false
+            deadline: XYZ
+
+          - name: Przebiegłem bieg Rzeznika.
+            level: II
+            prize: brak
+            done: true
+            deadline: XYZ
+
+          - name: Potrafię przebiec 2 000 km w rok.
+            level: III
+            prize: brak
+            done: false
+            deadline: XYZ
+
+
+
+      - name: Biegacz
+        index: 12
+        base: Trzy 1/2 maratony za sobą.
+        levels:
+          - name: Korona 1/2 maratonów.
+            level: I
+            prize: 2 x Porter Bałtycki
+            done: false
+            deadline: XYZ
+
+          - name: Przebiegłem bieg Rzeznika.
+            level: II
+            prize: brak
+            done: true
+            deadline: XYZ
+
+          - name: Potrafię przebiec 2 000 km w rok.
+            level: III
+            prize: brak
+            done: false
+            deadline: XYZ
+
+
+      - name: Biegacz
+        index: 13
+        base: Trzy 1/2 maratony za sobą.
+        levels:
+          - name: Korona 1/2 maratonów.
+            level: I
+            prize: 2 x Porter Bałtycki
+            done: false
+            deadline: XYZ
+
+          - name: Przebiegłem bieg Rzeznika.
+            level: II
+            prize: brak
+            done: true
+            deadline: XYZ
+
+          - name: Potrafię przebiec 2 000 km w rok.
+            level: III
+            prize: brak
+            done: false
+            deadline: XYZ            
+  
+
+      - name: Biegacz
+        index: 14
+        base: Trzy 1/2 maratony za sobą.
+        levels:
+          - name: Korona 1/2 maratonów.
+            level: I
+            prize: 2 x Porter Bałtycki
+            done: false
+            deadline: XYZ
+
+          - name: Przebiegłem bieg Rzeznika.
+            level: II
+            prize: brak
+            done: true
+            deadline: XYZ
+
+          - name: Potrafię przebiec 2 000 km w rok.
+            level: III
+            prize: brak
+            done: false
+            deadline: XYZ
+
+
+      - name: Biegacz
+        index: 15
+        base: Trzy 1/2 maratony za sobą.
+        levels:
+          - name: Korona 1/2 maratonów.
+            level: I
+            prize: 2 x Porter Bałtycki
+            done: false
+            deadline: XYZ
+
+          - name: Przebiegłem bieg Rzeznika.
+            level: II
+            prize: brak
+            done: true
+            deadline: XYZ
+
+          - name: Potrafię przebiec 2 000 km w rok.
+            level: III
+            prize: brak
+            done: false
+            deadline: XYZ
+
+
+
+
+      - name: Biegacz
+        index: 16
+        base: Trzy 1/2 maratony za sobą.
+        levels:
+          - name: Korona 1/2 maratonów.
+            level: I
+            prize: 2 x Porter Bałtycki
+            done: false
+            deadline: XYZ
+
+          - name: Przebiegłem bieg Rzeznika.
+            level: II
+            prize: brak
+            done: true
+            deadline: XYZ
+
+          - name: Potrafię przebiec 2 000 km w rok.
+            level: III
+            prize: brak
+            done: false
+            deadline: XYZ
+
+  
+      - name: Biegacz
+        index: 17
+        base: Trzy 1/2 maratony za sobą.
+        levels:
+          - name: Korona 1/2 maratonów.
+            level: I
+            prize: 2 x Porter Bałtycki
+            done: false
+            deadline: XYZ
+
+          - name: Przebiegłem bieg Rzeznika.
+            level: II
+            prize: brak
+            done: true
+            deadline: XYZ
+
+          - name: Potrafię przebiec 2 000 km w rok.
+            level: III
+            prize: brak
+            done: false
+            deadline: XYZ
+
+
+  
+      - name: Biegacz
+        index: 18
+        base: Trzy 1/2 maratony za sobą.
+        levels:
+          - name: Korona 1/2 maratonów.
+            level: I
+            prize: 2 x Porter Bałtycki
+            done: false
+            deadline: XYZ
+
+          - name: Przebiegłem bieg Rzeznika.
+            level: II
+            prize: brak
+            done: true
+            deadline: XYZ
+
+          - name: Potrafię przebiec 2 000 km w rok.
+            level: III
+            prize: brak
+            done: false
+            deadline: XYZ
+
+    
+      - name: Biegacz
+        index: 19
+        base: Trzy 1/2 maratony za sobą.
+        levels:
+          - name: Korona 1/2 maratonów.
+            level: I
+            prize: 2 x Porter Bałtycki
+            done: false
+            deadline: XYZ
+
+          - name: Przebiegłem bieg Rzeznika.
+            level: II
+            prize: brak
+            done: true
+            deadline: XYZ
+
+          - name: Potrafię przebiec 2 000 km w rok.
+            level: III
+            prize: brak
+            done: false
+            deadline: XYZ
+
+
+    
+      - name: Biegacz
+        index: 20
+        base: Trzy 1/2 maratony za sobą.
+        levels:
+          - name: Korona 1/2 maratonów.
+            level: I
+            prize: 2 x Porter Bałtycki
+            done: false
+            deadline: XYZ
+
+          - name: Przebiegłem bieg Rzeznika.
+            level: II
+            prize: brak
+            done: true
+            deadline: XYZ
+
+          - name: Potrafię przebiec 2 000 km w rok.
+            level: III
+            prize: brak
+            done: false
+            deadline: XYZ
+
+
+      - name: Biegacz
+        index: 21
+        base: Trzy 1/2 maratony za sobą.
+        levels:
+          - name: Korona 1/2 maratonów.
+            level: I
+            prize: 2 x Porter Bałtycki
+            done: false
+            deadline: XYZ
+
+          - name: Przebiegłem bieg Rzeznika.
+            level: II
+            prize: brak
+            done: true
+            deadline: XYZ
+
+          - name: Potrafię przebiec 2 000 km w rok.
+            level: III
+            prize: brak
+            done: false
+            deadline: XYZ
+
+
+
+      - name: Biegacz
+        index: 22
+        base: Trzy 1/2 maratony za sobą.
+        levels:
+          - name: Korona 1/2 maratonów.
+            level: I
+            prize: 2 x Porter Bałtycki
+            done: false
+            deadline: XYZ
+
+          - name: Przebiegłem bieg Rzeznika.
+            level: II
+            prize: brak
+            done: true
+            deadline: XYZ
+
+          - name: Potrafię przebiec 2 000 km w rok.
+            level: III
+            prize: brak
+            done: false
+            deadline: XYZ
+
+
+      - name: Biegacz
+        index: 23
+        base: Trzy 1/2 maratony za sobą.
+        levels:
+          - name: Korona 1/2 maratonów.
+            level: I
+            prize: 2 x Porter Bałtycki
+            done: false
+            deadline: XYZ
+
+          - name: Przebiegłem bieg Rzeznika.
+            level: II
+            prize: brak
+            done: true
+            deadline: XYZ
+
+          - name: Potrafię przebiec 2 000 km w rok.
+            level: III
+            prize: brak
+            done: false
+            deadline: XYZ            
+  
+
+      - name: Biegacz
+        index: 24
+        base: Trzy 1/2 maratony za sobą.
+        levels:
+          - name: Korona 1/2 maratonów.
+            level: I
+            prize: 2 x Porter Bałtycki
+            done: false
+            deadline: XYZ
+
+          - name: Przebiegłem bieg Rzeznika.
+            level: II
+            prize: brak
+            done: true
+            deadline: XYZ
+
+          - name: Potrafię przebiec 2 000 km w rok.
+            level: III
+            prize: brak
+            done: false
+            deadline: XYZ
+
+
+      - name: Biegacz
+        index: 25
+        base: Trzy 1/2 maratony za sobą.
+        levels:
+          - name: Korona 1/2 maratonów.
+            level: I
+            prize: 2 x Porter Bałtycki
+            done: false
+            deadline: XYZ
+
+          - name: Przebiegłem bieg Rzeznika.
+            level: II
+            prize: brak
+            done: true
+            deadline: XYZ
+
+          - name: Potrafię przebiec 2 000 km w rok.
+            level: III
+            prize: brak
+            done: false
+            deadline: XYZ
+
+
+
+
+      - name: Biegacz
+        index: 26
+        base: Trzy 1/2 maratony za sobą.
+        levels:
+          - name: Korona 1/2 maratonów.
+            level: I
+            prize: 2 x Porter Bałtycki
+            done: false
+            deadline: XYZ
+
+          - name: Przebiegłem bieg Rzeznika.
+            level: II
+            prize: brak
+            done: true
+            deadline: XYZ
+
+          - name: Potrafię przebiec 2 000 km w rok.
+            level: III
+            prize: brak
+            done: false
+            deadline: XYZ
+
+  
+      - name: Biegacz
+        index: 27
+        base: Trzy 1/2 maratony za sobą.
+        levels:
+          - name: Korona 1/2 maratonów.
+            level: I
+            prize: 2 x Porter Bałtycki
+            done: false
+            deadline: XYZ
+
+          - name: Przebiegłem bieg Rzeznika.
+            level: II
+            prize: brak
+            done: true
+            deadline: XYZ
+
+          - name: Potrafię przebiec 2 000 km w rok.
+            level: III
+            prize: brak
+            done: false
+            deadline: XYZ
+
+
+  
+      - name: Biegacz
+        index: 28
+        base: Trzy 1/2 maratony za sobą.
+        levels:
+          - name: Korona 1/2 maratonów.
+            level: I
+            prize: 2 x Porter Bałtycki
+            done: false
+            deadline: XYZ
+
+          - name: Przebiegłem bieg Rzeznika.
+            level: II
+            prize: brak
+            done: true
+            deadline: XYZ
+
+          - name: Potrafię przebiec 2 000 km w rok.
+            level: III
+            prize: brak
+            done: false
+            deadline: XYZ
+
+    
+      - name: Biegacz
+        index: 29
+        base: Trzy 1/2 maratony za sobą.
+        levels:
+          - name: Korona 1/2 maratonów.
+            level: I
+            prize: 2 x Porter Bałtycki
+            done: false
+            deadline: XYZ
+
+          - name: Przebiegłem bieg Rzeznika.
+            level: II
+            prize: brak
+            done: true
+            deadline: XYZ
+
+          - name: Potrafię przebiec 2 000 km w rok.
+            level: III
+            prize: brak
+            done: false
+            deadline: XYZ
+
+
+    
+      - name: Biegacz
+        index: 30
+        base: Trzy 1/2 maratony za sobą.
+        levels:
+          - name: Korona 1/2 maratonów.
+            level: I
+            prize: 2 x Porter Bałtycki
+            done: false
+            deadline: XYZ
+
+          - name: Przebiegłem bieg Rzeznika.
+            level: II
+            prize: brak
+            done: true
+            deadline: XYZ
+
+          - name: Potrafię przebiec 2 000 km w rok.
+            level: III
+            prize: brak
+            done: false
+            deadline: XYZ
