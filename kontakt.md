@@ -10,9 +10,8 @@ layout: page
       <div class="screen-reader-response">
       </div>
     </div>
-    
-    <!-- AddThis Advanced Settings generic via filter on the_content -->
-    
-    <!-- AddThis Share Buttons generic via filter on the_content -->
+      <a href="https://twitter.com/gemu_gocom">Twitter</a>
+      <br/>
+      <a href="mailto:gocom@o2.pl">gocom@o2.pl</a>
   </div>
 </div>
