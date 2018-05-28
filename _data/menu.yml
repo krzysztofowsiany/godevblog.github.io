@@ -9,6 +9,8 @@ groups:
     urls:
       - page: O mnie
         url: /o-mnie
+      - page: Cele -  Trzy Poziomy
+        url: /cele
       - page: Wystąpienia
         url: /prelekcje
       - page: Kontakt
