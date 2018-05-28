@@ -1,8 +1,8 @@
 theme: jekyll-theme-architect
-url: http://godev.gemustudio.com
+url: http://mrdev.pl
 blaze: http://blog.blazestudio.pl
-name: Good Developer
-description: Blog programistyczy.
+name: MR. Dev
+description: Blog programistyczny.
 plugins:
   - jekyll-twitter-plugin
   - jekyll-seo-tag

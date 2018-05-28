@@ -104,6 +104,13 @@ books:
     readed: 100
     recommendation: true
 
+  - title: 'Programista... I co dalej? Maciej Aniserowicz.'
+    image: /assets/images/books/programista_i_co_dalej.png
+    url: https://zawodprogramista.pl/
+    category: Więcej niż programista
+    readed: 100
+    recommendation: true
+
   - title: TDD. Sztuka tworzenia dobrego kodu. Kent Beck.
     image: /assets/images/books/tddszt.jpg
     url: http://ebookpoint.pl/view/90752/tddszt.htm
@@ -136,7 +143,7 @@ books:
     image: /assets/images/books/biegiem-przez-zycie.jpg
     url: http://skarzynski.pl/produkt/biegiem-przez-zycie/
     category: Rozwój osobisty
-    readed: 35
+    readed: 40
     recommendation: true
 
   - title: Myśl!... i bogać się. Napoleon Hill.
@@ -157,7 +164,7 @@ books:
     image: /assets/images/books/a_03u1.jpg
     url: http://ebookpoint.pl/view/90752/a_03u1.htm
     category: Rozwój osobisty
-    readed: 35
+    readed: 100
     recommendation: true
 
   - title: Narratologia. Paweł Tkaczyk.
@@ -178,7 +185,7 @@ books:
     image: /assets/images/books/mispr2.jpg
     url: http://ebookpoint.pl/view/90752/mispr2.htm
     category: Wystąpienia publiczne
-    readed: 40
-    recommendation: false
+    readed: 100
+    recommendation: true
 
 
