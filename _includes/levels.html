@@ -1,8 +1,12 @@
- {% for group in site.data.levels.level-groups %}
+{% assign index = 0 %}
+
+
+{% for group in site.data.levels.level-groups %}
 <h2>{{ group.name }}</h2>
 
 {% for goal in group.goals %}
-<h2>{{goal.index}}. 
+{% assign index = index | plus:1 %}
+<h2>{{index}}. 
     <b class='level_red'>{{ goal.name }}</b>
 </h2>
 <h3>Wyjście:
