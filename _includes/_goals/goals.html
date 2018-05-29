@@ -1,0 +1,20 @@
+{% for goal in group.goals %}
+{% assign index = index | plus:1 %}
+
+<h2>{{index}}. 
+    <b class='level_red'>{{ goal.name }}</b>
+</h2>
+
+
+<h3>Inspiracja:
+    <b class='level_inspire'>{{ goal.inspire }}</b>
+</h3>
+
+<h3>Wyjście:
+    <b class='level_blue'>{{ goal.base }}</b>
+</h3>
+
+{% include _goals/levels.html %}
+
+<br/>
+{% endfor %} 

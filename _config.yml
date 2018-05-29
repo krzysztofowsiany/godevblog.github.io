@@ -12,6 +12,8 @@ plugins:
   - jekyll-youtube
   - jekyll-feed
   
+include: ['_pages']
+
 author: Krzysztof Owsiany
 author_email: gocom@o2.pl
 

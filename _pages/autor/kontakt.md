@@ -3,6 +3,7 @@ title: Kontakt
 date: 2017-06-23T11:58:18+00:00
 author: Krzysztof Owsiany
 layout: page
+permalink: kontakt
 ---
 <div id="dslc-theme-content">
   <div id="dslc-theme-content-inner">
