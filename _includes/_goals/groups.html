@@ -1,0 +1,8 @@
+{% assign index = 0 %}
+{% for group in site.data.levels.level-groups %}
+<h2>{{ group.name }}</h2>
+
+{% include _goals/goals.html %}
+
+<br/>
+{% endfor %}

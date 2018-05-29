@@ -1,0 +1,17 @@
+{% for level in goal.levels %}
+
+<h3>{{level.level}}: 
+    {%if level.done %}
+        <b class='level_done'>{{ level.name }}</b>
+    {% else %}
+        <b class='level_todo'>{{ level.name }}</b>
+    {% endif %}
+    <i class="material-icons md-24">arrow_forward</i>
+    <b class='level_prize'>{{ level.prize }}</b>
+
+    <b class='level_deadline'>[{{ level.deadline }}]</b>
+
+
+</h3>
+
+{% endfor %}
