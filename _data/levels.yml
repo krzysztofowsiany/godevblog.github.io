@@ -209,7 +209,7 @@ level-groups:
             done: false
             deadline: XYZ
 
-          - name: Nagrywam 500 podcastów. 
+          - name: Nagrywam 50 podcastów. 
             level: II
             prize: brak
             done: false
@@ -335,28 +335,7 @@ level-groups:
             level: III
             prize: brak
             done: false
-            deadline: XYZ
-
-      - name: Biegacz
-        base: Trzy 1/2 maratony za sobą.
-        levels:
-          - name: Korona 1/2 maratonów.
-            level: I
-            prize: 2 x Porter Bałtycki
-            done: false
-            deadline: XYZ
-
-          - name: Przebiegłem bieg Rzeznika.
-            level: II
-            prize: brak
-            done: false
-            deadline: XYZ
-
-          - name: Potrafię przebiec 2 000 km w rok.
-            level: III
-            prize: brak
-            done: false
-            deadline: XYZ
+            deadline: XYZ    
 
       - name: Pożeracz tekstu
         base: Systematyczne czytanie codziennie
@@ -378,28 +357,7 @@ level-groups:
             prize: brak
             done: false
             deadline: XYZ
-  
-      - name: Biegacz
-        base: Trzy 1/2 maratony za sobą.
-        levels:
-          - name: Korona 1/2 maratonów.
-            level: I
-            prize: 2 x Porter Bałtycki
-            done: false
-            deadline: XYZ
-
-          - name: Przebiegłem bieg Rzeznika.
-            level: II
-            prize: brak
-            done: false
-            deadline: XYZ
-
-          - name: Potrafię przebiec 2 000 km w rok.
-            level: III
-            prize: brak
-            done: false
-            deadline: XYZ
-    
+   
       - name: Kolekcjoner złomu
         base: Scenik 98r.
         levels:
