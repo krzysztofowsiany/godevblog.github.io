@@ -11,7 +11,7 @@ level-groups:
             done: false
             deadline: XYZ
 
-          - name: Przebiegłem bieg Rzeznika.
+          - name: Przebiegłem bieg Rzeźnika.
             level: II
             prize: brak
             done: false
