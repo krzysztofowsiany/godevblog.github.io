@@ -9,19 +9,19 @@ level-groups:
             level: I
             prize: 2 x Porter Bałtycki
             done: false
-            deadline: XYZ
+            deadline: 2020
 
           - name: Przebiegłem bieg Rzeźnika.
             level: II
             prize: brak
             done: false
-            deadline: XYZ
+            deadline: 2024
 
           - name: Biegam 2 000 km w rok.
             level: III
             prize: brak
             done: false
-            deadline: XYZ
+            deadline: 2028
 
       - name: Vloger
         inspire: Mirek   
@@ -31,19 +31,19 @@ level-groups:
             level: I
             prize: 2 x Porter Bałtycki
             done: false
-            deadline: XYZ
+            deadline: 2018
 
           - name: Nagrywałem vloga przez 365 dni.
             level: II
             prize: brak
             done: false
-            deadline: XYZ
+            deadline: 2021
 
           - name: Nagrywałem vloga przez 1000 dni.
             level: III
             prize: brak
             done: false
-            deadline: XYZ          
+            deadline: 2025          
 
       - name: Bloger
         inspire: Gutek
@@ -59,13 +59,13 @@ level-groups:
             level: II
             prize: brak
             done: false
-            deadline: XYZ
+            deadline: 2019
 
           - name: Pisałem posty przez 1000 dni.
             level: III
             prize: brak
             done: false
-            deadline: XYZ
+            deadline: 2030
 
       - name: Mnich
         inspire: Budda
@@ -75,19 +75,19 @@ level-groups:
             level: I
             prize: 2 x Porter Bałtycki
             done: false
-            deadline: XYZ
+            deadline: 2018
 
           - name: Medytowałem przez 365 dni.
             level: II
             prize: brak
             done: false
-            deadline: XYZ
+            deadline: 2019
 
           - name: Medytowałęm przez 1000 dni.
             level: III
             prize: brak
             done: false
-            deadline: XYZ
+            deadline: 2023
 
       - name: Mówca
         inspire: Maciej Aniserowicz
@@ -97,19 +97,19 @@ level-groups:
             level: I
             prize: 2 x Porter Bałtycki
             done: false
-            deadline: XYZ
+            deadline: 2019
 
           - name: Wystąpiłem przed 1000 osobami.
             level: II
             prize: brak
             done: false
-            deadline: XYZ
+            deadline: 2021
 
           - name: Wystąpiłem przed 5000 osobami.
             level: III
             prize: brak
             done: false
-            deadline: XYZ
+            deadline: 2024
 
       - name: Lingwista
         base: Samodzielna nauka.
@@ -119,19 +119,19 @@ level-groups:
             level: I
             prize: 2 x Porter Bałtycki
             done: false
-            deadline: XYZ
+            deadline: 2019
 
           - name: Znam biegle język angielski.
             level: II
             prize: brak
             done: false
-            deadline: XYZ
+            deadline: 2020
 
           - name: Znam język angielski na poziomie C2.
             level: III
             prize: brak
             done: false
-            deadline: XYZ
+            deadline: 2022
   
       - name: Bogacz
         inspire: Bill Gates
@@ -141,19 +141,19 @@ level-groups:
             level: I
             prize: 2 x Porter Bałtycki
             done: false
-            deadline: XYZ
+            deadline: 2019
 
           - name: Zarabiam 100 tyś PLN/miesiąc.
             level: II
             prize: brak
             done: false
-            deadline: XYZ
+            deadline: 2024
 
           - name: Zarabiam 1mln PLN/miesiąc.
             level: III
             prize: brak
             done: false
-            deadline: XYZ
+            deadline: 2030
   
       - name: Chudzielec
         base: 106 kg
@@ -163,19 +163,19 @@ level-groups:
             level: I
             prize: 2 x Porter Bałtycki
             done: false
-            deadline: XYZ
+            deadline: 2018
 
           - name: Ważę 85kg.
             level: II
             prize: brak
             done: false
-            deadline: XYZ
+            deadline: 2019
 
           - name: Ważę 70kg.
             level: III
             prize: brak
             done: false
-            deadline: XYZ
+            deadline: 2021
 
       - name: Dywersyfikator Hajsu
         inspire: Mirek, Richard Branson
@@ -185,19 +185,19 @@ level-groups:
             level: I
             prize: 2 x Porter Bałtycki
             done: false
-            deadline: XYZ
+            deadline: 2020
 
           - name: Mam 15 różnych źródeł dochodu.
             level: II
             prize: brak
             done: false
-            deadline: XYZ
+            deadline: 2024
 
           - name: Mam 40 różnych źródeł dochodu.
             level: III
             prize: brak
             done: false
-            deadline: XYZ
+            deadline: 2030
 
       - name: Podcaster
         inspire: Michał Szafrański, Maciej Aniserowicz
@@ -207,19 +207,19 @@ level-groups:
             level: I
             prize: 2 x Porter Bałtycki
             done: false
-            deadline: XYZ
+            deadline: 2018
 
           - name: Nagrywam 50 podcastów. 
             level: II
             prize: brak
             done: false
-            deadline: XYZ
+            deadline: 2020
 
           - name: Nagrywam 200 podcastów. 
             level: III
             prize: brak
             done: false
-            deadline: XYZ
+            deadline: 2029
 
       - name: Softwator
         inspire: Michał Śliwiński
@@ -229,19 +229,19 @@ level-groups:
             level: I
             prize: 2 x Porter Bałtycki
             done: false
-            deadline: XYZ
+            deadline: 2019
 
           - name: Posiadam 50 tyś subskrybentów oprogramowania.
             level: II
             prize: brak
             done: false
-            deadline: XYZ
+            deadline: 2021
 
           - name: Posiadam 1 mln subskrybentów oprogramowania.
             level: III
             prize: brak
             done: false
-            deadline: XYZ
+            deadline: 2024
 
       - name: Hipidriver
         inspire: Hipisi
@@ -251,19 +251,19 @@ level-groups:
             level: I
             prize: 2 x Porter Bałtycki
             done: false
-            deadline: XYZ
+            deadline: 2020
 
           - name: Objechałem w 30 dni z żoną Europę Zachodnią.
             level: II
             prize: brak
             done: false
-            deadline: XYZ
+            deadline: 2022
 
           - name: Objechałem w 30 dni z żoną USA.
             level: III
             prize: brak
             done: false
-            deadline: XYZ
+            deadline: 2026
 
       - name: Pisarz
         inspire: J.K. Rowling
@@ -273,19 +273,19 @@ level-groups:
             level: I
             prize: 2 x Porter Bałtycki
             done: false
-            deadline: XYZ
+            deadline: 2020
 
           - name: Sprzedałem 100 tyś egzemplarzy książki.
             level: II
             prize: brak
             done: false
-            deadline: XYZ
+            deadline: 2022
 
           - name: Sprzedałem 1 mln egzemplarzy książki.
             level: III
             prize: brak
             done: false
-            deadline: XYZ            
+            deadline: 2025
 
       - name: Kopter
         inspire: 
@@ -295,25 +295,25 @@ level-groups:
             level: I
             prize: 2 x Porter Bałtycki
             done: false
-            deadline: XYZ
+            deadline: 2019
 
           - name: Zrobiłem licencję pilota.
             level: II
             prize: brak
             done: false
-            deadline: XYZ
+            deadline: 2023
 
           - name: Zakupiłem helikopter.
             level: III
             prize: brak
             done: false
-            deadline: XYZ
+            deadline: 2025
 
           - name: Latam helikopterem do domu rodzinnego 12x w roku.
             level: IV
             prize: brak
             done: false
-            deadline: XYZ
+            deadline: ?
 
       - name: Zdjęciorób
         inspire: Korsan
@@ -323,19 +323,19 @@ level-groups:
             level: I
             prize: 2 x Porter Bałtycki
             done: false
-            deadline: XYZ
+            deadline: 2023
 
           - name: Zrobiłem zdjęcie co dzień przez 365 dni.
             level: II
             prize: brak
             done: false
-            deadline: XYZ
+            deadline: 2027
 
           - name: Zrobiłem zdjęcie co dzień przez 2000 dni.
             level: III
             prize: brak
             done: false
-            deadline: XYZ    
+            deadline: 2035
 
       - name: Pożeracz tekstu
         base: Systematyczne czytanie codziennie
@@ -344,19 +344,19 @@ level-groups:
             level: I
             prize: 2 x Porter Bałtycki
             done: false
-            deadline: XYZ
+            deadline: 2018
 
           - name: 52 książki na rok.
             level: II
             prize: brak
             done: false
-            deadline: XYZ
+            deadline: 2020
 
           - name: 120 książek na rok.
             level: III
             prize: brak
             done: false
-            deadline: XYZ
+            deadline: 2024
    
       - name: Kolekcjoner złomu
         base: Scenik 98r.
@@ -365,19 +365,19 @@ level-groups:
             level: I
             prize: 2 x Porter Bałtycki
             done: false
-            deadline: XYZ
+            deadline: 2019
 
           - name: Posiadam Toyote Fortuner.
             level: II
             prize: brak
             done: false
-            deadline: XYZ
+            deadline: 2022
 
           - name: Ford Mustang Shelby GT 500 + Harley-Davidson Road King.
             level: III
             prize: brak
             done: false
-            deadline: XYZ
+            deadline: 2026
 
       - name: Trener
         inspire: Maciej Aniserowicz, Piotr Gankiewicz
@@ -387,19 +387,19 @@ level-groups:
             level: I
             prize: 2 x Porter Bałtycki
             done: false
-            deadline: XYZ
+            deadline: 2019
 
           - name: Stworzyłem szkolenia online.
             level: II
             prize: brak
             done: false
-            deadline: XYZ
+            deadline: 2020
 
           - name: Trener Bottega IT Minds
             level: III
             prize: brak
             done: false
-            deadline: XYZ
+            deadline: 2021
 
       - name: Podróżnik
         inspire: 
@@ -409,19 +409,19 @@ level-groups:
             level: I
             prize: 2 x Porter Bałtycki
             done: false
-            deadline: XYZ
+            deadline: 2020
 
           - name: 4x w roku wyjeżdżam w polskie góry lub nad polskie morze.
             level: II
             prize: brak
             done: false
-            deadline: XYZ
+            deadline: 2023
 
           - name: 2x w roku wyjeżdżam za granicę na miesiąc.
             level: III
             prize: brak
             done: false
-            deadline: XYZ
+            deadline: 2024
 
       - name: Podrywacz
         inspire: Ja
@@ -431,19 +431,19 @@ level-groups:
             level: I
             prize: 2 x Porter Bałtycki
             done: false
-            deadline: XYZ
+            deadline: 2018
 
           - name: 1x w miesiącu wychodzę z żoną na randkę. 
             level: II
             prize: brak
             done: false
-            deadline: XYZ
+            deadline: 2019
 
           - name: 1x w tygodniu wychodzę z żoną na randkę. 
             level: III
             prize: brak
             done: false
-            deadline: XYZ
+            deadline: 2020
 
       - name: Robol
         inspire: Andrzej Krzywda, Michał Śliwiński
@@ -453,19 +453,19 @@ level-groups:
             level: I
             prize: 2 x Porter Bałtycki
             done: false
-            deadline: XYZ
+            deadline: 2020
 
           - name: 100% zdalnie i tylko nad własnymi projektami.
             level: II
             prize: brak
             done: false
-            deadline: XYZ
+            deadline: 2022
 
           - name: Pracuję 20h/tydzień.
             level: III
             prize: brak
             done: false
-            deadline: XYZ            
+            deadline: 2024            
   
       - name: Mentor biznesowy
         inspire: 
@@ -475,19 +475,19 @@ level-groups:
             level: I
             prize: 2 x Porter Bałtycki
             done: false
-            deadline: XYZ
+            deadline: 2021
 
           - name: Pomagam bratu rozkręcić biznes zarabiający 20 tyś/miesiąc.
             level: II
             prize: brak
             done: false
-            deadline: XYZ
+            deadline: 2022
 
           - name: Pomagam żonie rozkręcić biznes zarabiający 50 tyś/miesiąc.
             level: III
             prize: brak
             done: false
-            deadline: XYZ
+            deadline: 2024
 
       - name: Król
         inspire: Robbie Williams
@@ -497,19 +497,19 @@ level-groups:
             level: I
             prize: 2 x Porter Bałtycki
             done: false
-            deadline: XYZ
+            deadline: 2020
 
           - name: Przygotowałem projekt, wykonawców i gotówkę do budowy zamku.
             level: II
             prize: brak
             done: false
-            deadline: XYZ
+            deadline: 2023
 
           - name: Wybudowałem zamek i spędziłem z rodziną pierwszą noc.
             level: III
             prize: brak
             done: false
-            deadline: XYZ
+            deadline: 2025
 
       - name: Społecznik
         inspire: 
@@ -519,19 +519,19 @@ level-groups:
             level: I
             prize: 2 x Porter Bałtycki
             done: false
-            deadline: XYZ
+            deadline: 2019
 
           - name: Uczestniczę w 2 spotkaniach ze znajomymi w miesiącu.
             level: II
             prize: brak
             done: false
-            deadline: XYZ
+            deadline: 2021
 
           - name: Uczestniczę w 8 spotkaniach ze znajomymi w miesiącu.
             level: III
             prize: brak
             done: false
-            deadline: XYZ
+            deadline: 2025
   
       - name: Talker
         inspire: Maciej Aniserowicz, Jarek Pałka
@@ -541,19 +541,19 @@ level-groups:
             level: I
             prize: 2 x Porter Bałtycki
             done: false
-            deadline: XYZ
+            deadline: 2019
 
           - name: Wystąpiłem na 5 konferencjach w rok z (4D, Programistok, BoilingFrogs, InfoShare, RzemiosłoIT, GreenFieldConf, BBQ4, GET.NET, Wroc#, .NET DeveloperDays)
             level: II
             prize: brak
             done: false
-            deadline: XYZ
+            deadline: 2020
 
           - name: Wystąpiłem na 10 konferencjach w rok (4D, Programistok, BoilingFrogs, InfoShare, RzemiosłoIT, GreenFieldConf, BBQ4, GET.NET, Wroc#, .NET DeveloperDays)
             level: III
             prize: brak
             done: false
-            deadline: XYZ
+            deadline: 2022
   
       - name: Hotelarz
         inspire: Arnold
@@ -563,19 +563,19 @@ level-groups:
             level: I
             prize: 2 x Porter Bałtycki
             done: false
-            deadline: XYZ
+            deadline: 2020
 
           - name: Posiadam mieszkania w Warszawie, Wrocławiu, Krakowie.
             level: II
             prize: brak
             done: false
-            deadline: XYZ
+            deadline: 2022
 
           - name: Posiadam mieszkania w (SkyTower, Złota 44, Boulevard).
             level: III
             prize: brak
             done: false
-            deadline: XYZ
+            deadline: 2027
     
       - name: Konferencjer
         base: 
@@ -585,19 +585,19 @@ level-groups:
             level: I
             prize: 2 x Porter Bałtycki
             done: false
-            deadline: XYZ
+            deadline: 2020
 
           - name: Organizuję 200 osobowy meetup przy ognisku.
             level: II
             prize: brak
             done: false
-            deadline: XYZ
+            deadline: 2022
 
           - name: Organizuję konferencję dla 1000 osób przy ognisku. 
             level: III
             prize: brak
             done: false
-            deadline: XYZ
+            deadline: 2026
 
       - name: Meetupper
         inspire: 
@@ -607,19 +607,19 @@ level-groups:
             level: I
             prize: 2 x Porter Bałtycki
             done: false
-            deadline: XYZ
+            deadline: 2019
 
           - name: 2x w miesiącu uczestniczę w meetup-ach.
             level: II
             prize: brak
             done: false
-            deadline: XYZ
+            deadline: 2021
 
           - name: 4x w miesiącu uczestniczę w meetup-ach.
             level: III
             prize: brak
             done: false
-            deadline: XYZ
+            deadline: 2023
 
       - name: Qń - (Kuń)
         inspire: 
@@ -629,19 +629,19 @@ level-groups:
             level: I
             prize: 2 x Porter Bałtycki
             done: false
-            deadline: XYZ
+            deadline: 2018
 
           - name: Sotusję dietę przez 6 miesiące w roku.
             level: II
             prize: brak
             done: false
-            deadline: XYZ
+            deadline: 2019
 
           - name: Sotusję dietę przez 11 miesiące w roku.
             level: III
             prize: brak
             done: false
-            deadline: XYZ
+            deadline: 2020
 
       - name: Niejadek
         inspire: 
@@ -651,16 +651,16 @@ level-groups:
             level: I
             prize: 2 x Porter Bałtycki
             done: false
-            deadline: XYZ
+            deadline: 2019
 
           - name: 5 dniowy post 3x w roku.
             level: II
             prize: brak
             done: false
-            deadline: XYZ
+            deadline: 2021
 
           - name: 30 dniowy post 1x w roku.
             level: III
             prize: brak
             done: false
-            deadline: XYZ
+            deadline: 2025
