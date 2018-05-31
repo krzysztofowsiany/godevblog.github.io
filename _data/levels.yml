@@ -313,7 +313,7 @@ level-groups:
             level: IV
             prize: brak
             done: false
-            deadline: ?
+            deadline: '?'
 
       - name: Zdjęciorób
         inspire: Korsan
