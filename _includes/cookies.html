@@ -1,0 +1,24 @@
+<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css" />
+<script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+<script>
+window.addEventListener("load", function(){
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#000000",
+      "text": "#ffffff"
+    },
+    "button": {
+      "background": "#ffffff",
+      "text": "#000000"
+    }
+  },
+  "theme": "classic",
+  "position": "top",
+  "content": {
+    "message": "Blog oczywiście korzysta z plików Cookies. Wykorzystywane są głównie w celach statystycznych. Jeżeli pozostajesz na moim blogu, to godzisz się na zapisywanie ciasteczek w twojej przeglądarce.<br/>A oto i Moja <a href='/private-policy'>Polityka Prywatności</a>.",
+    "dismiss": "Akceptuję",
+    "link": "Więcej o ciasteczkach"
+  }
+})});
+</script>
