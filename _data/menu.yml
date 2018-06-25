@@ -13,5 +13,7 @@ groups:
         url: /cele
       - page: Wystąpienia
         url: /prelekcje
+      - page: Polityka Prywatności
+        url: /private-policy
       - page: Kontakt
         url: /kontakt
