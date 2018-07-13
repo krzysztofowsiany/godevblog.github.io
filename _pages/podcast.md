@@ -1,9 +1,7 @@
 ---
-title: Podcast
-date: 2018-01-29
+title: Podcast - After.conf.
 author: Krzysztof Owsiany
-layout: page
-permalink: podcast
+layout: podcast
+permalink: after-conf
 ---
 
-Work in progress...
