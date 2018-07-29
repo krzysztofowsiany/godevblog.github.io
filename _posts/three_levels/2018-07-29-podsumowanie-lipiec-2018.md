@@ -94,11 +94,11 @@ Po prostu tutaj nic nie ruszyło do przodu...
 * Przesłuchałem książkę: Magia Słów - Joanna Wrycza-Bekier.
 
 ## Kopter
-### I: Odbyłem pierwszy lot helikopterem
+### I: Odbyłem pierwszy lot helikopterem.
 * Myślę, nad testowym przelotem helikopterem. 
 
 ## Zdjęciorób
-### I: Odbyłem pierwszy lot helikopterem
+### I: Zrobiłem zdjęcie co dzień przez 30 dni.
 * Kiedy tylko mogę to robię zdjęcia: Milówka, Niebocko, Zaćmienie księżyca, Zawody OSP.
 
 ## Pożeracz tekstu
