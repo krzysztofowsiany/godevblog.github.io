@@ -1,0 +1,49 @@
+level1:
+  - name: 4x Porter Bałtycki
+    url: https://www.wiki.piwo.org/Baltic_Porter
+  - name: Film w kinie IMAX
+    url: https://www.cinema-city.pl/imax
+  - name: Filtr szary regulowany
+  - name: Wybrana gra planszowa
+  - name: Wizyta w lokalnym browarze
+  - name: Wizyta w lokalnym browarze Bielsko-Biała
+    grant: true
+  - name: Wyjście na koncert, np. Sylwia Grzeszczak
+  - name: Wyjście do restauracji Figaro Leszno
+  - name: Wykup płatnej usługi, np. do medytacji
+  - name: Wyjście do restauracji na Sushi
+  - name: Wyjazd do Aquaparku
+  - name: Szelki reporterskie do zawieszenia aparatów
+  - name: Grip do aparatu Canon 70D Newell BG-E14
+    url: https://www.cyfrowe.pl/aparaty/newell-bg-e14-battery-pack-do-canon-eos-70d.html?gclid=CjwKCAjw_IPcBRAjEiwAl44QkTLykfPkNDXlAWKuULCB4ylvQmKDjyC8qQccwljEUnFUeUjTfVblzhoCpZoQAvD_BwE
+  - name: Klawiatura Microsoft Natural Keyboard
+    url: https://www.morele.net/klawiatura-microsoft-natural-ergo-keyboard-4000-b2m-00022-60142/?gclid=CjwKCAjw_IPcBRAjEiwAl44QkUmiooImSxXO2HMVnOOh9ZodsHvU41DoOdxy52al6qMLOowB-0qbNBoCb10QAvD_BwE
+    
+level2:
+  - name: Słuchawki z mikrofonem bezprzewodowe
+  - name: Głośniki do komputera
+  - name: Zewnętrzna nagrywakra M-Disc
+  - name: Dysk SSD do laptopa 500MB - 1TB
+  - name: Plecak do noszenia aparatu
+  - name: Wyjście na koncert, np. Metallica
+  - name: Wyjazd weekendowy w góry
+  - name: Skórzana kurtka
+  - name: Obiektyw szerokokątny
+  - name: Stabilizator aparatu Canon - do nagrywania
+  - name: Zegarek sportowy GARMIN Forerunner 235
+  - name: Obiektyw uniwersalny 18-250mm do aparatu Canon
+  - name: Tor Poznań - jazda Mustangiem
+
+level3:
+  - name: Obiektyw FishEye do aparatu Canon
+  - name: Obiektyw macro 100/150mm do aparatu Canon
+  - name: Lampa błyskowa/światło do fotografi macro do aparatu Canon
+  - name: Obiektyw supertele 150-600mm do aparatu Canon
+  - name: Osłona do aparatu Canon - do nurkowania.
+  - name: Canon 5D Mark IV
+    url: https://www.canon.pl/cameras/eos-5d-mark-iv
+  - name: Canon 7D Mark II
+    url: https://www.canon.pl/for_home/product_finder/cameras/digital_slr/eos_7d_mark_ii
+  - name: Teleskop automatyczny z możliwością podpięcia aparatu Canon (body)
+level4:
+  - name: Ford Mustang Shellby GT500

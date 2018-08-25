@@ -5,12 +5,22 @@ groups:
     url: /after-conf
   - title: Biblioteczka
     url: /biblioteczka
+  - title: Trzy poziomy
+    urls:
+      - page: Cele -  Trzy Poziomy
+        url: /cele
+      - page: Nagrody dla poziomu 1
+        url: /nagrody-poziom-1
+      - page: Nagrody dla poziomu 2
+        url: /nagrody-poziom-2
+      - page: Nagrody dla poziomu 3
+        url: /nagrody-poziom-3
+      - page: Nagrody dla poziomu 4
+        url: /nagrody-poziom-4
   - title: Autor
     urls:
       - page: O mnie
-        url: /o-mnie
-      - page: Cele -  Trzy Poziomy
-        url: /cele
+        url: /o-mnie      
       - page: Wystąpienia
         url: /prelekcje
       - page: Polityka Prywatności
