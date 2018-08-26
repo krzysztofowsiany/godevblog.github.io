@@ -1,6 +1,6 @@
 {% for award in awards %}
 
-<h3 class="level">
+<h4 class="level">
         {%if award.url %}
             <a href='{{ award.url }}'>{{award.name}}</a>. 
         {% else %}
@@ -10,6 +10,6 @@
     {%if award.grant %}
         <b class='level_done'>przyznana</b>
     {% endif %}
-</h3>
+</h4>
 
 {% endfor %}

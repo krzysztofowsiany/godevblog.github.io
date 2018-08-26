@@ -18,12 +18,13 @@ short: Oto i moje pierwsze podsumowanie w ramach osiągania celów w programie T
 ---
 ![Podsumowanie Trzy Poziomy - czerwiec 2018][post-big]
 
+{% include_relative head.md %}
+
 Oto i moje pierwsze podsumowanie w ramach osiągania celów w programie [Trzy Poziomy].
 
-Cała lista celów została zebrana pod tym linkiem: [Cele].
+**Zapraszam do Moich Trzech Poziomów.**{:.h-1}
 
-*Zapraszam do Moich Trzech Poziomów.*{:.h-1}
-
+# Cele
 ## Biegacz
 Cały miesiąc bez biegania za wyjątkiem IV Biegu Świętojańskiego w Poznaniu. 10km.
 
@@ -142,8 +143,18 @@ Cały czs pracuję częściowo zdalnie.
 ## Niejadek
 * Na razie nic.
 
+# Wnioski
 
 Na tym zakończę moje pierwsze podsumowanie. W przyszłości zapewne ulepszę sposób prezentacji tych treści:).
+
+{% include_relative course.md %}
+
+------
+Następny: **[Trzy poziomy - podsumowanie lipca 2018][next]**
+
+------
+
+[next]: {{site.url}}/trzy-poziomy-podsumowanie-lipiec-2018
 
 [post]: /assets/images/2018/06/trzy-poziomy/podsumowanie-czerwiec-2018/post.jpg
 [post-big]: /assets/images/2018/06/trzy-poziomy/podsumowanie-czerwiec-2018/post-big.jpg

@@ -18,12 +18,12 @@ short: Oto stanąłem kolejny raz przed wyzwaniem podsumowania poczynań w sferz
 ---
 ![Podsumowanie Trzy Poziomy - lipiec 2018][post-big]
 
+{% include_relative head.md %}
+
 Poprzedni miesiąc udało Mi się zrealizować w 100%. Podejrzewałem, że lipiec już nie będzie tak łaskawy.
 
-Cała lista celów została zebrana pod tym linkiem: [Cele].
-
-*Lipcowe podsumowanie Moich Trzech Poziomów.*{:.h-1}
-
+**Lipcowe podsumowanie Moich Trzech Poziomów.**{:.h-1}
+# Cele
 ## Biegacz
 ### I: Korona 1/2 maratonów.
 Słabo, zaplanowane było 30km. Jednak początkowo lenistwo, następnie  wyjazd na urlop, i problemy z bólem kręgosłupa.
@@ -134,7 +134,7 @@ Po prostu tutaj nic nie ruszyło do przodu...
 ## Mentor biznesowy
 ### I: Pomagam żonie rozkręcić biznes zarabiający 10 tyś/miesiąc. 
 * Mobilizuję Żonę do działania.
-* Mozolnie ealizujemy kurs kryptowalutach.
+* Mozolnie realizujemy kurs kryptowalutach.
 
 ## Król
 ### I: Przenocowałem z rodziną 1 noc w zamku. 
@@ -172,12 +172,23 @@ Po prostu tutaj nic nie ruszyło do przodu...
 ### I: 3 dniowy post 2x w roku. 
 * Zaplanowałem na sierpień 2 dni bez jedzenia. W lipcu nie udało się pościć.
 
+# Wnioski
 
 To by było na tyle, jest kilka celów jakie nie zostały przybliżone. Jednak są także i takie, które realizowałem w większym stopniu aniżeli zamierzałem: Lingwista, Podcaster, Vloger.
 
 Jestem zadowolony :).
 Ukończyłem **[Kursu Trzy Poziomy]**
 
+{% include_relative course.md %}
+
+------
+Poprzedni: **[Trzy poziomy - podsumowanie czerwca 2018][previous]**
+
+Następny: **[Trzy poziomy - podsumowanie sierpień 2018][next]**
+
+------
+[previous]: {{site.url}}/trzy-poziomy-podsumowanie-czerwiec-2018
+[next]: {{site.url}}/trzy-poziomy-podsumowanie-sierpien-2018
 
 [post]: /assets/images/2018/07/trzy-poziomy/podsumowanie-lipiec-2018/post.jpg
 [post-big]: /assets/images/2018/07/trzy-poziomy/podsumowanie-lipiec-2018/post-big.jpg

@@ -2,30 +2,37 @@
 
 <div id="content-wrapper">
     <div class="inner clearfix">
-        <div>
-            <h1>
-                <a href="/cele">Cele - Trzy Poziomy.</a>
-            </h1>
-        </div>
+        <section id="main-content">
+            <div>
+                <h1>
+                    <a href="/cele">Cele - Trzy Poziomy.</a>
+                </h1>
+            </div>
 
-        <div>
-            Poniższy wykaz nagród może ulec zmianie, w zależności od bieżących potrzeb. Wartość nagród odpowiada maksymalnej zadeklarowanej
-            wartości nagrody jaka jest aktualnie przyporządkowana do danego poziomu.
-        </div>
+            <div>
+                Poniższy wykaz nagród może ulec zmianie, w zależności od bieżących potrzeb. Wartość nagród odpowiada maksymalnej zadeklarowanej
+                wartości nagrody jaka jest aktualnie przyporządkowana do danego poziomu.
+            </div>
 
-        <h1>{{page.title}}</h1>
-        <h2>Maksymalna wartość nagrody: {{ page.price }}</h2>
-        {{page.desc}}
-        <hr/>
-        <div>
-            {% assign awards = site.data.awards[page.level] %} {% include _goals/awards.html %}
-        </div>
+            <hr/>
 
-        <hr/>
 
-        <div>            
-            {% include _goals/3levels.html %}            
-        </div>
+            <h2>{{page.title}}</h2>
+            <h3>Maksymalna wartość nagrody: {{ page.price }}</h3>
+            <div>
+                {{page.desc}}
+            </div>
+            <hr/>
+            <div>
+                {% assign awards = site.data.awards[page.level] %} {% include _goals/awards.html %}
+            </div>
+
+            <hr/>
+
+            <div class="affiliation">
+                {% include _goals/3levels.html %}
+            </div>
+        </section>
     </div>
 </div>
 {% include footer.html %}
