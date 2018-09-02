@@ -15,7 +15,7 @@ image_big: /assets/images/2018/08/trzy-poziomy/jestem-absolwentem/post-big.jpg
 categories:
   - Trzy poziomy
   - Kurs Trzy Poziomy
-short: Dla mnie kurs się zakończył. Jestem absolwentem! Ale mam coś dla Ciebie. <b>20%</b> rabat na zakup <a href="https://trzypoziomy.pl/kurs"><b>Kursu Zbuduj Swoje Trzy Poziomy</b></a>. Wystarczy, że podczas zakupu użyjesz mojego kodu <b>AFF0320</b>.
+short: Dla mnie kurs się zakończył. Jestem absolwentem! Ale mam coś dla Ciebie. <b>20%</b> rabat na zakup <a href="https://trzypoziomy.pl/kurs"><b>Kursu Zbuduj Swoje Trzy Poziomy</b></a>. Wystarczy, że podczas zakupu użyjesz mojego kodu <b>AFF0320</b>. Nie czekaj korzystaj. Rejestracja zostanie niebawem wstrzymana.
 
 ---
 [![Kurs Zbuduj Swoje Trzy Poziomy][post]][post-big]{:.post-left-image}
@@ -56,7 +56,7 @@ Działa też liczna grupa na facebooku: **Kurs Trzy Poziomy**{:.color_2}. Obecni
 
 [![Kurs Zbuduj Swoje Trzy Poziomy][image2]][image2-big]{:.post-right-image}
 
-Jeżeli w jakimś stopniu zainteresowałem Cię tym kursem to zachęcam do zakupu z Moim 20% rabatem. **Dostaniesz też gwarancję zwrotu w razie niezadowolenia przez 30 dni**{:.color_1}. Taki klasyczny model. Ja nie zwróciłem i nie żałuję!
+Jeżeli w jakimś stopniu zainteresowałem Cię tym kursem to zachęcam do zakupu z Moim 20% rabatem. **Dostaniesz też gwarancję zwrotu w razie niezadowolenia przez 30 dni**{:.color_1}. Taki klasyczny model. Ja nie zwróciłem i nie żałuję! Kurs też nie będzie wiecznie dostępny. Mirek już niedługo planuje zamknięcie dostępu do rejestracji.
 
 ----
 Kod rabatowy upoważniający do **20%**{:.color_2} rabatu na **[Kurs Zbuduj Swoje Trzy Poziomy]**:
