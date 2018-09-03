@@ -8,8 +8,13 @@ layout: page
 
 # 2018
 ## Prelekcje
-**Reactive Extensions - wzorzec obserwatora, czyli programowanie sterowane zdarzeniami**{:.color_1}:
-* 13 grudzień 2018: **[Rzeszowska Grupa Dev][rg-dev]**.
+
+**Kluczowe umiejętności skutecznego programisty.**{:.color_1} :
+* 27 październik 2018: **[CareerCon Poznań][cc-poznan]**,
+* 6 październik 2018: **[CareerCon Wrocław][cc-wroclaw]**,
+
+**Reactive Extensions - wzorzec obserwatora, czyli programowanie sterowane zdarzeniami.**{:.color_1} :
+* 13 grudzień 2018: **[Rzeszowska Grupa Dev][rg-dev]**,
 * **17 maja 2018**{:.color_2}: **[Warszawska Grupa .NET][wgdotnet]** ([slajdy][wgdotnet-slides]), 
 * **16 maja 2018**{:.color_2}: **[Białostocka Grupa .NET][bstoknet]**, 
 * **17 kwiecień 2018**{:.color_2}: **[Wrocławska Grupa .NET][wrocnet]**,
@@ -35,6 +40,9 @@ layout: page
 [programistok]: http://programistok.org
 [dsp]: http://dajsiepoznac.pl
 
+
+[cc-poznan]: https://careercon.pl/konferencja/kariera-it-poznan-27-10-2018/
+[cc-wroclaw]: https://careercon.pl/konferencja/kariera-it-wroclaw-06-10-2018/
 [wrocnet]: https://www.meetup.com/pl-PL/wrocnet/
 [bstoknet]: https://www.facebook.com/groups/bstoknet/
 [rg-dev]: https://www.meetup.com/pl-PL/rg-dev/
