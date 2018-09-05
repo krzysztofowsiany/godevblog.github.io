@@ -1,0 +1,71 @@
+- year: 2018
+  presentations:
+    - where: Rzeszowska Grupa Dev
+      date: 2018-12-13
+      title: Reactive Extensions - wzorzec obserwatora, czyli programowanie sterowane zdarzeniami.
+      link: https://www.meetup.com/pl-PL/rg-dev/
+
+    - where: CareerCon Poznań
+      date: 2018-10-27
+      title: Kluczowe umiejętności skutecznego programisty.
+      link: https://careercon.pl/konferencja/kariera-it-poznan-27-10-2018/
+
+    - where: CareerCon Wrocław
+      date: 2018-10-06
+      title: Kluczowe umiejętności skutecznego programisty.
+      link: https://careercon.pl/konferencja/kariera-it-wroclaw-06-10-2018/
+
+    - where: 4Developers Gdańsk
+      date: 2018-09-25
+      title: IL - między piekłem a niebem.
+      link: https://gdansk.4developers.org.pl
+
+    - where: Warszawska Grupa .NET
+      date: 2018-05-17
+      title: Reactive Extensions - wzorzec obserwatora, czyli programowanie sterowane zdarzeniami.
+      link: https://www.facebook.com/groups/wgdotnet/
+      slides: /assets/slides/rx-wgdotnet.odp  
+      
+    - where: Białostocka Grupa .NET
+      date: 2018-05-16
+      title: Reactive Extensions - wzorzec obserwatora, czyli programowanie sterowane zdarzeniami.
+      link: https://www.facebook.com/groups/bstoknet/
+      
+    - where: Wrocławska Grupa .NET
+      date: 2018-04-17
+      title: Reactive Extensions - wzorzec obserwatora, czyli programowanie sterowane zdarzeniami.
+      link: https://www.meetup.com/pl-PL/wrocnet   
+
+    - where: 4Developers Warszawa
+      date: 2018-04-09
+      title: Reactive Extensions - wzorzec obserwatora, czyli programowanie sterowane zdarzeniami.
+      link: https://4developers.org.pl
+
+  workshops:
+    - where: devWarsztaty Wrocław PGS
+      date: 2018-02-24
+      title: GIT - TDD - DOJO.
+      link: http://devwarsztaty.pl/warsztaty/2018-02-24-wro/
+- year: 2017
+  presentations:
+    - where: 4Developers Gdańsk
+      date: 2017-12-16
+      title: Grywalizacja + projektowanie na wybranym przykładzie.
+      link: dotNetConf.pl
+      video: https://youtu.be/94JwR8Bnnuo
+
+    - where: Before Programistok
+      date: 2017-10-06
+      title: TDD.
+      link: http://programistok.org/
+      video: https://www.youtube.com/watch?v=fIwqqddJjm4&feature=youtu.be
+
+    - where: DevStyle Speakers 01 - Warszawa
+      date: 2017-09-24
+      title: GITDDOJO.
+
+    - where: Gala Finałowa DSP 2017 Warszawa
+      date: 2017-06-17
+      title: Budowanie zaangażowania użytkowników przy wykorzystaniu Grywalizacji.
+      link: http://dajsiepoznac.pl
+      video: https://www.youtube.com/watch?v=fIwqqddJjm4&feature=youtu.be      
