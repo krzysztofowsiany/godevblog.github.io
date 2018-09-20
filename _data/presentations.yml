@@ -53,7 +53,7 @@
       link: http://devwarsztaty.pl/warsztaty/2018-02-24-wro/
 - year: 2017
   presentations:
-    - where: 4Developers Gdańsk
+    - where: dotNetConfPL
       date: 2017-12-16
       title: Grywalizacja + projektowanie na wybranym przykładzie.
       link: dotNetConf.pl
