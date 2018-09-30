@@ -209,7 +209,7 @@ Z tego prosty wniosek są cele ważne i ważniejsze...
 ------
 Poprzedni: **[Trzy poziomy - podsumowanie lipiec 2018][previous]**
 
-<!--Następny: **[Trzy poziomy - podsumowanie wrzesień 2018][next]**-->
+Następny: **[Trzy poziomy - podsumowanie wrzesień 2018][next]**
 
 ------
 [previous]: {{site.url}}/trzy-poziomy-podsumowanie-lipiec-2018
