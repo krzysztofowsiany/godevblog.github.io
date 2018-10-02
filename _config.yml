@@ -1,8 +1,9 @@
 theme: jekyll-theme-architect
-url: http://mrdev.pl
+url: https://mrdev.pl
+enforce_ssl: mrdev.pl
 blaze: http://blog.blazestudio.pl
-name: MR. Dev
-description: Blog programistyczny.
+name: MrDev
+description: Każdy programista jest jak MrDev.
 plugins:
   - jekyll-twitter-plugin
   - jekyll-seo-tag
