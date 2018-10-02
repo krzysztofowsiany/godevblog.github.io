@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}" media="screen" type="text/css">
     <link rel="stylesheet" href="{{ '/assets/css/print.css' | relative_url }}" media="print" type="text/css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    
+    <link rel="shortcut icon" type="image/png" href="/assets/favicon-32x32.png"/>
+
     {% include cookies.html %}
     {% include gtag.html %}
     <!--[if lt IE 9]>
@@ -22,8 +23,8 @@
     <header>
       <div class="inner">
         <a href="{{ '/' | absolute_url }}">
-          <h1>MR. Dev</h1>
+          <h1>{{ site.name }}</h1>
         </a>
-        <h2>Blog programisty.</h2>
+        <h2>{{ site.description }}</h2>
       </div>
     </header>

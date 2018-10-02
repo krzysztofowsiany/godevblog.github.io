@@ -1,18 +1,15 @@
 <div class="post_preview">
     <span class="post-date">{{ post.date | date: "%d.%m.%Y" }}</span>
-    
-    <div class="container">
-        <a href="{{ post.url }}">
+
+    <a href="{{ post.url }}">
+        <div class="container">
+
             <img src="{{ post.image_big }}" alt="{{ post.title }}">
             <div class="centered">{{ post.title }}</div>
-        </a>
-    </div>
 
+        </div>
+    </a>
     <div>
         {{ post.short }}
-    </div>
-
-    <div class="more_url">
-        <a href="{{ post.url }}">więcej</a>
     </div>
 </div>
