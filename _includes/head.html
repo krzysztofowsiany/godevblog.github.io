@@ -1,30 +1,36 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "pl-PL" }}">
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}" media="screen" type="text/css">
-    <link rel="stylesheet" href="{{ '/assets/css/print.css' | relative_url }}" media="print" type="text/css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="shortcut icon" type="image/png" href="/assets/favicon-32x32.png"/>
+<html lang="{{ site.lang | default: " pl-PL " }}">
 
-    {% include cookies.html %}
-    {% include gtag.html %}
-    <!--[if lt IE 9]>
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}" media="screen"
+    type="text/css">
+  <link rel="stylesheet" href="{{ '/assets/css/print.css' | relative_url }}" media="print" type="text/css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="shortcut icon" type="image/png" href="/assets/mrdev_logo.png" /> {% include cookies.html %} {% include gtag.html
+  %}
+  <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
-{% seo %}
-  </head>
+  {% seo %}
+</head>
 
-  <body>
-    <header>
-      <div class="inner">
-        <a href="{{ '/' | absolute_url }}">
-          <h1>{{ site.name }}</h1>
-        </a>
-        <h2>{{ site.description }}</h2>
-      </div>
-    </header>
+<body>
+  <header>
+    <div style="left:20px;top:20px; position: absolute;">
+      <a href="{{ '/' | absolute_url }}">
+        <img src="/assets/mrdev_logo.png">
+      </a>
+    </div>
+
+    <div class="inner">
+      <a href="{{ '/' | absolute_url }}">
+        <h1>{{ site.name }}</h1>
+      </a>
+      <h2>{{ site.description }}</h2>
+    </div>
+  </header>

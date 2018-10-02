@@ -1,0 +1,9 @@
+{% assign posts = site.posts | where: "categories","Podcast" | except:"published","false" %} 
+{% for post in posts limit: 1 %} 
+
+<div style="padding: 10px;" markdown="1">
+    <iframe src="https://anchor.fm/after-conf/embed/episodes/Pilot-1-e1ok8g" 
+      frameborder="0" scrolling="no" style="width:100%;height:100%;"></iframe>
+  </div>
+
+{% endfor %}
