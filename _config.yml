@@ -3,6 +3,7 @@ url: http://mrdev.pl
 blaze: http://blog.blazestudio.pl
 name: MR. Dev
 description: Blog programistyczny.
+facebook: https://www.facebook.com/MrDev-280928869136591/
 plugins:
   - jekyll-twitter-plugin
   - jekyll-seo-tag
