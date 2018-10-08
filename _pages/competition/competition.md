@@ -8,7 +8,7 @@ comments: true
 ---
 ![4Developers Wrocław][4developers]{:.center-image}
 
-Chcesz wygrać wejściówkę na konferencje **4Developers we Wrocławiu**{:.color_1}, która odbędzie się **20 Listopada 2018 roku**{:.color_2}? 
+Chcesz wygrać wejściówkę na konferencje **4Developers we Wrocławiu**{:.color_1}, która odbędzie się **20 listopada 2018 roku**{:.color_2}? 
 
 Oto zasady zabawy:
 1. Należy się dostać na mój profil na FB, po całym zamieszaniu możesz od lubić etc.
