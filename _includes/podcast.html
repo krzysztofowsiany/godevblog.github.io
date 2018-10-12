@@ -1,7 +1,7 @@
 <div id="content-wrapper">
     <div class="inner clearfix">
       <section id="main-content">
-          {% assign podcasts = (site.posts|where:"categories" contains "Podcast") %}
+          {% assign podcasts = site.posts | where:"categories", "Podcast" %}
           {% for post in podcasts %}
               {% assign mod = forloop.index | modulo: 2 %}
               {% if mod == 0 %}            
