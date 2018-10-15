@@ -5,6 +5,11 @@
       title: Reactive Extensions - wzorzec obserwatora, czyli programowanie sterowane zdarzeniami.
       link: https://www.meetup.com/pl-PL/rg-dev/
 
+    - where: 4Developers Wrocław
+      date: 2018-11-20
+      title: Wiele odsłon CQRS-a.
+      link: https://wroclaw.4developers.org.pl/
+
     - where: CareerCon Poznań
       date: 2018-10-27
       title: Kluczowe umiejętności skutecznego programisty.
@@ -14,11 +19,6 @@
       date: 2018-10-06
       title: Kluczowe umiejętności skutecznego programisty.
       link: https://careercon.pl/konferencja/kariera-it-wroclaw-06-10-2018/
-
-    - where: 4Developers Wrocław
-      date: 2018-11-20
-      title: Wiele odsłon CQRS-a.
-      link: https://wroclaw.4developers.org.pl/
 
     - where: 4Developers Gdańsk
       date: 2018-09-25
