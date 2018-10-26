@@ -2,82 +2,97 @@
   presentations:
     - where: Rzeszowska Grupa Dev
       date: 2018-12-13
+      access_date: 2018-12-12
       title: Reactive Extensions - wzorzec obserwatora, czyli programowanie sterowane zdarzeniami.
       link: https://www.meetup.com/pl-PL/rg-dev/
 
     - where: 4Developers Wrocław
       date: 2018-11-20
+      access_date: 2018-11-19
       title: Wiele odsłon CQRS-a.
       link: https://wroclaw.4developers.org.pl/
 
     - where: dotNetConfPL
       date: 2018-11-17
+      access_date: 2018-11-16
       title: IL — między piekłem a niebem.
       link: dotNetConf.pl
 
     - where: CareerCon Poznań
       date: 2018-10-27
+      access_date: 2018-10-26
       title: Kluczowe umiejętności skutecznego programisty.
       link: https://careercon.pl/konferencja/kariera-it-poznan-27-10-2018/
       page: kluczowe-umiejetnosci-skutecznego-programisty
 
     - where: CareerCon Wrocław
       date: 2018-10-06
+      access_date: 2018-10-05
       title: Kluczowe umiejętności skutecznego programisty.
       link: https://careercon.pl/konferencja/kariera-it-wroclaw-06-10-2018/
       page: kluczowe-umiejetnosci-skutecznego-programisty
 
     - where: 4Developers Gdańsk
       date: 2018-09-25
+      access_date: 2018-09-24
       title: IL - między piekłem a niebem.
       link: https://gdansk.4developers.org.pl
 
     - where: Warszawska Grupa .NET
       date: 2018-05-17
+      access_date: 2018-05-16
       title: Reactive Extensions - wzorzec obserwatora, czyli programowanie sterowane zdarzeniami.
       link: https://www.facebook.com/wgdotnet/
       page: reactive-extensions-wzorzec-obserwatora-czyli-programoewnie-sterowane-zdarzeniami
       
     - where: Białostocka Grupa .NET
       date: 2018-05-16
+      access_date: 2018-05-15
       title: Reactive Extensions - wzorzec obserwatora, czyli programowanie sterowane zdarzeniami.
       link: https://www.facebook.com/groups/bstoknet/
       
     - where: Wrocławska Grupa .NET
       date: 2018-04-17
+      access_date: 2018-04-16
       title: Reactive Extensions - wzorzec obserwatora, czyli programowanie sterowane zdarzeniami.
       link: https://www.meetup.com/pl-PL/wrocnet   
 
     - where: 4Developers Warszawa
       date: 2018-04-09
+      access_date: 2018-04-09
       title: Reactive Extensions - wzorzec obserwatora, czyli programowanie sterowane zdarzeniami.
       link: https://4developers.org.pl
 
   workshops:
     - where: devWarsztaty Wrocław PGS
       date: 2018-02-24
+      access_date: 2018-02-24
       title: GIT - TDD - DOJO.
       link: http://devwarsztaty.pl/warsztaty/2018-02-24-wro/
 - year: 2017
   presentations:
     - where: dotNetConfPL
       date: 2017-12-16
+      access_date: 2017-12-14
       title: Grywalizacja + projektowanie na wybranym przykładzie.
       link: dotNetConf.pl
       video: https://youtu.be/94JwR8Bnnuo
 
     - where: Before Programistok
       date: 2017-10-06
+      access_date: 2017-10-05
       title: TDD.
       link: http://programistok.org/
       video: https://www.youtube.com/watch?v=fIwqqddJjm4&feature=youtu.be
 
     - where: DevStyle Speakers 01 - Warszawa
       date: 2017-09-24
+      access_date: 2017-09-14
       title: GITDDOJO.
 
     - where: Gala Finałowa DSP 2017 Warszawa
       date: 2017-06-17
+      access_date: 2017-06-15
       title: Budowanie zaangażowania użytkowników przy wykorzystaniu Grywalizacji.
       link: http://dajsiepoznac.pl
       video: https://www.youtube.com/watch?v=fIwqqddJjm4&feature=youtu.be      

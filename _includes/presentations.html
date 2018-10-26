@@ -9,7 +9,7 @@
                         <h2 class="h2">{{ year.year }}</h2>
                         {% for presentation in year.presentations %}
                             <li>
-                                {% assign post_in_seconds = presentation.date | date: "%s" %}
+                                {% assign post_in_seconds = presentation.access_date | date: "%s" %}
 
                                 {% if post_in_seconds > today %}
                                     <span class="color_gray">
