@@ -32,15 +32,15 @@
                                         {{ presentation.title }}
                                     </span>
                                 {% else %}
-                                    <b class="color_black">{{ presentation.title }}</b>
-                                {% endif %}
+                                    <b class="color_black">{{ presentation.title }}</b>                                
                                 
-                                {% if presentation.slides != nil %}
-                                (<a href="{{ presentation.slides }}">slajdy</a>)
-                                {% endif %}
+                                    {% if presentation.page != nil %}
+                                    <a href="{{site.url}}/{{ presentation.page }}">Materiały.</a>
+                                    {% endif %}
 
-                                {% if presentation.video != nil %}
-                                [<a href="{{ presentation.video }}" >video</a>]
+                                    {% if presentation.video != nil %}
+                                    <a href="{{ presentation.video }}" >Wideo.</a>
+                                    {% endif %}
                                 {% endif %}
                             </li>            
                             <br/>

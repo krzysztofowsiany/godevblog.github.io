@@ -10,15 +10,22 @@
       title: Wiele odsłon CQRS-a.
       link: https://wroclaw.4developers.org.pl/
 
+    - where: dotNetConfPL
+      date: 2018-12-17
+      title: IL — między piekłem a niebem.
+      link: dotNetConf.pl
+
     - where: CareerCon Poznań
       date: 2018-10-27
       title: Kluczowe umiejętności skutecznego programisty.
       link: https://careercon.pl/konferencja/kariera-it-poznan-27-10-2018/
+      page: kluczowe-umiejetnosci-skutecznego-programisty
 
     - where: CareerCon Wrocław
       date: 2018-10-06
       title: Kluczowe umiejętności skutecznego programisty.
       link: https://careercon.pl/konferencja/kariera-it-wroclaw-06-10-2018/
+      page: kluczowe-umiejetnosci-skutecznego-programisty
 
     - where: 4Developers Gdańsk
       date: 2018-09-25
@@ -28,8 +35,8 @@
     - where: Warszawska Grupa .NET
       date: 2018-05-17
       title: Reactive Extensions - wzorzec obserwatora, czyli programowanie sterowane zdarzeniami.
-      link: https://www.facebook.com/groups/wgdotnet/
-      slides: /assets/slides/rx-wgdotnet.odp  
+      link: https://www.facebook.com/wgdotnet/
+      page: reactive-extensions-wzorzec-obserwatora-czyli-programoewnie-sterowane-zdarzeniami
       
     - where: Białostocka Grupa .NET
       date: 2018-05-16
