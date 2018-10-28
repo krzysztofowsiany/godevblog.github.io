@@ -41,7 +41,7 @@ Jednak dokonaliśmy zapisu na bieg: **[III Bieg Kibiców Unii Leszno im. Alfreda
 ## Bloger
 ### II: Pisałem posty przez 365 dni.
 * Dodałem podsumowanie września.
-* Dodałem na blog posty dotyczące trzech nagranych podcast-ów: **[After.Conf]**.
+* Dodałem na blog posty dotyczące trzech nagranych podcast-ów: **[After.conf]**.
 
 <div style="padding: 10px;">
   <iframe src="https://anchor.fm/after-conf/embed/episodes/Pilot-3---InfoShare-2018-e2476e"       
@@ -200,7 +200,7 @@ Spotkaniu znajomych i poznaniu nowych.
 ------
 Poprzedni: **[Trzy poziomy - podsumowanie sierpień 2018][previous]**
 
-<!--Następny: **[Trzy poziomy - podsumowanie październik 2018][next]**-->
+Następny: **[Trzy poziomy - podsumowanie październik 2018][next]**
 
 ------
 [previous]: {{site.url}}/trzy-poziomy-podsumowanie-sierpien-2018
@@ -210,8 +210,8 @@ Poprzedni: **[Trzy poziomy - podsumowanie sierpień 2018][previous]**
 [post]: /assets/images/2018/09/trzy-poziomy/podsumowanie-wrzesien-2018/post.jpg
 [post-big]: /assets/images/2018/09/trzy-poziomy/podsumowanie-wrzesien-2018/post-big.jpg
 
-[After.Conf]: {{site.url}}/aftger-conf
-[After.Conf-pilot-01]: http://mrdev.pl/after-conf-pilot-01-start
+[After.conf]: {{site.url}}/aftger-conf
+[After.conf-pilot-01]: http://mrdev.pl/after-conf-pilot-01-start
 [Kursu Trzy Poziomy]: https://trzypoziomy.pl/
 
 [Thenv]: https://www.facebook.com/Thenv-2231385610416915/
