@@ -38,5 +38,5 @@ comments: true
 
 [coredump-top]: /assets/images/competitions/coredump-krakow/coredump-top.png
 
-[tweet-em]: https://twitter.com/mtyborowski09/status/1060237360510763008
+[tweet-em]: https://twitter.com/k_owsiany/status/1060257968267112450
 
