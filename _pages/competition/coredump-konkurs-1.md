@@ -21,7 +21,7 @@ comments: true
     * **5 punktów**{:.color_2} za pozytywny komentarz.
     * **1 punkt**{:.color_2} za like.
 5. 💯 Po zakończeniu konkursu podliczam punkty i wyłaniam zwycięzcę.
-6. 📆 Konkurs trwa do **22 listopada 2018**{:.color_1}.
+6. 📆 Konkurs trwa do **17 listopada 2018**{:.color_1}.
 
 **Powodzenia!**
 
