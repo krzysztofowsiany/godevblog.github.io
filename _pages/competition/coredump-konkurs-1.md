@@ -1,5 +1,5 @@
 ---
-title: CoreDump - konkurs I.
+title: CoreDump - konkurs.
 date: 2018-01-29
 author: Krzysztof Owsiany
 layout: competition
