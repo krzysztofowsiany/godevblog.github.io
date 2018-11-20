@@ -11,12 +11,14 @@
       access_date: 2018-11-19
       title: Wiele odsłon CQRS-a.
       link: https://wroclaw.4developers.org.pl/
+      page: wiele-odslon-cqrs-a
 
     - where: dotNetConfPL
       date: 2018-11-17
       access_date: 2018-11-16
       title: IL — między piekłem a niebem.
       link: dotNetConf.pl
+      page: il-miedzy-pieklem-a-niebem
 
     - where: CareerCon Poznań
       date: 2018-10-27
