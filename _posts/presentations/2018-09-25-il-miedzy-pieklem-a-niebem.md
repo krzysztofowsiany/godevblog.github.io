@@ -22,6 +22,10 @@ Oto materiały do mojej prezentacji.
 
 Częstuj się!
 
+<div width="640" height="480" style="margin-left:auto; margin-right:auto;">
+<embed width="100%" height="480" src="https://www.youtube.com/embed/94JwR8Bnnuo"/>
+</div >
+
 [Slajdy][slides]
 
 ![IL - między piekłem a niebem.!][il]{:.post-center-image}
