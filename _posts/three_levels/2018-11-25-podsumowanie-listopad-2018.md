@@ -197,8 +197,10 @@ Poprzedni: **[Trzy poziomy - podsumowanie październik 2018][previous]**
 [CareerCon]: https://careercon.pl/
 [Kluczowe umiejętności skutecznego programisty]: {{site.url}}/kluczowe-umiejetnosci-skutecznego-programisty
 [IL - między piekłem a niebem]: {{site.url}}/il-miedzy-pieklem-a-niebem
+[Wiele odsłon CQRS-a]: {{site.url}}/il-miedzy-pieklem-a-niebem
+[Rok po/na s cenie]: {{site.url}}/il-miedzy-pieklem-a-niebem
 [Fabryki kursów]: https://trzypoziomy.pl/fabryka
 
 [dotNetConfPl]: {{site.url}}/prelekcje
-[4Developers w Wrocławiu]: {{site.url}}/prelekcje
+[4Developers Wrocław]: {{site.url}}/prelekcje
 [GITDDOJO]: {{site.url}}/git-tdd-dojo
