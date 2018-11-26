@@ -177,7 +177,7 @@ I zbliżam się do realizacji pierwszego poziomu w czytaniu i podcast-ach. Końc
 ------
 Poprzedni: **[Trzy poziomy - podsumowanie wrzesień 2018][previous]**
 
-<!--Następny: **[Trzy poziomy - podsumowanie listopad 2018][next]**-->
+Następny: **[Trzy poziomy - podsumowanie listopad 2018][next]**
 
 ------
 [previous]: {{site.url}}/trzy-poziomy-podsumowanie-wrzesien-2018
