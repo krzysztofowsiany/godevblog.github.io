@@ -182,8 +182,8 @@ Poprzedni: **[Trzy poziomy - podsumowanie październik 2018][previous]**
 [next]: {{site.url}}/trzy-poziomy-podsumowanie-grudzien-2018
 
 
-[post]: /assets/images/2018/10/trzy-poziomy/podsumowanie-pazdziernik-2018/post.jpg
-[post-big]: /assets/images/2018/10/trzy-poziomy/podsumowanie-pazdziernik-2018/post-big.jpg
+[post]: /assets/images/2018/11/trzy-poziomy/podsumowanie-listopad-2018/post.jpg
+[post-big]: /assets/images/2018/11/trzy-poziomy/podsumowanie-listopad-2018/post-big.jpg
 
 
 
